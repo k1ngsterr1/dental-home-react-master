@@ -4,6 +4,13 @@ body .screen {
   width: 100%;
   height: auto;
 }
+body .screen .content .header-container {
+  width: 100% !important;
+  height: auto;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
 body .screen .content .heading-container {
   display: flex;
   flex-direction: column;
@@ -759,16 +766,16 @@ body .modal .modal-content .phone-btn .icon {
   color: #202637;
 }
 body .modal-thanks {
-  width: 50%;
-  height: 50vh;
+  width: 80%;
+  height: 40vh;
   overflow-y: hidden !important;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto !important;
   position: fixed;
-  right: 0 !important;
-  bottom: 10% !important;
+  right: 10% !important;
+  bottom: 40% !important;
   margin-bottom: 0px !important;
   border-radius: 28px;
   background-color: #202637;
@@ -776,29 +783,39 @@ body .modal-thanks {
 }
 body .modal-thanks .gold-cross {
   font-size: clamp(16px, 7.47648vw, 64px);
-  color: #202637;
+  color: #E8CB6C;
   position: absolute;
   right: clamp(8px, 3.73824vw, 32px);
   top: clamp(8px, 3.73824vw, 32px);
 }
-body .modal-thanks .logo {
-  width: 64px;
-  height: 64px;
-  display: none;
+body .modal-thanks .modal-content {
+  width: 70%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none;
+}
+body .modal-thanks .modal-content .logo {
+  width: clamp(45px, 21.0276vw, 180px);
+  height: clamp(45px, 21.0276vw, 180px);
+  display: flex;
   margin-top: clamp(8px, 3.73824vw, 32px);
   margin-bottom: clamp(8px, 3.73824vw, 32px);
 }
-body .modal-thanks .text {
+body .modal-thanks .modal-content .text {
   font-family: Merriweather;
-  font-size: clamp(8px, 3.73824vw, 32px);
+  font-size: clamp(16px, 7.47648vw, 64px);
   color: #E8CB6C;
   font-style: normal;
   font-weight: 700;
   line-height: 137.4%;
   text-transform: capitalize;
   text-align: center;
+  margin-top: clamp(16px, 7.47648vw, 64px) !important;
 }
-body .modal-thanks .additional-text {
+body .modal-thanks .modal-content .additional-text {
   color: #F4F4F4;
   margin-top: clamp(8px, 3.73824vw, 32px);
   margin-bottom: clamp(8px, 3.73824vw, 32px);
@@ -1966,6 +1983,68 @@ body .video-modal .phone-btn .icon {
     margin-right: clamp(4px, 0.41664vw, 16px);
     color: #202637;
   }
+  body .modal-thanks {
+    width: clamp(537.5px, 55.986vw, 2150px);
+    height: clamp(230px, 23.9568vw, 920px);
+    overflow-y: hidden !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto !important;
+    position: fixed;
+    right: 20% !important;
+    bottom: 30% !important;
+    margin-bottom: 0px !important;
+    border-radius: 28px;
+    background-color: #202637;
+    box-shadow: 0px 15px 31px 0px rgba(0, 0, 0, 0.25);
+  }
+  body .modal-thanks .gold-cross {
+    font-size: clamp(16px, 1.66656vw, 64px);
+    color: #E8CB6C;
+    position: absolute !important;
+    right: clamp(8px, 0.83328vw, 32px);
+    top: clamp(8px, 0.83328vw, 32px);
+  }
+  body .modal-thanks .modal-content {
+    width: 70%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+  }
+  body .modal-thanks .modal-content .logo {
+    width: clamp(45px, 21.0276vw, 180px);
+    height: clamp(45px, 21.0276vw, 180px);
+    display: flex;
+    margin-top: clamp(8px, 0.83328vw, 32px);
+    margin-bottom: clamp(8px, 0.83328vw, 32px);
+  }
+  body .modal-thanks .modal-content .text {
+    font-family: Merriweather;
+    font-size: clamp(16px, 1.66656vw, 64px);
+    color: #E8CB6C;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 137.4%;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: clamp(16px, 1.66656vw, 64px) !important;
+  }
+  body .modal-thanks .modal-content .additional-text {
+    color: #F4F4F4;
+    margin-top: clamp(8px, 3.73824vw, 32px);
+    margin-bottom: clamp(8px, 3.73824vw, 32px);
+    display: none;
+    text-align: center;
+    font-family: Raleway;
+    font-size: clamp(7.5px, 3.5046vw, 30px);
+    font-style: normal;
+    font-weight: 300;
+    line-height: 137.4%;
+  }
   body .loader {
     width: 100vw;
     height: 100vh;
@@ -2081,6 +2160,8 @@ body .video-modal .phone-btn .icon {
     width: 93.5546875%;
     height: auto;
     margin: auto !important;
+    position: sticky;
+    margin-top: clamp(16px, 7.47648vw, 64px);
   }
   body .screen .pc-content .white-content .heading-container {
     width: 100%;

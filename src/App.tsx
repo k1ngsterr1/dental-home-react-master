@@ -429,6 +429,7 @@ export default function HomePage() {
 
   const closeModal = () => {
     setOpen(false);
+    setThankYou(false);
   };
 
   const closeMenu = () => {
@@ -2085,6 +2086,7 @@ export default function HomePage() {
             nested
             className="popup-container"
             position="center center"
+            overlayStyle={{ background: "rgba(0,0,0,0.7)" }}
           >
             <div className="modal-thanks">
               <FontAwesomeIcon
@@ -2092,11 +2094,13 @@ export default function HomePage() {
                 onClick={closeModal}
                 className="gold-cross"
               ></FontAwesomeIcon>
-              <img className="logo" src={logoMobile} alt="logotype"></img>
-              <span className="text">Спасибо за вашу заявку</span>
-              <span className="additional-text">
-                В скором времени мы свяжемся с вами
-              </span>
+              <div className="modal-content">
+                <img className="logo" src={logoMobile} alt="logotype"></img>
+                <span className="text">Спасибо за вашу заявку</span>
+                <span className="additional-text">
+                  В скором времени мы свяжемся с вами
+                </span>
+              </div>
             </div>
           </Popup>
           <Popup
