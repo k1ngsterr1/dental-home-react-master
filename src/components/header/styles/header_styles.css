@@ -1,36 +1,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body .m-header-container {
+  width: 100%;
+  z-index: 5000;
+  position: sticky;
+  top: clamp(16px, 7.47648vw, 64px);
+}
+body .m-header-container .header-mob {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+body .m-header-container .header-mob .logo {
+  width: clamp(36px, 16.82208vw, 144px);
+  height: clamp(41.5px, 19.39212vw, 166px);
+  margin-left: clamp(16px, 7.47648vw, 64px);
+}
+body .m-header-container .header-mob .hamburger-react {
+  top: 0px;
+  right: 20px;
+}
 body .header {
   width: 100%;
   height: auto;
-  position: sticky;
-  top: clamp(64px, 6.66624vw, 256px);
-}
-body .header .hamburger-react {
-  top: clamp(10px, 4.6728vw, 40px);
-  margin-right: clamp(16px, 7.47648vw, 64px);
 }
 body .header .header-pc {
   display: none;
 }
 body .header .header-mob {
-  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: auto;
-  position: sticky;
-  top: clamp(64px, 6.66624vw, 256px);
+  margin-top: clamp(16px, 7.47648vw, 64px);
 }
 body .header .header-mob .logo {
   width: clamp(36px, 16.82208vw, 144px);
   height: clamp(41.5px, 19.39212vw, 166px);
-  margin-left: clamp(16px, 7.47648vw, 64px);
-  margin-top: clamp(16px, 7.47648vw, 64px);
 }
 body .header .header-mob .hamburger-button {
-  top: clamp(16px, 7.47648vw, 64px);
+  top: clamp(22px, 10.28016vw, 88px);
   left: clamp(177.5px, 82.9422vw, 710px);
 }
 body .header .header-tablet {
@@ -41,6 +51,9 @@ body .tablet {
 }
 
 @media screen and (min-width: 1024px) {
+  .m-header-container {
+    display: none !important;
+  }
   .header {
     width: 100%;
     height: auto;

@@ -526,13 +526,22 @@ export default function HomePage() {
       ) : (
         // <Fade direction="up" triggerOnce={true} duration={1000}>
         <div className="all-screen-content">
-          <section className="content">
-            <div className="header-container" style={{ width: "100%" }}>
+          <div className="m-header-c">
+            <div className="m-header-container">
               <Header
                 isMenuOpen={isMenuOpen}
                 openModal={openModal}
                 toggleMenu={toggleMenu}
               ></Header>
+            </div>
+          </div>
+          <section className="content">
+            <div className="header-container" style={{ width: "100%" }}>
+              {/* <Header
+                isMenuOpen={isMenuOpen}
+                openModal={openModal}
+                toggleMenu={toggleMenu}
+              ></Header> */}
             </div>
             <div className="tablet" style={{ width: "100%" }}>
               <Header
@@ -2117,4 +2126,18 @@ export default function HomePage() {
       )}
     </div>
   );
+}
+
+{
+  /* <IfModule mod_rewrite.c>
+
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule . /index.html [L]
+
+</IfModule> */
 }
