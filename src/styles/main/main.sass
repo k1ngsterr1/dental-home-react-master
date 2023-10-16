@@ -763,6 +763,63 @@ body
                     margin-right: $m8mob
                     color: $dark_blue
 
+    .modal-thanks
+        width: 80%
+        height: auto
+        overflow-y: hidden !important
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin: auto !important
+        position: fixed
+        right: 10% !important
+        bottom: 40% !important
+        margin-bottom: 0px !important
+        border-radius: 28px
+        background-color: $dark_blue
+        box-shadow: 0px 15px 31px 0px rgba(0, 0, 0, 0.25)
+
+        .gold-cross
+            font-size: $m32mob
+            color: $gold
+            position: absolute
+            right: $m16mob
+            top: $m8mob
+
+        .modl-content
+            width: 90%
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            margin-bottom: $m32mob
+            margin-top: $m32mob
+
+            .logo
+                width: $m64mob
+                height: $m64mob
+                margin-top: $m16mob
+                margin-bottom: $m16mob
+            .text
+                font-family: Merriweather
+                font-size: $m16mob
+                color: $gold
+                font-style: normal
+                font-weight: 700
+                line-height: 137.4%
+                text-transform: capitalize
+                text-align: center
+            .additional-text
+                color: $white
+                margin-top: $m16mob
+                margin-bottom: $m16mob
+                text-align: center
+                font-family: Raleway
+                font-size: clamp(7.5px,3.5046vw,30px)
+                font-style: normal
+                font-weight: 300
+                line-height: 137.4%
+
     .loader
         width: 100vw
         height: 100vh
@@ -1907,6 +1964,65 @@ body
                     .icon
                         margin-right: $m8
                         color: $dark_blue
+
+        .modal-thanks
+            width: clamp(537.5px,55.986000000000004vw,2150px)
+            height: clamp(230px,23.9568vw,920px)
+            overflow-y: hidden !important
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            margin: auto !important
+            position: fixed
+            right: 20% !important
+            bottom: 30% !important
+            margin-bottom: 0px !important
+            border-radius: 28px
+            background-color: $dark_blue
+            box-shadow: 0px 15px 31px 0px rgba(0, 0, 0, 0.25)
+
+            .gold-cross
+                font-size: $m32
+                color: $gold
+                position: absolute !important
+                right: $m16
+                top: $m16
+
+            .modl-content
+                width: 70% !important
+                height: 90%
+                display: flex
+                flex-direction: column
+                align-items: center
+                justify-content: center
+                box-shadow: none !important
+                .logo
+                    width: $m128
+                    height: $m128
+                    display: flex !important
+                    margin-top: $m16
+                    margin-bottom: $m16
+                .text
+                    font-family: Merriweather
+                    font-size: $m32
+                    color: $gold
+                    font-style: normal
+                    font-weight: 700
+                    line-height: 137.4%
+                    text-transform: capitalize
+                    text-align: center
+                    margin-top: $m32 !important
+                .additional-text
+                    color: $white
+                    margin-top: $m16
+                    margin-bottom: $m16
+                    text-align: center
+                    font-family: Raleway
+                    font-size: $m8mob
+                    font-style: normal
+                    font-weight: 300
+                    line-height: 137.4%
 
         .loader
             width: 100vw

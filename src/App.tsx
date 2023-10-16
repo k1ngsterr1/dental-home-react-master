@@ -526,14 +526,12 @@ export default function HomePage() {
       ) : (
         // <Fade direction="up" triggerOnce={true} duration={1000}>
         <div className="all-screen-content">
-          <div className="m-header-c">
-            <div className="m-header-container">
-              <Header
-                isMenuOpen={isMenuOpen}
-                openModal={openModal}
-                toggleMenu={toggleMenu}
-              ></Header>
-            </div>
+          <div className="m-header-container">
+            <Header
+              isMenuOpen={isMenuOpen}
+              openModal={openModal}
+              toggleMenu={toggleMenu}
+            ></Header>
           </div>
           <section className="content">
             <div className="header-container" style={{ width: "100%" }}>
@@ -2103,7 +2101,7 @@ export default function HomePage() {
                 onClick={closeModal}
                 className="gold-cross"
               ></FontAwesomeIcon>
-              <div className="modal-content">
+              <div className="modl-content">
                 <img className="logo" src={logoMobile} alt="logotype"></img>
                 <span className="text">Спасибо за вашу заявку</span>
                 <span className="additional-text">

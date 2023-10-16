@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { YMaps, Map, Placemark } from "react-yandex-maps";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -12,6 +12,7 @@ import "../footer/styles/footer_styles.css";
 import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+  const [mapLoaded, setMapLoaded] = useState(false);
   const navigate = useNavigate();
 
   function navigateToVk() {
@@ -39,22 +40,32 @@ const Footer = () => {
     },
   };
 
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setMapLoaded(true);
+    }, 2000);
+
+    return () => clearTimeout(timeout); // Clear timeout on unmount
+  }, []);
+
   return (
     <footer className="footer" id="contacts">
       <div className="content">
-        <YMaps>
-          <Map
-            defaultState={{
-              center: [55.965502, 37.920435], // Your initial latitude and longitude
-              zoom: 12,
-            }}
-            width="90%"
-            height="345px"
-          >
-            <Placemark {...placeMark1}></Placemark>
-            <Placemark {...placeMark2}></Placemark>
-          </Map>
-        </YMaps>
+        {mapLoaded && ( // Conditional rendering based on the mapLoaded state
+          <YMaps>
+            <Map
+              defaultState={{
+                center: [55.965502, 37.920435],
+                zoom: 12,
+              }}
+              width="90%"
+              height="345px"
+            >
+              <Placemark {...placeMark1}></Placemark>
+              <Placemark {...placeMark2}></Placemark>
+            </Map>
+          </YMaps>
+        )}
         <div className="icons">
           <FontAwesomeIcon
             icon={faVk}
@@ -114,16 +125,18 @@ const Footer = () => {
       </div>
       <div className="pc-content-cont">
         <div className="map-social-c column">
-          <YMaps>
-            <Map
-              defaultState={{ center: [55.9647, 37.915], zoom: 12 }}
-              width="clamp(196.5px,20.46744vw,786px)"
-              height="clamp(172.5px,17.9676vw,690px)"
-            >
-              <Placemark {...placeMark1}></Placemark>
-              <Placemark {...placeMark2}></Placemark>
-            </Map>
-          </YMaps>
+          {mapLoaded && ( // Also conditionally render this map
+            <YMaps>
+              <Map
+                defaultState={{ center: [55.9647, 37.915], zoom: 12 }}
+                width="clamp(196.5px,20.46744vw,786px)"
+                height="clamp(172.5px,17.9676vw,690px)"
+              >
+                <Placemark {...placeMark1}></Placemark>
+                <Placemark {...placeMark2}></Placemark>
+              </Map>
+            </YMaps>
+          )}
           <div className="social-m-row">
             <FontAwesomeIcon
               icon={faVk}
