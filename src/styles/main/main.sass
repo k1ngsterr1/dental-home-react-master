@@ -763,6 +763,58 @@ body
                     margin-right: $m8mob
                     color: $dark_blue
 
+    .modal-thanks
+        width: 50%
+        height: 50vh
+        overflow-y: hidden !important
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin: auto !important
+        position: fixed
+        right: 0 !important
+        bottom: 10% !important
+        margin-bottom: 0px !important
+        border-radius: 28px
+        background-color: $dark_blue
+        box-shadow: 0px 15px 31px 0px rgba(0, 0, 0, 0.25)
+
+        .gold-cross
+            font-size: $m32mob
+            color: $dark_blue
+            position: absolute
+            right: $m16mob
+            top: $m16mob
+
+        .logo
+            width: 64px
+            height: 64px
+            display: none
+            margin-top: $m16mob
+            margin-bottom: $m16mob
+
+        .text
+            font-family: Merriweather
+            font-size: $m16mob
+            color: $gold
+            font-style: normal
+            font-weight: 700
+            line-height: 137.4%
+            text-transform: capitalize
+            text-align: center
+
+        .additional-text
+            color: $white
+            margin-top: $m16mob
+            margin-bottom: $m16mob
+            display: none
+            text-align: center
+            font-family: Raleway
+            font-size: clamp(7.5px,3.5046vw,30px)
+            font-style: normal
+            font-weight: 300
+            line-height: 137.4%
+
     .loader
         width: 100vw
         height: 100vh

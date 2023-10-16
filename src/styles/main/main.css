@@ -758,6 +758,58 @@ body .modal .modal-content .phone-btn .icon {
   margin-right: clamp(4px, 1.86912vw, 16px);
   color: #202637;
 }
+body .modal-thanks {
+  width: 50%;
+  height: 50vh;
+  overflow-y: hidden !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto !important;
+  position: fixed;
+  right: 0 !important;
+  bottom: 10% !important;
+  margin-bottom: 0px !important;
+  border-radius: 28px;
+  background-color: #202637;
+  box-shadow: 0px 15px 31px 0px rgba(0, 0, 0, 0.25);
+}
+body .modal-thanks .gold-cross {
+  font-size: clamp(16px, 7.47648vw, 64px);
+  color: #202637;
+  position: absolute;
+  right: clamp(8px, 3.73824vw, 32px);
+  top: clamp(8px, 3.73824vw, 32px);
+}
+body .modal-thanks .logo {
+  width: 64px;
+  height: 64px;
+  display: none;
+  margin-top: clamp(8px, 3.73824vw, 32px);
+  margin-bottom: clamp(8px, 3.73824vw, 32px);
+}
+body .modal-thanks .text {
+  font-family: Merriweather;
+  font-size: clamp(8px, 3.73824vw, 32px);
+  color: #E8CB6C;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 137.4%;
+  text-transform: capitalize;
+  text-align: center;
+}
+body .modal-thanks .additional-text {
+  color: #F4F4F4;
+  margin-top: clamp(8px, 3.73824vw, 32px);
+  margin-bottom: clamp(8px, 3.73824vw, 32px);
+  display: none;
+  text-align: center;
+  font-family: Raleway;
+  font-size: clamp(7.5px, 3.5046vw, 30px);
+  font-style: normal;
+  font-weight: 300;
+  line-height: 137.4%;
+}
 body .loader {
   width: 100vw;
   height: 100vh;

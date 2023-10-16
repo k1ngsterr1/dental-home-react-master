@@ -227,6 +227,7 @@ const FeatureLong: React.FC<Tabprops> = (props) => {
 type Swiper = any;
 
 export default function HomePage() {
+  const [thankYou, setThankYou] = useState(false);
   const [isToothHealingOpened, setToothHealingOpen] = useState(true);
   const [isWhiteningOpened, setWhiteningOpen] = useState(false);
   const [isMouthHygieneOpened, setMouthHygieneOpen] = useState(false);
@@ -264,6 +265,7 @@ export default function HomePage() {
         "b-K7bdT7JW4cqcN4y"
       )
       .then((res) => {
+        setThankYou(true);
         console.log("SUCCESS");
       })
       .catch((err) => console.log(err));
@@ -2076,6 +2078,28 @@ export default function HomePage() {
             </div>
           </Popup>
           <Popup
+            open={thankYou}
+            closeOnDocumentClick
+            onClose={closeModal}
+            modal
+            nested
+            className="popup-container"
+            position="center center"
+          >
+            <div className="modal-thanks">
+              <FontAwesomeIcon
+                icon={faClose}
+                onClick={closeModal}
+                className="gold-cross"
+              ></FontAwesomeIcon>
+              <img className="logo" src={logoMobile} alt="logotype"></img>
+              <span className="text">Спасибо за вашу заявку</span>
+              <span className="additional-text">
+                В скором времени мы свяжемся с вами
+              </span>
+            </div>
+          </Popup>
+          <Popup
             open={screenshotOpen}
             onClose={() => setScreenshotOpen(false)}
             contentStyle={{ padding: "0", border: "none" }}
@@ -2086,7 +2110,6 @@ export default function HomePage() {
             )}
           </Popup>
         </div>
-        // </Fade>
       )}
     </div>
   );
