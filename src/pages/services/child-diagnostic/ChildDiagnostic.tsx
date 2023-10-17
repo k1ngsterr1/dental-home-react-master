@@ -23,6 +23,7 @@ import {
   faMinus,
   faPhone,
   faChevronLeft,
+  faClose,
 } from "@fortawesome/free-solid-svg-icons";
 
 import Header from "../../../components/header/header";
@@ -76,6 +77,7 @@ const serviceThreeMob = require("../../../assets/service_mob_03.webp");
 const serviceFourMob = require("../../../assets/service_mob_04.webp");
 
 const ChildDiagnostic = () => {
+  const [thankYou, setThankYou] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMenuPcOpen, setIsMenuPcOpen] = useState(false);
 
@@ -103,6 +105,7 @@ const ChildDiagnostic = () => {
         "b-K7bdT7JW4cqcN4y"
       )
       .then((res) => {
+        setThankYou(true);
         console.log("SUCCESS");
       })
       .catch((err) => console.log(err));
@@ -137,6 +140,7 @@ const ChildDiagnostic = () => {
         "b-K7bdT7JW4cqcN4y"
       )
       .then((res) => {
+        setThankYou(true);
         console.log("SUCCESS");
       })
       .catch((err) => console.log(err));
@@ -149,6 +153,7 @@ const ChildDiagnostic = () => {
 
   const closeModal = () => {
     setOpen(false);
+    setThankYou(false);
   };
 
   return (
@@ -437,6 +442,31 @@ const ChildDiagnostic = () => {
                   Хорошо жду звонка
                 </button>
               </form>
+            </div>
+          </div>
+        </Popup>
+        <Popup
+          open={thankYou}
+          closeOnDocumentClick
+          onClose={closeModal}
+          modal
+          nested
+          className="popup-container"
+          position="center center"
+          overlayStyle={{ background: "rgba(0,0,0,0.7)" }}
+        >
+          <div className="modal-thanks">
+            <FontAwesomeIcon
+              icon={faClose}
+              onClick={closeModal}
+              className="gold-cross"
+            ></FontAwesomeIcon>
+            <div className="modl-content">
+              <img className="logo" src={logoMobile} alt="logotype"></img>
+              <span className="text">Спасибо за вашу заявку</span>
+              <span className="additional-text">
+                В скором времени мы свяжемся с вами
+              </span>
             </div>
           </div>
         </Popup>
