@@ -1,5 +1,5 @@
 import React, { useState, useRef, RefObject } from "react";
-
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import Popup from "reactjs-popup";
 import {
@@ -153,6 +153,11 @@ const ChildHygiene = () => {
 
   return (
     <div className="div">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Гигиена полости рта у детей в Ивантеевке</title>
+        <meta name="Наши опытные стоматологи готовы помочь вам и вашему ребенку в обеспечении правильного ухода за зубами и деснами, чтобы сохранить здоровую и красивую улыбку на долгие годы"></meta>
+      </Helmet>
       <div className="screen">
         <main className="services-screen-mobile">
           <div className="content">

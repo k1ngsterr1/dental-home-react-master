@@ -1,5 +1,5 @@
 import React, { useState, useRef, RefObject, useEffect } from "react";
-
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import {
   Button,
@@ -191,6 +191,14 @@ const Hygiene = () => {
         </Reveal>
       ) : (
         <div className="screen">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>
+              Здоровье полости рта и предупреждение заболеваний зубов в
+              Ивантеевке
+            </title>
+            <meta name="Профилактические мероприятия для поддержания здоровья полости рта. Предотвратим заболевания и обучим здоровым привычкам и правильной гигиене полости рта"></meta>
+          </Helmet>
           <main className="services-screen-mobile">
             <div className="content">
               <div className="header-container" style={{ width: "100%" }}>

@@ -1,5 +1,6 @@
 import React, { useState, useRef, RefObject, useEffect } from "react";
 import { keyframes } from "@emotion/react";
+import { Helmet } from "react-helmet";
 import Popup from "reactjs-popup";
 import { Link } from "react-router-dom";
 import {
@@ -191,6 +192,11 @@ const ProstheticsPage = () => {
         </Reveal>
       ) : (
         <div className="screen">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>Протезирование зубов в Ивантеевке в Dental Home</title>
+            <meta name="Протезирование на высоком уровне с современными технологиями. Мы предлагаем различные виды протезирования, включая протезирование на имплантах и реконструктивное лечение"></meta>
+          </Helmet>
           <main className="services-screen-mobile">
             <div className="content">
               <div className="header-container" style={{ width: "100%" }}>

@@ -1,6 +1,6 @@
 import React, { useState, useRef, RefObject } from "react";
-
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import Popup from "reactjs-popup";
 import {
   Button,
@@ -153,6 +153,11 @@ const ChildSleep = () => {
 
   return (
     <div className="screen">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Безболезненное лечение зубов у детей во сне в Ивантеевке</title>
+        <meta name="Обеспечьте вашему ребенку комфорт и безболезненность лечения с помощью процедур лечения во сне, предлагаемых клиникой Dental Home в Ивантеевке"></meta>
+      </Helmet>
       <main className="services-screen-mobile">
         <div className="content">
           <div className="header-container" style={{ width: "100%" }}>

@@ -1,5 +1,6 @@
 import React, { useState, useRef, RefObject, useEffect } from "react";
 import { keyframes } from "@emotion/react";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 import { MDBCheckbox } from "mdb-react-ui-kit";
@@ -178,6 +179,13 @@ const Whitening = () => {
         </Reveal>
       ) : (
         <div className="screen">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>
+              Безопасное отбеливание зубов и белоснежная улыбка в Ивантеевке
+            </title>
+            <meta name="Восстановите естественную белизну вашей улыбки с помощью безопасных процедур отбеливания зубов в клинике Dental Home в Ивантеевке"></meta>
+          </Helmet>
           <main className="services-screen-mobile">
             <div className="content">
               <div className="header-container" style={{ width: "100%" }}>
