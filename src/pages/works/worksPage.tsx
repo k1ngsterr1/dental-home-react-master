@@ -10,6 +10,7 @@ import {
   faPhone,
   faChevronLeft,
   faChevronRight,
+  faClose,
 } from "@fortawesome/free-solid-svg-icons";
 import { MDBCheckbox } from "mdb-react-ui-kit";
 
@@ -35,6 +36,7 @@ const logoMobile: string = require("../../assets/logo_mob.svg").default;
 const modalImage: string = require("../../assets/example_modal.webp");
 
 const WorksPage = () => {
+  const [thankYou, setThankYou] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMenuPcOpen, setIsMenuPcOpen] = useState(false);

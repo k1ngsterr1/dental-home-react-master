@@ -19,6 +19,7 @@ import {
   faMinus,
   faPhone,
   faChevronLeft,
+  faClose,
 } from "@fortawesome/free-solid-svg-icons";
 import Header from "../../../components/header/header";
 import ReviewGallery from "../../../components/reviews/ReviewGallery";
@@ -76,6 +77,7 @@ const doctorTen = require("../../../assets/yana_pc.webp");
 const doctorTenMob = require("../../../assets/yana_mob.webp");
 
 const Surgery = () => {
+  const [thankYou, setThankYou] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMenuPcOpen, setIsMenuPcOpen] = useState(false);
 
@@ -103,6 +105,7 @@ const Surgery = () => {
         "b-K7bdT7JW4cqcN4y"
       )
       .then((res) => {
+        setThankYou(true);
         console.log("SUCCESS");
       })
       .catch((err) => console.log(err));
@@ -148,6 +151,7 @@ const Surgery = () => {
         "b-K7bdT7JW4cqcN4y"
       )
       .then((res) => {
+        setThankYou(true);
         console.log("SUCCESS");
       })
       .catch((err) => console.log(err));
@@ -160,6 +164,7 @@ const Surgery = () => {
 
   const closeModal = () => {
     setOpen(false);
+    setThankYou(false);
   };
 
   const [isLoading, setIsLoading] = useState(true);
@@ -1164,6 +1169,31 @@ const Surgery = () => {
                     Хорошо жду звонка
                   </button>
                 </form>
+              </div>
+            </div>
+          </Popup>
+          <Popup
+            open={thankYou}
+            closeOnDocumentClick
+            onClose={closeModal}
+            modal
+            nested
+            className="popup-container"
+            position="center center"
+            overlayStyle={{ background: "rgba(0,0,0,0.7)" }}
+          >
+            <div className="modal-thanks">
+              <FontAwesomeIcon
+                icon={faClose}
+                onClick={closeModal}
+                className="gold-cross"
+              ></FontAwesomeIcon>
+              <div className="modl-content">
+                <img className="logo" src={logoMobile} alt="logotype"></img>
+                <span className="text">Спасибо за вашу заявку</span>
+                <span className="additional-text">
+                  В скором времени мы свяжемся с вами
+                </span>
               </div>
             </div>
           </Popup>
