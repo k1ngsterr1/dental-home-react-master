@@ -2,26 +2,20 @@
 
 body
 
-    .m-header-container
-        width: 100%
-        z-index: 5000
+    .logo
+        width: clamp(36px,16.82208vw,144px)
+        height: clamp(41.5px,19.39212vw,166px)
+        position: static !important
+        margin-top: $m32mob
+        margin-left: $m32mob
+
+    .hamburger-button-z
+        width: 13%
+        top: $m64mob !important
+        right: 0px !important
+        float: right
         position: sticky !important
-        top: $m32mob
-
-        .header-mob
-            display: flex
-            flex-direction: row
-            align-items: center
-            justify-content: space-between
-
-            .logo
-                width: clamp(36px,16.82208vw,144px)
-                height: clamp(41.5px,19.39212vw,166px)
-                margin-left: $m32mob
-
-            .hamburger-react
-                top: 0px
-                right: 20px
+        margin-right: $m32mob
 
     .header
         width: 100%

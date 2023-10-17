@@ -27,6 +27,7 @@ import {
   faClose,
 } from "@fortawesome/free-solid-svg-icons";
 import "swiper/css";
+import Mheader from "./components/header/m-header";
 import Gallery from "./components/gallery/gallery";
 import ClinicGalleryOne from "./components/clinic_gallery_1/clinicGalleryOne";
 import ClinicGalleryTwo from "./components/clinic_gallery_2/clinicGalleryTwo";
@@ -418,6 +419,7 @@ export default function HomePage() {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+    window.scrollTo(0, 0);
   };
 
   const togglePcMenu = () => {
@@ -536,13 +538,11 @@ export default function HomePage() {
             </title>
             <meta name="Сеть клиник Dental Home - здоровье зубов и качественное лечение. Запишитесь на прием сейчас"></meta>
           </Helmet>
-          <div className="m-header-container">
-            <Header
-              isMenuOpen={isMenuOpen}
-              openModal={openModal}
-              toggleMenu={toggleMenu}
-            ></Header>
-          </div>
+          <Mheader
+            isMenuOpen={isMenuOpen}
+            openModal={openModal}
+            toggleMenu={toggleMenu}
+          ></Mheader>
           <section className="content">
             <div className="header-container" style={{ width: "100%" }}>
               {/* <Header
