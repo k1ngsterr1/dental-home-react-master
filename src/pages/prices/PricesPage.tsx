@@ -14,6 +14,7 @@ import {
   faMinus,
   faPhone,
   faChevronLeft,
+  faClose,
 } from "@fortawesome/free-solid-svg-icons";
 import { Helmet } from "react-helmet";
 const logoMobile: string = require("../../assets/logo_mob.svg").default;
@@ -306,6 +307,8 @@ const PriceTabLong: React.FC<PriceTabProps> = (props) => {
 };
 
 const PricesPage = () => {
+  const [thankYou, setThankYou] = useState(false);
+
   const customAnimation = keyframes`
   from {
     opacity: 1;
@@ -347,6 +350,7 @@ const PricesPage = () => {
         "b-K7bdT7JW4cqcN4y"
       )
       .then((res) => {
+        setThankYou(true);
         console.log("SUCCESS");
       })
       .catch((err) => console.log(err));
@@ -359,6 +363,7 @@ const PricesPage = () => {
 
   const closeModal = () => {
     setOpen(false);
+    setThankYou(false);
   };
 
   // Menu Function
@@ -2051,6 +2056,31 @@ const PricesPage = () => {
                     Хорошо жду звонка
                   </button>
                 </form>
+              </div>
+            </div>
+          </Popup>
+          <Popup
+            open={thankYou}
+            closeOnDocumentClick
+            onClose={closeModal}
+            modal
+            nested
+            className="popup-container"
+            position="center center"
+            overlayStyle={{ background: "rgba(0,0,0,0.7)" }}
+          >
+            <div className="modal-thanks">
+              <FontAwesomeIcon
+                icon={faClose}
+                onClick={closeModal}
+                className="gold-cross"
+              ></FontAwesomeIcon>
+              <div className="modl-content">
+                <img className="logo" src={logoMobile} alt="logotype"></img>
+                <span className="text">Спасибо за вашу заявку</span>
+                <span className="additional-text">
+                  В скором времени мы свяжемся с вами
+                </span>
               </div>
             </div>
           </Popup>

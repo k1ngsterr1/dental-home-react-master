@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-
 import "./styles/privacy_styles.css";
 import Header from "../../components/header/header";
 import { Link } from "react-router-dom";
@@ -12,6 +11,7 @@ const logoMobile: string = require("../../assets/logo_mob.svg").default;
 
 const PrivacyPage = () => {
   // Menu Function
+  const [thankYou, setThankYou] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMenuPcOpen, setIsMenuPcOpen] = useState(false);
 

@@ -105,6 +105,7 @@ const modalImage: string = require("../../assets/example_modal.webp");
 type Swiper = any;
 
 const ClinicsPage = () => {
+  const [thankYou, setThankYou] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMenuPcOpen, setIsMenuPcOpen] = useState(false);
@@ -141,6 +142,7 @@ const ClinicsPage = () => {
         "b-K7bdT7JW4cqcN4y"
       )
       .then((res) => {
+        setThankYou(true);
         console.log("SUCCESS");
       })
       .catch((err) => console.log(err));
@@ -179,6 +181,7 @@ const ClinicsPage = () => {
         "b-K7bdT7JW4cqcN4y"
       )
       .then((res) => {
+        setThankYou(true);
         console.log("SUCCESS");
       })
       .catch((err) => console.log(err));
@@ -191,6 +194,7 @@ const ClinicsPage = () => {
 
   const closeModal = () => {
     setOpen(false);
+    setThankYou(false);
   };
 
   useEffect(() => {

@@ -1,7 +1,7 @@
 import React, { useState, useRef, RefObject, useEffect } from "react";
 import Popup from "reactjs-popup";
 import { Link } from "react-router-dom";
-
+import { Helmet } from "react-helmet";
 import {
   Button,
   Element,
@@ -28,6 +28,7 @@ import {
   faMinus,
   faPhone,
   faChevronLeft,
+  faClose,
 } from "@fortawesome/free-solid-svg-icons";
 
 import "../../../components/service_template/styles/services_styles.css";
@@ -77,6 +78,7 @@ const doctorTen = require("../../../assets/yana_pc.webp");
 const doctorTenMob = require("../../../assets/yana_mob.webp");
 
 const BiteCorrection = () => {
+  const [thankYou, setThankYou] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMenuPcOpen, setIsMenuPcOpen] = useState(false);
 
@@ -104,6 +106,7 @@ const BiteCorrection = () => {
         "b-K7bdT7JW4cqcN4y"
       )
       .then((res) => {
+        setThankYou(true);
         console.log("SUCCESS");
       })
       .catch((err) => console.log(err));
@@ -149,6 +152,7 @@ const BiteCorrection = () => {
         "b-K7bdT7JW4cqcN4y"
       )
       .then((res) => {
+        setThankYou(true);
         console.log("SUCCESS");
       })
       .catch((err) => console.log(err));
@@ -188,6 +192,14 @@ const BiteCorrection = () => {
         </Reveal>
       ) : (
         <div className="screen">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>
+              Ортодонтическое лечение, идеальный прикус, красивая улыбка в
+              Ивантеевке
+            </title>
+            <meta name="Ортодонтическое лечение для достижения идеального прикуса и красивой улыбки. Коррекция прикуса с использованием индивидуального подхода и современных технологий"></meta>
+          </Helmet>
           <main className="services-screen-mobile">
             <div className="content">
               <div className="header-container" style={{ width: "100%" }}>
@@ -1230,6 +1242,31 @@ const BiteCorrection = () => {
                     Хорошо жду звонка
                   </button>
                 </form>
+              </div>
+            </div>
+          </Popup>
+          <Popup
+            open={thankYou}
+            closeOnDocumentClick
+            onClose={closeModal}
+            modal
+            nested
+            className="popup-container"
+            position="center center"
+            overlayStyle={{ background: "rgba(0,0,0,0.7)" }}
+          >
+            <div className="modal-thanks">
+              <FontAwesomeIcon
+                icon={faClose}
+                onClick={closeModal}
+                className="gold-cross"
+              ></FontAwesomeIcon>
+              <div className="modl-content">
+                <img className="logo" src={logoMobile} alt="logotype"></img>
+                <span className="text">Спасибо за вашу заявку</span>
+                <span className="additional-text">
+                  В скором времени мы свяжемся с вами
+                </span>
               </div>
             </div>
           </Popup>

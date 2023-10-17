@@ -18,6 +18,7 @@ import {
   faPhone,
   faChevronLeft,
   faChevronRight,
+  faClose,
 } from "@fortawesome/free-solid-svg-icons";
 
 const childIllustration = require("../../assets/child_illustration.webp");
@@ -35,7 +36,7 @@ const logoMobile: string = require("../../assets/logo_mob.svg").default;
 const ChildDental = () => {
   // Menu Function
   const navigate = useNavigate();
-
+  const [thankYou, setThankYou] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMenuPcOpen, setIsMenuPcOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
@@ -79,6 +80,7 @@ const ChildDental = () => {
 
   const closeModal = () => {
     setOpen(false);
+    setThankYou(false);
   };
 
   const closeVideoModal = () => {
@@ -200,7 +202,7 @@ const ChildDental = () => {
                 <div className="service-cont">
                   <img
                     src={Child04}
-                    onClick={() => navigate("/services/diagnostic")}
+                    onClick={() => navigate("/services/child-diagnostic")}
                     className="img"
                     alt="child"
                   />
@@ -298,7 +300,7 @@ const ChildDental = () => {
                 <div className="row two">
                   <div
                     className="square-cont"
-                    onClick={() => navigate("/services/diagnostic")}
+                    onClick={() => navigate("/services/child-diagnostic")}
                   >
                     <img src={Child04} className="square" alt="child"></img>
                     <span className="text">Диагностика</span>
@@ -367,6 +369,31 @@ const ChildDental = () => {
                     Хорошо жду звонка
                   </button>
                 </form>
+              </div>
+            </div>
+          </Popup>
+          <Popup
+            open={thankYou}
+            closeOnDocumentClick
+            onClose={closeModal}
+            modal
+            nested
+            className="popup-container"
+            position="center center"
+            overlayStyle={{ background: "rgba(0,0,0,0.7)" }}
+          >
+            <div className="modal-thanks">
+              <FontAwesomeIcon
+                icon={faClose}
+                onClick={closeModal}
+                className="gold-cross"
+              ></FontAwesomeIcon>
+              <div className="modl-content">
+                <img className="logo" src={logoMobile} alt="logotype"></img>
+                <span className="text">Спасибо за вашу заявку</span>
+                <span className="additional-text">
+                  В скором времени мы свяжемся с вами
+                </span>
               </div>
             </div>
           </Popup>

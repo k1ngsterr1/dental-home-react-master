@@ -33,6 +33,7 @@ import ChildSurgery from "./pages/services/child-surgery/ChildSurgery";
 import ChildTeeth from "./pages/services/child-teeth-healing/ChildTeeth";
 import ChildHygiene from "./pages/services/child-hygiene/ChildHygiene";
 import ChildSleep from "./pages/services/child-healing-insleep/ChildSleep";
+import ChildDiagnostic from "./pages/services/child-diagnostic/ChildDiagnostic";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -71,6 +72,10 @@ ReactDOM.render(
       <Route
         path="/services/child-bite-correction"
         element={<ChildBiteCorrection />}
+      ></Route>
+      <Route
+        path="/services/child-diagnostic"
+        element={<ChildDiagnostic />}
       ></Route>
       <Route path="/services/child-surgery" element={<ChildSurgery />}></Route>
       <Route path="/services/child-teeth" element={<ChildTeeth />}></Route>

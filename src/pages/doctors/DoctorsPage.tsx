@@ -10,6 +10,7 @@ import {
   faPhone,
   faChevronLeft,
   faChevronRight,
+  faClose,
 } from "@fortawesome/free-solid-svg-icons";
 import { MDBCheckbox } from "mdb-react-ui-kit";
 import emailjs from "@emailjs/browser";
@@ -47,6 +48,8 @@ const logoMobile: string = require("../../assets/logo_mob.svg").default;
 const modalImage: string = require("../../assets/example_modal.webp");
 
 const DoctorsPage = () => {
+  const [thankYou, setThankYou] = useState(false);
+
   const [isLoading, setIsLoading] = useState(true);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMenuPcOpen, setIsMenuPcOpen] = useState(false);
@@ -95,6 +98,7 @@ const DoctorsPage = () => {
         "b-K7bdT7JW4cqcN4y"
       )
       .then((res) => {
+        setThankYou(true);
         console.log("SUCCESS");
       })
       .catch((err) => console.log(err));
@@ -121,6 +125,7 @@ const DoctorsPage = () => {
         "b-K7bdT7JW4cqcN4y"
       )
       .then((res) => {
+        setThankYou(true);
         console.log("SUCCESS");
       })
       .catch((err) => console.log(err));
@@ -133,6 +138,7 @@ const DoctorsPage = () => {
 
   const closeModal = () => {
     setOpen(false);
+    setThankYou(false);
   };
 
   useEffect(() => {
@@ -501,6 +507,31 @@ const DoctorsPage = () => {
                     Хорошо жду звонка
                   </button>
                 </form>
+              </div>
+            </div>
+          </Popup>
+          <Popup
+            open={thankYou}
+            closeOnDocumentClick
+            onClose={closeModal}
+            modal
+            nested
+            className="popup-container"
+            position="center center"
+            overlayStyle={{ background: "rgba(0,0,0,0.7)" }}
+          >
+            <div className="modal-thanks">
+              <FontAwesomeIcon
+                icon={faClose}
+                onClick={closeModal}
+                className="gold-cross"
+              ></FontAwesomeIcon>
+              <div className="modl-content">
+                <img className="logo" src={logoMobile} alt="logotype"></img>
+                <span className="text">Спасибо за вашу заявку</span>
+                <span className="additional-text">
+                  В скором времени мы свяжемся с вами
+                </span>
               </div>
             </div>
           </Popup>
