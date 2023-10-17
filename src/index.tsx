@@ -82,7 +82,8 @@ ReactDOM.render(
       <Route path="/services/child-teeth" element={<ChildTeeth />}></Route>
       <Route path="/services/child-hygiene" element={<ChildHygiene />}></Route>
       <Route path="/services/child-sleep" element={<ChildSleep />}></Route>
-      <Route path="/error" element={<Error></Error>}></Route>
+      <Route path="/error" element={<Error />}></Route>
+      <Route path="*" element={<Error />} />
     </Routes>
   </Router>,
   document.getElementById("root")

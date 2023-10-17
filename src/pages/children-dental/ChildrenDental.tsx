@@ -129,6 +129,11 @@ const ChildDental = () => {
     <div className="div">
       {isLoading ? (
         <Reveal keyframes={customAnimation} delay={1000}>
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>Детская стоматология Dental Home в Ивантеевке</title>
+            <meta name="Сеть клиник Dental Home - здоровье зубов и десен детей и качественное лечение. Стоматологи обеспечат игровую терапию и индивидуальный подход для комфорта ребенка"></meta>
+          </Helmet>
           <div className={`loader ${isLoading ? "" : "hidden"}`}>
             <div className="loader-container">
               <img className="logo" src={logoMobile} alt="logo"></img>

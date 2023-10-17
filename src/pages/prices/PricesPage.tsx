@@ -388,6 +388,14 @@ const PricesPage = () => {
 
   return (
     <div className="div">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Прайс-лист на услуги стоматологии в Dental Home в Ивантеевке -
+          доступные цены
+        </title>
+        <meta name="Мы предлагаем доступные цены на широкий спектр стоматологических услуг"></meta>
+      </Helmet>
       {isLoading ? (
         <Reveal keyframes={customAnimation} delay={1000}>
           <div className={`loader ${isLoading ? "" : "hidden"}`}>

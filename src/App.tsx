@@ -516,6 +516,13 @@ export default function HomePage() {
 
   return (
     <div className="screen">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Стоматологические клиники в Ивантеевке. Запишитесь на консультацию
+        </title>
+        <meta name="Сеть клиник Dental Home - здоровье зубов и качественное лечение. Запишитесь на прием сейчас"></meta>
+      </Helmet>
       {isLoading ? (
         <Reveal keyframes={customAnimation} delay={1000}>
           <div className={`loader ${isLoading ? "" : "hidden"}`}>
