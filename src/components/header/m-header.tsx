@@ -63,8 +63,8 @@ const Mheader: React.FC<HeaderProps> = ({
     <>
       <img
         src={logo}
-        alt="logotype"
-        className="logo"
+        alt="logotype-z"
+        className="logotype-z"
         onClick={navigateToMain}
         style={{ cursor: "pointer" }}
       ></img>

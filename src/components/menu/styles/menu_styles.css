@@ -245,7 +245,7 @@ body .menu-screen .menu-tablet {
   body .menu-pc .menu-content .column-two {
     height: 100vh;
     background-color: #2B3249;
-    margin-left: clamp(64px, 6.66624vw, 256px);
+    margin-left: clamp(110px, 11.4576vw, 440px);
   }
   body .menu-pc .menu-content .column-two .adresses {
     display: flex;

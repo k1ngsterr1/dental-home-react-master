@@ -1,0 +1,29 @@
+@import "../../../styles/variables"
+
+.error-page
+    width: 100%
+    height: 100vh
+    background-color: $dark_blue
+    display: flex
+    align-items: center
+    justify-content: center
+
+    .error-content
+        width: 90%
+        display: flex
+        flex-direction: column
+        align-items: center
+
+        .error-btn
+            width: clamp(112px,52.335359999999994vw,448px)
+            height: clamp(25px,11.681999999999999vw,100px)
+            background: $gold_gradient
+            border: none
+            border-radius: 3px
+            color: $dark_blue
+            font-size: $font18mob
+            margin-top: $m64mob
+            margin-bottom: $m32mob
+            transition: 0.3s all
+            &:hover
+                color: $white

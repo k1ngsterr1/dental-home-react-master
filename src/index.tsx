@@ -12,6 +12,7 @@ import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import Home from "./App";
+import Error from "./pages/error/Error";
 import TeethHealing from "./pages/services/teeth-healing/TeethHealing";
 import ChildDental from "./pages/children-dental/ChildrenDental";
 import PricesPage from "./pages/prices/PricesPage";
@@ -81,6 +82,7 @@ ReactDOM.render(
       <Route path="/services/child-teeth" element={<ChildTeeth />}></Route>
       <Route path="/services/child-hygiene" element={<ChildHygiene />}></Route>
       <Route path="/services/child-sleep" element={<ChildSleep />}></Route>
+      <Route path="/error" element={<Error></Error>}></Route>
     </Routes>
   </Router>,
   document.getElementById("root")
