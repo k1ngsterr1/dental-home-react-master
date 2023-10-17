@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef, RefObject } from "react";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 
@@ -525,7 +526,15 @@ export default function HomePage() {
         </Reveal>
       ) : (
         // <Fade direction="up" triggerOnce={true} duration={1000}>
+
         <div className="all-screen-content">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>
+              Стоматологические клиники в Ивантеевке. Запишитесь на консультацию
+            </title>
+            <meta name="Сеть клиник Dental Home - здоровье зубов и качественное лечение. Запишитесь на прием сейчас"></meta>
+          </Helmet>
           <div className="m-header-container">
             <Header
               isMenuOpen={isMenuOpen}

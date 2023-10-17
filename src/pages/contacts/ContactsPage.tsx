@@ -29,6 +29,7 @@ import PcGallery from "../../components/gallery/pc_gallery";
 import ClinicGalleryOne from "../../components/clinic_gallery_1/clinicGalleryOne";
 import ClinicGalleryTwo from "../../components/clinic_gallery_2/clinicGalleryTwo";
 import Footer from "../../components/footer/Footer";
+import { Helmet } from "react-helmet";
 
 // import "./styles/clinics_styles.css";
 
@@ -238,6 +239,14 @@ const ContactsPage = () => {
         </Reveal>
       ) : (
         <div className="screen">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>
+              Dental Home в Ивантеевке - стоматологические клиники, адрес,
+              телефон{" "}
+            </title>
+            <meta name="Наши клиники Dental Home в Ивантеевке на Советском проспекте 5 и Рощинской 9 готовы оказать качественные стоматологические услуги. Запишитесь на прием"></meta>
+          </Helmet>
           <div className="content" style={{ width: "100%" }}>
             <div className="header-container" style={{ width: "100%" }}>
               <Header

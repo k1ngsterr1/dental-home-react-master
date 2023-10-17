@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, RefObject } from "react";
+import { Helmet } from "react-helmet";
 import Header from "../../components/header/header";
 import Footer from "../../components/footer/Footer";
 import "./styles/children_styles.css";
@@ -194,11 +195,11 @@ const ChildDental = () => {
                 <div className="service-cont">
                   <img
                     src={Child04}
-                    onClick={() => navigate("/services/child-hygiene")}
+                    onClick={() => navigate("/services/diagnostic")}
                     className="img"
                     alt="child"
                   />
-                  <span className="text">Детская гигиена полости рта</span>
+                  <span className="text">Диагностика</span>
                 </div>
                 <div className="service-cont">
                   <img
@@ -292,10 +293,10 @@ const ChildDental = () => {
                 <div className="row two">
                   <div
                     className="square-cont"
-                    onClick={() => navigate("/services/child-hygiene")}
+                    onClick={() => navigate("/services/diagnostic")}
                   >
                     <img src={Child04} className="square" alt="child"></img>
-                    <span className="text">Детская гигиена полости рта</span>
+                    <span className="text">Диагностика</span>
                   </div>
                   <div className="square-cont">
                     <img
