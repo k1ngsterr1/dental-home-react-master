@@ -20,6 +20,7 @@ import ReviewGallery from "../../components/reviews/ReviewGallery";
 import Footer from "../../components/footer/Footer";
 
 import "./styles/reviews_page.css";
+import { Helmet } from "react-helmet";
 
 const logoMobile: string = require("../../assets/logo_mob.svg").default;
 const modalImage: string = require("../../assets/example_modal.webp");
@@ -175,6 +176,14 @@ const ReviewsPage = () => {
         </Reveal>
       ) : (
         <div className="screen">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>
+              Отзывы пациентов о Dental Home - довольные клиенты, положительные
+              рекомендации
+            </title>
+            <meta name="Узнайте, что говорят о нас наши довольные пациенты, о своем опыте лечения в клиниках Dental Home в Ивантеевке. Почувствуйте уверенность в выборе нашей клиники"></meta>
+          </Helmet>
           <div className="content">
             <div className="header-container" style={{ width: "100%" }}>
               <Header

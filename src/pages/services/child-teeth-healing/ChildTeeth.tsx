@@ -1,5 +1,4 @@
 import React, { useState, useRef, RefObject } from "react";
-
 import { Link } from "react-router-dom";
 import Popup from "reactjs-popup";
 import {
@@ -37,6 +36,7 @@ import { faC, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import "../../../components/service_template/styles/services_styles.css";
 import PcGallery from "../../../components/gallery/pc_gallery";
 import ReviewGalleryDesktop from "../../../components/reviews/ReviewGalleryDesktop";
+import { Helmet } from "react-helmet";
 
 const pavelGallery = require("../../../assets/pavel_gallery.webp");
 const pavelGalleryPc = require("../../../assets/pavel_pc.webp");
@@ -153,6 +153,11 @@ const ChildTeeth = () => {
 
   return (
     <div className="div">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Лечение зубов у детей и Ивантеевке в Dental Home</title>
+        <meta name="Качественное лечение зубов у детей без проблемных процедур. Современное оборудование для точной диагностики и безболезненного лечения детских зубов"></meta>
+      </Helmet>
       <div className="screen">
         <main className="services-screen-mobile">
           <div className="content">

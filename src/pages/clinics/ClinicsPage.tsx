@@ -28,6 +28,7 @@ import ClinicGalleryTwo from "../../components/clinic_gallery_2/clinicGalleryTwo
 import Footer from "../../components/footer/Footer";
 
 import "./styles/clinics_styles.css";
+import { Helmet } from "react-helmet";
 
 const doctorOneMob = require("../../assets/01.webp");
 const doctorTwoMob = require("../../assets/02.webp");
@@ -215,6 +216,14 @@ const ClinicsPage = () => {
         </Reveal>
       ) : (
         <div className="screen">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>
+              Сеть клиник Dental Home в Ивантеевке - современное оборудование,
+              приятная атмосфера
+            </title>
+            <meta name="Dental Home - сеть стоматологических клиник в Ивантеевке - преимущества, врачи и отзывы"></meta>
+          </Helmet>
           <div className="content" style={{ width: "100%" }}>
             <div className="header-container" style={{ width: "100%" }}>
               <Header

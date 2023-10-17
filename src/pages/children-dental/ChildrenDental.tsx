@@ -138,6 +138,11 @@ const ChildDental = () => {
         </Reveal>
       ) : (
         <div className="screen-children">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>Детская стоматология Dental Home в Ивантеевке</title>
+            <meta name="Сеть клиник Dental Home - здоровье зубов и десен детей и качественное лечение. Стоматологи обеспечат игровую терапию и индивидуальный подход для комфорта ребенка"></meta>
+          </Helmet>
           <div className="mob-screen">
             <div className="header-container" style={{ width: "100%" }}>
               <Header

@@ -15,6 +15,7 @@ import {
   faPhone,
   faChevronLeft,
 } from "@fortawesome/free-solid-svg-icons";
+import { Helmet } from "react-helmet";
 const logoMobile: string = require("../../assets/logo_mob.svg").default;
 const modalImage: string = require("../../assets/example_modal.webp");
 
@@ -395,6 +396,14 @@ const PricesPage = () => {
         </Reveal>
       ) : (
         <div className="screen">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>
+              Прайс-лист на услуги стоматологии в Dental Home в Ивантеевке -
+              доступные цены
+            </title>
+            <meta name="Мы предлагаем доступные цены на широкий спектр стоматологических услуг"></meta>
+          </Helmet>
           <div className="content">
             <div className="header-container" style={{ width: "100%" }}>
               <Header

@@ -19,6 +19,7 @@ import Footer from "../../components/footer/Footer";
 import PcGallery from "../../components/gallery/pc_gallery";
 
 import "./styles/doctors_styles.css";
+import { Helmet } from "react-helmet";
 
 const DoctorOnePc = require("../../assets/1.webp");
 const DoctorTwoPc = require("../../assets/2.webp");
@@ -157,6 +158,14 @@ const DoctorsPage = () => {
         </Reveal>
       ) : (
         <div className="screen">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>
+              Квалифицированные врачи в Dental Home - опыт и индивидуальный
+              подход{" "}
+            </title>
+            <meta name="Наша команда опытных и квалифицированных врачей Dental Home готова помочь вам с любыми стоматологическими проблемами. Узнайте больше о наших специалистах"></meta>
+          </Helmet>
           <div className="content">
             <div className="header-container" style={{ width: "100%" }}>
               <Header
