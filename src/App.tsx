@@ -552,6 +552,11 @@ export default function HomePage() {
               Стоматологические клиники в Ивантеевке. Запишитесь на консультацию
             </title>
             <meta
+              property="og:title"
+              content="Стоматологические клиники в Ивантеевке. Запишитесь на консультацию
+"
+            ></meta>
+            <meta
               name="description"
               content="Сеть клиник Dental Home - здоровье зубов и качественное лечение. Запишитесь на прием сейчас"
             ></meta>
