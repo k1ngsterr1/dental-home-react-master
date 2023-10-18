@@ -249,8 +249,14 @@ const ContactsPage = () => {
             <meta charSet="utf-8" />
             <title>
               Dental Home в Ивантеевке - стоматологические клиники, адрес,
-              телефон{" "}
+              телефон
             </title>
+            <meta
+              property="og:title"
+              content="Dental Home в Ивантеевке - стоматологические клиники, адрес,
+              телефон
+"
+            ></meta>
             <meta name="Наши клиники Dental Home в Ивантеевке на Советском проспекте 5 и Рощинской 9 готовы оказать качественные стоматологические услуги. Запишитесь на прием"></meta>
           </Helmet>
           <div className="content" style={{ width: "100%" }}>

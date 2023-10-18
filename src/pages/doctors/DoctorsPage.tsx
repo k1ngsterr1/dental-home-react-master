@@ -168,8 +168,13 @@ const DoctorsPage = () => {
             <meta charSet="utf-8" />
             <title>
               Квалифицированные врачи в Dental Home - опыт и индивидуальный
-              подход{" "}
+              подход
             </title>
+            <meta
+              property="og:title"
+              content="Квалифицированные врачи в Dental Home - опыт и индивидуальный
+              подход"
+            ></meta>
             <meta name="Наша команда опытных и квалифицированных врачей Dental Home готова помочь вам с любыми стоматологическими проблемами. Узнайте больше о наших специалистах"></meta>
           </Helmet>
           <div className="content">

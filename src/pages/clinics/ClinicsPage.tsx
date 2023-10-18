@@ -227,6 +227,12 @@ const ClinicsPage = () => {
               Сеть клиник Dental Home в Ивантеевке - современное оборудование,
               приятная атмосфера
             </title>
+            <meta
+              property="og:title"
+              content="Сеть клиник Dental Home в Ивантеевке - современное оборудование,
+              приятная атмосфера
+"
+            ></meta>
             <meta name="Dental Home - сеть стоматологических клиник в Ивантеевке - преимущества, врачи и отзывы"></meta>
           </Helmet>
           <div className="content" style={{ width: "100%" }}>
