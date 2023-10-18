@@ -189,7 +189,14 @@ const Whitening = () => {
             <title>
               Безопасное отбеливание зубов и белоснежная улыбка в Ивантеевке
             </title>
-            <meta name="Восстановите естественную белизну вашей улыбки с помощью безопасных процедур отбеливания зубов в клинике Dental Home в Ивантеевке"></meta>
+            <meta
+              property="og:title"
+              content="Безопасное отбеливание зубов и белоснежная улыбка в Ивантеевке"
+            ></meta>
+            <meta
+              name="descriptions"
+              content="Восстановите естественную белизну вашей улыбки с помощью безопасных процедур отбеливания зубов в клинике Dental Home в Ивантеевке"
+            ></meta>
           </Helmet>
           <main className="services-screen-mobile">
             <div className="content">

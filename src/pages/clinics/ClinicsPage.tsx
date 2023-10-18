@@ -233,7 +233,10 @@ const ClinicsPage = () => {
               приятная атмосфера
 "
             ></meta>
-            <meta name="Dental Home - сеть стоматологических клиник в Ивантеевке - преимущества, врачи и отзывы"></meta>
+            <meta
+              name="description"
+              content="Dental Home - сеть стоматологических клиник в Ивантеевке - преимущества, врачи и отзывы"
+            ></meta>
           </Helmet>
           <div className="content" style={{ width: "100%" }}>
             <div className="header-container" style={{ width: "100%" }}>

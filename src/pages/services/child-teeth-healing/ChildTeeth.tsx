@@ -160,6 +160,10 @@ const ChildTeeth = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Лечение зубов у детей и Ивантеевке в Dental Home</title>
+        <meta
+          property="og:title"
+          content="Лечение зубов у детей и Ивантеевке в Dental Home"
+        ></meta>
         <meta name="Качественное лечение зубов у детей без проблемных процедур. Современное оборудование для точной диагностики и безболезненного лечения детских зубов"></meta>
       </Helmet>
       <div className="screen">

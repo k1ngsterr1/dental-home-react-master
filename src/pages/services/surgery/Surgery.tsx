@@ -195,7 +195,14 @@ const Surgery = () => {
           <Helmet>
             <meta charSet="utf-8" />
             <title>Стоматологическая хирургия в Ивантеевке в Dental Home</title>
-            <meta name="Dental Home предлагает качественную хирургию с помощью опытных специалистов. Мы осуществляем удаление зубов и снятие швов безболезненно и с максимальным комфортом для пациента"></meta>
+            <meta
+              property="og:title"
+              content="Стоматологическая хирургия в Ивантеевке в Dental Home"
+            ></meta>
+            <meta
+              name="description"
+              content="Dental Home предлагает качественную хирургию с помощью опытных специалистов. Мы осуществляем удаление зубов и снятие швов безболезненно и с максимальным комфортом для пациента"
+            ></meta>
           </Helmet>
           <main className="services-screen-mobile">
             <div className="content">

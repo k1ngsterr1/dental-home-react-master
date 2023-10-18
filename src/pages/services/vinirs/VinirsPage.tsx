@@ -34,6 +34,7 @@ import {
 import "../../../components/service_template/styles/services_styles.css";
 import PcGallery from "../../../components/gallery/pc_gallery";
 import ReviewGalleryDesktop from "../../../components/reviews/ReviewGalleryDesktop";
+import { Helmet } from "react-helmet";
 
 const pavelGallery = require("../../../assets/pavel_gallery.webp");
 const pavelGalleryPc = require("../../../assets/pavel_pc.webp");
@@ -179,6 +180,20 @@ const VinirsPage = () => {
 
   return (
     <div className="div">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Виниры, коронки и ортопедическое лечение в Ивантеевке - Dental Home{" "}
+        </title>
+        <meta
+          property="og:title"
+          content="Виниры, коронки и ортопедическое лечение в Ивантеевке - Dental Home"
+        ></meta>
+        <meta
+          name="descriptions"
+          content="Доверьте свою улыбку опытным ортопедам в клинике Dental Home в Ивантеевке. Виниры, коронки, вкладки, оттиски под ключ "
+        ></meta>
+      </Helmet>
       {isLoading ? (
         <Reveal keyframes={customAnimation} delay={1000}>
           <div className={`loader ${isLoading ? "" : "hidden"}`}>
@@ -192,6 +207,21 @@ const VinirsPage = () => {
         </Reveal>
       ) : (
         <div className="screen">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>
+              Виниры, коронки и ортопедическое лечение в Ивантеевке - Dental
+              Home{" "}
+            </title>
+            <meta
+              property="og:title"
+              content="Виниры, коронки и ортопедическое лечение в Ивантеевке - Dental Home"
+            ></meta>
+            <meta
+              name="descriptions"
+              content="Доверьте свою улыбку опытным ортопедам в клинике Dental Home в Ивантеевке. Виниры, коронки, вкладки, оттиски под ключ "
+            ></meta>
+          </Helmet>
           <main className="services-screen-mobile">
             <div className="content">
               <div className="header-container" style={{ width: "100%" }}>
