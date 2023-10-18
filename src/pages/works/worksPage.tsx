@@ -21,6 +21,7 @@ import ServiceGallery from "../../components/gallery/services_gallery";
 import Footer from "../../components/footer/Footer";
 
 import "./styles/works_styles.css";
+import { Helmet } from "react-helmet";
 
 const serviceOnePc = require("../../assets/service_1.webp");
 const serviceTwoPc = require("../../assets/service_2.webp");
@@ -135,6 +136,18 @@ const WorksPage = () => {
 
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Работы наших врачей в Dental Home</title>
+        <meta
+          property="og:title"
+          content="Работы наших врачей в Dental Home"
+        ></meta>
+        <meta
+          name="description"
+          content="Ознакомьтесь с примерами работ нашей стоматологической клиники Dental Home. Высококачественное лечение, профессиональный подход и впечатляющие результаты наших специалистов."
+        />
+      </Helmet>
       {isLoading ? (
         <Reveal keyframes={customAnimation} delay={1000}>
           <div className={`loader ${isLoading ? "" : "hidden"}`}>
@@ -148,6 +161,18 @@ const WorksPage = () => {
         </Reveal>
       ) : (
         <div className="screen">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>Работы наших врачей в Dental Home</title>
+            <meta
+              property="og:title"
+              content="Работы наших врачей в Dental Home"
+            ></meta>
+            <meta
+              name="description"
+              content="Ознакомьтесь с примерами работ нашей стоматологической клиники Dental Home. Высококачественное лечение, профессиональный подход и впечатляющие результаты наших специалистов."
+            />
+          </Helmet>
           <div className="content">
             <div className="header-container" style={{ width: "100%" }}>
               <Header

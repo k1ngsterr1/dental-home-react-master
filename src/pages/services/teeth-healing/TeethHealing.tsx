@@ -15,7 +15,6 @@ import emailjs from "@emailjs/browser";
 
 import Popup from "reactjs-popup";
 import { Reveal } from "react-awesome-reveal";
-
 import {
   faPlus,
   faMinus,
@@ -36,6 +35,7 @@ import { faC, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import "../../../components/service_template/styles/services_styles.css";
 import PcGallery from "../../../components/gallery/pc_gallery";
 import ReviewGalleryDesktop from "../../../components/reviews/ReviewGalleryDesktop";
+import { Helmet } from "react-helmet";
 
 const pavelGallery = require("../../../assets/pavel_gallery.webp");
 const pavelGalleryPc = require("../../../assets/pavel_pc.webp");
@@ -183,6 +183,19 @@ const TeethHealing = () => {
 
   return (
     <div className="div">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Лечение зубов в Ивантеевке</title>
+        <meta
+          property="og:title"
+          content="Лечение зубов в Ивантеевке
+"
+        ></meta>
+        <meta
+          name="description"
+          content="Dental Home - сеть стоматологических клиник в Ивантеевке - преимущества, врачи и отзывы"
+        ></meta>
+      </Helmet>
       {isLoading ? (
         <Reveal keyframes={customAnimation} delay={1000}>
           <div className={`loader ${isLoading ? "" : "hidden"}`}>
@@ -196,6 +209,19 @@ const TeethHealing = () => {
         </Reveal>
       ) : (
         <div className="screen">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>Лечение зубов в Ивантеевке</title>
+            <meta
+              property="og:title"
+              content="Лечение зубов в Ивантеевке
+"
+            ></meta>
+            <meta
+              name="description"
+              content="Dental Home - сеть стоматологических клиник в Ивантеевке - преимущества, врачи и отзывы"
+            ></meta>
+          </Helmet>
           <main className="services-screen-mobile">
             <div className="content">
               <Header

@@ -6,6 +6,7 @@ import { Link as ScrollLink } from "react-scroll";
 import { keyframes } from "@emotion/react";
 import { Reveal } from "react-awesome-reveal";
 import Footer from "../../components/footer/Footer";
+import { Helmet } from "react-helmet";
 
 const logoMobile: string = require("../../assets/logo_mob.svg").default;
 
@@ -47,6 +48,19 @@ const PrivacyPage = () => {
 
   return (
     <div className="div">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Политика конфиденциальности в Dental Home</title>
+        <meta
+          property="og:title"
+          content="Политика конфиденциальности в Dental Home
+"
+        ></meta>
+        <meta
+          name="description"
+          content="На странице конфиденциальности клиники Dental Home мы уважаем вашу личную информацию. Узнайте, как мы обрабатываем и защищаем данные наших пациентов."
+        />
+      </Helmet>
       {isLoading ? (
         <Reveal keyframes={customAnimation} delay={1000}>
           <div className={`loader ${isLoading ? "" : "hidden"}`}>
