@@ -399,7 +399,10 @@ const PricesPage = () => {
           content="Прайс-лист на услуги стоматологии в Dental Home в Ивантеевке -
           доступные цены"
         ></meta>
-        <meta name="Мы предлагаем доступные цены на широкий спектр стоматологических услуг"></meta>
+        <meta
+          name="description"
+          content="Мы предлагаем доступные цены на широкий спектр стоматологических услуг"
+        ></meta>
       </Helmet>
       {isLoading ? (
         <Reveal keyframes={customAnimation} delay={1000}>
@@ -420,7 +423,15 @@ const PricesPage = () => {
               Прайс-лист на услуги стоматологии в Dental Home в Ивантеевке -
               доступные цены
             </title>
-            <meta name="Мы предлагаем доступные цены на широкий спектр стоматологических услуг"></meta>
+            <meta
+              property="og:title"
+              content="Прайс-лист на услуги стоматологии в Dental Home в Ивантеевке -
+          доступные цены"
+            ></meta>
+            <meta
+              name="description"
+              content="Мы предлагаем доступные цены на широкий спектр стоматологических услуг"
+            ></meta>
           </Helmet>
           <div className="content">
             <div className="header-container" style={{ width: "100%" }}>

@@ -526,7 +526,10 @@ export default function HomePage() {
           content="Стоматологические клиники в Ивантеевке. Запишитесь на консультацию
 "
         ></meta>
-        <meta name="Сеть клиник Dental Home - здоровье зубов и качественное лечение. Запишитесь на прием сейчас"></meta>
+        <meta
+          name="description"
+          content="Сеть клиник Dental Home - здоровье зубов и качественное лечение. Запишитесь на прием сейчас"
+        ></meta>
       </Helmet>
       {isLoading ? (
         <Reveal keyframes={customAnimation} delay={1000}>
@@ -548,7 +551,10 @@ export default function HomePage() {
             <title>
               Стоматологические клиники в Ивантеевке. Запишитесь на консультацию
             </title>
-            <meta name="Сеть клиник Dental Home - здоровье зубов и качественное лечение. Запишитесь на прием сейчас"></meta>
+            <meta
+              name="description"
+              content="Сеть клиник Dental Home - здоровье зубов и качественное лечение. Запишитесь на прием сейчас"
+            ></meta>
           </Helmet>
           <Mheader
             isMenuOpen={isMenuOpen}

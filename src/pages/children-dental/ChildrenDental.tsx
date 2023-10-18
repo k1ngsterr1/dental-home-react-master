@@ -137,7 +137,10 @@ const ChildDental = () => {
               content="Детская стоматология Dental Home в Ивантеевке
 "
             ></meta>
-            <meta name="Сеть клиник Dental Home - здоровье зубов и десен детей и качественное лечение. Стоматологи обеспечат игровую терапию и индивидуальный подход для комфорта ребенка"></meta>
+            <meta
+              name="description"
+              content="Сеть клиник Dental Home - здоровье зубов и десен детей и качественное лечение. Стоматологи обеспечат игровую терапию и индивидуальный подход для комфорта ребенка"
+            ></meta>
           </Helmet>
           <div className={`loader ${isLoading ? "" : "hidden"}`}>
             <div className="loader-container">
