@@ -194,7 +194,7 @@ const ChildHygiene = () => {
                   Главная
                 </Link>
                 <div className="circle"></div>
-                <Link to="/child-dental" className="link">
+                <Link to="/children-dental" className="link">
                   Детские Услуги
                 </Link>
                 <div className="circle"></div>

@@ -12,6 +12,7 @@ body .hamburger-button-z {
   top: clamp(32px, 14.95296vw, 128px) !important;
   right: 0px !important;
   float: right;
+  z-index: 5 !important;
   position: sticky !important;
   margin-right: clamp(16px, 7.47648vw, 64px);
 }

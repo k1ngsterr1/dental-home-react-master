@@ -158,8 +158,7 @@ const ChildDental = () => {
             <title>Детская стоматология Dental Home в Ивантеевке</title>
             <meta
               property="og:title"
-              content="Детская стоматология Dental Home в Ивантеевке
-"
+              content="Детская стоматология Dental Home в Ивантеевке"
             ></meta>
             <meta
               property="og:description"
@@ -189,7 +188,9 @@ const ChildDental = () => {
               src={childIllustration}
               alt="illustration"
             ></img>
-            <button className="golden-button">Записаться на прием</button>
+            <button className="golden-button" onClick={openModal}>
+              Записаться на прием
+            </button>
             <div className="services">
               <h2 className="service-heading">Наши услуги</h2>
               <div className="service-squares">
