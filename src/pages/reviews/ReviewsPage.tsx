@@ -192,7 +192,7 @@ const ReviewsPage = () => {
               рекомендации"
             ></meta>
             <meta
-              name="description"
+              property="og:description"
               content="Узнайте, что говорят о нас наши довольные пациенты, о своем опыте лечения в клиниках Dental Home в Ивантеевке. Почувствуйте уверенность в выборе нашей клиники"
             ></meta>
           </Helmet>

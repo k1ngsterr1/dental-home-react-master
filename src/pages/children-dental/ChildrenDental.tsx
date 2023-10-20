@@ -162,7 +162,7 @@ const ChildDental = () => {
 "
             ></meta>
             <meta
-              name="description"
+              property="og:description"
               content="Сеть клиник Dental Home - здоровье зубов и десен детей и качественное лечение. Стоматологи обеспечат игровую терапию и индивидуальный подход для комфорта ребенка"
             ></meta>
           </Helmet>

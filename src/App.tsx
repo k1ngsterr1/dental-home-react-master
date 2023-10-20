@@ -527,7 +527,7 @@ export default function HomePage() {
 "
         ></meta>
         <meta
-          name="description"
+          property="og:description"
           content="Сеть клиник Dental Home - здоровье зубов и качественное лечение. Запишитесь на прием сейчас"
         ></meta>
       </Helmet>
@@ -557,7 +557,7 @@ export default function HomePage() {
 "
             ></meta>
             <meta
-              name="description"
+              property="og:description"
               content="Сеть клиник Dental Home - здоровье зубов и качественное лечение. Запишитесь на прием сейчас"
             ></meta>
           </Helmet>

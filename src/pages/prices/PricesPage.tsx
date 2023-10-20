@@ -400,7 +400,7 @@ const PricesPage = () => {
           доступные цены"
         ></meta>
         <meta
-          name="description"
+          property="og:description"
           content="Мы предлагаем доступные цены на широкий спектр стоматологических услуг"
         ></meta>
       </Helmet>

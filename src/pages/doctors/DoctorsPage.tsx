@@ -176,7 +176,7 @@ const DoctorsPage = () => {
               подход"
             ></meta>
             <meta
-              name="description"
+              property="og:description"
               content="Наша команда опытных и квалифицированных врачей Dental Home готова помочь вам с любыми стоматологическими проблемами. Узнайте больше о наших специалистах"
             ></meta>
           </Helmet>

@@ -170,7 +170,7 @@ const ChildDiagnostic = () => {
           оборудование"
         ></meta>
         <meta
-          name="description"
+          property="og:description"
           content="Обеспечьте своему ребенку точное определение проблем с полостью рта с помощью современных методов диагностики в клинике Dental Home в Ивантеевке"
         ></meta>
       </Helmet>

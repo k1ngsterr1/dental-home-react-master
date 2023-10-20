@@ -169,7 +169,10 @@ const ChildSurgery = () => {
           content="Безопасная хирургия для детей в Ивантеевке, опытные
           хирурги-стоматологи"
         ></meta>
-        <meta name="Обеспечьте своему ребенку безопасную и качественную хирургическую помощь в нашей клинике Dental Home в Ивантеевке"></meta>
+        <meta
+          property="og:description"
+          content="Обеспечьте своему ребенку безопасную и качественную хирургическую помощь в нашей клинике Dental Home в Ивантеевке"
+        ></meta>
       </Helmet>
       <main className="services-screen-mobile">
         <div className="content">

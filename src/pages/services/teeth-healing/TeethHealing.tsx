@@ -192,7 +192,7 @@ const TeethHealing = () => {
 "
         ></meta>
         <meta
-          name="description"
+          property="og:description"
           content="Dental Home - сеть стоматологических клиник в Ивантеевке - преимущества, врачи и отзывы"
         ></meta>
       </Helmet>
@@ -218,7 +218,7 @@ const TeethHealing = () => {
 "
             ></meta>
             <meta
-              name="description"
+              property="og:description"
               content="Dental Home - сеть стоматологических клиник в Ивантеевке - преимущества, врачи и отзывы"
             ></meta>
           </Helmet>

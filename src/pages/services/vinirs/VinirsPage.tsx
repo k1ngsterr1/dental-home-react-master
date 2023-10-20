@@ -190,7 +190,7 @@ const VinirsPage = () => {
           content="Виниры, коронки и ортопедическое лечение в Ивантеевке - Dental Home"
         ></meta>
         <meta
-          name="descriptions"
+          property="og:description"
           content="Доверьте свою улыбку опытным ортопедам в клинике Dental Home в Ивантеевке. Виниры, коронки, вкладки, оттиски под ключ "
         ></meta>
       </Helmet>
@@ -218,7 +218,7 @@ const VinirsPage = () => {
               content="Виниры, коронки и ортопедическое лечение в Ивантеевке - Dental Home"
             ></meta>
             <meta
-              name="descriptions"
+              property="og:description"
               content="Доверьте свою улыбку опытным ортопедам в клинике Dental Home в Ивантеевке. Виниры, коронки, вкладки, оттиски под ключ "
             ></meta>
           </Helmet>

@@ -169,7 +169,7 @@ const WorksPage = () => {
               content="Работы наших врачей в Dental Home"
             ></meta>
             <meta
-              name="description"
+              property="og:description"
               content="Ознакомьтесь с примерами работ нашей стоматологической клиники Dental Home. Высококачественное лечение, профессиональный подход и впечатляющие результаты наших специалистов."
             />
           </Helmet>

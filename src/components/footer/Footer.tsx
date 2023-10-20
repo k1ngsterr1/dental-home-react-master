@@ -16,7 +16,7 @@ const Footer = () => {
   const navigate = useNavigate();
 
   function navigateToVk() {
-    window.open("https://vk.com/dentalhomeclinik");
+    window.open("https://vk.com/dental_home");
   }
 
   const mapData = {

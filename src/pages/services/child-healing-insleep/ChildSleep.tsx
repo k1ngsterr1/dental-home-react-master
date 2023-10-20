@@ -164,7 +164,10 @@ const ChildSleep = () => {
           property="og:title"
           content="Безболезненное лечение зубов у детей во сне в Ивантеевке"
         ></meta>
-        <meta name="Обеспечьте вашему ребенку комфорт и безболезненность лечения с помощью процедур лечения во сне, предлагаемых клиникой Dental Home в Ивантеевке"></meta>
+        <meta
+          property="og:description"
+          content="Обеспечьте вашему ребенку комфорт и безболезненность лечения с помощью процедур лечения во сне, предлагаемых клиникой Dental Home в Ивантеевке"
+        ></meta>
       </Helmet>
       <main className="services-screen-mobile">
         <div className="content">
