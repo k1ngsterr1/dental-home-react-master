@@ -337,7 +337,12 @@ const ChildDental = () => {
                     <span className="text">Лечение во сне</span>
                   </div>
                   <div className="square-cont">
-                    <img src={Child06} className="square" alt="child"></img>
+                    <img
+                      src={Child06}
+                      onClick={() => navigate("/services/child-hygiene")}
+                      className="square"
+                      alt="child"
+                    ></img>
                     <span className="text">Гигиена полости рта</span>
                   </div>
                 </div>
