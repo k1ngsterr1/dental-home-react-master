@@ -264,7 +264,7 @@ const ChildDental = () => {
                   <button className="golden-button" onClick={openModal}>
                     Запись на прием
                   </button>
-                  <button
+                  {/* <button
                     className="square-video"
                     onClick={() =>
                       (window.location.href =
@@ -275,7 +275,7 @@ const ChildDental = () => {
                       className="icon"
                       icon={faPlay}
                     ></FontAwesomeIcon>
-                  </button>
+                  </button> */}
                 </div>
               </div>
               <img className="image" src={childIllustration} alt="image"></img>
