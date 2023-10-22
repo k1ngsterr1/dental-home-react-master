@@ -230,11 +230,14 @@ const ClinicsPage = () => {
             <meta
               property="og:title"
               content="Сеть клиник Dental Home в Ивантеевке - современное оборудование,
-              приятная атмосфера
-"
+              приятная атмосфера"
             ></meta>
             <meta
               property="og:description"
+              content="Dental Home - сеть стоматологических клиник в Ивантеевке - преимущества, врачи и отзывы"
+            ></meta>
+            <meta
+              name="description"
               content="Dental Home - сеть стоматологических клиник в Ивантеевке - преимущества, врачи и отзывы"
             ></meta>
           </Helmet>

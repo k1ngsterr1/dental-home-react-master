@@ -195,6 +195,10 @@ const TeethHealing = () => {
           property="og:description"
           content="Dental Home - сеть стоматологических клиник в Ивантеевке - преимущества, врачи и отзывы"
         ></meta>
+        <meta
+          name="description"
+          content="Dental Home - сеть стоматологических клиник в Ивантеевке - преимущества, врачи и отзывы"
+        ></meta>
       </Helmet>
       {isLoading ? (
         <Reveal keyframes={customAnimation} delay={1000}>

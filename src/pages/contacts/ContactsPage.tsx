@@ -261,6 +261,10 @@ const ContactsPage = () => {
               property="og:description"
               content="Наши клиники Dental Home в Ивантеевке на Советском проспекте 5 и Рощинской 9 готовы оказать качественные стоматологические услуги. Запишитесь на прием"
             ></meta>
+            <meta
+              name="description"
+              content="Наши клиники Dental Home в Ивантеевке на Советском проспекте 5 и Рощинской 9 готовы оказать качественные стоматологические услуги. Запишитесь на прием"
+            ></meta>
           </Helmet>
           <div className="content" style={{ width: "100%" }}>
             <div className="header-container" style={{ width: "100%" }}>

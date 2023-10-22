@@ -134,8 +134,11 @@ const ChildDental = () => {
             <title>Детская стоматология Dental Home в Ивантеевке</title>
             <meta
               property="og:title"
-              content="Детская стоматология Dental Home в Ивантеевке
-"
+              content="Детская стоматология Dental Home в Ивантеевке"
+            ></meta>
+            <meta
+              property="og:description"
+              content="Сеть клиник Dental Home - здоровье зубов и десен детей и качественное лечение. Стоматологи обеспечат игровую терапию и индивидуальный подход для комфорта ребенка"
             ></meta>
             <meta
               name="description"
@@ -162,6 +165,10 @@ const ChildDental = () => {
             ></meta>
             <meta
               property="og:description"
+              content="Сеть клиник Dental Home - здоровье зубов и десен детей и качественное лечение. Стоматологи обеспечат игровую терапию и индивидуальный подход для комфорта ребенка"
+            ></meta>
+            <meta
+              name="description"
               content="Сеть клиник Dental Home - здоровье зубов и десен детей и качественное лечение. Стоматологи обеспечат игровую терапию и индивидуальный подход для комфорта ребенка"
             ></meta>
           </Helmet>

@@ -563,6 +563,10 @@ export default function HomePage() {
               property="og:description"
               content="Сеть клиник Dental Home - здоровье зубов и качественное лечение. Запишитесь на прием сейчас"
             ></meta>
+            <meta
+              name="description"
+              content="Сеть клиник Dental Home - здоровье зубов и качественное лечение. Запишитесь на прием сейчас"
+            ></meta>
           </Helmet>
           <Mheader
             isMenuOpen={isMenuOpen}
