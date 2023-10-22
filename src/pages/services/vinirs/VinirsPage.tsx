@@ -193,6 +193,10 @@ const VinirsPage = () => {
           property="og:description"
           content="Доверьте свою улыбку опытным ортопедам в клинике Dental Home в Ивантеевке. Виниры, коронки, вкладки, оттиски под ключ "
         ></meta>
+        <meta
+          name="description"
+          content="Доверьте свою улыбку опытным ортопедам в клинике Dental Home в Ивантеевке. Виниры, коронки, вкладки, оттиски под ключ "
+        ></meta>
       </Helmet>
       {isLoading ? (
         <Reveal keyframes={customAnimation} delay={1000}>
@@ -219,6 +223,10 @@ const VinirsPage = () => {
             ></meta>
             <meta
               property="og:description"
+              content="Доверьте свою улыбку опытным ортопедам в клинике Dental Home в Ивантеевке. Виниры, коронки, вкладки, оттиски под ключ "
+            ></meta>
+            <meta
+              name="description"
               content="Доверьте свою улыбку опытным ортопедам в клинике Dental Home в Ивантеевке. Виниры, коронки, вкладки, оттиски под ключ "
             ></meta>
           </Helmet>

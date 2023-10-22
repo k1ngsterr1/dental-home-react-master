@@ -50,16 +50,10 @@ const PrivacyPage = () => {
     <div className="div">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Политика конфиденциальности в Dental Home</title>
-        <meta
-          property="og:title"
-          content="Политика конфиденциальности в Dental Home
-"
-        ></meta>
-        <meta
-          name="description"
-          content="На странице конфиденциальности клиники Dental Home мы уважаем вашу личную информацию. Узнайте, как мы обрабатываем и защищаем данные наших пациентов."
-        />
+        <title>Dental Home</title>
+        <meta property="og:title" content="Dental Home"></meta>
+        <meta property="og:description" content=""></meta>
+        <meta name="description" content="" />
       </Helmet>
       {isLoading ? (
         <Reveal keyframes={customAnimation} delay={1000}>
@@ -74,6 +68,13 @@ const PrivacyPage = () => {
         </Reveal>
       ) : (
         <div className="screen">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>Dental Home</title>
+            <meta property="og:title" content="Dental Home"></meta>
+            <meta property="og:description" content=""></meta>
+            <meta name="description" content="" />
+          </Helmet>
           <div className="mob-content">
             <Header isMenuOpen={isMenuOpen} toggleMenu={toggleMenu}></Header>
             <div className="heading-container">

@@ -523,11 +523,14 @@ export default function HomePage() {
         </title>
         <meta
           property="og:title"
-          content="Стоматологические клиники в Ивантеевке. Запишитесь на консультацию
-"
+          content="Стоматологические клиники в Ивантеевке. Запишитесь на консультацию"
         ></meta>
         <meta
           property="og:description"
+          content="Сеть клиник Dental Home - здоровье зубов и качественное лечение. Запишитесь на прием сейчас"
+        ></meta>
+        <meta
+          name="description"
           content="Сеть клиник Dental Home - здоровье зубов и качественное лечение. Запишитесь на прием сейчас"
         ></meta>
       </Helmet>

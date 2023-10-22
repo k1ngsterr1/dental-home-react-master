@@ -171,6 +171,24 @@ const Whitening = () => {
 
   return (
     <div className="div">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Безопасное отбеливание зубов и белоснежная улыбка в Ивантеевке
+        </title>
+        <meta
+          property="og:title"
+          content="Безопасное отбеливание зубов и белоснежная улыбка в Ивантеевке"
+        ></meta>
+        <meta
+          property="og:description"
+          content="Восстановите естественную белизну вашей улыбки с помощью безопасных процедур отбеливания зубов в клинике Dental Home в Ивантеевке"
+        ></meta>
+        <meta
+          name="description"
+          content="Восстановите естественную белизну вашей улыбки с помощью безопасных процедур отбеливания зубов в клинике Dental Home в Ивантеевке"
+        ></meta>
+      </Helmet>
       {isLoading ? (
         <Reveal keyframes={customAnimation} delay={1000}>
           <div className={`loader ${isLoading ? "" : "hidden"}`}>
@@ -195,6 +213,10 @@ const Whitening = () => {
             ></meta>
             <meta
               property="og:description"
+              content="Восстановите естественную белизну вашей улыбки с помощью безопасных процедур отбеливания зубов в клинике Dental Home в Ивантеевке"
+            ></meta>
+            <meta
+              name="description"
               content="Восстановите естественную белизну вашей улыбки с помощью безопасных процедур отбеливания зубов в клинике Dental Home в Ивантеевке"
             ></meta>
           </Helmet>

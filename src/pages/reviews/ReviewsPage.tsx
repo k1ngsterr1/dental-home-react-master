@@ -195,6 +195,10 @@ const ReviewsPage = () => {
               property="og:description"
               content="Узнайте, что говорят о нас наши довольные пациенты, о своем опыте лечения в клиниках Dental Home в Ивантеевке. Почувствуйте уверенность в выборе нашей клиники"
             ></meta>
+            <meta
+              name="description"
+              content="Узнайте, что говорят о нас наши довольные пациенты, о своем опыте лечения в клиниках Dental Home в Ивантеевке. Почувствуйте уверенность в выборе нашей клиники"
+            ></meta>
           </Helmet>
           <div className="content">
             <div className="header-container" style={{ width: "100%" }}>

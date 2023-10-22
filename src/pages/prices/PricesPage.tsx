@@ -403,6 +403,10 @@ const PricesPage = () => {
           property="og:description"
           content="Мы предлагаем доступные цены на широкий спектр стоматологических услуг"
         ></meta>
+        <meta
+          name="description"
+          content="Мы предлагаем доступные цены на широкий спектр стоматологических услуг"
+        ></meta>
       </Helmet>
       {isLoading ? (
         <Reveal keyframes={customAnimation} delay={1000}>
@@ -427,6 +431,10 @@ const PricesPage = () => {
               property="og:title"
               content="Прайс-лист на услуги стоматологии в Dental Home в Ивантеевке -
           доступные цены"
+            ></meta>
+            <meta
+              property="og:description"
+              content="Мы предлагаем доступные цены на широкий спектр стоматологических услуг"
             ></meta>
             <meta
               name="description"

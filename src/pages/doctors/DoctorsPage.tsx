@@ -179,6 +179,10 @@ const DoctorsPage = () => {
               property="og:description"
               content="Наша команда опытных и квалифицированных врачей Dental Home готова помочь вам с любыми стоматологическими проблемами. Узнайте больше о наших специалистах"
             ></meta>
+            <meta
+              name="description"
+              content="Наша команда опытных и квалифицированных врачей Dental Home готова помочь вам с любыми стоматологическими проблемами. Узнайте больше о наших специалистах"
+            ></meta>
           </Helmet>
           <div className="content">
             <div className="header-container" style={{ width: "100%" }}>

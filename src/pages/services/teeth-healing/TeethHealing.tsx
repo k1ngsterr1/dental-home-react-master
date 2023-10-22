@@ -214,15 +214,34 @@ const TeethHealing = () => {
             <title>Лечение зубов в Ивантеевке</title>
             <meta
               property="og:title"
-              content="Лечение зубов в Ивантеевке
-"
+              content="Лечение зубов в Ивантеевке"
             ></meta>
             <meta
               property="og:description"
               content="Dental Home - сеть стоматологических клиник в Ивантеевке - преимущества, врачи и отзывы"
             ></meta>
+            <meta
+              name="description"
+              content="Dental Home - сеть стоматологических клиник в Ивантеевке - преимущества, врачи и отзывы"
+            ></meta>
           </Helmet>
           <main className="services-screen-mobile">
+            <Helmet>
+              <meta charSet="utf-8" />
+              <title>Лечение зубов в Ивантеевке</title>
+              <meta
+                property="og:title"
+                content="Лечение зубов в Ивантеевке"
+              ></meta>
+              <meta
+                property="og:description"
+                content="Dental Home - сеть стоматологических клиник в Ивантеевке - преимущества, врачи и отзывы"
+              ></meta>
+              <meta
+                name="description"
+                content="Dental Home - сеть стоматологических клиник в Ивантеевке - преимущества, врачи и отзывы"
+              ></meta>
+            </Helmet>
             <div className="content">
               <Header
                 isMenuOpen={isMenuOpen}

@@ -182,6 +182,10 @@ const ChildBiteCorrection = () => {
               property="og:description"
               content="Обеспечьте вашему ребенку качественное исправление прикуса с помощью нашей клиники Dental Home в Ивантеевке"
             ></meta>
+            <meta
+              name="description"
+              content="Обеспечьте вашему ребенку качественное исправление прикуса с помощью нашей клиники Dental Home в Ивантеевке"
+            ></meta>
           </Helmet>
           <main className="services-screen-mobile">
             <div className="content">
