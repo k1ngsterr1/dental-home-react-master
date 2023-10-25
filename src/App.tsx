@@ -131,7 +131,7 @@ const galleryThree = require("./assets/gallery03.webp");
 const galleryFour = require("./assets/gallery04.webp");
 const galleryFive = require("./assets/gallery05.webp");
 
-const formImage = require("./assets/form_image.png");
+const formImage = require("./assets/example_modal.png");
 const pavelGallery = require("./assets/pavel_gallery.webp");
 const modalImage = require("./assets/example_modal.webp");
 const pavelGalleryPc = require("./assets/pavel_pc.webp");
