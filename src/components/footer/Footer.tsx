@@ -169,7 +169,7 @@ const Footer = () => {
         </div>
         <div className="column">
           <h6 className="information">Контакты</h6>
-          <p className="p-nav mob">+7(925) 925 99 55</p>
+          <p className="p-nav mob">+7 (925) 222-90-22</p>
           <p className="p-nav">
             Россия, Московская область, г. Ивантеевка, Советский проспект 5
           </p>
