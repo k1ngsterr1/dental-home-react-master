@@ -210,7 +210,7 @@ const Menu: React.FC<MenuProps> = ({
                     className="icon"
                   ></FontAwesomeIcon>
                   <span className="text">
-                    Московская область, г. Ивантеевка, Советский проспект 5
+                    Московская область, г. Ивантеевка, Рощинская, 9
                   </span>
                 </div>
                 <span className="text">Пн-Вс - 9:00-21:00</span>
@@ -332,7 +332,7 @@ const Menu: React.FC<MenuProps> = ({
                     className="icon"
                   ></FontAwesomeIcon>
                   <span className="text">
-                    Московская область, г. Ивантеевка, Советский проспект 5
+                    Московская область, г. Ивантеевка, Рощинская, 9
                     <br />
                     <br />
                     Пн-Вс - 9:00-21:00
