@@ -62,7 +62,7 @@ const Menu: React.FC<MenuProps> = ({
         <div className="menu-content">
           <div className="navigation-container">
             <div className="column-one">
-              <Link to="/" className="golden-link">
+              <Link to="/home" className="golden-link">
                 Главная
               </Link>
               <Link to="/clinics" className="golden-link l" onClick={closeMenu}>
@@ -138,7 +138,7 @@ const Menu: React.FC<MenuProps> = ({
         <div className="menu-content">
           <div className="column-one">
             <nav className="links">
-              <Link to="/" className="golden-link">
+              <Link to="/home" className="golden-link">
                 Главная
               </Link>
               <Link
@@ -197,7 +197,7 @@ const Menu: React.FC<MenuProps> = ({
                     Московская область, г. Ивантеевка, Советский проспект 5
                   </span>
                 </div>
-                <span className="text">Пн-Вс - 9:00-21:00</span>
+                <span className="text">Пн-Вс - 9:00-20:00</span>
                 <span className="text parking">Бесплатная парковка</span>
               </div>
               <div
@@ -280,7 +280,7 @@ const Menu: React.FC<MenuProps> = ({
           <div className="nav-links">
             <img className="logo" src={logo} alt="logo"></img>
             <nav className="nav">
-              <Link to="/" className="link">
+              <Link to="/home" className="link">
                 Главная
               </Link>
               <Link to="/clinics" className="link">
@@ -320,7 +320,7 @@ const Menu: React.FC<MenuProps> = ({
                     Московская область, г. Ивантеевка, Советский проспект 5
                     <br />
                     <br />
-                    Пн-Вс - 9:00-21:00
+                    Пн-Вс - 9:00-20:00
                     <br />
                     <br />
                     Бесплатная парковка

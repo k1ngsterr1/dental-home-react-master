@@ -546,8 +546,6 @@ export default function HomePage() {
           </div>
         </Reveal>
       ) : (
-        // <Fade direction="up" triggerOnce={true} duration={1000}>
-
         <div className="all-screen-content">
           <Helmet>
             <meta charSet="utf-8" />

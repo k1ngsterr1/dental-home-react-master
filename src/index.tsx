@@ -6,6 +6,7 @@ import {
   Route,
   Routes,
   useLocation,
+  Navigate,
 } from "react-router-dom";
 
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
@@ -51,38 +52,35 @@ ReactDOM.render(
     <ScrollToTop></ScrollToTop>
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/children-dental" element={<ChildDental />}></Route>
-      <Route path="/prices" element={<PricesPage />}></Route>
-      <Route path="/privacy" element={<Privacy />}></Route>
-      <Route path="/reviews" element={<ReviewsPage />}></Route>
-      <Route path="/works" element={<WorksPage />}></Route>
-      <Route path="/doctors" element={<DoctorsPage />}></Route>
-      <Route path="/clinics" element={<ClinicsPage />}></Route>
-      <Route path="/contacts" element={<ContactsPage />}></Route>
-      <Route path="/services/whitening" element={<Whitening />}></Route>
-      <Route path="/services/hygiene" element={<Hygiene />}></Route>
-      <Route
-        path="/services/bite-correction"
-        element={<BiteCorrection />}
-      ></Route>
-      <Route path="/services/teeth-healing" element={<TeethHealing />}></Route>
-      <Route path="/services/prosthetics" element={<ProstheticsPage />}></Route>
-      <Route path="/services/vinirs" element={<VinirsPage />}></Route>
-      <Route path="/services/surgery" element={<Surgery />}></Route>
-      <Route path="/services/diagnostic" element={<DiagnosticPage />}></Route>
+      <Route path="/index.html" element={<Home />} />
+      <Route path="/index.html" element={<Navigate replace to="/" />} />
+      <Route path="/index.shtml" element={<Navigate replace to="/" />} />
+      <Route path="/children-dental" element={<ChildDental />} />
+      <Route path="/prices" element={<PricesPage />} />
+      <Route path="/privacy" element={<Privacy />} />
+      <Route path="/reviews" element={<ReviewsPage />} />
+      <Route path="/works" element={<WorksPage />} />
+      <Route path="/doctors" element={<DoctorsPage />} />
+      <Route path="/clinics" element={<ClinicsPage />} />
+      <Route path="/contacts" element={<ContactsPage />} />
+      <Route path="/services/whitening" element={<Whitening />} />
+      <Route path="/services/hygiene" element={<Hygiene />} />
+      <Route path="/services/bite-correction" element={<BiteCorrection />} />
+      <Route path="/services/teeth-healing" element={<TeethHealing />} />
+      <Route path="/services/prosthetics" element={<ProstheticsPage />} />
+      <Route path="/services/vinirs" element={<VinirsPage />} />
+      <Route path="/services/surgery" element={<Surgery />} />
+      <Route path="/services/diagnostic" element={<DiagnosticPage />} />
       <Route
         path="/services/child-bite-correction"
         element={<ChildBiteCorrection />}
-      ></Route>
-      <Route
-        path="/services/child-diagnostic"
-        element={<ChildDiagnostic />}
-      ></Route>
-      <Route path="/services/child-surgery" element={<ChildSurgery />}></Route>
-      <Route path="/services/child-teeth" element={<ChildTeeth />}></Route>
-      <Route path="/services/child-hygiene" element={<ChildHygiene />}></Route>
-      <Route path="/services/child-sleep" element={<ChildSleep />}></Route>
-      <Route path="/error" element={<Error />}></Route>
+      />
+      <Route path="/services/child-diagnostic" element={<ChildDiagnostic />} />
+      <Route path="/services/child-surgery" element={<ChildSurgery />} />
+      <Route path="/services/child-teeth" element={<ChildTeeth />} />
+      <Route path="/services/child-hygiene" element={<ChildHygiene />} />
+      <Route path="/services/child-sleep" element={<ChildSleep />} />
+      <Route path="/error" element={<Error />} />
       <Route path="*" element={<Error />} />
     </Routes>
   </Router>,

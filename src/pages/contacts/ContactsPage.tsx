@@ -305,6 +305,26 @@ const ContactsPage = () => {
                 >
                   Для связи с нами, оставьте заявку или позвоните нам
                 </p>
+                <div
+                  className="adress"
+                  style={{ display: "flex", flexDirection: "column" }}
+                >
+                  <span className="text">
+                    г. Ивантеевка, Советский проспект 5
+                  </span>
+                  <span className="text">Пн-Вс - 9:00-20:00</span>
+                </div>
+                <div
+                  className="adress"
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    marginTop: "32px",
+                  }}
+                >
+                  <span className="text">г. Ивантеевка, Рощинская 9</span>
+                  <span className="text">Пн-Вс - 9:00-21:00</span>
+                </div>
               </div>
               <div
                 className="map-container"
@@ -450,7 +470,7 @@ const ContactsPage = () => {
               >
                 <div className="bread-dots-container">
                   <Link className="link" to="/">
-                    Контакты
+                    Главная
                   </Link>
                   <div className="bread-dot"></div>
                   <Link className="link-prices" to="/contacts">
@@ -469,6 +489,26 @@ const ContactsPage = () => {
                 >
                   Для связи с нами, оставьте заявку или позвоните нам
                 </p>
+                <div
+                  className="adress"
+                  style={{ display: "flex", flexDirection: "column" }}
+                >
+                  <span className="text">
+                    г. Ивантеевка, Советский проспект 5
+                  </span>
+                  <span className="text">Пн-Вс - 9:00-20:00</span>
+                </div>
+                <div
+                  className="adress"
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    marginTop: "32px",
+                  }}
+                >
+                  <span className="text">г. Ивантеевка, Рощинская 9</span>
+                  <span className="text">Пн-Вс - 9:00-21:00</span>
+                </div>
                 <div className="divider-container">
                   <div className="divider"></div>
                 </div>
