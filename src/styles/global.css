@@ -32,6 +32,42 @@ button, a {
   cursor: pointer;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.mt-16 {
+  margin-top: clamp(8px, 3.73824vw, 32px);
+}
+
+.mt-32 {
+  margin-top: clamp(16px, 7.47648vw, 64px);
+}
+
+.mt-64 {
+  margin-top: clamp(32px, 14.95296vw, 128px);
+}
+
+.pt-16 {
+  padding-top: clamp(8px, 3.73824vw, 32px);
+}
+
+.pt-32 {
+  padding-top: clamp(16px, 7.47648vw, 64px);
+}
+
+.mb-64 {
+  margin-bottom: clamp(32px, 14.95296vw, 128px);
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.w80 {
+  width: 80%;
+}
+
 .divider {
   width: 100%;
   height: 1px;

@@ -446,6 +446,134 @@ const ContactsPage = () => {
                   </form>
                 </section>
               </div>
+              <p className="paragraph text-center mt-64">
+                Почтовый адрес: 141282, МО, г. Ивантеевка, ул. Рощинская, д. 9
+              </p>
+              <p className="paragraph text-center mt-16">
+                Контактный телефон: 8 (925) 222-90-22{" "}
+              </p>
+              <p className="paragraph text-center mt-16">
+                Электронный адрес: dental-home@mail.ru{" "}
+              </p>
+              <p className="paragraph text-center mt-32">
+                <strong> Сведения о лицензии:</strong>
+              </p>
+              <p className="paragraph text-center mt-16 w80 m-auto mb-64">
+                Лицензия на медицинскую деятельность № Л041-01162-50/00663420,
+                выдана Министерством Здравоохранения Московской области, Дата
+                выдачи: 13.07.2023
+              </p>{" "}
+              <span className="paragraph text-center mt-32">
+                <strong>ИНН</strong>
+              </span>
+              <p className="paragraph text-center pt-16 w80 m-auto">
+                5038163740
+              </p>{" "}
+              <span className="paragraph text-center mt-32">
+                <strong>КПП</strong>
+              </span>
+              <p className="paragraph text-center pt-16 w80 m-auto">
+                503801001
+              </p>
+              <span className="paragraph text-center mt-32">
+                <strong>ОГРН</strong>
+              </span>
+              <p className="paragraph text-center pt-16 w80 m-auto">
+                1225000038856
+              </p>
+              <span className="paragraph text-center mt-32">
+                <strong>Дата образования</strong>
+              </span>
+              <p className="paragraph text-center pt-16 w80 m-auto">
+                20.04.2022
+              </p>
+              <span className="paragraph text-center mt-32">
+                <strong>Юридечский адрес</strong>
+              </span>
+              <p className="paragraph text-center pt-16 w80 m-auto">
+                141282, Московская область, г.о. Пушкинский, г Ивантеевка, ул
+                Рощинская, д. 9{" "}
+              </p>
+              <span className="paragraph text-center mt-32">
+                <strong>Основной вид деятельности</strong>
+              </span>
+              <p className="paragraph text-center pt-16 w80 m-auto">
+                Стоматологическая практика (86.23)
+              </p>
+              <span className="paragraph text-center mt-32">
+                <strong>Руководители</strong>
+              </span>
+              <p className="paragraph text-center pt-16 w80 m-auto">
+                Голубенкова Марина Михайловна (Генеральный Директор)
+              </p>
+              <span className="paragraph text-center pt-32 m-auto">
+                <strong> Скачать выписку из ЕГРЮЛ:</strong>
+                <br />
+                <a href="https://disk.yandex.ru/i/GPi7r6r04EyEdQ">
+                  https://disk.yandex.ru/i/GPi7r6r04EyEdQ
+                </a>
+              </span>
+              <p className="paragraph text-center pt-32 w80 m-auto">
+                <strong> Номера телефонов справочных служб</strong>
+              </p>
+              <p className="paragraph text-center pt-32 w80 m-auto">
+                <strong>МЧС: 101</strong>
+              </p>
+              <p className="paragraph text-center pt-32 w80 m-auto">
+                <strong>Полиция: 102</strong>
+              </p>
+              <p className="paragraph text-center pt-32 w80 m-auto">
+                <strong>Скорая помощь: 103</strong>
+              </p>
+              <p className="paragraph text-center pt-32 w80 m-auto">
+                <strong>Аварийная газовая служба: 104</strong>
+              </p>
+              <p className="paragraph text-center pt-32 w80 m-auto">
+                <strong>Вызов экстренных служб: 112</strong>
+              </p>
+              <p className="paragraph text-center pt-32 w80 m-auto">
+                <strong>
+                  Операторы линии «Ребёнок в опасности»: <br /> 121, 122, 123
+                </strong>
+              </p>
+              <p className="paragraph text-center pt-32 w80 m-auto">
+                <strong> Вышестоящие и контролирующие органы:</strong>
+              </p>
+              <p className="paragraph text-center pt-16 w80 m-auto">
+                Департамент здравоохранения Московской области Адрес: 143407,
+                Московская область, г. Красногорск, бульвар Строителей, д. 1.{" "}
+                <br />
+                <br />
+                Телефон: 8 (498) 602-03-01; 8 (498) 602-03-03 Сергиево-Посадский
+                территориальный отдел Управления Федеральной службы по надзору в
+                сфере защиты прав потребителей и благополучия человека по
+                Московской области Адрес: 141308, Московская область, г. Сергиев
+                Посад, Хотьковский проезд, д.18 Телефон: 8-496-540-22-25 <br />{" "}
+                <br />
+                Территориальный орган Росздравнадзора по г. Москве и Московской
+                области Адрес: 109316, Россия, г. Москва, Волгоградский
+                проспект, дом 27. Телефон: 8(916) 256-76-76
+              </p>
+              <p className="paragraph text-center pt-32 w80 m-auto">
+                <strong> Сведения о ТФОМС:</strong>
+              </p>
+              <p className="paragraph text-center pt-16 w80 m-auto">
+                Порядок и условия предоставления медицинской помощи в
+                соответствии с программой и территориальной программой Вы можете
+                узнать - https://www. mofoms.ru Предельные сроки ожидания
+                оказания бесплатной медицинской помощи в соответствии с
+                программой и территориальной программой Вы можете узнать -
+                https://www. mofoms.ru
+              </p>
+              <p className="paragraph text-center pt-32 w80 m-auto">
+                <strong>
+                  {" "}
+                  Стандарты медпомощи и клинические рекомендации:
+                </strong>
+              </p>
+              <p className="paragraph text-center pt-16 w80 m-auto">
+                pravo.gov.ru и cr.minzdrav.gov.ru
+              </p>
             </main>
           </div>
           <div className="pc-content-c" style={{ width: "100%" }}>
