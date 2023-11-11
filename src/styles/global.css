@@ -123,6 +123,27 @@ button, a {
 }
 
 @media screen and (min-width: 1024px) {
+  .mt-16 {
+    margin-top: clamp(8px, 0.83328vw, 32px);
+  }
+  .mt-32 {
+    margin-top: clamp(16px, 1.66656vw, 64px);
+  }
+  .mt-64 {
+    margin-top: clamp(32px, 3.33312vw, 128px);
+  }
+  .pt-16 {
+    padding-top: clamp(8px, 0.83328vw, 32px);
+  }
+  .pt-32 {
+    padding-top: clamp(16px, 1.66656vw, 64px);
+  }
+  .pb-64 {
+    padding-bottom: clamp(32px, 3.33312vw, 128px);
+  }
+  .mb-64 {
+    margin-bottom: clamp(32px, 3.33312vw, 128px);
+  }
   .loader {
     width: 100vw;
     height: 100vh;
