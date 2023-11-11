@@ -62,7 +62,7 @@ const Menu: React.FC<MenuProps> = ({
         <div className="menu-content">
           <div className="navigation-container">
             <div className="column-one">
-              <Link to="/home" className="golden-link">
+              <Link to="/" className="golden-link">
                 Главная
               </Link>
               <Link to="/clinics" className="golden-link l" onClick={closeMenu}>
@@ -138,7 +138,7 @@ const Menu: React.FC<MenuProps> = ({
         <div className="menu-content">
           <div className="column-one">
             <nav className="links">
-              <Link to="/home" className="golden-link">
+              <Link to="/" className="golden-link">
                 Главная
               </Link>
               <Link
@@ -280,7 +280,7 @@ const Menu: React.FC<MenuProps> = ({
           <div className="nav-links">
             <img className="logo" src={logo} alt="logo"></img>
             <nav className="nav">
-              <Link to="/home" className="link">
+              <Link to="/" className="link">
                 Главная
               </Link>
               <Link to="/clinics" className="link">

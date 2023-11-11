@@ -53,6 +53,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/index.html" element={<Home />} />
+      <Route path="/index.shtml" element={<Home />} />
       <Route path="/index.html" element={<Navigate replace to="/" />} />
       <Route path="/index.shtml" element={<Navigate replace to="/" />} />
       <Route path="/children-dental" element={<ChildDental />} />
