@@ -1561,7 +1561,7 @@ export default function HomePage() {
                 openModal={openModal}
                 imageSrcFour={doctorFourMob}
                 imageSrcFive={doctorFiveMob}
-                imageSrcSix={doctorSixMob}
+                // imageSrcSix={doctorSixMob}
                 imageSrcSeven={doctorTenMob}
                 imageSrcEight={doctorEightMob}
                 imageSrcNine={doctorNineMob}
@@ -1580,7 +1580,7 @@ export default function HomePage() {
                 imageSrc3={doctorThree}
                 imageSrc4={doctorFour}
                 imageSrc5={doctorFive}
-                imageSrc6={doctorSix}
+                // imageSrc6={doctorSix}
                 imageSrc7={doctorTen}
                 imageSrc8={doctorEight}
                 imageSrc9={doctorNine}

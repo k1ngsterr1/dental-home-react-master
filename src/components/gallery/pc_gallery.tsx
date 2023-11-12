@@ -148,20 +148,7 @@ const PcGallery: React.FC<PhotoSource> = ({
             <p className="doctor-position">Стоматолог-терапевт</p>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="dentist-card">
-            <div className="button-image-container" onClick={openModal}>
-              <button className="doctor-btn">
-                <span className="text">Записаться</span>
-              </button>
-              <img src={imageSrc6} alt="Doctor 1" className="doctor-image" />
-            </div>
-            <h3 className="doctor-name">Бурмистрова Анастасия Игоревна. </h3>
-            <p className="doctor-position">
-              Врач стоматолог терапевт-микроскопист
-            </p>
-          </div>
-        </SwiperSlide>
+
         <SwiperSlide>
           <div className="dentist-card">
             <div className="button-image-container">
