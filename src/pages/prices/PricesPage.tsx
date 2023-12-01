@@ -1134,7 +1134,7 @@ const PricesPage = () => {
                   ></PriceTabLong>
                   <PriceTabLong
                     tabHeadign="Ретенция"
-                    paragraphOne="Несъмныйретейнер на 1 зубной ряд"
+                    paragraphOne="Несъемный ретейнер на 1 зубной ряд"
                     priceOne="7000₽"
                     paragraphTwo="Ретенционный съемный аппарат на 1 зубной ряд "
                     priceTwo="8000₽"
@@ -1935,7 +1935,7 @@ const PricesPage = () => {
                     ></PriceTabLong>
                     <PriceTabLong
                       tabHeadign="Ретенция"
-                      paragraphOne="Несъмныйретейнер на 1 зубной ряд"
+                      paragraphOne="Несъемный ретейнер на 1 зубной ряд"
                       priceOne="7000₽"
                       paragraphTwo="Ретенционный съемный аппарат на 1 зубной ряд "
                       priceTwo="8000₽"
