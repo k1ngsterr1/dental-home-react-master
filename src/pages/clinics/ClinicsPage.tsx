@@ -270,7 +270,9 @@ const ClinicsPage = () => {
                     О клиниках
                   </Link>
                 </div>
-                <h1 className="heading">О клиниках</h1>
+                <h1 className="heading">
+                  Стоматологии в Ивантеевке Dental Home
+                </h1>
                 <div className="divider-container">
                   <div className="divider"></div>
                 </div>
@@ -525,7 +527,9 @@ const ClinicsPage = () => {
                   </Link>
                 </div>
                 <div className="heading-container">
-                  <h1 className="heading">О Клиниках</h1>
+                  <h1 className="heading">
+                    Стоматологии в Ивантеевке Dental Home
+                  </h1>
                 </div>
                 <div className="divider-container">
                   <div className="divider"></div>

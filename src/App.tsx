@@ -1055,7 +1055,7 @@ export default function HomePage() {
                 {isWhiteningOpened && (
                   <ExpandedTab
                     service_text="Диагностика"
-                    link_text="Рентгенолоия"
+                    link_text="Рентгенология"
                     link_text_2="Исследования и диагностика"
                     link_text_3=""
                     link_text_4=""
@@ -1379,7 +1379,7 @@ export default function HomePage() {
                       <div className="row"></div>
                       <span className="row-text">Диагностика</span>
                       <Link to="/services/diagnostic" className="gold-text two">
-                        Рентгенолоия
+                      Рентгенология
                       </Link>
                       <Link to="/services/diagnostic" className="gold-text two">
                         Исследования и диагностика
