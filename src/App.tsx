@@ -1167,7 +1167,7 @@ export default function HomePage() {
                 {isParodontHealingOpened && (
                   <ExpandedTab
                     service_text="Исправление прикуса"
-                    link_text="Ортодоническая коррекция с применением брекет-системы"
+                    link_text="Ортодонтическая коррекция с применением брекет-системы"
                     link_text_2="Ретенция"
                     link_text_3="Дополнительные приспособления"
                     link_text_4=""
@@ -1379,7 +1379,7 @@ export default function HomePage() {
                       <div className="row"></div>
                       <span className="row-text">Диагностика</span>
                       <Link to="/services/diagnostic" className="gold-text two">
-                      Рентгенология
+                        Рентгенология
                       </Link>
                       <Link to="/services/diagnostic" className="gold-text two">
                         Исследования и диагностика
@@ -1485,7 +1485,7 @@ export default function HomePage() {
                         to="/services/bite-correction"
                         className="gold-text"
                       >
-                        Ортодоническая коррекция с применением брекет-системы
+                        Ортодонтическая коррекция с применением брекет-системы
                       </Link>
                       <Link
                         to="/services/bite-correction"

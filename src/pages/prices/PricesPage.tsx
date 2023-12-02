@@ -1091,7 +1091,7 @@ const PricesPage = () => {
                 >
                   <h2 className="heading">Ортодонтия</h2>
                   <PriceTabLong
-                    tabHeadign="Ортодоническая коррекция с применением брекет-системы"
+                    tabHeadign="Ортодонтическая коррекция с применением брекет-системы"
                     paragraphOne="I степени сложности "
                     priceOne="65000₽"
                     paragraphTwo="II степени сложности"
@@ -1158,11 +1158,11 @@ const PricesPage = () => {
                     priceFour="4000₽"
                     paragraphFive="Межчелюстные тяги"
                     priceFive="500₽"
-                    paragraphSix="Изготовление коронки ортодонической"
+                    paragraphSix="Изготовление коронки ортодонтической"
                     priceSix="5000₽"
-                    paragraphSeven="Изготовление кольца-петли ортодонического"
+                    paragraphSeven="Изготовление кольца-петли ортодонтического"
                     priceSeven="9000₽"
-                    paragraphEight="Повторная фиксация кольца-петли ортодонического"
+                    paragraphEight="Повторная фиксация кольца-петли ортодонтического"
                     priceEight="2000₽"
                     paragraphNine="Снятие оттиска с одной челюсти альгинатными массами "
                     priceNine="500₽"
@@ -1892,7 +1892,7 @@ const PricesPage = () => {
                   >
                     <h2 className="heading">Ортодонтия</h2>
                     <PriceTabLong
-                      tabHeadign="Ортодоническая коррекция с применением брекет-системы"
+                      tabHeadign="Ортодонтическая коррекция с применением брекет-системы"
                       paragraphOne="I степени сложности "
                       priceOne="65000₽"
                       paragraphTwo="II степени сложности"
@@ -1959,11 +1959,11 @@ const PricesPage = () => {
                       priceFour="4000₽"
                       paragraphFive="Межчелюстные тяги"
                       priceFive="500₽"
-                      paragraphSix="Изготовление коронки ортодонической"
+                      paragraphSix="Изготовление коронки ортодонтической"
                       priceSix="5000₽"
-                      paragraphSeven="Изготовление кольца-петли ортодонического"
+                      paragraphSeven="Изготовление кольца-петли ортодонтического"
                       priceSeven="9000₽"
-                      paragraphEight="Повторная фиксация кольца-петли ортодонического"
+                      paragraphEight="Повторная фиксация кольца-петли ортодонтического"
                       priceEight="2000₽"
                       paragraphNine="Снятие оттиска с одной челюсти альгинатными массами "
                       priceNine="500₽"
