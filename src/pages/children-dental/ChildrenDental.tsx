@@ -22,6 +22,7 @@ import {
   faChevronRight,
   faClose,
 } from "@fortawesome/free-solid-svg-icons";
+import PcGallery from "../../components/gallery/pc_gallery";
 
 const DoctorOnePc = require("../../assets/1.webp");
 const DoctorTwoPc = require("../../assets/2.webp");
@@ -550,6 +551,119 @@ const ChildDental = () => {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="mt-64">
+              <PcGallery
+                imageSrc={DoctorOnePc}
+                imageSrc3={DoctorThreePc}
+                openModal={openModal}
+                imageSrc4={DoctorFourPc}
+                imageSrc5={DoctorFivePc}
+                imageSrc6={DoctorSixPc}
+                imageSrc7={doctorTen}
+                imageSrc8={DoctorEightPc}
+                imageSrc9={doctorTen}
+              />
+            </div>
+            <div
+              className="form-pc-screen mt-64"
+              id="form-screen"
+              ref={form}
+              onSubmit={sendEmail}
+            >
+              <section className="content">
+                <div className="heading-container">
+                  <h5 className="heading text-center">Записаться На Прием</h5>
+                </div>
+                <div className="divider"></div>
+                <form action="" className="form-content">
+                  <div className="row-c">
+                    <div className="input-container">
+                      <span className="text">Имя*</span>
+                      <input
+                        type="text"
+                        className="input-c"
+                        required={true}
+                        value={fullName}
+                        name="fullName"
+                        onChange={(event) => setFullName(event.target.value)}
+                        placeholder="Иван Иванов"
+                      />
+                    </div>
+                    <div className="input-container">
+                      <span className="text">Телефон*</span>
+                      <input
+                        type="text"
+                        className="input-c"
+                        required={true}
+                        value={phoneNumber}
+                        name="phoneNumber"
+                        onChange={(event) => setPhoneNumber(event.target.value)}
+                        placeholder="+7 (925) 222-90-22"
+                      />
+                    </div>
+                  </div>
+                  <div className="row-c">
+                    <div className="input-container services">
+                      <span className="text">Услуга</span>
+                      <input
+                        type="text"
+                        placeholder="Выберите Услугу"
+                        required={true}
+                        value={serviceName}
+                        name="serviceName"
+                        onChange={(event) => setServiceName(event.target.value)}
+                        className="input-s"
+                      />
+                    </div>
+                  </div>
+                  <div className="row-c"></div>
+                  <div className="row-c">
+                    <div className="input-container services">
+                      <span className="text">Врач</span>
+                      <input
+                        type="text"
+                        placeholder="Выберите Врача"
+                        required={true}
+                        value={doctorName}
+                        name="doctorName"
+                        onChange={(event) => setDoctorName(event.target.value)}
+                        className="input-s"
+                      />
+                    </div>
+                  </div>
+                  <div className="row-c">
+                    <div className="input-container services">
+                      <span className="text">Комментарий</span>
+                      <textarea
+                        className="comment"
+                        name="comment"
+                        value={comment}
+                        onChange={(event) => setComment(event.target.value)}
+                      />
+                    </div>
+                  </div>
+                  <div className="checkbox-container">
+                    <div className="check-row">
+                      <input type="checkbox" className="checkbox" />
+                      <span className="text">
+                        Ознакомлен с Условиями обработки персональных данных
+                      </span>
+                    </div>
+                    <button className="golden-btn" value="Send">
+                      Записаться на прием
+                      <FontAwesomeIcon
+                        icon={faChevronRight}
+                        className="icon"
+                        style={{
+                          fontSize: "clamp(6px,0.62496vw,24px)",
+                          marginLeft: "clamp(4px,0.41664vw,16px)",
+                        }}
+                      ></FontAwesomeIcon>
+                    </button>
+                  </div>
+                </form>
+              </section>
             </div>
           </div>
           <Footer />

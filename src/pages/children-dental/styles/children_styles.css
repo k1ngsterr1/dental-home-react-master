@@ -344,6 +344,162 @@ body .screen-children .pc-screen {
     width: clamp(265px, 27.6024vw, 1060px);
     height: clamp(265px, 27.6024vw, 1060px);
   }
+  body .screen-children .pc-screen .form-pc-screen {
+    width: 100%;
+    height: auto;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .screen-children .pc-screen .form-pc-screen .content {
+    width: 71.8229166667%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  body .screen-children .pc-screen .form-pc-screen .content .heading-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+  }
+  body .screen-children .pc-screen .form-pc-screen .content .heading-container .heading {
+    width: 40%;
+    color: #202637;
+    font-family: Merriweather;
+    font-size: clamp(24px, 2.49984vw, 96px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 137.4%;
+    text-transform: capitalize;
+    margin: auto;
+  }
+  body .screen-children .pc-screen .form-pc-screen .content .divider {
+    width: 100%;
+    height: 1px;
+    background-color: #202637;
+    margin-top: clamp(8px, 0.83328vw, 32px);
+  }
+  body .screen-children .pc-screen .form-pc-screen .content .form-content {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: clamp(32px, 3.33312vw, 128px);
+  }
+  body .screen-children .pc-screen .form-pc-screen .content .form-content .row-c {
+    width: clamp(305px, 31.7688vw, 1220px);
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  body .screen-children .pc-screen .form-pc-screen .content .form-content .row-c .input-container {
+    display: flex;
+    flex-direction: column;
+  }
+  body .screen-children .pc-screen .form-pc-screen .content .form-content .row-c .input-container .text {
+    color: rgba(32, 38, 55, 0.7);
+    font-family: Raleway;
+    font-size: clamp(8px, 0.83328vw, 32px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.4%;
+  }
+  body .screen-children .pc-screen .form-pc-screen .content .form-content .row-c .input-container .input-c {
+    width: clamp(144.5px, 15.05112vw, 578px);
+    height: clamp(25px, 2.604vw, 100px);
+    border-radius: 4px;
+    color: rgba(32, 38, 55, 0.6);
+    font-family: Raleway;
+    background-color: #F4F4F4;
+    font-size: clamp(8px, 0.83328vw, 32px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.4%;
+    border: 2px solid rgba(32, 38, 55, 0.6);
+    padding-left: clamp(16px, 1.66656vw, 64px);
+    margin-top: clamp(4px, 0.41664vw, 16px);
+  }
+  body .screen-children .pc-screen .form-pc-screen .content .form-content .row-c .input-container .input-s {
+    width: clamp(305px, 31.7688vw, 1220px);
+    height: clamp(25px, 2.604vw, 100px);
+    border-radius: 4px;
+    background-color: #F4F4F4;
+    color: rgba(32, 38, 55, 0.6);
+    font-family: Raleway;
+    font-size: clamp(8px, 0.83328vw, 32px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.4%;
+    border: 2px solid rgba(32, 38, 55, 0.6);
+    padding-left: clamp(16px, 1.66656vw, 64px);
+    margin-top: clamp(4px, 0.41664vw, 16px);
+  }
+  body .screen-children .pc-screen .form-pc-screen .content .form-content .row-c .services {
+    margin-top: clamp(16px, 1.66656vw, 64px);
+  }
+  body .screen-children .pc-screen .form-pc-screen .content .form-content .row-c .comment {
+    width: clamp(305px, 31.7688vw, 1220px);
+    border-radius: 4px;
+    background-color: #F4F4F4;
+    color: rgba(32, 38, 55, 0.6);
+    font-family: Raleway;
+    font-size: clamp(8px, 0.83328vw, 32px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.4%;
+    border: 2px solid rgba(32, 38, 55, 0.6);
+    padding-left: clamp(16px, 1.66656vw, 64px);
+    padding-top: clamp(16px, 1.66656vw, 64px);
+    margin-top: clamp(4px, 0.41664vw, 16px);
+  }
+  body .screen-children .pc-screen .form-pc-screen .content .form-content .checkbox-container {
+    width: 85%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    margin-top: clamp(16px, 1.66656vw, 64px);
+  }
+  body .screen-children .pc-screen .form-pc-screen .content .form-content .checkbox-container .check-row {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+  body .screen-children .pc-screen .form-pc-screen .content .form-content .checkbox-container .check-row .checkbox {
+    width: clamp(16px, 1.66656vw, 64px);
+    height: clamp(16px, 1.66656vw, 64px);
+    border-radius: 4px;
+    border: 2px solid #202637;
+  }
+  body .screen-children .pc-screen .form-pc-screen .content .form-content .checkbox-container .check-row .text {
+    width: 60%;
+    color: #202637;
+    font-family: Raleway;
+    font-size: clamp(7.5px, 0.7812vw, 30px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.4%;
+    margin-left: clamp(8px, 0.83328vw, 32px);
+  }
+  body .screen-children .pc-screen .form-pc-screen .content .form-content .checkbox-container .golden-btn {
+    width: clamp(125px, 13.02vw, 500px);
+    height: clamp(23px, 2.39568vw, 92px);
+    background: linear-gradient(90deg, #E8CB6C 0%, #B29D55 100%);
+    color: #202637;
+    font-family: Raleway;
+    font-size: clamp(8px, 0.83328vw, 32px);
+    border: none;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 137.4%;
+    transition: 0.3s all;
+  }
+  body .screen-children .pc-screen .form-pc-screen .content .form-content .checkbox-container .golden-btn:hover {
+    color: #F4F4F4;
+  }
   body .screen-children .footer .content {
     display: none;
   }
