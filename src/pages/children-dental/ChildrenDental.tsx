@@ -1,16 +1,18 @@
 import React, { useState, useEffect, useRef, RefObject } from "react";
+import Gallery from "../../components/gallery/gallery";
+import emailjs from "@emailjs/browser";
 import { Helmet } from "react-helmet";
 import Header from "../../components/header/header";
 import Footer from "../../components/footer/Footer";
-import "./styles/children_styles.css";
 import Popup from "reactjs-popup";
+import { MDBCheckbox } from "mdb-react-ui-kit";
 import { Link, useNavigate } from "react-router-dom";
 import { keyframes } from "@emotion/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faVideo, faPlay } from "@fortawesome/free-solid-svg-icons";
-
 import { Reveal } from "react-awesome-reveal";
-import emailjs from "@emailjs/browser";
+
+import "./styles/children_styles.css";
 
 import {
   faPlus,
@@ -20,6 +22,28 @@ import {
   faChevronRight,
   faClose,
 } from "@fortawesome/free-solid-svg-icons";
+
+const DoctorOnePc = require("../../assets/1.webp");
+const DoctorTwoPc = require("../../assets/2.webp");
+const DoctorThreePc = require("../../assets/3.webp");
+const DoctorFourPc = require("../../assets/4.webp");
+const DoctorFivePc = require("../../assets/5.webp");
+const DoctorSixPc = require("../../assets/6.webp");
+const DoctorSevenPc = require("../../assets/7.webp");
+const DoctorEightPc = require("../../assets/8.webp");
+const DoctorNinePc = require("../../assets/9.webp");
+const doctorTen = require("../../assets/yana_pc.webp");
+
+const doctorOneMob = require("../../assets/01.webp");
+const doctorTwoMob = require("../../assets/02.webp");
+const doctorThreeMob = require("../../assets/03.webp");
+const doctorFourMob = require("../../assets/04.webp");
+const doctorFiveMob = require("../../assets/05.webp");
+const doctorSixMob = require("../../assets/06.webp");
+const doctorSevenMob = require("../../assets/07.webp");
+const doctorEightMob = require("../../assets/08.webp");
+const doctorNineMob = require("../../assets/09.webp");
+const doctorTenMob = require("../../assets/yana_mob.webp");
 
 const childIllustration = require("../../assets/child_illustration.webp");
 
@@ -50,6 +74,30 @@ const ChildDental = () => {
   const [serviceName, setServiceName] = useState("");
   const [doctorName, setDoctorName] = useState("");
   const [comment, setComment] = useState("");
+
+  const form: RefObject<HTMLDivElement> = useRef(null);
+
+  function sendEmail(e: any) {
+    e.preventDefault();
+    setFullName("");
+    setPhoneNumber("");
+    setServiceName("");
+    setDoctorName("");
+    setServiceName("");
+
+    emailjs
+      .sendForm(
+        "service_kwh5orp",
+        "template_5kdc5wu",
+        e.target,
+        "b-K7bdT7JW4cqcN4y"
+      )
+      .then((res) => {
+        setThankYou(true);
+        console.log("SUCCESS");
+      })
+      .catch((err) => console.log(err));
+  }
 
   function openPopupWindow() {
     setOpen(true);
@@ -257,6 +305,154 @@ const ChildDental = () => {
                 </div>
               </div>
             </div>
+            <Gallery
+              imageSrc={doctorOneMob}
+              // imageSrcTwo={doctorTwoMob}
+              imageSrcThree={doctorThreeMob}
+              openModal={openModal}
+              imageSrcFour={doctorFourMob}
+              imageSrcFive={doctorFiveMob}
+              imageSrcSix={doctorSixMob}
+              imageSrcSeven={doctorTenMob}
+              imageSrcEight={doctorEightMob}
+              imageSrcNine={doctorTenMob}
+            />
+            <div
+              className="form-screen"
+              id="form-screen-mob"
+              ref={form}
+              onSubmit={sendEmail}
+            >
+              <section className="content">
+                <div className="form-heading-container">
+                  <h3 className="form-heading">Записаться На Прием</h3>
+                </div>
+                <div className="divider"></div>
+                <p className="paragraph text-center mt-16">
+                  Детская стоматология в Ивантеевке - это наша специализация! Мы
+                  предлагаем платную детскую стоматологию высокого уровня,
+                  которая поможет сохранить здоровье зубов вашего ребенка на
+                  долгие годы. Наша детская семейная стоматология в Ивантеевке
+                  готова предложить вам комплексную процедуру лечения зубов.
+                  Профессиональные стоматологи Dental Home используют только
+                  современное оборудование и материалы для лечения зубов детей.
+                  Мы проводим все виды лечения зубов, от простой пломбы до
+                  сложной хирургической операции.
+                </p>
+                <form action="" className="form">
+                  <div className="input-container">
+                    <label htmlFor="name" className="la">
+                      Имя*
+                    </label>
+                    <input
+                      type="text"
+                      required={true}
+                      value={fullName}
+                      name="fullName"
+                      onChange={(event) => setFullName(event.target.value)}
+                      className="input-text"
+                      placeholder="Иван Иванов"
+                    />
+                  </div>
+                  <div className="input-container">
+                    <label htmlFor="phone" className="la">
+                      Номер телефона*
+                    </label>
+                    <input
+                      type="tel"
+                      value={phoneNumber}
+                      onChange={(event) => setPhoneNumber(event.target.value)}
+                      name="phoneNumber"
+                      className="input-text"
+                      placeholder="+7 (925) 222-90-22"
+                    />
+                  </div>
+                  <div className="input-container">
+                    <label htmlFor="service" className="la">
+                      Услуга
+                    </label>
+                    <input
+                      type="text"
+                      value={serviceName}
+                      onChange={(event) => setServiceName(event.target.value)}
+                      name="serviceName"
+                      placeholder="Выберите Услугу"
+                      className="input-text"
+                    />
+                  </div>
+                  {/* <div className="input-container">
+                    <label htmlFor="direction" className="la">
+                      Направление
+                    </label>
+                    <input
+                      type="text"
+                      name="direction"
+                      placeholder="Выберите Направление"
+                      className="input-text"
+                    />
+                  </div> */}
+                  <div className="input-container">
+                    <label htmlFor="doctor" className="la">
+                      Врач
+                    </label>
+                    <input
+                      type="text"
+                      name="doctorName"
+                      value={doctorName}
+                      onChange={(event) => setDoctorName(event.target.value)}
+                      placeholder="Выберите Врача"
+                      className="input-text"
+                    />
+                  </div>
+                  <div className="input-container">
+                    <label htmlFor="comment" className="la">
+                      Комментарий
+                    </label>
+                    <textarea
+                      name="comment"
+                      value={comment}
+                      onChange={(event) => setComment(event.target.value)}
+                      className="comment"
+                    ></textarea>
+                  </div>
+                  <div className="checkbox-container">
+                    <div className="checkbox-container-2">
+                      <MDBCheckbox
+                        name="flexCheck"
+                        value=""
+                        id="flexCheckChecked"
+                        label="Ознакомлен с Условиями обработки персональных данных"
+                        defaultChecked
+                      />
+                    </div>
+                  </div>
+                  <button className="form-button" value="Send">
+                    Записаться на прием
+                    <FontAwesomeIcon
+                      className="icon"
+                      icon={faChevronRight}
+                      style={{
+                        fontSize: "clamp(7px,3.2709599999999996vw,28px",
+                        marginLeft: "clamp(4px,1.86912vw,16px)",
+                      }}
+                    ></FontAwesomeIcon>
+                  </button>
+                </form>
+                <p className="paragraph text-center mt-32">
+                  Записаться к детскому стоматологу можно по телефону,
+                  указанному на нашем сайте. Наши детские стоматологи готовы
+                  ответить на все ваши вопросы и помочь выбрать наилучший
+                  вариант лечения зубов для вашего ребенка. Мы заботимся о
+                  здоровье зубов детей и предлагаем индивидуальный подход к
+                  каждому маленькому пациенту. Мы стремимся сделать каждый визит
+                  к нам максимально комфортным и безболезненным. Не откладывайте
+                  визит к детскому стоматологу на потом! Запишитесь к нам уже
+                  сегодня и получите профессиональную помощь в сохранении
+                  здоровья зубов вашего ребенка. Наша детская стоматология в
+                  Ивантеевке готова помочь вам в любое время!
+                </p>
+              </section>
+            </div>
           </div>
           <div className="pc-screen">
             <Header
@@ -356,7 +552,7 @@ const ChildDental = () => {
               </div>
             </div>
           </div>
-          <Footer></Footer>
+          <Footer />
           <Popup
             open={open}
             closeOnDocumentClick
