@@ -60,11 +60,15 @@ interface ExpandedService {
   link_text_2?: string;
   link_text_3?: string;
   link_text_4?: string;
+  link_text_5?: string;
+  link_text_6?: string;
   href: string;
-  href_2?: string;
-  href_3?: string;
+  href_2?: any;
+  href_3?: any;
   openModal?: any;
-  href_4?: string;
+  href_4?: any;
+  href_5?: any;
+  href_6?: any;
 }
 
 interface ReviewTabProps {
@@ -183,14 +187,17 @@ const ExpandedTab: React.FC<ExpandedService> = (props) => {
         <Link to={props.href} className="golden-link">
           {props.link_text}
         </Link>
-        <Link to={props.href} className="golden-link">
+        <Link to={props.href_2} className="golden-link">
           {props.link_text_2}
         </Link>
-        <Link to={props.href} className="golden-link">
+        <Link to={props.href_3} className="golden-link">
           {props.link_text_3}
         </Link>
-        <Link to={props.href} className="golden-link">
+        <Link to={props.href_4} className="golden-link">
           {props.link_text_4}
+        </Link>
+        <Link to={props.href_5} className="golden-link">
+          {props.link_text_5}
         </Link>
       </div>
     </div>
@@ -1197,12 +1204,13 @@ export default function HomePage() {
                     service_text="Профилактика и гигиена"
                     link_text="Профилактика и гигиена"
                     link_text_2="Профессиональная чистка зубов"
-                    link_text_3=""
-                    link_text_4=""
+                    link_text_3="Чистка зубов AirFlow"
+                    link_text_4="Профессиональное отбеливание зубов Amazing White"
+                    link_text_5=""
                     href="/services/hygiene"
                     href_2="/services/teeth-cleaning"
-                    href_3="/services/hygiene"
-                    href_4="/services/hygiene"
+                    href_3="/services/airflow"
+                    href_4="/services/amazing-white"
                   />
                 )}
               </div>
@@ -1520,6 +1528,15 @@ export default function HomePage() {
                       <span className="row-text">Профилактика и гигиена</span>
                       <Link to="/services/hygiene" className="gold-text">
                         Профилактика и гигиена
+                      </Link>
+                      <Link to="/services/airflow" className="gold-text">
+                        Профессиональная чиста зубов
+                      </Link>
+                      <Link to="/services/teeth-cleaning" className="gold-text">
+                        Чистка зубов Airflow
+                      </Link>
+                      <Link to="/services/amazing-white" className="gold-text">
+                        Профессиональное отбеливание зубов Amazing White
                       </Link>
                     </div>
                   </Fade>

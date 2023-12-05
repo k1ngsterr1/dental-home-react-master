@@ -39,6 +39,7 @@ import ChildDiagnostic from "./pages/services/child-diagnostic/ChildDiagnostic";
 import Cleaning from "./pages/services/teeth-cleaning/TeethCleaning";
 import AirFlow from "./pages/services/airflow/Airflow";
 import AmazingWhite from "./pages/services/amazing-white/AmazingWhite";
+import ZoomWhitening from "./pages/services/zoom-whitening/ZoomWhitening";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -78,6 +79,8 @@ ReactDOM.render(
       <Route path="/services/airflow" element={<AirFlow />} />
       <Route path="/services/amazing-white" element={<AmazingWhite />} />
       <Route path="/services/diagnostic" element={<DiagnosticPage />} />
+      <Route path="/services/zoom-whitening" element={<ZoomWhitening />} />
+
       <Route
         path="/services/child-bite-correction"
         element={<ChildBiteCorrection />}
