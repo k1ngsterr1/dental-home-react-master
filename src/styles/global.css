@@ -68,6 +68,14 @@ button, a {
   width: 80%;
 }
 
+.w60 {
+  width: 60% !important;
+}
+
+.w40 {
+  width: 40% !important;
+}
+
 .divider {
   width: 100%;
   height: 1px;

@@ -1196,11 +1196,11 @@ export default function HomePage() {
                   <ExpandedTab
                     service_text="Профилактика и гигиена"
                     link_text="Профилактика и гигиена"
-                    link_text_2=""
+                    link_text_2="Профессиональная чистка зубов"
                     link_text_3=""
                     link_text_4=""
                     href="/services/hygiene"
-                    href_2="/services/hygiene"
+                    href_2="/services/teeth-cleaning"
                     href_3="/services/hygiene"
                     href_4="/services/hygiene"
                   />
@@ -2162,18 +2162,4 @@ export default function HomePage() {
       )}
     </div>
   );
-}
-
-{
-  /* <IfModule mod_rewrite.c>
-
-RewriteEngine On
-RewriteBase /
-RewriteRule ^index\.html$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-l
-RewriteRule . /index.html [L]
-
-</IfModule> */
 }

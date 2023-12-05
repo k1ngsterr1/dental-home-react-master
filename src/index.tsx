@@ -36,6 +36,9 @@ import ChildTeeth from "./pages/services/child-teeth-healing/ChildTeeth";
 import ChildHygiene from "./pages/services/child-hygiene/ChildHygiene";
 import ChildSleep from "./pages/services/child-healing-insleep/ChildSleep";
 import ChildDiagnostic from "./pages/services/child-diagnostic/ChildDiagnostic";
+import Cleaning from "./pages/services/teeth-cleaning/TeethCleaning";
+import AirFlow from "./pages/services/airflow/Airflow";
+import AmazingWhite from "./pages/services/amazing-white/AmazingWhite";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -71,6 +74,9 @@ ReactDOM.render(
       <Route path="/services/prosthetics" element={<ProstheticsPage />} />
       <Route path="/services/vinirs" element={<VinirsPage />} />
       <Route path="/services/surgery" element={<Surgery />} />
+      <Route path="/services/cleaning" element={<Cleaning />} />
+      <Route path="/services/airflow" element={<AirFlow />} />
+      <Route path="/services/amazing-white" element={<AmazingWhite />} />
       <Route path="/services/diagnostic" element={<DiagnosticPage />} />
       <Route
         path="/services/child-bite-correction"
