@@ -244,6 +244,7 @@ export default function HomePage() {
   const [isVinirsOpened, setVinirsOpen] = useState(false);
   const [isParodontHealingOpened, setParodontHealingOpen] = useState(false);
   const [isProthesisOpened, setProthesisOpen] = useState(false);
+  const [isTeethSleepOpened, setTeethHealSleepOpened] = useState(false);
   const [isDiagnosisOpened, setDiagnosisOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -308,6 +309,7 @@ export default function HomePage() {
     setVinirsOpen(false);
     setProthesisOpen(false);
     setDiagnosisOpen(false);
+    setTeethHealSleepOpened(false);
   };
 
   const whiteningExpansion = () => {
@@ -319,6 +321,7 @@ export default function HomePage() {
     setVinirsOpen(false);
     setProthesisOpen(false);
     setDiagnosisOpen(false);
+    setTeethHealSleepOpened(false);
   };
 
   const mouthHygieneExpansion = () => {
@@ -330,6 +333,7 @@ export default function HomePage() {
     setVinirsOpen(false);
     setProthesisOpen(false);
     setDiagnosisOpen(false);
+    setTeethHealSleepOpened(false);
   };
 
   const healingInSleepExpansion = () => {
@@ -352,6 +356,7 @@ export default function HomePage() {
     setVinirsOpen(false);
     setProthesisOpen(false);
     setDiagnosisOpen(false);
+    setTeethHealSleepOpened(false);
   };
 
   const vinirExpansion = () => {
@@ -363,6 +368,7 @@ export default function HomePage() {
     setVinirsOpen(!isVinirsOpened);
     setProthesisOpen(false);
     setDiagnosisOpen(false);
+    setTeethHealSleepOpened(false);
   };
 
   const prothesisExpansion = () => {
@@ -373,6 +379,18 @@ export default function HomePage() {
     setParodontHealingOpen(false);
     setProthesisOpen(!isProthesisOpened);
     setDiagnosisOpen(false);
+    setTeethHealSleepOpened(false);
+  };
+
+  const teethInSleepExpansion = () => {
+    setToothHealingOpen(false);
+    setWhiteningOpen(false);
+    setMouthHygieneOpen(false);
+    setHealingInSleepOpen(false);
+    setParodontHealingOpen(false);
+    setProthesisOpen(false);
+    setDiagnosisOpen(false);
+    setTeethHealSleepOpened(!isTeethSleepOpened);
   };
 
   const diagnosisExpansion = () => {
@@ -1213,6 +1231,20 @@ export default function HomePage() {
                     href_4="/services/amazing-white"
                   />
                 )}
+                {isTeethSleepOpened && (
+                  <ExpandedTab
+                    service_text="Лечение зубов во сне"
+                    link_text="Лечение зубов под наркозом в Ивантеевке"
+                    link_text_2=""
+                    link_text_3=""
+                    link_text_4=""
+                    link_text_5=""
+                    href="/services/healing-in-sleep"
+                    href_2=""
+                    href_3=""
+                    href_4=""
+                  />
+                )}
               </div>
               <div className="link-container">
                 {/* <a className="golden-link">Страница всех услуг</a> */}
@@ -1335,6 +1367,21 @@ export default function HomePage() {
                       </Link>
                     </div>
                   </button>
+                  <button
+                    onMouseEnter={teethInSleepExpansion}
+                    className="btn one"
+                  >
+                    <div className="btn-content">
+                      <Link
+                        to="/services/healing-in-sleep"
+                        className={
+                          isTeethSleepOpened ? "text-active" : "text-inactive"
+                        }
+                      >
+                        Лечение зубов во сне
+                      </Link>
+                    </div>
+                  </button>
                 </div>
                 {isToothHealingOpened && (
                   <Fade direction="right">
@@ -1366,6 +1413,31 @@ export default function HomePage() {
                       </Link>
                       <Link to="/services/vinirs" className="gold-text two">
                         Съемные, бюгельные протезы
+                      </Link>
+                    </div>
+                  </Fade>
+                )}
+                {isTeethSleepOpened && (
+                  <Fade direction="right">
+                    <div className="expanded-tab">
+                      <Link
+                        className="golden-btn"
+                        to="/services/healing-in-sleep"
+                        style={{
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
+                        }}
+                      >
+                        Подробнее
+                      </Link>
+                      <div className="row"></div>
+                      <span className="row-text">Лечение зубов во сне</span>
+                      <Link
+                        to="/services/healing-in-sleep"
+                        className="gold-text one"
+                      >
+                        Лечение зубов во сне
                       </Link>
                     </div>
                   </Fade>
@@ -1541,6 +1613,7 @@ export default function HomePage() {
                     </div>
                   </Fade>
                 )}
+
                 {isDiagnosisOpened && (
                   <Fade direction="right">
                     <div className="expanded-tab">

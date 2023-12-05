@@ -40,6 +40,8 @@ import Cleaning from "./pages/services/teeth-cleaning/TeethCleaning";
 import AirFlow from "./pages/services/airflow/Airflow";
 import AmazingWhite from "./pages/services/amazing-white/AmazingWhite";
 import ZoomWhitening from "./pages/services/zoom-whitening/ZoomWhitening";
+import HealInSleep from "./pages/services/heal-insleep/HealInSleep";
+import SedationHeal from "./pages/services/sedation-heal/SedationHeal";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -80,7 +82,7 @@ ReactDOM.render(
       <Route path="/services/amazing-white" element={<AmazingWhite />} />
       <Route path="/services/diagnostic" element={<DiagnosticPage />} />
       <Route path="/services/zoom-whitening" element={<ZoomWhitening />} />
-
+      <Route path="/services/sedation-heal" element={<SedationHeal />} />
       <Route
         path="/services/child-bite-correction"
         element={<ChildBiteCorrection />}
@@ -90,6 +92,7 @@ ReactDOM.render(
       <Route path="/services/child-teeth" element={<ChildTeeth />} />
       <Route path="/services/child-hygiene" element={<ChildHygiene />} />
       <Route path="/services/child-sleep" element={<ChildSleep />} />
+      <Route path="/services/healing-in-sleep" element={<HealInSleep />} />
       <Route path="/error" element={<Error />} />
       <Route path="*" element={<Error />} />
     </Routes>
