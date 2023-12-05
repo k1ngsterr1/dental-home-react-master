@@ -613,8 +613,8 @@ export default function HomePage() {
             </div>
             <div className="heading-container">
               <Fade direction="up">
-                <h1 className="dental">Dental</h1>
-                <h1 className="home">Home</h1>
+                <h2 className="dental">Dental</h2>
+                <h2 className="home">Home</h2>
               </Fade>
             </div>
             <img className="main_image" src={mainPhoto} alt="main_image"></img>
@@ -1637,6 +1637,30 @@ export default function HomePage() {
                 )}
               </div>
             </section>
+          </div>
+          <div className="mob-information flex justify-center items-center column">
+            <h2 className="heading text-center mt-32" style={{ width: "50%" }}>
+              Стоматологии Dental Home в Ивантеевке
+            </h2>
+            <p className="paragraph text-center mt-16" style={{ width: "90%" }}>
+              Наша команда профессиональных врачей стоматологии готова помочь
+              вам восстановить улыбку и уверенность в себе. Мы гарантируем
+              максимальный комфорт и безопасность при установке протезов, а
+              также оптимальный результат. Наши врачи стоматологии -
+              профессионалы своего дела, которые готовы помочь вам сохранить
+              здоровье зубов и улыбку на лице.
+              <br />
+              <br />
+              Мы понимаем, что посещение стоматолога может вызывать тревогу и
+              беспокойство, поэтому наша команда всегда готова ответить на все
+              ваши вопросы и объяснить каждый этап процедуры.
+              <br />
+              <br />
+              Не откладывайте визит к стоматологу на потом! Запишитесь на
+              консультацию в Dental Home уже сегодня и получите профессиональную
+              помощь в сохранении здоровья зубов и улыбки на лице. Мы готовы
+              стать вашим надежным партнером в уходе за здоровьем полости рта.
+            </p>
           </div>
           <div className="doctors-gallery-screen" id="doctors">
             <section className="content">

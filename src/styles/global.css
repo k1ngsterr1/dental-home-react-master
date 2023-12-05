@@ -36,6 +36,22 @@ button, a {
   text-align: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
 .mt-16 {
   margin-top: clamp(8px, 3.73824vw, 32px);
 }
