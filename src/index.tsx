@@ -89,6 +89,7 @@ ReactDOM.render(
       <Route path="/services/implants" element={<ImplantsPage />} />
       <Route path="/services/ortho-correction" element={<OrthoCorrection />} />
       <Route path="/services/teeth-crowns" element={<CrownsPage />} />
+      <Route path="/service/teeth-crowns" />
       <Route
         path="/services/child-bite-correction"
         element={<ChildBiteCorrection />}

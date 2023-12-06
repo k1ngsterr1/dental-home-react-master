@@ -13,7 +13,7 @@ body {
   overflow-x: hidden;
 }
 
-h1 {
+h1, .dental, .home {
   font-size: clamp(35px, 16.3548vw, 140px) !important;
   font-family: "Merriweather", serif !important;
   font-weight: 700 !important;

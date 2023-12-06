@@ -1053,13 +1053,15 @@ export default function HomePage() {
                     service_text="Виниры и коронки"
                     link_text="Оттиски"
                     link_text_2="Вкладки"
+                    link_text_5="Виниры"
                     link_text_3="Коронки"
                     link_text_4="Восстановление зуба виниром E-max"
                     openModal={openModal}
                     href="/services/vinirs"
                     href_2="/services/vinirs"
-                    href_3="/services/vinirs"
+                    href_3="/services/teeth-crowns"
                     href_4="/services/vinirs"
+                    href_5="/services/vinirs"
                   />
                 )}
                 <button onClick={whiteningExpansion} className="btn">
@@ -1406,6 +1408,12 @@ export default function HomePage() {
                         Вкладки
                       </Link>
                       <Link to="/services/vinirs" className="gold-text two">
+                        Виниры
+                      </Link>
+                      <Link
+                        to="/services/teeth-crowns"
+                        className="gold-text two"
+                      >
                         Коронки
                       </Link>
                       <Link to="/services/vinirs" className="gold-text two">
