@@ -27,6 +27,9 @@ p
 button, a
     cursor: pointer
 
+.mob-information
+    display: flex
+
 .text-center
     text-align: center
 
@@ -122,6 +125,20 @@ button, a
                 margin-top: $m32 !important
 
 @media screen and  (min-width: 1024px)
+
+    .mob-information
+
+        h2
+            font-size: clamp(25px,2.604vw,100px)
+            margin-top: clamp(32px,3.33312vw,128px) !important 
+
+        p
+            width: 60% !important
+            font-size: clamp(11px,1.1457600000000001vw,44px)
+            margin-top: clamp(8px,0.83328vw,32px) !important
+
+
+
 
     .mt-16
         margin-top: $m16

@@ -43,6 +43,7 @@ import ZoomWhitening from "./pages/services/zoom-whitening/ZoomWhitening";
 import HealInSleep from "./pages/services/heal-insleep/HealInSleep";
 import SedationHeal from "./pages/services/sedation-heal/SedationHeal";
 import ImplantsPage from "./pages/services/implants/Implants";
+import OrthoCorrection from "./pages/services/ortho-correction/OrthoCorrection";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -85,6 +86,7 @@ ReactDOM.render(
       <Route path="/services/zoom-whitening" element={<ZoomWhitening />} />
       <Route path="/services/sedation-heal" element={<SedationHeal />} />
       <Route path="/services/implants" element={<ImplantsPage />} />
+      <Route path="/services/ortho-correction" element={<OrthoCorrection />} />
       <Route
         path="/services/child-bite-correction"
         element={<ChildBiteCorrection />}

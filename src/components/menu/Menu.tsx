@@ -240,6 +240,9 @@ const Menu: React.FC<MenuProps> = ({
               <Link to="/services/prosthetics" className="golden-link l">
                 Протезирование зубов
               </Link>
+              <Link to="/services/implants" className="golden-link l">
+                Имплантация под ключ
+              </Link>
               <Link to="/services/bite-correction" className="golden-link l">
                 Исправление прикуса
               </Link>
@@ -362,6 +365,9 @@ const Menu: React.FC<MenuProps> = ({
                   </Link>
                   <Link to="/" className="gold-link two">
                     Лечение пародонта
+                  </Link>
+                  <Link to="/services/prothesis" className="gold-link two">
+                    Протезирование зубов
                   </Link>
                   <Link to="/" className="gold-link two">
                     Протезирование зубов
