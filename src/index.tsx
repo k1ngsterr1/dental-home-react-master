@@ -44,6 +44,7 @@ import HealInSleep from "./pages/services/heal-insleep/HealInSleep";
 import SedationHeal from "./pages/services/sedation-heal/SedationHeal";
 import ImplantsPage from "./pages/services/implants/Implants";
 import OrthoCorrection from "./pages/services/ortho-correction/OrthoCorrection";
+import CrownsPage from "./pages/services/teeth-crowns/TeethCrowns";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -87,6 +88,7 @@ ReactDOM.render(
       <Route path="/services/sedation-heal" element={<SedationHeal />} />
       <Route path="/services/implants" element={<ImplantsPage />} />
       <Route path="/services/ortho-correction" element={<OrthoCorrection />} />
+      <Route path="/services/teeth-crowns" element={<CrownsPage />} />
       <Route
         path="/services/child-bite-correction"
         element={<ChildBiteCorrection />}
