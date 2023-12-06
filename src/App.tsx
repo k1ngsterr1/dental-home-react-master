@@ -1055,12 +1055,12 @@ export default function HomePage() {
                     link_text_2="Вкладки"
                     link_text_5="Виниры"
                     link_text_3="Коронки"
-                    link_text_4="Восстановление зуба виниром E-max"
+                    link_text_4="Восстановление зуба винирами"
                     openModal={openModal}
                     href="/services/vinirs"
                     href_2="/services/vinirs"
                     href_3="/services/teeth-crowns"
-                    href_4="/services/vinirs"
+                    href_4="/services/tooth-restoration"
                     href_5="/services/vinirs"
                   />
                 )}
@@ -1416,8 +1416,11 @@ export default function HomePage() {
                       >
                         Коронки
                       </Link>
-                      <Link to="/services/vinirs" className="gold-text two">
-                        Восстановление зуба виниром E-max
+                      <Link
+                        to="/services/tooth-restoration"
+                        className="gold-text two"
+                      >
+                        Восстановление зуба винирами{" "}
                       </Link>
                       <Link to="/services/vinirs" className="gold-text two">
                         Съемные, бюгельные протезы
