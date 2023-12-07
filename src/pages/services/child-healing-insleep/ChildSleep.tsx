@@ -203,7 +203,10 @@ const ChildSleep = () => {
                 Лечение зубов во сне
               </Link>
             </div>
-            <h1 className="heading">Лечение во сне</h1>
+            <h1 className="heading">
+              {" "}
+              Лечение зубов детям во сне под седацией
+            </h1>
             <button className="golden-button" onClick={openModal}>
               <span className="text">Записаться</span>
               <FontAwesomeIcon
@@ -286,7 +289,7 @@ const ChildSleep = () => {
                 </Link>
               </div>
               <h1 className="heading" style={{ width: "30%" }}>
-                Лечение во сне
+                Лечение зубов детям во сне под седацией
               </h1>
               <button className="button" onClick={openModal}>
                 <span className="text">Записаться</span>

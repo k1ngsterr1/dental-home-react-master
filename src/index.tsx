@@ -47,6 +47,7 @@ import OrthoCorrection from "./pages/services/ortho-correction/OrthoCorrection";
 import CrownsPage from "./pages/services/teeth-crowns/TeethCrowns";
 import ToothRestorationPage from "./pages/services/tooth-restoration/ToothRestoration";
 import BracesPage from "./pages/services/braces/BracesPage";
+import BugelPage from "./pages/services/bugel/BugelPage";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -91,6 +92,7 @@ ReactDOM.render(
       <Route path="/services/implants" element={<ImplantsPage />} />
       <Route path="/services/ortho-correction" element={<OrthoCorrection />} />
       <Route path="/services/teeth-crowns" element={<CrownsPage />} />
+      <Route path="/services/bugel-prothesis" element={<BugelPage />} />
       <Route
         path="/service/tooth-restoration"
         element={<ToothRestorationPage />}

@@ -1233,6 +1233,21 @@ export default function HomePage() {
                     href_4="/services/amazing-white"
                   />
                 )}
+                <button onClick={teethInSleepExpansion} className="btn">
+                  <div className="btn-content">
+                    <span
+                      className={
+                        isProthesisOpened ? "text-active" : "text-inactive"
+                      }
+                    >
+                      Лечение зубов во сне
+                    </span>
+                    <FontAwesomeIcon
+                      icon={isProthesisOpened ? faMinus : faPlus}
+                      className="golden-icon"
+                    />
+                  </div>
+                </button>
                 {isTeethSleepOpened && (
                   <ExpandedTab
                     service_text="Лечение зубов во сне"
