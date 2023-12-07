@@ -46,6 +46,7 @@ import ImplantsPage from "./pages/services/implants/Implants";
 import OrthoCorrection from "./pages/services/ortho-correction/OrthoCorrection";
 import CrownsPage from "./pages/services/teeth-crowns/TeethCrowns";
 import ToothRestorationPage from "./pages/services/tooth-restoration/ToothRestoration";
+import BracesPage from "./pages/services/braces/BracesPage";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -99,6 +100,7 @@ ReactDOM.render(
         element={<ChildBiteCorrection />}
       />
       <Route path="/services/child-diagnostic" element={<ChildDiagnostic />} />
+      <Route path="/services/braces" element={<BracesPage />} />
       <Route path="/services/child-surgery" element={<ChildSurgery />} />
       <Route path="/services/child-teeth" element={<ChildTeeth />} />
       <Route path="/services/child-hygiene" element={<ChildHygiene />} />
