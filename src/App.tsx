@@ -1251,13 +1251,13 @@ export default function HomePage() {
                 {isTeethSleepOpened && (
                   <ExpandedTab
                     service_text="Лечение зубов во сне"
-                    link_text="Лечение зубов под наркозом в Ивантеевке"
-                    link_text_2=""
+                    link_text="Лечение зубов под наркозом"
+                    link_text_2="Лечение зубов под наркозом детское"
                     link_text_3=""
                     link_text_4=""
                     link_text_5=""
                     href="/services/healing-in-sleep"
-                    href_2=""
+                    href_2="/services/child-sleep"
                     href_3=""
                     href_4=""
                   />
