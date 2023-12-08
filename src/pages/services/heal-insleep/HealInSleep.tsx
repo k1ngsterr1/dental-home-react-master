@@ -22,7 +22,9 @@ import Footer from "../../../components/footer/Footer";
 import Gallery from "../../../components/gallery/gallery";
 import ServiceGallery from "../../../components/gallery/services_gallery";
 import PcServiceGallery from "../../../components/gallery/pc_services_gallery";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import {
   faC,
   faChevronRight,
@@ -72,7 +74,7 @@ const serviceTwoMob = require("../../../assets/service_mob_02.webp");
 const serviceThreeMob = require("../../../assets/service_mob_03.webp");
 const serviceFourMob = require("../../../assets/service_mob_04.webp");
 
-const hygienePc = require("../../../assets/hygiene_pc.webp");
+const hygienePc = require("../../../assets/teeth-in-sleep.webp");
 
 const logoMobile: string = require("../../../assets/logo_mob.svg").default;
 

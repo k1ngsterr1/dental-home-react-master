@@ -44,7 +44,7 @@ const pavelGalleryPc = require("../../../assets/pavel_pc.webp");
 const modalImage = require("../../../assets/example_modal.webp");
 const logoMobile = require("../../../assets/logo_mob.svg").default;
 
-const mainService = require("../../../assets/teeth-healing_pc.webp");
+const mainService = require("../../../assets/teeth-in-sleep-child.webp");
 
 const doctorOne = require("../../../assets/1.webp");
 const doctorTwo = require("../../../assets/2.webp");

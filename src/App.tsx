@@ -1465,6 +1465,12 @@ export default function HomePage() {
                       >
                         Лечение зубов во сне
                       </Link>
+                      <Link
+                        to="/services/child-sleep"
+                        className="gold-text one"
+                      >
+                        Лечение зубов во сне (детское)
+                      </Link>
                     </div>
                   </Fade>
                 )}
@@ -1639,7 +1645,6 @@ export default function HomePage() {
                     </div>
                   </Fade>
                 )}
-
                 {isDiagnosisOpened && (
                   <Fade direction="right">
                     <div className="expanded-tab">
