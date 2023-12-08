@@ -1264,7 +1264,7 @@ export default function HomePage() {
                 )}
               </div>
               <div className="link-container">
-                <a className="golden-link">Страaница всех услуг</a>
+                <a className="golden-link">Стрaница всех услуг</a>
               </div>
             </section>
           </div>
