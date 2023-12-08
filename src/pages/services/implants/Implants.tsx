@@ -574,7 +574,7 @@ const ImplantsPage = () => {
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Временный несъемный протез на имлантатах
+                      Временный несъемный протез на имплантатах
                     </span>
                     <span className="price">80 000₽</span>
                   </section>
@@ -1309,7 +1309,7 @@ const ImplantsPage = () => {
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Временный несъемный протез на имлантатах
+                          Временный несъемный протез на имплантатах
                         </span>
                         <span className="price">80 000₽</span>
                       </div>
