@@ -1469,7 +1469,7 @@ export default function HomePage() {
                         to="/services/child-sleep"
                         className="gold-text one"
                       >
-                        Лечение зубов во сне (детское)
+                        Лечение зубов у детей во сне
                       </Link>
                     </div>
                   </Fade>
@@ -1633,10 +1633,10 @@ export default function HomePage() {
                       <Link to="/services/hygiene" className="gold-text">
                         Профилактика и гигиена
                       </Link>
-                      <Link to="/services/airflow" className="gold-text">
+                      <Link to="/services/teeth-cleaning" className="gold-text">
                         Профессиональная чиста зубов
                       </Link>
-                      <Link to="/services/teeth-cleaning" className="gold-text">
+                      <Link to="/services/air-flow" className="gold-text">
                         Чистка зубов Airflow
                       </Link>
                       <Link to="/services/amazing-white" className="gold-text">

@@ -484,7 +484,7 @@ const BiteCorrection = () => {
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Изготовление коронки ортодонической
+                      Изготовление коронки ортодонтической
                     </span>
                     <span className="price">5 000₽</span>
                   </section>
@@ -992,7 +992,7 @@ const BiteCorrection = () => {
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Изготовление коронки ортодонической
+                          Изготовление коронки ортодонтической
                         </span>
                         <span className="price">5 000₽</span>
                       </div>

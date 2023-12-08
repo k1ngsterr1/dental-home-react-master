@@ -367,7 +367,7 @@ const DiagnosticPage = () => {
                 >
                   <section className="tab-one">
                     <h5 className="plate-heading" style={{ width: "90%" }}>
-                      Рентгенолоия
+                      Рентгенология
                     </h5>
                     <span className="text">Радиовизиография</span>
                     <span className="price">400 ₽</span>
@@ -825,7 +825,7 @@ const DiagnosticPage = () => {
                     className="price-tab"
                     style={{ marginTop: "clamp(32px,3.33312vw,128px)" }}
                   >
-                    <h4 className="price-heading">Рентгенолоия</h4>
+                    <h4 className="price-heading">Рентгенология</h4>
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">Радиовизиография</span>

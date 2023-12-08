@@ -651,7 +651,7 @@ const Cleaning = () => {
                     </Link>
                   </div>
                   <h1 className="heading" style={{ width: "30%" }}>
-                    Профессиональная чистка зубов в Ивантеевке{" "}
+                    Чистка зубов в Ивантеевке{" "}
                   </h1>
                   <button className="button" onClick={openModal}>
                     <span className="text">Записаться</span>

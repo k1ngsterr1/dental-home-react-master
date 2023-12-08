@@ -246,6 +246,12 @@ const Menu: React.FC<MenuProps> = ({
               <Link to="/services/bite-correction" className="golden-link l">
                 Исправление прикуса
               </Link>
+              <Link to="/services/healing-in-sleep" className="golden-link l">
+                Лечение зубов во сне
+              </Link>
+              <Link to="/services/teeth-crowns" className="golden-link l">
+                Коронки
+              </Link>
               <a href="tel:+79252229022" className="phone-number">
                 +7 (925) 222-90-22
               </a>
