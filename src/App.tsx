@@ -1636,7 +1636,7 @@ export default function HomePage() {
                       <Link to="/services/teeth-cleaning" className="gold-text">
                         Профессиональная чиста зубов
                       </Link>
-                      <Link to="/services/air-flow" className="gold-text">
+                      <Link to="/services/airflow" className="gold-text">
                         Чистка зубов Airflow
                       </Link>
                       <Link to="/services/amazing-white" className="gold-text">
