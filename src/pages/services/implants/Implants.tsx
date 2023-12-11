@@ -423,7 +423,7 @@ const ImplantsPage = () => {
                     </h5>
                     <span className="text">
                       Протезирование зуба с использованием имплантата временной
-                      короной + временный абатмен
+                      коронкой + временный абатмент
                     </span>
                     <span className="price">8 500₽</span>
                   </section>
@@ -1154,7 +1154,7 @@ const ImplantsPage = () => {
                       <div className="price-row">
                         <span className="text">
                           Протезирование зуба с использованием имплантата
-                          временной короной + временный абатмен
+                          временной коронкой + временный абатмент
                         </span>
                         <span className="price">8 500₽</span>
                       </div>
@@ -1267,7 +1267,7 @@ const ImplantsPage = () => {
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Индивидуальный абатмен из диоксида циркония
+                          Индивидуальный абатмент из диоксида циркония
                         </span>
                         <span className="price">15 000₽</span>
                       </div>

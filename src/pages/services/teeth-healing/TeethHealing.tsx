@@ -381,7 +381,7 @@ const TeethHealing = () => {
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      МИзбирательное пришлифовывание твердых тканей зуба{" "}
+                      Избирательное пришлифовывание твердых тканей зуба{" "}
                     </span>
                     <span className="price">250 ₽</span>
                   </section>
@@ -405,7 +405,7 @@ const TeethHealing = () => {
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      репанация (препарирование) зуба
+                      Трепанация (препарирование) зуба
                     </span>
                     <span className="price">600₽</span>
                   </section>
@@ -499,14 +499,14 @@ const TeethHealing = () => {
                   <section className="tab-three">
                     <span className="text">
                       Инструментальная и медикаментозная обработка хорошо
-                      проходимого корневого канала (1к)
+                      проходимого корневого канала (1 канал)
                     </span>
                     <span className="price">800 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Инструментальная и медикаментозная обработка плохо
-                      проходимого корневого канала (1к.)
+                      проходимого корневого канала (1 канала)
                     </span>
                     <span className="price">1 100 ₽</span>
                   </section>
@@ -1009,7 +1009,7 @@ const TeethHealing = () => {
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          МИзбирательное пришлифовывание твердых тканей зуба{" "}
+                          Избирательное пришлифовывание твердых тканей зуба{" "}
                         </span>
                         <span className="price">250 ₽</span>
                       </div>
@@ -1033,7 +1033,7 @@ const TeethHealing = () => {
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          репанация (препарирование) зуба
+                          Трепанация (препарирование) зуба
                         </span>
                         <span className="price">600₽</span>
                       </div>
@@ -1130,14 +1130,14 @@ const TeethHealing = () => {
                       <div className="price-row">
                         <span className="text">
                           Инструментальная и медикаментозная обработка хорошо
-                          проходимого корневого канала (1к)
+                          проходимого корневого канала (1 канала)
                         </span>
                         <span className="price">800 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Инструментальная и медикаментозная обработка плохо
-                          проходимого корневого канала (1к.)
+                          проходимого корневого канала (1 канала)
                         </span>
                         <span className="price">1 100 ₽</span>
                       </div>
