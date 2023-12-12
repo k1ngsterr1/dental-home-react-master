@@ -1168,10 +1168,12 @@ export default function HomePage() {
                     link_text_2="Внутрикостная дентальная имплантация системой"
                     link_text_3="Формирователь десны"
                     link_text_4="Синус-лифтинг"
+                    link_text_5="Имплантация под ключ"
                     href="/services/prosthetics"
                     href_2="/services/prosthetics"
                     href_3="/services/prosthetics"
                     href_4="/services/prosthetics"
+                    href_5="/services/implants"
                   />
                 )}
                 <button onClick={parodontHealthExpansion} className="btn">
@@ -1198,7 +1200,7 @@ export default function HomePage() {
                     link_text_2="Ретенция"
                     link_text_3="Дополнительные приспособления"
                     link_text_4=""
-                    href="/services/bite-correction"
+                    href="/services/braces"
                     href_2="/services/bite-correction"
                     href_3="/services/bite-correction"
                     href_4="/services/bite-correction"
@@ -1226,11 +1228,12 @@ export default function HomePage() {
                     link_text_2="Профессиональная чистка зубов"
                     link_text_3="Чистка зубов AirFlow"
                     link_text_4="Профессиональное отбеливание зубов Amazing White"
-                    link_text_5=""
+                    link_text_5="Профессиональное отбеливание зубов Zoom"
                     href="/services/hygiene"
                     href_2="/services/teeth-cleaning"
                     href_3="/services/airflow"
                     href_4="/services/amazing-white"
+                    href_5="/services/zoom-whitening"
                   />
                 )}
                 <button onClick={teethInSleepExpansion} className="btn">
@@ -1253,12 +1256,12 @@ export default function HomePage() {
                     service_text="Лечение зубов во сне"
                     link_text="Лечение зубов под наркозом"
                     link_text_2="Лечение зубов под наркозом детское"
-                    link_text_3=""
+                    link_text_3="Лечение зубов под седацией"
                     link_text_4=""
                     link_text_5=""
                     href="/services/healing-in-sleep"
                     href_2="/services/child-sleep"
-                    href_3=""
+                    href_3="/services/sedation-heal"
                     href_4=""
                   />
                 )}
@@ -1471,6 +1474,12 @@ export default function HomePage() {
                       >
                         Лечение зубов у детей во сне
                       </Link>
+                      <Link
+                        to="/services/sedation-heal"
+                        className="gold-text one"
+                      >
+                        Лечение зубов под седацией
+                      </Link>
                     </div>
                   </Fade>
                 )}
@@ -1574,6 +1583,9 @@ export default function HomePage() {
                       <Link to="/services/prosthetics" className="gold-text">
                         Реконструктивное лечение
                       </Link>
+                      <Link to="/services/implants" className="gold-text">
+                        Имплантация под ключ
+                      </Link>
                     </div>
                   </Fade>
                 )}
@@ -1593,10 +1605,7 @@ export default function HomePage() {
                       </Link>
                       <div className="row"></div>
                       <span className="row-text">Исправление прикуса</span>
-                      <Link
-                        to="/services/bite-correction"
-                        className="gold-text"
-                      >
+                      <Link to="/services/braces" className="gold-text">
                         Ортодонтическая коррекция с применением брекет-системы
                       </Link>
                       <Link
@@ -1641,6 +1650,9 @@ export default function HomePage() {
                       </Link>
                       <Link to="/services/amazing-white" className="gold-text">
                         Профессиональное отбеливание зубов Amazing White
+                      </Link>
+                      <Link to="/services/zoom-whitening" className="gold-text">
+                        Профессиональное отбеливание зубов Zoom{" "}
                       </Link>
                     </div>
                   </Fade>
