@@ -329,20 +329,20 @@ const AirFlow = () => {
                     <span className="text">
                       Глубокое фторирование эмали зуба Seal&Protect (1 ед.)
                     </span>
-                    <span className="price">300₽</span>
+                    <span className="price">От 300₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Местное применение реминилизрующих препаратов (процедура)
                     </span>
-                    <span className="price">500₽</span>
+                    <span className="price">От 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Обучение гигиене полости рта и зубов индивидуально, подбор
                       средств и предметов гигиены полости рта
                     </span>
-                    <span className="price">400₽</span>
+                    <span className="price">От 400₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -350,62 +350,55 @@ const AirFlow = () => {
                       зубов(ультразвуковое удаление зубных отложений, AirFlow,
                       полировка, покрытие зубов реминилизирующими препаратами)
                     </span>
-                    <span className="price">5 500₽</span>
+                    <span className="price">От 6 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Профессиональная гигиена полости рта при регулярном
                       профосмотре(1 раз в 6 месяцев)
                     </span>
-                    <span className="price">5 500₽</span>
+                    <span className="price">От 5 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Снятие мягких зубных отложений щеткой + пастой, полировка
                       (1 зуб)
                     </span>
-                    <span className="price">50₽</span>
+                    <span className="price">От 50₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Профессиональная гигиена воздушноабразивным аппаратом
                       AirFlow (1 челюсть)
                     </span>
-                    <span className="price">2500₽</span>
+                    <span className="price">От 2.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Снятие зубных отложений пастой, полировка, покрытие
                       "Fluocal gel" (2 челюсти) 1й сеанс
                     </span>
-                    <span className="price">2500₽</span>
+                    <span className="price">От 2.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Снятие зубных отложений пастой, полировка, покрытие
                       "Fluocal gel" последующий сеанс
                     </span>
-                    <span className="price">1500₽</span>
+                    <span className="price">От 1.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Запечатывание фиссуры зуба герметиком (1 ед.)
                     </span>
-                    <span className="price">2000₽</span>
+                    <span className="price">От 2.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Ультразвуковое удаление наддесневых и поддесневых зубных
                       отложений в области 1 зуба
                     </span>
-                    <span className="price">2000₽</span>
-                  </section>
-                  <section className="tab-three">
-                    <span className="text">
-                      Ультразвуковое удаление наддесневых и поддесневых зубных
-                      отложений в области 1 зуба
-                    </span>
-                    <span className="price last">150₽</span>
+                    <span className="price">От 150₽</span>
                   </section>
                 </div>
               </div>
@@ -679,21 +672,21 @@ const AirFlow = () => {
                         <span className="text">
                           Глубокое фторирование эмали зуба Seal&Protect (1 ед.)
                         </span>
-                        <span className="price">300 ₽</span>
+                        <span className="price">От 300 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Местное применение реминилизрующих препаратов
                           (процедура)
                         </span>
-                        <span className="price">500 ₽</span>
+                        <span className="price">От 500 ₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
                           Обучение гигиене полости рта и зубов индивидуально,
                           подбор средств и предметов гигиены полости рта
                         </span>
-                        <span className="price">500 ₽</span>
+                        <span className="price"> От 400 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -702,55 +695,55 @@ const AirFlow = () => {
                           AirFlow, полировка, покрытие зубов реминилизирующими
                           препаратами)
                         </span>
-                        <span className="price">5 500 ₽</span>
+                        <span className="price">От 6 500 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Профессиональная гигиена полости рта при регулярном
                           профосмотре(1 раз в 6 месяцев)
                         </span>
-                        <span className="price">5 500 ₽</span>
+                        <span className="price">От 5 500 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Снятие мягких зубных отложений щеткой + пастой,
                           полировка (1 зуб)
                         </span>
-                        <span className="price">50₽</span>
+                        <span className="price">От 50₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Профессиональная гигиена воздушноабразивным аппаратом
                           AirFlow (1 челюсть)
                         </span>
-                        <span className="price">2500₽</span>
+                        <span className="price">От 2.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Снятие зубных отложений пастой, полировка, покрытие
                           "Fluocal gel" (2 челюсти) 1й сеанс
                         </span>
-                        <span className="price">2500₽</span>
+                        <span className="price">От 2.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Снятие зубных отложений пастой, полировка, покрытие
                           "Fluocal gel" последующий сеанс
                         </span>
-                        <span className="price">2500₽</span>
+                        <span className="price">От 1.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Запечатывание фиссуры зуба герметиком (1 ед.)
                         </span>
-                        <span className="price">2000₽</span>
+                        <span className="price">От 2.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Ультразвуковое удаление наддесневых и поддесневых
                           зубных отложений в области 1 зуба
                         </span>
-                        <span className="price">150₽</span>
+                        <span className="price">От 150₽</span>
                       </div>
                     </div>
                   </div>

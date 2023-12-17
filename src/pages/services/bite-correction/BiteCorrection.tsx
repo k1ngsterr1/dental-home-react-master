@@ -329,90 +329,90 @@ const BiteCorrection = () => {
                       Ортодоническая коррекция с применением брекет-системы
                     </h5>
                     <span className="text">I степений сложности</span>
-                    <span className="price">65000₽</span>
+                    <span className="price">От 65.000₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">II степений сложности</span>
-                    <span className="price">70000₽</span>
+                    <span className="price">От 70.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">III степений сложности</span>
-                    <span className="price">75000₽</span>
+                    <span className="price">От 75.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Фиксация брекет-системы (одна челюсть)
                     </span>
-                    <span className="price">80 000₽</span>
+                    <span className="price">От 80.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Фиксация эстетической брекет-системы (одна челюсть)
                     </span>
-                    <span className="price">95 000₽</span>
+                    <span className="price">От 95.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Брекет-система металлическая безлигатурная
                     </span>
-                    <span className="price">25 000₽</span>
+                    <span className="price">От 25.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Брекет-система Damon Q</span>
-                    <span className="price">30 000₽</span>
+                    <span className="price">От 30.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Брекет-система сапфировая, керамическая
                     </span>
-                    <span className="price">32 500₽</span>
+                    <span className="price">От 32.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Брекет-система керамическая безлигатурная
                     </span>
-                    <span className="price">35 000₽</span>
+                    <span className="price">От 35.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Фиксация одного брекета</span>
-                    <span className="price">2 500₽</span>
+                    <span className="price">От 2.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Замена одного брекета</span>
-                    <span className="price">3 000₽</span>
+                    <span className="price">От 3.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Снятие брекетов с одного зубного ряда
                     </span>
-                    <span className="price">2000₽</span>
+                    <span className="price">От 2.000₽</span>
                   </section>
                   <section className="tab-three"></section>
                   <section className="tab-three">
                     <span className="text">Замена дуги</span>
-                    <span className="price">3000₽</span>
+                    <span className="price">От 3.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Установка открывающей, закрывающей пружины
                     </span>
-                    <span className="price">1000₽</span>
+                    <span className="price">От 1.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Установка чейна(1 звено)</span>
-                    <span className="price">130₽</span>
+                    <span className="price">От 130₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Установка лигатуры (1 шт.)</span>
-                    <span className="price">70₽</span>
+                    <span className="price">От 70₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Наложение длинной лигатуры</span>
-                    <span className="price">400₽</span>
+                    <span className="price">От 400₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Изгиб на дуге</span>
-                    <span className="price last">200₽</span>
+                    <span className="price last">От 200₽</span>
                   </section>
                 </div>
                 <div
@@ -424,27 +424,27 @@ const BiteCorrection = () => {
                     <span className="text">
                       Несъемный ретейнер на 1 зубной ряд
                     </span>
-                    <span className="price">7 000₽</span>
+                    <span className="price">От 12.000₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Ретенционный съемный аппарат на 1 зубной ряд
                     </span>
-                    <span className="price">8 000₽</span>
+                    <span className="price">От 8.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Снятие ретейнера</span>
-                    <span className="price">5 000₽</span>
+                    <span className="price">От 5.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Починка несъемного ретейнера</span>
-                    <span className="price">2 000₽</span>
+                    <span className="price">От 2.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Изготовление ретенционной каппы
                     </span>
-                    <span className="price last">6 500₽</span>
+                    <span className="price last">От 6.500₽</span>
                   </section>
                 </div>
                 <div
@@ -458,84 +458,84 @@ const BiteCorrection = () => {
                     <span className="text">
                       Леченте с помощью аппарат Марко-Росса
                     </span>
-                    <span className="price">29 000₽</span>
+                    <span className="price">От 29.000₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Активация ортодонтического винта
                     </span>
-                    <span className="price">2 500₽</span>
+                    <span className="price">От 2.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Аппарат для дистализации моляров
                     </span>
-                    <span className="price">33 000₽</span>
+                    <span className="price">От 33.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Лечение с помощью небного бюгеля
                     </span>
-                    <span className="price">4 000₽</span>
+                    <span className="price">От 4.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Межчелюстные тяги</span>
-                    <span className="price">500₽</span>
+                    <span className="price">От 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Изготовление коронки ортодонтической
                     </span>
-                    <span className="price">5 000₽</span>
+                    <span className="price">От 5.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Изготовление кольца-петли ортодонического
                     </span>
-                    <span className="price">9 000₽</span>
+                    <span className="price">От 9.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Повторная фиксация кольца-петли ортодонического
                     </span>
-                    <span className="price">2 000₽</span>
+                    <span className="price">От 2.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Снятие оттиска с одной челюсти альгинатными массами
                     </span>
-                    <span className="price">500₽</span>
+                    <span className="price">От 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Изготовление прикусного шаблона
                     </span>
-                    <span className="price">500₽</span>
+                    <span className="price">От 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Антропометрические исследования (компьютерный анализ ТРГ
                       головы)
                     </span>
-                    <span className="price">2 000₽</span>
+                    <span className="price">От 2.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Изготовление контрольной модел (из гипса)
+                      Изготовление контрольной модели (из гипса)
                     </span>
-                    <span className="price">500₽</span>
+                    <span className="price">От 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Прием (осмотр, наблюдение) врача-ортодонта первичный
                     </span>
-                    <span className="price">1000₽</span>
+                    <span className="price">От 1000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Прием (осмотр, наблюдение) врача-ортодонта повторный
                     </span>
-                    <span className="price last">700₽</span>
+                    <span className="price last">От 700₽</span>
                   </section>
                 </div>
               </div>
@@ -826,89 +826,89 @@ const BiteCorrection = () => {
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">I степений сложности</span>
-                        <span className="price">65000₽</span>
+                        <span className="price">От 65.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">II степений сложности</span>
-                        <span className="price">70000₽</span>
+                        <span className="price">От 70.000₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">III степений сложности</span>
-                        <span className="price">75000₽</span>
+                        <span className="price">От 75.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Фиксация брекет-системы (одна челюсть)
                         </span>
-                        <span className="price">80 000₽</span>
+                        <span className="price">От 80.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Фиксация эстетической брекет-системы (одна челюсть)
                         </span>
-                        <span className="price">95 000₽</span>
+                        <span className="price">От 95.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Брекет-система металлическая безлигатурная
                         </span>
-                        <span className="price">25 000₽</span>
+                        <span className="price">От 25.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Брекет-система Damon Q</span>
-                        <span className="price">30 000₽</span>
+                        <span className="price">От 30.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Брекет-система сапфировая, керамическая
                         </span>
-                        <span className="price">32 500₽</span>
+                        <span className="price">От 32.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Брекет-система керамическая безлигатурная
                         </span>
-                        <span className="price">35 000₽</span>
+                        <span className="price">От 35.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Фиксация одного брекета</span>
-                        <span className="price">2 500₽</span>
+                        <span className="price">От 2.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Замена одного брекета</span>
-                        <span className="price">3 000₽</span>
+                        <span className="price">От 3.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Снятие брекетов с одного зубного ряда
                         </span>
-                        <span className="price">2000₽</span>
+                        <span className="price">От 2.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Снятие одного брекета</span>
-                        <span className="price">400₽</span>
+                        <span className="price">От 400₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Установка открывающей, закрывающей пружины
                         </span>
-                        <span className="price">1000₽</span>
+                        <span className="price">От 1.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Установка чейна(1 звено)</span>
-                        <span className="price">130₽</span>
+                        <span className="price">От 130₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Установка лигатуры (1 шт.)</span>
-                        <span className="price">70₽</span>
+                        <span className="price">От 70₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Наложение длинной лигатуры</span>
-                        <span className="price">400₽</span>
+                        <span className="price">От 400₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Изгиб на дуге</span>
-                        <span className="price last">200₽</span>
+                        <span className="price last">От 200₽</span>
                       </div>
                     </div>
                   </div>
@@ -923,33 +923,33 @@ const BiteCorrection = () => {
                         <span className="text">
                           Несъемный ретейнер на 1 зубной ряд
                         </span>
-                        <span className="price">7 000₽</span>
+                        <span className="price">От 12.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">II степений сложности</span>
-                        <span className="price">70000₽</span>
+                        <span className="price">От 70.000₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
                           Ретенционный съемный аппарат на 1 зубной ряд
                         </span>
-                        <span className="price">8 000₽</span>
+                        <span className="price">От 8.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Снятие ретейнера</span>
-                        <span className="price">5 000₽</span>
+                        <span className="price">От 5.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Починка несъемного ретейнера
                         </span>
-                        <span className="price">2 000₽</span>
+                        <span className="price">От 2.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Изготовление ретенционной каппы
                         </span>
-                        <span className="price last">6 500₽</span>
+                        <span className="price last">От 6.500₽</span>
                       </div>
                     </div>
                   </div>
@@ -966,84 +966,84 @@ const BiteCorrection = () => {
                         <span className="text">
                           Лечение с помощью аппарат Марко-Росса
                         </span>
-                        <span className="price">29 000₽</span>
+                        <span className="price">От 29.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Активация ортодонтического винта
                         </span>
-                        <span className="price">2 500₽</span>
+                        <span className="price">От 2.500₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
                           Аппарат для дистализации моляров
                         </span>
-                        <span className="price">33 000₽</span>
+                        <span className="price">От 33.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Лечение с помощью небного бюгеля
                         </span>
-                        <span className="price">4 000₽</span>
+                        <span className="price">От 4.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Межчелюстные тяги</span>
-                        <span className="price">500₽</span>
+                        <span className="price">От 500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Изготовление коронки ортодонтической
                         </span>
-                        <span className="price">5 000₽</span>
+                        <span className="price">От 5.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Изготовление кольца-петли ортодонического
                         </span>
-                        <span className="price">9 000₽</span>
+                        <span className="price">От 9.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Повторная фиксация кольца-петли ортодонического
                         </span>
-                        <span className="price">2 000₽</span>
+                        <span className="price">От 2.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Снятие оттиска с одной челюсти альгинатными массами
                         </span>
-                        <span className="price">500₽</span>
+                        <span className="price">От 2.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Изготовление прикусного шаблона
+                          Изготовление прикусного шаблона и индивидуальной ложки
                         </span>
-                        <span className="price">500₽</span>
+                        <span className="price">От 4.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Антропометрические исследования (компьютерный анализ
                           ТРГ головы)
                         </span>
-                        <span className="price">2 000₽</span>
+                        <span className="price">От 2.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Изготовление контрольной модел (из гипса)
                         </span>
-                        <span className="price">500₽</span>
+                        <span className="price">От 500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Прием (осмотр, наблюдение) врача-ортодонта первичный
                         </span>
-                        <span className="price">1000₽</span>
+                        <span className="price">От 1.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Прием (осмотр, наблюдение) врача-ортодонта повторный
                         </span>
-                        <span className="price last">700₽</span>
+                        <span className="price last">От 700₽</span>
                       </div>
                     </div>
                   </div>
