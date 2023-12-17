@@ -597,7 +597,7 @@ const VinirsPage = () => {
                 >
                   <section className="tab-one">
                     <h5 className="plate-heading">
-                      Восстаовление зуба виниром E-max
+                      Восстановление зуба виниром E-max
                     </h5>
                     <span className="text">
                       Восстановление зуба виниром E-max класса "стандарт"
