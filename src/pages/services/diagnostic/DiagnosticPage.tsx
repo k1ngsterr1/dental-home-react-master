@@ -344,14 +344,14 @@ const DiagnosticPage = () => {
                     <span className="text">
                       Прием (осмотр, консультация) врача-стоматолога первичный
                     </span>
-                    <span className="price">1000 ₽</span>
+                    <span className="price">От 1.000₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Диспансерный прием (осмотр, консультация)
                       врача-стоматолога{" "}
                     </span>
-                    <span className="price">500 ₽</span>
+                    <span className="price">От 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -370,31 +370,31 @@ const DiagnosticPage = () => {
                       Рентгенология
                     </h5>
                     <span className="text">Радиовизиография</span>
-                    <span className="price">400 ₽</span>
+                    <span className="price">От 400 ₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Получение снимка на электронный адрес
                     </span>
-                    <span className="price">100 ₽</span>
+                    <span className="price">От 100 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Запись на электронный носитель CD
                     </span>
-                    <span className="price">300 ₽</span>
+                    <span className="price">От 300 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Запись на электронный носитель USB
                     </span>
-                    <span className="price">500 ₽</span>
+                    <span className="price">От 500 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Повторный диагностический снимок
                     </span>
-                    <span className="price last"> 0 ₽</span>
+                    <span className="price last">От 0 ₽</span>
                   </section>
                 </div>
                 <div
@@ -408,50 +408,50 @@ const DiagnosticPage = () => {
                     <span className="text">
                       Исследование на диагностических моделях челюстей
                     </span>
-                    <span className="price"> 500 ₽</span>
+                    <span className="price">От 500 ₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Витальное окрашивание твердых тканей зуба
                     </span>
-                    <span className="price">380 ₽</span>
+                    <span className="price">От 380 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Исследование кариозных полостей с использованием
                       стоматологического зонда
                     </span>
-                    <span className="price">70 ₽</span>
+                    <span className="price">От 70₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Термодиагностика зуба</span>
-                    <span className="price">50 ₽</span>
+                    <span className="price">От 50₽</span>
                   </section>
 
                   <section className="tab-three">
                     <span className="text">Определение прикуса</span>
-                    <span className="price"> 500 ₽</span>
+                    <span className="price">От 500 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Определение вида смыкания зубных рядов с помощью лицевой
                       дуги
                     </span>
-                    <span className="price">1 500 ₽</span>
+                    <span className="price">От 1.500 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Перкуссия зубов</span>
-                    <span className="price">40 ₽</span>
+                    <span className="price">От 40 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Электроодонтометрия зуба (ЭОД)</span>
-                    <span className="price">120 ₽</span>
+                    <span className="price">От 120 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Определение индексов гигиены полости рта
                     </span>
-                    <span className="price last">250 ₽</span>
+                    <span className="price last">От 250 ₽</span>
                   </section>
                 </div>
                 <div
@@ -465,25 +465,25 @@ const DiagnosticPage = () => {
                     <span className="text">
                       Реставрация 1 степени сложности
                     </span>
-                    <span className="price">4 000 ₽</span>
+                    <span className="price">От 4.000 ₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Реставрация 2 степени сложности
                     </span>
-                    <span className="price">4 900 ₽</span>
+                    <span className="price">От 4.900 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Реставрация 3 степени сложности
                     </span>
-                    <span className="price">5 500 ₽</span>
+                    <span className="price">От 5.500 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Художественная реставрация зуба
                     </span>
-                    <span className="price last">7 500 ₽</span>
+                    <span className="price last">От 7.500 ₽</span>
                   </section>
                 </div>
                 <div
@@ -495,15 +495,15 @@ const DiagnosticPage = () => {
                       Анестезия
                     </h5>
                     <span className="text">Проводниковая анестезия</span>
-                    <span className="price"> 800 ₽</span>
+                    <span className="price">От 1000₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">Аппликационная анестезия</span>
-                    <span className="price">150 ₽</span>
+                    <span className="price">От 300₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Инфильтрационная анестезия</span>
-                    <span className="price last"> 700 ₽</span>
+                    <span className="price last">От 800 ₽</span>
                   </section>
                 </div>
               </div>
@@ -803,14 +803,14 @@ const DiagnosticPage = () => {
                           Прием (осмотр, консультация) врача-стоматолога
                           первичный
                         </span>
-                        <span className="price">1000 ₽</span>
+                        <span className="price">От 1000 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Диспансерный прием (осмотр, консультация)
                           врача-стоматолога{" "}
                         </span>
-                        <span className="price">500 ₽</span>
+                        <span className="price">От 500 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -829,25 +829,25 @@ const DiagnosticPage = () => {
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">Радиовизиография</span>
-                        <span className="price">400 ₽</span>
+                        <span className="price">От 500 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Получение снимка на электронный адрес
                         </span>
-                        <span className="price">100 ₽</span>
+                        <span className="price">От 100 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Запись на электронный носитель CD
                         </span>
-                        <span className="price">300 ₽</span>
+                        <span className="price">От 300 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Запись на электронный носитель USB
                         </span>
-                        <span className="price">500 ₽</span>
+                        <span className="price">От 500 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -869,51 +869,51 @@ const DiagnosticPage = () => {
                         <span className="text">
                           Исследование на диагностических моделях челюстей
                         </span>
-                        <span className="price"> 500 ₽</span>
+                        <span className="price">От 500 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Витальное окрашивание твердых тканей зуба
                         </span>
-                        <span className="price">380 ₽</span>
+                        <span className="price">От 380 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Исследование кариозных полостей с использованием
                           стоматологического зонда
                         </span>
-                        <span className="price">70 ₽</span>
+                        <span className="price">От 70 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Термодиагностика зуба</span>
-                        <span className="price">50 ₽</span>
+                        <span className="price">От 50 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Определение прикуса</span>
-                        <span className="price"> 500 ₽</span>
+                        <span className="price">От 500 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Определение вида смыкания зубных рядов с помощью
                           лицевой дуги
                         </span>
-                        <span className="price">1 500 ₽</span>
+                        <span className="price">От 1.500 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Перкуссия зубов</span>
-                        <span className="price">40 ₽</span>
+                        <span className="price">От 40 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Электроодонтометрия зуба (ЭОД)
                         </span>
-                        <span className="price">120 ₽</span>
+                        <span className="price">От 120 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Определение индексов гигиены полости рта
                         </span>
-                        <span className="price last">250 ₽</span>
+                        <span className="price last">От 250 ₽</span>
                       </div>
                     </div>
                   </div>
@@ -925,15 +925,15 @@ const DiagnosticPage = () => {
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">Проводниковая анестезия</span>
-                        <span className="price">800 ₽</span>
+                        <span className="price">От 1000 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Аппликационная анестезия</span>
-                        <span className="price last">150 ₽</span>
+                        <span className="price last">От 300 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Инфильтрационная анестезия</span>
-                        <span className="price last"> 700 ₽</span>
+                        <span className="price last">От 800 ₽</span>
                       </div>
                     </div>
                   </div>
