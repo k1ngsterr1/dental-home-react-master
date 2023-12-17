@@ -2073,15 +2073,13 @@ const PricesPage = () => {
                     <PriceTabLong
                       tabHeadign="Профилактика и гигиена"
                       paragraphOne="Профессиональное отбеливание зубов клиническое - система `ZOOM`"
-                      priceOne="21500₽"
+                      priceOne="От 21500₽"
                       paragraphTwo="Капповое домашнее отбеливание (включая стоимость изготовления капп и набор отбеливающего геля) 2 челюсти"
-                      priceTwo="9900₽"
+                      priceTwo="От 9900₽"
                       paragraphThree="Профессиональное отбеливание зубов клиническое- система `Amazing White`"
-                      priceThree="11000₽"
+                      priceThree="От 11000₽"
                       paragraphFour="Внутриканальное отбеливание (первый сеанс) "
-                      priceFour="1900₽"
-                      paragraphFive="Внутриканальное отбеливание (последующий сеанс)"
-                      priceFive="1000₽"
+                      priceFour="От 1900₽"
                       openModal={openModal}
                     ></PriceTabLong>
                   </div>
