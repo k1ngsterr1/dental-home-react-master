@@ -358,33 +358,33 @@ const Whitening = () => {
                       Профессиональное отбеливание зубов клиническое - система
                       "ZOOM"
                     </span>
-                    <span className="price">21 500 ₽</span>
+                    <span className="price">От 30.000 ₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Капповое домашнее отбеливание зубов клиническое - система
                       "ZOOM"
                     </span>
-                    <span className="price">9 990 ₽</span>
+                    <span className="price">От 9.990 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Профессиональное отбеливание зубов в клиническое - система
                       "Amazing White"
                     </span>
-                    <span className="price">11 000 ₽</span>
+                    <span className="price">От 11.000 ₽</span>
                   </section>
                   <section className="tab-three" style={{ marginTop: "0px" }}>
                     <span className="text">
                       Внутриканальное отбеливание (первый сеанс)
                     </span>
-                    <span className="price ">1 900 ₽</span>
+                    <span className="price ">От 1.900 ₽</span>
                   </section>
                   <section className="tab-three" style={{ marginTop: "0px" }}>
                     <span className="text">
                       Внутриканальное отбеливание (последующий сеанс)
                     </span>
-                    <span className="price last">1 000₽</span>
+                    <span className="price last">От 1.000₽</span>
                   </section>
                 </div>
               </div>
@@ -653,7 +653,6 @@ const Whitening = () => {
                       качественное обслуживание от опытных стоматологов.
                     </p>
                   </div>
-
                   <div className="price-tab" id="prices">
                     <h4 className="price-heading">Отбеливание</h4>
                     <div className="prices">
@@ -662,7 +661,7 @@ const Whitening = () => {
                           Профессиональное отбеливание зубов клиническое -
                           система "ZOOM"
                         </span>
-                        <span className="price">21 500 ₽</span>
+                        <span className="price">От 30.000 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -670,26 +669,26 @@ const Whitening = () => {
                           изготовления капп и набор отбеливающего геля) 2
                           челюсти
                         </span>
-                        <span className="price">9 900 ₽</span>
+                        <span className="price">От 9.900 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Профессиональное отбеливание зубов клиническое -
                           система "Amazing White"
                         </span>
-                        <span className="price">11 000 ₽</span>
+                        <span className="price">От 11.000 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Внутриканальное отбеливание(первый сеанс)
                         </span>
-                        <span className="price">1 900 ₽</span>
+                        <span className="price">От 1.900 ₽</span>
                       </div>
                       <div className="price-row last">
                         <span className="text">
                           Внутриканальное отбеливание (последующий сеанс)
                         </span>
-                        <span className="price">1 000 ₽</span>
+                        <span className="price">От 1.000 ₽</span>
                       </div>
                     </div>
                   </div>

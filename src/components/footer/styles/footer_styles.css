@@ -187,6 +187,9 @@ body .footer .divider {
   body .footer .pc-content-cont .map-social-c .vk, body .footer .pc-content-cont .column .vk {
     margin-left: 0px;
   }
+  body .footer .pc-content-cont .map-social-c .telegram, body .footer .pc-content-cont .column .telegram {
+    margin-left: clamp(8px, 0.83328vw, 32px);
+  }
   body .footer .pc-content-cont .map-social-c .information, body .footer .pc-content-cont .column .information {
     color: #F4F4F4;
     text-align: left;

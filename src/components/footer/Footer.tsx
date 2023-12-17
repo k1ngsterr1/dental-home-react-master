@@ -3,7 +3,11 @@ import { YMaps, Map, Placemark } from "react-yandex-maps";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faV } from "@fortawesome/free-solid-svg-icons";
-import { faFacebook, faVk } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebook,
+  faTelegram,
+  faVk,
+} from "@fortawesome/free-brands-svg-icons";
 
 import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
@@ -17,6 +21,10 @@ const Footer = () => {
 
   function navigateToVk() {
     window.open("https://vk.com/dental_home");
+  }
+
+  function navigateToTg() {
+    window.open("https://t.me/dental_home_clinik");
   }
 
   const mapData = {
@@ -142,6 +150,11 @@ const Footer = () => {
               icon={faVk}
               className="icon vk"
               onClick={navigateToVk}
+            ></FontAwesomeIcon>
+            <FontAwesomeIcon
+              icon={faTelegram}
+              className="icon telegram"
+              onClick={navigateToTg}
             ></FontAwesomeIcon>
           </div>
         </div>
