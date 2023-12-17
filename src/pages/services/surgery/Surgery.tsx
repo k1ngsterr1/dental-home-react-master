@@ -333,189 +333,189 @@ const Surgery = () => {
                     <span className="text">
                       Удаление временного зуба I степени сложности
                     </span>
-                    <span className="price">1 200₽</span>
+                    <span className="price">От 1.200₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Удаление временного зуба II степени сложности
                     </span>
-                    <span className="price">1 800₽</span>
+                    <span className="price">От 1.800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Удаление временного зуба с сохраненными корнями
                     </span>
-                    <span className="price">2 200₽</span>
+                    <span className="price">От 2.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Удаление постоянного зуба простое
                     </span>
-                    <span className="price">2 400₽</span>
+                    <span className="price">От 2.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Удаление постоянного зуба I степени сложности{" "}
                     </span>
-                    <span className="price">3 000₽</span>
+                    <span className="price">От 4.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Удаление постоянного зуба II степени сложности
                     </span>
-                    <span className="price">4 000₽</span>
+                    <span className="price">От 5.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Удаление постоянного зуба III степени сложности
                     </span>
-                    <span className="price">5 500₽</span>
+                    <span className="price">От 6.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Удаление зуба сложное с разъединением корней
                     </span>
-                    <span className="price">4 500₽</span>
+                    <span className="price">От 7.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Резекция верхушки корня (1 корень){" "}
                     </span>
-                    <span className="price">8 500₽</span>
+                    <span className="price">От 15.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       {" "}
                       Вскрытие и дренирование одонтогенного абсцесса
                     </span>
-                    <span className="price">1 200₽</span>
+                    <span className="price">От 1.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       {" "}
                       Отсроченный кюретаж лунки удаленного зуба
                     </span>
-                    <span className="price">1 000₽</span>
+                    <span className="price">От 1.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Удаление новообразований челюстно-лицевой области
                     </span>
-                    <span className="price">5 000₽</span>
+                    <span className="price">От 8.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Цистотомия, цистэктомия</span>
-                    <span className="price ">8 000₽</span>
+                    <span className="price ">От 8.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Временное шинирование при заболеваниях пародонта ( 1
                       единица)
                     </span>
-                    <span className="price ">1 500₽</span>
+                    <span className="price ">От 1.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Операция удаления ретинированного, дистопированного или
                       сверхкомплектного зуба
                     </span>
-                    <span className="price ">9 500₽</span>
+                    <span className="price ">От 13.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Удаление имплантата </span>
-                    <span className="price ">5 000₽</span>
+                    <span className="price ">От 7.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Пластика уздечки языка</span>
-                    <span className="price ">3 000₽</span>
+                    <span className="price ">От 3.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Пластика уздечки губы </span>
-                    <span className="price ">3 000₽</span>
+                    <span className="price ">От 3.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Вестибулопластика</span>
-                    <span className="price ">10 000₽</span>
+                    <span className="price ">От 10.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Лечение перикоронита (промывание, рассечение и/или
                       иссечение капюшона)
                     </span>
-                    <span className="price ">1 500₽</span>
+                    <span className="price ">От 2.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Остановка луночного кровотечения с использованием
                       гемостатических материалов
                     </span>
-                    <span className="price ">700₽</span>
+                    <span className="price ">От 700₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Закрытие соустья с гайморовой пазухой{" "}
                     </span>
-                    <span className="price ">3 000₽</span>
+                    <span className="price ">От 5.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Наложение шва на слизистую оболочку рта{" "}
                     </span>
-                    <span className="price "> 500₽</span>
+                    <span className="price ">От 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Открытый кюретаж при заболеваниях пародонта в области 1
                       зуба
                     </span>
-                    <span className="price ">2 500₽</span>
+                    <span className="price ">От 2.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Закрытый кюретаж при заболеваниях пародонта в области 1
                       зуба
                     </span>
-                    <span className="price ">2 000₽</span>
+                    <span className="price ">От 2.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Пластика мягких тканей в области зуба или имплантата
                     </span>
-                    <span className="price ">7 000₽</span>
+                    <span className="price ">От 10.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Снятие швов</span>
-                    <span className="price ">0₽</span>
+                    <span className="price ">От 1.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Антисептическая обработка патологических карманов{" "}
                     </span>
-                    <span className="price ">1 200₽</span>
+                    <span className="price ">От 1.200₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Удаление экзостоза в области 1 зуба
                     </span>
-                    <span className="price ">1 500₽</span>
+                    <span className="price ">От 1.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Хирургическое удлинение в области 1 зуба
                     </span>
-                    <span className="price ">5 000₽</span>
+                    <span className="price ">От 6.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Закрытый кюретаж в области 1 зуба
                     </span>
-                    <span className="price ">20 000₽</span>
+                    <span className="price ">От 20.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Закрытие рецессии в обл. 1-3 рядом стоящих зубов{" "}
                     </span>
-                    <span className="price last">20 000₽</span>
+                    <span className="price last">От 20.000₽</span>
                   </section>
                 </div>
               </div>
@@ -804,187 +804,187 @@ const Surgery = () => {
                         <span className="text">
                           Удаление временного зуба I степени сложности
                         </span>
-                        <span className="price">1 200₽</span>
+                        <span className="price">От 1.200₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Удаление временного зуба II степени сложности
                         </span>
-                        <span className="price">1 800₽</span>
+                        <span className="price">От 1.800₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
                           Удаление временного зуба с сохраненными корнями
                         </span>
-                        <span className="price">2 200₽</span>
+                        <span className="price">От 2.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Удаление постоянного зуба простое
                         </span>
-                        <span className="price">2 400₽</span>
+                        <span className="price">От 2.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Удаление вкладки</span>
-                        <span className="price">4 000₽</span>
+                        <span className="price">От 4.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Удаление постоянного зуба I степени сложности{" "}
                         </span>
-                        <span className="price">3 000₽</span>
+                        <span className="price">От 4.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Удаление постоянного зуба II степени сложности
                         </span>
-                        <span className="price">4 000₽</span>
+                        <span className="price">От 5.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Удаление постоянного зуба III степени сложности
                         </span>
-                        <span className="price">5 500₽</span>
+                        <span className="price">От 6.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Удаление зуба сложное с разъединением корней
                         </span>
-                        <span className="price">4 500₽</span>
+                        <span className="price">От 7.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Резекция верхушки корня (1 корень){" "}
                         </span>
-                        <span className="price">8 500₽</span>
+                        <span className="price">От 15.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           {" "}
                           Вскрытие и дренирование одонтогенного абсцесса
                         </span>
-                        <span className="price">1 200₽</span>
+                        <span className="price">От 1.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           {" "}
                           Отсроченный кюретаж лунки удаленного зуба
                         </span>
-                        <span className="price">1 000₽</span>
+                        <span className="price">От 1.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Удаление новообразований челюстно-лицевой области
                         </span>
-                        <span className="price">5 000₽</span>
+                        <span className="price">От 5.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Цистотомия, цистэктомия</span>
-                        <span className="price ">8 000₽</span>
+                        <span className="price ">От 8.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Временное шинирование при заболеваниях пародонта ( 1
                           единица)
                         </span>
-                        <span className="price ">1 500₽</span>
+                        <span className="price ">От 1.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Операция удаления ретинированного, дистопированного
                           или сверхкомплектного зуба
                         </span>
-                        <span className="price ">9 500₽</span>
+                        <span className="price ">От 13.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Удаление имплантата </span>
-                        <span className="price ">5 000₽</span>
+                        <span className="price ">От 7.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Пластика уздечки языка</span>
-                        <span className="price ">3 000₽</span>
+                        <span className="price ">От 3.500₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Пластика уздечки губы </span>
-                        <span className="price ">3 000₽</span>
+                        <span className="text">Пластика уздечки губы</span>
+                        <span className="price ">От 3.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Вестибулопластика</span>
-                        <span className="price ">10 000₽</span>
+                        <span className="price ">От 10.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Лечение перикоронита (промывание, рассечение и/или
                           иссечение капюшона)
                         </span>
-                        <span className="price ">1 500₽</span>
+                        <span className="price ">От 2.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Остановка луночного кровотечения с использованием
                           гемостатических материалов
                         </span>
-                        <span className="price ">700₽</span>
+                        <span className="price ">От 700₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Закрытие соустья с гайморовой пазухой{" "}
                         </span>
-                        <span className="price ">3 000₽</span>
+                        <span className="price ">От 5.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Наложение шва на слизистую оболочку рта{" "}
                         </span>
-                        <span className="price "> 500₽</span>
+                        <span className="price ">От 500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Открытый кюретаж при заболеваниях пародонта в области
                           1 зуба
                         </span>
-                        <span className="price ">2 500₽</span>
+                        <span className="price ">От 2.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Закрытый кюретаж при заболеваниях пародонта в области
                           1 зуба
                         </span>
-                        <span className="price ">2 000₽</span>
+                        <span className="price ">От 2.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Пластика мягких тканей в области зуба или имплантата
                         </span>
-                        <span className="price ">7 000₽</span>
+                        <span className="price ">От 10.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Снятие швов</span>
-                        <span className="price ">0₽</span>
+                        <span className="price ">От 1.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Антисептическая обработка патологических карманов{" "}
                         </span>
-                        <span className="price ">1 200₽</span>
+                        <span className="price ">От 1.200₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Удаление экзостоза в области 1 зуба
                         </span>
-                        <span className="price ">1 500₽</span>
+                        <span className="price ">От 2.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Хирургическое удлинение в области 1 зуба
                         </span>
-                        <span className="price ">5 000₽</span>
+                        <span className="price ">От 6.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Закрытый кюретаж в области 1 зуба
                         </span>
-                        <span className="price last">20 000₽</span>
+                        <span className="price last">От 20.000₽</span>
                       </div>
                     </div>
                   </div>

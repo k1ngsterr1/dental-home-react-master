@@ -393,7 +393,6 @@ const ProstheticsPage = () => {
                     годы.
                   </p>
                 </section>
-
                 <div className="divider"></div>
                 <div className="plate">
                   <section className="tab-one">
@@ -404,14 +403,14 @@ const ProstheticsPage = () => {
                       Протезирование зуба с использованием имплантата временной
                       коронкой + временный абатмент
                     </span>
-                    <span className="price">8 500₽</span>
+                    <span className="price">От 8.500₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Единица промежуточной части временного мостовидного
                       протеза с опорой на имплантах
                     </span>
-                    <span className="price">4 500₽</span>
+                    <span className="price">От 4.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -419,7 +418,7 @@ const ProstheticsPage = () => {
                       металлокерамической класса "Эстетик" (трансокклюзионная
                       фиксация)
                     </span>
-                    <span className="price">31 000₽</span>
+                    <span className="price">От 31.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -427,7 +426,7 @@ const ProstheticsPage = () => {
                       металлокерамической класса "стандарт" (цементная фиксация)
                       на индивидуальном абатменте
                     </span>
-                    <span className="price">25 000₽</span>
+                    <span className="price">От 25.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -435,21 +434,21 @@ const ProstheticsPage = () => {
                       металлокерамической класса "Премиум" (цементная фиксация)
                       на индивидуальном абатменте
                     </span>
-                    <span className="price">31 000₽</span>
+                    <span className="price">От 31.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Единица промежуточной части мостовидного протеза класса
                       "Стандарт" (металлокерамика) с опорой на имплантах
                     </span>
-                    <span className="price">17 000₽</span>
+                    <span className="price">От 17.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Единица промежуточной части мостовидного протеза класса
                       "Премиум" (металлокерамика) с опорой на имплантах
                     </span>
-                    <span className="price">21 000₽</span>
+                    <span className="price">От 21.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -457,7 +456,7 @@ const ProstheticsPage = () => {
                       из диоксида циркония класса "Стандарт"(трансокклюзионная
                       фиксация)
                     </span>
-                    <span className="price">33 000₽</span>
+                    <span className="price">От 33.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -465,7 +464,7 @@ const ProstheticsPage = () => {
                       из диоксида циркония класса "Премиум"(трансокклюзионная
                       фиксация)
                     </span>
-                    <span className="price">37 500₽</span>
+                    <span className="price">От 37.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -474,7 +473,7 @@ const ProstheticsPage = () => {
                       из диоксида циркония класса "Стандарт"(трансокклюзионная
                       фиксация) на индивидуальном абатмене
                     </span>
-                    <span className="price">39 000₽</span>
+                    <span className="price">От 39.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -483,7 +482,7 @@ const ProstheticsPage = () => {
                       из диоксида циркония класса "Премиум"(трансокклюзионная
                       фиксация) на индивидуальном абатмене
                     </span>
-                    <span className="price">45 000₽</span>
+                    <span className="price">От 45.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -491,7 +490,7 @@ const ProstheticsPage = () => {
                       диоксида циркония класса "Стандарт" с опорой на
                       имплантатах
                     </span>
-                    <span className="price">22000₽</span>
+                    <span className="price">От 22.000₽</span>
                   </section>
                   <section className="tab-three"></section>
                   <section className="tab-three">
@@ -499,7 +498,7 @@ const ProstheticsPage = () => {
                       Единица промежуточной части мостовидного протеза из
                       диоксида циркония класса "Премиум" с опорой на имплантатах
                     </span>
-                    <span className="price">26 0000₽</span>
+                    <span className="price">От 26.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -507,13 +506,13 @@ const ProstheticsPage = () => {
                       E-max на титановом основании класса "Премиум"
                       (трансокклюзионная фиксация)
                     </span>
-                    <span className="price">30 000₽</span>
+                    <span className="price">От 30.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Индивидуальный абатмент из диоксида циркония
                     </span>
-                    <span className="price">15 000₽</span>
+                    <span className="price">От 15.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -521,47 +520,47 @@ const ProstheticsPage = () => {
                       имплантатах (балочная конструкция) мультиюниты
                       оплачиваются отдельно
                     </span>
-                    <span className="price">185 000₽</span>
+                    <span className="price">От 185.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      ротезирование полным несъемным протезом с опорой на
+                      Протезирование полным несъемным протезом с опорой на
                       имплантатах на мультиюнитах (мультиюниты оплачиваются
                       отдельно)
                     </span>
-                    <span className="price">185 000₽</span>
+                    <span className="price">От 185.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Стоимость мультиюнита (1 единица){" "}
                     </span>
-                    <span className="price">20 000₽</span>
+                    <span className="price">От 120.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Протезирование полным съемным протезом на имплантатах с
                       замковым креплением (люкаторная система замков){" "}
                     </span>
-                    <span className="price">120 000₽</span>
+                    <span className="price">От 120.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Протезирование полным съемным протезом на имплантатах на
                       аттачментах
                     </span>
-                    <span className="price">95 000₽</span>
+                    <span className="price">От 95.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Временный несъемный протез на имплантатах
                     </span>
-                    <span className="price">80 000₽</span>
+                    <span className="price">От 80.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Замена винта трансокклюзионной фиксации
                     </span>
-                    <span className="price last">500₽</span>
+                    <span className="price last">От 500₽</span>
                   </section>
                 </div>
                 <div
@@ -575,23 +574,23 @@ const ProstheticsPage = () => {
                     <span className="text">
                       Имплантация системой Dentium SuperLine (Ю.Корея)
                     </span>
-                    <span className="price">35 000₽</span>
+                    <span className="price">От 39.000₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Имплантация системой NeoDent GM (Бразилия)
                     </span>
-                    <span className="price">35 000₽</span>
+                    <span className="price">От 39.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Имплантация системой Nobel Biocare (Швейцария){" "}
                     </span>
-                    <span className="price">70 000₽</span>
+                    <span className="price">От 70.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Миниимплант (ортовинт) </span>
-                    <span className="price last">9 000₽</span>
+                    <span className="price last">От 12.000₽</span>
                   </section>
                 </div>
                 <div
@@ -603,23 +602,23 @@ const ProstheticsPage = () => {
                     <span className="text">
                       Установка формирователя десны SuperLine
                     </span>
-                    <span className="price">3 000₽</span>
+                    <span className="price">От 3.000₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Установка формирователя десны Strumann{" "}
                     </span>
-                    <span className="price">6 000₽</span>
+                    <span className="price">От 6.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Установка формирователя десны NeoDent GM{" "}
                     </span>
-                    <span className="price">3 000₽</span>
+                    <span className="price">От 3.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Установка формирователя десны </span>
-                    <span className="price last">3 000₽</span>
+                    <span className="price last">От 3.000₽</span>
                   </section>
                 </div>
                 <div
@@ -631,25 +630,25 @@ const ProstheticsPage = () => {
                     <span className="text">
                       Синус-лифтинг (без учета стоимости материалов) -закрытый
                     </span>
-                    <span className="price">12 000₽</span>
+                    <span className="price">От 15.000₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Синус-лифтинг (без учета стоимости материалов) -открытый
                     </span>
-                    <span className="price">25 000₽</span>
+                    <span className="price">От 40.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Направленная костная регенерация (HKP) титановой сеткой
                     </span>
-                    <span className="price">25 000₽</span>
+                    <span className="price">От 25.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Подсыпка костной ткани после удаления Bio-Oss
                     </span>
-                    <span className="price">5 000₽</span>
+                    <span className="price">От 5.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -657,30 +656,30 @@ const ProstheticsPage = () => {
                       биодеградируемых материалов (костно-пластический материал
                       Bio-Oss 0,5 гр.)
                     </span>
-                    <span className="price">15 000₽</span>
+                    <span className="price">От 24.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Костная пластика челюстно-лицевой области с применением
                       биодеградируемых материалов (мембраны Bio-Gide) 1 шт.
                     </span>
-                    <span className="price">22 000₽</span>
+                    <span className="price">От 30.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Использование хирургического шаблона от 3 зубов
                     </span>
-                    <span className="price">15 000₽</span>
+                    <span className="price">От 15.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Использование хирургического шаблона от 4 зубов
                     </span>
-                    <span className="price">24 000₽</span>
+                    <span className="price">От 24.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Переустановка импланта</span>
-                    <span className="price last">7 500₽</span>
+                    <span className="price last">От 7.500₽</span>
                   </section>
                 </div>
                 <div
@@ -693,14 +692,14 @@ const ProstheticsPage = () => {
                       Инъекционное введение лекарственных препаратов в
                       челюстно-лицевую область
                     </span>
-                    <span className="price">380₽</span>
+                    <span className="price">От 380₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Аппликация лекарственного препарата на слизистую оболочку
                       полости рта
                     </span>
-                    <span className="price">550₽</span>
+                    <span className="price">От 550₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -709,7 +708,7 @@ const ProstheticsPage = () => {
                       заболеваний пародонта аппаратом "Vector Para Pro" в
                       области 1 зуба/импланта)
                     </span>
-                    <span className="price"> 800₽</span>
+                    <span className="price">От 800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -718,37 +717,37 @@ const ProstheticsPage = () => {
                       заболеваний пародонта аппаратом "Vector Para Pro" 2
                       челюсти)
                     </span>
-                    <span className="price">10 000₽</span>
+                    <span className="price">От 10.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Лазерная физиотерапия челюстно-лицевой области (1
                       процедура)
                     </span>
-                    <span className="price">350₽</span>
+                    <span className="price">От 350₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Костная пластика челюстно-лицевой области с применением
                       биодеградируемых материалов (мембраны Bio-Gide) 1 шт.
                     </span>
-                    <span className="price">22 000₽</span>
+                    <span className="price">От 22.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Использование хирургического шаблона от 3 зубов
                     </span>
-                    <span className="price">15 000₽</span>
+                    <span className="price">От 15.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Использование хирургического шаблона от 4 зубов
                     </span>
-                    <span className="price">24 000₽</span>
+                    <span className="price">От 24.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Переустановка импланта</span>
-                    <span className="price last">7 500₽</span>
+                    <span className="price last">От 7.500₽</span>
                   </section>
                 </div>
               </div>
@@ -1107,7 +1106,6 @@ const ProstheticsPage = () => {
                       годы.
                     </p>
                   </div>
-
                   <div className="price-tab" id="prices">
                     <h4 className="price-heading">
                       Протезирование на имплантах
@@ -1118,14 +1116,14 @@ const ProstheticsPage = () => {
                           Протезирование зуба с использованием имплантата
                           временной коронкой + временный абатмент
                         </span>
-                        <span className="price">8 500₽</span>
+                        <span className="price">От 8.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Единица промежуточной части временного мостовидного
                           протеза с опорой на имплантах
                         </span>
-                        <span className="price">4 500₽</span>
+                        <span className="price">От 4.500₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
@@ -1133,7 +1131,7 @@ const ProstheticsPage = () => {
                           коронкой металлокерамической класса "Эстетик"
                           (трансокклюзионная фиксация)
                         </span>
-                        <span className="price">31 000₽</span>
+                        <span className="price">От 31.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1141,7 +1139,7 @@ const ProstheticsPage = () => {
                           коронкой металлокерамической класса "стандарт"
                           (цементная фиксация) на индивидуальном абатменте
                         </span>
-                        <span className="price">25 000₽</span>
+                        <span className="price">От 25.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1149,7 +1147,7 @@ const ProstheticsPage = () => {
                           коронкой металлокерамической класса "Премиум"
                           (цементная фиксация) на индивидуальном абатменте
                         </span>
-                        <span className="price">31 000₽</span>
+                        <span className="price">От 31.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1157,7 +1155,7 @@ const ProstheticsPage = () => {
                           класса "Стандарт" (металлокерамика) с опорой на
                           имплантах
                         </span>
-                        <span className="price">17 000₽</span>
+                        <span className="price">От 17.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1165,7 +1163,7 @@ const ProstheticsPage = () => {
                           класса "Премиум" (металлокерамика) с опорой на
                           имплантах
                         </span>
-                        <span className="price">21 000₽</span>
+                        <span className="price">От 21.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1173,7 +1171,7 @@ const ProstheticsPage = () => {
                           коронокой из диоксида циркония класса
                           "Стандарт"(трансокклюзионная фиксация)
                         </span>
-                        <span className="price">33 000₽</span>
+                        <span className="price">От 33.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1181,7 +1179,7 @@ const ProstheticsPage = () => {
                           коронокой из диоксида циркония класса
                           "Премиум"(трансокклюзионная фиксация)
                         </span>
-                        <span className="price">37 500₽</span>
+                        <span className="price">От 37.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1191,7 +1189,7 @@ const ProstheticsPage = () => {
                           "Стандарт"(трансокклюзионная фиксация) на
                           индивидуальном абатмене
                         </span>
-                        <span className="price">39 000₽</span>
+                        <span className="price">От 39.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1201,7 +1199,7 @@ const ProstheticsPage = () => {
                           "Премиум"(трансокклюзионная фиксация) на
                           индивидуальном абатмене
                         </span>
-                        <span className="price">45 000₽</span>
+                        <span className="price">От 45.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1209,7 +1207,7 @@ const ProstheticsPage = () => {
                           диоксида циркония класса "Стандарт" с опорой на
                           имплантатах
                         </span>
-                        <span className="price">22000₽</span>
+                        <span className="price">От 22.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1217,7 +1215,7 @@ const ProstheticsPage = () => {
                           диоксида циркония класса "Премиум" с опорой на
                           имплантатах
                         </span>
-                        <span className="price">26 0000₽</span>
+                        <span className="price">От 26.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1225,13 +1223,13 @@ const ProstheticsPage = () => {
                           коронкой E-max на титановом основании класса "Премиум"
                           (трансокклюзионная фиксация)
                         </span>
-                        <span className="price">30 000₽</span>
+                        <span className="price">От 30.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Индивидуальный абатмент из диоксида циркония
                         </span>
-                        <span className="price">15 000₽</span>
+                        <span className="price">От 15.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1239,7 +1237,7 @@ const ProstheticsPage = () => {
                           опорой на имплантатах (балочная конструкция)
                           мультиюниты оплачиваются отдельно
                         </span>
-                        <span className="price">185 000₽</span>
+                        <span className="price">От 185.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1247,39 +1245,39 @@ const ProstheticsPage = () => {
                           имплантатах на мультиюнитах (мультиюниты оплачиваются
                           отдельно)
                         </span>
-                        <span className="price">185 000₽</span>
+                        <span className="price">От 185.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Стоимость мультиюнита (1 единица){" "}
                         </span>
-                        <span className="price">20 000₽</span>
+                        <span className="price">От 20.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Протезирование полным съемным протезом на имплантатах
                           с замковым креплением (люкаторная система замков){" "}
                         </span>
-                        <span className="price">120 000₽</span>
+                        <span className="price">От 120.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Протезирование полным съемным протезом на имплантатах
                           на аттачментах
                         </span>
-                        <span className="price">95 000₽</span>
+                        <span className="price">От 95.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Временный несъемный протез на имплантатах
                         </span>
-                        <span className="price">80 000₽</span>
+                        <span className="price">От 80.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Замена винта трансокклюзионной фиксации
                         </span>
-                        <span className="price last">500₽</span>
+                        <span className="price last">От 500₽</span>
                       </div>
                     </div>
                   </div>
@@ -1296,23 +1294,23 @@ const ProstheticsPage = () => {
                         <span className="text">
                           Имплантация системой Dentium SuperLine (Ю.Корея)
                         </span>
-                        <span className="price">35 000₽</span>
+                        <span className="price">От 39.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Имплантация системой NeoDent GM (Бразилия)
                         </span>
-                        <span className="price">35 000₽</span>
+                        <span className="price">От 39.000₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
                           Имплантация системой Nobel Biocare (Швейцария){" "}
                         </span>
-                        <span className="price">70 000₽</span>
+                        <span className="price">От 70.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Миниимплант (ортовинт) </span>
-                        <span className="price last">9 000₽</span>
+                        <span className="price last">От 12.000₽</span>
                       </div>
                     </div>
                   </div>
@@ -1327,25 +1325,25 @@ const ProstheticsPage = () => {
                         <span className="text">
                           Установка формирователя десны SuperLine
                         </span>
-                        <span className="price">3 000₽</span>
+                        <span className="price">От 3.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Установка формирователя десны Strumann{" "}
                         </span>
-                        <span className="price">6 000₽</span>
+                        <span className="price">От 6.000₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
                           Установка формирователя десны NeoDent GM{" "}
                         </span>
-                        <span className="price">3 000₽</span>
+                        <span className="price">От 3.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Установка формирователя десны{" "}
                         </span>
-                        <span className="price last">3 000₽</span>
+                        <span className="price last">От 3.000₽</span>
                       </div>
                     </div>
                   </div>
@@ -1361,14 +1359,14 @@ const ProstheticsPage = () => {
                           Инъекционное введение лекарственных препаратов в
                           челюстно-лицевую область
                         </span>
-                        <span className="price">380₽</span>
+                        <span className="price">От 380₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Аппликация лекарственного препарата на слизистую
                           оболочку полости рта
                         </span>
-                        <span className="price">550₽</span>
+                        <span className="price">От 550₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
@@ -1377,7 +1375,7 @@ const ProstheticsPage = () => {
                           (лечение заболеваний пародонта аппаратом "Vector Para
                           Pro" в области 1 зуба/импланта)
                         </span>
-                        <span className="price"> 800₽</span>
+                        <span className="price">От 800₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1386,14 +1384,14 @@ const ProstheticsPage = () => {
                           (лечение заболеваний пародонта аппаратом "Vector Para
                           Pro" 2 челюсти)
                         </span>
-                        <span className="price">10 000₽</span>
+                        <span className="price">От 10.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Лазерная физиотерапия челюстно-лицевой области (1
                           процедура)
                         </span>
-                        <span className="price">350₽</span>
+                        <span className="price">От 350₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1401,23 +1399,23 @@ const ProstheticsPage = () => {
                           применением биодеградируемых материалов (мембраны
                           Bio-Gide) 1 шт.
                         </span>
-                        <span className="price">22 000₽</span>
+                        <span className="price">От 30.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Использование хирургического шаблона от 3 зубов
                         </span>
-                        <span className="price">15 000₽</span>
+                        <span className="price">От 15.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Использование хирургического шаблона от 4 зубов
                         </span>
-                        <span className="price">24 000₽</span>
+                        <span className="price">От 24.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Переустановка импланта</span>
-                        <span className="price last">7 500₽</span>
+                        <span className="price last">От 7.500₽</span>
                       </div>
                     </div>
                   </div>
