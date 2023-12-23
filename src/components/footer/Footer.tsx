@@ -80,6 +80,12 @@ const Footer = () => {
             className="icon"
             onClick={navigateToVk}
           ></FontAwesomeIcon>
+          <FontAwesomeIcon
+            icon={faTelegram}
+            style={{ marginLeft: "clamp(10px,4.6728vw,40px)" }}
+            className="icon telegram"
+            onClick={navigateToTg}
+          ></FontAwesomeIcon>
         </div>
         <div className="informations-container">
           <h5 className="information">Информация</h5>

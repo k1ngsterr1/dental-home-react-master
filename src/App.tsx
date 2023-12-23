@@ -80,7 +80,7 @@ interface ReviewTabProps {
 // Page Photos
 const mainPhoto = require("./assets/main_photo.webp");
 const mainPC = require("./assets/main_pc.webp");
-const pavel = require("./assets/pavel.webp");
+const pavel = require("./assets/pavel.png");
 const pavelPC = require("./assets/pavel_pc.png");
 const bulb: string = require("./assets/bulb.svg").default;
 const featuresPhoto = require("./assets/features_photo.png");
