@@ -1,17 +1,12 @@
 import React from "react";
 
-import "./styles/menu_styles.css";
-import Hamburger from "hamburger-react";
-// import Image from "next/image";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useNavigate } from "react-router-dom";
 import { faMapPin, faChild } from "@fortawesome/free-solid-svg-icons";
-import { faVk } from "@fortawesome/free-brands-svg-icons";
-
+import { faVk, faTelegram } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
-import { log } from "console";
+
+import "./styles/menu_styles.css";
 
 const childIcon: string = require("../../assets/child-icon.svg").default;
 const logo: string = require("../../assets/logo_mob.svg").default;
@@ -53,6 +48,10 @@ const Menu: React.FC<MenuProps> = ({
 
   function navigateToVk() {
     window.open("https://vk.com/dental_home");
+  }
+
+  function navigateToTg() {
+    window.open("https://t.me/dental_home_clinik");
   }
 
   return (
@@ -122,6 +121,12 @@ const Menu: React.FC<MenuProps> = ({
                 className="icon"
                 onClick={navigateToVk}
               ></FontAwesomeIcon>
+              <FontAwesomeIcon
+                icon={faTelegram}
+                style={{ marginLeft: "clamp(10px,4.6728vw,40px)" }}
+                className="icon telegram"
+                onClick={navigateToTg}
+              ></FontAwesomeIcon>
             </div>
           </div>
         </div>
@@ -181,6 +186,12 @@ const Menu: React.FC<MenuProps> = ({
                   icon={faVk}
                   className="icon vk"
                   onClick={navigateToVk}
+                ></FontAwesomeIcon>
+                <FontAwesomeIcon
+                  icon={faTelegram}
+                  style={{ marginLeft: "clamp(8px,0.83328vw,32px)" }}
+                  className="icon telegram"
+                  onClick={navigateToTg}
                 ></FontAwesomeIcon>
               </div>
             </nav>
@@ -315,6 +326,12 @@ const Menu: React.FC<MenuProps> = ({
               className="icon"
               icon={faVk}
               onClick={navigateToVk}
+            ></FontAwesomeIcon>
+            <FontAwesomeIcon
+              icon={faTelegram}
+              style={{ marginLeft: "clamp(10px,4.6728vw,40px)" }}
+              className="icon telegram"
+              onClick={navigateToTg}
             ></FontAwesomeIcon>
           </div>
           <div className="main-content">
