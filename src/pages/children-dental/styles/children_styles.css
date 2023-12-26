@@ -122,6 +122,19 @@ body .screen-children .mob-screen .form-screen .content .divider {
   background-color: #202637;
   margin-top: clamp(8px, 3.73824vw, 32px);
 }
+body .screen-children .mob-screen .form-screen .content .form-sub-heading {
+  width: 100%;
+  color: #202637;
+  font-family: Merriweather;
+  font-size: clamp(11.5px, 5.37372vw, 46px);
+  font-style: normal;
+  font-weight: 700;
+  text-align: center !important;
+  margin: auto;
+  line-height: 137.4%;
+  text-transform: capitalize;
+  margin-top: clamp(8px, 3.73824vw, 32px);
+}
 body .screen-children .mob-screen .form-screen .content .form {
   width: 77.9527559055%;
   height: auto;
@@ -267,6 +280,16 @@ body .screen-children .pc-screen {
   }
   body .screen-children .pc-screen .heading-container .square-video .icon {
     color: #202637;
+  }
+  body .screen-children .pc-screen .form-sub-heading {
+    color: #202637;
+    font-family: Merriweather;
+    font-size: clamp(20px, 2.0832vw, 80px) !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 137.4%;
+    text-transform: capitalize;
+    margin-top: clamp(16px, 1.66656vw, 64px);
   }
   body .screen-children .pc-screen .service-container {
     width: 100%;

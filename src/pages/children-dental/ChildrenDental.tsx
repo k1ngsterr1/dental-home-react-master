@@ -329,6 +329,9 @@ const ChildDental = () => {
                   <h3 className="form-heading">Записаться На Прием</h3>
                 </div>
                 <div className="divider"></div>
+                <h4 className="form-sub-heading">
+                  Детская стоматология в Ивантеевке
+                </h4>
                 <p className="paragraph text-center mt-16">
                   Детская стоматология в Ивантеевке - это наша специализация! Мы
                   предлагаем платную детскую стоматологию высокого уровня,
@@ -575,6 +578,9 @@ const ChildDental = () => {
                 <div className="heading-container">
                   <h5 className="heading text-center">Записаться На Прием</h5>
                 </div>
+                <h4 className="form-sub-heading">
+                  Детская стоматология в Ивантеевке
+                </h4>
                 <p className="paragraph text-center mt-16">
                   Детская стоматология в Ивантеевке - это наша специализация! Мы
                   предлагаем платную детскую стоматологию высокого уровня,
