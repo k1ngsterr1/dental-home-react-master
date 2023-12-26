@@ -1440,7 +1440,10 @@ export default function HomePage() {
                       >
                         Восстановление зуба винирами{" "}
                       </Link>
-                      <Link to="/services/vinirs" className="gold-text two">
+                      <Link
+                        to="/services/bugel-prothesis"
+                        className="gold-text two"
+                      >
                         Съемные, бюгельные протезы
                       </Link>
                     </div>
