@@ -325,13 +325,13 @@ const ChildDental = () => {
               onSubmit={sendEmail}
             >
               <section className="content">
-                <div className="form-heading-container">
-                  <h3 className="form-heading">Записаться На Прием</h3>
-                </div>
                 <div className="divider"></div>
                 <h4 className="form-sub-heading">
                   Детская стоматология в Ивантеевке
                 </h4>
+                <div className="form-heading-container">
+                  <h3 className="form-heading">Записаться На Прием</h3>
+                </div>
                 <p className="paragraph text-center mt-16">
                   Детская стоматология в Ивантеевке - это наша специализация! Мы
                   предлагаем платную детскую стоматологию высокого уровня,
@@ -575,12 +575,12 @@ const ChildDental = () => {
               onSubmit={sendEmail}
             >
               <section className="content">
-                <div className="heading-container">
-                  <h5 className="heading text-center">Записаться На Прием</h5>
-                </div>
                 <h4 className="form-sub-heading">
                   Детская стоматология в Ивантеевке
                 </h4>
+                <div className="heading-container">
+                  <h5 className="heading text-center">Записаться На Прием</h5>
+                </div>
                 <p className="paragraph text-center mt-16">
                   Детская стоматология в Ивантеевке - это наша специализация! Мы
                   предлагаем платную детскую стоматологию высокого уровня,

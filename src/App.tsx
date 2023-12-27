@@ -1113,10 +1113,13 @@ export default function HomePage() {
                     service_text="Отбеливание"
                     link_text="Отбеливание"
                     openModal={openModal}
+                    link_text_4="Профессиональное отбеливание зубов Amazing White"
+                    link_text_5="Профессиональное отбеливание зубов Zoom"
                     href="/services/whitening"
                     href_2="/services/whitening"
                     href_3="/services/whitening"
-                    href_4="/services/whitening"
+                    href_4="/services/amazing-white"
+                    href_5="/services/zoom-whitening"
                   />
                 )}
                 <button onClick={healingInSleepExpansion} className="btn">
@@ -1227,13 +1230,9 @@ export default function HomePage() {
                     link_text="Профилактика и гигиена"
                     link_text_2="Профессиональная чистка зубов"
                     link_text_3="Чистка зубов AirFlow"
-                    link_text_4="Профессиональное отбеливание зубов Amazing White"
-                    link_text_5="Профессиональное отбеливание зубов Zoom"
                     href="/services/hygiene"
                     href_2="/services/teeth-cleaning"
                     href_3="/services/airflow"
-                    href_4="/services/amazing-white"
-                    href_5="/services/zoom-whitening"
                   />
                 )}
                 <button onClick={teethInSleepExpansion} className="btn">
@@ -1530,6 +1529,12 @@ export default function HomePage() {
                       <Link to="services/whitening" className="gold-text">
                         Отбеливание
                       </Link>
+                      <Link to="/services/amazing-white" className="gold-text">
+                        Профессиональное отбеливание зубов Amazing White
+                      </Link>
+                      <Link to="/services/zoom-whitening" className="gold-text">
+                        Профессиональное отбеливание зубов Zoom
+                      </Link>
                     </div>
                   </Fade>
                 )}
@@ -1650,12 +1655,6 @@ export default function HomePage() {
                       </Link>
                       <Link to="/services/airflow" className="gold-text">
                         Чистка зубов Airflow
-                      </Link>
-                      <Link to="/services/amazing-white" className="gold-text">
-                        Профессиональное отбеливание зубов Amazing White
-                      </Link>
-                      <Link to="/services/zoom-whitening" className="gold-text">
-                        Профессиональное отбеливание зубов Zoom{" "}
                       </Link>
                     </div>
                   </Fade>
