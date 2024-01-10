@@ -59,6 +59,14 @@ function ScrollToTop() {
   return null;
 }
 
+const RedirectTo404 = () => {
+  useEffect(() => {
+    window.location.href = "https://dental-home.ru/404.html";
+  }, []);
+
+  return null; // render nothing
+};
+
 ReactDOM.render(
   <Router>
     <ScrollToTop></ScrollToTop>
@@ -113,8 +121,7 @@ ReactDOM.render(
       <Route path="/services/child-hygiene" element={<ChildHygiene />} />
       <Route path="/services/child-sleep" element={<ChildSleep />} />
       <Route path="/services/healing-in-sleep" element={<HealInSleep />} />
-      <Route path="/404.html" element={<Error />} />
-      <Route path="*" element={<Navigate to="/404.html" />} />
+      <Route path="*" element={<RedirectTo404 />} />
     </Routes>
   </Router>,
   document.getElementById("root")
