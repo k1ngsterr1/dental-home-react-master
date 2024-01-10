@@ -326,7 +326,7 @@ const ChildDental = () => {
             >
               <section className="content">
                 <div className="divider"></div>
-                <h4 className="form-sub-heading">
+                <h4 className="form-sub-heading ">
                   Детская стоматология в Ивантеевке
                 </h4>
                 <div className="form-heading-container">

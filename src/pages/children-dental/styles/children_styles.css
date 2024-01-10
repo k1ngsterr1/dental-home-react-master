@@ -125,6 +125,7 @@ body .screen-children .mob-screen .form-screen .content .divider {
 body .screen-children .mob-screen .form-screen .content .form-sub-heading {
   width: 100%;
   color: #202637;
+  text-align: center;
   font-family: Merriweather;
   font-size: clamp(11.5px, 5.37372vw, 46px);
   font-style: normal;
@@ -246,6 +247,7 @@ body .screen-children .pc-screen {
   body .screen-children .pc-screen .heading-container {
     display: flex;
     flex-direction: column;
+    margin-top: 32px;
   }
   body .screen-children .pc-screen .heading-container .heading {
     color: #202637;
@@ -255,6 +257,7 @@ body .screen-children .pc-screen {
     font-weight: 700;
     line-height: 137.4%;
     text-transform: capitalize;
+    margin-top: 32px;
   }
   body .screen-children .pc-screen .heading-container .golden-button {
     width: clamp(122px, 12.70752vw, 488px);
@@ -286,6 +289,7 @@ body .screen-children .pc-screen {
     font-family: Merriweather;
     font-size: clamp(29px, 3.02064vw, 116px) !important;
     font-style: normal;
+    text-align: center;
     font-weight: 700;
     line-height: 137.4%;
     text-transform: capitalize;
