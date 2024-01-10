@@ -49,6 +49,8 @@ import ToothRestorationPage from "./pages/services/tooth-restoration/ToothRestor
 import BracesPage from "./pages/services/braces/BracesPage";
 import BugelPage from "./pages/services/bugel/BugelPage";
 
+import { doesNotMatch } from "assert";
+
 function ScrollToTop() {
   const { pathname } = useLocation();
 
@@ -59,13 +61,13 @@ function ScrollToTop() {
   return null;
 }
 
-const RedirectTo404 = () => {
-  useEffect(() => {
-    window.location.href = "https://dental-home.ru/404.html";
-  }, []);
+// const RedirectTo404 = () => {
+//   useEffect(() => {
+//     window.location.href = "https://dental-home.ru/404.html";
+//   }, []);
 
-  return null; // render nothing
-};
+//   return null; // render nothing
+// };
 
 ReactDOM.render(
   <Router>
@@ -121,7 +123,8 @@ ReactDOM.render(
       <Route path="/services/child-hygiene" element={<ChildHygiene />} />
       <Route path="/services/child-sleep" element={<ChildSleep />} />
       <Route path="/services/healing-in-sleep" element={<HealInSleep />} />
-      <Route path="*" element={<RedirectTo404 />} />
+      <Route path="/404" element={<Error />} />
+      <Route path="*" element={<Navigate to="/404" />} />
     </Routes>
   </Router>,
   document.getElementById("root")

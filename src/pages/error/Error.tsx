@@ -11,6 +11,7 @@ const Error = () => {
       <Helmet>
         <title>Данная страница несуществует</title>
         <meta name="robots" content="noindex" />
+        <meta name="prerender-status-code" content="404" />
       </Helmet>
       <div className="error-page">
         <div className="error-content">
