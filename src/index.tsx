@@ -113,8 +113,8 @@ ReactDOM.render(
       <Route path="/services/child-hygiene" element={<ChildHygiene />} />
       <Route path="/services/child-sleep" element={<ChildSleep />} />
       <Route path="/services/healing-in-sleep" element={<HealInSleep />} />
-      <Route path="/404" element={<Error />} />
-      <Route path="*" element={<Navigate to="/404" />} />
+      <Route path="/404.html" element={<Error />} />
+      <Route path="*" element={<Navigate to="/404.html" />} />
     </Routes>
   </Router>,
   document.getElementById("root")
