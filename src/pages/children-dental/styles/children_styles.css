@@ -257,7 +257,15 @@ body .screen-children .pc-screen {
     font-weight: 700;
     line-height: 137.4%;
     text-transform: capitalize;
-    margin-top: 32px;
+  }
+  body .screen-children .pc-screen .heading-container .child-heading {
+    color: #202637;
+    font-family: Merriweather;
+    font-size: clamp(30px, 3.1248vw, 120px) !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 137.4%;
+    text-transform: capitalize;
   }
   body .screen-children .pc-screen .heading-container .golden-button {
     width: clamp(122px, 12.70752vw, 488px);

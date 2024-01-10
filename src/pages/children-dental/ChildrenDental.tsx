@@ -466,7 +466,9 @@ const ChildDental = () => {
             ></Header>
             <div className="content-container">
               <div className="heading-container">
-                <h1 className="heading">Dental Home - Детская стоматология</h1>
+                <h1 className="child-heading">
+                  Dental Home - Детская стоматология
+                </h1>
                 <div className="button-row">
                   <button className="golden-button" onClick={openModal}>
                     Запись на прием
