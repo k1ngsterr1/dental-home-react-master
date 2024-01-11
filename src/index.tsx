@@ -51,6 +51,7 @@ import BugelPage from "./pages/services/bugel/BugelPage";
 
 import { doesNotMatch } from "assert";
 import TeethCt from "./pages/services/teeth-ct";
+import TeethDelete from "./pages/services/teeth-delete";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -110,6 +111,7 @@ ReactDOM.render(
       <Route path="/services/teeth-crowns" element={<CrownsPage />} />
       <Route path="/services/bugel-prothesis" element={<BugelPage />} />
       <Route path="/services/teeth-ct" element={<TeethCt />} />
+      <Route path="/services/teeth-delete" element={<TeethDelete />} />
       <Route
         path="/service/tooth-restoration"
         element={<ToothRestorationPage />}
