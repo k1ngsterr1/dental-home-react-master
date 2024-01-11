@@ -50,6 +50,7 @@ import BracesPage from "./pages/services/braces/BracesPage";
 import BugelPage from "./pages/services/bugel/BugelPage";
 
 import { doesNotMatch } from "assert";
+import TeethCt from "./pages/services/teeth-ct";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -108,6 +109,7 @@ ReactDOM.render(
       <Route path="/services/ortho-correction" element={<OrthoCorrection />} />
       <Route path="/services/teeth-crowns" element={<CrownsPage />} />
       <Route path="/services/bugel-prothesis" element={<BugelPage />} />
+      <Route path="/services/teeth-ct" element={<TeethCt />} />
       <Route
         path="/service/tooth-restoration"
         element={<ToothRestorationPage />}
