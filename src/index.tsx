@@ -49,7 +49,6 @@ import ToothRestorationPage from "./pages/services/tooth-restoration/ToothRestor
 import BracesPage from "./pages/services/braces/BracesPage";
 import BugelPage from "./pages/services/bugel/BugelPage";
 
-import { doesNotMatch } from "assert";
 import TeethCt from "./pages/services/teeth-ct";
 import TeethDelete from "./pages/services/teeth-delete";
 import CystDelete from "./pages/services/cyst-delete";
@@ -59,6 +58,7 @@ import OPTG from "./pages/services/optg";
 import ScopePage from "./pages/services/scope";
 import MRTPage from "./pages/services/mrt";
 import XrayPage from "./pages/services/xray";
+import EKGPage from "./pages/services/ekg";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -126,6 +126,7 @@ ReactDOM.render(
       <Route path="/services/scope" element={<ScopePage />} />
       <Route path="/services/mrt" element={<MRTPage />} />
       <Route path="/services/xray" element={<XrayPage />} />
+      <Route path="/services/ekg" element={<EKGPage />} />
       <Route
         path="/service/tooth-restoration"
         element={<ToothRestorationPage />}
