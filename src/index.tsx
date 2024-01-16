@@ -56,6 +56,9 @@ import CystDelete from "./pages/services/cyst-delete";
 import WisdomTooth from "./pages/services/wisdom-tooth-delete";
 import ThreeDPic from "./pages/services/3d";
 import OPTG from "./pages/services/optg";
+import ScopePage from "./pages/services/scope";
+import MRTPage from "./pages/services/mrt";
+import XrayPage from "./pages/services/xray";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -120,6 +123,9 @@ ReactDOM.render(
       <Route path="/services/wisdom-tooth-delete" element={<WisdomTooth />} />
       <Route path="/services/3d" element={<ThreeDPic />} />
       <Route path="/services/optg" element={<OPTG />} />
+      <Route path="/services/scope" element={<ScopePage />} />
+      <Route path="/services/mrt" element={<MRTPage />} />
+      <Route path="/services/xray" element={<XrayPage />} />
       <Route
         path="/service/tooth-restoration"
         element={<ToothRestorationPage />}
