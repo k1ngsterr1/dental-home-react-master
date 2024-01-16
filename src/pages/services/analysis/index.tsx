@@ -567,7 +567,7 @@ const AnalysisPage = () => {
                       комфортными для пациента.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info">
                       Какие анализы можно сдать в нашей клинике?
                     </h3>
@@ -581,7 +581,7 @@ const AnalysisPage = () => {
                       на гормоны и др.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info">
                       Почему стоит выбрать нашу клинику для сдачи анализов?
                     </h3>
@@ -600,7 +600,7 @@ const AnalysisPage = () => {
                       уже сегодня и заботьтесь о своем здоровье вместе с нами.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info">
                       Не откладывайте заботу о своем здоровье на потом
                     </h3>

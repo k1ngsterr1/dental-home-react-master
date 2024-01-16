@@ -815,7 +815,7 @@ const TeethDelete = () => {
                       быстрее заживить десну и избежать болей.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info two">
                       Удаление зуба в Ивантеевке: как подготовиться{" "}
                     </h3>
@@ -828,7 +828,7 @@ const TeethDelete = () => {
                       уточните у врача возможность проведения данной процедуры.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info two">
                       {" "}
                       Удаление зуба в Ивантеевке: что делать после процедуры
@@ -857,7 +857,7 @@ const TeethDelete = () => {
                       чтобы избежать боли и ускорить заживление.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info two">
                       Боль после удаления зуба: что делать{" "}
                     </h3>
@@ -879,7 +879,7 @@ const TeethDelete = () => {
                       обязательно обратитесь к врачу.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info two">
                       Сложное удаление зуба: что нужно знать
                     </h3>
@@ -893,7 +893,7 @@ const TeethDelete = () => {
                       для минимизации болей и рисков.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info two">
                       Удаление верхнего зуба: особенности процедуры
                     </h3>
@@ -906,7 +906,7 @@ const TeethDelete = () => {
                       проходить без проблем.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info two">
                       Удаление зуба в Ивантеевке: обратитесь к нам{" "}
                     </h3>

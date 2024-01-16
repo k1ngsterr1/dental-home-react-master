@@ -575,7 +575,7 @@ const MRTPage = () => {
                       МРТ зубов.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info">Что такое МРТ зубов?</h3>
                     <p className="p-info">
                       МРТ (магнитно-резонансная томография) - это метод
@@ -585,7 +585,7 @@ const MRTPage = () => {
                       позволяет получить изображение зубов и окружающих тканей.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info">
                       Почему нужно делать МРТ зубов?
                     </h3>
@@ -596,7 +596,7 @@ const MRTPage = () => {
                       получить более точное изображение, чем обычный рентген.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info">Сколько стоит МРТ зубов?</h3>
                     <p className="p-info">
                       Цена на МРТ зубов в Ивантеевке зависит от многих факторов,
@@ -606,7 +606,7 @@ const MRTPage = () => {
                       получить точную диагностику без переплаты.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info">Как сделать МРТ зубов?</h3>
                     <p className="p-info">
                       Процедура довольно проста и безболезненна. Вам нужно будет

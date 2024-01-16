@@ -556,7 +556,7 @@ const ThreeDPic = () => {
                       выберите панорамный снимок полости рта в Ивантеевке.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info">
                       Почему именно панорамный снимок?
                     </h3>
@@ -582,7 +582,7 @@ const ThreeDPic = () => {
                       максимально точную диагностику по выгодной цене.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info">
                       Не откладывайте заботу о своем здоровье на потом.
                     </h3>

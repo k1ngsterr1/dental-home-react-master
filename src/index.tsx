@@ -59,6 +59,7 @@ import ScopePage from "./pages/services/scope";
 import MRTPage from "./pages/services/mrt";
 import XrayPage from "./pages/services/xray";
 import EKGPage from "./pages/services/ekg";
+import AnalysisPage from "./pages/services/analysis";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -127,6 +128,7 @@ ReactDOM.render(
       <Route path="/services/mrt" element={<MRTPage />} />
       <Route path="/services/xray" element={<XrayPage />} />
       <Route path="/services/ekg" element={<EKGPage />} />
+      <Route path="/services/analysis" element={<AnalysisPage />} />
       <Route
         path="/service/tooth-restoration"
         element={<ToothRestorationPage />}

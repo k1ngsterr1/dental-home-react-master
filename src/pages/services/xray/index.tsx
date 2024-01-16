@@ -579,7 +579,7 @@ const XrayPage = () => {
                       причины этих проблем.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info">Делают ли рентген зуба?</h3>
                     <p className="p-info">
                       Да, рентген зуба - это один из самых распространенных
@@ -588,7 +588,7 @@ const XrayPage = () => {
                       зуба и его корней, а также окру до жающих тканей
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info">
                       Какой рентген зубов лучше делать?
                     </h3>
@@ -601,7 +601,7 @@ const XrayPage = () => {
                       требований врача.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info">
                       Сколько стоит рентген зубов?
                     </h3>
@@ -614,7 +614,7 @@ const XrayPage = () => {
                       без переплаты.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info">Как сделать рентген зубов?</h3>
                     <p className="p-info">
                       Процедура довольно проста и безболезненна. Вам нужно будет

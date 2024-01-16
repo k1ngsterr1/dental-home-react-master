@@ -561,7 +561,7 @@ const ScopePage = () => {
                       Ивантеевке.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info">Что это за процедура?</h3>
                     <p className="p-info">
                       Прицельный рентгеновский снимок - это диагностический
@@ -571,7 +571,7 @@ const ScopePage = () => {
                       которые не видны на обычном рентгене.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info">
                       Сделать прицельный снимок зуба - это безопасно и
                       безболезненно
@@ -599,7 +599,7 @@ const ScopePage = () => {
                       своего здоровья.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info">
                       Не откладывайте заботу о своем здоровье на потом
                     </h3>

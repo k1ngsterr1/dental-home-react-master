@@ -816,7 +816,7 @@ const WisdomTooth = () => {
                       мудрости.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info two">
                       Преимущества хирургического лечения зубов в Ивантеевке{" "}
                     </h3>
@@ -830,7 +830,7 @@ const WisdomTooth = () => {
                       подвижность зубов на фоне тяжелого пародонтита и другие.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info two">
                       Удаление зуба мудрости: что это такое?
                     </h3>
@@ -842,7 +842,7 @@ const WisdomTooth = () => {
                       повреждению соседних зубов.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info two">
                       Удаление зуба мудрости в Ивантеевке: как это происходит?
                     </h3>
@@ -860,7 +860,7 @@ const WisdomTooth = () => {
                       закрывает ее швами или специальным материалом.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info two">
                       Удаление зуба мудрости: что делать после процедуры?
                     </h3>
@@ -886,7 +886,7 @@ const WisdomTooth = () => {
                       занятий в первые несколько дней после процедуры.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info two">
                       Удаление зуба мудрости в Ивантеевке: обратитесь к нам
                     </h3>
@@ -897,7 +897,7 @@ const WisdomTooth = () => {
                       обратитесь к врачу.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info two">
                       Удаление зуба мудрости: что делать, если возникли
                       проблемы?
@@ -912,7 +912,7 @@ const WisdomTooth = () => {
                       профессионалам.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info two">
                       Удаление зуба мудрости в Ивантеевке: обратитесь к нам
                     </h3>

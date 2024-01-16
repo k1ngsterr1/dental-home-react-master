@@ -797,7 +797,7 @@ const CystDelete = () => {
                       развитие серьезных осложнений.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info two">
                       Удаление кисты зуба: как это происходит?{" "}
                     </h3>
@@ -817,7 +817,7 @@ const CystDelete = () => {
                       специальным материалом.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info two">
                       {" "}
                       Удаление кисты зуба: что делать после процедуры?
@@ -843,7 +843,7 @@ const CystDelete = () => {
                       растворы для ухода за ротовой полостью.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info two">
                       Удаление кисты зуба: что делать, если возникли проблемы?
                     </h3>
@@ -854,7 +854,7 @@ const CystDelete = () => {
                       обратитесь к врачу.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info two">
                       Имплант зуба после удаления кисты: когда можно провести
                       процедуру?
@@ -867,7 +867,7 @@ const CystDelete = () => {
                       кисты зуба и индивидуальных особенностей пациента.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info two">
                       Удаление кисты зуба в Ивантеевке: обратитесь к нам
                     </h3>

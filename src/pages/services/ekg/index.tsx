@@ -568,7 +568,7 @@ const EKGPage = () => {
                       Ивантеевке.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info">Что такое ОПТГ снимок?</h3>
                     <p className="p-info">
                       Это рентгеновский снимок, который позволяет получить
@@ -587,7 +587,7 @@ const EKGPage = () => {
                       несколько минут.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info">
                       А теперь самое главное - цена
                     </h3>
@@ -597,7 +597,7 @@ const EKGPage = () => {
                       вы найдете оптимальное соотношение цены и качества.
                     </p>
                   </div>
-                  <div className="information-two">
+                  <div className="information-two mt-5">
                     <h3 className="heading-info">
                       Не откладывайте заботу о своем здоровье на потом
                     </h3>
