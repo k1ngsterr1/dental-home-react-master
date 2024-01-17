@@ -62,6 +62,9 @@ interface ExpandedService {
   link_text_4?: string;
   link_text_5?: string;
   link_text_6?: string;
+  link_text_7?: string;
+  link_text_8?: string;
+  link_text_9?: string;
   href: string;
   href_2?: any;
   href_3?: any;
@@ -69,6 +72,9 @@ interface ExpandedService {
   href_4?: any;
   href_5?: any;
   href_6?: any;
+  href_7?: any;
+  href_8?: any;
+  href_9?: any;
 }
 
 interface ReviewTabProps {
@@ -198,6 +204,12 @@ const ExpandedTab: React.FC<ExpandedService> = (props) => {
         </Link>
         <Link to={props.href_5} className="golden-link">
           {props.link_text_5}
+        </Link>
+        <Link to={props.href_6} className="golden-link">
+          {props.link_text_6}
+        </Link>
+        <Link to={props.href_7} className="golden-link">
+          {props.link_text_7}
         </Link>
       </div>
     </div>
@@ -1071,7 +1083,7 @@ export default function HomePage() {
                         isWhiteningOpened ? "text-active" : "text-inactive"
                       }
                     >
-                      Консультации
+                      Анализы и Диагностика
                     </span>
                     <FontAwesomeIcon
                       icon={isWhiteningOpened ? faMinus : faPlus}
@@ -1083,14 +1095,24 @@ export default function HomePage() {
                   <ExpandedTab
                     service_text="Диагностика"
                     link_text="Рентгенология"
-                    link_text_2="Исследования и диагностика"
-                    link_text_3=""
-                    link_text_4=""
+                    link_text_2="ОПТГ"
+                    link_text_3="КТ (компьютерная томография)"
+                    link_text_4="3D снимок полости рта"
+                    link_text_5="Прицельный снимок"
+                    link_text_6="МРТ зубов"
+                    link_text_7="Рентген зубов"
+                    link_text_8="ЭКГ"
+                    link_text_9="Анализы"
                     openModal={openModal}
                     href="/services/diagnostic"
-                    href_2="/services/diagnostic"
-                    href_3="/services/diagnostic"
-                    href_4="/services/diagnostic"
+                    href_2="/services/optg"
+                    href_3="/services/teeth-ct"
+                    href_4="/services/3d"
+                    href_5="/services/scope"
+                    href_6="/services/mrt"
+                    href_7="/services/xray"
+                    href_8="/services/ekg"
+                    href_9="/services/analysis"
                   />
                 )}
                 <button onClick={mouthHygieneExpansion} className="btn">
@@ -1142,11 +1164,14 @@ export default function HomePage() {
                   <ExpandedTab
                     service_text="Хирургия"
                     link_text="Хирургия"
+                    link_text_2="Удаление зуба"
+                    link_text_3="Удаление кисты зуба"
+                    link_text_4="Удаление зуба мудрости"
                     openModal={openModal}
                     href="/services/surgery"
-                    href_2="/services/surgery"
-                    href_3="/services/surgery"
-                    href_4="/services/surgery"
+                    href_2="/services/teeth-delete"
+                    href_3="/services/cyst-delete"
+                    href_4="/services/wisdom-tooth-delete"
                   />
                 )}
                 <button onClick={vinirExpansion} className="btn">
@@ -1309,7 +1334,7 @@ export default function HomePage() {
                           isWhiteningOpened ? "text-active" : "text-inactive"
                         }
                       >
-                        Консультации
+                        Анализы и диагностика
                       </Link>
                     </div>
                   </button>
@@ -1501,11 +1526,29 @@ export default function HomePage() {
                       </Link>
                       <div className="row"></div>
                       <span className="row-text">Диагностика</span>
-                      <Link to="/services/diagnostic" className="gold-text two">
-                        Рентгенология
+                      <Link to="/services/xray" className="gold-text two">
+                        Рентген зубов
                       </Link>
-                      <Link to="/services/diagnostic" className="gold-text two">
-                        Исследования и диагностика
+                      <Link to="/services/teeth-ct" className="gold-text two">
+                        КТ (компьютерная томография)
+                      </Link>
+                      <Link to="/services/3d" className="gold-text two">
+                        3D снимок полости рта
+                      </Link>
+                      <Link to="/services/optg" className="gold-text two">
+                        ОПТГ
+                      </Link>
+                      <Link to="/services/scope" className="gold-text two">
+                        Прицельный снимок
+                      </Link>
+                      <Link to="/services/mrt" className="gold-text two">
+                        МРТ Зубов
+                      </Link>
+                      <Link to="/services/ekg" className="gold-text two">
+                        ЭКГ
+                      </Link>
+                      <Link to="/services/analysis" className="gold-text two">
+                        Анализы (KDL лаборатория)
                       </Link>
                     </div>
                   </Fade>
@@ -1556,6 +1599,18 @@ export default function HomePage() {
                       <span className="row-text">Хирургия</span>
                       <Link to="/services/surgery" className="gold-text">
                         Хирургия
+                      </Link>
+                      <Link to="/services/teeth-delete" className="gold-text">
+                        Удаление зуба
+                      </Link>
+                      <Link to="/services/cyst-delete" className="gold-text">
+                        Удаление кисты зуба
+                      </Link>
+                      <Link
+                        to="/services/wisdom-tooth-delete"
+                        className="gold-text"
+                      >
+                        Удаление зуба мудрости
                       </Link>
                     </div>
                   </Fade>
