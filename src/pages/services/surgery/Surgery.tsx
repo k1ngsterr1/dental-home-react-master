@@ -254,7 +254,9 @@ const Surgery = () => {
                     Хирургия
                   </Link>
                 </div>
-                <h1 className="heading">Хирургия</h1>
+                <h1 className="heading">
+                  Челюстно-лицевая хирургия в Ивантеевке
+                </h1>
                 <button className="golden-button" onClick={openModal}>
                   <span className="text">Записаться</span>
                   <FontAwesomeIcon
@@ -688,7 +690,7 @@ const Surgery = () => {
                     </Link>
                   </div>
                   <h1 className="heading" style={{ width: "30%" }}>
-                    Хирургия
+                    Челюстно-лицевая хирургия в Ивантеевке
                   </h1>
                   <button className="button" onClick={openModal}>
                     <span className="text">Записаться</span>

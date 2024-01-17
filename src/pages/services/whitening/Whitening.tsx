@@ -250,7 +250,7 @@ const Whitening = () => {
                     Отбеливание
                   </Link>
                 </div>
-                <h1 className="heading">Отбеливание</h1>
+                <h1 className="heading">Отбеливание зубов в Ивантеевке</h1>
                 <button className="golden-button" onClick={openModal}>
                   <span className="text">Записаться</span>
                   <FontAwesomeIcon
@@ -556,7 +556,7 @@ const Whitening = () => {
                       отбеливание
                     </Link>
                   </div>
-                  <h1 className="heading">Отбеливание</h1>
+                  <h1 className="heading">Отбеливание зубов в Ивантеевке</h1>
                   <button className="button" onClick={openModal}>
                     <span className="text">Записаться</span>
                     <FontAwesomeIcon
