@@ -211,6 +211,12 @@ const ExpandedTab: React.FC<ExpandedService> = (props) => {
         <Link to={props.href_7} className="golden-link">
           {props.link_text_7}
         </Link>
+        <Link to={props.href_8} className="golden-link">
+          {props.link_text_8}
+        </Link>
+        <Link to={props.href_9} className="golden-link">
+          {props.link_text_9}
+        </Link>
       </div>
     </div>
   );
