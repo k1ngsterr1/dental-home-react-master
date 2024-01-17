@@ -568,7 +568,9 @@ const OPTG = () => {
                     </p>
                   </div>
                   <div className="information-two mt-5">
-                    <h3 className="heading-info">Что такое ОПТГ снимок?</h3>
+                    <h3 className="heading-info">
+                      Что такое Ортопантомография?
+                    </h3>
                     <p className="p-info">
                       Это рентгеновский снимок, который позволяет получить
                       полную картину зубной системы, включая корни зубов и

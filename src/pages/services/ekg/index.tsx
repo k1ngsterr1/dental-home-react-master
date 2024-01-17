@@ -558,7 +558,7 @@ const EKGPage = () => {
                   <span className="text">Об услуге</span>
                   <div className="information-one">
                     <h3 className="heading-info">
-                      Что такое ЭКГ сердца и зачем она нужна?
+                      Что такое Электрокардиография сердца и зачем она нужна?
                     </h3>
                     <p className="p-info">
                       ЭКГ сердца - это метод диагностики, который позволяет

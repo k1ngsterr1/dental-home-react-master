@@ -556,7 +556,9 @@ const Whitening = () => {
                       отбеливание
                     </Link>
                   </div>
-                  <h1 className="heading">Отбеливание зубов в Ивантеевке</h1>
+                  <h1 className="heading" style={{ width: "40%" }}>
+                    Отбеливание зубов в Ивантеевке
+                  </h1>
                   <button className="button" onClick={openModal}>
                     <span className="text">Записаться</span>
                     <FontAwesomeIcon
