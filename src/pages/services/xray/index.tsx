@@ -277,7 +277,8 @@ const XrayPage = () => {
                 </div>
                 <section className="information">
                   <h3 className="information-heading">
-                    Рентген зубов в Ивантеевке: точность и доступность
+                    Рентген челюстей и зубов в Ивантеевке: точность и
+                    доступность
                   </h3>
                   <p className="information-paragraph">
                     Рентген зубов - это один из наиболее распространенных
@@ -302,7 +303,7 @@ const XrayPage = () => {
                 <div className="divider"></div>
                 <section className="information">
                   <h3 className="information-heading">
-                    Какой рентген зубов лучше делать?
+                    Какой рентген челюсти лучше делать?
                   </h3>
                   <p className="information-paragraph">
                     Существует несколько видов рентгеновских снимков зубов,
@@ -569,7 +570,8 @@ const XrayPage = () => {
                   <span className="text">Об услуге</span>
                   <div className="information-one">
                     <h3 className="heading-info">
-                      Рентген зубов в Ивантеевке: точность и доступность
+                      Рентген челюстей и зубов в Ивантеевке: точность и
+                      доступность
                     </h3>
                     <p className="p-info">
                       Рентген зубов - это один из наиболее распространенных
@@ -590,7 +592,7 @@ const XrayPage = () => {
                   </div>
                   <div className="information-two mt-5">
                     <h3 className="heading-info">
-                      Какой рентген зубов лучше делать?
+                      Какой рентген челюсти лучше делать?
                     </h3>
                     <p className="p-info">
                       Существует несколько видов рентгеновских снимков зубов,
