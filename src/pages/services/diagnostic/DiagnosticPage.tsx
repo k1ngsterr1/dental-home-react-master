@@ -342,21 +342,24 @@ const DiagnosticPage = () => {
                       Консультации
                     </h5>
                     <span className="text">
-                      Прием (осмотр, консультация) врача-стоматолога первичный
+                      Прием (осмотр, консультация) врача-стоматолога первичный{" "}
+                      <br />
+                      (В01.065.007)
                     </span>
                     <span className="price">От 1.000₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Диспансерный прием (осмотр, консультация)
-                      врача-стоматолога{" "}
+                      врача-стоматолога <br />
+                      (В04.065.005)
                     </span>
                     <span className="price">От 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Профилактический прием (осмотр, консультация)
-                      врача-стоматолога
+                      врача-стоматолога <br /> (В04.065.006)
                     </span>
                     <span className="price last">0 ₽</span>
                   </section>
@@ -369,32 +372,68 @@ const DiagnosticPage = () => {
                     <h5 className="plate-heading" style={{ width: "90%" }}>
                       Рентгенология
                     </h5>
-                    <span className="text">Радиовизиография</span>
+                    <span className="text">
+                      Радиовизиография <br /> (А06.07.010 )
+                    </span>
                     <span className="price">От 400 ₽</span>
                   </section>
-                  <section className="tab-two">
+                  {/* <section className="tab-two">
                     <span className="text">
                       Получение снимка на электронный адрес
                     </span>
                     <span className="price">От 100 ₽</span>
-                  </section>
-                  <section className="tab-three">
+                  </section> */}
+                  {/* <section className="tab-three">
                     <span className="text">
                       Запись на электронный носитель CD
                     </span>
                     <span className="price">От 300 ₽</span>
-                  </section>
+                  </section> */}
                   <section className="tab-three">
                     <span className="text">
-                      Запись на электронный носитель USB
+                      Запись на электронный носитель USB <br />
+                      (А06.07.013.002)
                     </span>
                     <span className="price">От 500 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Повторный диагностический снимок
+                      <br />
+                      (А06.07.013.003)
                     </span>
                     <span className="price last">От 0 ₽</span>
+                  </section>
+                  <section className="tab-three">
+                    <span className="text">
+                      Компьютерная томография верхней и нижней челюсти и
+                      придаточные пазухи (за исключением лобной пазухи)
+                      <br />
+                      (А06.07.013.003)
+                    </span>
+                    <span className="price last">От 4.100₽</span>
+                  </section>
+                  <section className="tab-three">
+                    <span className="text">
+                      Компьютерная томография 5*5 область 2-3 рядом стоящих
+                      зубов <br />
+                      (А06.07.013.005)
+                    </span>
+                    <span className="price last">От 1.500₽</span>
+                  </section>
+                  <section className="tab-three">
+                    <span className="text">
+                      Компьютерная томография 6*9 область одной челюсти <br />{" "}
+                      (А06.07.013.006)
+                    </span>
+                    <span className="price last">От 2.500₽</span>
+                  </section>
+                  <section className="tab-three">
+                    <span className="text">
+                      Компьютерная томография ВНЧС (височно-нижнечелюстного
+                      сустава) <br /> (А06.07.013.007)
+                    </span>
+                    <span className="price last">От 1.500₽</span>
                   </section>
                 </div>
                 <div
@@ -801,21 +840,28 @@ const DiagnosticPage = () => {
                       <div className="price-row">
                         <span className="text">
                           Прием (осмотр, консультация) врача-стоматолога
-                          первичный
+                          первичный <br />
+                          (В01.065.007)
                         </span>
                         <span className="price">От 1000 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Диспансерный прием (осмотр, консультация)
-                          врача-стоматолога{" "}
+                          врача-стоматолога <br /> (В04.065.005)
                         </span>
                         <span className="price">От 500 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Профилактический прием (осмотр, консультация)
-                          врача-стоматолога
+                          врача-стоматолога <br /> (В04.065.006)
+                        </span>
+                        <span className="price last">0 ₽</span>
+                      </div>
+                      <div className="price-row">
+                        <span className="text">
+                          Адаптационный прием <br /> (В04.065.008 )
                         </span>
                         <span className="price last">0 ₽</span>
                       </div>
@@ -828,30 +874,34 @@ const DiagnosticPage = () => {
                     <h4 className="price-heading">Рентгенология</h4>
                     <div className="prices">
                       <div className="price-row">
-                        <span className="text">Радиовизиография</span>
+                        <span className="text">
+                          Радиовизиография <br /> (А06.07.010){" "}
+                        </span>
                         <span className="price">От 500 ₽</span>
                       </div>
-                      <div className="price-row">
+                      {/* <div className="price-row">
                         <span className="text">
                           Получение снимка на электронный адрес
                         </span>
                         <span className="price">От 100 ₽</span>
-                      </div>
-                      <div className="price-row">
+                      </div> */}
+                      {/* <div className="price-row">
                         <span className="text">
                           Запись на электронный носитель CD
                         </span>
                         <span className="price">От 300 ₽</span>
-                      </div>
+                      </div> */}
                       <div className="price-row">
                         <span className="text">
-                          Запись на электронный носитель USB
+                          Запись на электронный носитель USB <br />{" "}
+                          (А06.07.013.002)
                         </span>
                         <span className="price">От 500 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Повторный диагностический снимок
+                          Повторный диагностический снимок <br />{" "}
+                          (А06.07.013.003 )
                         </span>
                         <span className="price last"> 0 ₽</span>
                       </div>

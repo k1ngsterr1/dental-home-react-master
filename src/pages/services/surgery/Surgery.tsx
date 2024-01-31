@@ -334,182 +334,225 @@ const Surgery = () => {
                     <h5 className="plate-heading">Хирургия</h5>
                     <span className="text">
                       Удаление временного зуба I степени сложности
+                      <br />
+                      (ХР-А16.07.001.001)
                     </span>
-                    <span className="price">От 1.200₽</span>
+                    <span className="price">От 1.500₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Удаление временного зуба II степени сложности
+                      <br />
+                      (ХР-А16.07.001.004)
                     </span>
                     <span className="price">От 1.800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Удаление временного зуба с сохраненными корнями
+                      <br />
+                      (ХР-А16.07.001.005)
                     </span>
                     <span className="price">От 2.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Удаление постоянного зуба простое
+                      <br />
+                      (ХР-А16.07.001.002)
                     </span>
                     <span className="price">От 2.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Удаление постоянного зуба I степени сложности{" "}
+                      Удаление постоянного зуба I степени сложности <br />
+                      (ХР-А16.07.001.006)
                     </span>
                     <span className="price">От 4.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Удаление постоянного зуба II степени сложности
+                      <br />
+                      (ХР-А16.07.001.007)
                     </span>
                     <span className="price">От 5.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Удаление постоянного зуба III степени сложности
+                      <br />
+                      (ХР-А16.07.001.008)
                     </span>
                     <span className="price">От 6.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Удаление зуба сложное с разъединением корней
+                      <br />
+                      (ХР-А16.07.001.003)
                     </span>
                     <span className="price">От 7.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Резекция верхушки корня (1 корень){" "}
+                      Резекция верхушки корня (1 корень) <br />
+                      (ХР-А16.07.007)
                     </span>
                     <span className="price">От 15.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       {" "}
-                      Вскрытие и дренирование одонтогенного абсцесса
+                      Вскрытие и дренирование одонтогенного абсцесса <br />
+                      (ХР-А16.07.012)
                     </span>
                     <span className="price">От 1.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      {" "}
                       Отсроченный кюретаж лунки удаленного зуба
+                      <br />
+                      (ХР-А16.07.013)
                     </span>
                     <span className="price">От 1.500₽</span>
                   </section>
-                  <section className="tab-three">
+                  {/* <section className="tab-three">
                     <span className="text">
                       Удаление новообразований челюстно-лицевой области
                     </span>
                     <span className="price">От 8.000₽</span>
-                  </section>
+                  </section> */}
                   <section className="tab-three">
-                    <span className="text">Цистотомия, цистэктомия</span>
+                    <span className="text">
+                      Цистотомия, цистэктомия <br /> (ХР-А16.07.016)
+                    </span>
                     <span className="price ">От 8.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Временное шинирование при заболеваниях пародонта ( 1
-                      единица)
+                      единица) <br />
+                      (ХР-А16.07.019 )
                     </span>
                     <span className="price ">От 1.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Операция удаления ретинированного, дистопированного или
-                      сверхкомплектного зуба
+                      сверхкомплектного зуба <br />
+                      (ХР-А16.07.024 )
                     </span>
                     <span className="price ">От 13.000₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Удаление имплантата </span>
+                    <span className="text">
+                      Удаление имплантата <br /> (ХР-А16.30.026 )
+                    </span>
                     <span className="price ">От 7.500₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Пластика уздечки языка</span>
+                    <span className="text">
+                      Пластика уздечки языка <br /> (ХР-А16.07.045)
+                    </span>
                     <span className="price ">От 3.500₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Пластика уздечки губы </span>
+                    <span className="text">
+                      Пластика уздечки верхней губы <br /> (ХР-А16.07.042)
+                    </span>
                     <span className="price ">От 3.500₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Вестибулопластика</span>
+                    <span className="text">
+                      Пластика уздечки нижней губы <br /> (ХР-А16.07.043)
+                    </span>
+                    <span className="price ">От 3.500₽</span>
+                  </section>
+                  <section className="tab-three">
+                    <span className="text">
+                      Вестибулопластика <br /> (ХР-А16.07.045){" "}
+                    </span>
                     <span className="price ">От 10.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Лечение перикоронита (промывание, рассечение и/или
-                      иссечение капюшона)
+                      иссечение капюшона) <br /> (ХР-А16.07.058)
                     </span>
                     <span className="price ">От 2.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Остановка луночного кровотечения с использованием
-                      гемостатических материалов
+                      гемостатических материалов <br /> (ХР-А16.07.095.002)
                     </span>
                     <span className="price ">От 700₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Закрытие соустья с гайморовой пазухой{" "}
+                      Закрытие соустья с гайморовой пазухой <br />{" "}
+                      (ХР-А16.07.096)
                     </span>
                     <span className="price ">От 5.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Наложение шва на слизистую оболочку рта{" "}
+                      Наложение шва на слизистую оболочку рта <br />{" "}
+                      (ХР-А16.07.097)
                     </span>
                     <span className="price ">От 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Открытый кюретаж при заболеваниях пародонта в области 1
-                      зуба
+                      зуба <br /> (ХР-А16.07.038)
                     </span>
                     <span className="price ">От 2.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Закрытый кюретаж при заболеваниях пародонта в области 1
-                      зуба
+                      зуба <br /> (ХР-А16.07.039 )
                     </span>
                     <span className="price ">От 2.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Пластика мягких тканей в области зуба или имплантата
+                      Пластика мягких тканей в области зуба или имплантата{" "}
+                      <br /> (ХР-А16.07.040)
                     </span>
                     <span className="price ">От 10.000₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Снятие швов</span>
+                    <span className="text">
+                      Снятие швов <br /> (ХР-А16.30.069){" "}
+                    </span>
                     <span className="price ">От 1.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Антисептическая обработка патологических карманов{" "}
+                      Антисептическая обработка патологических карманов <br />{" "}
+                      (ХР-А11.07.010)
                     </span>
                     <span className="price ">От 1.200₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Удаление экзостоза в области 1 зуба
+                      Удаление экзостоза в области 1 зуба <br /> (ХР-А16.03.089)
                     </span>
                     <span className="price ">От 1.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Хирургическое удлинение в области 1 зуба
+                      Хирургическое удлинение в области 1 зуба <br />{" "}
+                      (ХР-А16.07.089)
                     </span>
                     <span className="price ">От 6.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Закрытый кюретаж в области 1 зуба
+                      Закрытый кюретаж в области 1 зуба <br /> (ХР-А16.07.039)
                     </span>
                     <span className="price ">От 20.000₽</span>
                   </section>
@@ -798,165 +841,205 @@ const Surgery = () => {
                       здоровье нам и получите красивую и здоровую улыбку!
                     </p>
                   </div>
-
                   <div className="price-tab" id="prices">
                     <h4 className="price-heading">Хирургия</h4>
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">
                           Удаление временного зуба I степени сложности
+                          <br />
+                          (ХР-А16.07.001.001)
                         </span>
                         <span className="price">От 1.200₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Удаление временного зуба II степени сложности
+                          <br />
+                          (ХР-А16.07.001.004)
                         </span>
                         <span className="price">От 1.800₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
                           Удаление временного зуба с сохраненными корнями
+                          <br />
+                          (ХР-А16.07.001.005)
                         </span>
                         <span className="price">От 2.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Удаление постоянного зуба простое
+                          <br /> (ХР-А16.07.001.002)
                         </span>
                         <span className="price">От 2.500₽</span>
                       </div>
-                      <div className="price-row">
+                      {/* <div className="price-row">
                         <span className="text">Удаление вкладки</span>
                         <span className="price">От 4.000₽</span>
-                      </div>
+                      </div> */}
                       <div className="price-row">
                         <span className="text">
-                          Удаление постоянного зуба I степени сложности{" "}
+                          Удаление постоянного зуба I степени сложности <br />{" "}
+                          (ХР-А16.07.001.006)
                         </span>
                         <span className="price">От 4.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Удаление постоянного зуба II степени сложности
+                          Удаление постоянного зуба II степени сложности <br />{" "}
+                          (ХР-А16.07.001.007)
                         </span>
                         <span className="price">От 5.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Удаление постоянного зуба III степени сложности
+                          Удаление постоянного зуба III степени сложности <br />{" "}
+                          (ХР-А16.07.001.008)
                         </span>
                         <span className="price">От 6.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Удаление зуба сложное с разъединением корней
+                          Удаление зуба сложное с разъединением корней <br />{" "}
+                          (ХР-А16.07.001.003)
                         </span>
                         <span className="price">От 7.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Резекция верхушки корня (1 корень){" "}
+                          Резекция верхушки корня (1 корень) <br />{" "}
+                          (ХР-А16.07.007)
                         </span>
                         <span className="price">От 15.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           {" "}
-                          Вскрытие и дренирование одонтогенного абсцесса
+                          Вскрытие и дренирование одонтогенного абсцесса <br />{" "}
+                          (ХР-А16.07.012)
                         </span>
                         <span className="price">От 1.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          {" "}
-                          Отсроченный кюретаж лунки удаленного зуба
+                          Отсроченный кюретаж лунки удаленного зуба <br />
+                          (ХР-А16.07.013 )
                         </span>
                         <span className="price">От 1.500₽</span>
                       </div>
-                      <div className="price-row">
+                      {/* <div className="price-row">
                         <span className="text">
                           Удаление новообразований челюстно-лицевой области
                         </span>
                         <span className="price">От 5.000₽</span>
-                      </div>
+                      </div> */}
                       <div className="price-row">
-                        <span className="text">Цистотомия, цистэктомия</span>
+                        <span className="text">
+                          Цистотомия, цистэктомия <br /> (ХР-А16.07.016){" "}
+                        </span>
                         <span className="price ">От 8.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Временное шинирование при заболеваниях пародонта ( 1
-                          единица)
+                          единица) <br />
+                          (ХР-А16.07.019)
                         </span>
                         <span className="price ">От 1.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Операция удаления ретинированного, дистопированного
-                          или сверхкомплектного зуба
+                          или сверхкомплектного зуба <br />
+                          (ХР-А16.07.024)
                         </span>
                         <span className="price ">От 13.000₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Удаление имплантата </span>
+                        <span className="text">
+                          Удаление имплантата <br /> (ХР-А16.30.026){" "}
+                        </span>
                         <span className="price ">От 7.500₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Пластика уздечки языка</span>
+                        <span className="text">
+                          Пластика уздечки языка <br /> (ХР-А16.07.044){" "}
+                        </span>
                         <span className="price ">От 3.500₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Пластика уздечки губы</span>
+                        <span className="text">
+                          Пластика уздечки нижней губы <br /> (ХР-А16.07.043){" "}
+                        </span>
                         <span className="price ">От 3.500₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Вестибулопластика</span>
+                        <span className="text">
+                          Пластика уздечки верхней губы
+                        </span>
+                        <span className="price ">
+                          От 3.500₽ <br /> (ХР-А16.07.042){" "}
+                        </span>
+                      </div>
+                      <div className="price-row">
+                        <span className="text">
+                          Вестибулопластика <br /> (ХР-А16.07.045){" "}
+                        </span>
                         <span className="price ">От 10.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Лечение перикоронита (промывание, рассечение и/или
-                          иссечение капюшона)
+                          иссечение капюшона) <br />
+                          (ХР-А16.07.058)
                         </span>
                         <span className="price ">От 2.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Остановка луночного кровотечения с использованием
-                          гемостатических материалов
+                          гемостатических материалов <br />
+                          (ХР-А16.07.095.002 )
                         </span>
                         <span className="price ">От 700₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Закрытие соустья с гайморовой пазухой{" "}
+                          Закрытие соустья с гайморовой пазухой <br />{" "}
+                          (ХР-А16.07.096)
                         </span>
                         <span className="price ">От 5.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Наложение шва на слизистую оболочку рта{" "}
+                          Наложение шва на слизистую оболочку рта <br />{" "}
+                          (ХР-А16.07.097)
                         </span>
                         <span className="price ">От 500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Открытый кюретаж при заболеваниях пародонта в области
-                          1 зуба
+                          1 зуба <br />
+                          (ХР-А16.07.038)
                         </span>
                         <span className="price ">От 2.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Закрытый кюретаж при заболеваниях пародонта в области
-                          1 зуба
+                          1 зуба <br />
+                          (ХР-А16.07.039 )
                         </span>
                         <span className="price ">От 2.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Пластика мягких тканей в области зуба или имплантата
+                          <br />
+                          (ХР-А16.07.040)
                         </span>
                         <span className="price ">От 10.000₽</span>
                       </div>
@@ -967,24 +1050,28 @@ const Surgery = () => {
                       <div className="price-row">
                         <span className="text">
                           Антисептическая обработка патологических карманов{" "}
+                          <br /> (ХР-А11.07.010)
                         </span>
                         <span className="price ">От 1.200₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Удаление экзостоза в области 1 зуба
+                          Удаление экзостоза в области 1 зуба <br />
+                          (ХР-А16.03.089)
                         </span>
                         <span className="price ">От 2.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Хирургическое удлинение в области 1 зуба
+                          <br /> (ХР-А16.07.089)
                         </span>
                         <span className="price ">От 6.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Закрытый кюретаж в области 1 зуба
+                          <br /> (ХР-А16.07.039)
                         </span>
                         <span className="price last">От 20.000₽</span>
                       </div>
