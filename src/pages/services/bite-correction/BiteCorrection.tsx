@@ -326,92 +326,120 @@ const BiteCorrection = () => {
                 <div className="plate">
                   <section className="tab-one">
                     <h5 className="plate-heading">
-                      Ортодоническая коррекция с применением брекет-системы
+                      Ортодоническая коррекция с применением брекет-системы{" "}
+                      <br />
                     </h5>
-                    <span className="text">I степений сложности</span>
+                    <span className="text">
+                      I степений сложности <br /> (ОРД-А16.07.048.001){" "}
+                    </span>
                     <span className="price">От 65.000₽</span>
                   </section>
                   <section className="tab-two">
-                    <span className="text">II степений сложности</span>
+                    <span className="text">
+                      II степений сложности <br /> (ОРД-А16.07.048.002){" "}
+                    </span>
                     <span className="price">От 70.000₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">III степений сложности</span>
+                    <span className="text">
+                      III степений сложности <br /> (ОРД-А16.07.048.003){" "}
+                    </span>
                     <span className="price">От 75.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Фиксация брекет-системы (одна челюсть)
+                      Фиксация брекет-системы (одна челюсть) <br />{" "}
+                      (ОРД-А16.07.048.004)
                     </span>
                     <span className="price">От 80.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Фиксация эстетической брекет-системы (одна челюсть)
+                      Фиксация эстетической брекет-системы (одна челюсть) <br />
+                      (ОРД-А16.07.048.005)
                     </span>
                     <span className="price">От 95.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Брекет-система металлическая безлигатурная
+                      Брекет-система металлическая безлигатурная <br />{" "}
+                      (ОРД-А16.07.048.006)
                     </span>
                     <span className="price">От 25.000₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Брекет-система Damon Q</span>
+                    <span className="text">
+                      Брекет-система Damon Q <br /> (ОРД-А16.07.048.007){" "}
+                    </span>
                     <span className="price">От 30.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Брекет-система сапфировая, керамическая
+                      Брекет-система сапфировая, керамическая <br />{" "}
+                      (ОРД-А16.07.048.008)
                     </span>
                     <span className="price">От 32.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Брекет-система керамическая безлигатурная
+                      Брекет-система керамическая безлигатурная <br />{" "}
+                      (ОРД-А16.07.048.009)
                     </span>
                     <span className="price">От 35.000₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Фиксация одного брекета</span>
+                    <span className="text">
+                      Фиксация одного брекета <br /> (ОРД-А16.07.048.010){" "}
+                    </span>
                     <span className="price">От 2.500₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Замена одного брекета</span>
+                    <span className="text">
+                      Замена одного брекета <br /> (ОРД-А16.07.048.011){" "}
+                    </span>
                     <span className="price">От 3.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Снятие брекетов с одного зубного ряда
+                      Снятие брекетов с одного зубного ряда <br />{" "}
+                      (ОРД-А16.07.048.012)
                     </span>
                     <span className="price">От 2.000₽</span>
                   </section>
                   <section className="tab-three"></section>
-                  <section className="tab-three">
+                  {/* <section className="tab-three">
                     <span className="text">Замена дуги</span>
                     <span className="price">От 3.000₽</span>
-                  </section>
+                  </section> */}
                   <section className="tab-three">
                     <span className="text">
-                      Установка открывающей, закрывающей пружины
+                      Установка открывающей, закрывающей пружины <br />{" "}
+                      (ОРД-А16.07.048.015)
                     </span>
                     <span className="price">От 1.000₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Установка чейна(1 звено)</span>
+                    <span className="text">
+                      Установка чейна(1 звено) <br /> (ОРД-А16.07.048.016){" "}
+                    </span>
                     <span className="price">От 130₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Установка лигатуры (1 шт.)</span>
+                    <span className="text">
+                      Установка лигатуры (1 шт.) <br /> (ОРД-А16.07.048.017 ){" "}
+                    </span>
                     <span className="price">От 70₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Наложение длинной лигатуры</span>
+                    <span className="text">
+                      Наложение длинной лигатуры <br /> (ОРД-А16.07.048.018){" "}
+                    </span>
                     <span className="price">От 400₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Изгиб на дуге</span>
+                    <span className="text">
+                      Изгиб на дуге <br /> (ОРД-А16.07.048.019){" "}
+                    </span>
                     <span className="price last">От 200₽</span>
                   </section>
                 </div>
@@ -422,27 +450,32 @@ const BiteCorrection = () => {
                   <section className="tab-one">
                     <h5 className="plate-heading">Ретенция</h5>
                     <span className="text">
-                      Несъемный ретейнер на 1 зубной ряд
+                      Несъемный ретейнер на 1 зубной ряд <br /> (ОРД-А16.07.018)
                     </span>
                     <span className="price">От 12.000₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
-                      Ретенционный съемный аппарат на 1 зубной ряд
+                      Ретенционный съемный аппарат на 1 зубной ряд <br />{" "}
+                      (ОРД-А16.07.047.009)
                     </span>
                     <span className="price">От 8.000₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Снятие ретейнера</span>
+                    <span className="text">
+                      Снятие ретейнера <br /> (ОРД-А16.07.048.021){" "}
+                    </span>
                     <span className="price">От 5.000₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Починка несъемного ретейнера</span>
+                    <span className="text">
+                      Починка несъемного ретейнера <br /> (ОРД-А23.07.001.002){" "}
+                    </span>
                     <span className="price">От 2.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Изготовление ретенционной каппы
+                      Изготовление ретенционной каппы <br /> (ОРД-А24)
                     </span>
                     <span className="price last">От 6.500₽</span>
                   </section>
@@ -456,84 +489,98 @@ const BiteCorrection = () => {
                       Дополнитеьные приспособления
                     </h5>
                     <span className="text">
-                      Леченте с помощью аппарат Марко-Росса
+                      Лечение с помощью аппарат Марко-Росса <br />{" "}
+                      (ОРД-A16.07.046.001)
                     </span>
                     <span className="price">От 29.000₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
-                      Активация ортодонтического винта
+                      Активация ортодонтического винта <br />{" "}
+                      (ОРД-23.07.002.052)
                     </span>
                     <span className="price">От 2.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Аппарат для дистализации моляров
+                      Аппарат для дистализации моляров <br />{" "}
+                      (ОРД-A16.07.046.002)
                     </span>
                     <span className="price">От 33.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Лечение с помощью небного бюгеля
+                      Лечение с помощью небного бюгеля <br />{" "}
+                      (ОРД-A16.07.046.003)
                     </span>
                     <span className="price">От 4.000₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Межчелюстные тяги</span>
+                    <span className="text">
+                      Межчелюстные тяги <br /> (ОРД-A16.07.046.004){" "}
+                    </span>
                     <span className="price">От 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Изготовление коронки ортодонтической
+                      Изготовление коронки ортодонтической <br />{" "}
+                      (ОРД-A23.07.002.055)
                     </span>
                     <span className="price">От 5.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Изготовление кольца-петли ортодонического
+                      Изготовление кольца-петли ортодонического <br />{" "}
+                      (ОРД-А23.07.002.051)
                     </span>
                     <span className="price">От 9.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Повторная фиксация кольца-петли ортодонического
+                      Повторная фиксация кольца-петли ортодонического <br />{" "}
+                      (ОРД-А23.07.002.052)
                     </span>
                     <span className="price">От 2.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Снятие оттиска с одной челюсти альгинатными массами
+                      Снятие оттиска с одной челюсти альгинатными массами <br />{" "}
+                      (ОРД-A02.07.010.002)
                     </span>
                     <span className="price">От 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Изготовление прикусного шаблона
+                      Изготовление прикусного шаблона <br />{" "}
+                      (ОРД-A02.07.010.005)
                     </span>
                     <span className="price">От 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Антропометрические исследования (компьютерный анализ ТРГ
-                      головы)
+                      головы) <br /> (ОРД-А02.07.004)
                     </span>
                     <span className="price">От 2.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Изготовление контрольной модели (из гипса)
+                      Изготовление контрольной модели (из гипса) <br />{" "}
+                      (ОРД-А23.07.002.027)
                     </span>
                     <span className="price">От 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Прием (осмотр, наблюдение) врача-ортодонта первичный
+                      Прием (осмотр, наблюдение) врача-ортодонта первичный{" "}
+                      <br /> (ОРД-В01.063.001)
                     </span>
                     <span className="price">От 1000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Прием (осмотр, наблюдение) врача-ортодонта повторный
+                      Прием (осмотр, наблюдение) врача-ортодонта повторный{" "}
+                      <br /> (ОРД-В01.063.002)
                     </span>
                     <span className="price last">От 700₽</span>
                   </section>
@@ -825,89 +872,118 @@ const BiteCorrection = () => {
                     </h4>
                     <div className="prices">
                       <div className="price-row">
-                        <span className="text">I степений сложности</span>
+                        <span className="text">
+                          I степений сложности <br /> (ОРД-А16.07.048.001){" "}
+                        </span>
                         <span className="price">От 65.000₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">II степений сложности</span>
+                        <span className="text">
+                          II степений сложности <br /> (ОРД-А16.07.048.002){" "}
+                        </span>
                         <span className="price">От 70.000₽</span>
                       </div>
                       <div className="price-row ">
-                        <span className="text">III степений сложности</span>
+                        <span className="text">
+                          III степений сложности <br /> (ОРД-А16.07.048.003){" "}
+                        </span>
                         <span className="price">От 75.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Фиксация брекет-системы (одна челюсть)
+                          Фиксация брекет-системы (одна челюсть) <br />{" "}
+                          (ОРД-А16.07.048.004)
                         </span>
                         <span className="price">От 80.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Фиксация эстетической брекет-системы (одна челюсть)
+                          Фиксация эстетической брекет-системы (одна челюсть){" "}
+                          <br /> (ОРД-А16.07.048.005)
                         </span>
                         <span className="price">От 95.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Брекет-система металлическая безлигатурная
+                          Брекет-система металлическая безлигатурная <br />{" "}
+                          (ОРД-А16.07.048.006)
                         </span>
                         <span className="price">От 25.000₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Брекет-система Damon Q</span>
+                        <span className="text">
+                          Брекет-система Damon Q <br /> (ОРД-А16.07.048.007){" "}
+                        </span>
                         <span className="price">От 30.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Брекет-система сапфировая, керамическая
+                          Брекет-система сапфировая, керамическая <br />{" "}
+                          (ОРД-А16.07.048.008)
                         </span>
                         <span className="price">От 32.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Брекет-система керамическая безлигатурная
+                          Брекет-система керамическая безлигатурная <br />{" "}
+                          (ОРД-А16.07.048.009)
                         </span>
                         <span className="price">От 35.000₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Фиксация одного брекета</span>
+                        <span className="text">
+                          Фиксация одного брекета <br /> (ОРД-А16.07.048.010){" "}
+                        </span>
                         <span className="price">От 2.500₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Замена одного брекета</span>
+                        <span className="text">
+                          Замена одного брекета <br /> (ОРД-А16.07.048.011){" "}
+                        </span>
                         <span className="price">От 3.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Снятие брекетов с одного зубного ряда
+                          Снятие брекетов с одного зубного ряда <br />{" "}
+                          (ОРД-А16.07.048.012)
                         </span>
                         <span className="price">От 2.000₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Снятие одного брекета</span>
+                        <span className="text">
+                          Снятие одного брекета <br /> (ОРД-А16.07.048.013){" "}
+                        </span>
                         <span className="price">От 400₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Установка открывающей, закрывающей пружины
+                          Установка открывающей, закрывающей пружины <br />{" "}
+                          (ОРД-А16.07.048.015)
                         </span>
                         <span className="price">От 1.000₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Установка чейна(1 звено)</span>
+                        <span className="text">
+                          Установка чейна(1 звено) <br /> (ОРД-А16.07.048.016){" "}
+                        </span>
                         <span className="price">От 130₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Установка лигатуры (1 шт.)</span>
+                        <span className="text">
+                          Установка лигатуры (1 шт.) <br /> (ОРД-А16.07.048.017){" "}
+                        </span>
                         <span className="price">От 70₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Наложение длинной лигатуры</span>
+                        <span className="text">
+                          Наложение длинной лигатуры <br /> (ОРД-А16.07.048.018){" "}
+                        </span>
                         <span className="price">От 400₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Изгиб на дуге</span>
+                        <span className="text">
+                          Изгиб на дуге <br /> (ОРД-А16.07.048.019){" "}
+                        </span>
                         <span className="price last">От 200₽</span>
                       </div>
                     </div>
@@ -921,22 +997,28 @@ const BiteCorrection = () => {
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">
-                          Несъемный ретейнер на 1 зубной ряд
+                          Несъемный ретейнер на 1 зубной ряд <br />{" "}
+                          (ОРД-А16.07.047.009)
                         </span>
                         <span className="price">От 12.000₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">II степений сложности</span>
+                        <span className="text">
+                          II степений сложности <br /> (ОРД-А16.07.048.002){" "}
+                        </span>
                         <span className="price">От 70.000₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
-                          Ретенционный съемный аппарат на 1 зубной ряд
+                          Ретенционный съемный аппарат на 1 зубной ряд <br />{" "}
+                          (ОРД-А16.07.047.009)
                         </span>
                         <span className="price">От 8.000₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Снятие ретейнера</span>
+                        <span className="text">
+                          Снятие ретейнера <br /> (ОРД-А16.07.048.021){" "}
+                        </span>
                         <span className="price">От 5.000₽</span>
                       </div>
                       <div className="price-row">
@@ -947,7 +1029,7 @@ const BiteCorrection = () => {
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Изготовление ретенционной каппы
+                          Изготовление ретенционной каппы <br /> (ОРД-А24)
                         </span>
                         <span className="price last">От 6.500₽</span>
                       </div>
@@ -964,84 +1046,98 @@ const BiteCorrection = () => {
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">
-                          Лечение с помощью аппарат Марко-Росса
+                          Лечение с помощью аппарат Марко-Росса <br />{" "}
+                          (ОРД-A16.07.046.001)
                         </span>
                         <span className="price">От 29.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Активация ортодонтического винта
+                          Активация ортодонтического винта <br />{" "}
+                          (ОРД-23.07.002.052)
                         </span>
                         <span className="price">От 2.500₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
-                          Аппарат для дистализации моляров
+                          Аппарат для дистализации моляров <br />{" "}
+                          (ОРД-A16.07.046.002)
                         </span>
                         <span className="price">От 33.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Лечение с помощью небного бюгеля
+                          Лечение с помощью небного бюгеля <br />{" "}
+                          (ОРД-A16.07.046.003)
                         </span>
                         <span className="price">От 4.000₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Межчелюстные тяги</span>
+                        <span className="text">
+                          Межчелюстные тяги <br /> (ОРД-A16.07.046.004){" "}
+                        </span>
                         <span className="price">От 500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Изготовление коронки ортодонтической
+                          Изготовление коронки ортодонтической <br />{" "}
+                          (ОРД-A23.07.002.055)
                         </span>
                         <span className="price">От 5.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Изготовление кольца-петли ортодонического
+                          Изготовление кольца-петли ортодонического <br />{" "}
+                          (ОРД-А23.07.002.051)
                         </span>
                         <span className="price">От 9.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Повторная фиксация кольца-петли ортодонического
+                          Повторная фиксация кольца-петли ортодонического <br />{" "}
+                          (ОРД-А23.07.002.052)
                         </span>
                         <span className="price">От 2.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Снятие оттиска с одной челюсти альгинатными массами
+                          Снятие оттиска с одной челюсти альгинатными массами{" "}
+                          <br /> (ОРД-A02.07.010.002)
                         </span>
                         <span className="price">От 2.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Изготовление прикусного шаблона и индивидуальной ложки
+                          Изготовление прикусного шаблона и индивидуальной ложки{" "}
+                          <br /> (ОРД-A02.07.010.005)
                         </span>
                         <span className="price">От 4.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Антропометрические исследования (компьютерный анализ
-                          ТРГ головы)
+                          ТРГ головы) <br /> (ОРД-А02.07.004)
                         </span>
                         <span className="price">От 2.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Изготовление контрольной модел (из гипса)
+                          Изготовление контрольной модел (из гипса) <br />{" "}
+                          (ОРД-А23.07.002.027)
                         </span>
                         <span className="price">От 500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Прием (осмотр, наблюдение) врача-ортодонта первичный
+                          Прием (осмотр, наблюдение) врача-ортодонта первичный{" "}
+                          <br /> (ОРД-В01.063.001)
                         </span>
                         <span className="price">От 1.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Прием (осмотр, наблюдение) врача-ортодонта повторный
+                          Прием (осмотр, наблюдение) врача-ортодонта повторный{" "}
+                          <br /> (ОРД-В01.063.002)
                         </span>
                         <span className="price last">От 700₽</span>
                       </div>

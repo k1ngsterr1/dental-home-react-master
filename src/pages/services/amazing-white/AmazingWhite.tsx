@@ -311,33 +311,35 @@ const AmazingWhite = () => {
                     <h5 className="plate-heading">Отбеливание</h5>
                     <span className="text">
                       Профессиональное отбеливание зубов клиническое - система
-                      "ZOOM"
+                      "ZOOM" <br /> (А16.07.050.001)
                     </span>
                     <span className="price">От 30.000 ₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Капповое домашнее отбеливание зубов клиническое - система
-                      "ZOOM"
+                      "ZOOM" <br /> (А16.07.050.002)
                     </span>
                     <span className="price">От 9.990 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Профессиональное отбеливание зубов в клиническое - система
-                      "Amazing White"
+                      "Amazing White" <br /> (А16.07.050.003)
                     </span>
                     <span className="price">От 11.000 ₽</span>
                   </section>
                   <section className="tab-three" style={{ marginTop: "0px" }}>
                     <span className="text">
-                      Внутриканальное отбеливание (первый сеанс)
+                      Внутриканальное отбеливание (первый сеанс) <br />{" "}
+                      (А16.07.050.004)
                     </span>
                     <span className="price ">От 1.900 ₽</span>
                   </section>
                   <section className="tab-three" style={{ marginTop: "0px" }}>
                     <span className="text">
-                      Внутриканальное отбеливание (последующий сеанс)
+                      Внутриканальное отбеливание (последующий сеанс) <br />{" "}
+                      (А16.07.050.005)
                     </span>
                     <span className="price last">От 1.000₽</span>
                   </section>
@@ -603,7 +605,7 @@ const AmazingWhite = () => {
                       <div className="price-row">
                         <span className="text">
                           Профессиональное отбеливание зубов клиническое -
-                          система "ZOOM"
+                          система "ZOOM" <br /> (А16.07.050.001)
                         </span>
                         <span className="price">От 30.000 ₽</span>
                       </div>
@@ -611,26 +613,28 @@ const AmazingWhite = () => {
                         <span className="text">
                           Капповое домашнее отбеливание(включая стоимость
                           изготовления капп и набор отбеливающего геля) 2
-                          челюсти
+                          челюсти <br /> (А16.07.050.002)
                         </span>
                         <span className="price">От 9.900 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Профессиональное отбеливание зубов клиническое -
-                          система "Amazing White"
+                          система "Amazing White" <br /> (А16.07.050.003)
                         </span>
                         <span className="price">От 11.000 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Внутриканальное отбеливание(первый сеанс)
+                          Внутриканальное отбеливание(первый сеанс) <br />{" "}
+                          (А16.07.050.004)
                         </span>
                         <span className="price">От 1.900 ₽</span>
                       </div>
                       <div className="price-row last">
                         <span className="text">
-                          Внутриканальное отбеливание (последующий сеанс)
+                          Внутриканальное отбеливание (последующий сеанс) <br />{" "}
+                          (А16.07.050.005)
                         </span>
                         <span className="price">От 1.000 ₽</span>
                       </div>
