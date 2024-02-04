@@ -332,59 +332,68 @@ const BugelPage = () => {
                     <h5 className="plate-heading">Ортопедия</h5>
                     <span className="text">
                       Повторная фиксация на постоянный цемент несъемных
-                      ортопедических конструкций
+                      ортопедических конструкций <br /> <br /> (ОРТ-A16.07.049)
                     </span>
                     <span className="price">От 1 500₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Фиксация на RELYX Luting несъемных ортопедических
-                      конструкций
+                      конструкций <br /> <br /> (ОРТ-A16.07.049.001)
                     </span>
                     <span className="price">От 3 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Фиксация несъемных ортопедических конструкций на временный
-                      цемент Temp bond
+                      цемент Temp bond <br /> <br /> (ОРТ-А16.07.050)
                     </span>
                     <span className="price">От 1000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Снятие несъемной ортопедической конструкции (1 единица)
+                      Снятие несъемной ортопедической конструкции (1 единица){" "}
+                      <br /> <br /> (ОРТ-А16.07.053)
                     </span>
                     <span className="price">От 1 500₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Удаление вкладки</span>
+                    <span className="text">
+                      Удаление вкладки <br /> <br /> (ОРТ-А16.07.094){" "}
+                    </span>
                     <span className="price">От 4 000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Коррекция протеза, изготовленного в другой клинике
+                      Коррекция протеза, изготовленного в другой клинике <br />{" "}
+                      <br /> (ОРТ-А23.07.002.001)
                     </span>
                     <span className="price">От 1 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Починка (перебазировка) съемного протеза лабораторным
-                      методом
+                      методом <br /> <br /> (ОРТ-А23.07.002.034)
                     </span>
                     <span className="price">От 5 500₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Приварка 1 кламмера</span>
+                    <span className="text">
+                      Приварка 1 кламмера <br /> <br /> (ОРТ-А23.07.002.035){" "}
+                    </span>
                     <span className="price">От 5 500₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Приварка 1 зуба</span>
+                    <span className="text">
+                      Приварка 1 зуба <br /> <br /> (ОРТ-А23.07.002.036){" "}
+                    </span>
                     <span className="price">От 5 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       {" "}
-                      Замена матрицы на бюгельном протезе (1 протез)
+                      Замена матрицы на бюгельном протезе (1 протез) <br />{" "}
+                      <br /> (ОРТ-А23.07.002.036)
                     </span>
                     <span className="price">От 5 500₽</span>
                   </section>
@@ -397,14 +406,16 @@ const BugelPage = () => {
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Коррекция съемного протеза изготовленного в другой клинике
+                      Коррекция съемного протеза изготовленного в другой клинике{" "}
+                      <br /> <br /> (ОРТ-А26)
                     </span>
                     <span className="price">От 1 500₽</span>
                   </section>
                   <section className="tab-three"></section>
                   <section className="tab-three">
                     <span className="text">
-                      Каппа для стабилизации прикуса (Ортотик)
+                      Каппа для стабилизации прикуса (Ортотик) <br /> <br />{" "}
+                      (ОРТ-А27)
                     </span>
                     <span className="price last">От 20 000₽</span>
                   </section>
@@ -416,54 +427,64 @@ const BugelPage = () => {
                   <section className="tab-one">
                     <h5 className="plate-heading">Оттиски</h5>
                     <span className="text">
-                      Снятие оттиска с одной челюсти альгинатными массами
+                      Снятие оттиска с одной челюсти альгинатными массами <br />{" "}
+                      <br /> (ОРТ-A02.07.010.001)
                     </span>
                     <span className="price">От 1.000₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
-                      Снятие оттиска с одной челюсти массой из С-силикона
+                      Снятие оттиска с одной челюсти массой из С-силикона <br />{" "}
+                      <br /> (ОРТ-A02.07.010.002)
                     </span>
                     <span className="price">От 1.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Снятие оттиска с одной челюсти массой из А-силикона
+                      Снятие оттиска с одной челюсти массой из А-силикона <br />{" "}
+                      <br /> (ОРТ-A02.07.010.003)
                     </span>
                     <span className="price">От 2.000₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Прикусной блок</span>
+                    <span className="text">
+                      Прикусной блок <br /> <br /> (ОРТ-A02.07.010.004){" "}
+                    </span>
                     <span className="price">От 1.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Изготовление прикусного шаблона и индивидуальной ложки
+                      Изготовление прикусного шаблона и индивидуальной ложки{" "}
+                      <br /> <br /> (ОРТ-A02.07.010.005)
                     </span>
                     <span className="price">От 3.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Снятие оттиска с одной челюсти для изготовления
-                      силиконового ключа
+                      силиконового ключа <br /> <br /> (ОРТ-A02.07.010.006)
                     </span>
                     <span className="price">От 1.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Снятие оттиска с одной челюсти с имплантов с
-                      использованием индивидуальной ложки
+                      использованием индивидуальной ложки <br /> <br />{" "}
+                      (ОРТ-A02.07.010.007)
                     </span>
                     <span className="price">От 2.500₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Wax up восковое моделирование</span>
+                    <span className="text">
+                      Wax up восковое моделирование <br /> <br />{" "}
+                      (ОРТ-A02.07.010.008){" "}
+                    </span>
                     <span className="price">От 2.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Цифровой оттиск (сканирование верхней и нижней челюсти,
-                      прикус){" "}
+                      прикус) <br /> <br /> (ОРТ-А02.07.010.009)
                     </span>
                     <span className="price last">От 5.500₽</span>
                   </section>
@@ -476,28 +497,28 @@ const BugelPage = () => {
                     <h5 className="plate-heading">Вкладки</h5>
                     <span className="text">
                       Восстановление зуба с использованием керамической вкладки
-                      (накладки) Emax
+                      (накладки) Emax <br /> <br /> (ОРТ-А16.07.003.001)
                     </span>
                     <span className="price">От 25.000₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Восстановление зуба с использованием цельнолитой культевой
-                      вкладки
+                      вкладки <br /> <br /> (ОРТ-А16.07.033.001)
                     </span>
                     <span className="price">От 7.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Восстановление зуба с использованием культевой вкладки из
-                      диоксида циркония
+                      диоксида циркония <br /> <br /> (ОРТ-А16.07.033.003)
                     </span>
                     <span className="price">От 15.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Восстановление зуба с использованием золотой вкладки (без
-                      стоимости золота){" "}
+                      стоимости золота) <br /> <br /> (ОРТ-А16.07.033.004)
                     </span>
                     <span className="price last">От 10.000₽</span>
                   </section>
@@ -509,28 +530,29 @@ const BugelPage = () => {
                   <section className="tab-one">
                     <h5 className="plate-heading">Коронки</h5>
                     <span className="text">
-                      Восстановление зуба коронкой временной прямым методом
+                      Восстановление зуба коронкой временной прямым методом{" "}
+                      <br /> <br /> (ОРТ-А16.07.004.001)
                     </span>
                     <span className="price">От 3.500₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Восстановление зуба коронкой временной лабораторным
-                      способом
+                      способом <br /> <br /> (ОРТ-А16.07.004.002)
                     </span>
                     <span className="price">От 6.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Восстановление зуба коронкой металлокерамической класса
-                      "стандарт"
+                      "стандарт" <br /> <br /> (ОРТ-А16.07.004.004)
                     </span>
                     <span className="price">От 18.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Восстановление зуба коронкой металлокерамической класса
-                      "премиум"
+                      "премиум" <br /> <br /> (ОРТ-А16.07.004.005)
                     </span>
                     <span className="price">От 27.000₽</span>
                   </section>
@@ -538,21 +560,21 @@ const BugelPage = () => {
                     <span className="text">
                       Восстановление зуба коронкой металлокерамической на
                       драгоценном сплаве (без учета стоимости драгоценного
-                      металла)
+                      металла) <br /> <br /> (ОРТ-А16.07.004.008)
                     </span>
                     <span className="price">От 27.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Восстановление зуба коронкой из диоксида циркония класса
-                      "стандарт"
+                      "стандарт" <br /> <br /> (ОРТ-А16.07.004.009)
                     </span>
                     <span className="price">От 27.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Восстановление зуба коронкой из диоксида циркония класса
-                      "премиум"
+                      "премиум" <br /> <br /> (ОРТ-А16.07.004.010)
                     </span>
                     <span className="price last">От 39.000₽</span>
                   </section>
@@ -566,19 +588,22 @@ const BugelPage = () => {
                       Восстаовление зуба виниром E-max
                     </h5>
                     <span className="text">
-                      Восстановление зуба виниром E-max класса "стандарт"
+                      Восстановление зуба виниром E-max класса "стандарт" <br />{" "}
+                      <br /> (ОРТ--)
                     </span>
                     <span className="price">От 30.000₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
-                      Восстановление зуба виниром E-max класса "премиум"
+                      Восстановление зуба виниром E-max класса "премиум" <br />{" "}
+                      <br /> (ОРТ--)
                     </span>
                     <span className="price">От 40.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Диагностика прикуса при помощи миостимулятора "МИСТ ТЕНС"
+                      Диагностика прикуса при помощи миостимулятора "МИСТ ТЕНС"{" "}
+                      <br /> <br /> (ОРТ-1)
                     </span>
                     <span className="price last">От 10.000₽</span>
                   </section>
@@ -593,7 +618,8 @@ const BugelPage = () => {
                     </h5>
                     <span className="text">
                       Протезирование зубов полным съемным пластиночным протезом
-                      (Японский гарнитур, пластм)
+                      (Японский гарнитур, пластм) <br /> <br />{" "}
+                      (ОРТ-A16.07.023.001)
                     </span>
                     <span className="price">От 45.000₽</span>
                   </section>
@@ -601,20 +627,22 @@ const BugelPage = () => {
                     <span className="text">
                       Протезирование частичным съемным пластиночным протезом для
                       временного замещения отсутствующих 1-2 зубов
-                      (иммедиат-протез)
+                      (иммедиат-протез) <br /> <br /> (ОРТ-A16.07.035.001)
                     </span>
                     <span className="price">От 12.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Протезирование частичным съемным пластиночным протезом
-                      (Японский гарнитур, пластм)
+                      (Японский гарнитур, пластм) <br /> <br />{" "}
+                      (ОРТ-A16.07.035.002)
                     </span>
                     <span className="price">От 45.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Протезирование съемным бюгельным протезом кламерным
+                      Протезирование съемным бюгельным протезом кламерным <br />{" "}
+                      <br /> (ОРТ-A16.07.036.001)
                     </span>
                     <span className="price last">От 50.000₽</span>
                   </section>
@@ -898,59 +926,69 @@ const BugelPage = () => {
                       <div className="price-row">
                         <span className="text">
                           Повторная фиксация на постоянный цемент несъемных
-                          ортопедических конструкций
+                          ортопедических конструкций <br /> <br />{" "}
+                          (ОРТ-A16.07.049)
                         </span>
                         <span className="price">От 1.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Фиксация на RELYX Luting несъемных ортопедических
-                          конструкций
+                          конструкций <br /> <br /> (ОРТ-A16.07.049.001)
                         </span>
                         <span className="price">От 3.500₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
                           Фиксация несъемных ортопедических конструкций на
-                          временный цемент Temp bond
+                          временный цемент Temp bond <br /> <br />{" "}
+                          (ОРТ-А16.07.050)
                         </span>
                         <span className="price">От 1.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Снятие несъемной ортопедической конструкции (1
-                          единица)
+                          единица) <br /> <br /> (ОРТ-А16.07.053)
                         </span>
                         <span className="price">От 1.500₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Удаление вкладки</span>
+                        <span className="text">
+                          Удаление вкладки <br /> <br /> (ОРТ-А16.07.094){" "}
+                        </span>
                         <span className="price">От 4.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Коррекция протеза, изготовленного в другой клинике
+                          Коррекция протеза, изготовленного в другой клинике{" "}
+                          <br /> <br /> (ОРТ-А23.07.002.001)
                         </span>
                         <span className="price">От 1.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Починка (перебазировка) съемного протеза лабораторным
-                          методом
+                          методом <br /> <br /> (ОРТ-А23.07.002.034)
                         </span>
                         <span className="price">От 5.500₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Приварка 1 кламмера</span>
-                        <span className="price">От 5.500₽</span>
-                      </div>
-                      <div className="price-row">
-                        <span className="text">Приварка 1 зуба</span>
+                        <span className="text">
+                          Приварка 1 кламмера <br /> <br /> (ОРТ-А23.07.002.035){" "}
+                        </span>
                         <span className="price">От 5.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Замена матрицы на бюгельном протезе (1 протез)
+                          Приварка 1 зуба <br /> <br /> (ОРТ-А23.07.002.036){" "}
+                        </span>
+                        <span className="price">От 5.500₽</span>
+                      </div>
+                      <div className="price-row">
+                        <span className="text">
+                          Замена матрицы на бюгельном протезе (1 протез) <br />{" "}
+                          <br /> (ОРТ-А23.07.002.036)
                         </span>
                         <span className="price">От 5.500₽</span>
                       </div>
@@ -964,13 +1002,14 @@ const BugelPage = () => {
                       <div className="price-row">
                         <span className="text">
                           Коррекция съемного протеза изготовленного в другой
-                          клинике
+                          клинике <br /> <br /> (ОРТ-А26)
                         </span>
                         <span className="price">От 1.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Каппа для стабилизации прикуса (Ортотик)
+                          Каппа для стабилизации прикуса (Ортотик) <br /> <br />{" "}
+                          (ОРТ-А27)
                         </span>
                         <span className="price last">От 20.000₽</span>
                       </div>
@@ -985,56 +1024,64 @@ const BugelPage = () => {
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">
-                          Снятие оттиска с одной челюсти альгинатными массами
+                          Снятие оттиска с одной челюсти альгинатными массами{" "}
+                          <br /> <br /> (ОРТ-A02.07.010.001)
                         </span>
                         <span className="price">От 2.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Снятие оттиска с одной челюсти массой из С-силикона
+                          Снятие оттиска с одной челюсти массой из С-силикона{" "}
+                          <br /> <br /> (ОРТ-A02.07.010.002)
                         </span>
                         <span className="price">От 2.500₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
-                          Снятие оттиска с одной челюсти массой из А-силикона
+                          Снятие оттиска с одной челюсти массой из А-силикона{" "}
+                          <br /> <br /> (ОРТ-A02.07.010.003)
                         </span>
                         <span className="price">От 3.500₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Прикусной блок</span>
+                        <span className="text">
+                          Прикусной блок <br /> <br /> (ОРТ-A02.07.010.004){" "}
+                        </span>
                         <span className="price">От 1.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Изготовление прикусного шаблона и индивидуальной ложки
+                          Изготовление прикусного шаблона и индивидуальной ложки{" "}
+                          <br /> <br /> (ОРТ-A02.07.010.005)
                         </span>
                         <span className="price">От 4.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Снятие оттиска с одной челюсти для изготовления
-                          силиконового ключа
+                          силиконового ключа <br /> <br /> (ОРТ-A02.07.010.006)
                         </span>
                         <span className="price">От 2.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Снятие оттиска с одной челюсти с имплантов с
-                          использованием индивидуальной ложки
+                          использованием индивидуальной ложки <br /> <br />{" "}
+                          (ОРТ-A02.07.010.007)
                         </span>
                         <span className="price">От 4.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Wax up восковое моделирование
+                          Wax up восковое моделирование <br /> <br />{" "}
+                          (ОРТ-A02.07.010.008)
                         </span>
                         <span className="price">От 2.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Цифровой оттиск (сканирование верхней и нижней
-                          челюсти, прикус){" "}
+                          челюсти, прикус) <br /> <br /> (ОРТ-А02.07.010.009)
                         </span>
                         <span className="price last">От 8.000₽</span>
                       </div>
@@ -1050,28 +1097,31 @@ const BugelPage = () => {
                       <div className="price-row">
                         <span className="text">
                           Восстановление зуба с использованием керамической
-                          вкладки (накладки) Emax
+                          вкладки (накладки) Emax <br /> <br />{" "}
+                          (ОРТ-А16.07.003.001)
                         </span>
                         <span className="price">От 30.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Восстановление зуба с использованием цельнолитой
-                          культевой вкладки
+                          культевой вкладки <br /> <br /> (ОРТ-А16.07.033.001)
                         </span>
                         <span className="price">От 12.500₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
                           Восстановление зуба с использованием культевой вкладки
-                          из диоксида циркония
+                          из диоксида циркония <br /> <br />{" "}
+                          (ОРТ-А16.07.033.003)
                         </span>
                         <span className="price">От 18.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Восстановление зуба с использованием золотой вкладки
-                          (без стоимости золота){" "}
+                          (без стоимости золота) <br /> <br />{" "}
+                          (ОРТ-А16.07.033.004)
                         </span>
                         <span className="price last">От 20.000₽</span>
                       </div>
@@ -1086,28 +1136,29 @@ const BugelPage = () => {
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">
-                          Восстановление зуба коронкой временной прямым методом
+                          Восстановление зуба коронкой временной прямым методом{" "}
+                          <br /> <br /> (ОРТ-А16.07.004.001)
                         </span>
                         <span className="price">От 3.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Восстановление зуба коронкой временной лабораторным
-                          способом
+                          способом <br /> <br /> (ОРТ-А16.07.004.002)
                         </span>
                         <span className="price">От 6.000₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
                           Восстановление зуба коронкой металлокерамической
-                          класса "стандарт"
+                          класса "стандарт" <br /> <br /> (ОРТ-А16.07.004.004)
                         </span>
                         <span className="price">От 18.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Восстановление зуба коронкой металлокерамической
-                          класса "премиум"
+                          класса "премиум" <br /> <br /> (ОРТ-А16.07.004.005)
                         </span>
                         <span className="price">От 27.000₽</span>
                       </div>
@@ -1115,21 +1166,21 @@ const BugelPage = () => {
                         <span className="text">
                           Восстановление зуба коронкой металлокерамической на
                           драгоценном сплаве (без учета стоимости драгоценного
-                          металла)
+                          металла) <br /> <br /> (ОРТ-А16.07.004.008)
                         </span>
                         <span className="price">От 27.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Восстановление зуба коронкой из диоксида циркония
-                          класса "стандарт"
+                          класса "стандарт" <br /> <br /> (ОРТ-А16.07.004.009)
                         </span>
                         <span className="price">От 27.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Восстановление зуба коронкой из диоксида циркония
-                          класса "премиум"
+                          класса "премиум" <br /> <br /> (ОРТ-А16.07.004.010)
                         </span>
                         <span className="price last">От 39.000₽</span>
                       </div>
@@ -1146,20 +1197,22 @@ const BugelPage = () => {
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">
-                          Восстановление зуба виниром E-max класса "стандарт"
+                          Восстановление зуба виниром E-max класса "стандарт"{" "}
+                          <br /> <br /> (ОРТ--)
                         </span>
                         <span className="price">От 30.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Восстановление зуба виниром E-max класса "премиум"
+                          Восстановление зуба виниром E-max класса "премиум"{" "}
+                          <br /> <br /> (ОРТ--)
                         </span>
                         <span className="price">От 40.000₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
                           Диагностика прикуса при помощи миостимулятора "МИСТ
-                          ТЕНС"
+                          ТЕНС" <br /> <br /> (ОРТ-1)
                         </span>
                         <span className="price last">От 10.000₽</span>
                       </div>
@@ -1177,7 +1230,8 @@ const BugelPage = () => {
                       <div className="price-row">
                         <span className="text">
                           Протезирование зубов полным съемным пластиночным
-                          протезом (Японский гарнитур, пластм)
+                          протезом (Японский гарнитур, пластм) <br /> <br />{" "}
+                          (ОРТ-A16.07.023.001)
                         </span>
                         <span className="price">От 45.000₽</span>
                       </div>
@@ -1185,20 +1239,22 @@ const BugelPage = () => {
                         <span className="text">
                           Протезирование частичным съемным пластиночным протезом
                           для временного замещения отсутствующих 1-3 зубов
-                          (иммедиат-протез)
+                          (иммедиат-протез) <br /> <br /> (ОРТ-A16.07.035.001)
                         </span>
                         <span className="price">От 12.000₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
                           Протезирование частичным съемным пластиночным протезом
-                          (Японский гарнитур, пластм)
+                          (Японский гарнитур, пластм) <br /> <br />{" "}
+                          (ОРТ-A16.07.035.002)
                         </span>
                         <span className="price">От 45.000₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
-                          Протезирование съемным бюгельным протезом кламерным
+                          Протезирование съемным бюгельным протезом кламерным{" "}
+                          <br /> <br /> (ОРТ-A16.07.036.001)
                         </span>
                         <span className="price last">От 50.000₽</span>
                       </div>

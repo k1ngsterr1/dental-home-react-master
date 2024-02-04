@@ -272,7 +272,7 @@ const AmazingWhite = () => {
                 </div>
                 <section className="information">
                   <h3 className="information-heading">
-                    Отбеливание Zoom, Amazing White
+                    Отбеливание Amazing White
                   </h3>
                   <p className="information-paragraph">
                     Профессиональное отбеливание зубов Amazing White в
@@ -565,9 +565,7 @@ const AmazingWhite = () => {
                 <div className="services-information" id="information">
                   <span className="text">Об услуге</span>
                   <div className="information-one">
-                    <h3 className="heading-info">
-                      Отбеливание Zoom, Amazing White
-                    </h3>
+                    <h3 className="heading-info">Отбеливание Amazing White</h3>
                     <p className="p-info">
                       Профессиональное отбеливание зубов Amazing White в
                       Ивантеевке - это идеальный способ получить яркий и

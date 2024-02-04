@@ -1116,56 +1116,65 @@ const BracesPage = () => {
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">
-                          Снятие оттиска с одной челюсти альгинатными массами
+                          Снятие оттиска с одной челюсти альгинатными массами{" "}
+                          <br /> <br />
+                          (ОРТ-A02.07.010.001)
                         </span>
                         <span className="price">От 2.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Снятие оттиска с одной челюсти массой из С-силикона
+                          Снятие оттиска с одной челюсти массой из С-силикона{" "}
+                          <br /> <br /> (ОРТ-A02.07.010.002)
                         </span>
                         <span className="price">От 2.500₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
-                          Снятие оттиска с одной челюсти массой из А-силикона
+                          Снятие оттиска с одной челюсти массой из А-силикона{" "}
+                          <br /> <br /> (ОРТ-A02.07.010.003)
                         </span>
                         <span className="price">От 3.500₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Прикусной блок</span>
+                        <span className="text">
+                          Прикусной блок <br /> <br /> (ОРТ-A02.07.010.004){" "}
+                        </span>
                         <span className="price">От 1.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Изготовление прикусного шаблона и индивидуальной ложки
+                          Изготовление прикусного шаблона и индивидуальной ложки{" "}
+                          <br /> <br /> (ОРТ-A02.07.010.005)
                         </span>
                         <span className="price">От 4.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Снятие оттиска с одной челюсти для изготовления
-                          силиконового ключа
+                          силиконового ключа <br /> <br /> (ОРТ-A02.07.010.006)
                         </span>
                         <span className="price">От 2.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Снятие оттиска с одной челюсти с имплантов с
-                          использованием индивидуальной ложки
+                          использованием индивидуальной ложки <br /> <br />{" "}
+                          (ОРТ-A02.07.010.007)
                         </span>
                         <span className="price">От 4.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Wax up восковое моделирование
+                          Wax up восковое моделирование <br /> <br />{" "}
+                          (ОРТ-A02.07.010.008)
                         </span>
                         <span className="price">От 2.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Цифровой оттиск (сканирование верхней и нижней
-                          челюсти, прикус){" "}
+                          челюсти, прикус) <br /> <br /> (ОРТ-А02.07.010.009)
                         </span>
                         <span className="price last">От 8.000₽</span>
                       </div>
@@ -1181,28 +1190,31 @@ const BracesPage = () => {
                       <div className="price-row">
                         <span className="text">
                           Восстановление зуба с использованием керамической
-                          вкладки (накладки) Emax
+                          вкладки (накладки) Emax <br /> <br />{" "}
+                          (ОРТ-А16.07.003.001)
                         </span>
                         <span className="price">От 30.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Восстановление зуба с использованием цельнолитой
-                          культевой вкладки
+                          культевой вкладки <br /> <br /> (ОРТ-А16.07.033.001)
                         </span>
                         <span className="price">От 12.500₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
                           Восстановление зуба с использованием культевой вкладки
-                          из диоксида циркония
+                          из диоксида циркония <br /> <br />{" "}
+                          (ОРТ-А16.07.033.003)
                         </span>
                         <span className="price">От 18.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Восстановление зуба с использованием золотой вкладки
-                          (без стоимости золота){" "}
+                          (без стоимости золота) <br /> <br />{" "}
+                          (ОРТ-А16.07.033.004)
                         </span>
                         <span className="price last">От 20.000₽</span>
                       </div>
@@ -1217,28 +1229,29 @@ const BracesPage = () => {
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">
-                          Восстановление зуба коронкой временной прямым методом
+                          Восстановление зуба коронкой временной прямым методом{" "}
+                          <br /> <br /> (ОРТ-А16.07.004.001)
                         </span>
                         <span className="price">От 3.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Восстановление зуба коронкой временной лабораторным
-                          способом
+                          способом <br /> <br /> (ОРТ-А16.07.004.002)
                         </span>
                         <span className="price">От 6.000₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
                           Восстановление зуба коронкой металлокерамической
-                          класса "стандарт"
+                          класса "стандарт" <br /> <br /> (ОРТ-А16.07.004.004)
                         </span>
                         <span className="price">От 18.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Восстановление зуба коронкой металлокерамической
-                          класса "премиум"
+                          класса "премиум" <br /> <br /> (ОРТ-А16.07.004.005)
                         </span>
                         <span className="price">От 27.000₽</span>
                       </div>
@@ -1246,21 +1259,21 @@ const BracesPage = () => {
                         <span className="text">
                           Восстановление зуба коронкой металлокерамической на
                           драгоценном сплаве (без учета стоимости драгоценного
-                          металла)
+                          металла) <br /> <br /> (ОРТ-А16.07.004.008)
                         </span>
                         <span className="price">От 27.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Восстановление зуба коронкой из диоксида циркония
-                          класса "стандарт"
+                          класса "стандарт" <br /> <br /> (ОРТ-А16.07.004.009)
                         </span>
                         <span className="price">От 27.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Восстановление зуба коронкой из диоксида циркония
-                          класса "премиум"
+                          класса "премиум" <br /> <br /> (ОРТ-А16.07.004.010)
                         </span>
                         <span className="price last">От 39.000₽</span>
                       </div>
@@ -1277,20 +1290,22 @@ const BracesPage = () => {
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">
-                          Восстановление зуба виниром E-max класса "стандарт"
+                          Восстановление зуба виниром E-max класса "стандарт"{" "}
+                          <br /> <br /> (ОРТ--)
                         </span>
                         <span className="price">От 30.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Восстановление зуба виниром E-max класса "премиум"
+                          Восстановление зуба виниром E-max класса "премиум"{" "}
+                          <br /> <br /> (ОРТ--)
                         </span>
                         <span className="price">От 40.000₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
                           Диагностика прикуса при помощи миостимулятора "МИСТ
-                          ТЕНС"
+                          ТЕНС" <br /> <br /> (ОРТ-1)
                         </span>
                         <span className="price last">От 10.000₽</span>
                       </div>

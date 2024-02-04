@@ -116,8 +116,8 @@ const Footer = () => {
         </div>
         <div className="contacts-container">
           <h5 className="contacts">Контакты</h5>
-          <a href="tel:+79252229022" className="contact-text">
-            +7 (925) 222-90-22
+          <a href="tel:+79917793995" className="contact-text">
+            +7 (991) 779-39-95
           </a>
           <span className="contact-text two">
             Россия, Московская область, г. Ивантеевка, Советский проспект 5
@@ -188,7 +188,7 @@ const Footer = () => {
         </div>
         <div className="column">
           <h6 className="information">Контакты</h6>
-          <p className="p-nav mob">+7 (925) 222-90-22</p>
+          <p className="p-nav mob"> +7 (991) 779-39-95</p>
           <p className="p-nav">
             Россия, Московская область, г. Ивантеевка, Советский проспект 5
           </p>

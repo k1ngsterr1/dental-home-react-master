@@ -658,7 +658,7 @@ const ContactsPage = () => {
                     marginBottom: "clamp(16px,1.66656vw,64px)",
                   }}
                 >
-                  Карта
+                  Клиники Dental Home на карте
                 </h2>
                 <YMaps>
                   <Map

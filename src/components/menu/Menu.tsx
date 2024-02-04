@@ -112,8 +112,8 @@ const Menu: React.FC<MenuProps> = ({
           </div>
           <span className="dark schedule">Пн-Вс - 9:00-21:00</span>
           <div className="row-c">
-            <a className="phone link" href="tel:+79252229022">
-              +7 (925) 222-90-22
+            <a className="phone link" href="tel:+79917793995">
+              +7 (991) 779-39-95
             </a>{" "}
             <div className="social-media">
               <FontAwesomeIcon
@@ -263,8 +263,8 @@ const Menu: React.FC<MenuProps> = ({
               <Link to="/services/teeth-crowns" className="golden-link l">
                 Коронки
               </Link>
-              <a href="tel:+79252229022" className="phone-number">
-                +7 (925) 222-90-22
+              <a href="tel:+79917793995" className="phone-number">
+                +7 (991) 779-39-95
               </a>
             </div>
           </div>
@@ -406,8 +406,8 @@ const Menu: React.FC<MenuProps> = ({
               <Link className="child-button" to="/children-dental">
                 Детская стоматология
               </Link>
-              <a href="tel:+7 (925) 222-90-22" className="tel">
-                +7 (925) 222-90-22
+              <a href="tel:+79917793995" className="tel">
+                +7 (991) 779-39-95
               </a>
             </div>
           </div>

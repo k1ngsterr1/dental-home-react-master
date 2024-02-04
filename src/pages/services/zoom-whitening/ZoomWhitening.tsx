@@ -273,9 +273,7 @@ const ZoomWhitening = () => {
                   <span className="text">Об услуге</span>
                 </div>
                 <section className="information">
-                  <h3 className="information-heading">
-                    Отбеливание Zoom, Amazing White
-                  </h3>
+                  <h3 className="information-heading">Отбеливание Zoom</h3>
                   <p className="information-paragraph">
                     Профессиональное отбеливание зубов Zoom в Ивантеевке - это
                     идеальный способ получить белоснежную улыбку без лишних
@@ -561,9 +559,7 @@ const ZoomWhitening = () => {
                 <div className="services-information" id="information">
                   <span className="text">Об услуге</span>
                   <div className="information-one">
-                    <h3 className="heading-info">
-                      Отбеливание Zoom, Amazing White
-                    </h3>
+                    <h3 className="heading-info">Отбеливание Zoom</h3>
                     <p className="p-info">
                       Профессиональное отбеливание зубов Zoom в Ивантеевке - это
                       идеальный способ получить белоснежную улыбку без лишних
