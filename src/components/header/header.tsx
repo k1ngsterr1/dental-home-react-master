@@ -102,11 +102,11 @@ const Header: React.FC<HeaderProps> = ({
         ></img>
         <div className="header-content">
           <a
-            href="tel:+79252229022"
+            href="tel:+79917793995"
             className="tel-link"
             style={{ textDecoration: "none" }}
           >
-            +7 (925) 222-90-22
+            +7 (991) 779-39-95
           </a>
           <button className="header-btn" onClick={openModal}>
             Записаться на прием
@@ -146,11 +146,11 @@ const Header: React.FC<HeaderProps> = ({
           ></img>
           <div className="header-content">
             <a
-              href="tel:+79252229022"
+              href="tel:+79917793995"
               className="tel-link"
               style={{ textDecoration: "none" }}
             >
-              +7 (925) 222-90-22
+              +7 (991) 779-39-95
             </a>
             <button className="header-btn">Записаться на прием</button>
             <div
