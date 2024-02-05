@@ -343,7 +343,7 @@ const DiagnosticPage = () => {
                     </h5>
                     <span className="text">
                       Прием (осмотр, консультация) врача-стоматолога первичный{" "}
-                      <br />
+                      <br /> <br />
                       (В01.065.007)
                     </span>
                     <span className="price">От 1.000₽</span>
@@ -351,7 +351,7 @@ const DiagnosticPage = () => {
                   <section className="tab-two">
                     <span className="text">
                       Диспансерный прием (осмотр, консультация)
-                      врача-стоматолога <br />
+                      врача-стоматолога <br /> <br />
                       (В04.065.005)
                     </span>
                     <span className="price">От 500₽</span>
@@ -359,7 +359,7 @@ const DiagnosticPage = () => {
                   <section className="tab-three">
                     <span className="text">
                       Профилактический прием (осмотр, консультация)
-                      врача-стоматолога <br /> (В04.065.006)
+                      врача-стоматолога <br /> <br /> (В04.065.006)
                     </span>
                     <span className="price last">0 ₽</span>
                   </section>
@@ -373,7 +373,7 @@ const DiagnosticPage = () => {
                       Рентгенология
                     </h5>
                     <span className="text">
-                      Радиовизиография <br /> (А06.07.010 )
+                      Радиовизиография <br /> <br /> (А06.07.010 )
                     </span>
                     <span className="price">От 400 ₽</span>
                   </section>
@@ -391,7 +391,7 @@ const DiagnosticPage = () => {
                   </section> */}
                   <section className="tab-three">
                     <span className="text">
-                      Запись на электронный носитель USB <br />
+                      Запись на электронный носитель USB <br /> <br />
                       (А06.07.013.002)
                     </span>
                     <span className="price">От 500 ₽</span>
@@ -399,7 +399,7 @@ const DiagnosticPage = () => {
                   <section className="tab-three">
                     <span className="text">
                       Повторный диагностический снимок
-                      <br />
+                      <br /> <br />
                       (А06.07.013.003)
                     </span>
                     <span className="price last">От 0 ₽</span>
@@ -408,7 +408,7 @@ const DiagnosticPage = () => {
                     <span className="text">
                       Компьютерная томография верхней и нижней челюсти и
                       придаточные пазухи (за исключением лобной пазухи)
-                      <br />
+                      <br /> <br />
                       (А06.07.013.003)
                     </span>
                     <span className="price last">От 4.100₽</span>
@@ -416,7 +416,7 @@ const DiagnosticPage = () => {
                   <section className="tab-three">
                     <span className="text">
                       Компьютерная томография 5*5 область 2-3 рядом стоящих
-                      зубов <br />
+                      зубов <br /> <br />
                       (А06.07.013.005)
                     </span>
                     <span className="price last">От 1.500₽</span>
@@ -424,6 +424,7 @@ const DiagnosticPage = () => {
                   <section className="tab-three">
                     <span className="text">
                       Компьютерная томография 6*9 область одной челюсти <br />{" "}
+                      <br />
                       (А06.07.013.006)
                     </span>
                     <span className="price last">От 2.500₽</span>
@@ -431,7 +432,7 @@ const DiagnosticPage = () => {
                   <section className="tab-three">
                     <span className="text">
                       Компьютерная томография ВНЧС (височно-нижнечелюстного
-                      сустава) <br /> (А06.07.013.007)
+                      сустава) <br /> <br /> (А06.07.013.007)
                     </span>
                     <span className="price last">От 1.500₽</span>
                   </section>
@@ -445,14 +446,15 @@ const DiagnosticPage = () => {
                       Исследования и диагностика
                     </h5>
                     <span className="text">
-                      Исследование на диагностических моделях челюстей <br />{" "}
+                      Исследование на диагностических моделях челюстей <br />
+                      <br />
                       (A12.07.001 )
                     </span>
                     <span className="price">От 500 ₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
-                      Витальное окрашивание твердых тканей зуба <br />
+                      Витальное окрашивание твердых тканей зуба <br /> <br />
                       (А02.07.002)
                     </span>
                     <span className="price">От 380 ₽</span>
@@ -460,45 +462,45 @@ const DiagnosticPage = () => {
                   <section className="tab-three">
                     <span className="text">
                       Исследование кариозных полостей с использованием
-                      стоматологического зонда <br /> (А02.07.005)
+                      стоматологического зонда <br /> <br /> (А02.07.005)
                     </span>
                     <span className="price">От 70₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Термодиагностика зуба <br /> (А02.07.005 ){" "}
+                      Термодиагностика зуба <br /> <br /> (А02.07.005 ){" "}
                     </span>
                     <span className="price">От 50₽</span>
                   </section>
 
                   <section className="tab-three">
                     <span className="text">
-                      Определение прикуса <br /> (А02.07.006){" "}
+                      Определение прикуса <br /> <br /> (А02.07.006){" "}
                     </span>
                     <span className="price">От 500 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Определение вида смыкания зубных рядов с помощью лицевой
-                      дуги <br /> (А02.07.006.001)
+                      дуги <br /> <br /> (А02.07.006.001)
                     </span>
                     <span className="price">От 1.500 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Перкуссия зубов <br /> (А02.07.007){" "}
+                      Перкуссия зубов <br /> <br /> (А02.07.007){" "}
                     </span>
                     <span className="price">От 40 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Электроодонтометрия зуба (ЭОД) <br /> (А05.07.001 ){" "}
+                      Электроодонтометрия зуба (ЭОД) <br /> <br /> (А05.07.001 ){" "}
                     </span>
                     <span className="price">От 120 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Определение индексов гигиены полости рта <br />{" "}
+                      Определение индексов гигиены полости рта <br /> <br />
                       (А12.07.003 )
                     </span>
                     <span className="price last">От 250 ₽</span>
@@ -513,26 +515,26 @@ const DiagnosticPage = () => {
                       Реставрации
                     </h5>
                     <span className="text">
-                      Реставрация 1 степени сложности <br />
+                      Реставрация 1 степени сложности <br /> <br />
                       (ТР-1)
                     </span>
                     <span className="price">От 4.000 ₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
-                      Реставрация 2 степени сложности <br /> (ТР-2)
+                      Реставрация 2 степени сложности <br /> <br /> (ТР-2)
                     </span>
                     <span className="price">От 4.900 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Реставрация 3 степени сложности <br /> (ТР-3)
+                      Реставрация 3 степени сложности <br /> <br /> (ТР-3)
                     </span>
                     <span className="price">От 5.500 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Художественная реставрация зуба <br /> (ТР-4)
+                      Художественная реставрация зуба <br /> <br /> (ТР-4)
                     </span>
                     <span className="price last">От 7.500 ₽</span>
                   </section>
@@ -546,19 +548,19 @@ const DiagnosticPage = () => {
                       Анестезия
                     </h5>
                     <span className="text">
-                      Проводниковая анестезия <br /> (B01.003.004:002){" "}
+                      Проводниковая анестезия <br /> <br /> (B01.003.004:002){" "}
                     </span>
                     <span className="price">От 1000₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
-                      Аппликационная анестезия <br /> (B01.003.004:004){" "}
+                      Аппликационная анестезия <br /> <br /> (B01.003.004:004){" "}
                     </span>
                     <span className="price">От 300₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Инфильтрационная анестезия <br /> (B01.003.004:005){" "}
+                      Инфильтрационная анестезия <br /> <br /> (B01.003.004:005){" "}
                     </span>
                     <span className="price last">От 800 ₽</span>
                   </section>
@@ -858,7 +860,7 @@ const DiagnosticPage = () => {
                       <div className="price-row">
                         <span className="text">
                           Прием (осмотр, консультация) врача-стоматолога
-                          первичный <br />
+                          первичный <br /> <br />
                           (В01.065.007)
                         </span>
                         <span className="price">От 1000 ₽</span>
@@ -866,20 +868,20 @@ const DiagnosticPage = () => {
                       <div className="price-row">
                         <span className="text">
                           Диспансерный прием (осмотр, консультация)
-                          врача-стоматолога <br /> (В04.065.005)
+                          врача-стоматолога <br /> <br /> (В04.065.005)
                         </span>
                         <span className="price">От 500 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Профилактический прием (осмотр, консультация)
-                          врача-стоматолога <br /> (В04.065.006)
+                          врача-стоматолога <br /> <br /> (В04.065.006)
                         </span>
                         <span className="price last">0 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Адаптационный прием <br /> (В04.065.008 )
+                          Адаптационный прием <br /> <br /> (В04.065.008 )
                         </span>
                         <span className="price last">0 ₽</span>
                       </div>
@@ -893,7 +895,7 @@ const DiagnosticPage = () => {
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">
-                          Радиовизиография <br /> (А06.07.010){" "}
+                          Радиовизиография <br /> <br /> (А06.07.010){" "}
                         </span>
                         <span className="price">От 500 ₽</span>
                       </div>
@@ -911,14 +913,15 @@ const DiagnosticPage = () => {
                       </div> */}
                       <div className="price-row">
                         <span className="text">
-                          Запись на электронный носитель USB <br />{" "}
+                          Запись на электронный носитель USB <br /> <br />
                           (А06.07.013.002)
                         </span>
                         <span className="price">От 500 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Повторный диагностический снимок <br />{" "}
+                          Повторный диагностический снимок <br />
+                          <br />
                           (А06.07.013.003 )
                         </span>
                         <span className="price last"> 0 ₽</span>
@@ -936,14 +939,15 @@ const DiagnosticPage = () => {
                       <div className="price-row">
                         <span className="text">
                           Исследование на диагностических моделях челюстей{" "}
-                          <br />
+                          <br /> <br />
                           (A02.07.010)
                         </span>
                         <span className="price">От 500 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Витальное окрашивание твердых тканей зуба <br />{" "}
+                          Витальное окрашивание твердых тканей зуба <br />
+                          <br />
                           (A12.07.001 )
                         </span>
                         <span className="price">От 380 ₽</span>
@@ -951,44 +955,47 @@ const DiagnosticPage = () => {
                       <div className="price-row">
                         <span className="text">
                           Исследование кариозных полостей с использованием
-                          стоматологического зонда <br /> (А02.07.002 )
+                          стоматологического зонда <br /> <br /> (А02.07.002 )
                         </span>
                         <span className="price">От 70 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Термодиагностика зуба <br /> (А02.07.005 )
+                          Термодиагностика зуба <br /> <br /> (А02.07.005 )
                         </span>
                         <span className="price">От 50 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Определение прикуса <br /> (А02.07.006 )
+                          Определение прикуса <br /> <br /> (А02.07.006 )
                         </span>
                         <span className="price">От 500 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Определение вида смыкания зубных рядов с помощью
-                          лицевой дуги <br /> (А02.07.006.001 )
+                          лицевой дуги <br /> <br /> (А02.07.006.001 )
                         </span>
                         <span className="price">От 1.500 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Перкуссия зубов <br /> (А02.07.007 )
+                          Перкуссия зубов <br /> <br />
+                          (А02.07.007 )
                         </span>
                         <span className="price">От 40 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Электроодонтометрия зуба (ЭОД) <br /> (А05.07.001 )
+                          Электроодонтометрия зуба (ЭОД) <br /> <br />{" "}
+                          (А05.07.001 )
                         </span>
                         <span className="price">От 120 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Определение индексов гигиены полости рта <br />{" "}
+                          Определение индексов гигиены полости рта <br />
+                          <br />
                           (А12.07.003)
                         </span>
                         <span className="price last">От 250 ₽</span>
@@ -1003,19 +1010,21 @@ const DiagnosticPage = () => {
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">
-                          Проводниковая анестезия <br /> (B01.003.004:002)
+                          Проводниковая анестезия <br /> <br />
+                          (B01.003.004:002)
                         </span>
                         <span className="price">От 1000 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Аппликационная анестезия <br /> (B01.003.004:004 )
+                          Аппликационная анестезия <br /> <br />{" "}
+                          (B01.003.004:004 )
                         </span>
                         <span className="price last">От 300 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Инфильтрационная анестезия <br />
+                          Инфильтрационная анестезия <br /> <br />
                           (B01.003.004:005 )
                         </span>
                         <span className="price last">От 800 ₽</span>
