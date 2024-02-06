@@ -337,14 +337,16 @@ const ImplantsPage = () => {
                     </h5>
                     <span className="text">
                       Протезирование зуба с использованием имплантата временной
-                      коронкой + временный абатмент
+                      коронкой + временный абатмент <br /> <br />{" "}
+                      (ИМ-А16.07.006.001)
                     </span>
                     <span className="price">От 8.500₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Единица промежуточной части временного мостовидного
-                      протеза с опорой на имплантах
+                      протеза с опорой на имплантах <br /> <br />{" "}
+                      (ИМ-А16.07.006.002)
                     </span>
                     <span className="price">От 4.500₽</span>
                   </section>
@@ -352,7 +354,7 @@ const ImplantsPage = () => {
                     <span className="text">
                       Протезирование зуба с использованием имплантата коронкой
                       металлокерамической класса "Эстетик" (трансокклюзионная
-                      фиксация)
+                      фиксация) <br /> <br /> (ИМ-А16.07.006.004 )
                     </span>
                     <span className="price">От 31.000₽</span>
                   </section>
@@ -360,7 +362,8 @@ const ImplantsPage = () => {
                     <span className="text">
                       Протезирование зуба с использованием имплантата коронкой
                       металлокерамической класса "стандарт" (цементная фиксация)
-                      на индивидуальном абатменте
+                      на индивидуальном абатменте <br /> <br />{" "}
+                      (ИМ-А16.07.006.005)
                     </span>
                     <span className="price">От 25.000₽</span>
                   </section>
@@ -368,21 +371,24 @@ const ImplantsPage = () => {
                     <span className="text">
                       Протезирование зуба с использованием имплантата коронкой
                       металлокерамической класса "Премиум" (цементная фиксация)
-                      на индивидуальном абатменте
+                      на индивидуальном абатменте <br /> <br />{" "}
+                      (ИМ-А16.07.006.006)
                     </span>
                     <span className="price">От 31.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Единица промежуточной части мостовидного протеза класса
-                      "Стандарт" (металлокерамика) с опорой на имплантах
+                      "Стандарт" (металлокерамика) с опорой на имплантах <br />{" "}
+                      <br /> (ИМ-А16.07.006.007)
                     </span>
                     <span className="price">От 17.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Единица промежуточной части мостовидного протеза класса
-                      "Премиум" (металлокерамика) с опорой на имплантах
+                      "Премиум" (металлокерамика) с опорой на имплантах <br />{" "}
+                      <br /> (ИМ-А16.07.006.008)
                     </span>
                     <span className="price">От 21.000₽</span>
                   </section>
@@ -390,7 +396,7 @@ const ImplantsPage = () => {
                     <span className="text">
                       Протезирование зуба с использованием имплантата коронокой
                       из диоксида циркония класса "Стандарт"(трансокклюзионная
-                      фиксация)
+                      фиксация) <br /> <br /> (ИМ-А16.07.006.009)
                     </span>
                     <span className="price">От 33.000₽</span>
                   </section>
@@ -398,7 +404,7 @@ const ImplantsPage = () => {
                     <span className="text">
                       Протезирование зуба с использованием имплантата коронокой
                       из диоксида циркония класса "Премиум"(трансокклюзионная
-                      фиксация)
+                      фиксация) <br /> <br /> (ИМ-А16.07.006.010)
                     </span>
                     <span className="price">От 37.500₽</span>
                   </section>
@@ -407,7 +413,8 @@ const ImplantsPage = () => {
                       {" "}
                       Протезирование зуба с использованием имплантата коронокой
                       из диоксида циркония класса "Стандарт"(трансокклюзионная
-                      фиксация) на индивидуальном абатмене
+                      фиксация) на индивидуальном абатмене <br /> <br />{" "}
+                      (ИМ-А16.07.006.011)
                     </span>
                     <span className="price">От 39.000₽</span>
                   </section>
@@ -416,7 +423,8 @@ const ImplantsPage = () => {
                       {" "}
                       Протезирование зуба с использованием имплантата коронокой
                       из диоксида циркония класса "Премиум"(трансокклюзионная
-                      фиксация) на индивидуальном абатмене
+                      фиксация) на индивидуальном абатмене <br /> <br />{" "}
+                      (ИМ-А16.07.006.012)
                     </span>
                     <span className="price">От 45.000₽</span>
                   </section>
@@ -424,7 +432,7 @@ const ImplantsPage = () => {
                     <span className="text">
                       Единица промежуточной части мостовидного протеза из
                       диоксида циркония класса "Стандарт" с опорой на
-                      имплантатах
+                      имплантатах <br /> <br /> (ИМ-А16.07.006.013)
                     </span>
                     <span className="price">От 22.000₽</span>
                   </section>
@@ -432,7 +440,8 @@ const ImplantsPage = () => {
                   <section className="tab-three">
                     <span className="text">
                       Единица промежуточной части мостовидного протеза из
-                      диоксида циркония класса "Премиум" с опорой на имплантатах
+                      диоксида циркония класса "Премиум" с опорой на имплантатах{" "}
+                      <br /> <br /> (ИМ-А16.07.006.014)
                     </span>
                     <span className="price">От 26.000₽</span>
                   </section>
@@ -440,13 +449,15 @@ const ImplantsPage = () => {
                     <span className="text">
                       Протезирование зуба с использованием имплантата коронкой
                       E-max на титановом основании класса "Премиум"
-                      (трансокклюзионная фиксация)
+                      (трансокклюзионная фиксация) <br /> <br />{" "}
+                      (ИМ-А16.07.006.015)
                     </span>
                     <span className="price">От 30.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Индивидуальный абатмент из диоксида циркония
+                      Индивидуальный абатмент из диоксида циркония <br /> <br />{" "}
+                      (ИМ-А16.07.006.016)
                     </span>
                     <span className="price">От 15.000₽</span>
                   </section>
@@ -454,7 +465,7 @@ const ImplantsPage = () => {
                     <span className="text">
                       Протезирование полным условно-съемным протезом с опорой на
                       имплантатах (балочная конструкция) мультиюниты
-                      оплачиваются отдельно
+                      оплачиваются отдельно <br /> <br /> (ИМ-А16.07.006.017)
                     </span>
                     <span className="price">От 185.000₽</span>
                   </section>
@@ -462,39 +473,43 @@ const ImplantsPage = () => {
                     <span className="text">
                       Протезирование полным несъемным протезом с опорой на
                       имплантатах на мультиюнитах (мультиюниты оплачиваются
-                      отдельно)
+                      отдельно) <br /> <br /> (ИМ-А16.07.006.018)
                     </span>
                     <span className="price">От 185.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Стоимость мультиюнита (1 единица){" "}
+                      Стоимость мультиюнита (1 единица) <br /> <br />{" "}
+                      (ИМ-А16.07.006.019 )
                     </span>
                     <span className="price">От 120.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Протезирование полным съемным протезом на имплантатах с
-                      замковым креплением (люкаторная система замков){" "}
+                      замковым креплением (люкаторная система замков) <br />{" "}
+                      <br /> (ИМ-А16.07.006.020)
                     </span>
                     <span className="price">От 120.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Протезирование полным съемным протезом на имплантатах на
-                      аттачментах
+                      аттачментах <br /> <br /> (ИМ-А16.07.006.021)
                     </span>
                     <span className="price">От 95.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Временный несъемный протез на имплантатах
+                      Временный несъемный протез на имплантатах <br /> <br />{" "}
+                      (ИМ-А16.07.006.22)
                     </span>
                     <span className="price">От 80.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Замена винта трансокклюзионной фиксации
+                      <br /> <br /> (ИМ-А23.07.002.04)
                     </span>
                     <span className="price last">От 500₽</span>
                   </section>
@@ -509,23 +524,28 @@ const ImplantsPage = () => {
                     </h5>
                     <span className="text">
                       Имплантация системой Dentium SuperLine (Ю.Корея)
+                      <br /> <br /> (ИМ-А16.07.054.001)
                     </span>
                     <span className="price">От 39.000₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
-                      Имплантация системой NeoDent GM (Бразилия)
+                      Имплантация системой NeoDent GM (Бразилия) <br /> <br />{" "}
+                      (ИМ-А16.07.054.002)
                     </span>
                     <span className="price">От 39.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Имплантация системой Nobel Biocare (Швейцария){" "}
+                      Имплантация системой Nobel Biocare (Швейцария) <br />{" "}
+                      <br /> (ИМ-А16.07.054.003)
                     </span>
                     <span className="price">От 70.000₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Миниимплант (ортовинт) </span>
+                    <span className="text">
+                      Миниимплант (ортовинт) <br /> <br /> (ИМ-А16.07.054.004){" "}
+                    </span>
                     <span className="price last">От 12.000₽</span>
                   </section>
                 </div>
@@ -536,24 +556,29 @@ const ImplantsPage = () => {
                   <section className="tab-one">
                     <h5 className="plate-heading">Формирователь десны</h5>
                     <span className="text">
-                      Установка формирователя десны SuperLine
+                      Установка формирователя десны SuperLine <br /> <br />{" "}
+                      (ИМ-1 )
                     </span>
                     <span className="price">От 3.000₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
-                      Установка формирователя десны Strumann{" "}
+                      Установка формирователя десны Strumann <br /> <br />{" "}
+                      (ИМ-2)
                     </span>
                     <span className="price">От 6.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Установка формирователя десны NeoDent GM{" "}
+                      Установка формирователя десны NeoDent GM <br /> <br />{" "}
+                      (ИМ-3)
                     </span>
                     <span className="price">От 3.000₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Установка формирователя десны </span>
+                    <span className="text">
+                      Установка формирователя десны <br /> <br /> (ИМ-4){" "}
+                    </span>
                     <span className="price last">От 3.000₽</span>
                   </section>
                 </div>
@@ -565,24 +590,28 @@ const ImplantsPage = () => {
                     <h5 className="plate-heading">Синус-лифтинг</h5>
                     <span className="text">
                       Синус-лифтинг (без учета стоимости материалов) -закрытый
+                      <br /> <br /> (ИМ--)
                     </span>
                     <span className="price">От 15.000₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
-                      Синус-лифтинг (без учета стоимости материалов) -открытый
+                      Синус-лифтинг (без учета стоимости материалов) -открытый{" "}
+                      <br /> <br /> (ИМ--)
                     </span>
                     <span className="price">От 40.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Направленная костная регенерация (HKP) титановой сеткой
+                      Направленная костная регенерация (HKP) титановой сеткой{" "}
+                      <br /> <br /> (ИМ-16.08)
                     </span>
                     <span className="price">От 25.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Подсыпка костной ткани после удаления Bio-Oss
+                      Подсыпка костной ткани после удаления Bio-Oss <br />{" "}
+                      <br /> (ИМ-А16.07 1)
                     </span>
                     <span className="price">От 5.000₽</span>
                   </section>
@@ -590,31 +619,36 @@ const ImplantsPage = () => {
                     <span className="text">
                       Костная пластика челюстно-лицевой области с применением
                       биодеградируемых материалов (костно-пластический материал
-                      Bio-Oss 0,5 гр.)
+                      Bio-Oss 0,5 гр.) <br /> <br /> (ИМ-А16.07.041.001.01)
                     </span>
                     <span className="price">От 24.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Костная пластика челюстно-лицевой области с применением
-                      биодеградируемых материалов (мембраны Bio-Gide) 1 шт.
+                      биодеградируемых материалов (мембраны Bio-Gide) 1 шт.{" "}
+                      <br /> <br /> (ИМ-А16.07.041:001.03)
                     </span>
                     <span className="price">От 30.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Использование хирургического шаблона от 3 зубов
+                      Использование хирургического шаблона от 3 зубов <br />{" "}
+                      <br /> (ИМ-А16.07.054.008)
                     </span>
                     <span className="price">От 15.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Использование хирургического шаблона от 4 зубов
+                      Использование хирургического шаблона от 4 зубов <br />{" "}
+                      <br /> (ИМ-А16.07.054.009)
                     </span>
                     <span className="price">От 24.000₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Переустановка импланта</span>
+                    <span className="text">
+                      Переустановка импланта <br /> <br /> (ИМ-А16.07.054.009){" "}
+                    </span>
                     <span className="price last">От 7.500₽</span>
                   </section>
                 </div>
@@ -626,14 +660,14 @@ const ImplantsPage = () => {
                     <h5 className="plate-heading">Реконструктивное лечение</h5>
                     <span className="text">
                       Инъекционное введение лекарственных препаратов в
-                      челюстно-лицевую область
+                      челюстно-лицевую область <br /> <br /> (А11.07.011)
                     </span>
                     <span className="price">От 380₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Аппликация лекарственного препарата на слизистую оболочку
-                      полости рта
+                      полости рта <br /> <br /> (А11.07.022)
                     </span>
                     <span className="price">От 550₽</span>
                   </section>
@@ -642,7 +676,8 @@ const ImplantsPage = () => {
                       Ультразвуковая обработка пародонтального кармана в области
                       зуба с применением лекарственных средств (лечение
                       заболеваний пародонта аппаратом "Vector Para Pro" в
-                      области 1 зуба/импланта)
+                      области 1 зуба/импланта) <br /> <br />{" "}
+                      (А22.07.001,А11.07.010)
                     </span>
                     <span className="price">От 800₽</span>
                   </section>
@@ -651,38 +686,43 @@ const ImplantsPage = () => {
                       Ультразвуковая обработка пародонтального кармана в области
                       зуба с применением лекарственных средств (лечение
                       заболеваний пародонта аппаратом "Vector Para Pro" 2
-                      челюсти)
+                      челюсти) <br /> <br /> (А22.07.001.001,А11.07.010)
                     </span>
                     <span className="price">От 10.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Лазерная физиотерапия челюстно-лицевой области (1
-                      процедура)
+                      процедура) <br /> <br /> (А22.07.003)
                     </span>
                     <span className="price">От 350₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Костная пластика челюстно-лицевой области с применением
-                      биодеградируемых материалов (мембраны Bio-Gide) 1 шт.
+                      биодеградируемых материалов (мембраны Bio-Gide) 1 шт.{" "}
+                      <br /> <br /> (ИМ-А16.07.041:001.03)
                     </span>
                     <span className="price">От 22.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Использование хирургического шаблона от 3 зубов
+                      Использование хирургического шаблона от 3 зубов <br />{" "}
+                      <br /> (ИМ-А16.07.054.008)
                     </span>
                     <span className="price">От 15.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Использование хирургического шаблона от 4 зубов
+                      <br /> <br /> (ИМ-А16.07.054.009)
                     </span>
                     <span className="price">От 24.000₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Переустановка импланта</span>
+                    <span className="text">
+                      Переустановка импланта <br /> <br /> (ИМ-А16.07.054.009){" "}
+                    </span>
                     <span className="price last">От 7.500₽</span>
                   </section>
                 </div>
@@ -984,14 +1024,16 @@ const ImplantsPage = () => {
                       <div className="price-row">
                         <span className="text">
                           Протезирование зуба с использованием имплантата
-                          временной коронкой + временный абатмент
+                          временной коронкой + временный абатмент <br /> <br />{" "}
+                          (ИМ-А16.07.006.001 )
                         </span>
                         <span className="price">От 8.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Единица промежуточной части временного мостовидного
-                          протеза с опорой на имплантах
+                          протеза с опорой на имплантах <br /> <br />{" "}
+                          (ИМ-А16.07.006.002)
                         </span>
                         <span className="price">От 4.500₽</span>
                       </div>
@@ -999,7 +1041,8 @@ const ImplantsPage = () => {
                         <span className="text">
                           Протезирование зуба с использованием имплантата
                           коронкой металлокерамической класса "Эстетик"
-                          (трансокклюзионная фиксация)
+                          (трансокклюзионная фиксация) <br /> <br />{" "}
+                          (ИМ-А16.07.006.004)
                         </span>
                         <span className="price">От 31.000₽</span>
                       </div>
@@ -1007,7 +1050,8 @@ const ImplantsPage = () => {
                         <span className="text">
                           Протезирование зуба с использованием имплантата
                           коронкой металлокерамической класса "стандарт"
-                          (цементная фиксация) на индивидуальном абатменте
+                          (цементная фиксация) на индивидуальном абатменте{" "}
+                          <br /> <br /> (ИМ-А16.07.006.005)
                         </span>
                         <span className="price">От 25.000₽</span>
                       </div>
@@ -1015,7 +1059,8 @@ const ImplantsPage = () => {
                         <span className="text">
                           Протезирование зуба с использованием имплантата
                           коронкой металлокерамической класса "Премиум"
-                          (цементная фиксация) на индивидуальном абатменте
+                          (цементная фиксация) на индивидуальном абатменте{" "}
+                          <br /> <br /> (ИМ-А16.07.006.006)
                         </span>
                         <span className="price">От 31.000₽</span>
                       </div>
@@ -1023,7 +1068,7 @@ const ImplantsPage = () => {
                         <span className="text">
                           Единица промежуточной части мостовидного протеза
                           класса "Стандарт" (металлокерамика) с опорой на
-                          имплантах
+                          имплантах <br /> <br /> (ИМ-А16.07.006.007)
                         </span>
                         <span className="price">От 17.000₽</span>
                       </div>
@@ -1031,7 +1076,7 @@ const ImplantsPage = () => {
                         <span className="text">
                           Единица промежуточной части мостовидного протеза
                           класса "Премиум" (металлокерамика) с опорой на
-                          имплантах
+                          имплантах <br /> <br /> (ИМ-А16.07.006.008)
                         </span>
                         <span className="price">От 21.000₽</span>
                       </div>
@@ -1039,7 +1084,8 @@ const ImplantsPage = () => {
                         <span className="text">
                           Протезирование зуба с использованием имплантата
                           коронокой из диоксида циркония класса
-                          "Стандарт"(трансокклюзионная фиксация)
+                          "Стандарт"(трансокклюзионная фиксация) <br /> <br />{" "}
+                          (ИМ-А16.07.006.009)
                         </span>
                         <span className="price">От 33.000₽</span>
                       </div>
@@ -1047,7 +1093,8 @@ const ImplantsPage = () => {
                         <span className="text">
                           Протезирование зуба с использованием имплантата
                           коронокой из диоксида циркония класса
-                          "Премиум"(трансокклюзионная фиксация)
+                          "Премиум"(трансокклюзионная фиксация) <br /> <br />{" "}
+                          (ИМ-А16.07.006.010)
                         </span>
                         <span className="price">От 37.500₽</span>
                       </div>
@@ -1057,7 +1104,8 @@ const ImplantsPage = () => {
                           Протезирование зуба с использованием имплантата
                           коронокой из диоксида циркония класса
                           "Стандарт"(трансокклюзионная фиксация) на
-                          индивидуальном абатмене
+                          индивидуальном абатмене <br /> <br />{" "}
+                          (ИМ-А16.07.006.011)
                         </span>
                         <span className="price">От 39.000₽</span>
                       </div>
@@ -1067,7 +1115,8 @@ const ImplantsPage = () => {
                           Протезирование зуба с использованием имплантата
                           коронокой из диоксида циркония класса
                           "Премиум"(трансокклюзионная фиксация) на
-                          индивидуальном абатмене
+                          индивидуальном абатмене <br /> <br />{" "}
+                          (ИМ-А16.07.006.012)
                         </span>
                         <span className="price">От 45.000₽</span>
                       </div>
@@ -1075,7 +1124,7 @@ const ImplantsPage = () => {
                         <span className="text">
                           Единица промежуточной части мостовидного протеза из
                           диоксида циркония класса "Стандарт" с опорой на
-                          имплантатах
+                          имплантатах <br /> <br /> (ИМ-А16.07.006.013)
                         </span>
                         <span className="price">От 22.000₽</span>
                       </div>
@@ -1083,7 +1132,7 @@ const ImplantsPage = () => {
                         <span className="text">
                           Единица промежуточной части мостовидного протеза из
                           диоксида циркония класса "Премиум" с опорой на
-                          имплантатах
+                          имплантатах <br /> <br /> (ИМ-А16.07.006.014)
                         </span>
                         <span className="price">От 26.000₽</span>
                       </div>
@@ -1091,13 +1140,15 @@ const ImplantsPage = () => {
                         <span className="text">
                           Протезирование зуба с использованием имплантата
                           коронкой E-max на титановом основании класса "Премиум"
-                          (трансокклюзионная фиксация)
+                          (трансокклюзионная фиксация) <br /> <br />{" "}
+                          (ИМ-А16.07.006.015)
                         </span>
                         <span className="price">От 30.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Индивидуальный абатмент из диоксида циркония
+                          <br /> <br /> (ИМ-А16.07.006.016)
                         </span>
                         <span className="price">От 15.000₽</span>
                       </div>
@@ -1105,7 +1156,8 @@ const ImplantsPage = () => {
                         <span className="text">
                           Протезирование полным условно-съемным протезом с
                           опорой на имплантатах (балочная конструкция)
-                          мультиюниты оплачиваются отдельно
+                          мультиюниты оплачиваются отдельно <br /> <br />{" "}
+                          (ИМ-А16.07.006.017)
                         </span>
                         <span className="price">От 185.000₽</span>
                       </div>
