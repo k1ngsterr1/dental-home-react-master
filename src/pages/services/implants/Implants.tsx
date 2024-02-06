@@ -1163,15 +1163,16 @@ const ImplantsPage = () => {
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          ротезирование полным несъемным протезом с опорой на
+                          Протезирование полным несъемным протезом с опорой на
                           имплантатах на мультиюнитах (мультиюниты оплачиваются
-                          отдельно)
+                          отдельно) <br /> <br /> (ИМ-А16.07.006.018)
                         </span>
                         <span className="price">От 185.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Стоимость мультиюнита (1 единица){" "}
+                          Стоимость мультиюнита (1 единица) <br /> <br />{" "}
+                          (ИМ-А16.07.006.019)
                         </span>
                         <span className="price">От 20.000₽</span>
                       </div>
@@ -1179,25 +1180,29 @@ const ImplantsPage = () => {
                         <span className="text">
                           Протезирование полным съемным протезом на имплантатах
                           с замковым креплением (люкаторная система замков){" "}
+                          <br /> <br /> (ИМ-А16.07.006.020 )
                         </span>
                         <span className="price">От 120.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Протезирование полным съемным протезом на имплантатах
-                          на аттачментах
+                          на аттачментах <br /> <br /> (ИМ-А16.07.006.021)
                         </span>
                         <span className="price">От 95.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Временный несъемный протез на имплантатах
+                          Временный несъемный протез на имплантатах <br />{" "}
+                          <br />
+                          (ИМ-А16.07.006.22 )
                         </span>
                         <span className="price">От 80.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Замена винта трансокклюзионной фиксации
+                          Замена винта трансокклюзионной фиксации <br /> <br />{" "}
+                          (ИМ-А23.07.002.04)
                         </span>
                         <span className="price last">От 500₽</span>
                       </div>
@@ -1214,24 +1219,30 @@ const ImplantsPage = () => {
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">
-                          Имплантация системой Dentium SuperLine (Ю.Корея)
+                          Имплантация системой Dentium SuperLine (Ю.Корея){" "}
+                          <br /> <br /> (ИМ-А16.07.054.001)
                         </span>
                         <span className="price">От 39.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Имплантация системой NeoDent GM (Бразилия)
+                          Имплантация системой NeoDent GM (Бразилия) <br />{" "}
+                          <br /> (ИМ-А16.07.054.002)
                         </span>
                         <span className="price">От 39.000₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
-                          Имплантация системой Nobel Biocare (Швейцария){" "}
+                          Имплантация системой Nobel Biocare (Швейцария) <br />{" "}
+                          <br /> (ИМ-А16.07.054.003)
                         </span>
                         <span className="price">От 70.000₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Миниимплант (ортовинт) </span>
+                        <span className="text">
+                          Миниимплант (ортовинт) <br /> <br />{" "}
+                          (ИМ-А16.07.054.004){" "}
+                        </span>
                         <span className="price last">От 12.000₽</span>
                       </div>
                     </div>
@@ -1245,25 +1256,28 @@ const ImplantsPage = () => {
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">
-                          Установка формирователя десны SuperLine
+                          Установка формирователя десны SuperLine <br /> <br />{" "}
+                          (ИМ-1)
                         </span>
                         <span className="price">От 3.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Установка формирователя десны Strumann{" "}
+                          Установка формирователя десны Strumann <br /> <br />{" "}
+                          (ИМ-2)
                         </span>
                         <span className="price">От 6.000₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
-                          Установка формирователя десны NeoDent GM{" "}
+                          Установка формирователя десны NeoDent GM <br /> <br />{" "}
+                          (ИМ-3)
                         </span>
                         <span className="price">От 3.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Установка формирователя десны{" "}
+                          Установка формирователя десны <br /> <br /> (ИМ-4)
                         </span>
                         <span className="price last">От 3.000₽</span>
                       </div>
@@ -1279,14 +1293,14 @@ const ImplantsPage = () => {
                       <div className="price-row">
                         <span className="text">
                           Инъекционное введение лекарственных препаратов в
-                          челюстно-лицевую область
+                          челюстно-лицевую область <br /> <br /> (А11.07.011)
                         </span>
                         <span className="price">От 380₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Аппликация лекарственного препарата на слизистую
-                          оболочку полости рта
+                          оболочку полости рта <br /> <br /> (А11.07.022)
                         </span>
                         <span className="price">От 550₽</span>
                       </div>
@@ -1295,7 +1309,8 @@ const ImplantsPage = () => {
                           Ультразвуковая обработка пародонтального кармана в
                           области зуба с применением лекарственных средств
                           (лечение заболеваний пародонта аппаратом "Vector Para
-                          Pro" в области 1 зуба/импланта)
+                          Pro" в области 1 зуба/импланта) <br /> <br />{" "}
+                          (А22.07.001,А11.07.010)
                         </span>
                         <span className="price">От 800₽</span>
                       </div>
@@ -1304,14 +1319,15 @@ const ImplantsPage = () => {
                           Ультразвуковая обработка пародонтального кармана в
                           области зуба с применением лекарственных средств
                           (лечение заболеваний пародонта аппаратом "Vector Para
-                          Pro" 2 челюсти)
+                          Pro" 2 челюсти) <br /> <br />{" "}
+                          (А22.07.001.001,А11.07.010)
                         </span>
                         <span className="price">От 10.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Лазерная физиотерапия челюстно-лицевой области (1
-                          процедура)
+                          процедура) <br /> <br /> (А22.07.003)
                         </span>
                         <span className="price">От 350₽</span>
                       </div>
@@ -1319,24 +1335,29 @@ const ImplantsPage = () => {
                         <span className="text">
                           Костная пластика челюстно-лицевой области с
                           применением биодеградируемых материалов (мембраны
-                          Bio-Gide) 1 шт.
+                          Bio-Gide) 1 шт. <br /> <br /> (ИМ-А16.07.041:001.03)
                         </span>
                         <span className="price">От 30.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Использование хирургического шаблона от 3 зубов
+                          Использование хирургического шаблона от 3 зубов <br />{" "}
+                          <br /> (ИМ-А16.07.054.008)
                         </span>
                         <span className="price">От 15.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Использование хирургического шаблона от 4 зубов
+                          Использование хирургического шаблона от 4 зубов <br />{" "}
+                          <br /> (ИМ-А16.07.054.009)
                         </span>
                         <span className="price">От 24.000₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Переустановка импланта</span>
+                        <span className="text">
+                          Переустановка импланта <br /> <br />{" "}
+                          (ИМ-А16.07.054.009){" "}
+                        </span>
                         <span className="price last">От 7.500₽</span>
                       </div>
                     </div>
