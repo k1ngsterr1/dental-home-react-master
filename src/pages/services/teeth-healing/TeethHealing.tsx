@@ -345,67 +345,82 @@ const TeethHealing = () => {
                       Восстановление зуба пломбой
                     </h5>
                     <span className="text">
-                      Применение системы Коффердам, Роббердам
+                      Применение системы Коффердам, Роббердам <br /> <br />{" "}
+                      (ТР-А02.07.001.001)
                     </span>
                     <span className="price">500 ₽</span>
                   </section>
                   <section className="tab-two">
-                    <span className="text">Применение системы OptraGate</span>
+                    <span className="text">
+                      Применение системы OptraGate <br /> <br />{" "}
+                      (ТР-А02.07.001.002){" "}
+                    </span>
                     <span className="price">300 ₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Микроабразия эмали (1 зуб)</span>
+                    <span className="text">
+                      Микроабразия эмали (1 зуб) <br /> <br /> (ТР-А16.07.002)
+                    </span>
                     <span className="price">1 500 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Восстановление зуба пломбой I, V, VI класс по Блэку с
                       использованием материалов из фотополимеров SonicFill,
-                      Asteria
+                      Asteria <br /> <br /> (ТР-А16.07.002.010.01)
                     </span>
                     <span className="price">3 900 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Восстановление зуба пломбой I, V, VI класс по Блэку с
-                      использованием материалов из фотополимеров Filtek, Gradia
+                      использованием материалов из фотополимеров Filtek, Gradia{" "}
+                      <br /> <br /> (ТР-А16.07.002:010)
                     </span>
                     <span className="price">3 500 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Восстановление зуба виниром, полукоронкой из
-                      фотополимерного материала прямым методом
+                      фотополимерного материала прямым методом <br /> <br />{" "}
+                      (ТР-А16.07.003.001)
                     </span>
                     <span className="price">7 500 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Избирательное пришлифовывание твердых тканей зуба{" "}
+                      Избирательное пришлифовывание твердых тканей зуба <br />{" "}
+                      <br />
+                      (ТР-А16.07.025 )
                     </span>
                     <span className="price">250 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Восстановление зуба пломбировочным материалом с
-                      использованием титановых штифтов{" "}
+                      использованием титановых штифтов <br /> <br />{" "}
+                      (ТР-А16.07.031.01)
                     </span>
                     <span className="price">5 500 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Восстановление зуба пломбировочным материалом с
-                      использованием стекловолоконных штифтов{" "}
+                      использованием стекловолоконных штифтов <br /> <br />{" "}
+                      (ТР-А16.07.031.02)
                     </span>
                     <span className="price">7 000 ₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Снятие временной пломбы</span>
+                    <span className="text">
+                      Снятие временной пломбы <br /> <br /> (ТР-А16.07.091){" "}
+                    </span>
                     <span className="price">350₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Трепанация (препарирование) зуба
+                      Трепанация (препарирование) зуба <br /> <br />{" "}
+                      (ТР-А16.07.092)
                     </span>
                     <span className="price">600₽</span>
                   </section>
@@ -413,7 +428,8 @@ const TeethHealing = () => {
                     <span className="text">
                       Восстановление зуба пломбой с нарушением контактоного
                       пункта II, III класс по Блэку с использованием материалов
-                      из фотополимеров Filtek, Gradia
+                      из фотополимеров Filtek, Gradia <br /> <br />{" "}
+                      (ТР-А16:07.002:011)
                     </span>
                     <span className="price">4 000 ₽</span>
                   </section>
@@ -421,34 +437,40 @@ const TeethHealing = () => {
                     <span className="text">
                       Восстановление зуба пломбой с нарушением контактоного
                       пункта II, III класс по Блэку с использованием материалов
-                      из фотополимеров SonicFill, Asteria
+                      из фотополимеров SonicFill, Asteria <br /> <br />{" "}
+                      (ТР-А16:07.002:011.01)
                     </span>
                     <span className="price">4 300 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Восстановление зуба пломбой IV класс по Блэку с
-                      использованием материалов из фотополимеров Filtek, Gradia
+                      использованием материалов из фотополимеров Filtek, Gradia{" "}
+                      <br /> <br /> (ТР-А16:07.002:012)
                     </span>
                     <span className="price">4 400 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Восстановление зуба пломбой IV класс по Блэку с
-                      использованием материалов из фотополимеров Asteria
+                      использованием материалов из фотополимеров Asteria <br />{" "}
+                      <br />
+                      (ТР-А16:07.002:012.01 )
                     </span>
                     <span className="price">4 900 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Восстановление зуба пломбой с использованием материалов из
-                      фотополимеров Filtek Flow
+                      фотополимеров Filtek Flow <br /> <br />{" "}
+                      (ТР-А16:07.002:014)
                     </span>
                     <span className="price">1 900 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Наложение лечебной или изолирующей прокладки
+                      Наложение лечебной или изолирующей прокладки <br /> <br />{" "}
+                      (ТР-А16:07.030.004)
                     </span>
                     <span className="price last">550 ₽</span>
                   </section>
@@ -462,114 +484,132 @@ const TeethHealing = () => {
                       Лечение осложнений кариеса
                     </h5>
                     <span className="text">
-                      Наложение девитализирующей пасты
+                      Наложение девитализирующей пасты <br /> <br />{" "}
+                      (ТР-А11.07.027)
                     </span>
                     <span className="price">500 ₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Пломбирование корневого канала зуба под контролем
-                      апекс-локатора (процедура){" "}
+                      апекс-локатора (процедура) <br /> <br />{" "}
+                      (ТР-А16.07.0008.012)
                     </span>
                     <span className="price">350 ₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Наложение временной пломбы</span>
+                    <span className="text">
+                      Наложение временной пломбы <br /> <br />{" "}
+                      (ТР-А16.07.002:009){" "}
+                    </span>
                     <span className="price">600 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Пломбирование корневого канала зуба пастой (1 канал) a
+                      Пломбирование корневого канала зуба пастой (1 канал) a{" "}
+                      <br /> <br /> (ТР-А16.07.008.001)
                     </span>
                     <span className="price">300 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Пломбирование корневого канала зуба пастой с
-                      гуттаперчевыми штифтами (1 канал)
+                      гуттаперчевыми штифтами (1 канал) <br /> <br />{" "}
+                      (ТР-А16.07.008.002)
                     </span>
                     <span className="price"> 900 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Закрытие перформации стенки корневого канала зуба
+                      Закрытие перформации стенки корневого канала зуба <br />{" "}
+                      <br /> (ТР-А16.07.008.003)
                     </span>
                     <span className="price">1 500 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Инструментальная и медикаментозная обработка хорошо
-                      проходимого корневого канала (1 канал)
+                      проходимого корневого канала (1 канал) <br /> <br />{" "}
+                      (ТР-А16.07.030.001)
                     </span>
                     <span className="price">800 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Инструментальная и медикаментозная обработка плохо
-                      проходимого корневого канала (1 канала)
+                      проходимого корневого канала (1 канала) <br /> <br />{" "}
+                      (ТР-А16.07.030.002)
                     </span>
                     <span className="price">1 100 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Фиксация внутриканального штифта
+                      Фиксация внутриканального <br /> <br /> (ТР-А16.07.093)
                     </span>
                     <span className="price">1 500 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Удаление внутриканального штифта{" "}
+                      Удаление внутриканального штифта <br /> <br />{" "}
+                      (ТР-А16.07.094)
                     </span>
                     <span className="price">2 100₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Временное пломбирование лекарственным препаратом корневого
-                      канала ( 1 канал){" "}
+                      канала ( 1 канал) <br /> <br /> (ТР-А16:07.030:003)
                     </span>
                     <span className="price">700₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Распломбировка корневого канала ранеее леченного пастой (1
-                      канал)
+                      канал) <br /> <br /> (ТР-А16:07.082:001)
                     </span>
                     <span className="price">600 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Распломбировка корневого канала ранеее леченного
-                      фосфат-цементом/резорцин-формалиновым методом (1 канал)
+                      фосфат-цементом/резорцин-формалиновым методом (1 канал){" "}
+                      <br /> <br /> (ТР-А16:07.082:002)
                     </span>
                     <span className="price">1 300 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Депофорез корневого канала зуба
+                      Депофорез корневого канала зуба <br /> <br />{" "}
+                      (ТР-А17.07.006)
                     </span>
                     <span className="price"> 300 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Ультразвуковое расширение корневого канала зуба (1 канал)
+                      Ультразвуковое расширение корневого канала зуба (1 канал){" "}
+                      <br /> <br /> (ТР-А22.07.004)
                     </span>
                     <span className="price">300 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Механическая и медикаментозная обработка корневого канала
+                      Механическая и медикаментозная обработка корневого канала{" "}
+                      <br /> <br /> (ТР-А22.07.01)
                     </span>
                     <span className="price">1 500 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Пломбировка корневого канала гуттаперчивый штифт+паста
+                      Пломбировка корневого канала гуттаперчивый штифт+паста{" "}
+                      <br /> <br /> (ТР-А22.07.02)
                     </span>
                     <span className="price">1 500 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Временная пломбировка корневого канала Metapex/Colasept
+                      Временная пломбировка корневого канала Metapex/Colasept{" "}
+                      <br /> <br />
+                      (ТР-А22.07.03)
                     </span>
                     <span className="price last">500 ₽</span>
                   </section>
@@ -583,63 +623,72 @@ const TeethHealing = () => {
                       Эндодоническое лечение
                     </h5>
                     <span className="text">
-                      Эндодоническое лечение одноканального зуба
+                      Эндодоническое лечение одноканального зуба <br /> <br />{" "}
+                      (ТР-1)
                     </span>
                     <span className="price">4 000 ₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
-                      Эндодоническое лечение двухканального зуба
+                      Эндодоническое лечение двухканального зуба <br /> <br />{" "}
+                      (ТР-2)
                     </span>
                     <span className="price">8 000 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Эндодоническое лечение трехканального зуба
+                      Эндодоническое лечение трехканального зуба <br /> <br />{" "}
+                      (ТР-3)
                     </span>
                     <span className="price">12 000 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Эндодоническое лечение четырехканального зуба
+                      Эндодоническое лечение четырехканального зуба <br />{" "}
+                      <br /> (ТР-4)
                     </span>
                     <span className="price">16 000 ₽</span>
                   </section>
 
                   <section className="tab-three">
                     <span className="text">
-                      Эндодоническое лечение пятиканального зуба
+                      Эндодоническое лечение пятиканального зуба <br /> <br />{" "}
+                      (ТР-5)
                     </span>
                     <span className="price">20 000 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Эндодоническое лечение одноканального зуба (периодонтит){" "}
+                      <br /> <br /> (ТР-6 )
                     </span>
                     <span className="price">6 000 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Эндодоническое лечение двухканального зуба (периодонтит)
+                      Эндодоническое лечение двухканального зуба (периодонтит){" "}
+                      <br /> <br /> (ТР-7)
                     </span>
                     <span className="price">10 000 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Эндодоническое лечение трехканального зуба (периодонтит)
+                      Эндодоническое лечение трехканального зуба (периодонтит){" "}
+                      <br /> <br /> (ТР-8)
                     </span>
                     <span className="price">14 000 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Эндодоническое лечение четырехканального зуба
-                      (периодонтит)
+                      (периодонтит) <br /> <br /> (ТР-9)
                     </span>
                     <span className="price">18 000 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Эндодоническое лечение пятиканального зуба (периодонтит)
+                      Эндодоническое лечение пятиканального зуба (периодонтит){" "}
+                      <br /> <br /> (ТР-91)
                     </span>
                     <span className="price last">22 000 ₽</span>
                   </section>
@@ -653,25 +702,25 @@ const TeethHealing = () => {
                       Реставрации
                     </h5>
                     <span className="text">
-                      Реставрация 1 степени сложности
+                      Реставрация 1 степени сложности <br /> <br /> (ТР-1)
                     </span>
                     <span className="price">4 000 ₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
-                      Реставрация 2 степени сложности
+                      Реставрация 2 степени сложности <br /> (ТР-2)
                     </span>
                     <span className="price">4 900 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Реставрация 3 степени сложности
+                      Реставрация 3 степени сложности <br /> <br /> (ТР-3)
                     </span>
                     <span className="price">5 500 ₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Художественная реставрация зуба
+                      Художественная реставрация зуба <br /> <br /> (ТР-4)
                     </span>
                     <span className="price last">7 500 ₽</span>
                   </section>
@@ -684,15 +733,21 @@ const TeethHealing = () => {
                     <h5 className="plate-heading" style={{ width: "90%" }}>
                       Анестезия
                     </h5>
-                    <span className="text">Проводниковая анестезия</span>
+                    <span className="text">
+                      Проводниковая анестезия <br /> <br /> (B01.003.004:002){" "}
+                    </span>
                     <span className="price"> 800 ₽</span>
                   </section>
                   <section className="tab-two">
-                    <span className="text">Аппликационная анестезия</span>
+                    <span className="text">
+                      Аппликационная анестезия <br /> <br /> (B01.003.004:004){" "}
+                    </span>
                     <span className="price">150 ₽</span>
                   </section>
                   <section className="tab-three">
-                    <span className="text">Инфильтрационная анестезия</span>
+                    <span className="text">
+                      Инфильтрационная анестезия <br /> <br /> (B01.003.004:005){" "}
+                    </span>
                     <span className="price last"> 700 ₽</span>
                   </section>
                 </div>
@@ -970,25 +1025,30 @@ const TeethHealing = () => {
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">
-                          Применение системы Коффердам, Роббердам
+                          Применение системы Коффердам, Роббердам <br /> <br />{" "}
+                          (ТР-А02.07.001.001)
                         </span>
                         <span className="price">От 500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Применение системы OptraGate
+                          Применение системы OptraGate <br /> <br />{" "}
+                          (ТР-А02.07.001.002)
                         </span>
                         <span className="price">От 750₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Микроабразия эмали (1 зуб)</span>
+                        <span className="text">
+                          Микроабразия эмали (1 зуб) <br /> <br />{" "}
+                          (ТР-А16.07.002){" "}
+                        </span>
                         <span className="price">От 1.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Восстановление зуба пломбой I, V, VI класс по Блэку с
                           использованием материалов из фотополимеров SonicFill,
-                          Asteria
+                          Asteria <br /> <br /> (ТР-А16.07.002.010.01)
                         </span>
                         <span className="price">От 3.900₽</span>
                       </div>
@@ -996,44 +1056,51 @@ const TeethHealing = () => {
                         <span className="text">
                           Восстановление зуба пломбой I, V, VI класс по Блэку с
                           использованием материалов из фотополимеров Filtek,
-                          Gradia
+                          Gradia <br /> <br /> (ТР-А16.07.002:010)
                         </span>
                         <span className="price">От 3.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Восстановление зуба виниром, полукоронкой из
-                          фотополимерного материала прямым методом
+                          фотополимерного материала прямым методом <br /> <br />{" "}
+                          (ТР-А16.07.003.001)
                         </span>
                         <span className="price">От 7.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Избирательное пришлифовывание твердых тканей зуба{" "}
+                          <br /> <br /> (ТР-А16.07.025)
                         </span>
                         <span className="price">От 250₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Восстановление зуба пломбировочным материалом с
-                          использованием титановых штифтов{" "}
+                          использованием титановых штифтов <br /> <br />{" "}
+                          (ТР-А16.07.031.01)
                         </span>
                         <span className="price">От 5.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Восстановление зуба пломбировочным материалом с
-                          использованием стекловолоконных штифтов{" "}
+                          использованием стекловолоконных штифтов <br /> <br />{" "}
+                          (ТР-А16.07.031.02)
                         </span>
                         <span className="price">От 7.000₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Снятие временной пломбы</span>
+                        <span className="text">
+                          Снятие временной пломбы <br /> <br /> (ТР-А16.07.091){" "}
+                        </span>
                         <span className="price">От 350₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Трепанация (препарирование) зуба
+                          Трепанация (препарирование) зуба <br /> <br />{" "}
+                          (ТР-А16.07.092)
                         </span>
                         <span className="price">От 600₽</span>
                       </div>
@@ -1041,7 +1108,9 @@ const TeethHealing = () => {
                         <span className="text">
                           Восстановление зуба пломбой с нарушением контактоного
                           пункта II, III класс по Блэку с использованием
-                          материалов из фотополимеров Filtek, Gradia
+                          материалов из фотополимеров Filtek, Gradia <br />{" "}
+                          <br />
+                          (ТР-А16:07.002:011)
                         </span>
                         <span className="price">От 4.000₽</span>
                       </div>
@@ -1049,7 +1118,8 @@ const TeethHealing = () => {
                         <span className="text">
                           Восстановление зуба пломбой с нарушением контактоного
                           пункта II, III класс по Блэку с использованием
-                          материалов из фотополимеров SonicFill, Asteria
+                          материалов из фотополимеров SonicFill, Asteria <br />{" "}
+                          <br /> (ТР-А16:07.002:011.01)
                         </span>
                         <span className="price">От 4.300₽</span>
                       </div>
@@ -1057,27 +1127,30 @@ const TeethHealing = () => {
                         <span className="text">
                           Восстановление зуба пломбой IV класс по Блэку с
                           использованием материалов из фотополимеров Filtek,
-                          Gradia
+                          Gradia <br /> <br /> (ТР-А16:07.002:012)
                         </span>
                         <span className="price">От 4.400₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Восстановление зуба пломбой IV класс по Блэку с
-                          использованием материалов из фотополимеров Asteria
+                          использованием материалов из фотополимеров Asteria{" "}
+                          <br /> <br /> (ТР-А16:07.002:012.01)
                         </span>
                         <span className="price">От 4.900₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Восстановление зуба пломбой с использованием
-                          материалов из фотополимеров Filtek Flow
+                          материалов из фотополимеров Filtek Flow <br /> <br />
+                          (ТР-А16:07.002:014)
                         </span>
                         <span className="price">От 1.900₽</span>
                       </div>
                       <div className="price-row last">
                         <span className="text">
-                          Наложение лечебной или изолирующей прокладки
+                          Наложение лечебной или изолирующей прокладки <br />{" "}
+                          <br /> (ТР-А16:07.030.004)
                         </span>
                         <span className="price last">От 550₽</span>
                       </div>
@@ -1093,77 +1166,90 @@ const TeethHealing = () => {
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">
-                          Наложение девитализирующей пасты
+                          Наложение девитализирующей пасты <br /> <br />{" "}
+                          (ТР-А11.07.027)
                         </span>
                         <span className="price">От 500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Пломбирование корневого канала зуба под контролем
-                          апекс-локатора (процедура){" "}
+                          апекс-локатора (процедура) <br /> <br />{" "}
+                          (ТР-А16.07.0008.012)
                         </span>
                         <span className="price">От 350₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Наложение временной пломбы</span>
+                        <span className="text">
+                          Наложение временной пломбы <br /> <br />{" "}
+                          (ТР-А16.07.002:009){" "}
+                        </span>
                         <span className="price">От 600₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Пломбирование корневого канала зуба пастой (1 канал) a
+                          Пломбирование корневого канала зуба пастой (1 канал){" "}
+                          <br /> <br /> (ТР-А16.07.008.001)
                         </span>
                         <span className="price">От 300₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Пломбирование корневого канала зуба пастой с
-                          гуттаперчевыми штифтами (1 канал)
+                          гуттаперчевыми штифтами (1 канал) <br /> <br />{" "}
+                          (ТР-А16.07.008.002)
                         </span>
                         <span className="price">От 900₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Закрытие перформации стенки корневого канала зуба
+                          Закрытие перформации стенки корневого канала зуба{" "}
+                          <br /> <br /> (ТР-А16.07.008.003)
                         </span>
                         <span className="price">От 1.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Инструментальная и медикаментозная обработка хорошо
-                          проходимого корневого канала (1 канала)
+                          проходимого корневого канала (1 канала) <br /> <br />{" "}
+                          (ТР-А16.07.030.001)
                         </span>
                         <span className="price">От 800₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Инструментальная и медикаментозная обработка плохо
-                          проходимого корневого канала (1 канала)
+                          проходимого корневого канала (1 канала) <br /> <br />{" "}
+                          (ТР-А16.07.030.002)
                         </span>
                         <span className="price">От 1.100₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Фиксация внутриканального штифта
+                          Фиксация внутриканального штифта <br /> <br />
+                          (ТР-А16.07.093)
                         </span>
                         <span className="price">От 1.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Удаление внутриканального штифта{" "}
+                          Удаление внутриканального штифта <br /> <br />{" "}
+                          (ТР-А16.07.094)
                         </span>
                         <span className="price">От 2.100₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Временное пломбирование лекарственным препаратом
-                          корневого канала ( 1 канал){" "}
+                          корневого канала ( 1 канал) <br /> <br />{" "}
+                          (ТР-А16:07.030:003)
                         </span>
                         <span className="price">От 700₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Распломбировка корневого канала ранеее леченного
-                          пастой (1 канал)
+                          пастой (1 канал) <br /> <br /> (ТР-А16:07.082:001)
                         </span>
                         <span className="price">От 600₽</span>
                       </div>
@@ -1171,40 +1257,43 @@ const TeethHealing = () => {
                         <span className="text">
                           Распломбировка корневого канала ранеее леченного
                           фосфат-цементом/резорцин-формалиновым методом (1
-                          канал)
+                          канал) <br /> <br /> (ТР-А16:07.082:002)
                         </span>
                         <span className="price">От 1.300₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Депофорез корневого канала зуба
+                          Депофорез корневого канала зуба <br /> <br />{" "}
+                          (ТР-А17.07.006)
                         </span>
                         <span className="price">От 300₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Ультразвуковое расширение корневого канала зуба (1
-                          канал)
+                          канал) <br /> <br /> (ТР-А17.07.006)
                         </span>
                         <span className="price">От 300₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Механическая и медикаментозная обработка корневого
-                          канала
+                          канала <br /> <br />
+                          (ТР-А22.07.01)
                         </span>
                         <span className="price">От 1.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Пломбировка корневого канала гуттаперчивый штифт+паста
+                          Пломбировка корневого канала гуттаперчивый штифт+паста{" "}
+                          <br /> <br /> (ТР-А22.07.02)
                         </span>
                         <span className="price">От 1.500₽</span>
                       </div>
                       <div className="price-row last">
                         <span className="text">
                           Временная пломбировка корневого канала
-                          Metapex/Colasept
+                          Metapex/Colasept <br /> <br /> (ТР-А22.07.03)
                         </span>
                         <span className="price last">От 500₽</span>
                       </div>
@@ -1218,25 +1307,25 @@ const TeethHealing = () => {
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">
-                          Реставрация 1 степени сложности
+                          Реставрация 1 степени сложности <br /> <br /> (ТР-1)
                         </span>
                         <span className="price">От 4.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Реставрация 2 степени сложности
+                          Реставрация 2 степени сложности <br /> <br /> (ТР-2)
                         </span>
                         <span className="price">От 4.900₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Реставрация 3 степени сложности
+                          Реставрация 3 степени сложности <br /> <br /> (ТР-3)
                         </span>
                         <span className="price">От 5.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Художественная реставрация зуба
+                          Художественная реставрация зуба <br /> <br /> (ТР-4 )
                         </span>
                         <span className="price last">От 7.500₽</span>
                       </div>
@@ -1249,15 +1338,24 @@ const TeethHealing = () => {
                     <h4 className="price-heading">Анестезия</h4>
                     <div className="prices">
                       <div className="price-row">
-                        <span className="text">Проводниковая анестезия</span>
+                        <span className="text">
+                          Проводниковая анестезия <br /> <br />{" "}
+                          (B01.003.004:002){" "}
+                        </span>
                         <span className="price">От 800₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Аппликационная анестезия</span>
+                        <span className="text">
+                          Аппликационная анестезия <br /> <br />{" "}
+                          (B01.003.004:004){" "}
+                        </span>
                         <span className="price last">От 150₽</span>
                       </div>
                       <div className="price-row">
-                        <span className="text">Инфильтрационная анестезия</span>
+                        <span className="text">
+                          Инфильтрационная анестезия <br /> <br />{" "}
+                          (B01.003.004:005 ){" "}
+                        </span>
                         <span className="price last">От 700₽</span>
                       </div>
                     </div>
