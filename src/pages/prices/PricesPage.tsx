@@ -17,6 +17,7 @@ import {
   faClose,
 } from "@fortawesome/free-solid-svg-icons";
 import { Helmet } from "react-helmet";
+
 const logoMobile: string = require("../../assets/logo_mob.svg").default;
 const modalImage: string = require("../../assets/example_modal.webp");
 
