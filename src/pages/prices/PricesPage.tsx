@@ -1488,11 +1488,11 @@ const PricesPage = () => {
                     <h2 className="heading">Консультация</h2>
                     <PriceTabLong
                       tabHeadign="Консультация"
-                      paragraphOne="Прием (осмотр, консультация) врача-стоматолога первичный"
+                      paragraphOne="Прием (осмотр, консультация) врача-стоматолога первичный (В01:065.007)"
                       priceOne="1000₽"
-                      paragraphTwo="Диспансерный прием (осмотр, консультация) врача-стоматолога "
+                      paragraphTwo="Диспансерный прием (осмотр, консультация) врача-стоматолога (В04.065.005)"
                       priceTwo="500₽"
-                      paragraphThree="Профилактический прием (осмотр, консультация) врача-стоматолога "
+                      paragraphThree="Профилактический прием (осмотр, консультация) врача-стоматолога (В04.065.006)"
                       priceThree="0₽"
                       openModal={openModal}
                     ></PriceTabLong>
@@ -1505,15 +1505,15 @@ const PricesPage = () => {
                     <h2 className="heading">Рентгенология</h2>
                     <PriceTabLong
                       tabHeadign="Рентгенология"
-                      paragraphOne="Радиовизиография"
+                      paragraphOne="Радиовизиография (А06.07.012)"
                       priceOne="400₽"
-                      paragraphTwo="Получение снимка на электронный адрес "
+                      paragraphTwo="Получение снимка на электронный адрес (А06.07.013.004) "
                       priceTwo="100₽"
-                      paragraphThree="Запись на электронный носитель CD"
+                      paragraphThree="Запись на электронный носитель CD (А06.07.013.005)"
                       priceThree="300₽"
-                      paragraphFour="Запись на электронный носитель USB"
+                      paragraphFour="Запись на электронный носитель USB (А06.07.013.006)"
                       priceFour="500₽"
-                      paragraphFive="Повторный диагностический снимок"
+                      paragraphFive="Повторный диагностический снимок (А06.07.013.007)"
                       priceFive="0₽"
                       openModal={openModal}
                     ></PriceTabLong>
@@ -1526,23 +1526,24 @@ const PricesPage = () => {
                     <h2 className="heading">Исследования и диагностика</h2>
                     <PriceTabLong
                       tabHeadign="Исследования и диагностика"
-                      paragraphOne="Исследование на диагностических моделях челюстей"
+                      paragraphOne="Исследование на диагностических моделях челюстей (A02.07.010)"
                       priceOne="500₽"
-                      paragraphTwo="Витальное окрашивание твердых тканей зуба"
+                      paragraphTwo="Витальное окрашивание твердых тканей зуба (A12.07.001)"
                       priceTwo="380₽"
-                      paragraphThree="Исследование кариозных полостей с использованием стоматологического зонда"
+                      paragraphThree="Исследование кариозных полостей с использованием стоматологического зонда (А02.07.002
+)"
                       priceThree="70₽"
-                      paragraphFour="Термодиагностика зуба"
+                      paragraphFour="Термодиагностика зуба (А02.07.005)"
                       priceFour="50₽"
-                      paragraphFive="Определение прикуса"
+                      paragraphFive="Определение прикуса (А02.07.006)"
                       priceFive="500₽"
-                      paragraphSix="Определение вида смыкания зубных рядов с помощью лицевой дуги"
+                      paragraphSix="Определение вида смыкания зубных рядов с помощью лицевой дуги (А02.07.006.001)"
                       priceSix="1500₽"
-                      paragraphSeven="Перкуссия зубов"
+                      paragraphSeven="Перкуссия зубов (А02.07.007)"
                       priceSeven="40₽"
-                      paragraphEight="Электроодонтометрия зуба (ЭОД)"
+                      paragraphEight="Электроодонтометрия зуба (ЭОД) (А05.07.001)"
                       priceEight="120₽"
-                      paragraphNine="Определение индексов гигиены полости рта"
+                      paragraphNine="Определение индексов гигиены полости рта (А12.07.003)"
                       priceNine="250₽"
                       openModal={openModal}
                     ></PriceTabLong>
@@ -1558,11 +1559,11 @@ const PricesPage = () => {
                     <h2 className="heading">Анестезия</h2>
                     <PriceTabLong
                       tabHeadign="Анестезия"
-                      paragraphOne="Проводниковая анестезия"
+                      paragraphOne="Проводниковая анестезия (B01.003.004:002)"
                       priceOne="800₽"
-                      paragraphTwo="Аппликационная анестезия "
+                      paragraphTwo="Аппликационная анестезия (B01.003.004:004)"
                       priceTwo="150₽"
-                      paragraphThree="Инфильтрационная анестезия"
+                      paragraphThree="Инфильтрационная анестезия (B01.003.004:005)"
                       priceThree="700₽"
                       openModal={openModal}
                     ></PriceTabLong>
@@ -1574,18 +1575,18 @@ const PricesPage = () => {
                   >
                     <h2 className="heading">Терапия</h2>
                     <PriceTabLong
-                      tabHeadign="Восстановлени зуба пломбой"
-                      paragraphOne="Применение системы Коффердам, Роббердам "
+                      tabHeadign="Восстановление зуба пломбой"
+                      paragraphOne="Применение системы Коффердам, Роббердам (ТР-А02.07.001.001)"
                       priceOne="500₽"
-                      paragraphTwo="Применение системы OptraGate "
+                      paragraphTwo="Применение системы OptraGate (ТР-А02.07.001.002)"
                       priceTwo="300₽"
-                      paragraphThree="Микроабразия эмали (1 зуб)"
+                      paragraphThree="Микроабразия эмали (1 зуб) (ТР-А16.07.002)"
                       priceThree="1500₽"
-                      paragraphFour="Восстановление зуба пломбой I, V, VI класс по Блэку с использованием материалов из фотополимеров SonicFill, Asteria"
+                      paragraphFour="Восстановление зуба пломбой I, V, VI класс по Блэку с использованием материалов из фотополимеров SonicFill, Asteria (ТР-А16.07.002.010.01)"
                       priceFour="3900₽"
-                      paragraphFive="Восстановление зуба пломбой I, V, VI класс по Блэку с использованием материалов из фотополимеров Filtek, Gradia"
+                      paragraphFive="Восстановление зуба пломбой I, V, VI класс по Блэку с использованием материалов из фотополимеров Filtek, Gradia (ТР-А16.07.002:010)"
                       priceFive="3500₽"
-                      paragraphSix="Восстановление зуба виниром, полукоронкой из фотополимерного материала прямым методом"
+                      paragraphSix="Восстановление зуба виниром, полукоронкой из фотополимерного материала прямым методом (ТР-А16.07.003.001)"
                       priceSix="7500₽"
                       paragraphSeven="Избирательное пришлифовывание твердых тканей зуба"
                       priceSeven="250₽"
