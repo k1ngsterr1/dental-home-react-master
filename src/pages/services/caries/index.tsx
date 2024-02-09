@@ -79,7 +79,7 @@ const serviceFourMob = require("../../../assets/service_mob_04.webp");
 const doctorTen = require("../../../assets/yana_pc.webp");
 const doctorTenMob = require("../../../assets/yana_mob.webp");
 
-const TeethHealing = () => {
+const TeethCaries = () => {
   const [thankYou, setThankYou] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMenuPcOpen, setIsMenuPcOpen] = useState(false);
@@ -185,19 +185,19 @@ const TeethHealing = () => {
     <div className="div">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Лечение зубов в Ивантеевке</title>
+        <title> Лечение кариеса зубов в Ивантеевке | Dental Home</title>
         <meta
           property="og:title"
-          content="Лечение зубов в Ивантеевке
+          content=" Лечение кариеса зубов в Ивантеевке | Dental Home
 "
         ></meta>
         <meta
           property="og:description"
-          content="Dental Home - сеть стоматологических клиник в Ивантеевке - преимущества, врачи и отзывы"
+          content="В Dental Home в Ивантеевке вы получите качественное лечение кариеса зубов от опытных специалистов. Не откладывайте заботу о вашем устном здоровье"
         ></meta>
         <meta
           name="description"
-          content="Dental Home - сеть стоматологических клиник в Ивантеевке - преимущества, врачи и отзывы"
+          content="В Dental Home в Ивантеевке вы получите качественное лечение кариеса зубов от опытных специалистов. Не откладывайте заботу о вашем устном здоровье"
         ></meta>
       </Helmet>
       {isLoading ? (
@@ -215,35 +215,35 @@ const TeethHealing = () => {
         <div className="screen">
           <Helmet>
             <meta charSet="utf-8" />
-            <title>Лечение зубов в Ивантеевке</title>
+            <title> Лечение кариеса зубов в Ивантеевке | Dental Home</title>
             <meta
               property="og:title"
-              content="Лечение зубов в Ивантеевке"
+              content=" Лечение кариеса зубов в Ивантеевке | Dental Home"
             ></meta>
             <meta
               property="og:description"
-              content="Dental Home - сеть стоматологических клиник в Ивантеевке - преимущества, врачи и отзывы"
+              content="В Dental Home в Ивантеевке вы получите качественное лечение кариеса зубов от опытных специалистов. Не откладывайте заботу о вашем устном здоровье"
             ></meta>
             <meta
               name="description"
-              content="Dental Home - сеть стоматологических клиник в Ивантеевке - преимущества, врачи и отзывы"
+              content="В Dental Home в Ивантеевке вы получите качественное лечение кариеса зубов от опытных специалистов. Не откладывайте заботу о вашем устном здоровье"
             ></meta>
           </Helmet>
           <main className="services-screen-mobile">
             <Helmet>
               <meta charSet="utf-8" />
-              <title>Лечение зубов в Ивантеевке</title>
+              <title>Лечение кариеса зубов в Ивантеевке | Dental Home</title>
               <meta
                 property="og:title"
-                content="Лечение зубов в Ивантеевке"
+                content="Лечение кариеса зубов в Ивантеевке | Dental Home"
               ></meta>
               <meta
                 property="og:description"
-                content="Dental Home - сеть стоматологических клиник в Ивантеевке - преимущества, врачи и отзывы"
+                content="В Dental Home в Ивантеевке вы получите качественное лечение кариеса зубов от опытных специалистов. Не откладывайте заботу о вашем устном здоровье"
               ></meta>
               <meta
                 name="description"
-                content="Dental Home - сеть стоматологических клиник в Ивантеевке - преимущества, врачи и отзывы"
+                content="В Dental Home в Ивантеевке вы получите качественное лечение кариеса зубов от опытных специалистов. Не откладывайте заботу о вашем устном здоровье"
               ></meta>
             </Helmet>
             <div className="content">
@@ -262,7 +262,7 @@ const TeethHealing = () => {
                     Услуги
                   </Link>
                   <div className="circle"></div>
-                  <Link to="/services/teeth-healing" className="link active">
+                  <Link to="/services/teeth-caries" className="link active">
                     Лечение кариеса
                   </Link>
                 </div>
@@ -1603,4 +1603,4 @@ const TeethHealing = () => {
   );
 };
 
-export default TeethHealing;
+export default TeethCaries;

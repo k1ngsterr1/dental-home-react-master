@@ -254,6 +254,8 @@ const FeatureLong: React.FC<Tabprops> = (props) => {
 type Swiper = any;
 
 export default function HomePage() {
+  const navigate = useNavigate();
+
   const [thankYou, setThankYou] = useState(false);
   const [isToothHealingOpened, setToothHealingOpen] = useState(true);
   const [isWhiteningOpened, setWhiteningOpen] = useState(false);
@@ -1082,6 +1084,40 @@ export default function HomePage() {
                     href_5="/services/vinirs"
                   />
                 )}
+                <button
+                  onClick={() => navigate("/services/teeth-healing")}
+                  className="btn"
+                >
+                  <div className="btn-content">
+                    <span
+                      className={
+                        isToothHealingOpened ? "text-active" : "text-inactive"
+                      }
+                    >
+                      Лечение зубов в Ивантеевке
+                    </span>
+                    <FontAwesomeIcon
+                      icon={isToothHealingOpened ? faMinus : faPlus}
+                      className="golden-icon"
+                    />
+                  </div>
+                </button>
+                {/* {isToothHealingOpened && (
+                  <ExpandedTab
+                    service_text="Виниры и коронки"
+                    link_text="Оттиски"
+                    link_text_2="Вкладки"
+                    link_text_5="Виниры"
+                    link_text_3="Коронки"
+                    link_text_4="Восстановление зуба винирами"
+                    openModal={openModal}
+                    href="/services/vinirs"
+                    href_2="/services/vinirs"
+                    href_3="/services/teeth-crowns"
+                    href_4="/services/tooth-restoration"
+                    href_5="/services/vinirs"
+                  />
+                )} */}
                 <button onClick={whiteningExpansion} className="btn">
                   <div className="btn-content">
                     <span
@@ -1329,6 +1365,21 @@ export default function HomePage() {
                         }
                       >
                         Ортопедия
+                      </Link>
+                    </div>
+                  </button>
+                  <button
+                    onClick={() => navigate("/services/teeth-healing")}
+                    className="btn"
+                  >
+                    <div className="btn-content">
+                      <Link
+                        to="/services/teeth-healingg"
+                        className={
+                          isToothHealingOpened ? "text-active" : "text-inactive"
+                        }
+                      >
+                        Лечение зубов
                       </Link>
                     </div>
                   </button>

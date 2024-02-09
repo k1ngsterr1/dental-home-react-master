@@ -28,6 +28,7 @@ import Hygiene from "./pages/services/hygiene/Hygiene";
 import BiteCorrection from "./pages/services/bite-correction/BiteCorrection";
 import ProstheticsPage from "./pages/services/prosthetics/ProstheticsPage";
 import VinirsPage from "./pages/services/vinirs/VinirsPage";
+import TeethCaries from "./pages/services/caries";
 import Surgery from "./pages/services/surgery/Surgery";
 import DiagnosticPage from "./pages/services/diagnostic/DiagnosticPage";
 import ChildBiteCorrection from "./pages/services/child-bite-correction/ChildBite";
@@ -48,7 +49,7 @@ import CrownsPage from "./pages/services/teeth-crowns/TeethCrowns";
 import ToothRestorationPage from "./pages/services/tooth-restoration/ToothRestoration";
 import BracesPage from "./pages/services/braces/BracesPage";
 import BugelPage from "./pages/services/bugel/BugelPage";
-
+import Seal from "./pages/services/seal/Seal";
 import TeethCt from "./pages/services/teeth-ct";
 import TeethDelete from "./pages/services/teeth-delete";
 import CystDelete from "./pages/services/cyst-delete";
@@ -106,6 +107,8 @@ ReactDOM.render(
       <Route path="/services/bite-correction" element={<BiteCorrection />} />
       <Route path="/services/teeth-healing" element={<TeethHealing />} />
       <Route path="/services/prosthetics" element={<ProstheticsPage />} />
+      <Route path="/services/seal" element={<Seal />} />
+      <Route path="/services/caries-heal" element={<TeethCaries />} />
       <Route path="/services/vinirs" element={<VinirsPage />} />
       <Route path="/services/surgery" element={<Surgery />} />
       <Route path="/services/cleaning" element={<Cleaning />} />
