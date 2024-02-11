@@ -1084,7 +1084,7 @@ export default function HomePage() {
                     href_5="/services/vinirs"
                   />
                 )}
-                <button
+                {/* <button
                   onClick={() => navigate("/services/teeth-healing")}
                   className="btn"
                 >
@@ -1102,7 +1102,7 @@ export default function HomePage() {
                     />
                   </div>
                 </button>
-                {/* {isToothHealingOpened && (
+                {isToothHealingOpened && (
                   <ExpandedTab
                     service_text="Виниры и коронки"
                     link_text="Оттиски"
@@ -1332,9 +1332,6 @@ export default function HomePage() {
                   />
                 )}
               </div>
-              <div className="link-container">
-                <a className="golden-link">Стрaница всех услуг</a>
-              </div>
             </section>
           </div>
           <div className="pc-service-screen" id="services">
@@ -1368,13 +1365,13 @@ export default function HomePage() {
                       </Link>
                     </div>
                   </button>
-                  <button
+                  {/* <button
                     onClick={() => navigate("/services/teeth-healing")}
                     className="btn"
                   >
                     <div className="btn-content">
                       <Link
-                        to="/services/teeth-healingg"
+                        to="/services/teeth-healing"
                         className={
                           isToothHealingOpened ? "text-active" : "text-inactive"
                         }
@@ -1382,7 +1379,7 @@ export default function HomePage() {
                         Лечение зубов
                       </Link>
                     </div>
-                  </button>
+                  </button> */}
                   <button onMouseEnter={whiteningExpansion} className="btn one">
                     <div className="btn-content">
                       <Link
