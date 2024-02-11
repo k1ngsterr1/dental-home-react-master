@@ -326,7 +326,9 @@ const BiteCorrection = () => {
                 <div className="plate">
                   <section className="tab-one">
                     <h5 className="plate-heading">
-                      Ортодоническая коррекция с применением брекет-системы{" "}
+                      <a href="https://dental-home.ru/services/braces">
+                        Ортодоническая коррекция с применением брекет-системы
+                      </a>
                       <br />
                     </h5>
                     <span className="text">
@@ -868,7 +870,9 @@ const BiteCorrection = () => {
                   </div>
                   <div className="price-tab" id="prices">
                     <h4 className="price-heading">
-                      Ортодоническая коррекция с применением брекет-системы
+                      <a href="https://dental-home.ru/services/braces">
+                        Ортодоническая коррекция с применением брекет-системы
+                      </a>
                     </h4>
                     <div className="prices">
                       <div className="price-row">

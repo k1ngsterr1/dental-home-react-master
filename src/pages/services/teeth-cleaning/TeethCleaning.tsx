@@ -325,7 +325,11 @@ const Cleaning = () => {
                 <div className="divider"></div>
                 <div className="plate">
                   <section className="tab-one">
-                    <h5 className="plate-heading">Профилактика и гигиена</h5>
+                    <h5 className="plate-heading">
+                      <a href="https://dental-home.ru/services/hygiene">
+                        Профилактика и гигиена
+                      </a>
+                    </h5>
                     <span className="text">
                       Глубокое фторирование эмали зуба Seal&Protect (1 ед.){" "}
                       <br /> <br /> (А11.07.012)
@@ -672,7 +676,13 @@ const Cleaning = () => {
                     </p>
                   </div>
                   <div className="price-tab" id="prices">
-                    <h4 className="price-heading">Профилактика и гигиена</h4>
+                    <h4 className="price-heading">
+                      {" "}
+                      <a href="https://dental-home.ru/services/hygiene">
+                        {" "}
+                        Профилактика и гигиена
+                      </a>
+                    </h4>
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">
