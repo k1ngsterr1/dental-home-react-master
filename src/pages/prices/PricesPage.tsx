@@ -553,7 +553,15 @@ const PricesPage = () => {
               </div>
               <div className="cards">
                 <div className="" id="orthopedia">
-                  <h2 className="heading">Ортопедия</h2>
+                  <h2 className="heading">
+                    {" "}
+                    <a
+                      className="heading"
+                      href="	https://dental-home.ru/services/vinirs"
+                    >
+                      Ортопедия
+                    </a>
+                  </h2>
                   <PriceTabLong
                     tabHeadign="Ортопедия"
                     paragraphOne="Повторная фиксация на постоянный цемент несъемных ортопедических конструкций (ОРТ-A16.07.049) "
@@ -682,7 +690,11 @@ const PricesPage = () => {
                   id="consultations"
                   style={{ marginTop: "clamp(32px,3.33312vw,128px)" }}
                 >
-                  <h2 className="heading">Консультация</h2>
+                  <h2 className="heading">
+                    <a href="	https://dental-home.ru/services/diagnostic">
+                      Консультация
+                    </a>
+                  </h2>
                   <PriceTabLong
                     tabHeadign="Консультация"
                     paragraphOne="Прием (осмотр, консультация) врача-стоматолога первичный (В01:065.007)"
@@ -699,7 +711,12 @@ const PricesPage = () => {
                   id="xray"
                   style={{ marginTop: "clamp(32px,3.33312vw,128px)" }}
                 >
-                  <h2 className="heading">Рентгенология</h2>
+                  <h2 className="heading">
+                    {" "}
+                    <a href="https://dental-home.ru/services/diagnostic">
+                      Рентгенология
+                    </a>
+                  </h2>
                   <PriceTabLong
                     tabHeadign="Рентгенология"
                     paragraphOne="Радиовизиография (А06.07.012)"
@@ -720,7 +737,11 @@ const PricesPage = () => {
                   id="diagnostic"
                   style={{ marginTop: "clamp(32px,3.33312vw,128px)" }}
                 >
-                  <h2 className="heading">Исследования и диагностика</h2>
+                  <h2 className="heading">
+                    <a href="https://dental-home.ru/services/diagnostic">
+                      Исследования и диагностика
+                    </a>
+                  </h2>
                   <PriceTabLong
                     tabHeadign="Исследования и диагностика"
                     paragraphOne="Исследование на диагностических моделях челюстей (Исследование)"
@@ -894,7 +915,11 @@ const PricesPage = () => {
                   id="surgery"
                   style={{ marginTop: "clamp(32px,3.33312vw,128px)" }}
                 >
-                  <h2 className="heading">Хирургия</h2>
+                  <h2 className="heading">
+                    <a href="https://dental-home.ru/services/surgery">
+                      Хирургия
+                    </a>
+                  </h2>
                   <PriceTabLong
                     tabHeadign="Хирургия"
                     paragraphOne="Удаление временного зуба I степени сложности (ХР-А16.07.001.001.01)"
@@ -973,7 +998,11 @@ const PricesPage = () => {
                   id="implantology"
                   style={{ marginTop: "clamp(32px,3.33312vw,128px)" }}
                 >
-                  <h2 className="heading">Имплантология</h2>
+                  <h2 className="heading">
+                    <a href="https://dental-home.ru/services/implants">
+                      Имплантология
+                    </a>
+                  </h2>
                   <PriceTabLong
                     tabHeadign="Протезирование на имплантах"
                     paragraphOne="Протезирование зуба с импользованием имплантата временной коронкой+временный абатмен (ИМ-А16.07.006.001)"
@@ -1095,7 +1124,11 @@ const PricesPage = () => {
                   id="orthodontia"
                   style={{ marginTop: "clamp(32px,3.33312vw,128px)" }}
                 >
-                  <h2 className="heading">Ортодонтия</h2>
+                  <h2 className="heading">
+                    <a href="https://dental-home.ru/services/bite-correction">
+                      Ортодонтия
+                    </a>
+                  </h2>
                   <PriceTabLong
                     tabHeadign="Ортодонтическая коррекция с применением брекет-системы"
                     paragraphOne="I степени сложности (ОРД-А16.07.048.001) "
@@ -1190,7 +1223,11 @@ const PricesPage = () => {
                   id="hygiene"
                   style={{ marginTop: "clamp(32px,3.33312vw,128px)" }}
                 >
-                  <h2 className="heading">Профилактика и гигиена</h2>
+                  <h2 className="heading">
+                    <a href="	https://dental-home.ru/services/hygiene">
+                      Профилактика и гигиена
+                    </a>{" "}
+                  </h2>
                   <PriceTabLong
                     tabHeadign="Профилактика и гигиена"
                     paragraphOne="Глубокое фторирование эмали зуба Seal&Protect (1 ед.) (А11.07.012)"
@@ -1226,7 +1263,11 @@ const PricesPage = () => {
                     marginBottom: "clamp(32px,3.33312vw,128px)",
                   }}
                 >
-                  <h2 className="heading">Отбеливание</h2>
+                  <h2 className="heading">
+                    <a href="https://dental-home.ru/services/whitening">
+                      Отбеливание
+                    </a>
+                  </h2>
                   <PriceTabLong
                     tabHeadign="Профилактика и гигиена"
                     paragraphOne="Профессиональное отбеливание зубов клиническое - система `ZOOM` (А16.07.050.001)"
@@ -1356,7 +1397,12 @@ const PricesPage = () => {
                 </div>
                 <div className="cards-list">
                   <div className="" id="orthopedia-pc">
-                    <h2 className="heading">Ортопедия</h2>
+                    <h2 className="heading">
+                      <a href="	https://dental-home.ru/services/vinirs heading">
+                        {" "}
+                        Ортопедия
+                      </a>
+                    </h2>
                     <PriceTabLong
                       tabHeadign="Ортопедия"
                       paragraphOne="Повторная фиксация на постоянный цемент несъемных ортопедических конструкций (ОРТ-A16.07.049)"
@@ -1486,7 +1532,11 @@ const PricesPage = () => {
                     id="consultations-pc"
                     style={{ marginTop: "clamp(32px,3.33312vw,128px)" }}
                   >
-                    <h2 className="heading">Консультация</h2>
+                    <h2 className="heading">
+                      <a href="https://dental-home.ru/services/diagnostic">
+                        Консультация
+                      </a>
+                    </h2>
                     <PriceTabLong
                       tabHeadign="Консультация"
                       paragraphOne="Прием (осмотр, консультация) врача-стоматолога первичный (В01:065.007)"
@@ -1503,7 +1553,9 @@ const PricesPage = () => {
                     id="xray-pc"
                     style={{ marginTop: "clamp(32px,3.33312vw,128px)" }}
                   >
-                    <h2 className="heading">Рентгенология</h2>
+                    <h2 className="heading">
+                      <a href="https://dental-home.ru/prices">Рентгенология</a>
+                    </h2>
                     <PriceTabLong
                       tabHeadign="Рентгенология"
                       paragraphOne="Радиовизиография (А06.07.012)"
@@ -1524,7 +1576,12 @@ const PricesPage = () => {
                     id="diagnostic-pc"
                     style={{ marginTop: "clamp(32px,3.33312vw,128px)" }}
                   >
-                    <h2 className="heading">Исследования и диагностика</h2>
+                    <h2 className="heading">
+                      {" "}
+                      <a href="https://dental-home.ru/services/diagnostic">
+                        Исследования и диагностика
+                      </a>{" "}
+                    </h2>
                     <PriceTabLong
                       tabHeadign="Исследования и диагностика"
                       paragraphOne="Исследование на диагностических моделях челюстей (A02.07.010)"
@@ -1713,7 +1770,11 @@ const PricesPage = () => {
                     id="surgery-pc"
                     style={{ marginTop: "clamp(32px,3.33312vw,128px)" }}
                   >
-                    <h2 className="heading">Хирургия</h2>
+                    <h2 className="heading">
+                      <a href="https://dental-home.ru/services/surgery">
+                        Хирургия
+                      </a>
+                    </h2>
                     <PriceTabLong
                       tabHeadign="Хирургия"
                       paragraphOne="Удаление временного зуба I степени сложности (ХР-А16.07.001.001.01)"
@@ -1788,7 +1849,11 @@ const PricesPage = () => {
                     id="implantology-pc"
                     style={{ marginTop: "clamp(32px,3.33312vw,128px)" }}
                   >
-                    <h2 className="heading">Имплантология</h2>
+                    <h2 className="heading">
+                      <a href="	https://dental-home.ru/services/implants">
+                        Имплантология
+                      </a>
+                    </h2>
                     <PriceTabLong
                       tabHeadign="Протезирование на имплантах"
                       paragraphOne="Протезирование зуба с импользованием имплантата временной коронкой+временный абатмен (ИМ-А16.07.006.001)"
@@ -1910,7 +1975,11 @@ const PricesPage = () => {
                     id="orthodontia-pc"
                     style={{ marginTop: "clamp(32px,3.33312vw,128px)" }}
                   >
-                    <h2 className="heading">Ортодонтия</h2>
+                    <h2 className="heading">
+                      <a href="https://dental-home.ru/services/bite-correction">
+                        Ортодонтия
+                      </a>
+                    </h2>
                     <PriceTabLong
                       tabHeadign="Ортодонтическая коррекция с применением брекет-системы"
                       paragraphOne="I степени сложности (ОРД-А16.07.048.001) "
@@ -2005,7 +2074,11 @@ const PricesPage = () => {
                     id="hygiene-pc"
                     style={{ marginTop: "clamp(32px,3.33312vw,128px)" }}
                   >
-                    <h2 className="heading">Профилактика и гигиена</h2>
+                    <h2 className="heading">
+                      <a href="https://dental-home.ru/services/hygiene">
+                        Профилактика и гигиена
+                      </a>
+                    </h2>
                     <PriceTabLong
                       tabHeadign="Профилактика и гигиена"
                       paragraphOne="Глубокое фторирование эмали зуба Seal&Protect (1 ед.) (А11.07.012)"
@@ -2041,7 +2114,11 @@ const PricesPage = () => {
                       marginBottom: "clamp(32px,3.33312vw,128px)",
                     }}
                   >
-                    <h2 className="heading">Отбеливание</h2>
+                    <h2 className="heading">
+                      <a href="https://dental-home.ru/services/whitening">
+                        Отбеливание
+                      </a>
+                    </h2>
                     <PriceTabLong
                       tabHeadign="Профилактика и гигиена"
                       paragraphOne="Профессиональное отбеливание зубов клиническое - система `ZOOM` (А16.07.050.001)"

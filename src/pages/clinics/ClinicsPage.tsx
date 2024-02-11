@@ -868,7 +868,9 @@ const ClinicsPage = () => {
                             <div className="square ">
                               <span className="number">03</span>
                               <span className="gold-p">
-                                Все стоматологические процедуры
+                                <a href="https://dental-home.ru/services/hygiene">
+                                  Все стоматологические процедуры
+                                </a>
                               </span>
                             </div>
                             <div className="square left">
