@@ -282,7 +282,9 @@ const VinirsPage = () => {
                     <br />
                     <br />
                     <strong>
-                      Как проходит процедура установки виниров и коронок?{" "}
+                      <a href="https://dental-home.ru/services/tooth-restoration">
+                        Как проходит процедура установки виниров и коронок?{" "}
+                      </a>
                     </strong>
                     <br />
                     <br />
@@ -943,7 +945,9 @@ const VinirsPage = () => {
                       <br />
                       <br />
                       <strong>
-                        Как проходит процедура установки виниров и коронок?{" "}
+                        <a href="https://dental-home.ru/services/tooth-restoration">
+                          Как проходит процедура установки виниров и коронок?{" "}
+                        </a>
                       </strong>
                       <br />
                       <br />
@@ -1026,8 +1030,9 @@ const VinirsPage = () => {
                   </div>
                   <div className="information-two">
                     <h3 className="heading-info two">
-                      {" "}
-                      Процесс протезирования в клинике Dental Home
+                      <a href="https://dental-home.ru/services/bugel-prothesis">
+                        Процесс протезирования в клинике Dental Home
+                      </a>
                     </h3>
                     <p className="p-info two">
                       <br />

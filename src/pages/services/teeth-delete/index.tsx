@@ -392,7 +392,11 @@ const TeethDelete = () => {
                 <div className="divider"></div>
                 <div className="plate">
                   <section className="tab-one">
-                    <h5 className="plate-heading">Хирургия</h5>
+                    <h5 className="plate-heading">
+                      <a href="https://dental-home.ru/services/surgery">
+                        Хирургия
+                      </a>
+                    </h5>
                     <span className="text">
                       Удаление временного зуба I степени сложности
                     </span>
@@ -951,7 +955,11 @@ const TeethDelete = () => {
                     </p>
                   </div>
                   <div className="price-tab" id="prices">
-                    <h4 className="price-heading">Хирургия</h4>
+                    <h4 className="price-heading">
+                      <a href="https://dental-home.ru/services/surgery">
+                        Хирургия
+                      </a>
+                    </h4>
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">

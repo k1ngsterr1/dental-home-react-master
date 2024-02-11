@@ -266,7 +266,13 @@ const Whitening = () => {
                 </div>
                 <section className="information">
                   <h3 className="information-heading">
-                    Отбеливание Zoom, Amazing White
+                    <a href="https://dental-home.ru/services/zoom-whitening">
+                      Отбеливание Zoom
+                    </a>
+                    ,
+                    <a href="https://dental-home.ru/services/amazing-white">
+                      Amazing White
+                    </a>
                   </h3>
                   <p className="information-paragraph">
                     Методика отбеливания позволяет достичь максимального эффекта
@@ -612,7 +618,13 @@ const Whitening = () => {
                   <span className="text">Об услуге</span>
                   <div className="information-one">
                     <h3 className="heading-info">
-                      Отбеливание Zoom, Amazing White
+                      <a href="https://dental-home.ru/services/zoom-whitening">
+                        Отбеливание Zoom
+                      </a>
+                      ,{" "}
+                      <a href="https://dental-home.ru/services/amazing-white">
+                        Amazing White
+                      </a>
                     </h3>
                     <p className="p-info">
                       Методика отбеливания позволяет достичь максимального

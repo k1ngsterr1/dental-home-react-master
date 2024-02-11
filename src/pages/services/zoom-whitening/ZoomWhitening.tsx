@@ -320,8 +320,11 @@ const ZoomWhitening = () => {
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      Профессиональное отбеливание зубов в клиническое - система
-                      "Amazing White" <br /> <br /> (А16.07.050.003)
+                      <a href="https://dental-home.ru/services/amazing-white">
+                        Профессиональное отбеливание зубов в клиническое -
+                        система "Amazing White"
+                      </a>{" "}
+                      <br /> <br /> (А16.07.050.003)
                     </span>
                     <span className="price">От 11.000 ₽</span>
                   </section>
@@ -609,8 +612,11 @@ const ZoomWhitening = () => {
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          Профессиональное отбеливание зубов клиническое -
-                          система "Amazing White" <br /> <br /> (А16.07.050.003)
+                          <a href="https://dental-home.ru/services/amazing-white">
+                            Профессиональное отбеливание зубов клиническое -
+                            система "Amazing White"
+                          </a>
+                          <br /> <br /> (А16.07.050.003)
                         </span>
                         <span className="price">От 11.000 ₽</span>
                       </div>

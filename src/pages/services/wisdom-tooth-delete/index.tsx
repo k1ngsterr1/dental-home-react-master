@@ -273,8 +273,10 @@ const WisdomTooth = () => {
                 </div>
                 <section className="information">
                   <h3 className="information-heading">
-                    Удаление зуба в Ивантеевке: быстро, безболезненно и
-                    профессионально
+                    <a href="https://dental-home.ru/services/teeth-delete">
+                      Удаление зуба
+                    </a>{" "}
+                    в Ивантеевке: быстро, безболезненно и профессионально
                   </h3>
                   <p className="information-paragraph">
                     Удаление зуба - это процедура, которую назначают стоматологи
