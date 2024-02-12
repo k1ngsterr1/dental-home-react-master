@@ -266,7 +266,9 @@ const TeethCaries = () => {
                     Лечение кариеса
                   </Link>
                 </div>
-                <h1 className="heading">Лечение Кариеса</h1>
+                <h1 className="heading" style={{ width: "50%" }}>
+                  Лечение Кариеса в Ивантеевке
+                </h1>
                 <button className="golden-button" onClick={openModal}>
                   <span className="text">Записаться</span>
                   <FontAwesomeIcon
@@ -901,7 +903,9 @@ const TeethCaries = () => {
                       Лечение зубов
                     </Link>
                   </div>
-                  <h1 className="heading">Лечение кариеса</h1>
+                  <h1 className="heading" style={{ width: "30%" }}>
+                    Лечение кариеса в Ивантеевке
+                  </h1>
                   <button className="button" onClick={openModal}>
                     <span className="text">Записаться</span>
                     <FontAwesomeIcon

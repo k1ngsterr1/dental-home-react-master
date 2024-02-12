@@ -188,8 +188,7 @@ const Restoration = () => {
         <title> Реставрация зубов в Ивантеевке | Dental Home</title>
         <meta
           property="og:title"
-          content=" Реставрация зубов в Ивантеевке | Dental Home
-"
+          content=" Реставрация зубов в Ивантеевке | Dental Home"
         ></meta>
         <meta
           property="og:description"
@@ -266,7 +265,9 @@ const Restoration = () => {
                     Реставрация зубов
                   </Link>
                 </div>
-                <h1 className="heading">Реставрация зубов в Ивантеевке</h1>
+                <h1 className="heading" style={{ width: "50%" }}>
+                  Реставрация зубов в Ивантеевке
+                </h1>
                 <button className="golden-button" onClick={openModal}>
                   <span className="text">Записаться</span>
                   <FontAwesomeIcon
@@ -906,7 +907,9 @@ const Restoration = () => {
                       Реставрация зубов
                     </Link>
                   </div>
-                  <h1 className="heading">Реставрация зубов в Ивантеевке</h1>
+                  <h1 className="heading" style={{ width: "30%" }}>
+                    Реставрация зубов в Ивантеевке
+                  </h1>
                   <button className="button" onClick={openModal}>
                     <span className="text">Записаться</span>
                     <FontAwesomeIcon

@@ -266,7 +266,9 @@ const RightHealing = () => {
                     Лечение десен
                   </Link>
                 </div>
-                <h1 className="heading">Лечение десен в Ивантеевке</h1>
+                <h1 className="heading" style={{ width: "50%" }}>
+                  Лечение десен в Ивантеевке
+                </h1>
                 <button className="golden-button" onClick={openModal}>
                   <span className="text">Записаться</span>
                   <FontAwesomeIcon
@@ -906,7 +908,9 @@ const RightHealing = () => {
                       Лечение десен
                     </Link>
                   </div>
-                  <h1 className="heading">Лечение десен в Ивантеевке</h1>
+                  <h1 className="heading" style={{ width: "50%" }}>
+                    Лечение десен в Ивантеевке
+                  </h1>
                   <button className="button" onClick={openModal}>
                     <span className="text">Записаться</span>
                     <FontAwesomeIcon

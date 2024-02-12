@@ -258,6 +258,7 @@ export default function HomePage() {
 
   const [thankYou, setThankYou] = useState(false);
   const [isToothHealingOpened, setToothHealingOpen] = useState(true);
+  const [isToothHealOpened, setToothHealOpen] = useState(false);
   const [isWhiteningOpened, setWhiteningOpen] = useState(false);
   const [isMouthHygieneOpened, setMouthHygieneOpen] = useState(false);
   const [isHealingInSleepOpened, setHealingInSleepOpen] = useState(false);
@@ -321,6 +322,7 @@ export default function HomePage() {
   }
 
   const toothHealingExpansion = () => {
+    setToothHealOpen(false);
     setToothHealingOpen(true);
     setWhiteningOpen(false);
     setMouthHygieneOpen(false);
@@ -332,7 +334,21 @@ export default function HomePage() {
     setTeethHealSleepOpened(false);
   };
 
+  const toothHealingExpansion2 = () => {
+    setToothHealingOpen(false);
+    setToothHealOpen(true);
+    setWhiteningOpen(false);
+    setMouthHygieneOpen(false);
+    setHealingInSleepOpen(false);
+    setParodontHealingOpen(false);
+    setVinirsOpen(false);
+    setProthesisOpen(false);
+    setDiagnosisOpen(false);
+    setTeethHealSleepOpened(false);
+  };
+
   const whiteningExpansion = () => {
+    setToothHealOpen(false);
     setToothHealingOpen(false);
     setWhiteningOpen(!isWhiteningOpened);
     setMouthHygieneOpen(false);
@@ -345,6 +361,7 @@ export default function HomePage() {
   };
 
   const mouthHygieneExpansion = () => {
+    setToothHealOpen(false);
     setToothHealingOpen(false);
     setWhiteningOpen(false);
     setMouthHygieneOpen(!isMouthHygieneOpened);
@@ -357,6 +374,7 @@ export default function HomePage() {
   };
 
   const healingInSleepExpansion = () => {
+    setToothHealOpen(false);
     setToothHealingOpen(false);
     setWhiteningOpen(false);
     setMouthHygieneOpen(false);
@@ -368,6 +386,7 @@ export default function HomePage() {
   };
 
   const parodontHealthExpansion = () => {
+    setToothHealOpen(false);
     setToothHealingOpen(false);
     setWhiteningOpen(false);
     setMouthHygieneOpen(false);
@@ -380,6 +399,7 @@ export default function HomePage() {
   };
 
   const vinirExpansion = () => {
+    setToothHealOpen(false);
     setToothHealingOpen(false);
     setWhiteningOpen(false);
     setMouthHygieneOpen(false);
@@ -392,6 +412,7 @@ export default function HomePage() {
   };
 
   const prothesisExpansion = () => {
+    setToothHealOpen(false);
     setToothHealingOpen(false);
     setWhiteningOpen(false);
     setMouthHygieneOpen(false);
@@ -403,6 +424,7 @@ export default function HomePage() {
   };
 
   const teethInSleepExpansion = () => {
+    setToothHealOpen(false);
     setToothHealingOpen(false);
     setWhiteningOpen(false);
     setMouthHygieneOpen(false);
@@ -1157,6 +1179,36 @@ export default function HomePage() {
                     href_9="/services/analysis"
                   />
                 )}
+                <button onClick={healingInSleepExpansion} className="btn">
+                  {" "}
+                  <div className="btn-content">
+                    <span
+                      className={
+                        isHealingInSleepOpened ? "text-active" : "text-inactive"
+                      }
+                    >
+                      Лечение зубов
+                    </span>
+                    <FontAwesomeIcon
+                      icon={isHealingInSleepOpened ? faMinus : faPlus}
+                      className="golden-icon"
+                    />
+                  </div>
+                </button>
+                {isHealingInSleepOpened && (
+                  <ExpandedTab
+                    service_text="Лечение зубов"
+                    link_text="Лечение кариеса"
+                    link_text_2="Реставрация зубов"
+                    link_text_3="Лечение пульпита зубов"
+                    link_text_4="Лечение десен"
+                    openModal={openModal}
+                    href="/services/caries-heal"
+                    href_2="/services/restoration"
+                    href_3="/services/pulpitis-healing"
+                    href_4="/services/right-healing"
+                  />
+                )}
                 <button onClick={mouthHygieneExpansion} className="btn">
                   <div className="btn-content">
                     <span
@@ -1353,6 +1405,18 @@ export default function HomePage() {
               </div>
               <div className="services-list-content">
                 <div className="services-list">
+                  <button onMouseEnter={toothHealingExpansion2} className="btn">
+                    <div className="btn-content">
+                      <Link
+                        to="/services/vinirs"
+                        className={
+                          isToothHealOpened ? "text-active" : "text-inactive"
+                        }
+                      >
+                        Лечение зубов
+                      </Link>
+                    </div>
+                  </button>
                   <button onMouseEnter={toothHealingExpansion} className="btn">
                     <div className="btn-content">
                       <Link
@@ -1523,6 +1587,49 @@ export default function HomePage() {
                         className="gold-text two"
                       >
                         Съемные, бюгельные протезы
+                      </Link>
+                    </div>
+                  </Fade>
+                )}
+                {isToothHealOpened && (
+                  <Fade direction="right">
+                    <div className="expanded-tab">
+                      <Link
+                        className="golden-btn"
+                        to="/services/vinirs"
+                        style={{
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
+                        }}
+                      >
+                        Подробнее
+                      </Link>
+                      <div className="row"></div>
+                      <span className="row-text">Лечение зубов</span>
+                      <Link
+                        to="/services/caries-heal"
+                        className="gold-text one"
+                      >
+                        Лечение кариеса
+                      </Link>
+                      <Link
+                        to="/services/restoration"
+                        className="gold-text one"
+                      >
+                        Реставрация зубов
+                      </Link>
+                      <Link
+                        to="/services/pulpitis-healing"
+                        className="gold-text two"
+                      >
+                        Лечение пульпита зубов
+                      </Link>
+                      <Link
+                        to="/services/right-healing"
+                        className="gold-text two"
+                      >
+                        Лечение десен
                       </Link>
                     </div>
                   </Fade>

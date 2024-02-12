@@ -266,7 +266,9 @@ const PulpitisPage = () => {
                     Лечение пульпита
                   </Link>
                 </div>
-                <h1 className="heading">Лечение пульпита зубов в Ивантеевке</h1>
+                <h1 className="heading" style={{ width: "50%" }}>
+                  Лечение пульпита зубов в Ивантеевке
+                </h1>
                 <button className="golden-button" onClick={openModal}>
                   <span className="text">Записаться</span>
                   <FontAwesomeIcon
@@ -911,7 +913,7 @@ const PulpitisPage = () => {
                       Лечение пульпита
                     </Link>
                   </div>
-                  <h1 className="heading">
+                  <h1 className="heading" style={{ width: "30%" }}>
                     Лечение пульпита зубов в Ивантеевке
                   </h1>
                   <button className="button" onClick={openModal}>
