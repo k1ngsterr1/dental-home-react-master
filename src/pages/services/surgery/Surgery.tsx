@@ -389,7 +389,10 @@ const Surgery = () => {
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      <a href="https://dental-home.ru/services/teeth-delete">
+                      <a
+                        href="https://dental-home.ru/services/teeth-delete"
+                        className="white"
+                      >
                         Удаление зуба сложное
                       </a>{" "}
                       с разъединением корней

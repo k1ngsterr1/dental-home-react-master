@@ -310,7 +310,15 @@ const AmazingWhite = () => {
                   <section className="tab-one">
                     <h5 className="plate-heading">Отбеливание</h5>
                     <span className="text">
-                      <a href="https://dental-home.ru/services/zoom-whitening">
+                      {" "}
+                      {""}
+                      <a
+                        href="https://dental-home.ru/services/zoom-whitening"
+                        style={{
+                          color: "white",
+                        }}
+                        className="white"
+                      >
                         Профессиональное отбеливание зубов клиническое - система
                         "ZOOM"
                       </a>
@@ -605,7 +613,10 @@ const AmazingWhite = () => {
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">
-                          <a href="https://dental-home.ru/services/zoom-whitening">
+                          <a
+                            href="https://dental-home.ru/services/zoom-whitening"
+                            className="white"
+                          >
                             Профессиональное отбеливание зубов клиническое -
                             система "ZOOM"
                           </a>{" "}

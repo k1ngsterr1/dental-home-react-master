@@ -402,7 +402,10 @@ const ProstheticsPage = () => {
                       Протезирование на имплантах
                     </h5>
                     <span className="text">
-                      <a href="https://dental-home.ru/services/prosthetics">
+                      <a
+                        href="https://dental-home.ru/services/implants"
+                        className="white"
+                      >
                         Протезирование зуба
                       </a>
                       с использованием имплантата временной коронкой + временный

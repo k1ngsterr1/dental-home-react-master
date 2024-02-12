@@ -355,13 +355,16 @@ const Hygiene = () => {
                   <h3 className="information-heading">Выводы</h3>
                   <p className="information-paragraph">
                     Гигиена полости рта является важной составляющей общего
-                    здоровья.
-                    <a href="https://dental-home.ru/services/teeth-cleaning">
-                      Профессиональная гигиена полости рта
+                    здоровья.{""}
+                    <a
+                      href="https://dental-home.ru/services/teeth-cleaning"
+                      className="white"
+                    >
+                      {""}Профессиональная гигиена полости рта{""}
                     </a>
-                    в клинике Dental Home в Ивантеевке поможет вам поддерживать
-                    здоровье ваших зубов и десен. Индикация зубного налета,
-                    удаление зубных отложений ультразвуком и полировка
+                    {""}в клинике Dental Home в Ивантеевке поможет вам
+                    поддерживать здоровье ваших зубов и десен. Индикация зубного
+                    налета, удаление зубных отложений ультразвуком и полировка
                     поверхностей зубов - это эффективные методы, которые помогут
                     вам достичь оптимальной гигиены полости рта. Регулярное
                     проведение профессиональной гигиены полости рта поможет
@@ -425,10 +428,17 @@ const Hygiene = () => {
                   </section>
                   <section className="tab-three">
                     <span className="text">
-                      <a href="https://dental-home.ru/services/airflow">
+                      <a
+                        href="https://dental-home.ru/services/airflow"
+                        className="white"
+                      >
                         Профессиональная гигиена воздушноабразивным аппаратом
+                        {""}
+                        {""}
                       </a>
-                      AirFlow (1 челюсть) <br /> <br /> (А16.07.051.003)
+                      {""}
+                      {""}
+                      {""}AirFlow (1 челюсть) <br /> <br /> (А16.07.051.003)
                     </span>
                     <span className="price">От 2.500₽</span>
                   </section>
@@ -806,11 +816,22 @@ const Hygiene = () => {
                       </div>
                       <div className="price-row">
                         <span className="text">
-                          <a href="https://dental-home.ru/services/airflow">
+                          {""}
+                          <a
+                            href="https://dental-home.ru/services/airflow"
+                            className="white"
+                          >
                             Профессиональная гигиена воздушноабразивным
-                            аппаратом
+                            аппаратом{""}
+                            {""}
+                            {""}
+                            {""}
                           </a>
-                          AirFlow (1 челюсть) <br /> <br /> (А16.07.051.004)
+                          {""}
+                          {""}
+                          {""}
+                          {""} AirFlow (1 челюсть) <br /> <br />{" "}
+                          (А16.07.051.004)
                         </span>
                         <span className="price">От 2.500₽</span>
                       </div>

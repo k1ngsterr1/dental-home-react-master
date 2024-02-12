@@ -244,7 +244,9 @@ const ChildSleep = () => {
                 <strong>
                   <a href="https://dental-home.ru/services/healing-in-sleep">
                     Наркоз при лечении зубов
+                    {""}
                   </a>
+                  {""}
                   детям нельзя использовать в следующих случаях:
                 </strong>
                 <br />
@@ -345,7 +347,7 @@ const ChildSleep = () => {
                   <br />
                   <strong>
                     <a href="https://dental-home.ru/services/healing-in-sleep">
-                      Наркоз при лечении зубов
+                      Наркоз при лечении зубов {""}
                     </a>
                     детям нельзя использовать в следующих случаях:
                   </strong>

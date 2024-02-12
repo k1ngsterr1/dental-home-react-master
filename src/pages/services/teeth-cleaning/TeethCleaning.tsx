@@ -326,7 +326,10 @@ const Cleaning = () => {
                 <div className="plate">
                   <section className="tab-one">
                     <h5 className="plate-heading">
-                      <a href="https://dental-home.ru/services/hygiene">
+                      <a
+                        href="https://dental-home.ru/services/hygiene"
+                        className="white"
+                      >
                         Профилактика и гигиена
                       </a>
                     </h5>
@@ -678,7 +681,10 @@ const Cleaning = () => {
                   <div className="price-tab" id="prices">
                     <h4 className="price-heading">
                       {" "}
-                      <a href="https://dental-home.ru/services/hygiene">
+                      <a
+                        href="https://dental-home.ru/services/hygiene"
+                        className="white"
+                      >
                         {" "}
                         Профилактика и гигиена
                       </a>
