@@ -554,10 +554,9 @@ const PricesPage = () => {
               <div className="cards">
                 <div className="" id="orthopedia">
                   <h2 className="heading">
-                    {" "}
                     <a
                       className="heading"
-                      href="	https://dental-home.ru/services/vinirs"
+                      href="https://dental-home.ru/services/vinirs"
                     >
                       Ортопедия
                     </a>
@@ -1398,7 +1397,7 @@ const PricesPage = () => {
                 <div className="cards-list">
                   <div className="" id="orthopedia-pc">
                     <h2 className="heading">
-                      <a href="	https://dental-home.ru/services/vinirs heading">
+                      <a href="https://dental-home.ru/services/vinirs">
                         {" "}
                         Ортопедия
                       </a>

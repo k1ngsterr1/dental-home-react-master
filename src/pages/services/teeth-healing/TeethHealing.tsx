@@ -263,10 +263,11 @@ const TeethHealing = () => {
                   </Link>
                   <div className="circle"></div>
                   <Link to="/services/teeth-healing" className="link active">
-                    Лечение кариеса
+                    Лечение зубов
                   </Link>
                 </div>
-                <h1 className="heading">Лечение Кариеса</h1>
+                <h1 className="heading">Лечение Зубов</h1>
+
                 <button className="golden-button" onClick={openModal}>
                   <span className="text">Записаться</span>
                   <FontAwesomeIcon
@@ -281,10 +282,7 @@ const TeethHealing = () => {
                   <span className="text">Об услуге</span>
                 </div>
                 <section className="information">
-                  <h3 className="information-heading">
-                    Инновационное лечение зубов в клинике Dental Home в
-                    Ивантеевке
-                  </h3>
+                  <h3 className="information-heading">Лечение зубов</h3>
                   <p className="information-paragraph">
                     Клиника Dental Home в Ивантеевке предлагает современное и
                     инновационное лечение зубов, которое обеспечивает высокую
