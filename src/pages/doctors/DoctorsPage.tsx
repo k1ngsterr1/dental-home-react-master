@@ -392,7 +392,7 @@ const DoctorsPage = () => {
                 imageSrc9={doctorTen}
               ></PcGallery>
               <h2 className="heading text-center mt-5">
-                профессиональные Врачи-Стоматологи Dental Home
+                Профессиональные врачи-стоматологи Dental Home
               </h2>
               <p className="paragraph text-center mt-4">
                 Dental Home - это современная клиника, которая предлагает

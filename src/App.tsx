@@ -1202,11 +1202,12 @@ export default function HomePage() {
                     link_text_2="Реставрация зубов"
                     link_text_3="Лечение пульпита зубов"
                     link_text_4="Лечение десен"
+                    link_text_5="Установка пломб"
                     openModal={openModal}
                     href="/services/caries-heal"
                     href_2="/services/restoration"
                     href_3="/services/pulpitis-healing"
-                    href_4="/services/right-healing"
+                    href_4="/services/seal"
                   />
                 )}
                 <button onClick={mouthHygieneExpansion} className="btn">
@@ -1612,6 +1613,9 @@ export default function HomePage() {
                         className="gold-text one"
                       >
                         Лечение кариеса
+                      </Link>
+                      <Link to="/services/seal" className="gold-text one">
+                        Установка пломб
                       </Link>
                       <Link
                         to="/services/restoration"
