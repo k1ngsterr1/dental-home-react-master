@@ -1421,7 +1421,7 @@ export default function HomePage() {
                   <button onMouseEnter={toothHealingExpansion} className="btn">
                     <div className="btn-content">
                       <Link
-                        to="/services/vinirs"
+                        to="/services/teeth-healing"
                         className={
                           isToothHealingOpened ? "text-active" : "text-inactive"
                         }

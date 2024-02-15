@@ -1028,9 +1028,17 @@ const ImplantsPage = () => {
                     <div className="prices">
                       <div className="price-row">
                         <span className="text">
-                          Протезирование зуба с использованием имплантата
-                          временной коронкой + временный абатмент <br /> <br />{" "}
-                          (ИМ-А16.07.006.001 )
+                          {""}
+                          <a
+                            href="https://dental-home.ru/services/prosthetics"
+                            className="white"
+                            style={{ textDecoration: "underline" }}
+                          >
+                            {""}
+                            Протезирование зуба{" "}
+                          </a>{" "}
+                          с использованием имплантата временной коронкой +
+                          временный абатмент <br /> <br /> (ИМ-А16.07.006.001 )
                         </span>
                         <span className="price">От 8.500₽</span>
                       </div>
