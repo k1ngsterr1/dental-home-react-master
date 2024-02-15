@@ -902,7 +902,10 @@ const Seal = () => {
                       Установка пломбы
                     </Link>
                   </div>
-                  <h1 className="heading"> Установка пломбы в Ивантеевке</h1>
+                  <h1 className="heading" style={{ width: "30%" }}>
+                    {" "}
+                    Установка пломбы в Ивантеевке
+                  </h1>
                   <button className="button" onClick={openModal}>
                     <span className="text">Записаться</span>
                     <FontAwesomeIcon

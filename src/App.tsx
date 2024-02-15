@@ -1597,7 +1597,7 @@ export default function HomePage() {
                     <div className="expanded-tab">
                       <Link
                         className="golden-btn"
-                        to="/services/vinirs"
+                        to="/services/teeth-healing"
                         style={{
                           display: "flex",
                           justifyContent: "center",
