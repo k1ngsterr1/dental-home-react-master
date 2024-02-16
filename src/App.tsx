@@ -1207,7 +1207,8 @@ export default function HomePage() {
                     href="/services/caries-heal"
                     href_2="/services/restoration"
                     href_3="/services/pulpitis-healing"
-                    href_4="/services/seal"
+                    href_4="/services/right-healing"
+                    href_5="/services/seal"
                   />
                 )}
                 <button onClick={mouthHygieneExpansion} className="btn">
@@ -1409,7 +1410,7 @@ export default function HomePage() {
                   <button onMouseEnter={toothHealingExpansion2} className="btn">
                     <div className="btn-content">
                       <Link
-                        to="/services/vinirs"
+                        to="/services/teeth-healing"
                         className={
                           isToothHealOpened ? "text-active" : "text-inactive"
                         }
