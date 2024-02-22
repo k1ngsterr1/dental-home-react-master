@@ -329,9 +329,7 @@ const ChildDental = () => {
                 <h4 className="form-sub-heading ">
                   Детская стоматология в Ивантеевке
                 </h4>
-                <div className="form-heading-container">
-                  <h3 className="form-heading">Записаться На Прием</h3>
-                </div>
+
                 <p className="paragraph text-center mt-16">
                   Детская стоматология в Ивантеевке - это наша специализация! Мы
                   предлагаем платную детскую стоматологию высокого уровня,
@@ -343,6 +341,9 @@ const ChildDental = () => {
                   Мы проводим все виды лечения зубов, от простой пломбы до
                   сложной хирургической операции.
                 </p>
+                <div className="form-heading-container">
+                  <h3 className="form-heading">Записаться На Прием</h3>
+                </div>
                 <form action="" className="form">
                   <div className="input-container">
                     <label htmlFor="name" className="la">
@@ -580,9 +581,7 @@ const ChildDental = () => {
                 <h4 className="form-sub-heading">
                   Детская стоматология в Ивантеевке
                 </h4>
-                <div className="heading-container">
-                  <h5 className="heading text-center">Записаться На Прием</h5>
-                </div>
+
                 <p className="paragraph text-center mt-16">
                   Детская стоматология в Ивантеевке - это наша специализация! Мы
                   предлагаем платную детскую стоматологию высокого уровня,
@@ -607,6 +606,9 @@ const ChildDental = () => {
                   здоровья зубов вашего ребенка. Наша детская стоматология в
                   Ивантеевке готова помочь вам в любое время!
                 </p>
+                <div className="heading-container">
+                  <h5 className="heading text-center">Записаться На Прием</h5>
+                </div>
                 <div className="divider"></div>
                 <form action="" className="form-content">
                   <div className="row-c">
