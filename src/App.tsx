@@ -109,6 +109,7 @@ const doctorSeven = require("./assets/7.webp");
 const doctorEight = require("./assets/8.webp");
 const doctorNine = require("./assets/9.webp");
 const doctorTen = require("./assets/yana_pc.webp");
+const doctorEleven = require("./assets/sadiga.webp");
 
 // Gallery
 const galleryTwoPicture = require("./assets/gallery_c02.webp");
@@ -126,6 +127,7 @@ const doctorSevenMob = require("./assets/07.webp");
 const doctorEightMob = require("./assets/08.webp");
 const doctorNineMob = require("./assets/09.webp");
 const doctorTenMob = require("./assets/yana_mob.webp");
+const doctorElevenMob = require("./assets/sadiga_mob.webp");
 
 const gallery02 = require("./assets/galleryS_02.webp");
 const gallery03 = require("./assets/galleryS_03.webp");
@@ -1944,7 +1946,7 @@ export default function HomePage() {
                 // imageSrcSix={doctorSixMob}
                 imageSrcSeven={doctorTenMob}
                 imageSrcEight={doctorEightMob}
-                imageSrcNine={doctorNineMob}
+                imageSrcNine={doctorElevenMob}
               />
             </section>
           </div>
@@ -1963,7 +1965,7 @@ export default function HomePage() {
                 // imageSrc6={doctorSix}
                 imageSrc7={doctorTen}
                 imageSrc8={doctorEight}
-                imageSrc9={doctorNine}
+                imageSrc9={doctorEleven}
                 openModal={openModal}
               />
               <div
