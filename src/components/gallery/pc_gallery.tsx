@@ -164,16 +164,16 @@ const PcGallery: React.FC<PhotoSource> = ({
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          {/* <div className="dentist-card">
+          <div className="dentist-card">
             <div className="button-image-container">
               <button className="doctor-btn">
                 <span className="text">Записаться</span>
               </button>
               <img src={imageSrc9} alt="Doctor 1" className="doctor-image" />
             </div>
-            <h3 className="doctor-name">Юлия</h3>
-            <p className="doctor-position">Администратор</p>
-          </div> */}
+            <h3 className="doctor-name">Алиева Садига Намиковна</h3>
+            <p className="doctor-position">Врач Стоматолог Детский</p>
+          </div>
         </SwiperSlide>
       </Swiper>
     </div>
