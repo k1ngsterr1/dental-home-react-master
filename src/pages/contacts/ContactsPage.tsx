@@ -355,6 +355,22 @@ const ContactsPage = () => {
                     <h3 className="form-heading">Записаться На Прием</h3>
                   </div>
                   <div className="divider"></div>
+                  <p className="paragraph text-center mt-16">
+                    Сеть стоматологий Dental Home в Ивантеевке - это место, где
+                    забота о вашей улыбке становится приоритетом. У нас также
+                    есть отделение{" "}
+                    <a href="https://dental-home.ru/children-dental">
+                      {" "}
+                      детской стоматологии
+                    </a>
+                    , где специалисты с опытом работы с детьми помогут создать
+                    комфортную и безопасную атмосферу для маленьких пациентов.
+                    Мы стремимся сделать поход к стоматологу приятным и
+                    безболезненным, используя индивидуальный подход и игровые
+                    методики. Врачи-стоматологи в Ивантеевке заботятся о
+                    здоровье зубов с особым вниманием, помогая сохранить крепкие
+                    и красивые зубы на долгие годы.
+                  </p>
                   <form action="" className="form">
                     <div className="input-container">
                       <label htmlFor="name" className="la">
@@ -444,13 +460,14 @@ const ContactsPage = () => {
                       ></FontAwesomeIcon>
                     </button>
                   </form>
+                  <ReviewGallery />
                 </section>
               </div>
               <p className="paragraph text-center mt-64">
                 Почтовый адрес: 141282, МО, г. Ивантеевка, ул. Рощинская, д. 9
               </p>
               <p className="paragraph text-center mt-16">
-                Контактный телефон: 8 (925) 222-90-22{" "}
+                Контактный телефон: 8 (991) 779-39-95
               </p>
               <p className="paragraph text-center mt-16">
                 Электронный адрес: dental-home@mail.ru{" "}
@@ -509,9 +526,7 @@ const ContactsPage = () => {
               <span className="paragraph text-center pt-32 m-auto">
                 <strong> Скачать выписку из ЕГРЮЛ:</strong>
                 <br />
-                <a href="https://disk.yandex.ru/i/GPi7r6r04EyEdQ">
-                  https://disk.yandex.ru/i/GPi7r6r04EyEdQ
-                </a>
+                <a href="">https://disk.yandex.ru/i/GPi7r6r04EyEdQ</a>
               </span>
               <p className="paragraph text-center pt-32 w80 m-auto">
                 <strong> Номера телефонов справочных служб</strong>
@@ -682,6 +697,22 @@ const ContactsPage = () => {
                 }}
               >
                 <section className="content" style={{ borderTop: "none" }}>
+                  <p className="paragraph text-center">
+                    Сеть стоматологий Dental Home в Ивантеевке - это место, где
+                    забота о вашей улыбке становится приоритетом. У нас также
+                    есть отделение{" "}
+                    <a href="https://dental-home.ru/children-dental">
+                      {" "}
+                      детской стоматологии
+                    </a>
+                    , где специалисты с опытом работы с детьми помогут создать
+                    комфортную и безопасную атмосферу для маленьких пациентов.
+                    Мы стремимся сделать поход к стоматологу приятным и
+                    безболезненным, используя индивидуальный подход и игровые
+                    методики. Врачи-стоматологи в Ивантеевке заботятся о
+                    здоровье зубов с особым вниманием, помогая сохранить крепкие
+                    и красивые зубы на долгие годы.
+                  </p>
                   <form action="" className="form-content">
                     <div className="row-c">
                       <div className="input-container">
@@ -779,13 +810,14 @@ const ContactsPage = () => {
                       </button>
                     </div>
                   </form>
+                  <ReviewGalleryDesktop />
                 </section>
               </div>
               <p className="paragraph text-center mt-64">
                 Почтовый адрес: 141282, МО, г. Ивантеевка, ул. Рощинская, д. 9
               </p>
               <p className="paragraph text-center mt-16">
-                Контактный телефон: 8 (925) 222-90-22{" "}
+                Контактный телефон: 8 (991) 779-39-95
               </p>
               <p className="paragraph text-center mt-16">
                 Электронный адрес: dental-home@mail.ru{" "}
@@ -844,9 +876,7 @@ const ContactsPage = () => {
               <span className="paragraph text-center pt-32 m-auto">
                 <strong> Скачать выписку из ЕГРЮЛ:</strong>
                 <br />
-                <a href="https://disk.yandex.ru/i/GPi7r6r04EyEdQ">
-                  https://disk.yandex.ru/i/GPi7r6r04EyEdQ
-                </a>
+                <a href="">https://disk.yandex.ru/i/GPi7r6r04EyEdQ</a>
               </span>
               <p className="paragraph text-center pt-32 w80 m-auto">
                 <strong> Номера телефонов справочных служб</strong>

@@ -240,7 +240,9 @@ const ChildDental = () => {
               ></Header>
             </div>
             <div className="heading-content">
-              <h1 className="heading">Dental Home - Детская стоматология</h1>
+              <h1 className="heading">
+                Детская Стоматология Dental Home В Ивантеевке
+              </h1>
             </div>
             <img
               className="illustration"
@@ -329,10 +331,7 @@ const ChildDental = () => {
             >
               <section className="content">
                 <div className="divider"></div>
-                <h4 className="form-sub-heading ">
-                  Детская стоматология в Ивантеевке
-                </h4>
-
+                <h2 className="form-sub-heading ">Стоматология для детей</h2>
                 <p className="paragraph text-center mt-16">
                   Детская стоматология в Ивантеевке - это наша специализация! Мы
                   предлагаем платную детскую стоматологию высокого уровня,
@@ -344,8 +343,10 @@ const ChildDental = () => {
                   Мы проводим все виды лечения зубов, от простой пломбы до
                   сложной хирургической операции.
                 </p>
-                <div className="form-heading-container">
-                  <h3 className="form-heading">Записаться На Прием</h3>
+                <div className="`form-heading`-container">
+                  <h3 className="form-heading">
+                    Запишитесь на прием к детскому стоматологу
+                  </h3>
                 </div>
                 <form action="" className="form">
                   <div className="input-container">
@@ -471,7 +472,7 @@ const ChildDental = () => {
             <div className="content-container">
               <div className="heading-container">
                 <h1 className="child-heading">
-                  Dental Home - Детская стоматология
+                  Детская Стоматология Dental Home В Ивантеевке
                 </h1>
                 <div className="button-row">
                   <button className="golden-button" onClick={openModal}>
@@ -581,9 +582,7 @@ const ChildDental = () => {
               onSubmit={sendEmail}
             >
               <section className="content">
-                <h4 className="form-sub-heading">
-                  Детская стоматология в Ивантеевке
-                </h4>
+                <h2 className="form-sub-heading">Стоматология для детей</h2>
 
                 <p className="paragraph text-center mt-16">
                   Детская стоматология в Ивантеевке - это наша специализация! Мы
@@ -610,7 +609,9 @@ const ChildDental = () => {
                   Ивантеевке готова помочь вам в любое время!
                 </p>
                 <div className="heading-container">
-                  <h5 className="heading text-center">Записаться На Прием</h5>
+                  <h5 className="heading text-center">
+                    Запишитесь на прием к детскому стоматологу
+                  </h5>
                 </div>
                 <div className="divider"></div>
                 <form action="" className="form-content">
