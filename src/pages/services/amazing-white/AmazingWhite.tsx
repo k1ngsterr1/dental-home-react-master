@@ -68,6 +68,9 @@ const serviceTwoMob = require("../../../assets/service_mob_02.webp");
 const serviceThreeMob = require("../../../assets/service_mob_03.webp");
 const serviceFourMob = require("../../../assets/service_mob_04.webp");
 
+const doctorEleven = require("../../../assets/sadiga.webp");
+const doctorElevenMob = require("../../../assets/sadiga_mob.webp");
+
 const AmazingWhite = () => {
   const [thankYou, setThankYou] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -379,7 +382,7 @@ const AmazingWhite = () => {
                   openModal={openModal}
                   imageSrcSeven={doctorTenMob}
                   imageSrcEight={doctorEightMob}
-                  imageSrcNine={doctorNineMob}
+                  imageSrcNine={doctorElevenMob}
                 />
               </div>
               <div className="services-gallery">
@@ -689,7 +692,7 @@ const AmazingWhite = () => {
                   imageSrc7={doctorTen}
                   imageSrc8={doctorEight}
                   openModal={openModal}
-                  imageSrc9={doctorNine}
+                  imageSrc9={doctorElevenMob}
                 />
                 <div
                   className="gallery"

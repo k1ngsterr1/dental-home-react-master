@@ -77,6 +77,9 @@ const diagnosticPc = require("../../../assets/diagnostic_pc.webp");
 const doctorTen = require("../../../assets/yana_pc.webp");
 const doctorTenMob = require("../../../assets/yana_mob.webp");
 
+const doctorEleven = require("../../../assets/sadiga.webp");
+const doctorElevenMob = require("../../../assets/sadiga_mob.webp");
+
 const DiagnosticPage = () => {
   const [thankYou, setThankYou] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -593,7 +596,7 @@ const DiagnosticPage = () => {
                   imageSrcSeven={doctorTenMob}
                   openModal={openModal}
                   imageSrcEight={doctorEightMob}
-                  imageSrcNine={doctorNineMob}
+                  imageSrcNine={doctorElevenMob}
                 />
               </div>
               <div className="services-gallery">
@@ -1073,7 +1076,7 @@ const DiagnosticPage = () => {
                   imageSrc6={doctorSix}
                   imageSrc7={doctorTen}
                   imageSrc8={doctorEight}
-                  imageSrc9={doctorNine}
+                  imageSrc9={doctorEleven}
                   openModal={openModal}
                 />
                 <div

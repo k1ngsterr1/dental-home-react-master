@@ -41,6 +41,9 @@ const pavelGalleryPc = require("../../../assets/pavel_pc.webp");
 const mainService = require("../../../assets/service_pc.webp");
 const biteCorrectionPc = require("../../../assets/bite-correction_pc.webp");
 
+const doctorEleven = require("../../../assets/sadiga.webp");
+const doctorElevenMob = require("../../../assets/sadiga_mob.webp");
+
 const doctorOne = require("../../../assets/1.webp");
 const doctorTwo = require("../../../assets/2.webp");
 const doctorThree = require("../../../assets/3.webp");
@@ -654,7 +657,7 @@ const OrthoCorrection = () => {
                   imageSrcSix={doctorSixMob}
                   imageSrcSeven={doctorTenMob}
                   imageSrcEight={doctorEightMob}
-                  imageSrcNine={doctorNineMob}
+                  imageSrcNine={doctorElevenMob}
                 />
               </div>
               <div className="services-gallery">
@@ -1275,7 +1278,7 @@ const OrthoCorrection = () => {
                   imageSrc6={doctorSix}
                   imageSrc7={doctorTen}
                   imageSrc8={doctorEight}
-                  imageSrc9={doctorNine}
+                  imageSrc9={doctorEleven}
                 />
                 <div
                   className="gallery"

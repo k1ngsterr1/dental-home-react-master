@@ -54,6 +54,9 @@ const doctorEight = require("../../../assets/8.webp");
 const doctorNine = require("../../../assets/9.webp");
 const modalImage = require("../../../assets/example_modal.webp");
 
+const doctorEleven = require("../../../assets/sadiga.webp");
+const doctorElevenMob = require("../../../assets/sadiga_mob.webp");
+
 const doctorOneMob = require("../../../assets/01.webp");
 const doctorTwoMob = require("../../../assets/02.webp");
 const doctorThreeMob = require("../../../assets/03.webp");
@@ -356,7 +359,7 @@ const AnalysisPage = () => {
                   imageSrcSeven={doctorTenMob}
                   imageSrcEight={doctorEightMob}
                   openModal={openModal}
-                  imageSrcNine={doctorNineMob}
+                  imageSrcNine={doctorElevenMob}
                 />
               </div>
               <div className="services-gallery">
@@ -648,7 +651,7 @@ const AnalysisPage = () => {
                   imageSrc6={doctorSix}
                   imageSrc7={doctorTen}
                   imageSrc8={doctorEight}
-                  imageSrc9={doctorNine}
+                  imageSrc9={doctorEleven}
                 />
                 <div
                   className="gallery"

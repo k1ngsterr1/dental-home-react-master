@@ -81,6 +81,9 @@ const logoMobile: string = require("../../../assets/logo_mob.svg").default;
 const doctorTen = require("../../../assets/yana_pc.webp");
 const doctorTenMob = require("../../../assets/yana_mob.webp");
 
+const doctorEleven = require("../../../assets/sadiga.webp");
+const doctorElevenMob = require("../../../assets/sadiga_mob.webp");
+
 const OPTG = () => {
   const [thankYou, setThankYou] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -367,7 +370,7 @@ const OPTG = () => {
                   imageSrcSeven={doctorTenMob}
                   imageSrcEight={doctorEightMob}
                   openModal={openModal}
-                  imageSrcNine={doctorNineMob}
+                  imageSrcNine={doctorElevenMob}
                 />
               </div>
               <div className="services-gallery">
@@ -654,7 +657,7 @@ const OPTG = () => {
                   imageSrc6={doctorSix}
                   imageSrc7={doctorTen}
                   imageSrc8={doctorEight}
-                  imageSrc9={doctorNine}
+                  imageSrc9={doctorEleven}
                 />
                 <div
                   className="gallery"

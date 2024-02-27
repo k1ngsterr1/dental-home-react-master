@@ -41,6 +41,7 @@ const doctorSevenMob = require("../../assets/07.webp");
 const doctorEightMob = require("../../assets/08.webp");
 const doctorNineMob = require("../../assets/09.webp");
 const doctorTenMob = require("../../assets/yana_mob.webp");
+const doctorElevenMob = require("../../assets/sadiga.webp");
 
 const doctorOnePc = require("../../assets/1.webp");
 const doctorTwoPc = require("../../assets/2.webp");
@@ -52,6 +53,7 @@ const doctorSevenPc = require("../../assets/7.webp");
 const doctorEightPc = require("../../assets/8.webp");
 const doctorNinePc = require("../../assets/9.webp");
 const doctorTenPc = require("../../assets/yana_pc.webp");
+const doctorElevenPc = require("../../assets/sadiga.webp");
 
 const featuresPhotoPc = require("../../assets/features_image.webp");
 const galleryOnePic = require("../../assets/gallery_one_pic.webp");
@@ -384,7 +386,7 @@ const ClinicsPage = () => {
                   imageSrcSix={doctorSixMob}
                   imageSrcSeven={doctorTenMob}
                   imageSrcEight={doctorEightMob}
-                  imageSrcNine={doctorNineMob}
+                  imageSrcNine={doctorElevenMob}
                 />
               </div>
               <div
@@ -908,7 +910,7 @@ const ClinicsPage = () => {
                   imageSrc6={doctorSixPc}
                   imageSrc7={doctorTenPc}
                   imageSrc8={doctorEightPc}
-                  imageSrc9={doctorNinePc}
+                  imageSrc9={doctorElevenPc}
                 ></PcGallery>
               </div>
               <div

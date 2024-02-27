@@ -58,6 +58,9 @@ const modalImage = require("../../assets/example_modal.webp");
 
 const logoMobile: string = require("../../assets/logo_mob.svg").default;
 
+const doctorEleven = require("../../assets/sadiga.webp");
+const doctorElevenMob = require("../../assets/sadiga_mob.webp");
+
 const ChildDental = () => {
   // Menu Function
   const navigate = useNavigate();
@@ -316,7 +319,7 @@ const ChildDental = () => {
               imageSrcSix={doctorSixMob}
               imageSrcSeven={doctorTenMob}
               imageSrcEight={doctorEightMob}
-              imageSrcNine={doctorTenMob}
+              imageSrcNine={doctorElevenMob}
             />
             <div
               className="form-screen"
@@ -568,7 +571,7 @@ const ChildDental = () => {
                 imageSrc6={DoctorSixPc}
                 imageSrc7={doctorTen}
                 imageSrc8={DoctorEightPc}
-                imageSrc9={doctorTen}
+                imageSrc9={doctorEleven}
               />
             </div>
             <div

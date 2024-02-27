@@ -77,6 +77,9 @@ const logoMobile = require("../../../assets/logo_mob.svg").default;
 const doctorTen = require("../../../assets/yana_pc.webp");
 const doctorTenMob = require("../../../assets/yana_mob.webp");
 
+const doctorEleven = require("../../../assets/sadiga.webp");
+const doctorElevenMob = require("../../../assets/sadiga_mob.webp");
+
 const BiteCorrection = () => {
   const [thankYou, setThankYou] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -614,7 +617,7 @@ const BiteCorrection = () => {
                   imageSrcSix={doctorSixMob}
                   imageSrcSeven={doctorTenMob}
                   imageSrcEight={doctorEightMob}
-                  imageSrcNine={doctorNineMob}
+                  imageSrcNine={doctorElevenMob}
                 />
               </div>
               <div className="services-gallery">
@@ -1187,7 +1190,7 @@ const BiteCorrection = () => {
                   imageSrc6={doctorSix}
                   imageSrc7={doctorTen}
                   imageSrc8={doctorEight}
-                  imageSrc9={doctorNine}
+                  imageSrc9={doctorEleven}
                 />
                 <div
                   className="gallery"

@@ -72,6 +72,9 @@ const serviceTwoMob = require("../../../assets/service_mob_02.webp");
 const serviceThreeMob = require("../../../assets/service_mob_03.webp");
 const serviceFourMob = require("../../../assets/service_mob_04.webp");
 
+const doctorEleven = require("../../../assets/sadiga.webp");
+const doctorElevenMob = require("../../../assets/sadiga_mob.webp");
+
 const hygienePc = require("../../../assets/hygiene_pc.webp");
 
 const logoMobile: string = require("../../../assets/logo_mob.svg").default;
@@ -438,7 +441,7 @@ const AirFlow = () => {
                   imageSrcSeven={doctorTenMob}
                   imageSrcEight={doctorEightMob}
                   openModal={openModal}
-                  imageSrcNine={doctorNineMob}
+                  imageSrcNine={doctorElevenMob}
                 />
               </div>
               <div className="services-gallery">
@@ -808,7 +811,7 @@ const AirFlow = () => {
                   imageSrc6={doctorSix}
                   imageSrc7={doctorTen}
                   imageSrc8={doctorEight}
-                  imageSrc9={doctorNine}
+                  imageSrc9={doctorEleven}
                 />
                 <div
                   className="gallery"
