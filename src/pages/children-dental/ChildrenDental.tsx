@@ -23,6 +23,8 @@ import {
   faClose,
 } from "@fortawesome/free-solid-svg-icons";
 import PcGallery from "../../components/gallery/pc_gallery";
+import ReviewGallery from "../../components/reviews/ReviewGallery";
+import ReviewGalleryDesktop from "../../components/reviews/ReviewGalleryDesktop";
 
 const DoctorOnePc = require("../../assets/1.webp");
 const DoctorTwoPc = require("../../assets/2.webp");
@@ -461,6 +463,7 @@ const ChildDental = () => {
                   Ивантеевке готова помочь вам в любое время!
                 </p>
               </section>
+              <ReviewGallery />
             </div>
           </div>
           <div className="pc-screen">
@@ -702,6 +705,7 @@ const ChildDental = () => {
                   </div>
                 </form>
               </section>
+              <ReviewGalleryDesktop />
             </div>
           </div>
           <Footer />
