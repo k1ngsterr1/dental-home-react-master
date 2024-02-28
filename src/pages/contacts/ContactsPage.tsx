@@ -526,7 +526,7 @@ const ContactsPage = () => {
               <span className="paragraph text-center pt-32 m-auto">
                 <strong> Скачать выписку из ЕГРЮЛ:</strong>
                 <br />
-                <a href="">https://disk.yandex.ru/i/GPi7r6r04EyEdQ</a>
+                <span>https://disk.yandex.ru/i/GPi7r6r04EyEdQ</span>
               </span>
               <p className="paragraph text-center pt-32 w80 m-auto">
                 <strong> Номера телефонов справочных служб</strong>
@@ -876,7 +876,7 @@ const ContactsPage = () => {
               <span className="paragraph text-center pt-32 m-auto">
                 <strong> Скачать выписку из ЕГРЮЛ:</strong>
                 <br />
-                <a href="">https://disk.yandex.ru/i/GPi7r6r04EyEdQ</a>
+                <span>https://disk.yandex.ru/i/GPi7r6r04EyEdQ</span>
               </span>
               <p className="paragraph text-center pt-32 w80 m-auto">
                 <strong> Номера телефонов справочных служб</strong>
