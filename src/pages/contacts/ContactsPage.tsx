@@ -528,6 +528,13 @@ const ContactsPage = () => {
                 <br />
                 <span>https://disk.yandex.ru/i/GPi7r6r04EyEdQ</span>
               </span>
+              <span className="paragraph text-center pt-32 m-auto">
+                <strong> Врачи-стоматологи в Ивантеевке:</strong>
+                <br />
+                <a href="https://dental-home.ru/doctors">
+                  https://dental-home.ru/doctors
+                </a>
+              </span>
               <p className="paragraph text-center pt-32 w80 m-auto">
                 <strong> Номера телефонов справочных служб</strong>
               </p>
@@ -877,6 +884,13 @@ const ContactsPage = () => {
                 <strong> Скачать выписку из ЕГРЮЛ:</strong>
                 <br />
                 <span>https://disk.yandex.ru/i/GPi7r6r04EyEdQ</span>
+              </span>
+              <span className="paragraph text-center pt-32 m-auto">
+                <strong> Врачи-стоматологи в Ивантеевке:</strong>
+                <br />
+                <a href="https://dental-home.ru/doctors">
+                  https://dental-home.ru/doctors
+                </a>
               </span>
               <p className="paragraph text-center pt-32 w80 m-auto">
                 <strong> Номера телефонов справочных служб</strong>
