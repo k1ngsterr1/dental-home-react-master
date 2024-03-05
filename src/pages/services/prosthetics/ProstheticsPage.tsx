@@ -246,7 +246,7 @@ const ProstheticsPage = () => {
                     Протезирование
                   </Link>
                 </div>
-                <h1 className="heading">Протезирование</h1>
+                <h1 className="heading">Протезирование зубов в Ивантеевке</h1>
                 <button className="golden-button" onClick={openModal}>
                   <span className="text">Записаться</span>
                   <FontAwesomeIcon
@@ -967,7 +967,7 @@ const ProstheticsPage = () => {
                     </Link>
                   </div>
                   <h1 className="heading" style={{ width: "30%" }}>
-                    Протезирование
+                    Протезирование зубов в Ивантеевке
                   </h1>
                   <button className="button" onClick={openModal}>
                     <span className="text">Записаться</span>
