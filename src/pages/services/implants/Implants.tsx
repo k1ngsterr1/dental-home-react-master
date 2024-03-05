@@ -245,7 +245,9 @@ const ImplantsPage = () => {
                     Протезирование
                   </Link>
                 </div>
-                <h1 className="heading">Имплантация под ключ</h1>
+                <h1 className="heading">
+                  Имплантация зубов и челюстей в Ивантеевке
+                </h1>
                 <button className="golden-button" onClick={openModal}>
                   <span className="text">Записаться</span>
                   <FontAwesomeIcon
@@ -942,7 +944,7 @@ const ImplantsPage = () => {
                     </Link>
                   </div>
                   <h1 className="heading" style={{ width: "30%" }}>
-                    Имплантация под ключ
+                    Имплантация зубов и челюстей в Ивантеевке
                   </h1>
                   <button className="button" onClick={openModal}>
                     <span className="text">Записаться</span>
