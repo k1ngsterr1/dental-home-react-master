@@ -65,6 +65,7 @@ import Restoration from "./pages/services/restoration/RestorationPage";
 import PulpitisPage from "./pages/services/pulpitis/PulpitisPage";
 import RightHealing from "./pages/services/right-healing/RightHealing";
 import AllonFourPage from "./pages/services/allon4";
+import Retainer from "./pages/services/retainer";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -107,6 +108,7 @@ ReactDOM.render(
         path="/services/tooth-restoration"
         element={<ToothRestorationPage />}
       />
+      <Route path="/services/retainer" element={<Retainer />} />
       <Route path="/services/allon4" element={<AllonFourPage />} />
       <Route path="/services/teeth-cleaning" element={<Cleaning />} />
       <Route path="/services/bite-correction" element={<BiteCorrection />} />
