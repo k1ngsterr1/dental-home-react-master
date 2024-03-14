@@ -80,7 +80,7 @@ const doctorTenMob = require("../../../assets/yana_mob.webp");
 const doctorEleven = require("../../../assets/sadiga.webp");
 const doctorElevenMob = require("../../../assets/sadiga_mob.webp");
 
-const BiteCorrection = () => {
+const CeramicBraces = () => {
   const [thankYou, setThankYou] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMenuPcOpen, setIsMenuPcOpen] = useState(false);
@@ -1364,4 +1364,4 @@ const BiteCorrection = () => {
   );
 };
 
-export default BiteCorrection;
+export default CeramicBraces;

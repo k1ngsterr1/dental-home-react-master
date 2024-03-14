@@ -1295,11 +1295,13 @@ export default function HomePage() {
                     link_text_3="Формирователь десны"
                     link_text_4="Синус-лифтинг"
                     link_text_5="Имплантация под ключ"
+                    link_text_6="Имплантация All-on-4 "
                     href="/services/prosthetics"
                     href_2="/services/prosthetics"
                     href_3="/services/prosthetics"
                     href_4="/services/prosthetics"
                     href_5="/services/implants"
+                    href_6="/services/allon4"
                   />
                 )}
                 <button onClick={parodontHealthExpansion} className="btn">
@@ -1323,12 +1325,12 @@ export default function HomePage() {
                   <ExpandedTab
                     service_text="Исправление прикуса"
                     link_text="Ортодонтическая коррекция с применением брекет-системы"
-                    link_text_2="Ретенция"
+                    link_text_2="Металлические брекеты"
                     link_text_3="Дополнительные приспособления"
                     link_text_4=""
                     href="/services/braces"
                     href_2="/services/bite-correction"
-                    href_3="/services/bite-correction"
+                    href_3="/services/metal-braces"
                     href_4="/services/bite-correction"
                   />
                 )}
@@ -1816,6 +1818,9 @@ export default function HomePage() {
                       </Link>
                       <Link to="/services/implants" className="gold-text">
                         Имплантация под ключ
+                      </Link>
+                      <Link to="/services/allon4" className="gold-text">
+                        Имплантация All-on-4
                       </Link>
                     </div>
                   </Fade>

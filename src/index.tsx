@@ -48,6 +48,7 @@ import OrthoCorrection from "./pages/services/ortho-correction/OrthoCorrection";
 import CrownsPage from "./pages/services/teeth-crowns/TeethCrowns";
 import ToothRestorationPage from "./pages/services/tooth-restoration/ToothRestoration";
 import BracesPage from "./pages/services/braces/BracesPage";
+import MetalBracesPage from "./pages/services/metal-braces";
 import BugelPage from "./pages/services/bugel/BugelPage";
 import Seal from "./pages/services/seal/Seal";
 import TeethCt from "./pages/services/teeth-ct";
@@ -67,6 +68,8 @@ import RightHealing from "./pages/services/right-healing/RightHealing";
 import AllonFourPage from "./pages/services/allon4";
 import DamonQ from "./pages/services/damonq";
 import Retainer from "./pages/services/retainer";
+import MetalBracesPage from "./pages/services/metal-braces";
+import CeramicBraces from "./pages/services/braces-ceramic";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -135,6 +138,9 @@ ReactDOM.render(
       <Route path="/services/bugel-prothesis" element={<BugelPage />} />
       <Route path="/services/teeth-ct" element={<TeethCt />} />
       <Route path="/services/teeth-delete" element={<TeethDelete />} />
+      <Route path="/services/metal-braces" element={<MetalBracesPage />} />
+      <Route path="/services/damonQ" element={<DamonQ />} />
+      <Route path="/services/ceramic-braces" element={<CeramicBraces />} />
       <Route path="/services/cyst-delete" element={<CystDelete />} />
       <Route path="/services/wisdom-tooth-delete" element={<WisdomTooth />} />
       <Route path="/services/3d" element={<ThreeDPic />} />
