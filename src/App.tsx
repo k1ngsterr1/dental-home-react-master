@@ -1334,7 +1334,7 @@ export default function HomePage() {
                     href_2="/services/bite-correction"
                     href_3="/services/metal-braces"
                     href_4="/services/retainer"
-                    href_5="/services/braces-ceramic"
+                    href_5="/services/ceramic-braces"
                     href_6="/services/damnoq"
                   />
                 )}
@@ -1857,7 +1857,7 @@ export default function HomePage() {
                       >
                         Дополнительные приспособления
                       </Link>
-                      <Link to="/services/braces-ceramic" className="gold-text">
+                      <Link to="/services/ceramic-braces" className="gold-text">
                         Керамические брекеты
                       </Link>
                       <Link to="/services/damonq" className="gold-text">
