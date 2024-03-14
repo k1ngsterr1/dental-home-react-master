@@ -1327,11 +1327,15 @@ export default function HomePage() {
                     link_text="Ортодонтическая коррекция с применением брекет-системы"
                     link_text_2="Металлические брекеты"
                     link_text_3="Дополнительные приспособления"
-                    link_text_4=""
+                    link_text_4="Ретенция"
+                    link_text_5="Керамические брекеты"
+                    link_text_6="DamonQ"
                     href="/services/braces"
                     href_2="/services/bite-correction"
                     href_3="/services/metal-braces"
-                    href_4="/services/bite-correction"
+                    href_4="/services/retainer"
+                    href_5="/services/braces-ceramic"
+                    href_6="/services/damnoq"
                   />
                 )}
                 <button onClick={prothesisExpansion} className="btn">
@@ -1844,10 +1848,7 @@ export default function HomePage() {
                       <Link to="/services/braces" className="gold-text">
                         Ортодонтическая коррекция с применением брекет-системы
                       </Link>
-                      <Link
-                        to="/services/bite-correction"
-                        className="gold-text"
-                      >
+                      <Link to="/services/retainer" className="gold-text">
                         Ретенция
                       </Link>
                       <Link
@@ -1855,6 +1856,15 @@ export default function HomePage() {
                         className="gold-text"
                       >
                         Дополнительные приспособления
+                      </Link>
+                      <Link to="/services/braces-ceramic" className="gold-text">
+                        Керамические брекеты
+                      </Link>
+                      <Link to="/services/damonq" className="gold-text">
+                        Брекеты DamonQ
+                      </Link>
+                      <Link to="/services/metal-braces" className="gold-text">
+                        Металлические брекеты
                       </Link>
                     </div>
                   </Fade>
