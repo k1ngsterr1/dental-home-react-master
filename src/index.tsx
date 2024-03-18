@@ -68,7 +68,6 @@ import RightHealing from "./pages/services/right-healing/RightHealing";
 import AllonFourPage from "./pages/services/allon4";
 import DamonQ from "./pages/services/damonq";
 import Retainer from "./pages/services/retainer";
-import MetalBracesPage from "./pages/services/metal-braces";
 import CeramicBraces from "./pages/services/braces-ceramic";
 
 function ScrollToTop() {
