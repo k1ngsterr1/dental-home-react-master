@@ -69,6 +69,7 @@ import AllonFourPage from "./pages/services/allon4";
 import DamonQ from "./pages/services/damonq";
 import Retainer from "./pages/services/retainer";
 import CeramicBraces from "./pages/services/braces-ceramic";
+import AllonSixPage from "./pages/services/allon6";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -112,6 +113,7 @@ ReactDOM.render(
         element={<ToothRestorationPage />}
       />
       <Route path="/services/allon4" element={<AllonFourPage />} />
+      <Route path="/services/allon6" element={<AllonSixPage />} />
       <Route path="/services/teeth-cleaning" element={<Cleaning />} />
       <Route path="/services/retainer" element={<Retainer />} />
       <Route path="/services/damonq" element={<DamonQ />} />

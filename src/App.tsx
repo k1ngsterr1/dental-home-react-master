@@ -674,8 +674,8 @@ export default function HomePage() {
               </div>
               <div className="heading-container">
                 <Fade direction="up" triggerOnce={true}>
-                  <h1 className="dental">Dental</h1>
-                  <h1 className="home">Home</h1>
+                  <h2 className="dental">Dental</h2>
+                  <h2 className="home">Home</h2>
                 </Fade>
               </div>
               <div
@@ -1922,9 +1922,12 @@ export default function HomePage() {
             </section>
           </div>
           <div className="mob-information flex justify-center items-center column">
-            <h2 className="heading text-center mt-32" style={{ width: "50%" }}>
+            <h1
+              className="custom-heading text-center mt-32"
+              style={{ width: "50%" }}
+            >
               Стоматологии Dental Home в Ивантеевке
-            </h2>
+            </h1>
             <p className="paragraph text-center mt-16" style={{ width: "90%" }}>
               Наша команда профессиональных врачей стоматологии готова помочь
               вам восстановить улыбку и уверенность в себе. Мы гарантируем
@@ -2022,8 +2025,9 @@ export default function HomePage() {
                       </div>
                     </div>
                     <span className="text-span">
-                      Звоните с 9:00 до 21:00 <strong>8 (925) 222-90-22</strong>{" "}
-                      или оставьте заявку, мы вам перезвоним
+                      Звоните с 9:00 до 21:00{" "}
+                      <strong>+7 (991) 779-39-95</strong> или оставьте заявку,
+                      мы вам перезвоним
                     </span>
                     <form
                       className="input-container"

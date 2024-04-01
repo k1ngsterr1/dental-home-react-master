@@ -24,6 +24,13 @@ h1, .dental, .home {
   color: #E8CB6C;
 }
 
+.custom-heading {
+  font-size: clamp(16px, 7.47648vw, 64px) !important;
+  text-align: center !important;
+  font-family: "Merriweather", serif !important;
+  color: #202637 !important;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Merriweather", serif;
 }
