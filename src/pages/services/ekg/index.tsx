@@ -74,7 +74,7 @@ const serviceTwoMob = require("../../../assets/service_mob_02.webp");
 const serviceThreeMob = require("../../../assets/service_mob_03.webp");
 const serviceFourMob = require("../../../assets/service_mob_04.webp");
 
-const hygienePc = require("../../../assets/teeth-in-sleep.webp");
+const hygienePc = require("../../../assets/cardio.webp");
 
 const logoMobile: string = require("../../../assets/logo_mob.svg").default;
 
