@@ -2041,7 +2041,7 @@ export default function HomePage() {
                         className="telephone-input"
                         required={true}
                         onChange={(event) => setPhoneNumber(event.target.value)}
-                        placeholder="+7 (925) 222-90-22"
+                        placeholder="+7 (991) 779-39-95"
                       />
                       <button className="form-btn" value="Send">
                         Записать на осмотр
@@ -2263,7 +2263,7 @@ export default function HomePage() {
                       value={phoneNumber}
                       name="phoneNumber"
                       onChange={(event) => setPhoneNumber(event.target.value)}
-                      placeholder="+7 (925) 222-90-22"
+                      placeholder="+7 (991) 779-39-95"
                     />
                   </div>
                 </div>
@@ -2379,7 +2379,7 @@ export default function HomePage() {
                     onChange={(event) => setPhoneNumber(event.target.value)}
                     name="phoneNumber"
                     className="input-text"
-                    placeholder="+7 (925) 222-90-22"
+                    placeholder="+7 (991) 779-39-95"
                   />
                 </div>
                 <div className="input-container">
@@ -2506,7 +2506,7 @@ export default function HomePage() {
                     type="tel"
                     name="phoneNumber"
                     className="phone-number-input"
-                    placeholder="+7 (925) 222-90-22"
+                    placeholder="+7 (991) 779-39-95"
                     required={true}
                     value={phoneNumber}
                     onChange={(event) => setPhoneNumber(event.target.value)}

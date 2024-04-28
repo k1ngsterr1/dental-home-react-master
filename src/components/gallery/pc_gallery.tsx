@@ -86,7 +86,7 @@ const PcGallery: React.FC<PhotoSource> = ({
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div className="dentist-card">
             <div className="button-image-container">
               <button className="doctor-btn" onClick={openModal}>
@@ -97,7 +97,7 @@ const PcGallery: React.FC<PhotoSource> = ({
             <h3 className="doctor-name">Аманова Альфия Камиловна</h3>
             <p className="doctor-position">Врач стоматолог-терапевт</p>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         {/* <SwiperSlide>
           <div className="dentist-card">
             <div className="button-image-container">
