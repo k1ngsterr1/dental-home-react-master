@@ -359,15 +359,6 @@ const ReviewsPage = () => {
               <div className="reviews-content">
                 <div className="review-row">
                   <ReviewTab
-                    date="22.09.2023"
-                    name="Елена Ушакова"
-                    href="https://yandex.ru/profile/185014698556"
-                    navigate={() =>
-                      handleOpenScreenshot("https://i.ibb.co.com/Kym4JTk/1.png")
-                    }
-                    paragraph="Приятный персонал, приятная обстановка, высококвалифицированные умные врачи. Только квалифицированные и умные врачи знают как заработать много денег. Ну, вот, например, шатаются зубы, если их шинировать и укреплять да на них поставить..."
-                  ></ReviewTab>
-                  <ReviewTab
                     date="05.02.2023"
                     name="Сергей Гончаров"
                     href="https://yandex.ru/profile/185014698556"
