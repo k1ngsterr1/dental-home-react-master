@@ -1,6 +1,4 @@
 import React from "react";
-import SwiperCore from "swiper";
-import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -64,7 +62,7 @@ const PcGallery: React.FC<PhotoSource> = ({
       <Swiper
         spaceBetween={0}
         slidesPerView={3}
-        navigation={false} // Disable Swiper navigation (we're using custom buttons)
+        navigation={false} 
         pagination={{ clickable: true }}
         direction="horizontal"
         className="mySwiper3"
@@ -86,30 +84,6 @@ const PcGallery: React.FC<PhotoSource> = ({
             </p>
           </div>
         </SwiperSlide>
-        {/* <SwiperSlide>
-          <div className="dentist-card">
-            <div className="button-image-container">
-              <button className="doctor-btn" onClick={openModal}>
-                <span className="text">Записаться</span>
-              </button>
-              <img src={imageSrc} alt="Doctor 1" className="doctor-image" />
-            </div>
-            <h3 className="doctor-name">Аманова Альфия Камиловна</h3>
-            <p className="doctor-position">Врач стоматолог-терапевт</p>
-          </div>
-        </SwiperSlide> */}
-        {/* <SwiperSlide>
-          <div className="dentist-card">
-            <div className="button-image-container">
-              <button className="doctor-btn" onClick={openModal}>
-                <span className="text">Записаться</span>
-              </button>
-              <img src={imageSrc2} alt="Doctor 1" className="doctor-image" />
-            </div>
-            <h3 className="doctor-name">Таха Дана Юрьевна</h3>
-            <p className="doctor-position">Управляющий</p>
-          </div>
-        </SwiperSlide> */}
         <SwiperSlide>
           <div className="dentist-card">
             <div className="button-image-container">

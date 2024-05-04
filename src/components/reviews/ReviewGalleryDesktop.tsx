@@ -101,7 +101,15 @@ const ReviewGalleryDesktop = () => {
         }}
         className="mySwiper6"
       >
-        <SwiperSlide></SwiperSlide>
+        <SwiperSlide>
+          <ReviewTab
+            date="05.02.2023"
+            name="Айзат Ибрагимов"
+            href="https://yandex.ru/profile/185014698556"
+            navigate={() => handleOpenScreenshot("https://ibb.co.com/cywd7dH")}
+            paragraph="Зубы у меня, конечно, не ахти. Всю жизнь тянул с лечением, а потом как-то разом все развалилось. Пришлось искать нормальную клинику, чтобы не за бешеные деньги, но и чтобы сделали хорошо. По совету друга записался в Dental Home. Пока поставил пару пломб - все норм, держится. Врачи толковые, лишнего не навязывают. Цены - средние по рынку. Думаю, буду ходить сюда дальше."
+          ></ReviewTab>
+        </SwiperSlide>
         <SwiperSlide>
           <ReviewTab
             date="05.02.2023"
