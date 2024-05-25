@@ -376,14 +376,14 @@ const VinirsPage = () => {
                       Повторная фиксация на постоянный цемент несъемных
                       ортопедических конструкций <br /> (ОРТ-A16.07.049)
                     </span>
-                    <span className="price">От 1 500₽ </span>
+                    <span className="price">От 1 600₽ </span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Фиксация на RELYX Luting несъемных ортопедических
                       конструкций <br /> <br /> (ОРТ-A16.07.049.001)
                     </span>
-                    <span className="price">От 3 500₽ </span>
+                    <span className="price">От 3 700₽ </span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -391,7 +391,7 @@ const VinirsPage = () => {
                       цемент Temp bond <br /> <br />
                       (ОРТ-А16.07.049.002)
                     </span>
-                    <span className="price">От 1000₽</span>
+                    <span className="price">От 1100₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -399,13 +399,13 @@ const VinirsPage = () => {
                       <br /> <br />
                       (ОРТ-А16.07.053)
                     </span>
-                    <span className="price">От 1 500₽ </span>
+                    <span className="price">От 1 600₽ </span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Удаление вкладки <br /> <br /> (ОРТ-А16.07.094)
                     </span>
-                    <span className="price">От 4 000₽</span>
+                    <span className="price">От 4 200₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -426,13 +426,13 @@ const VinirsPage = () => {
                     <span className="text">
                       Приварка 1 кламмера <br /> <br /> (ОРТ-А23.07.002.035){" "}
                     </span>
-                    <span className="price">От 5 500₽</span>
+                    <span className="price">От 5 800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Приварка 1 зуба <br /> <br /> (ОРТ-А23.07.002.036){" "}
                     </span>
-                    <span className="price">От 5 500₽</span>
+                    <span className="price">От 5 800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
