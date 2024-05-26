@@ -441,7 +441,7 @@ const VinirsPage = () => {
                       <br />
                       (ОРТ-А23.30.050)
                     </span>
-                    <span className="price">От 5 500₽</span>
+                    <span className="price">От 5 800₽</span>
                   </section>
                   {/* <section className="tab-three">
                     <span className="text">
@@ -456,7 +456,7 @@ const VinirsPage = () => {
                       <br /> <br />
                       (ОРТ-А26)
                     </span>
-                    <span className="price">От 1 500₽</span>
+                    <span className="price">От 5 800₽</span>
                   </section>
                   <section className="tab-three"></section>
                   <section className="tab-three">
@@ -479,7 +479,7 @@ const VinirsPage = () => {
                       <br /> <br />
                       (ОРТ-A02.07.010.001)
                     </span>
-                    <span className="price">От 2.000₽ </span>
+                    <span className="price">От 2.100₽ </span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
@@ -487,7 +487,7 @@ const VinirsPage = () => {
                       <br /> <br />
                       (ОРТ-A02.07.010.002)
                     </span>
-                    <span className="price">От 1.500₽</span>
+                    <span className="price">От 2.700₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -495,14 +495,14 @@ const VinirsPage = () => {
                       <br /> <br />
                       (ОРТ-A02.07.010.003)
                     </span>
-                    <span className="price">От 3.500₽ </span>
+                    <span className="price">От 3.700₽ </span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Прикусной блок <br /> <br />
                       (ОРТ-A02.07.010.004){" "}
                     </span>
-                    <span className="price">От 1.500₽</span>
+                    <span className="price">От 1.600₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -510,7 +510,7 @@ const VinirsPage = () => {
                       <br /> <br />
                       (ОРТ-A02.07.010.005)
                     </span>
-                    <span className="price">От 4.500₽ </span>
+                    <span className="price">От 4.800₽ </span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -519,7 +519,7 @@ const VinirsPage = () => {
                       <br /> <br />
                       (ОРТ-A02.07.010.006)
                     </span>
-                    <span className="price">От 2.500₽</span>
+                    <span className="price">От 2.700₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -528,21 +528,21 @@ const VinirsPage = () => {
                       <br /> <br />
                       (ОРТ-A02.07.010.007)
                     </span>
-                    <span className="price">От 4.000₽</span>
+                    <span className="price">От 4.800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Wax up восковое моделирование <br /> <br />
                       (ОРТ-A02.07.010.008){" "}
                     </span>
-                    <span className="price">От 2.500₽</span>
+                    <span className="price">От 2.700₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Цифровой оттиск (сканирование верхней и нижней челюсти,
                       прикус) <br /> <br /> (ОРТ-А02.07.010.009)
                     </span>
-                    <span className="price last">От 8.000₽</span>
+                    <span className="price last">От 8.400₽</span>
                   </section>
                 </div>
                 <div
@@ -557,7 +557,7 @@ const VinirsPage = () => {
                       <br /> <br />
                       (ОРТ-А16.07.003)
                     </span>
-                    <span className="price">От 30.000₽</span>
+                    <span className="price">От 31.500₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
@@ -565,21 +565,21 @@ const VinirsPage = () => {
                       вкладки <br /> <br />
                       (ОРТ-А16.07.003.001)
                     </span>
-                    <span className="price">От 12.500₽</span>
+                    <span className="price">От 13.200₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Восстановление зуба с использованием культевой вкладки из
                       диоксида циркония <br /> <br /> (ОРТ-А16.07.003.002)
                     </span>
-                    <span className="price">От 18.000₽</span>
+                    <span className="price">От 19.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Восстановление зуба с использованием золотой вкладки (без
                       стоимости золота) <br /> <br /> (ОРТ-А16.07.003.003)
                     </span>
-                    <span className="price last">От 20.000₽</span>
+                    <span className="price last">От 21.000₽</span>
                   </section>
                 </div>
                 <div
@@ -593,7 +593,7 @@ const VinirsPage = () => {
                       <br /> <br />
                       (ОРТ-А16.07.004 )
                     </span>
-                    <span className="price">От 3.500₽ </span>
+                    <span className="price">От 3.700₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
@@ -601,7 +601,7 @@ const VinirsPage = () => {
                       способом <br /> <br />
                       (ОРТ-А16.07.004.001)
                     </span>
-                    <span className="price">От 6.000₽ </span>
+                    <span className="price">От 6.300₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -609,7 +609,7 @@ const VinirsPage = () => {
                       "стандарт" <br /> <br />
                       (ОРТ-А16.07.004.002)
                     </span>
-                    <span className="price">От 18.500₽</span>
+                    <span className="price">От 19.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -617,7 +617,7 @@ const VinirsPage = () => {
                       "премиум" <br /> <br />
                       (ОРТ-А16.07.004.003)
                     </span>
-                    <span className="price">От 27.000₽</span>
+                    <span className="price">От 28.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -626,7 +626,7 @@ const VinirsPage = () => {
                       металла) <br /> <br />
                       (ОРТ-А16.07.004.004)
                     </span>
-                    <span className="price">От 27.000₽</span>
+                    <span className="price">От 28.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -634,7 +634,7 @@ const VinirsPage = () => {
                       "стандарт" <br /> <br />
                       (ОРТ-А16.07.004.005)
                     </span>
-                    <span className="price">От 27.000₽</span>
+                    <span className="price">От 28.500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -642,7 +642,7 @@ const VinirsPage = () => {
                       "премиум" <br /> <br />
                       (ОРТ-А16.07.004.006)
                     </span>
-                    <span className="price last">От 39.000₽</span>
+                    <span className="price last">От 41.000₽</span>
                   </section>
                 </div>
                 <div
@@ -658,7 +658,7 @@ const VinirsPage = () => {
                       <br />
                       (ОРТ-А16.07.003.004)
                     </span>
-                    <span className="price">От 30.000₽ </span>
+                    <span className="price">От 31.500₽ </span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
@@ -666,7 +666,7 @@ const VinirsPage = () => {
                       <br />
                       (ОРТ-А16.07.003.005)
                     </span>
-                    <span className="price">От 40.000₽</span>
+                    <span className="price">От 42.000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -691,7 +691,7 @@ const VinirsPage = () => {
                       <br /> <br />
                       (ОРТ-A16.07.023 )
                     </span>
-                    <span className="price">От 45.000₽</span>
+                    <span className="price">От 47.500₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
@@ -701,7 +701,7 @@ const VinirsPage = () => {
                       <br /> <br />
                       (ОРТ-A16.07.035)
                     </span>
-                    <span className="price">От 12.000₽</span>
+                    <span className="price">От 12.600₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -709,7 +709,7 @@ const VinirsPage = () => {
                       (Японский гарнитур, пластм) <br /> <br />
                       (ОРТ-A16.07.035.001)
                     </span>
-                    <span className="price">От 45.000₽ </span>
+                    <span className="price">От 47.500₽ </span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -717,7 +717,7 @@ const VinirsPage = () => {
                       <br />
                       (ОРТ-A16.07.036)
                     </span>
-                    <span className="price last">От 50.000₽</span>
+                    <span className="price last">От 52.500₽</span>
                   </section>
                 </div>
               </div>
@@ -1084,7 +1084,7 @@ const VinirsPage = () => {
                           конструкций <br /> <br />
                           (ОРТ-A16.07.049.001)
                         </span>
-                        <span className="price">От 3.500₽</span>
+                        <span className="price">От 3.700₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
@@ -1100,13 +1100,13 @@ const VinirsPage = () => {
                           единица) <br /> <br />
                           (ОРТ-А16.07.053)
                         </span>
-                        <span className="price">От 1.500₽</span>
+                        <span className="price">От 21.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Удаление вкладки <br /> <br /> (ОРТ-А16.07.094){" "}
                         </span>
-                        <span className="price">От 4.000₽</span>
+                        <span className="price">От 4.200₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1114,7 +1114,7 @@ const VinirsPage = () => {
                           <br /> <br />
                           (ОРТ-А23.30.050.001)
                         </span>
-                        <span className="price">От 1.500₽</span>
+                        <span className="price">От 5.800₽</span>
                       </div>
                       {/* <div className="price-row">
                         <span className="text">
@@ -1133,7 +1133,7 @@ const VinirsPage = () => {
                         <span className="text">
                           Приварка 1 зуба <br /> <br /> (ОРТ-А23.07.002.036){" "}
                         </span>
-                        <span className="price">От 5.500₽</span>
+                        <span className="price">От 5.800₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1141,7 +1141,7 @@ const VinirsPage = () => {
                           <br />
                           (ОРТ-А23.30.050)
                         </span>
-                        <span className="price">От 5.500₽ </span>
+                        <span className="price">От 5.800₽ </span>
                       </div>
                       {/* <div className="price-row">
                         <span className="text">
@@ -1157,7 +1157,7 @@ const VinirsPage = () => {
                           <br /> <br />
                           (ОРТ-А26 )
                         </span>
-                        <span className="price">От 1.500₽</span>
+                        <span className="price">От 1.600₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1165,7 +1165,7 @@ const VinirsPage = () => {
                           <br /> <br />
                           (ОРТ-А16.07.047)
                         </span>
-                        <span className="price last">От 20.000₽</span>
+                        <span className="price last">От 21.000₽</span>
                       </div>
                     </div>
                   </div>
@@ -1182,7 +1182,7 @@ const VinirsPage = () => {
                           <br /> <br />
                           (ОРТ-A02.07.010.001)
                         </span>
-                        <span className="price">От 2.000₽</span>
+                        <span className="price">От 2.100₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1191,7 +1191,7 @@ const VinirsPage = () => {
                           <br />
                           (ОРТ-A02.07.010.002)
                         </span>
-                        <span className="price">От 2.500₽</span>
+                        <span className="price">От 2.700₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
@@ -1199,13 +1199,13 @@ const VinirsPage = () => {
                           <br /> <br />
                           (ОРТ-A02.07.010.003)
                         </span>
-                        <span className="price">От 3.500₽</span>
+                        <span className="price">От 3.700₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Прикусной блок <br /> <br /> (ОРТ-A02.07.010.004){" "}
                         </span>
-                        <span className="price">От 1.500₽</span>
+                        <span className="price">От 1.600₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1221,7 +1221,7 @@ const VinirsPage = () => {
                           силиконового ключа <br /> <br />
                           (ОРТ-A02.07.010.006)
                         </span>
-                        <span className="price">От 2.500₽</span>
+                        <span className="price">От 2.700₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1230,7 +1230,7 @@ const VinirsPage = () => {
                           <br /> <br />
                           (ОРТ-A02.07.010.007)
                         </span>
-                        <span className="price">От 4.000₽</span>
+                        <span className="price">От 4.200₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1238,7 +1238,7 @@ const VinirsPage = () => {
                           <br /> <br />
                           (ОРТ-A02.07.010.008)
                         </span>
-                        <span className="price">От 2.500₽</span>
+                        <span className="price">От 2.700₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1246,7 +1246,7 @@ const VinirsPage = () => {
                           челюсти, прикус) <br /> <br />
                           (ОРТ-А02.07.010.009)
                         </span>
-                        <span className="price last">От 8.000₽</span>
+                        <span className="price last">От 8.400₽</span>
                       </div>
                     </div>
                   </div>
@@ -1272,7 +1272,7 @@ const VinirsPage = () => {
                           культевой вкладки <br /> <br />
                           (ОРТ-А16.07.003.001)
                         </span>
-                        <span className="price">От 12.500₽</span>
+                        <span className="price">От 13.200₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
@@ -1280,7 +1280,7 @@ const VinirsPage = () => {
                           из диоксида циркония <br /> <br />
                           (ОРТ-А16.07.003.00)
                         </span>
-                        <span className="price">От 18.000₽ 2</span>
+                        <span className="price">От 19.000₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1288,7 +1288,7 @@ const VinirsPage = () => {
                           (без стоимости золота) <br /> <br />
                           (ОРТ-А16.07.003.003)
                         </span>
-                        <span className="price last">От 20.000₽</span>
+                        <span className="price last">От 21.000₽</span>
                       </div>
                     </div>
                   </div>
@@ -1305,7 +1305,7 @@ const VinirsPage = () => {
                           <br /> <br />
                           (ОРТ-А16.07.004)
                         </span>
-                        <span className="price">От 3.500₽</span>
+                        <span className="price">От 3.700₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1313,7 +1313,7 @@ const VinirsPage = () => {
                           способом <br /> <br />
                           (ОРТ-А16.07.004.001)
                         </span>
-                        <span className="price">От 6.000₽</span>
+                        <span className="price">От 6.300₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
@@ -1321,7 +1321,7 @@ const VinirsPage = () => {
                           класса "стандарт" <br /> <br />
                           (ОРТ-А16.07.004.002)
                         </span>
-                        <span className="price">От 18.500₽</span>
+                        <span className="price">От 19.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1329,7 +1329,7 @@ const VinirsPage = () => {
                           класса "премиум" <br /> <br />
                           (ОРТ-А16.07.004.003)
                         </span>
-                        <span className="price">От 27.000₽</span>
+                        <span className="price">От 28.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1338,7 +1338,7 @@ const VinirsPage = () => {
                           металла) <br /> <br />
                           (ОРТ-А16.07.004.004)
                         </span>
-                        <span className="price">От 27.000₽</span>
+                        <span className="price">От 28.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1346,7 +1346,7 @@ const VinirsPage = () => {
                           класса "стандарт" <br /> <br />
                           (ОРТ-А16.07.004.005)
                         </span>
-                        <span className="price">От 27.000₽</span>
+                        <span className="price">От 28.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1354,7 +1354,7 @@ const VinirsPage = () => {
                           класса "премиум" <br /> <br />
                           (ОРТ-А16.07.004.006)
                         </span>
-                        <span className="price last">От 39.000₽</span>
+                        <span className="price last">От 41.000₽</span>
                       </div>
                     </div>
                   </div>
@@ -1373,7 +1373,7 @@ const VinirsPage = () => {
                           <br /> <br />
                           (ОРТ-А16.07.003.004)
                         </span>
-                        <span className="price">От 30.000₽</span>
+                        <span className="price">От 31.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1381,7 +1381,7 @@ const VinirsPage = () => {
                           <br /> <br />
                           (ОРТ-А16.07.003.005)
                         </span>
-                        <span className="price">От 40.000₽</span>
+                        <span className="price">От 42.000₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
@@ -1407,7 +1407,7 @@ const VinirsPage = () => {
                           протезом (Японский гарнитур, пластм) <br /> <br />
                           (ОРТ-A16.07.023 )
                         </span>
-                        <span className="price">От 45.000₽</span>
+                        <span className="price">От 47.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1416,7 +1416,7 @@ const VinirsPage = () => {
                           (иммедиат-протез) <br /> <br />
                           (ОРТ-A16.07.035)
                         </span>
-                        <span className="price">От 12.000₽ </span>
+                        <span className="price">От 12.600₽ </span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
@@ -1424,7 +1424,7 @@ const VinirsPage = () => {
                           (Японский гарнитур, пластм) <br /> <br />
                           (ОРТ-A16.07.035.001)
                         </span>
-                        <span className="price">От 45.000₽</span>
+                        <span className="price">От 47.500₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
@@ -1432,7 +1432,7 @@ const VinirsPage = () => {
                           <br /> <br />
                           (ОРТ-A16.07.036)
                         </span>
-                        <span className="price last">От 50.000₽</span>
+                        <span className="price last">От 52.500₽</span>
                       </div>
                     </div>
                   </div>
