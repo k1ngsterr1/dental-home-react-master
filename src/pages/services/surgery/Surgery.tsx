@@ -984,27 +984,27 @@ const Surgery = () => {
                         <span className="text">
                           Пластика уздечки языка <br /> (ХР-А16.07.044){" "}
                         </span>
-                        <span className="price ">От 3.500₽</span>
+                        <span className="price ">От 3.700₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Пластика уздечки нижней губы <br /> (ХР-А16.07.043){" "}
                         </span>
-                        <span className="price ">От 3.500₽</span>
+                        <span className="price ">От 3.700₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Пластика уздечки верхней губы
                         </span>
                         <span className="price ">
-                          От 3.500₽ <br /> (ХР-А16.07.042){" "}
+                          От 3.700₽ <br /> (ХР-А16.07.042){" "}
                         </span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Вестибулопластика <br /> (ХР-А16.07.045){" "}
                         </span>
-                        <span className="price ">От 10.000₽</span>
+                        <span className="price ">От 10.500₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1012,7 +1012,7 @@ const Surgery = () => {
                           иссечение капюшона) <br />
                           (ХР-А16.07.058)
                         </span>
-                        <span className="price ">От 2.500₽</span>
+                        <span className="price ">От 2.650₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1020,21 +1020,21 @@ const Surgery = () => {
                           гемостатических материалов <br />
                           (ХР-А16.07.095.002 )
                         </span>
-                        <span className="price ">От 700₽</span>
+                        <span className="price ">От 750₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Закрытие соустья с гайморовой пазухой <br />{" "}
                           (ХР-А16.07.096)
                         </span>
-                        <span className="price ">От 5.500₽</span>
+                        <span className="price ">От 5.800₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Наложение шва на слизистую оболочку рта <br />{" "}
                           (ХР-А16.07.097)
                         </span>
-                        <span className="price ">От 500₽</span>
+                        <span className="price ">От 550₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -1090,7 +1090,7 @@ const Surgery = () => {
                           Закрытый кюретаж в области 1 зуба
                           <br /> (ХР-А16.07.039)
                         </span>
-                        <span className="price last">От 20.000₽</span>
+                        <span className="price last">От 21.000₽</span>
                       </div>
                     </div>
                   </div>

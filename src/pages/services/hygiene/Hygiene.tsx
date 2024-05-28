@@ -386,14 +386,14 @@ const Hygiene = () => {
                       Глубокое фторирование эмали зуба Seal&Protect (1 ед.)
                       <br /> <br /> (А11.07.012)
                     </span>
-                    <span className="price">От 300₽</span>
+                    <span className="price">От 350₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Местное применение реминилизрующих препаратов (процедура){" "}
                       <br /> <br /> (А11.07.024)
                     </span>
-                    <span className="price">От 500₽</span>
+                    <span className="price">От 550₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -401,7 +401,7 @@ const Hygiene = () => {
                       средств и предметов гигиены полости рта <br /> <br />
                       (А14.07.008 )
                     </span>
-                    <span className="price">От 400₽</span>
+                    <span className="price">От 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -411,7 +411,7 @@ const Hygiene = () => {
                       <br /> <br />
                       (А16.07.051.001 )
                     </span>
-                    <span className="price">От 6.500₽</span>
+                    <span className="price">От 6.800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -420,14 +420,14 @@ const Hygiene = () => {
                       <br /> <br />
                       (А16.07.051.002)
                     </span>
-                    <span className="price">От 5.500₽</span>
+                    <span className="price">От 5.800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Снятие мягких зубных отложений щеткой + пастой, полировка
                       (1 зуб)
                     </span>
-                    <span className="price">От 50₽</span>
+                    <span className="price">От 60₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -443,7 +443,7 @@ const Hygiene = () => {
                       {""}
                       {""}AirFlow (1 челюсть) <br /> <br /> (А16.07.051.003)
                     </span>
-                    <span className="price">От 2.500₽</span>
+                    <span className="price">От 2.600₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -451,7 +451,7 @@ const Hygiene = () => {
                       "Fluocal gel" (2 челюсти) 1й сеанс <br /> <br />{" "}
                       (А16.07.051.005)
                     </span>
-                    <span className="price">От 2.500₽</span>
+                    <span className="price">От 2.600₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -459,14 +459,14 @@ const Hygiene = () => {
                       "Fluocal gel" последующий сеанс <br /> <br />{" "}
                       (А16.07.051.006)
                     </span>
-                    <span className="price">От 1.500₽</span>
+                    <span className="price">От 1.600₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Запечатывание фиссуры зуба герметиком (1 ед.) <br />{" "}
                       <br /> (А16.07.057 )
                     </span>
-                    <span className="price">От 2.000₽</span>
+                    <span className="price">От 2.100₽</span>
                   </section>
 
                   <section className="tab-three">
@@ -474,7 +474,7 @@ const Hygiene = () => {
                       Ультразвуковое удаление наддесневых и поддесневых зубных
                       отложений в области 1 зуба <br /> <br /> (А22.07.002)
                     </span>
-                    <span className="price last">От 150₽</span>
+                    <span className="price last">От 160₽</span>
                   </section>
                 </div>
               </div>
@@ -780,14 +780,14 @@ const Hygiene = () => {
                           Глубокое фторирование эмали зуба Seal&Protect (1 ед.){" "}
                           <br /> <br /> (А11.07.012)
                         </span>
-                        <span className="price">От 300 ₽</span>
+                        <span className="price">От 350 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Местное применение реминилизрующих препаратов
                           (процедура) <br /> <br /> (А11.07.024)
                         </span>
-                        <span className="price">От 500 ₽</span>
+                        <span className="price">От 550 ₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
@@ -804,7 +804,7 @@ const Hygiene = () => {
                           AirFlow, полировка, покрытие зубов реминилизирующими
                           препаратами) <br /> <br /> (А16.07.051.001)
                         </span>
-                        <span className="price">От 6.500 ₽</span>
+                        <span className="price">От 6.800 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -812,14 +812,14 @@ const Hygiene = () => {
                           профосмотре(1 раз в 6 месяцев) <br /> <br />{" "}
                           (А16.07.051.002 )
                         </span>
-                        <span className="price">От 5.500 ₽</span>
+                        <span className="price">От 5.800 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Снятие мягких зубных отложений щеткой + пастой,
                           полировка (1 зуб) <br /> <br /> (А16.07.051.003 )
                         </span>
-                        <span className="price">От 50₽</span>
+                        <span className="price">От 60₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -830,17 +830,11 @@ const Hygiene = () => {
                           >
                             Профессиональная гигиена воздушноабразивным
                             аппаратом{""}
-                            {""}
-                            {""}
-                            {""}
                           </a>
-                          {""}
-                          {""}
-                          {""}
                           {""} AirFlow (1 челюсть) <br /> <br />{" "}
                           (А16.07.051.004)
                         </span>
-                        <span className="price">От 2.500₽</span>
+                        <span className="price">От 2.600₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -848,7 +842,7 @@ const Hygiene = () => {
                           "Fluocal gel" (2 челюсти) 1й сеанс <br /> <br />{" "}
                           (А16.07.051.005)
                         </span>
-                        <span className="price">От 2.500₽</span>
+                        <span className="price">От 2.600₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -856,14 +850,14 @@ const Hygiene = () => {
                           "Fluocal gel" последующий сеанс <br /> <br />{" "}
                           (А16.07.051.006)
                         </span>
-                        <span className="price">От 2.500₽</span>
+                        <span className="price">От 2.600₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Запечатывание фиссуры зуба герметиком (1 ед.) <br />{" "}
                           <br /> (А16.07.057)
                         </span>
-                        <span className="price">От 2.000₽</span>
+                        <span className="price">От 2.100₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -871,7 +865,7 @@ const Hygiene = () => {
                           зубных отложений в области 1 зуба <br /> <br />{" "}
                           (А22.07.002)
                         </span>
-                        <span className="price">От 150₽</span>
+                        <span className="price">От 160₽</span>
                       </div>
                     </div>
                   </div>
