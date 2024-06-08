@@ -326,79 +326,79 @@ const BracesPage = () => {
                       Повторная фиксация на постоянный цемент несъемных
                       ортопедических конструкций
                     </span>
-                    <span className="price">1 500₽</span>
+                    <span className="price">1 600₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Фиксация на RELYX Luting несъемных ортопедических
                       конструкций
                     </span>
-                    <span className="price">2 000₽</span>
+                    <span className="price">3 700₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Фиксация несъемных ортопедических конструкций на временный
                       цемент Temp bond
                     </span>
-                    <span className="price">700₽</span>
+                    <span className="price">1100₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Снятие несъемной ортопедической конструкции (1 единица)
                     </span>
-                    <span className="price">1 000₽</span>
+                    <span className="price">1 600₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Удаление вкладки</span>
-                    <span className="price">4 000₽</span>
+                    <span className="price">4 200₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Коррекция протеза, изготовленного в другой клинике
                     </span>
-                    <span className="price">1 500₽</span>
+                    <span className="price">1 600₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Починка (перебазировка) съемного протеза лабораторным
                       методом
                     </span>
-                    <span className="price">5 500₽</span>
+                    <span className="price">5 800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Приварка 1 кламмера</span>
-                    <span className="price">5 500₽</span>
+                    <span className="price">5 800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Приварка 1 зуба</span>
-                    <span className="price">5 500₽</span>
+                    <span className="price">5 800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       {" "}
                       Замена матрицы на бюгельном протезе (1 протез)
                     </span>
-                    <span className="price">5 500₽</span>
+                    <span className="price">5 800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       {" "}
                       Изготовление каппы для депрограмирования мышц
                     </span>
-                    <span className="price">5 500₽</span>
+                    <span className="price">5 800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Коррекция съемного протеза изготовленного в другой клинике
                     </span>
-                    <span className="price">1 500₽</span>
+                    <span className="price">1 600₽</span>
                   </section>
                   <section className="tab-three"></section>
                   <section className="tab-three">
                     <span className="text">
                       Каппа для стабилизации прикуса (Ортотик)
                     </span>
-                    <span className="price last">20 000₽</span>
+                    <span className="price last">21 000₽</span>
                   </section>
                 </div>
                 <div
@@ -410,54 +410,54 @@ const BracesPage = () => {
                     <span className="text">
                       Снятие оттиска с одной челюсти альгинатными массами
                     </span>
-                    <span className="price">1 000₽</span>
+                    <span className="price">2 100₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Снятие оттиска с одной челюсти массой из С-силикона
                     </span>
-                    <span className="price">1 500₽</span>
+                    <span className="price">2 700₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Снятие оттиска с одной челюсти массой из А-силикона
                     </span>
-                    <span className="price">2 000₽</span>
+                    <span className="price">3 700₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Прикусной блок</span>
-                    <span className="price">1 000₽</span>
+                    <span className="price">1 600₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Изготовление прикусного шаблона и индивидуальной ложки
                     </span>
-                    <span className="price">3 500₽</span>
+                    <span className="price">4 800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Снятие оттиска с одной челюсти для изготовления
                       силиконового ключа
                     </span>
-                    <span className="price">1 500₽</span>
+                    <span className="price">2 700₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Снятие оттиска с одной челюсти с имплантов с
                       использованием индивидуальной ложки
                     </span>
-                    <span className="price">2 500₽</span>
+                    <span className="price">4 200₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Wax up восковое моделирование</span>
-                    <span className="price">2 000₽</span>
+                    <span className="price">2 700₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Цифровой оттиск (сканирование верхней и нижней челюсти,
                       прикус){" "}
                     </span>
-                    <span className="price last">5 500₽</span>
+                    <span className="price last">8 400₽</span>
                   </section>
                 </div>
                 <div
@@ -470,28 +470,28 @@ const BracesPage = () => {
                       Восстановление зуба с использованием керамической вкладки
                       (накладки) Emax
                     </span>
-                    <span className="price">25 000₽</span>
+                    <span className="price">31 500₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Восстановление зуба с использованием цельнолитой культевой
                       вкладки
                     </span>
-                    <span className="price">7 000₽</span>
+                    <span className="price">13 200₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Восстановление зуба с использованием культевой вкладки из
                       диоксида циркония
                     </span>
-                    <span className="price">15 000₽</span>
+                    <span className="price">19 000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Восстановление зуба с использованием золотой вкладки (без
                       стоимости золота){" "}
                     </span>
-                    <span className="price last">10 000₽</span>
+                    <span className="price last">21 000₽</span>
                   </section>
                 </div>
                 <div
@@ -503,28 +503,28 @@ const BracesPage = () => {
                     <span className="text">
                       Восстановление зуба коронкой временной прямым методом
                     </span>
-                    <span className="price">2 000₽</span>
+                    <span className="price">3 700₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Восстановление зуба коронкой временной лабораторным
                       способом
                     </span>
-                    <span className="price">3 500₽</span>
+                    <span className="price">6 300₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Восстановление зуба коронкой металлокерамической класса
                       "стандарт"
                     </span>
-                    <span className="price">12 000₽</span>
+                    <span className="price">19 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Восстановление зуба коронкой металлокерамической класса
                       "премиум"
                     </span>
-                    <span className="price">18 500₽</span>
+                    <span className="price">28 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -532,21 +532,21 @@ const BracesPage = () => {
                       драгоценном сплаве (без учета стоимости драгоценного
                       металла)
                     </span>
-                    <span className="price">18 500₽</span>
+                    <span className="price">28 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Восстановление зуба коронкой из диоксида циркония класса
                       "стандарт"
                     </span>
-                    <span className="price">18 000₽</span>
+                    <span className="price">28 000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Восстановление зуба коронкой из диоксида циркония класса
                       "премиум"
                     </span>
-                    <span className="price last">27 000₽</span>
+                    <span className="price last">28 500₽</span>
                   </section>
                 </div>
                 <div
@@ -560,13 +560,13 @@ const BracesPage = () => {
                     <span className="text">
                       Восстановление зуба виниром E-max класса "стандарт"
                     </span>
-                    <span className="price">25000₽</span>
+                    <span className="price">31500₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Восстановление зуба виниром E-max класса "премиум"
                     </span>
-                    <span className="price">35000₽</span>
+                    <span className="price">42000₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -587,7 +587,7 @@ const BracesPage = () => {
                       Протезирование зубов полным съемным пластиночным протезом
                       (Японский гарнитур, пластм)
                     </span>
-                    <span className="price">40000₽</span>
+                    <span className="price">47500₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
@@ -595,20 +595,20 @@ const BracesPage = () => {
                       временного замещения отсутствующих 1-3 зубов
                       (иммедиат-протез)
                     </span>
-                    <span className="price">9 500₽</span>
+                    <span className="price">12600₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Протезирование частичным съемным пластиночным протезом
                       (Японский гарнитур, пластм)
                     </span>
-                    <span className="price">40 000₽</span>
+                    <span className="price">47 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Протезирование съемным бюгельным протезом кламерным
                     </span>
-                    <span className="price last">45 000₽</span>
+                    <span className="price last">52 500₽</span>
                   </section>
                 </div>
               </div>
@@ -886,67 +886,67 @@ const BracesPage = () => {
                           Повторная фиксация на постоянный цемент несъемных
                           ортопедических конструкций
                         </span>
-                        <span className="price">1 500₽</span>
+                        <span className="price">1 600₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Фиксация на RELYX Luting несъемных ортопедических
                           конструкций
                         </span>
-                        <span className="price">2 000₽</span>
+                        <span className="price">3 700₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
                           Фиксация несъемных ортопедических конструкций на
                           временный цемент Temp bond
                         </span>
-                        <span className="price">700₽</span>
+                        <span className="price">1100₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Снятие несъемной ортопедической конструкции (1
                           единица)
                         </span>
-                        <span className="price">1 000₽</span>
+                        <span className="price">1 600₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Удаление вкладки</span>
-                        <span className="price">4 000₽</span>
+                        <span className="price">4 200₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Коррекция протеза, изготовленного в другой клинике
                         </span>
-                        <span className="price">1 500₽</span>
+                        <span className="price">1 600₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Починка (перебазировка) съемного протеза лабораторным
                           методом
                         </span>
-                        <span className="price">5 500₽</span>
+                        <span className="price">5 800₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Приварка 1 кламмера</span>
-                        <span className="price">5 500₽</span>
+                        <span className="price">5 800₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Приварка 1 зуба</span>
-                        <span className="price">5 500₽</span>
+                        <span className="price">5 800₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           {" "}
                           Замена матрицы на бюгельном протезе (1 протез)
                         </span>
-                        <span className="price">5 500₽</span>
+                        <span className="price">5 800₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           {" "}
                           Изготовление каппы для депрограмирования мышц
                         </span>
-                        <span className="price">5 500₽</span>
+                        <span className="price">5 800₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
@@ -974,56 +974,56 @@ const BracesPage = () => {
                         <span className="text">
                           Снятие оттиска с одной челюсти альгинатными массами
                         </span>
-                        <span className="price">1 000₽</span>
+                        <span className="price">2 100₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Снятие оттиска с одной челюсти массой из С-силикона
                         </span>
-                        <span className="price">1 500₽</span>
+                        <span className="price">2 700₽</span>
                       </div>
                       <div className="price-row ">
                         <span className="text">
                           Снятие оттиска с одной челюсти массой из А-силикона
                         </span>
-                        <span className="price">2 000₽</span>
+                        <span className="price">3 700₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">Прикусной блок</span>
-                        <span className="price">1 000₽</span>
+                        <span className="price">1 600₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Изготовление прикусного шаблона и индивидуальной ложки
                         </span>
-                        <span className="price">3 500₽</span>
+                        <span className="price">4 800₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Снятие оттиска с одной челюсти для изготовления
                           силиконового ключа
                         </span>
-                        <span className="price">1 500₽</span>
+                        <span className="price">2 700₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Снятие оттиска с одной челюсти с имплантов с
                           использованием индивидуальной ложки
                         </span>
-                        <span className="price">2 500₽</span>
+                        <span className="price">2 700₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Wax up восковое моделирование
                         </span>
-                        <span className="price">2 000₽</span>
+                        <span className="price">2 700₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
                           Цифровой оттиск (сканирование верхней и нижней
                           челюсти, прикус){" "}
                         </span>
-                        <span className="price last">5 500₽</span>
+                        <span className="price last">8 400₽</span>
                       </div>
                     </div>
                   </div>

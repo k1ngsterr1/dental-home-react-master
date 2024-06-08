@@ -401,7 +401,7 @@ const CrownsPage = () => {
                       {" "}
                       Изготовление каппы для депрограмирования мышц
                     </span>
-                    <span className="price">От 5 500₽</span>
+                    <span className="price">От 5 800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">

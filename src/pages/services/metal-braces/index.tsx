@@ -327,79 +327,79 @@ const MetalBracesPage = () => {
                       Повторная фиксация на постоянный цемент несъемных
                       ортопедических конструкций
                     </span>
-                    <span className="price">1 500₽</span>
+                    <span className="price">1 600₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
                       Фиксация на RELYX Luting несъемных ортопедических
                       конструкций
                     </span>
-                    <span className="price">2 000₽</span>
+                    <span className="price">3 500₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Фиксация несъемных ортопедических конструкций на временный
                       цемент Temp bond
                     </span>
-                    <span className="price">700₽</span>
+                    <span className="price">1 100₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Снятие несъемной ортопедической конструкции (1 единица)
                     </span>
-                    <span className="price">1 000₽</span>
+                    <span className="price">1 100₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Удаление вкладки</span>
-                    <span className="price">4 000₽</span>
+                    <span className="price">4 200₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Коррекция протеза, изготовленного в другой клинике
                     </span>
-                    <span className="price">1 500₽</span>
+                    <span className="price">1 600₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Починка (перебазировка) съемного протеза лабораторным
                       методом
                     </span>
-                    <span className="price">5 500₽</span>
+                    <span className="price">5 800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Приварка 1 кламмера</span>
-                    <span className="price">5 500₽</span>
+                    <span className="price">5 800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Приварка 1 зуба</span>
-                    <span className="price">5 500₽</span>
+                    <span className="price">5 800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       {" "}
                       Замена матрицы на бюгельном протезе (1 протез)
                     </span>
-                    <span className="price">5 500₽</span>
+                    <span className="price">5 800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       {" "}
                       Изготовление каппы для депрограмирования мышц
                     </span>
-                    <span className="price">5 500₽</span>
+                    <span className="price">5 800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Коррекция съемного протеза изготовленного в другой клинике
                     </span>
-                    <span className="price">1 500₽</span>
+                    <span className="price">1 600₽</span>
                   </section>
                   <section className="tab-three"></section>
                   <section className="tab-three">
                     <span className="text">
                       Каппа для стабилизации прикуса (Ортотик)
                     </span>
-                    <span className="price last">20 000₽</span>
+                    <span className="price last">21 000₽</span>
                   </section>
                 </div>
                 <div
@@ -440,14 +440,14 @@ const MetalBracesPage = () => {
                       Снятие оттиска с одной челюсти для изготовления
                       силиконового ключа
                     </span>
-                    <span className="price">4 800₽</span>
+                    <span className="price">2 700₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Снятие оттиска с одной челюсти с имплантов с
                       использованием индивидуальной ложки
                     </span>
-                    <span className="price">2 500₽</span>
+                    <span className="price">2 700₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">Wax up восковое моделирование</span>

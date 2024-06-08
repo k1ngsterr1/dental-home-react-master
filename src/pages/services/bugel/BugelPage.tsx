@@ -337,7 +337,7 @@ const BugelPage = () => {
                       Повторная фиксация на постоянный цемент несъемных
                       ортопедических конструкций <br /> <br /> (ОРТ-A16.07.049)
                     </span>
-                    <span className="price">От 1 500₽</span>
+                    <span className="price">От 1 600₽</span>
                   </section>
                   <section className="tab-two">
                     <span className="text">
@@ -378,19 +378,19 @@ const BugelPage = () => {
                       Починка (перебазировка) съемного протеза лабораторным
                       методом <br /> <br /> (ОРТ-А23.07.002.034)
                     </span>
-                    <span className="price">От 5 500₽</span>
+                    <span className="price">От 5 800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Приварка 1 кламмера <br /> <br /> (ОРТ-А23.07.002.035){" "}
                     </span>
-                    <span className="price">От 5 500₽</span>
+                    <span className="price">От 5 800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       Приварка 1 зуба <br /> <br /> (ОРТ-А23.07.002.036){" "}
                     </span>
-                    <span className="price">От 5 500₽</span>
+                    <span className="price">От 5 800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -398,14 +398,14 @@ const BugelPage = () => {
                       Замена матрицы на бюгельном протезе (1 протез) <br />{" "}
                       <br /> (ОРТ-А23.07.002.036)
                     </span>
-                    <span className="price">От 5 500₽</span>
+                    <span className="price">От 5 800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
                       {" "}
                       Изготовление каппы для депрограмирования мышц
                     </span>
-                    <span className="price">От 5 500₽</span>
+                    <span className="price">От 5 800₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -420,7 +420,7 @@ const BugelPage = () => {
                       Каппа для стабилизации прикуса (Ортотик) <br /> <br />{" "}
                       (ОРТ-А27)
                     </span>
-                    <span className="price last">От 20 000₽</span>
+                    <span className="price last">От 21 000₽</span>
                   </section>
                 </div>
                 <div
