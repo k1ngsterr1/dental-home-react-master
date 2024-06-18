@@ -62,7 +62,7 @@ const PcGallery: React.FC<PhotoSource> = ({
       <Swiper
         spaceBetween={0}
         slidesPerView={3}
-        navigation={false} 
+        navigation={false}
         pagination={{ clickable: true }}
         direction="horizontal"
         className="mySwiper3"
@@ -70,7 +70,7 @@ const PcGallery: React.FC<PhotoSource> = ({
           swiperRef.current = swiper;
         }}
       >
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div className="dentist-card">
             <div className="button-image-container">
               <button className="doctor-btn" onClick={openModal}>
@@ -83,7 +83,7 @@ const PcGallery: React.FC<PhotoSource> = ({
               Врач стоматолог хирург-имплантолог-парадонтолог
             </p>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide>
           <div className="dentist-card">
             <div className="button-image-container">
@@ -122,8 +122,20 @@ const PcGallery: React.FC<PhotoSource> = ({
             <p className="doctor-position">Стоматолог-терапевт</p>
           </div>
         </SwiperSlide>
-
         <SwiperSlide>
+          <div className="dentist-card">
+            <div className="button-image-container">
+              <button className="doctor-btn" onClick={openModal}>
+                <span className="text">Записаться</span>
+              </button>
+              <img src={imageSrc6} alt="Doctor 1" className="doctor-image" />
+            </div>
+            <h3 className="doctor-name">Кузьминова Наталья Евгеньевна </h3>
+            <p className="doctor-position">Терапевт-Микроскопист-Эндодонтист</p>
+          </div>
+        </SwiperSlide>
+
+        {/* <SwiperSlide>
           <div className="dentist-card">
             <div className="button-image-container">
               <button className="doctor-btn" onClick={openModal}>
@@ -136,8 +148,8 @@ const PcGallery: React.FC<PhotoSource> = ({
               Врач Стоматолог-хирург-имплантолог{" "}
             </p>
           </div>
-        </SwiperSlide>
-        <SwiperSlide>
+        </SwiperSlide> */}
+        {/* <SwiperSlide>
           <div className="dentist-card">
             <div className="button-image-container">
               <button className="doctor-btn">
@@ -148,7 +160,7 @@ const PcGallery: React.FC<PhotoSource> = ({
             <h3 className="doctor-name">Алиева Садига Намиковна</h3>
             <p className="doctor-position">Врач Стоматолог Детский</p>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </div>
   );

@@ -77,7 +77,7 @@ const Gallery: React.FC<PhotoSource> = ({
           swiperRef.current = swiper;
         }}
       >
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div className="dentist-card-2">
             <div className="button-image-container">
               <button className="doctor-btn" onClick={openModal}>
@@ -94,7 +94,7 @@ const Gallery: React.FC<PhotoSource> = ({
               Врач стоматолог хирург-имплантолог-парадонтолог
             </p>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
 
         <SwiperSlide>
           <div className="dentist-card-2">
@@ -126,7 +126,6 @@ const Gallery: React.FC<PhotoSource> = ({
             <p className="doctor-position">Стоматолог терапевт-микроскопист</p>
           </div>
         </SwiperSlide>
-
         <SwiperSlide>
           <div className="dentist-card-2">
             <div className="button-image-container">
@@ -145,6 +144,18 @@ const Gallery: React.FC<PhotoSource> = ({
               <button className="doctor-btn" onClick={openModal}>
                 <span className="text">Записаться</span>
               </button>
+              <img src={imageSrcSix} alt="Doctor 3" className="doctor-image" />
+            </div>
+            <h3 className="doctor-name">Кузьминова Наталья Евгеньевна </h3>
+            <p className="doctor-position">Терапевт-Микроскопист-Эндодонтист</p>
+          </div>
+        </SwiperSlide>
+        {/* <SwiperSlide>
+          <div className="dentist-card-2">
+            <div className="button-image-container">
+              <button className="doctor-btn" onClick={openModal}>
+                <span className="text">Записаться</span>
+              </button>
               <img
                 src={imageSrcEight}
                 alt="Doctor 3"
@@ -156,8 +167,8 @@ const Gallery: React.FC<PhotoSource> = ({
               Врач Стоматолог-хирург-имплантолог
             </p>
           </div>
-        </SwiperSlide>
-        <SwiperSlide>
+        </SwiperSlide> */}
+        {/* <SwiperSlide>
           <div className="dentist-card-2">
             <div className="button-image-container">
               <button className="doctor-btn" onClick={openModal}>
@@ -168,7 +179,7 @@ const Gallery: React.FC<PhotoSource> = ({
             <h3 className="doctor-name">Алиева Садига Намиковна</h3>
             <p className="doctor-position">Врач Стоматолог Детский</p>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
       <div className="link-container">
         {/* <a href="" className="blue-link">
