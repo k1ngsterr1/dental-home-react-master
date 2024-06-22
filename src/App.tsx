@@ -2492,9 +2492,7 @@ export default function HomePage() {
               ></FontAwesomeIcon>
               <div className="modal-content">
                 <img className="logo" src={logoMobile} alt="logotype"></img>
-                <span className="text">
-                  Хотите получить бесплатную консультацию?
-                </span>
+                <span className="text">Записаться на консультацию</span>
                 <span className="additional-text">
                   Оставьте свой номер и мы перезвоним вам
                 </span>
