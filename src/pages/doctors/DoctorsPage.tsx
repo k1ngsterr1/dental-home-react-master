@@ -27,7 +27,7 @@ const DoctorTwoPc = require("../../assets/2.webp");
 const DoctorThreePc = require("../../assets/3.webp");
 const DoctorFourPc = require("../../assets/4.webp");
 const DoctorFivePc = require("../../assets/5.webp");
-const DoctorSixPc = require("../../assets/6.webp");
+const DoctorSixPc = require("../../assets/new_doctor.webp");
 const DoctorSevenPc = require("../../assets/7.webp");
 const DoctorEightPc = require("../../assets/8.webp");
 const DoctorNinePc = require("../../assets/9.webp");
@@ -40,12 +40,11 @@ const doctorTwoMob = require("../../assets/02.webp");
 const doctorThreeMob = require("../../assets/03.webp");
 const doctorFourMob = require("../../assets/04.webp");
 const doctorFiveMob = require("../../assets/05.webp");
-const doctorSixMob = require("../../assets/06.webp");
+const doctorSixMob = require("../../assets/new_doctor_mob.webp");
 const doctorSevenMob = require("../../assets/07.webp");
 const doctorEightMob = require("../../assets/08.webp");
 const doctorNineMob = require("../../assets/09.webp");
 const doctorTenMob = require("../../assets/yana_mob.webp");
-
 
 const logoMobile: string = require("../../assets/logo_mob.svg").default;
 const modalImage: string = require("../../assets/example_modal.webp");
