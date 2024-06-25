@@ -130,7 +130,7 @@ const PcGallery: React.FC<PhotoSource> = ({
               </button>
               <img src={imageSrc6} alt="Doctor 1" className="doctor-image" />
             </div>
-            <h3 className="doctor-name">Кузьминова Наталья Евгеньевна </h3>
+            <h3 className="doctor-name">Кузьминова Татьяна Евгеньевна </h3>
             <p className="doctor-position">Терапевт-Микроскопист-Эндодонтист</p>
           </div>
         </SwiperSlide>
