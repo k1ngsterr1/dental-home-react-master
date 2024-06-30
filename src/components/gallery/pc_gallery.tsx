@@ -134,8 +134,7 @@ const PcGallery: React.FC<PhotoSource> = ({
             <p className="doctor-position">Терапевт-Микроскопист-Эндодонтист</p>
           </div>
         </SwiperSlide>
-
-        {/* <SwiperSlide>
+        <SwiperSlide>
           <div className="dentist-card">
             <div className="button-image-container">
               <button className="doctor-btn" onClick={openModal}>
@@ -143,12 +142,10 @@ const PcGallery: React.FC<PhotoSource> = ({
               </button>
               <img src={imageSrc8} alt="Doctor 1" className="doctor-image" />
             </div>
-            <h3 className="doctor-name">Лебединский Алек Иванович</h3>
-            <p className="doctor-position">
-              Врач Стоматолог-хирург-имплантолог{" "}
-            </p>
+            <h3 className="doctor-name">Батыгина Марина Сергеевна</h3>
+            <p className="doctor-position">Гигиенист Стоматологический </p>
           </div>
-        </SwiperSlide> */}
+        </SwiperSlide>
         {/* <SwiperSlide>
           <div className="dentist-card">
             <div className="button-image-container">
