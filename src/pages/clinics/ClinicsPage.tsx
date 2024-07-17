@@ -32,26 +32,26 @@ import "./styles/clinics_styles.css";
 import { Helmet } from "react-helmet";
 
 const doctorOneMob = require("../../assets/01.webp");
-const doctorTwoMob = require("../../assets/02.webp");
+const doctorTwoMob = require("../../assets/marina_mob.webp");
 const doctorThreeMob = require("../../assets/03.webp");
-const doctorFourMob = require("../../assets/04.webp");
-const doctorFiveMob = require("../../assets/05.webp");
-const doctorSixMob = require("../../assets/new_doctor_mob.webp");
-const doctorSevenMob = require("../../assets/07.webp");
-const doctorEightMob = require("../../assets/08.webp");
-const doctorNineMob = require("../../assets/09.webp");
-const doctorTenMob = require("../../assets/yana_mob.webp");
+const doctorFourMob = require("../../assets/islam_mob.webp");
+const doctorFiveMob = require("../../assets/elena_mob.webp");
+const doctorSixMob = require("../../assets/tatyana_mob.webp");
+const doctorSevenMob = require("../../assets/marina_mob.webp");
+const doctorEightMob = require("../../assets/karen_mob.webp");
+const doctorNineMob = require("../../assets/marina_mob.webp");
+const doctorTenMob = require("../../assets/marina_mob.webp");
 const doctorElevenMob = require("../../assets/sadiga.webp");
 
 const doctorOnePc = require("../../assets/1.webp");
-const doctorTwoPc = require("../../assets/2.webp");
+const doctorTwoPc = require("../../assets/karen_pc.webp");
 const doctorThreePc = require("../../assets/3.webp");
-const doctorFourPc = require("../../assets/4.webp");
-const doctorFivePc = require("../../assets/5.webp");
-const doctorSixPc = require("../../assets/new_doctor.webp");
-const doctorSevenPc = require("../../assets/7.webp");
-const doctorEightPc = require("../../assets/8.webp");
-const doctorNinePc = require("../../assets/9.webp");
+const doctorFourPc = require("../../assets/islam_pc.webp");
+const doctorFivePc = require("../../assets/elena_pc.webp");
+const doctorSixPc = require("../../assets/tatyana_pc.webp");
+const doctorSevenPc = require("../../assets/marina_pc.webp");
+const doctorEightPc = require("../../assets/karen_pc.webp");
+const doctorNinePc = require("../../assets/karen_pc.webp");
 const doctorTenPc = require("../../assets/yana_pc.webp");
 const doctorElevenPc = require("../../assets/sadiga.webp");
 
@@ -909,8 +909,8 @@ const ClinicsPage = () => {
                   imageSrc5={doctorFivePc}
                   imageSrc6={doctorSixPc}
                   imageSrc7={doctorTenPc}
-                  imageSrc8={doctorEightPc}
-                  imageSrc9={doctorElevenPc}
+                  imageSrc8={doctorSevenPc}
+                  imageSrc9={doctorNinePc}
                 ></PcGallery>
               </div>
               <div

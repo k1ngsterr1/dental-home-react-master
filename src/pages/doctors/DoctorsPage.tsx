@@ -23,14 +23,14 @@ import "./styles/doctors_styles.css";
 import { Helmet } from "react-helmet";
 
 const DoctorOnePc = require("../../assets/1.webp");
-const DoctorTwoPc = require("../../assets/2.webp");
+const DoctorTwoPc = require("../../assets/karen_pc.webp");
 const DoctorThreePc = require("../../assets/3.webp");
-const DoctorFourPc = require("../../assets/4.webp");
-const DoctorFivePc = require("../../assets/5.webp");
-const DoctorSixPc = require("../../assets/new_doctor.webp");
-const DoctorSevenPc = require("../../assets/7.webp");
-const DoctorEightPc = require("../../assets/8.webp");
-const DoctorNinePc = require("../../assets/9.webp");
+const DoctorFourPc = require("../../assets/islam_pc.webp");
+const DoctorFivePc = require("../../assets/elena_pc.webp");
+const DoctorSixPc = require("../../assets/tatyana_pc.webp");
+const DoctorSevenPc = require("../../assets/marina_pc.webp");
+const DoctorEightPc = require("../../assets/karen_pc.webp");
+const DoctorNinePc = require("../../assets/karen_pc.webp");
 const doctorTen = require("../../assets/yana_pc.webp");
 const doctorEleven = require("../../assets/sadiga.webp");
 const doctorElevenMob = require("../../assets/sadiga_mob.webp");
@@ -38,11 +38,11 @@ const doctorElevenMob = require("../../assets/sadiga_mob.webp");
 const doctorOneMob = require("../../assets/01.webp");
 const doctorTwoMob = require("../../assets/02.webp");
 const doctorThreeMob = require("../../assets/03.webp");
-const doctorFourMob = require("../../assets/04.webp");
-const doctorFiveMob = require("../../assets/05.webp");
-const doctorSixMob = require("../../assets/new_doctor_mob.webp");
-const doctorSevenMob = require("../../assets/07.webp");
-const doctorEightMob = require("../../assets/08.webp");
+const doctorFourMob = require("../../assets/islam_mob.webp");
+const doctorFiveMob = require("../../assets/elena_mob.webp");
+const doctorSixMob = require("../../assets/tatyana_mob.webp");
+const doctorSevenMob = require("../../assets/marina_mob.webp");
+const doctorEightMob = require("../../assets/karen_mob.webp");
 const doctorNineMob = require("../../assets/09.webp");
 const doctorTenMob = require("../../assets/yana_mob.webp");
 
@@ -223,7 +223,7 @@ const DoctorsPage = () => {
                 imageSrcFour={doctorFourMob}
                 imageSrcFive={doctorFiveMob}
                 imageSrcSix={doctorSixMob}
-                imageSrcSeven={doctorTenMob}
+                imageSrcSeven={doctorSevenMob}
                 imageSrcEight={doctorEightMob}
                 imageSrcNine={doctorElevenMob}
               />
@@ -384,14 +384,15 @@ const DoctorsPage = () => {
               </div>
               <PcGallery
                 imageSrc={DoctorOnePc}
+                imageSrc2={DoctorTwoPc}
                 imageSrc3={DoctorThreePc}
                 openModal={openModal}
                 imageSrc4={DoctorFourPc}
                 imageSrc5={DoctorFivePc}
                 imageSrc6={DoctorSixPc}
-                imageSrc7={doctorTen}
-                imageSrc8={DoctorEightPc}
-                imageSrc9={doctorEleven}
+                imageSrc7={DoctorSevenPc}
+                imageSrc8={DoctorSevenPc}
+                imageSrc9={DoctorNinePc}
               ></PcGallery>
               <h2 className="heading text-center mt-5">
                 Профессиональные врачи-стоматологи Dental Home

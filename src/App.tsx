@@ -100,14 +100,14 @@ const servicesButton: string = require("./assets/service_button.svg").default;
 
 // Doctors
 const doctorOne = require("./assets/1.webp");
-const doctorTwo = require("./assets/2.webp");
+const doctorTwo = require("./assets/karen_pc.webp");
 const doctorThree = require("./assets/3.webp");
-const doctorFour = require("./assets/4.webp");
-const doctorFive = require("./assets/5.webp");
-const doctorSix = require("./assets/new_doctor.webp");
-const doctorSeven = require("./assets/7.webp");
+const doctorFour = require("./assets/islam_pc.webp");
+const doctorFive = require("./assets/elena_pc.webp");
+const doctorSix = require("./assets/tatyana_pc.webp");
+const doctorSeven = require("./assets/marina_pc.webp");
 const doctorEight = require("./assets/hygienist_pc.webp");
-const doctorNine = require("./assets/9.webp");
+const doctorNine = require("./assets/karen_pc.webp");
 const doctorTen = require("./assets/yana_pc.webp");
 const doctorEleven = require("./assets/sadiga.webp");
 
@@ -120,10 +120,10 @@ const galleryFivePicture = require("./assets/gallery_c05.webp");
 const doctorOneMob = require("./assets/01.webp");
 const doctorTwoMob = require("./assets/02.webp");
 const doctorThreeMob = require("./assets/03.webp");
-const doctorFourMob = require("./assets/04.webp");
-const doctorFiveMob = require("./assets/05.webp");
-const doctorSixMob = require("./assets/new_doctor_mob.webp");
-const doctorSevenMob = require("./assets/07.webp");
+const doctorFourMob = require("./assets/islam_mob.webp");
+const doctorFiveMob = require("./assets/elena_mob.webp");
+const doctorSixMob = require("./assets/tatyana_mob.webp");
+const doctorSevenMob = require("./assets/marina_mob.webp");
 const doctorEightMob = require("./assets/hygienist_mob.webp");
 const doctorNineMob = require("./assets/09.webp");
 const doctorTenMob = require("./assets/yana_mob.webp");
@@ -1962,7 +1962,7 @@ export default function HomePage() {
                 imageSrcFour={doctorFourMob}
                 imageSrcFive={doctorFiveMob}
                 imageSrcSix={doctorSixMob}
-                imageSrcSeven={doctorTenMob}
+                imageSrcSeven={doctorSevenMob}
                 imageSrcEight={doctorEightMob}
                 imageSrcNine={doctorElevenMob}
               />
@@ -1981,9 +1981,9 @@ export default function HomePage() {
                 imageSrc4={doctorFour}
                 imageSrc5={doctorFive}
                 imageSrc6={doctorSix}
-                imageSrc7={doctorTen}
+                imageSrc7={doctorSeven}
                 imageSrc8={doctorEight}
-                imageSrc9={doctorEleven}
+                imageSrc9={doctorNine}
                 openModal={openModal}
               />
               <div

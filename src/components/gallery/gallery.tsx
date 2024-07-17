@@ -26,6 +26,7 @@ interface PhotoSource {
   imageSrcSeven?: any;
   imageSrcEight?: any;
   imageSrcNine?: any;
+
   openModal?: any;
 }
 
@@ -77,25 +78,6 @@ const Gallery: React.FC<PhotoSource> = ({
           swiperRef.current = swiper;
         }}
       >
-        {/* <SwiperSlide>
-          <div className="dentist-card-2">
-            <div className="button-image-container">
-              <button className="doctor-btn" onClick={openModal}>
-                <span className="text">Записаться</span>
-              </button>
-              <img
-                src={imageSrcSeven}
-                alt="Doctor 3"
-                className="doctor-image"
-              />
-            </div>
-            <h3 className="doctor-name">Дербенцева Яна Сергеевна</h3>
-            <p className="doctor-position">
-              Врач стоматолог хирург-имплантолог-парадонтолог
-            </p>
-          </div>
-        </SwiperSlide> */}
-
         <SwiperSlide>
           <div className="dentist-card-2">
             <div className="button-image-container">
@@ -112,6 +94,36 @@ const Gallery: React.FC<PhotoSource> = ({
             <p className="doctor-position">
               Главный врач, врач-ортопед, врач-хирург,имплантолог{" "}
             </p>
+          </div>
+        </SwiperSlide>
+        {/* <SwiperSlide>
+          <div className="dentist-card-2">
+            <div className="button-image-container">
+              <button className="doctor-btn" onClick={openModal}>
+                <span className="text">Записаться</span>
+              </button>
+              <img src={imageSrcTwo} alt="Doctor 3" className="doctor-image" />
+            </div>
+            <h3 className="doctor-name">Тамаров Павел Сергеевич</h3>
+            <p className="doctor-position">
+              Главный врач, врач-ортопед, врач-хирург,имплантолог{" "}
+            </p>
+          </div>
+        </SwiperSlide> */}
+        <SwiperSlide>
+          <div className="dentist-card-2">
+            <div className="button-image-container">
+              <button className="doctor-btn" onClick={openModal}>
+                <span className="text">Записаться</span>
+              </button>
+              <img
+                src={imageSrcSeven}
+                alt="Doctor 3"
+                className="doctor-image"
+              />
+            </div>
+            <h3 className="doctor-name">Батыгина Марина Сергеевна</h3>
+            <p className="doctor-position">Гигиенист</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -162,8 +174,10 @@ const Gallery: React.FC<PhotoSource> = ({
                 className="doctor-image"
               />
             </div>
-            <h3 className="doctor-name">Лебединский Алек Иванович</h3>
-            <p className="doctor-position">Гигиенист Стоматологический </p>
+            <h3 className="doctor-name">Мхитарян Карен Мартиросович</h3>
+            <p className="doctor-position">
+              врач стоматолог . Хирург , имплантолог
+            </p>
           </div>
         </SwiperSlide>
         {/* <SwiperSlide>
@@ -174,8 +188,10 @@ const Gallery: React.FC<PhotoSource> = ({
               </button>
               <img src={imageSrcNine} alt="Doctor 3" className="doctor-image" />
             </div>
-            <h3 className="doctor-name">Алиева Садига Намиковна</h3>
-            <p className="doctor-position">Врач Стоматолог Детский</p>
+            <h3 className="doctor-name">Мхитарян Карен Мартиросович</h3>
+            <p className="doctor-position">
+              врач стоматолог . Хирург , имплантолог
+            </p>
           </div>
         </SwiperSlide> */}
       </Swiper>
