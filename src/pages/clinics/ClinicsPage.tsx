@@ -40,8 +40,8 @@ const doctorSixMob = require("../../assets/tatyana_mob.webp");
 const doctorSevenMob = require("../../assets/marina_mob.webp");
 const doctorEightMob = require("../../assets/karen_mob.webp");
 const doctorNineMob = require("../../assets/marina_mob.webp");
-const doctorTenMob = require("../../assets/marina_mob.webp");
-const doctorElevenMob = require("../../assets/sadiga.webp");
+const doctorTenMob = require("../../assets/evgenia_mob.webp");
+const doctorElevenMob = require("../../assets/marina_mob.webp");
 
 const doctorOnePc = require("../../assets/1.webp");
 const doctorTwoPc = require("../../assets/karen_pc.webp");
@@ -52,7 +52,7 @@ const doctorSixPc = require("../../assets/tatyana_pc.webp");
 const doctorSevenPc = require("../../assets/marina_pc.webp");
 const doctorEightPc = require("../../assets/karen_pc.webp");
 const doctorNinePc = require("../../assets/karen_pc.webp");
-const doctorTenPc = require("../../assets/yana_pc.webp");
+const doctorTenPc = require("../../assets/evgenia_mob.webp");
 const doctorElevenPc = require("../../assets/sadiga.webp");
 
 const featuresPhotoPc = require("../../assets/features_image.webp");

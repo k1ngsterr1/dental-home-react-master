@@ -105,8 +105,8 @@ const doctorThree = require("./assets/3.webp");
 const doctorFour = require("./assets/islam_pc.webp");
 const doctorFive = require("./assets/elena_pc.webp");
 const doctorSix = require("./assets/tatyana_pc.webp");
-const doctorSeven = require("./assets/marina_pc.webp");
-const doctorEight = require("./assets/hygienist_pc.webp");
+const doctorSeven = require("./assets/evgenia_pc.webp");
+const doctorEight = require("./assets/marina_pc.webp");
 const doctorNine = require("./assets/karen_pc.webp");
 const doctorTen = require("./assets/yana_pc.webp");
 const doctorEleven = require("./assets/sadiga.webp");
@@ -123,9 +123,9 @@ const doctorThreeMob = require("./assets/03.webp");
 const doctorFourMob = require("./assets/islam_mob.webp");
 const doctorFiveMob = require("./assets/elena_mob.webp");
 const doctorSixMob = require("./assets/tatyana_mob.webp");
-const doctorSevenMob = require("./assets/marina_mob.webp");
-const doctorEightMob = require("./assets/hygienist_mob.webp");
-const doctorNineMob = require("./assets/09.webp");
+const doctorSevenMob = require("./assets/evgenia_mob.webp");
+const doctorEightMob = require("./assets/karen_mob.webp");
+const doctorNineMob = require("./assets/marina_mob.webp");
 const doctorTenMob = require("./assets/yana_mob.webp");
 const doctorElevenMob = require("./assets/sadiga_mob.webp");
 
@@ -1964,7 +1964,7 @@ export default function HomePage() {
                 imageSrcSix={doctorSixMob}
                 imageSrcSeven={doctorSevenMob}
                 imageSrcEight={doctorEightMob}
-                imageSrcNine={doctorElevenMob}
+                imageSrcNine={doctorNineMob}
               />
             </section>
           </div>

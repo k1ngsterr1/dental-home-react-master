@@ -116,11 +116,7 @@ const Gallery: React.FC<PhotoSource> = ({
               <button className="doctor-btn" onClick={openModal}>
                 <span className="text">Записаться</span>
               </button>
-              <img
-                src={imageSrcSeven}
-                alt="Doctor 3"
-                className="doctor-image"
-              />
+              <img src={imageSrcNine} alt="Doctor 3" className="doctor-image" />
             </div>
             <h3 className="doctor-name">Батыгина Марина Сергеевна</h3>
             <p className="doctor-position">Гигиенист</p>
@@ -160,6 +156,22 @@ const Gallery: React.FC<PhotoSource> = ({
             </div>
             <h3 className="doctor-name">Кузьминова Татьяна Евгеньевна </h3>
             <p className="doctor-position">Терапевт-Микроскопист-Эндодонтист</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="dentist-card-2">
+            <div className="button-image-container">
+              <button className="doctor-btn" onClick={openModal}>
+                <span className="text">Записаться</span>
+              </button>
+              <img
+                src={imageSrcSeven}
+                alt="Doctor 3"
+                className="doctor-image"
+              />
+            </div>
+            <h3 className="doctor-name">Коптева Евгения Александровна</h3>
+            <p className="doctor-position">Гигиенист</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>

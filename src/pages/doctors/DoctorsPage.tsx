@@ -28,12 +28,12 @@ const DoctorThreePc = require("../../assets/3.webp");
 const DoctorFourPc = require("../../assets/islam_pc.webp");
 const DoctorFivePc = require("../../assets/elena_pc.webp");
 const DoctorSixPc = require("../../assets/tatyana_pc.webp");
-const DoctorSevenPc = require("../../assets/marina_pc.webp");
-const DoctorEightPc = require("../../assets/karen_pc.webp");
+const DoctorSevenPc = require("../../assets/evgenia_pc.webp");
+const DoctorEightPc = require("../../assets/marina_pc.webp");
 const DoctorNinePc = require("../../assets/karen_pc.webp");
-const doctorTen = require("../../assets/yana_pc.webp");
+const doctorTen = require("../../assets/evgenia_pc.webp");
 const doctorEleven = require("../../assets/sadiga.webp");
-const doctorElevenMob = require("../../assets/sadiga_mob.webp");
+const doctorElevenMob = require("../../assets/marina_mob.webp");
 
 const doctorOneMob = require("../../assets/01.webp");
 const doctorTwoMob = require("../../assets/02.webp");
@@ -43,7 +43,7 @@ const doctorFiveMob = require("../../assets/elena_mob.webp");
 const doctorSixMob = require("../../assets/tatyana_mob.webp");
 const doctorSevenMob = require("../../assets/marina_mob.webp");
 const doctorEightMob = require("../../assets/karen_mob.webp");
-const doctorNineMob = require("../../assets/09.webp");
+const doctorNineMob = require("../../assets/evgenia_mob.webp");
 const doctorTenMob = require("../../assets/yana_mob.webp");
 
 const logoMobile: string = require("../../assets/logo_mob.svg").default;
@@ -223,7 +223,7 @@ const DoctorsPage = () => {
                 imageSrcFour={doctorFourMob}
                 imageSrcFive={doctorFiveMob}
                 imageSrcSix={doctorSixMob}
-                imageSrcSeven={doctorSevenMob}
+                imageSrcSeven={doctorNineMob}
                 imageSrcEight={doctorEightMob}
                 imageSrcNine={doctorElevenMob}
               />
@@ -391,7 +391,7 @@ const DoctorsPage = () => {
                 imageSrc5={DoctorFivePc}
                 imageSrc6={DoctorSixPc}
                 imageSrc7={DoctorSevenPc}
-                imageSrc8={DoctorSevenPc}
+                imageSrc8={DoctorEightPc}
                 imageSrc9={DoctorNinePc}
               ></PcGallery>
               <h2 className="heading text-center mt-5">
