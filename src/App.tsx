@@ -264,6 +264,7 @@ export default function HomePage() {
   const [isWhiteningOpened, setWhiteningOpen] = useState(false);
   const [isMouthHygieneOpened, setMouthHygieneOpen] = useState(false);
   const [isHealingInSleepOpened, setHealingInSleepOpen] = useState(false);
+  const [isSurgeryOpened, setSurgeryOpened] = useState(false);
   const [isVinirsOpened, setVinirsOpen] = useState(false);
   const [isParodontHealingOpened, setParodontHealingOpen] = useState(false);
   const [isProthesisOpened, setProthesisOpen] = useState(false);
@@ -333,6 +334,8 @@ export default function HomePage() {
     setVinirsOpen(false);
     setProthesisOpen(false);
     setDiagnosisOpen(false);
+    setSurgeryOpened(false);
+
     setTeethHealSleepOpened(false);
   };
 
@@ -347,6 +350,7 @@ export default function HomePage() {
     setProthesisOpen(false);
     setDiagnosisOpen(false);
     setTeethHealSleepOpened(false);
+    setSurgeryOpened(false);
   };
 
   const whiteningExpansion = () => {
@@ -358,6 +362,8 @@ export default function HomePage() {
     setParodontHealingOpen(false);
     setVinirsOpen(false);
     setProthesisOpen(false);
+    setSurgeryOpened(false);
+
     setDiagnosisOpen(false);
     setTeethHealSleepOpened(false);
   };
@@ -373,6 +379,7 @@ export default function HomePage() {
     setProthesisOpen(false);
     setDiagnosisOpen(false);
     setTeethHealSleepOpened(false);
+    setSurgeryOpened(false);
   };
 
   const healingInSleepExpansion = () => {
@@ -380,10 +387,12 @@ export default function HomePage() {
     setToothHealingOpen(false);
     setWhiteningOpen(false);
     setMouthHygieneOpen(false);
-    setHealingInSleepOpen(!isHealingInSleepOpened);
+    setHealingInSleepOpen(!isSurgeryOpened);
     setParodontHealingOpen(false);
     setVinirsOpen(false);
     setProthesisOpen(false);
+    setSurgeryOpened(false);
+
     setDiagnosisOpen(false);
   };
 
@@ -398,6 +407,7 @@ export default function HomePage() {
     setProthesisOpen(false);
     setDiagnosisOpen(false);
     setTeethHealSleepOpened(false);
+    setSurgeryOpened(false);
   };
 
   const vinirExpansion = () => {
@@ -410,6 +420,8 @@ export default function HomePage() {
     setVinirsOpen(!isVinirsOpened);
     setProthesisOpen(false);
     setDiagnosisOpen(false);
+    setSurgeryOpened(false);
+
     setTeethHealSleepOpened(false);
   };
 
@@ -422,6 +434,8 @@ export default function HomePage() {
     setParodontHealingOpen(false);
     setProthesisOpen(!isProthesisOpened);
     setDiagnosisOpen(false);
+    setSurgeryOpened(false);
+
     setTeethHealSleepOpened(false);
   };
 
@@ -435,6 +449,7 @@ export default function HomePage() {
     setProthesisOpen(false);
     setDiagnosisOpen(false);
     setTeethHealSleepOpened(!isTeethSleepOpened);
+    setSurgeryOpened(false);
   };
 
   const diagnosisExpansion = () => {
@@ -445,6 +460,7 @@ export default function HomePage() {
     setParodontHealingOpen(false);
     setProthesisOpen(false);
     setDiagnosisOpen(!isDiagnosisOpened);
+    setSurgeryOpened(false);
   };
 
   const customAnimation = keyframes`
@@ -1247,18 +1263,18 @@ export default function HomePage() {
                   <div className="btn-content">
                     <span
                       className={
-                        isHealingInSleepOpened ? "text-active" : "text-inactive"
+                        isSurgeryOpened ? "text-active" : "text-inactive"
                       }
                     >
                       Хирургия
                     </span>
                     <FontAwesomeIcon
-                      icon={isHealingInSleepOpened ? faMinus : faPlus}
+                      icon={isSurgeryOpened ? faMinus : faPlus}
                       className="golden-icon"
                     />
                   </div>
                 </button>
-                {isHealingInSleepOpened && (
+                {isSurgeryOpened && (
                   <ExpandedTab
                     service_text="Хирургия"
                     link_text="Хирургия"

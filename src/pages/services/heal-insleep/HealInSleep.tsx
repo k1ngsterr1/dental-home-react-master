@@ -43,26 +43,31 @@ const pavelGalleryPc = require("../../../assets/pavel_pc.webp");
 
 const mainService = require("../../../assets/service_pc.webp");
 
-const doctorOne = require("../../../assets/1.webp");
-const doctorTwo = require("../../../assets/2.webp");
-const doctorThree = require("../../../assets/3.webp");
-const doctorFour = require("../../../assets/4.webp");
-const doctorFive = require("../../../assets/5.webp");
-const doctorSix = require("../../../assets/6.webp");
-const doctorSeven = require("../../../assets/7.webp");
-const doctorEight = require("../../../assets/8.webp");
-const doctorNine = require("../../../assets/9.webp");
+const doctorOnePc = require("../../../assets/1.webp");
+const doctorTwoPc = require("../../../assets/karen_pc.webp");
+const doctorThreePc = require("../../../assets/3.webp");
+const doctorFourPc = require("../../../assets/islam_pc.webp");
+const doctorFivePc = require("../../../assets/elena_pc.webp");
+const doctorSixPc = require("../../../assets/tatyana_pc.webp");
+const doctorSevenPc = require("../../../assets/marina_pc.webp");
+const doctorEightPc = require("../../../assets/karen_pc.webp");
+const doctorNinePc = require("../../../assets/karen_pc.webp");
+const doctorTenPc = require("../../../assets/evgenia_mob.webp");
+const doctorElevenPc = require("../../../assets/sadiga.webp");
+
 const modalImage = require("../../../assets/example_modal.webp");
 
 const doctorOneMob = require("../../../assets/01.webp");
-const doctorTwoMob = require("../../../assets/02.webp");
+const doctorTwoMob = require("../../../assets/marina_mob.webp");
 const doctorThreeMob = require("../../../assets/03.webp");
-const doctorFourMob = require("../../../assets/04.webp");
-const doctorFiveMob = require("../../../assets/05.webp");
-const doctorSixMob = require("../../../assets/06.webp");
-const doctorSevenMob = require("../../../assets/07.webp");
-const doctorEightMob = require("../../../assets/08.webp");
-const doctorNineMob = require("../../../assets/09.webp");
+const doctorFourMob = require("../../../assets/islam_mob.webp");
+const doctorFiveMob = require("../../../assets/elena_mob.webp");
+const doctorSixMob = require("../../../assets/tatyana_mob.webp");
+const doctorSevenMob = require("../../../assets/marina_mob.webp");
+const doctorEightMob = require("../../../assets/karen_mob.webp");
+const doctorNineMob = require("../../../assets/marina_mob.webp");
+const doctorTenMob = require("../../../assets/evgenia_mob.webp");
+const doctorElevenMob = require("../../../assets/marina_mob.webp");
 
 const serviceOnePc = require("../../../assets/service_1.webp");
 const serviceTwoPc = require("../../../assets/service_2.webp");
@@ -77,12 +82,6 @@ const serviceFourMob = require("../../../assets/service_mob_04.webp");
 const hygienePc = require("../../../assets/teeth-in-sleep.webp");
 
 const logoMobile: string = require("../../../assets/logo_mob.svg").default;
-
-const doctorTen = require("../../../assets/yana_pc.webp");
-const doctorTenMob = require("../../../assets/yana_mob.webp");
-
-const doctorEleven = require("../../../assets/sadiga.webp");
-const doctorElevenMob = require("../../../assets/sadiga_mob.webp");
 
 const HealInSleep = () => {
   const [thankYou, setThankYou] = useState(false);
@@ -342,14 +341,14 @@ const HealInSleep = () => {
                 <div className="divider"></div>
                 <Gallery
                   imageSrc={doctorOneMob}
-                  // imageSrcTwo={doctorTwoMob}
+                  imageSrcTwo={doctorTwoMob}
                   imageSrcThree={doctorThreeMob}
+                  openModal={openModal}
                   imageSrcFour={doctorFourMob}
                   imageSrcFive={doctorFiveMob}
                   imageSrcSix={doctorSixMob}
                   imageSrcSeven={doctorTenMob}
                   imageSrcEight={doctorEightMob}
-                  openModal={openModal}
                   imageSrcNine={doctorElevenMob}
                 />
               </div>
@@ -617,16 +616,15 @@ const HealInSleep = () => {
                 }}
               >
                 <PcGallery
-                  imageSrc={doctorOne}
-                  // imageSrc2={doctorTwo}
-                  openModal={openModal}
-                  imageSrc3={doctorThree}
-                  imageSrc4={doctorFour}
-                  imageSrc5={doctorFive}
-                  imageSrc6={doctorSix}
-                  imageSrc7={doctorTen}
-                  imageSrc8={doctorEight}
-                  imageSrc9={doctorEleven}
+                  imageSrc={doctorOnePc}
+                  imageSrc2={doctorTwoPc}
+                  imageSrc3={doctorThreePc}
+                  imageSrc4={doctorFourPc}
+                  imageSrc5={doctorFivePc}
+                  imageSrc6={doctorSixPc}
+                  imageSrc7={doctorTenPc}
+                  imageSrc8={doctorSevenPc}
+                  imageSrc9={doctorNinePc}
                 />
                 <div
                   className="gallery"
