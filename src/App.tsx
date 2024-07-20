@@ -387,12 +387,25 @@ export default function HomePage() {
     setToothHealingOpen(false);
     setWhiteningOpen(false);
     setMouthHygieneOpen(false);
-    setHealingInSleepOpen(!isSurgeryOpened);
+    setHealingInSleepOpen(!isHealingInSleepOpened);
     setParodontHealingOpen(false);
     setVinirsOpen(false);
     setProthesisOpen(false);
     setSurgeryOpened(false);
 
+    setDiagnosisOpen(false);
+  };
+
+  const surgeryExpansion = () => {
+    setToothHealOpen(false);
+    setToothHealingOpen(false);
+    setWhiteningOpen(false);
+    setMouthHygieneOpen(false);
+    setSurgeryOpened(!isSurgeryOpened);
+    setParodontHealingOpen(false);
+    setVinirsOpen(false);
+    setProthesisOpen(false);
+    setHealingInSleepOpen(false);
     setDiagnosisOpen(false);
   };
 
@@ -1258,7 +1271,7 @@ export default function HomePage() {
                     href_5="/services/zoom-whitening"
                   />
                 )}
-                <button onClick={healingInSleepExpansion} className="btn">
+                <button onClick={surgeryExpansion} className="btn">
                   {" "}
                   <div className="btn-content">
                     <span
