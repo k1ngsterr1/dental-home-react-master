@@ -1880,7 +1880,11 @@ body .video-modal .phone-btn .icon {
     height: 100% !important;
   }
   body .modal .gold-cross {
-    display: none;
+    width: clamp(32px, 3.33312vw, 128px);
+    font-size: clamp(16px, 1.66656vw, 64px);
+    color: #E8CB6C;
+    z-index: 10000;
+    display: flex !important;
   }
   body .modal .modal-content {
     width: 90%;

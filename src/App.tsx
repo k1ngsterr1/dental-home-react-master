@@ -278,6 +278,9 @@ export default function HomePage() {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [serviceName, setServiceName] = useState("");
   const [doctorName, setDoctorName] = useState("");
+  const [bookDate, setBookDate] = useState("");
+  const [bookTime, setBookTime] = useState("");
+  const [visitGoal, setVisitGoal] = useState("");
   const [comment, setComment] = useState("");
 
   const form: RefObject<HTMLDivElement> = useRef(null);
@@ -598,7 +601,7 @@ export default function HomePage() {
 
     const timer = setTimeout(() => {
       setOpen(true);
-    }, 7000);
+    }, 90000);
 
     window.addEventListener("scroll", handleScroll);
 
@@ -2313,14 +2316,54 @@ export default function HomePage() {
                 <div className="row-c"></div>
                 <div className="row-c">
                   <div className="input-container services">
-                    <span className="text">Врач</span>
+                    <span className="text">Фамилия врача</span>
                     <input
                       type="text"
-                      placeholder="Выберите Врача"
+                      placeholder="Фамилия врача"
                       required={true}
                       value={doctorName}
                       name="doctorName"
                       onChange={(event) => setDoctorName(event.target.value)}
+                      className="input-s"
+                    />
+                  </div>
+                </div>
+                <div className="row-c">
+                  <div className="input-container services">
+                    <span className="text">Дата приема</span>
+                    <input
+                      type="text"
+                      placeholder="Дата приема"
+                      // ! поменять на bookDate
+                      value={bookDate}
+                      name="bookDate"
+                      onChange={(event) => setBookDate(event.target.value)}
+                      className="input-s"
+                    />
+                  </div>
+                </div>
+                <div className="row-c">
+                  <div className="input-container services">
+                    <span className="text">Время приема</span>
+                    <input
+                      type="text"
+                      placeholder="Время приема"
+                      value={bookTime}
+                      name="bookTime"
+                      onChange={(event) => setBookTime(event.target.value)}
+                      className="input-s"
+                    />
+                  </div>
+                </div>
+                <div className="row-c">
+                  <div className="input-container services">
+                    <span className="text">Цель визита</span>
+                    <input
+                      type="text"
+                      placeholder="Цель визита"
+                      value={visitGoal}
+                      name="visitGoal"
+                      onChange={(event) => setVisitGoal(event.target.value)}
                       className="input-s"
                     />
                   </div>
@@ -2424,6 +2467,7 @@ export default function HomePage() {
                     className="input-text"
                   />
                 </div>
+
                 {/* <div className="input-container">
                     <label htmlFor="direction" className="la">
                       Направление
@@ -2437,14 +2481,53 @@ export default function HomePage() {
                   </div> */}
                 <div className="input-container">
                   <label htmlFor="doctor" className="la">
-                    Врач
+                    Фамилия врача
                   </label>
                   <input
                     type="text"
                     name="doctorName"
                     value={doctorName}
                     onChange={(event) => setDoctorName(event.target.value)}
-                    placeholder="Выберите Врача"
+                    placeholder="Фамилия врача"
+                    className="input-text"
+                  />
+                </div>
+                <div className="input-container">
+                  <label htmlFor="service" className="la">
+                    Дата приема
+                  </label>
+                  <input
+                    type="text"
+                    value={bookDate}
+                    onChange={(event) => setBookDate(event.target.value)}
+                    name="bookDate"
+                    placeholder="Дата приема"
+                    className="input-text"
+                  />
+                </div>
+                <div className="input-container">
+                  <label htmlFor="service" className="la">
+                    Время приема
+                  </label>
+                  <input
+                    type="text"
+                    value={bookTime}
+                    onChange={(event) => setBookDate(event.target.value)}
+                    name="bookTime"
+                    placeholder="Время приема"
+                    className="input-text"
+                  />
+                </div>
+                <div className="input-container">
+                  <label htmlFor="service" className="la">
+                    Цель визита
+                  </label>
+                  <input
+                    type="text"
+                    value={visitGoal}
+                    onChange={(event) => setVisitGoal(event.target.value)}
+                    name="visitGoal"
+                    placeholder="Время приема"
                     className="input-text"
                   />
                 </div>
