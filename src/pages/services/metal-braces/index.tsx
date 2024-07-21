@@ -86,6 +86,9 @@ const MetalBracesPage = () => {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [serviceName, setServiceName] = useState("");
   const [doctorName, setDoctorName] = useState("");
+  const [bookDate, setBookDate] = useState("");
+  const [bookTime, setBookTime] = useState("");
+  const [visitGoal, setVisitGoal] = useState("");
   const [comment, setComment] = useState("");
 
   const form: RefObject<HTMLDivElement> = useRef(null);
@@ -1246,104 +1249,150 @@ const MetalBracesPage = () => {
                       <h5 className="heading">Записаться На Прием</h5>
                     </div>
                     <div className="divider"></div>
-                    <form action="" className="form-content">
-                      <div className="row-c">
-                        <div className="input-container">
-                          <span className="text">Имя*</span>
-                          <input
-                            type="text"
-                            className="input-c"
-                            required={true}
-                            value={fullName}
-                            name="fullName"
-                            onChange={(event) =>
-                              setFullName(event.target.value)
-                            }
-                            placeholder="Иван Иванов"
-                          />
-                        </div>
-                        <div className="input-container">
-                          <span className="text">Телефон*</span>
-                          <input
-                            type="text"
-                            className="input-c"
-                            required={true}
-                            value={phoneNumber}
-                            name="phoneNumber"
-                            onChange={(event) =>
-                              setPhoneNumber(event.target.value)
-                            }
-                            placeholder="+7 (925) 222-90-22"
-                          />
-                        </div>
+                    <form action="" className="form">
+                      <div className="input-container">
+                        <label htmlFor="name" className="la">
+                          Имя*
+                        </label>
+                        <input
+                          type="text"
+                          required={true}
+                          value={fullName}
+                          name="fullName"
+                          onChange={(event) => setFullName(event.target.value)}
+                          className="input-text"
+                          placeholder="Иван Иванов"
+                        />
                       </div>
-                      <div className="row-c">
-                        <div className="input-container services">
-                          <span className="text">Услуга</span>
-                          <input
-                            type="text"
-                            placeholder="Выберите Услугу"
-                            required={true}
-                            value={serviceName}
-                            name="serviceName"
-                            onChange={(event) =>
-                              setServiceName(event.target.value)
-                            }
-                            className="input-s"
-                          />
-                        </div>
+                      <div className="input-container">
+                        <label htmlFor="phone" className="la">
+                          Номер телефона*
+                        </label>
+                        <input
+                          type="tel"
+                          value={phoneNumber}
+                          onChange={(event) =>
+                            setPhoneNumber(event.target.value)
+                          }
+                          name="phoneNumber"
+                          className="input-text"
+                          placeholder="+7 (991) 779-39-95"
+                        />
                       </div>
-                      <div className="row-c"></div>
-                      <div className="row-c">
-                        <div className="input-container services">
-                          <span className="text">Врач</span>
-                          <input
-                            type="text"
-                            placeholder="Выберите Врача"
-                            required={true}
-                            value={doctorName}
-                            name="doctorName"
-                            onChange={(event) =>
-                              setDoctorName(event.target.value)
-                            }
-                            className="input-s"
-                          />
-                        </div>
+                      <div className="input-container">
+                        <label htmlFor="service" className="la">
+                          Услуга
+                        </label>
+                        <input
+                          type="text"
+                          value={serviceName}
+                          onChange={(event) =>
+                            setServiceName(event.target.value)
+                          }
+                          name="serviceName"
+                          placeholder="Выберите Услугу"
+                          className="input-text"
+                        />
                       </div>
-                      <div className="row-c">
-                        <div className="input-container services">
-                          <span className="text">Комментарий</span>
-                          <textarea
-                            className="comment"
-                            name="comment"
-                            value={comment}
-                            onChange={(event) => setComment(event.target.value)}
-                          />
-                        </div>
+
+                      {/* <div className="input-container">
+                    <label htmlFor="direction" className="la">
+                      Направление
+                    </label>
+                    <input
+                      type="text"
+                      name="direction"
+                      placeholder="Выберите Направление"
+                      className="input-text"
+                    />
+                  </div> */}
+                      <div className="input-container">
+                        <label htmlFor="doctor" className="la">
+                          Фамилия врача
+                        </label>
+                        <input
+                          type="text"
+                          name="doctorName"
+                          value={doctorName}
+                          onChange={(event) =>
+                            setDoctorName(event.target.value)
+                          }
+                          placeholder="Фамилия врача"
+                          className="input-text"
+                        />
+                      </div>
+                      <div className="input-container">
+                        <label htmlFor="service" className="la">
+                          Дата приема
+                        </label>
+                        <input
+                          type="text"
+                          value={bookDate}
+                          onChange={(event) => setBookDate(event.target.value)}
+                          name="bookDate"
+                          placeholder="Дата приема"
+                          className="input-text"
+                        />
+                      </div>
+                      <div className="input-container">
+                        <label htmlFor="service" className="la">
+                          Время приема
+                        </label>
+                        <input
+                          type="text"
+                          value={bookTime}
+                          onChange={(event) => setBookDate(event.target.value)}
+                          name="bookTime"
+                          placeholder="Время приема"
+                          className="input-text"
+                        />
+                      </div>
+                      <div className="input-container">
+                        <label htmlFor="service" className="la">
+                          Цель визита
+                        </label>
+                        <input
+                          type="text"
+                          value={visitGoal}
+                          onChange={(event) => setVisitGoal(event.target.value)}
+                          name="visitGoal"
+                          placeholder="Время приема"
+                          className="input-text"
+                        />
+                      </div>
+                      <div className="input-container">
+                        <label htmlFor="comment" className="la">
+                          Комментарий
+                        </label>
+                        <textarea
+                          name="comment"
+                          value={comment}
+                          onChange={(event) => setComment(event.target.value)}
+                          className="comment"
+                        ></textarea>
                       </div>
                       <div className="checkbox-container">
-                        <div className="check-row">
-                          <input type="checkbox" className="checkbox" />
-                          <span className="text">
-                            Ознакомлен с Условиями обработки персональных данных
-                          </span>
+                        <div className="checkbox-container-2">
+                          <MDBCheckbox
+                            name="flexCheck"
+                            value=""
+                            id="flexCheckChecked"
+                            label="Ознакомлен с Условиями обработки персональных данных"
+                            defaultChecked
+                          />
                         </div>
-                        <button
-                          className="golden-btn"
-                          value="Send"
-                          onClick={() => console.log(form)}
-                        >
-                          Записаться на прием
-                          <FontAwesomeIcon
-                            icon={faChevronRight}
-                            className="icon"
-                            style={{
-                              fontSize: "clamp(6px,0.62496vw,24px)",
-                              marginLeft: "clamp(4px,0.41664vw,16px)",
-                            }}
-                          ></FontAwesomeIcon>
-                        </button>
                       </div>
+                      <button className="form-button" value="Send">
+                        Записаться на прием
+                        <FontAwesomeIcon
+                          className="icon"
+                          icon={faChevronRight}
+                          style={{
+                            fontSize: "clamp(7px,3.2709599999999996vw,28px",
+                            marginLeft: "clamp(4px,1.86912vw,16px)",
+                          }}
+                        ></FontAwesomeIcon>
+                      </button>
                     </form>
                   </section>
                 </div>

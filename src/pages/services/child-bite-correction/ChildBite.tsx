@@ -91,8 +91,10 @@ const ChildBiteCorrection = () => {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [serviceName, setServiceName] = useState("");
   const [doctorName, setDoctorName] = useState("");
+  const [bookDate, setBookDate] = useState("");
+  const [bookTime, setBookTime] = useState("");
+  const [visitGoal, setVisitGoal] = useState("");
   const [comment, setComment] = useState("");
-
   function openPopupWindow() {
     setOpen(true);
   }

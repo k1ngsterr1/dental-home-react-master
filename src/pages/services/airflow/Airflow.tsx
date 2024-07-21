@@ -551,7 +551,7 @@ const AirFlow = () => {
                         <input
                           type="text"
                           value={bookTime}
-                          onChange={(event) => setBookDate(event.target.value)}
+                          onChange={(event) => setBookTime(event.target.value)}
                           name="bookTime"
                           placeholder="Время приема"
                           className="input-text"

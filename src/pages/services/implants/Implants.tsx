@@ -91,6 +91,9 @@ const ImplantsPage = () => {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [serviceName, setServiceName] = useState("");
   const [doctorName, setDoctorName] = useState("");
+  const [bookDate, setBookDate] = useState("");
+  const [bookTime, setBookTime] = useState("");
+  const [visitGoal, setVisitGoal] = useState("");
   const [comment, setComment] = useState("");
 
   const form: RefObject<HTMLDivElement> = useRef(null);
@@ -798,7 +801,7 @@ const ImplantsPage = () => {
                           }
                           name="phoneNumber"
                           className="input-text"
-                          placeholder="+7 (925) 222-90-22"
+                          placeholder="+7 (991) 779-39-95"
                         />
                       </div>
                       <div className="input-container">
@@ -816,6 +819,7 @@ const ImplantsPage = () => {
                           className="input-text"
                         />
                       </div>
+
                       {/* <div className="input-container">
                     <label htmlFor="direction" className="la">
                       Направление
@@ -829,7 +833,7 @@ const ImplantsPage = () => {
                   </div> */}
                       <div className="input-container">
                         <label htmlFor="doctor" className="la">
-                          Врач
+                          Фамилия врача
                         </label>
                         <input
                           type="text"
@@ -838,7 +842,46 @@ const ImplantsPage = () => {
                           onChange={(event) =>
                             setDoctorName(event.target.value)
                           }
-                          placeholder="Выберите Врача"
+                          placeholder="Фамилия врача"
+                          className="input-text"
+                        />
+                      </div>
+                      <div className="input-container">
+                        <label htmlFor="service" className="la">
+                          Дата приема
+                        </label>
+                        <input
+                          type="text"
+                          value={bookDate}
+                          onChange={(event) => setBookDate(event.target.value)}
+                          name="bookDate"
+                          placeholder="Дата приема"
+                          className="input-text"
+                        />
+                      </div>
+                      <div className="input-container">
+                        <label htmlFor="service" className="la">
+                          Время приема
+                        </label>
+                        <input
+                          type="text"
+                          value={bookTime}
+                          onChange={(event) => setBookDate(event.target.value)}
+                          name="bookTime"
+                          placeholder="Время приема"
+                          className="input-text"
+                        />
+                      </div>
+                      <div className="input-container">
+                        <label htmlFor="service" className="la">
+                          Цель визита
+                        </label>
+                        <input
+                          type="text"
+                          value={visitGoal}
+                          onChange={(event) => setVisitGoal(event.target.value)}
+                          name="visitGoal"
+                          placeholder="Время приема"
                           className="input-text"
                         />
                       </div>
@@ -864,7 +907,7 @@ const ImplantsPage = () => {
                           />
                         </div>
                       </div>
-                      <button className="form-button" onClick={sendEmail}>
+                      <button className="form-button" value="Send">
                         Записаться на прием
                         <FontAwesomeIcon
                           className="icon"
@@ -1462,7 +1505,7 @@ const ImplantsPage = () => {
                             onChange={(event) =>
                               setPhoneNumber(event.target.value)
                             }
-                            placeholder="+7 (925) 222-90-22"
+                            placeholder="+7 (991) 779-39-95"
                           />
                         </div>
                       </div>
@@ -1485,15 +1528,61 @@ const ImplantsPage = () => {
                       <div className="row-c"></div>
                       <div className="row-c">
                         <div className="input-container services">
-                          <span className="text">Врач</span>
+                          <span className="text">Фамилия врача</span>
                           <input
                             type="text"
-                            placeholder="Выберите Врача"
+                            placeholder="Фамилия врача"
                             required={true}
                             value={doctorName}
                             name="doctorName"
                             onChange={(event) =>
                               setDoctorName(event.target.value)
+                            }
+                            className="input-s"
+                          />
+                        </div>
+                      </div>
+                      <div className="row-c">
+                        <div className="input-container services">
+                          <span className="text">Дата приема</span>
+                          <input
+                            type="text"
+                            placeholder="Дата приема"
+                            // ! поменять на bookDate
+                            value={bookDate}
+                            name="bookDate"
+                            onChange={(event) =>
+                              setBookDate(event.target.value)
+                            }
+                            className="input-s"
+                          />
+                        </div>
+                      </div>
+                      <div className="row-c">
+                        <div className="input-container services">
+                          <span className="text">Время приема</span>
+                          <input
+                            type="text"
+                            placeholder="Время приема"
+                            value={bookTime}
+                            name="bookTime"
+                            onChange={(event) =>
+                              setBookTime(event.target.value)
+                            }
+                            className="input-s"
+                          />
+                        </div>
+                      </div>
+                      <div className="row-c">
+                        <div className="input-container services">
+                          <span className="text">Цель визита</span>
+                          <input
+                            type="text"
+                            placeholder="Цель визита"
+                            value={visitGoal}
+                            name="visitGoal"
+                            onChange={(event) =>
+                              setVisitGoal(event.target.value)
                             }
                             className="input-s"
                           />
@@ -1517,11 +1606,7 @@ const ImplantsPage = () => {
                             Ознакомлен с Условиями обработки персональных данных
                           </span>
                         </div>
-                        <button
-                          className="golden-btn"
-                          value="Send"
-                          onClick={() => console.log(form)}
-                        >
+                        <button className="golden-btn" value="Send">
                           Записаться на прием
                           <FontAwesomeIcon
                             icon={faChevronRight}

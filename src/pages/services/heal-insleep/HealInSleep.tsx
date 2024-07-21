@@ -143,6 +143,9 @@ const HealInSleep = () => {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [serviceName, setServiceName] = useState("");
   const [doctorName, setDoctorName] = useState("");
+  const [bookDate, setBookDate] = useState("");
+  const [bookTime, setBookTime] = useState("");
+  const [visitGoal, setVisitGoal] = useState("");
   const [comment, setComment] = useState("");
 
   const form: RefObject<HTMLDivElement> = useRef(null);
@@ -389,7 +392,7 @@ const HealInSleep = () => {
                           }
                           name="phoneNumber"
                           className="input-text"
-                          placeholder="+7 (925) 222-90-22"
+                          placeholder="+7 (991) 779-39-95"
                         />
                       </div>
                       <div className="input-container">
@@ -407,20 +410,21 @@ const HealInSleep = () => {
                           className="input-text"
                         />
                       </div>
+
                       {/* <div className="input-container">
-                  <label htmlFor="direction" className="la">
-                    Направление
-                  </label>
-                  <input
-                    type="text"
-                    name="direction"
-                    placeholder="Выберите Направление"
-                    className="input-text"
-                  />
-                </div> */}
+                    <label htmlFor="direction" className="la">
+                      Направление
+                    </label>
+                    <input
+                      type="text"
+                      name="direction"
+                      placeholder="Выберите Направление"
+                      className="input-text"
+                    />
+                  </div> */}
                       <div className="input-container">
                         <label htmlFor="doctor" className="la">
-                          Врач
+                          Фамилия врача
                         </label>
                         <input
                           type="text"
@@ -429,7 +433,46 @@ const HealInSleep = () => {
                           onChange={(event) =>
                             setDoctorName(event.target.value)
                           }
-                          placeholder="Выберите Врача"
+                          placeholder="Фамилия врача"
+                          className="input-text"
+                        />
+                      </div>
+                      <div className="input-container">
+                        <label htmlFor="service" className="la">
+                          Дата приема
+                        </label>
+                        <input
+                          type="text"
+                          value={bookDate}
+                          onChange={(event) => setBookDate(event.target.value)}
+                          name="bookDate"
+                          placeholder="Дата приема"
+                          className="input-text"
+                        />
+                      </div>
+                      <div className="input-container">
+                        <label htmlFor="service" className="la">
+                          Время приема
+                        </label>
+                        <input
+                          type="text"
+                          value={bookTime}
+                          onChange={(event) => setBookTime(event.target.value)}
+                          name="bookTime"
+                          placeholder="Время приема"
+                          className="input-text"
+                        />
+                      </div>
+                      <div className="input-container">
+                        <label htmlFor="service" className="la">
+                          Цель визита
+                        </label>
+                        <input
+                          type="text"
+                          value={visitGoal}
+                          onChange={(event) => setVisitGoal(event.target.value)}
+                          name="visitGoal"
+                          placeholder="Время приема"
                           className="input-text"
                         />
                       </div>
@@ -455,7 +498,7 @@ const HealInSleep = () => {
                           />
                         </div>
                       </div>
-                      <button className="form-button" onClick={sendEmail}>
+                      <button className="form-button" value="Send">
                         Записаться на прием
                         <FontAwesomeIcon
                           className="icon"
