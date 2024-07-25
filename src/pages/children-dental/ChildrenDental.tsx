@@ -27,29 +27,27 @@ import ReviewGallery from "../../components/reviews/ReviewGallery";
 import ReviewGalleryDesktop from "../../components/reviews/ReviewGalleryDesktop";
 
 // Doctors
-const doctorOne = require("./assets/1.webp");
-const doctorTwo = require("./assets/karen_pc.webp");
-const doctorThree = require("./assets/3.webp");
-const doctorFour = require("./assets/islam_pc.webp");
-const doctorFive = require("./assets/elena_pc.webp");
-const doctorSix = require("./assets/tatyana_pc.webp");
-const doctorSeven = require("./assets/evgenia_pc.webp");
-const doctorEight = require("./assets/marina_pc.webp");
-const doctorNine = require("./assets/karen_pc.webp");
-const doctorTen = require("./assets/yana_pc.webp");
-const doctorEleven = require("./assets/sadiga.webp");
+const doctorOne = require("../../assets/1.webp");
+const doctorTwo = require("../../assets/karen_pc.webp");
+const doctorThree = require("../../assets/3.webp");
+const doctorFour = require("../../assets/islam_pc.webp");
+const doctorFive = require("../../assets/elena_pc.webp");
+const doctorSix = require("../../assets/tatyana_pc.webp");
+const doctorSeven = require("../../assets/evgenia_pc.webp");
+const doctorEight = require("../../assets/marina_pc.webp");
+const doctorNine = require("../../assets/karen_pc.webp");
+const doctorTen = require("../../assets/yana_pc.webp");
 
-const doctorOneMob = require("./assets/01.webp");
-const doctorTwoMob = require("./assets/02.webp");
-const doctorThreeMob = require("./assets/03.webp");
-const doctorFourMob = require("./assets/islam_mob.webp");
-const doctorFiveMob = require("./assets/elena_mob.webp");
-const doctorSixMob = require("./assets/tatyana_mob.webp");
-const doctorSevenMob = require("./assets/evgenia_mob.webp");
-const doctorEightMob = require("./assets/karen_mob.webp");
-const doctorNineMob = require("./assets/marina_mob.webp");
-const doctorTenMob = require("./assets/yana_mob.webp");
-const doctorElevenMob = require("./assets/sadiga_mob.webp");
+const doctorOneMob = require("../../assets/01.webp");
+const doctorTwoMob = require("../../assets/02.webp");
+const doctorThreeMob = require("../../assets/03.webp");
+const doctorFourMob = require("../../assets/islam_mob.webp");
+const doctorFiveMob = require("../../assets/elena_mob.webp");
+const doctorSixMob = require("../../assets/tatyana_mob.webp");
+const doctorSevenMob = require("../../assets/evgenia_mob.webp");
+const doctorEightMob = require("../../assets/karen_mob.webp");
+const doctorNineMob = require("../../assets/marina_mob.webp");
+const doctorTenMob = require("../../assets/yana_mob.webp");
 
 const childIllustration = require("../../assets/child_illustration.webp");
 
@@ -321,9 +319,9 @@ const ChildDental = () => {
               imageSrcFour={doctorFourMob}
               imageSrcFive={doctorFiveMob}
               imageSrcSix={doctorSixMob}
-              imageSrcSeven={doctorTenMob}
+              imageSrcSeven={doctorSevenMob}
               imageSrcEight={doctorEightMob}
-              imageSrcNine={doctorElevenMob}
+              imageSrcNine={doctorNineMob}
             />
             <div
               className="form-screen"

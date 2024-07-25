@@ -169,7 +169,7 @@ const PcGallery: React.FC<PhotoSource> = ({
             <h3 className="doctor-name">Мхитарян Карен Мартиросович</h3>
             <p className="doctor-position">
               {" "}
-              врач стоматолог . Хирург , имплатолог
+              врач стоматолог . Хирург , имплантолог
             </p>
           </div>
         </SwiperSlide>
