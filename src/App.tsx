@@ -2030,7 +2030,7 @@ export default function HomePage() {
                 <div className="free-form-content">
                   <div className="input-content">
                     <h4 className="heading">
-                      Что вас ждёт на бесплатном осмотре у стоматолога:
+                      Что вас ждёт на осмотре у стоматолога:
                     </h4>
                     <div className="icons-text-container">
                       <div className="icons">
