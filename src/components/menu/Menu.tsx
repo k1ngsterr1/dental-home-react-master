@@ -208,7 +208,7 @@ const Menu: React.FC<MenuProps> = ({
                     Московская область, г. Ивантеевка, Советский проспект 5
                   </span>
                 </div>
-                <span className="text">Пн-Вс - 9:00-20:00</span>
+                <span className="text">Пн-Вс - 9:00-21:00</span>
                 <span className="text parking">Бесплатная парковка</span>
               </div>
               <div
@@ -346,7 +346,7 @@ const Menu: React.FC<MenuProps> = ({
                     Московская область, г. Ивантеевка, Советский проспект 5
                     <br />
                     <br />
-                    Пн-Вс - 9:00-20:00
+                    Пн-Вс - 9:00-21:00
                     <br />
                     <br />
                     Бесплатная парковка

@@ -315,7 +315,7 @@ const ContactsPage = () => {
                   <span className="text">
                     г. Ивантеевка, Советский проспект 5
                   </span>
-                  <span className="text">Пн-Вс - 9:00-20:00</span>
+                  <span className="text">Пн-Вс - 9:00-21:00</span>
                 </div>
                 <div
                   className="adress"
@@ -700,7 +700,7 @@ const ContactsPage = () => {
                   <span className="text">
                     г. Ивантеевка, Советский проспект 5
                   </span>
-                  <span className="text">Пн-Вс - 9:00-20:00</span>
+                  <span className="text">Пн-Вс - 9:00-21:00</span>
                 </div>
                 <div
                   className="adress"
