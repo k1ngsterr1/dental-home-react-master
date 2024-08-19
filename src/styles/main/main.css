@@ -639,7 +639,7 @@ body .mySwiper4 .swiper-image, body .mySwiper5 .swiper-image {
 }
 body .modal {
   width: 85%;
-  height: 60vh;
+  height: 70vh;
   overflow-y: hidden !important;
   display: flex;
   flex-direction: column;
