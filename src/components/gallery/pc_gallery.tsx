@@ -1,10 +1,10 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronLeft,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 import "./styles/pc_gallery_styles.css";
 
@@ -142,8 +142,8 @@ const PcGallery: React.FC<PhotoSource> = ({
               </button>
               <img src={imageSrc7} alt="Doctor 1" className="doctor-image" />
             </div>
-            <h3 className="doctor-name">Коптева Евгения Александровна </h3>
-            <p className="doctor-position">Врач, стоматолог, терапевт</p>
+            <h3 className="doctor-name">Браткеев Евгений Викторович </h3>
+            <p className="doctor-position">Врач, ортопед</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>

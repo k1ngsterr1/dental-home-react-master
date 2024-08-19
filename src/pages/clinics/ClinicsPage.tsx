@@ -1,35 +1,29 @@
-import React, { useState, useEffect, useRef, RefObject } from "react";
-import { Link } from "react-router-dom";
-import Header from "../../components/header/header";
+import emailjs from "@emailjs/browser";
 import { keyframes } from "@emotion/react";
-import { Reveal } from "react-awesome-reveal";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Bounce, Fade, Zoom } from "react-awesome-reveal";
 import {
-  faPlus,
-  faMinus,
-  faPhone,
-  faChevronLeft,
   faChevronRight,
   faClose,
+  faPhone,
 } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { MDBCheckbox } from "mdb-react-ui-kit";
-import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore from "swiper";
-import { Navigation, Pagination } from "swiper/modules";
+import React, { RefObject, useEffect, useRef, useState } from "react";
+import { Fade, Reveal } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
 import Popup from "reactjs-popup";
-import emailjs from "@emailjs/browser";
-import ReviewGallery from "../../components/reviews/ReviewGallery";
-import ServiceGallery from "../../components/gallery/services_gallery";
-import Gallery from "../../components/gallery/gallery";
-import ReviewGalleryDesktop from "../../components/reviews/ReviewGalleryDesktop";
-import PcGallery from "../../components/gallery/pc_gallery";
+import { Navigation, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 import ClinicGalleryOne from "../../components/clinic_gallery_1/clinicGalleryOne";
 import ClinicGalleryTwo from "../../components/clinic_gallery_2/clinicGalleryTwo";
 import Footer from "../../components/footer/Footer";
+import Gallery from "../../components/gallery/gallery";
+import PcGallery from "../../components/gallery/pc_gallery";
+import Header from "../../components/header/header";
+import ReviewGallery from "../../components/reviews/ReviewGallery";
+import ReviewGalleryDesktop from "../../components/reviews/ReviewGalleryDesktop";
 
-import "./styles/clinics_styles.css";
 import { Helmet } from "react-helmet";
+import "./styles/clinics_styles.css";
 
 const doctorOneMob = require("../../assets/01.webp");
 const doctorTwoMob = require("../../assets/marina_mob.webp");
@@ -40,7 +34,7 @@ const doctorSixMob = require("../../assets/tatyana_mob.webp");
 const doctorSevenMob = require("../../assets/marina_mob.webp");
 const doctorEightMob = require("../../assets/karen_mob.webp");
 const doctorNineMob = require("../../assets/marina_mob.webp");
-const doctorTenMob = require("../../assets/evgenia_mob.webp");
+const doctorTenMob = require("../../assets/orthoped_mob.webp");
 const doctorElevenMob = require("../../assets/marina_mob.webp");
 
 const doctorOnePc = require("../../assets/1.webp");
@@ -52,7 +46,8 @@ const doctorSixPc = require("../../assets/tatyana_pc.webp");
 const doctorSevenPc = require("../../assets/marina_pc.webp");
 const doctorEightPc = require("../../assets/karen_pc.webp");
 const doctorNinePc = require("../../assets/karen_pc.webp");
-const doctorTenPc = require("../../assets/evgenia_mob.webp");
+const doctorTenPc = require("../../assets/orthoped_pc.webp");
+
 const doctorElevenPc = require("../../assets/sadiga.webp");
 
 const featuresPhotoPc = require("../../assets/features_image.webp");
@@ -1054,9 +1049,7 @@ const ClinicsPage = () => {
               ></img>
               <div className="modal-content">
                 <img className="logo" src={logoMobile} alt="logotype"></img>
-                <span className="text">
-                  Хотите получить бесплатную консультацию?
-                </span>
+                <span className="text">Хотите получить консультацию?</span>
                 <span className="additional-text">
                   Оставьте свой номер и мы перезвоним вам
                 </span>

@@ -1,43 +1,19 @@
-import React, { useState, useRef, RefObject } from "react";
+import emailjs from "@emailjs/browser";
+import { RefObject, useRef, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 import Popup from "reactjs-popup";
-import {
-  Button,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-  Link as ScrollLink,
-} from "react-scroll";
-import { MDBCheckbox } from "mdb-react-ui-kit";
-import emailjs from "@emailjs/browser";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faVideo, faPlay } from "@fortawesome/free-solid-svg-icons";
 
-import { Reveal } from "react-awesome-reveal";
+import { faClose, faPhone } from "@fortawesome/free-solid-svg-icons";
 
-import {
-  faPlus,
-  faMinus,
-  faPhone,
-  faChevronLeft,
-  faClose,
-} from "@fortawesome/free-solid-svg-icons";
-
-import Header from "../../../components/header/header";
-import ReviewGallery from "../../../components/reviews/ReviewGallery";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import Footer from "../../../components/footer/Footer";
-import Gallery from "../../../components/gallery/gallery";
-import ServiceGallery from "../../../components/gallery/services_gallery";
-import PcServiceGallery from "../../../components/gallery/pc_services_gallery";
-import { faC, faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import Header from "../../../components/header/header";
 
 import "../../../components/service_template/styles/services_styles.css";
-import PcGallery from "../../../components/gallery/pc_gallery";
-import ReviewGalleryDesktop from "../../../components/reviews/ReviewGalleryDesktop";
 
 const pavelGallery = require("../../../assets/pavel_gallery.webp");
 const pavelGalleryPc = require("../../../assets/pavel_pc.webp");
@@ -425,11 +401,14 @@ const ChildHygiene = () => {
               src={modalImage}
               alt="modal-picture"
             ></img>
+            <FontAwesomeIcon
+              icon={faClose}
+              onClick={closeModal}
+              className="gold-cross"
+            ></FontAwesomeIcon>
             <div className="modal-content">
               <img className="logo" src={logoMobile} alt="logotype"></img>
-              <span className="text">
-                Хотите получить бесплатную консультацию?
-              </span>
+              <span className="text">Хотите получить консультацию?</span>
               <span className="additional-text">
                 Оставьте свой номер и мы перезвоним вам
               </span>

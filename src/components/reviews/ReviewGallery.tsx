@@ -1,16 +1,14 @@
-import React, { useState } from "react";
-import SwiperCore from "swiper";
-import { Navigation, Pagination } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronLeft,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Popup from "reactjs-popup";
-import "./styles/reviews_gallery.css";
 import "swiper/css";
-import { useNavigate, useNavigation } from "react-router-dom";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "./styles/reviews_gallery.css";
 
 interface ReviewTabProps {
   date: string;

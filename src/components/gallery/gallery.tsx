@@ -1,12 +1,12 @@
-import React from "react";
-import SwiperCore from "swiper";
-import { Navigation, Pagination } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronLeft,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
+import SwiperCore from "swiper";
+import { Navigation, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 import "./styles/gallery_styles.css";
 
@@ -170,8 +170,8 @@ const Gallery: React.FC<PhotoSource> = ({
                 className="doctor-image"
               />
             </div>
-            <h3 className="doctor-name">Коптева Евгения Александровна</h3>
-            <p className="doctor-position">Врач, стоматолог, терапевт</p>
+            <h3 className="doctor-name">Браткеев Евгений Викторович</h3>
+            <p className="doctor-position">Врач, ортопед</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>

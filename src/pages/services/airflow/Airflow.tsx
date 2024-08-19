@@ -1,40 +1,31 @@
-import React, { useState, useRef, RefObject, useEffect } from "react";
+import emailjs from "@emailjs/browser";
+import { MDBCheckbox } from "mdb-react-ui-kit";
+import { RefObject, useEffect, useRef, useState } from "react";
+import { Reveal } from "react-awesome-reveal";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import {
-  Button,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-  Link as ScrollLink,
-} from "react-scroll";
-import { Reveal } from "react-awesome-reveal";
-import { MDBCheckbox } from "mdb-react-ui-kit";
-import emailjs from "@emailjs/browser";
+import { Link as ScrollLink } from "react-scroll";
 
 import Popup from "reactjs-popup";
 
-import Header from "../../../components/header/header";
-import ReviewGallery from "../../../components/reviews/ReviewGallery";
+import {
+  faChevronRight,
+  faClose,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Footer from "../../../components/footer/Footer";
 import Gallery from "../../../components/gallery/gallery";
-import ServiceGallery from "../../../components/gallery/services_gallery";
 import PcServiceGallery from "../../../components/gallery/pc_services_gallery";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faC,
-  faChevronRight,
-  faPhone,
-  faClose,
-} from "@fortawesome/free-solid-svg-icons";
+import ServiceGallery from "../../../components/gallery/services_gallery";
+import Header from "../../../components/header/header";
+import ReviewGallery from "../../../components/reviews/ReviewGallery";
 
 import { keyframes } from "@emotion/react";
 
-import "../../../components/service_template/styles/services_styles.css";
 import PcGallery from "../../../components/gallery/pc_gallery";
 import ReviewGalleryDesktop from "../../../components/reviews/ReviewGalleryDesktop";
+import "../../../components/service_template/styles/services_styles.css";
 
 const pavelGallery = require("../../../assets/pavel_gallery.webp");
 const pavelGalleryPc = require("../../../assets/pavel_pc.webp");
@@ -51,7 +42,7 @@ const doctorSixPc = require("../../../assets/tatyana_pc.webp");
 const doctorSevenPc = require("../../../assets/marina_pc.webp");
 const doctorEightPc = require("../../../assets/karen_pc.webp");
 const doctorNinePc = require("../../../assets/karen_pc.webp");
-const doctorTenPc = require("../../../assets/evgenia_mob.webp");
+const doctorTenPc = require("../../../assets/orthoped_mob.webp");
 const doctorElevenPc = require("../../../assets/sadiga.webp");
 
 const doctorOneMob = require("../../../assets/01.webp");
@@ -63,7 +54,7 @@ const doctorSixMob = require("../../../assets/tatyana_mob.webp");
 const doctorSevenMob = require("../../../assets/marina_mob.webp");
 const doctorEightMob = require("../../../assets/karen_mob.webp");
 const doctorNineMob = require("../../../assets/marina_mob.webp");
-const doctorTenMob = require("../../../assets/evgenia_mob.webp");
+const doctorTenMob = require("../../../assets/orthoped_mob.webp");
 const doctorElevenMob = require("../../../assets/marina_mob.webp");
 
 const serviceOnePc = require("../../../assets/service_1.webp");
@@ -999,11 +990,14 @@ const AirFlow = () => {
                 src={modalImage}
                 alt="modal-picture"
               ></img>
+              <FontAwesomeIcon
+                icon={faClose}
+                onClick={closeModal}
+                className="gold-cross"
+              ></FontAwesomeIcon>
               <div className="modal-content">
                 <img className="logo" src={logoMobile} alt="logotype"></img>
-                <span className="text">
-                  Хотите получить бесплатную консультацию?
-                </span>
+                <span className="text">Хотите получить консультацию?</span>
                 <span className="additional-text">
                   Оставьте свой номер и мы перезвоним вам
                 </span>

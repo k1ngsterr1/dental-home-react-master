@@ -1,36 +1,25 @@
-import React, { useState, useEffect, useRef, RefObject } from "react";
-import { Link } from "react-router-dom";
-import { YMaps, Map, Placemark } from "react-yandex-maps";
-import Header from "../../components/header/header";
-import Popup from "reactjs-popup";
 import { keyframes } from "@emotion/react";
-import { Reveal } from "react-awesome-reveal";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Bounce, Fade, Zoom } from "react-awesome-reveal";
 import {
-  faPlus,
-  faMinus,
-  faPhone,
-  faChevronLeft,
   faChevronRight,
   faClose,
+  faPhone,
 } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { MDBCheckbox } from "mdb-react-ui-kit";
-import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore from "swiper";
-import { Navigation, Pagination } from "swiper/modules";
+import React, { RefObject, useEffect, useRef, useState } from "react";
+import { Reveal } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
+import { Map, Placemark, YMaps } from "react-yandex-maps";
+import Popup from "reactjs-popup";
+import { Swiper } from "swiper/react";
+import Header from "../../components/header/header";
 
 import emailjs from "@emailjs/browser";
 
-import ReviewGallery from "../../components/reviews/ReviewGallery";
-import ServiceGallery from "../../components/gallery/services_gallery";
-import Gallery from "../../components/gallery/gallery";
-import ReviewGalleryDesktop from "../../components/reviews/ReviewGalleryDesktop";
-import PcGallery from "../../components/gallery/pc_gallery";
-import ClinicGalleryOne from "../../components/clinic_gallery_1/clinicGalleryOne";
-import ClinicGalleryTwo from "../../components/clinic_gallery_2/clinicGalleryTwo";
-import Footer from "../../components/footer/Footer";
 import { Helmet } from "react-helmet";
+import Footer from "../../components/footer/Footer";
+import ReviewGallery from "../../components/reviews/ReviewGallery";
+import ReviewGalleryDesktop from "../../components/reviews/ReviewGalleryDesktop";
 
 // import "./styles/clinics_styles.css";
 
@@ -1058,11 +1047,14 @@ const ContactsPage = () => {
                 src={modalImage}
                 alt="modal-picture"
               ></img>
+              <FontAwesomeIcon
+                icon={faClose}
+                onClick={closeModal}
+                className="gold-cross"
+              ></FontAwesomeIcon>
               <div className="modal-content">
                 <img className="logo" src={logoMobile} alt="logotype"></img>
-                <span className="text">
-                  Хотите получить бесплатную консультацию?
-                </span>
+                <span className="text">Хотите получить консультацию?</span>
                 <span className="additional-text">
                   Оставьте свой номер и мы перезвоним вам
                 </span>

@@ -1,27 +1,24 @@
-import React, { useState, useEffect, useRef, RefObject } from "react";
-import { Link } from "react-router-dom";
-import Header from "../../components/header/header";
 import { keyframes } from "@emotion/react";
-import { Reveal } from "react-awesome-reveal";
-import Popup from "reactjs-popup";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faPlus,
-  faMinus,
-  faPhone,
-  faChevronLeft,
   faChevronRight,
   faClose,
+  faPhone,
 } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { MDBCheckbox } from "mdb-react-ui-kit";
+import React, { RefObject, useEffect, useRef, useState } from "react";
+import { Reveal } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
+import Popup from "reactjs-popup";
+import Header from "../../components/header/header";
 
 import emailjs from "@emailjs/browser";
 
-import ReviewGallery from "../../components/reviews/ReviewGallery";
 import Footer from "../../components/footer/Footer";
+import ReviewGallery from "../../components/reviews/ReviewGallery";
 
-import "./styles/reviews_page.css";
 import { Helmet } from "react-helmet";
+import "./styles/reviews_page.css";
 
 const logoMobile: string = require("../../assets/logo_mob.svg").default;
 const modalImage: string = require("../../assets/example_modal.webp");
@@ -657,11 +654,14 @@ const ReviewsPage = () => {
                 src={modalImage}
                 alt="modal-picture"
               ></img>
+              <FontAwesomeIcon
+                icon={faClose}
+                onClick={closeModal}
+                className="gold-cross"
+              ></FontAwesomeIcon>
               <div className="modal-content">
                 <img className="logo" src={logoMobile} alt="logotype"></img>
-                <span className="text">
-                  Хотите получить бесплатную консультацию?
-                </span>
+                <span className="text">Хотите получить консультацию?</span>
                 <span className="additional-text">
                   Оставьте свой номер и мы перезвоним вам
                 </span>

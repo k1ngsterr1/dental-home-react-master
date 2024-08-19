@@ -1,22 +1,16 @@
-import React, { useState, useRef, RefObject, useEffect } from "react";
-import Header from "../../components/header/header";
-import Footer from "../../components/footer/Footer";
-import { Link } from "react-router-dom";
-import { keyframes } from "@emotion/react";
-import { Reveal } from "react-awesome-reveal";
-import Popup from "reactjs-popup";
-import "../prices/styles/prices_styles.css";
-import { Link as ScrollLink } from "react-scroll";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import emailjs from "@emailjs/browser";
-import {
-  faPlus,
-  faMinus,
-  faPhone,
-  faChevronLeft,
-  faClose,
-} from "@fortawesome/free-solid-svg-icons";
+import { keyframes } from "@emotion/react";
+import { faClose, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React, { useEffect, useRef, useState } from "react";
+import { Reveal } from "react-awesome-reveal";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
+import Popup from "reactjs-popup";
+import Footer from "../../components/footer/Footer";
+import Header from "../../components/header/header";
+import "../prices/styles/prices_styles.css";
 
 const logoMobile: string = require("../../assets/logo_mob.svg").default;
 const modalImage: string = require("../../assets/example_modal.webp");
@@ -2156,11 +2150,14 @@ const PricesPage = () => {
                 src={modalImage}
                 alt="modal-picture"
               ></img>
+              <FontAwesomeIcon
+                icon={faClose}
+                onClick={closeModal}
+                className="gold-cross"
+              ></FontAwesomeIcon>
               <div className="modal-content">
                 <img className="logo" src={logoMobile} alt="logotype"></img>
-                <span className="text">
-                  Хотите получить бесплатную консультацию?
-                </span>
+                <span className="text">Хотите получить консультацию?</span>
                 <span className="additional-text">
                   Оставьте свой номер и мы перезвоним вам
                 </span>

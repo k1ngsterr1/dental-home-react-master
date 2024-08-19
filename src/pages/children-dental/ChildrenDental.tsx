@@ -1,26 +1,22 @@
-import React, { useState, useEffect, useRef, RefObject } from "react";
-import Gallery from "../../components/gallery/gallery";
 import emailjs from "@emailjs/browser";
-import { Helmet } from "react-helmet";
-import Header from "../../components/header/header";
-import Footer from "../../components/footer/Footer";
-import Popup from "reactjs-popup";
-import { MDBCheckbox } from "mdb-react-ui-kit";
-import { Link, useNavigate } from "react-router-dom";
 import { keyframes } from "@emotion/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faVideo, faPlay } from "@fortawesome/free-solid-svg-icons";
+import { MDBCheckbox } from "mdb-react-ui-kit";
+import { RefObject, useEffect, useRef, useState } from "react";
 import { Reveal } from "react-awesome-reveal";
+import { Helmet } from "react-helmet";
+import { Link, useNavigate } from "react-router-dom";
+import Popup from "reactjs-popup";
+import Footer from "../../components/footer/Footer";
+import Gallery from "../../components/gallery/gallery";
+import Header from "../../components/header/header";
 
 import "./styles/children_styles.css";
 
 import {
-  faPlus,
-  faMinus,
-  faPhone,
-  faChevronLeft,
   faChevronRight,
   faClose,
+  faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import PcGallery from "../../components/gallery/pc_gallery";
 import ReviewGallery from "../../components/reviews/ReviewGallery";
@@ -33,7 +29,7 @@ const doctorThree = require("../../assets/3.webp");
 const doctorFour = require("../../assets/islam_pc.webp");
 const doctorFive = require("../../assets/elena_pc.webp");
 const doctorSix = require("../../assets/tatyana_pc.webp");
-const doctorSeven = require("../../assets/evgenia_pc.webp");
+const doctorSeven = require("../../assets/orthoped_pc.webp");
 const doctorEight = require("../../assets/marina_pc.webp");
 const doctorNine = require("../../assets/karen_pc.webp");
 const doctorTen = require("../../assets/yana_pc.webp");
@@ -44,7 +40,7 @@ const doctorThreeMob = require("../../assets/03.webp");
 const doctorFourMob = require("../../assets/islam_mob.webp");
 const doctorFiveMob = require("../../assets/elena_mob.webp");
 const doctorSixMob = require("../../assets/tatyana_mob.webp");
-const doctorSevenMob = require("../../assets/evgenia_mob.webp");
+const doctorSevenMob = require("../../assets/orthoped_mob.webp");
 const doctorEightMob = require("../../assets/karen_mob.webp");
 const doctorNineMob = require("../../assets/marina_mob.webp");
 const doctorTenMob = require("../../assets/yana_mob.webp");
@@ -723,11 +719,14 @@ const ChildDental = () => {
                 src={modalImage}
                 alt="modal-picture"
               ></img>
+              <FontAwesomeIcon
+                icon={faClose}
+                onClick={closeModal}
+                className="gold-cross"
+              ></FontAwesomeIcon>
               <div className="modal-content">
                 {/* <img className="logo" src={logoMobile} alt="logotype"></img> */}
-                <span className="text">
-                  Хотите получить бесплатную консультацию?
-                </span>
+                <span className="text">Хотите получить консультацию?</span>
                 <span className="additional-text">
                   Оставьте свой номер и мы перезвоним вам
                 </span>

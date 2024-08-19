@@ -1,52 +1,46 @@
-import React, { useState, useEffect, useRef, RefObject } from "react";
-import { useNavigate } from "react-router-dom";
+import React, { RefObject, useEffect, useRef, useState } from "react";
 import { Helmet } from "react-helmet";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 
 // Text
 
 // import img from "next/image";
-import Header from "./components/header/header";
+import { MDBCheckbox } from "mdb-react-ui-kit";
 import Popup from "reactjs-popup";
 import "swiper/css";
 import "swiper/css/navigation";
-import { MDBCheckbox } from "mdb-react-ui-kit";
-import SwiperCore from "swiper";
 import { Navigation, Pagination } from "swiper/modules";
+import Header from "./components/header/header";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faPlus,
+  faChevronRight,
+  faClose,
   faMinus,
   faPhone,
-  faChevronLeft,
-  faChevronRight,
-  faCross,
-  faClose,
+  faPlus,
 } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "swiper/css";
-import Mheader from "./components/header/m-header";
-import Gallery from "./components/gallery/gallery";
+import { Swiper, SwiperSlide } from "swiper/react";
 import ClinicGalleryOne from "./components/clinic_gallery_1/clinicGalleryOne";
 import ClinicGalleryTwo from "./components/clinic_gallery_2/clinicGalleryTwo";
+import Gallery from "./components/gallery/gallery";
+import Mheader from "./components/header/m-header";
 // import Review from "./components/reviews/Review";
 import Footer from "./components/footer/Footer";
 import PcGallery from "./components/gallery/pc_gallery";
 import ReviewGallery from "./components/reviews/ReviewGallery";
 // import GalleryExample from "./components/GalleryExample";
-import ReviewGalleryDesktop from "./components/reviews/ReviewGalleryDesktop";
-import { Bounce, Fade, Zoom } from "react-awesome-reveal";
 import { keyframes } from "@emotion/react";
-import { Reveal } from "react-awesome-reveal";
+import { Bounce, Fade, Reveal } from "react-awesome-reveal";
+import ReviewGalleryDesktop from "./components/reviews/ReviewGalleryDesktop";
 import "./styles/global.css";
 import "./styles/main/main.css";
 
 // import { link } from "fs";
 
 import emailjs from "@emailjs/browser";
-import { send } from "emailjs-com";
 
 interface Tabprops {
   number: string;
@@ -105,7 +99,7 @@ const doctorThree = require("./assets/3.webp");
 const doctorFour = require("./assets/islam_pc.webp");
 const doctorFive = require("./assets/elena_pc.webp");
 const doctorSix = require("./assets/tatyana_pc.webp");
-const doctorSeven = require("./assets/evgenia_pc.webp");
+const doctorSeven = require("./assets/orthoped_pc.webp");
 const doctorEight = require("./assets/marina_pc.webp");
 const doctorNine = require("./assets/karen_pc.webp");
 const doctorTen = require("./assets/yana_pc.webp");
@@ -123,7 +117,7 @@ const doctorThreeMob = require("./assets/03.webp");
 const doctorFourMob = require("./assets/islam_mob.webp");
 const doctorFiveMob = require("./assets/elena_mob.webp");
 const doctorSixMob = require("./assets/tatyana_mob.webp");
-const doctorSevenMob = require("./assets/evgenia_mob.webp");
+const doctorSevenMob = require("./assets/orthoped_mob.webp");
 const doctorEightMob = require("./assets/karen_mob.webp");
 const doctorNineMob = require("./assets/marina_mob.webp");
 const doctorTenMob = require("./assets/yana_mob.webp");
