@@ -4,14 +4,7 @@ import Header from "../../components/header/header";
 import { keyframes } from "@emotion/react";
 import { Reveal } from "react-awesome-reveal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPlus,
-  faMinus,
-  faPhone,
-  faChevronLeft,
-  faChevronRight,
-  faClose,
-} from "@fortawesome/free-solid-svg-icons";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { MDBCheckbox } from "mdb-react-ui-kit";
 
 import emailjs from "@emailjs/browser";
