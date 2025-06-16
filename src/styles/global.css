@@ -9,7 +9,7 @@
 body {
   width: 100%;
   height: auto;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   overflow-x: hidden;
 }
 
@@ -17,11 +17,13 @@ body {
   color: white !important;
 }
 
-h1, .dental, .home {
+h1,
+.dental,
+.home {
   font-size: clamp(35px, 16.3548vw, 140px) !important;
   font-family: "Merriweather", serif !important;
   font-weight: 700 !important;
-  color: #E8CB6C;
+  color: #e8cb6c;
 }
 
 .custom-heading {
@@ -31,7 +33,12 @@ h1, .dental, .home {
   color: #202637 !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Merriweather", serif;
 }
 
@@ -39,7 +46,8 @@ p {
   font-family: "Raleway", sans-serif;
 }
 
-button, a {
+button,
+a {
   cursor: pointer;
 }
 
@@ -154,7 +162,7 @@ a {
 }
 .loader .loader-container .logo .loading-heading {
   width: 70%;
-  color: #F4F4F4;
+  color: #f4f4f4;
   text-align: center;
   font-family: Merriweather;
   font-size: clamp(15px, 7.0092vw, 60px) !important;
@@ -219,7 +227,7 @@ a {
   }
   .loader .loader-container .logo .loading-heading {
     width: 80%;
-    color: #F4F4F4 !important;
+    color: #f4f4f4 !important;
     text-align: center !important;
     font-family: Merriweather !important;
     font-size: clamp(25px, 2.604vw, 100px) !important;
@@ -229,4 +237,4 @@ a {
     text-transform: capitalize;
     margin-top: clamp(16px, 1.66656vw, 64px);
   }
-}/*# sourceMappingURL=global.css.map */
+} /*# sourceMappingURL=global.css.map */

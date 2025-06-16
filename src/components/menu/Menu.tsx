@@ -89,6 +89,13 @@ const Menu: React.FC<MenuProps> = ({
               >
                 Контакты
               </Link>
+              <Link
+                to="/vakansii"
+                className="golden-link l"
+                onClick={closeMenu}
+              >
+                Вакансии
+              </Link>
             </div>
           </div>
         </div>
@@ -180,6 +187,14 @@ const Menu: React.FC<MenuProps> = ({
                 className="golden-link l"
               >
                 Контакты
+              </Link>
+              <Link
+                to="/vakansii"
+                style={{ cursor: "pointer" }}
+                onClick={closePcMenu}
+                className="golden-link l"
+              >
+                Вакансии
               </Link>
               <div className="medias">
                 <FontAwesomeIcon

@@ -23,6 +23,7 @@ import WorksPage from "./pages/works/worksPage";
 import DoctorsPage from "./pages/doctors/DoctorsPage";
 import ContactsPage from "./pages/contacts/ContactsPage";
 import ClinicsPage from "./pages/clinics/ClinicsPage";
+import Vacancies from "./pages/vacancies/Vacancies";
 import Whitening from "./pages/services/whitening/Whitening";
 import Hygiene from "./pages/services/hygiene/Hygiene";
 import BiteCorrection from "./pages/services/bite-correction/BiteCorrection";
@@ -100,12 +101,14 @@ ReactDOM.render(
       <Route path="/index.shtml" element={<Navigate replace to="/" />} />
       <Route path="/children-dental" element={<ChildDental />} />
       <Route path="/prices" element={<PricesPage />} />
+      <Route path="/vakansii" element={<Vacancies />} />
       <Route path="/privacy" element={<Privacy />} />
       <Route path="/reviews" element={<ReviewsPage />} />
       <Route path="/works" element={<WorksPage />} />
       <Route path="/doctors" element={<DoctorsPage />} />
       <Route path="/clinics" element={<ClinicsPage />} />
       <Route path="/contacts" element={<ContactsPage />} />
+      <Route path="/vakansii" element={<Vacancies />} />
       <Route path="/services/whitening" element={<Whitening />} />
       <Route path="/services/hygiene" element={<Hygiene />} />
       <Route

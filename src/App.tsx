@@ -1086,6 +1086,565 @@ export default function HomePage() {
               </div>
             </section>
           </div>
+          <div
+            style={{
+              width: "100%",
+              backgroundColor: "#fff",
+              padding: "60px 0",
+              boxSizing: "border-box",
+            }}
+          >
+            <section
+              style={{
+                maxWidth: "1200px",
+                margin: "0 auto",
+                padding: "0 20px",
+              }}
+            >
+              <Fade triggerOnce={true} direction="up" delay={100}>
+                <h2
+                  style={{
+                    fontSize: "clamp(28px, 4vw, 36px)",
+                    fontWeight: "700",
+                    color: "#202637",
+                    marginBottom: "40px",
+                    textAlign: "center",
+                  }}
+                >
+                  Акции <span style={{ color: "#E6C96B" }}>Dental Home</span>
+                </h2>
+              </Fade>
+
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "20px",
+                  maxWidth: "100%",
+                }}
+              >
+                {/* Promotion 1 */}
+                <Fade triggerOnce={true} direction="up" delay={200}>
+                  <div
+                    style={{
+                      padding: "25px",
+                      backgroundColor: "#f9f9f9",
+                      borderRadius: "12px",
+                      boxShadow: "0 4px 15px rgba(0, 0, 0, 0.08)",
+                      display: "flex",
+                      flexDirection: "column",
+                      position: "relative",
+                      overflow: "hidden",
+                      border: "1px solid rgba(230, 201, 107, 0.3)",
+                    }}
+                  >
+                    <div
+                      style={{
+                        position: "absolute",
+                        top: "15px",
+                        right: "15px",
+                        backgroundColor: "#E6C96B",
+                        color: "#202637",
+                        padding: "6px 12px",
+                        borderRadius: "20px",
+                        fontSize: "14px",
+                        fontWeight: "600",
+                      }}
+                    >
+                      Акция
+                    </div>
+                    <h3
+                      style={{
+                        fontSize: "22px",
+                        fontWeight: "700",
+                        color: "#202637",
+                        marginBottom: "15px",
+                        paddingRight: "80px",
+                      }}
+                    >
+                      Бесплатная консультация
+                    </h3>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        marginBottom: "10px",
+                      }}
+                    >
+                      <span
+                        style={{
+                          fontSize: "18px",
+                          fontWeight: "700",
+                          color: "#E6C96B",
+                        }}
+                      >
+                        0 ₽
+                      </span>
+                      <span
+                        style={{
+                          fontSize: "16px",
+                          color: "#777",
+                          textDecoration: "line-through",
+                          marginLeft: "10px",
+                        }}
+                      >
+                        1200 ₽
+                      </span>
+                    </div>
+                    <p
+                      style={{
+                        fontSize: "16px",
+                        color: "#555",
+                        marginTop: "5px",
+                      }}
+                    >
+                      Первичная консультация специалиста абсолютно бесплатно
+                    </p>
+                    <button
+                      onClick={openPopupWindow}
+                      style={{
+                        marginTop: "15px",
+                        padding: "12px 25px",
+                        backgroundColor: "#E6C96B",
+                        color: "#202637",
+                        border: "none",
+                        borderRadius: "8px",
+                        fontWeight: "600",
+                        cursor: "pointer",
+                        alignSelf: "flex-start",
+                        transition: "background-color 0.3s",
+                        fontSize: "16px",
+                      }}
+                    >
+                      Записаться
+                    </button>
+                  </div>
+                </Fade>
+
+                {/* Promotion 2 */}
+                <Fade triggerOnce={true} direction="up" delay={300}>
+                  <div
+                    style={{
+                      padding: "25px",
+                      backgroundColor: "#f9f9f9",
+                      borderRadius: "12px",
+                      boxShadow: "0 4px 15px rgba(0, 0, 0, 0.08)",
+                      display: "flex",
+                      flexDirection: "column",
+                      position: "relative",
+                      overflow: "hidden",
+                      border: "1px solid rgba(230, 201, 107, 0.3)",
+                    }}
+                  >
+                    <div
+                      style={{
+                        position: "absolute",
+                        top: "15px",
+                        right: "15px",
+                        backgroundColor: "#E6C96B",
+                        color: "#202637",
+                        padding: "6px 12px",
+                        borderRadius: "20px",
+                        fontSize: "14px",
+                        fontWeight: "600",
+                      }}
+                    >
+                      Акция
+                    </div>
+                    <h3
+                      style={{
+                        fontSize: "22px",
+                        fontWeight: "700",
+                        color: "#202637",
+                        marginBottom: "15px",
+                        paddingRight: "80px",
+                      }}
+                    >
+                      Имплантация с пожизненной гарантией
+                    </h3>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        marginBottom: "10px",
+                      }}
+                    >
+                      <span
+                        style={{
+                          fontSize: "18px",
+                          fontWeight: "700",
+                          color: "#E6C96B",
+                        }}
+                      >
+                        от 26900 ₽
+                      </span>
+                      <span
+                        style={{
+                          fontSize: "16px",
+                          color: "#777",
+                          marginLeft: "10px",
+                        }}
+                      >
+                        за один имплант
+                      </span>
+                    </div>
+                    <p
+                      style={{
+                        fontSize: "16px",
+                        color: "#555",
+                        marginTop: "5px",
+                      }}
+                    >
+                      Качественная имплантация зубов с пожизненной гарантией от
+                      наших специалистов
+                    </p>
+                    <button
+                      onClick={openPopupWindow}
+                      style={{
+                        marginTop: "15px",
+                        padding: "12px 25px",
+                        backgroundColor: "#E6C96B",
+                        color: "#202637",
+                        border: "none",
+                        borderRadius: "8px",
+                        fontWeight: "600",
+                        cursor: "pointer",
+                        alignSelf: "flex-start",
+                        transition: "background-color 0.3s",
+                        fontSize: "16px",
+                      }}
+                    >
+                      Записаться
+                    </button>
+                  </div>
+                </Fade>
+
+                {/* Promotion 3 */}
+                <Fade triggerOnce={true} direction="up" delay={400}>
+                  <div
+                    style={{
+                      padding: "25px",
+                      backgroundColor: "#f9f9f9",
+                      borderRadius: "12px",
+                      boxShadow: "0 4px 15px rgba(0, 0, 0, 0.08)",
+                      display: "flex",
+                      flexDirection: "column",
+                      position: "relative",
+                      overflow: "hidden",
+                      border: "1px solid rgba(230, 201, 107, 0.3)",
+                    }}
+                  >
+                    <div
+                      style={{
+                        position: "absolute",
+                        top: "15px",
+                        right: "15px",
+                        backgroundColor: "#E6C96B",
+                        color: "#202637",
+                        padding: "6px 12px",
+                        borderRadius: "20px",
+                        fontSize: "14px",
+                        fontWeight: "600",
+                      }}
+                    >
+                      Акция
+                    </div>
+                    <h3
+                      style={{
+                        fontSize: "22px",
+                        fontWeight: "700",
+                        color: "#202637",
+                        marginBottom: "15px",
+                        paddingRight: "80px",
+                      }}
+                    >
+                      Отбеливание Zoom 4
+                    </h3>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        marginBottom: "10px",
+                      }}
+                    >
+                      <span
+                        style={{
+                          fontSize: "18px",
+                          fontWeight: "700",
+                          color: "#E6C96B",
+                        }}
+                      >
+                        38 000 ₽
+                      </span>
+                      <span
+                        style={{
+                          fontSize: "16px",
+                          color: "#777",
+                          textDecoration: "line-through",
+                          marginLeft: "10px",
+                        }}
+                      >
+                        46 200 ₽
+                      </span>
+                    </div>
+                    <p
+                      style={{
+                        fontSize: "16px",
+                        color: "#555",
+                        marginTop: "5px",
+                      }}
+                    >
+                      Профессиональное отбеливание зубов с технологией Zoom 4
+                      для яркой улыбки
+                    </p>
+                    <button
+                      onClick={openPopupWindow}
+                      style={{
+                        marginTop: "15px",
+                        padding: "12px 25px",
+                        backgroundColor: "#E6C96B",
+                        color: "#202637",
+                        border: "none",
+                        borderRadius: "8px",
+                        fontWeight: "600",
+                        cursor: "pointer",
+                        alignSelf: "flex-start",
+                        transition: "background-color 0.3s",
+                        fontSize: "16px",
+                      }}
+                    >
+                      Записаться
+                    </button>
+                  </div>
+                </Fade>
+
+                {/* Promotion 4 */}
+                <Fade triggerOnce={true} direction="up" delay={500}>
+                  <div
+                    style={{
+                      padding: "25px",
+                      backgroundColor: "#f9f9f9",
+                      borderRadius: "12px",
+                      boxShadow: "0 4px 15px rgba(0, 0, 0, 0.08)",
+                      display: "flex",
+                      flexDirection: "column",
+                      position: "relative",
+                      overflow: "hidden",
+                      border: "1px solid rgba(230, 201, 107, 0.3)",
+                    }}
+                  >
+                    <div
+                      style={{
+                        position: "absolute",
+                        top: "15px",
+                        right: "15px",
+                        backgroundColor: "#E6C96B",
+                        color: "#202637",
+                        padding: "6px 12px",
+                        borderRadius: "20px",
+                        fontSize: "14px",
+                        fontWeight: "600",
+                      }}
+                    >
+                      Акция
+                    </div>
+                    <h3
+                      style={{
+                        fontSize: "22px",
+                        fontWeight: "700",
+                        color: "#202637",
+                        marginBottom: "15px",
+                        paddingRight: "80px",
+                      }}
+                    >
+                      Профессиональная гигиена зубов
+                    </h3>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        marginBottom: "10px",
+                      }}
+                    >
+                      <span
+                        style={{
+                          fontSize: "18px",
+                          fontWeight: "700",
+                          color: "#E6C96B",
+                        }}
+                      >
+                        8 200 ₽
+                      </span>
+                      <span
+                        style={{
+                          fontSize: "16px",
+                          color: "#777",
+                          textDecoration: "line-through",
+                          marginLeft: "10px",
+                        }}
+                      >
+                        10 400 ₽
+                      </span>
+                    </div>
+                    <p
+                      style={{
+                        fontSize: "16px",
+                        color: "#555",
+                        marginTop: "5px",
+                      }}
+                    >
+                      Комплексная гигиена с использованием Air Flow и
+                      УльтраЗвука для безупречной чистоты
+                    </p>
+                    <button
+                      onClick={openPopupWindow}
+                      style={{
+                        marginTop: "15px",
+                        padding: "12px 25px",
+                        backgroundColor: "#E6C96B",
+                        color: "#202637",
+                        border: "none",
+                        borderRadius: "8px",
+                        fontWeight: "600",
+                        cursor: "pointer",
+                        alignSelf: "flex-start",
+                        transition: "background-color 0.3s",
+                        fontSize: "16px",
+                      }}
+                    >
+                      Записаться
+                    </button>
+                  </div>
+                </Fade>
+
+                {/* Promotion 5 */}
+                <Fade triggerOnce={true} direction="up" delay={600}>
+                  <div
+                    style={{
+                      padding: "25px",
+                      backgroundColor: "#f9f9f9",
+                      borderRadius: "12px",
+                      boxShadow: "0 4px 15px rgba(0, 0, 0, 0.08)",
+                      display: "flex",
+                      flexDirection: "column",
+                      position: "relative",
+                      overflow: "hidden",
+                      border: "1px solid rgba(230, 201, 107, 0.3)",
+                    }}
+                  >
+                    <div
+                      style={{
+                        position: "absolute",
+                        top: "15px",
+                        right: "15px",
+                        backgroundColor: "#E6C96B",
+                        color: "#202637",
+                        padding: "6px 12px",
+                        borderRadius: "20px",
+                        fontSize: "14px",
+                        fontWeight: "600",
+                      }}
+                    >
+                      Акция
+                    </div>
+                    <h3
+                      style={{
+                        fontSize: "22px",
+                        fontWeight: "700",
+                        color: "#202637",
+                        marginBottom: "15px",
+                        paddingRight: "80px",
+                      }}
+                    >
+                      Красивая улыбка за 1 день
+                    </h3>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        marginBottom: "10px",
+                      }}
+                    >
+                      <span
+                        style={{
+                          fontSize: "18px",
+                          fontWeight: "700",
+                          color: "#E6C96B",
+                        }}
+                      >
+                        218 000 ₽
+                      </span>
+                      <span
+                        style={{
+                          fontSize: "16px",
+                          color: "#777",
+                          textDecoration: "line-through",
+                          marginLeft: "10px",
+                        }}
+                      >
+                        350 000 ₽
+                      </span>
+                    </div>
+                    <p
+                      style={{
+                        fontSize: "16px",
+                        color: "#555",
+                        marginTop: "5px",
+                      }}
+                    >
+                      Комплексное преображение улыбки с использованием
+                      современных методик за один день
+                    </p>
+                    <button
+                      onClick={openPopupWindow}
+                      style={{
+                        marginTop: "15px",
+                        padding: "12px 25px",
+                        backgroundColor: "#E6C96B",
+                        color: "#202637",
+                        border: "none",
+                        borderRadius: "8px",
+                        fontWeight: "600",
+                        cursor: "pointer",
+                        alignSelf: "flex-start",
+                        transition: "background-color 0.3s",
+                        fontSize: "16px",
+                      }}
+                    >
+                      Записаться
+                    </button>
+                  </div>
+                </Fade>
+              </div>
+
+              {/* View all promotions button */}
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  marginTop: "40px",
+                }}
+              >
+                <button
+                  onClick={openPopupWindow}
+                  style={{
+                    padding: "14px 30px",
+                    backgroundColor: "transparent",
+                    color: "#202637",
+                    border: "2px solid #E6C96B",
+                    borderRadius: "8px",
+                    fontWeight: "600",
+                    cursor: "pointer",
+                    transition: "all 0.3s",
+                    fontSize: "16px",
+                  }}
+                >
+                  Узнать подробнее об акциях
+                </button>
+              </div>
+            </section>
+          </div>
+
           <div className="service-screen" id="services">
             <section className="content">
               <div className="service-heading-container">
