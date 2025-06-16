@@ -561,7 +561,7 @@ const Retainer = () => {
                       Прием (осмотр, наблюдение) врача-ортодонта первичный{" "}
                       <br /> (ОРД-В01.063.001)
                     </span>
-                    <span className="price">От 1000₽</span>
+                    <span className="price">От 0₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -1157,7 +1157,7 @@ const Retainer = () => {
                           Прием (осмотр, наблюдение) врача-ортодонта первичный{" "}
                           <br /> (ОРД-В01.063.001)
                         </span>
-                        <span className="price">От 1.000₽</span>
+                        <span className="price">От 0₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">

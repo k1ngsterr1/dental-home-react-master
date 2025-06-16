@@ -1644,7 +1644,6 @@ export default function HomePage() {
               </div>
             </section>
           </div>
-
           <div className="service-screen" id="services">
             <section className="content">
               <div className="service-heading-container">
@@ -3121,20 +3120,39 @@ export default function HomePage() {
             </section>
           </div>
           <Footer></Footer>
-          <ScrollLink
-            to="services"
-            smooth={true}
+          <a
+            href="https://wa.me/79252229022?text=Здравствуйте!%20Хочу%20записаться%20к%20вам%20в%20клинику."
+            target="_blank"
+            rel="noopener noreferrer"
             className="services-modal-button"
             onClick={closeMenu}
+            style={{
+              position: "fixed",
+              bottom: "32px",
+              right: "32px",
+              zIndex: 9999,
+              background: "#E6C96B",
+              color: "#202637",
+              borderRadius: "50%",
+              width: "64px",
+              height: "64px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              boxShadow: "0 4px 16px rgba(0,0,0,0.15)",
+              fontWeight: 700,
+              fontSize: "28px",
+              cursor: "pointer",
+              border: "none",
+              outline: "none",
+              transition: "background 0.2s",
+              textDecoration: "none",
+            }}
           >
             <Bounce delay={300} triggerOnce={true}>
-              <img
-                src={servicesButton}
-                alt="services-button"
-                className="service-img"
-              />
+              WA
             </Bounce>
-          </ScrollLink>
+          </a>
           <Popup
             open={open}
             closeOnDocumentClick

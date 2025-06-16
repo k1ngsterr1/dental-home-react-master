@@ -907,7 +907,7 @@ const DiagnosticPage = () => {
                           первичный <br /> <br />
                           (В01.065.007)
                         </span>
-                        <span className="price">От 1000 ₽</span>
+                        <span className="price">От 0 ₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">

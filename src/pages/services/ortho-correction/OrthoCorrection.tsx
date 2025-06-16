@@ -613,7 +613,7 @@ const OrthoCorrection = () => {
                       Прием (осмотр, наблюдение) врача-ортодонта первичный{" "}
                       <br /> <br /> (ОРД-В01.063.001)
                     </span>
-                    <span className="price">От 1000₽</span>
+                    <span className="price">От 0₽</span>
                   </section>
                   <section className="tab-three">
                     <span className="text">
@@ -1262,7 +1262,7 @@ const OrthoCorrection = () => {
                           Прием (осмотр, наблюдение) врача-ортодонта первичный{" "}
                           <br /> <br /> (ОРД-В01.063.001)
                         </span>
-                        <span className="price">От 1.000₽</span>
+                        <span className="price">От 0₽</span>
                       </div>
                       <div className="price-row">
                         <span className="text">
