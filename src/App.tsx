@@ -3148,82 +3148,147 @@ export default function HomePage() {
               nested
               className="popup-container"
               position="center center"
+              overlayStyle={{
+                background: "rgba(32, 38, 55, 0.9)",
+                position: "fixed",
+                top: 0,
+                left: 0,
+                right: 0,
+                bottom: 0,
+                zIndex: 9999,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                padding: "20px",
+                boxSizing: "border-box",
+              }}
+              contentStyle={{
+                background: "transparent",
+                border: "none",
+                padding: 0,
+                margin: 0,
+                width: "100%",
+                height: "auto",
+                maxWidth: window.innerWidth > 768 ? "900px" : "400px",
+                overflow: "visible",
+              }}
             >
-              <div className="modal">
-                <img
-                  className="modal-img"
-                  src={modalImage}
-                  alt="modal-picture"
-                ></img>
+              <div
+                className="modal"
+                style={{
+                  position: "relative",
+                  background: "#fff",
+                  width: "100%",
+                  maxWidth: window.innerWidth > 768 ? "900px" : "380px",
+                  margin: "0 auto",
+                  display: "flex",
+                  flexDirection: window.innerWidth > 768 ? "row" : "column",
+                  alignItems: "stretch",
+                  borderRadius: "12px",
+                  overflow: "hidden",
+                  minHeight: window.innerWidth > 768 ? "500px" : "auto",
+                }}
+              >
                 <FontAwesomeIcon
                   icon={faClose}
                   onClick={closeModal}
                   className="gold-cross"
-                ></FontAwesomeIcon>
-                <div
-                  className="modal-content"
                   style={{
-                    overflow: "visible",
-                    maxWidth: "95vw",
-                    width: "100%",
-                    boxSizing: "border-box",
-                    padding: "24px 12px",
+                    position: "absolute",
+                    top: "15px",
+                    right: "15px",
+                    fontSize: "24px",
+                    color: "#E6C96B",
+                    cursor: "pointer",
+                    background: "rgba(0,0,0,0.5)",
+                    padding: "8px",
+                    borderRadius: "50%",
+                    width: "40px",
+                    height: "40px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    zIndex: 10,
+                  }}
+                />
+
+                {/* Image Section */}
+                <div
+                  style={{
+                    flex: window.innerWidth > 768 ? "1" : "none",
+                    minHeight: window.innerWidth > 768 ? "500px" : "200px",
+                    position: "relative",
+                  }}
+                >
+                  <img
+                    className="modal-img"
+                    src={modalImage}
+                    alt="modal-picture"
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "cover",
+                    }}
+                  />
+                </div>
+
+                {/* Content Section */}
+                <div
+                  style={{
+                    flex: window.innerWidth > 768 ? "1" : "none",
+                    padding:
+                      window.innerWidth > 768 ? "60px 40px" : "30px 20px",
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "center",
                     justifyContent: "center",
-                    minHeight: "100vh",
-                    position: "relative",
-                    top: "0",
-                    left: "0",
-                    margin: "0 auto",
+                    textAlign: "center",
+                    background: window.innerWidth > 768 ? "#fff" : "#202637",
+                    color: window.innerWidth > 768 ? "#202637" : "#fff",
                   }}
                 >
-                  <img
-                    className="logo"
-                    src={logoMobile}
-                    alt="logotype"
-                    style={{ maxWidth: 120, width: "40vw" }}
-                  />
-                  <span
-                    className="text"
+                  <h3
                     style={{
-                      textAlign: "center",
-                      fontSize: "1.2rem",
-                      marginTop: 12,
+                      fontSize: window.innerWidth > 768 ? "28px" : "20px",
+                      fontWeight: "600",
+                      margin: "0 0 15px 0",
+                      color: window.innerWidth > 768 ? "#202637" : "#fff",
                     }}
                   >
                     Записаться на консультацию
-                  </span>
-                  <span
-                    className="additional-text"
+                  </h3>
+                  <p
                     style={{
-                      textAlign: "center",
-                      marginBottom: 16,
-                      marginTop: 8,
+                      fontSize: window.innerWidth > 768 ? "16px" : "14px",
+                      margin: "0 0 10px 0",
+                      opacity: "0.9",
+                      color: window.innerWidth > 768 ? "#666" : "#fff",
                     }}
                   >
-                    Оставьте свой номер и мы перезвоним вам
-                  </span>
+                    Консультация бесплатно
+                  </p>
+                  <p
+                    style={{
+                      fontSize: window.innerWidth > 768 ? "14px" : "12px",
+                      margin: "0 0 30px 0",
+                      opacity: "0.7",
+                      color: window.innerWidth > 768 ? "#666" : "#fff",
+                    }}
+                  >
+                    Свяжемся в течение 15 минут
+                  </p>
+
                   <form
                     className="input-container"
                     onSubmit={sendPhoneRequest}
                     style={{
                       width: "100%",
-                      maxWidth: 340,
+                      maxWidth: window.innerWidth > 768 ? "350px" : "100%",
                       display: "flex",
                       flexDirection: "column",
-                      alignItems: "center",
-                      gap: 12,
+                      gap: "20px",
                     }}
                   >
-                    <label
-                      htmlFor="phone-number-input"
-                      className="label"
-                      style={{ width: "100%", textAlign: "center" }}
-                    >
-                      Ваш номер телефона*
-                    </label>
                     <input
                       type="tel"
                       name="phoneNumber"
@@ -3233,14 +3298,17 @@ export default function HomePage() {
                       value={phoneNumber}
                       onChange={(event) => setPhoneNumber(event.target.value)}
                       style={{
-                        textAlign: "center",
                         width: "100%",
-                        maxWidth: 260,
-                        fontSize: "1rem",
-                        padding: "10px 8px",
-                        borderRadius: 8,
-                        border: "1px solid #E6C96B",
+                        fontSize: "16px",
+                        padding:
+                          window.innerWidth > 768 ? "15px 20px" : "12px 15px",
+                        borderRadius: "8px",
+                        border: "2px solid #E6C96B",
                         boxSizing: "border-box",
+                        outline: "none",
+                        textAlign: "center",
+                        background: "#fff",
+                        color: "#202637",
                       }}
                       id="phone-number-input"
                       autoComplete="tel"
@@ -3248,26 +3316,26 @@ export default function HomePage() {
                     />
                     <button
                       className="phone-btn"
-                      value="Send"
+                      type="submit"
                       style={{
                         width: "100%",
-                        maxWidth: 260,
-                        padding: "12px 0",
+                        padding:
+                          window.innerWidth > 768 ? "18px 25px" : "15px 20px",
                         background: "#E6C96B",
                         color: "#202637",
                         border: "none",
-                        borderRadius: 8,
-                        fontWeight: 600,
-                        fontSize: "1rem",
+                        borderRadius: "8px",
+                        fontWeight: "600",
+                        fontSize: window.innerWidth > 768 ? "18px" : "16px",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
-                        gap: 8,
-                        marginTop: 8,
+                        gap: "10px",
                         cursor: "pointer",
+                        transition: "background-color 0.3s ease",
                       }}
                     >
-                      <FontAwesomeIcon icon={faPhone} className="icon" />
+                      <FontAwesomeIcon icon={faPhone} />
                       Хорошо жду звонка
                     </button>
                   </form>
@@ -3282,20 +3350,108 @@ export default function HomePage() {
               nested
               className="popup-container"
               position="center center"
-              overlayStyle={{ background: "rgba(0,0,0,0.7)" }}
+              overlayStyle={{
+                background: "rgba(32, 38, 55, 0.9)",
+                position: "fixed",
+                top: 0,
+                left: 0,
+                right: 0,
+                bottom: 0,
+                zIndex: 9999,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                padding: "20px",
+                boxSizing: "border-box",
+              }}
+              contentStyle={{
+                background: "transparent",
+                border: "none",
+                padding: 0,
+                margin: 0,
+                width: "100%",
+                height: "auto",
+                maxWidth: window.innerWidth > 768 ? "600px" : "400px",
+                overflow: "visible",
+              }}
             >
-              <div className="modal-thanks">
+              <div
+                className="modal-thanks"
+                style={{
+                  position: "relative",
+                  background: "#fff",
+                  borderRadius: "12px",
+                  width: "100%",
+                  maxWidth: window.innerWidth > 768 ? "600px" : "380px",
+                  margin: "0 auto",
+                  overflow: "hidden",
+                  boxShadow: "0 10px 30px rgba(0,0,0,0.3)",
+                  padding: window.innerWidth > 768 ? "60px 40px" : "40px 20px",
+                }}
+              >
                 <FontAwesomeIcon
                   icon={faClose}
                   onClick={closeModal}
                   className="gold-cross"
-                ></FontAwesomeIcon>
-                <div className="modl-content">
-                  <img className="logo" src={logoMobile} alt="logotype"></img>
-                  <span className="text">Спасибо за вашу заявку</span>
-                  <span className="additional-text">
+                  style={{
+                    position: "absolute",
+                    top: "15px",
+                    right: "15px",
+                    fontSize: "24px",
+                    color: "#E6C96B",
+                    cursor: "pointer",
+                    background: "rgba(32, 38, 55, 0.1)",
+                    padding: "8px",
+                    borderRadius: "50%",
+                    width: "40px",
+                    height: "40px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    zIndex: 10,
+                  }}
+                />
+                <div
+                  className="modl-content"
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    textAlign: "center",
+                  }}
+                >
+                  <img
+                    className="logo"
+                    src={logoMobile}
+                    alt="logotype"
+                    style={{
+                      maxWidth: window.innerWidth > 768 ? "120px" : "100px",
+                      width: window.innerWidth > 768 ? "100px" : "80px",
+                      marginBottom: window.innerWidth > 768 ? "30px" : "25px",
+                    }}
+                  />
+                  <h3
+                    className="text"
+                    style={{
+                      fontSize: window.innerWidth > 768 ? "28px" : "22px",
+                      fontWeight: "600",
+                      margin: "0 0 15px 0",
+                      color: "#202637",
+                    }}
+                  >
+                    Спасибо за вашу заявку
+                  </h3>
+                  <p
+                    className="additional-text"
+                    style={{
+                      fontSize: window.innerWidth > 768 ? "18px" : "16px",
+                      color: "#666",
+                      margin: "0",
+                      lineHeight: "1.4",
+                    }}
+                  >
                     В скором времени мы свяжемся с вами
-                  </span>
+                  </p>
                 </div>
               </div>
             </Popup>
@@ -3303,7 +3459,7 @@ export default function HomePage() {
               open={screenshotOpen}
               onClose={() => setScreenshotOpen(false)}
               contentStyle={{ padding: "0", border: "none" }}
-              overlayStyle={{ background: "rgba(0,0,0,0.7)" }}
+              overlayStyle={{ background: "rgba(32, 38, 55, 0.9)" }}
             >
               {currentScreenshot && (
                 <img src={currentScreenshot} alt="Screenshot" />
