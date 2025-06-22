@@ -11,11 +11,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "./styles/gallery_styles.css";
 
 // Hardcoded images - placeholders for now, images will be added later
-const pavelImage = require("../../assets/1.webp");
+const pavelImage = require("../../assets/03.webp");
 const elenaImage = require("../../assets/elena_pc.webp");
 const evgeniyImage = require("../../assets/orthoped_pc.webp");
 const arsenImage = require("../../assets/arsen.webp");
-const tatjanaImage = require("../../assets/evgenia_pc.webp");
+const daryaImage = require("../../assets/darya.webp");
+const katyaImage = require("../../assets/katya.webp");
+const denisImage = require("../../assets/denis.webp");
+
+const tatjanaImage = require("../../assets/tanya_new.webp");
 const marinaImage = require("../../assets/marina_pc.webp");
 const karenImage = require("../../assets/karen_pc.webp");
 const placeholderImage = require("../../assets/1.webp"); // Placeholder for new doctors
@@ -54,7 +58,7 @@ const Gallery: React.FC<GalleryProps> = ({ openModal }) => {
         </button>
       </div>
       <Swiper
-        spaceBetween={-60}
+        spaceBetween={30} // Увеличиваем горизонтальные отступы между карточками
         slidesPerView={1}
         threshold={0.5}
         navigation={false} // Disable Swiper navigation (we're using custom buttons)
@@ -125,12 +129,10 @@ const Gallery: React.FC<GalleryProps> = ({ openModal }) => {
               <button className="doctor-btn" onClick={openModal}>
                 <span className="text">Записаться</span>
               </button>
-              <img src={tatjanaImage} alt="Doctor" className="doctor-image" />
+              <img src={daryaImage} alt="Doctor" className="doctor-image" />
             </div>
-            <h3 className="doctor-name">Кузьминова Татьяна Евгеньевна</h3>
-            <p className="doctor-position">
-              Врач высшей категории стоматолог-терапевт микроскопист
-            </p>
+            <h3 className="doctor-name">Зайцева Дарья Никитична</h3>
+            <p className="doctor-position">Врач-стоматолог-пародонтолог</p>
           </div>
         </SwiperSlide>
 
@@ -153,28 +155,7 @@ const Gallery: React.FC<GalleryProps> = ({ openModal }) => {
               <button className="doctor-btn" onClick={openModal}>
                 <span className="text">Записаться</span>
               </button>
-              <img
-                src={placeholderImage}
-                alt="Doctor"
-                className="doctor-image"
-              />
-            </div>
-            <h3 className="doctor-name">Зайцева Дарья Никитична</h3>
-            <p className="doctor-position">Врач-стоматолог-пародонтолог</p>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className="dentist-card-2">
-            <div className="button-image-container">
-              <button className="doctor-btn" onClick={openModal}>
-                <span className="text">Записаться</span>
-              </button>
-              <img
-                src={placeholderImage}
-                alt="Doctor"
-                className="doctor-image"
-              />
+              <img src={tatjanaImage} alt="Doctor" className="doctor-image" />
             </div>
             <h3 className="doctor-name">Борисова Татьяна Владимировна</h3>
             <p className="doctor-position">
@@ -189,11 +170,7 @@ const Gallery: React.FC<GalleryProps> = ({ openModal }) => {
               <button className="doctor-btn" onClick={openModal}>
                 <span className="text">Записаться</span>
               </button>
-              <img
-                src={placeholderImage}
-                alt="Doctor"
-                className="doctor-image"
-              />
+              <img src={katyaImage} alt="Doctor" className="doctor-image" />
             </div>
             <h3 className="doctor-name">Ковалева Екатерина Олеговна</h3>
             <p className="doctor-position">Врач стоматолог-ортодонт</p>
@@ -206,11 +183,7 @@ const Gallery: React.FC<GalleryProps> = ({ openModal }) => {
               <button className="doctor-btn" onClick={openModal}>
                 <span className="text">Записаться</span>
               </button>
-              <img
-                src={placeholderImage}
-                alt="Doctor"
-                className="doctor-image"
-              />
+              <img src={denisImage} alt="Doctor" className="doctor-image" />
             </div>
             <h3 className="doctor-name">Кузнецов Денис Максимович</h3>
             <p className="doctor-position">

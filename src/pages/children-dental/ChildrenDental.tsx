@@ -307,18 +307,7 @@ const ChildDental = () => {
                 </div>
               </div>
             </div>
-            <Gallery
-              imageSrc={doctorOneMob}
-              // imageSrcTwo={doctorTwoMob}
-              imageSrcThree={doctorThreeMob}
-              openModal={openModal}
-              imageSrcFour={doctorFourMob}
-              imageSrcFive={doctorFiveMob}
-              imageSrcSix={doctorSixMob}
-              imageSrcSeven={doctorSevenMob}
-              imageSrcEight={doctorEightMob}
-              imageSrcNine={doctorNineMob}
-            />
+            <Gallery openModal={openModal} />
             <div
               className="form-screen"
               id="form-screen-mob"
@@ -560,18 +549,7 @@ const ChildDental = () => {
               </div>
             </div>
             <div className="mt-64">
-              <PcGallery
-                imageSrc={doctorOne}
-                // imageSrc2={doctorTwo}
-                imageSrc3={doctorThree}
-                imageSrc4={doctorFour}
-                imageSrc5={doctorFive}
-                imageSrc6={doctorSix}
-                imageSrc7={doctorSeven}
-                imageSrc8={doctorEight}
-                imageSrc9={doctorNine}
-                openModal={openModal}
-              />
+              <PcGallery openModal={openModal} />
             </div>
             <div
               className="form-pc-screen mt-64"

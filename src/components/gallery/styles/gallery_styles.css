@@ -18,7 +18,8 @@ body .gallery .gallery-nav {
   flex-direction: row;
   justify-content: flex-end;
 }
-body .gallery .gallery-nav .previous, body .gallery .gallery-nav .next {
+body .gallery .gallery-nav .previous,
+body .gallery .gallery-nav .next {
   width: clamp(19px, 8.87832vw, 76px);
   height: clamp(19px, 8.87832vw, 76px);
   border-radius: 70px;
@@ -27,49 +28,80 @@ body .gallery .gallery-nav .previous, body .gallery .gallery-nav .next {
   color: #202637;
   transition: 0.3s all;
 }
-body .gallery .gallery-nav .previous:hover, body .gallery .gallery-nav .next:hover {
-  color: #E8CB6C;
+body .gallery .gallery-nav .previous:hover,
+body .gallery .gallery-nav .next:hover {
+  color: #e8cb6c;
 }
 body .gallery .gallery-nav .previous {
   margin-right: clamp(8px, 3.73824vw, 32px);
 }
-body .gallery .dentist-card, body .gallery .dentist-card-2 {
+body .gallery .dentist-card,
+body .gallery .dentist-card-2 {
   display: flex;
   flex-direction: column;
   align-items: start;
   margin-top: clamp(16px, 7.47648vw, 64px);
+  height: clamp(700px, 120vw, 1000px); /* Much much taller cards */
+  min-height: clamp(700px, 120vw, 1000px);
+  padding: clamp(16px, 4vw, 24px); /* Add padding around the card content */
+  margin-left: clamp(8px, 2vw, 16px); /* Add horizontal margin */
+  margin-right: clamp(8px, 2vw, 16px); /* Add horizontal margin */
+  box-sizing: border-box;
 }
-body .gallery .dentist-card .button-image-container, body .gallery .dentist-card-2 .button-image-container {
+body .gallery .dentist-card .button-image-container,
+body .gallery .dentist-card-2 .button-image-container {
   position: relative;
+  width: 100%;
+  height: clamp(500px, 90vw, 750px); /* Much much taller image container */
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: clamp(
+    16px,
+    4vw,
+    24px
+  ); /* Add spacing between image and text */
 }
-body .gallery .dentist-card .button-image-container .doctor-btn, body .gallery .dentist-card-2 .button-image-container .doctor-btn {
+body .gallery .dentist-card .button-image-container .doctor-image,
+body .gallery .dentist-card-2 .button-image-container .doctor-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top; /* Focus on the top part of the image to avoid cutting heads */
+  border-radius: 8px;
+}
+body .gallery .dentist-card .button-image-container .doctor-btn,
+body .gallery .dentist-card-2 .button-image-container .doctor-btn {
   position: absolute;
-  width: 103px;
-  height: 94px;
+  width: clamp(80px, 20vw, 120px);
+  height: clamp(35px, 8vw, 50px);
   display: flex;
   justify-content: center;
+  align-items: center;
   border-radius: 5px;
   background: #202637;
   border: none;
-  color: #F4F4F4;
+  color: #f4f4f4;
   font-family: Raleway;
-  font-size: clamp(7px, 3.27096vw, 28px);
+  font-size: clamp(7px, 3.27096vw, 16px);
   font-style: normal;
   font-weight: 300;
   line-height: 137.4%;
   text-transform: capitalize;
-  top: clamp(118.5px, 55.37268vw, 474px);
-  left: clamp(67px, 31.30776vw, 268px);
+  bottom: clamp(8px, 2vw, 16px);
+  right: clamp(8px, 2vw, 16px);
   transition: 0.3s all;
 }
-body .gallery .dentist-card .button-image-container .doctor-btn:hover, body .gallery .dentist-card-2 .button-image-container .doctor-btn:hover {
-  background-color: #E8CB6C;
+body .gallery .dentist-card .button-image-container .doctor-btn:hover,
+body .gallery .dentist-card-2 .button-image-container .doctor-btn:hover {
+  background-color: #e8cb6c;
   color: #202637;
 }
-body .gallery .dentist-card .button-image-container .doctor-btn .text, body .gallery .dentist-card-2 .button-image-container .doctor-btn .text {
-  margin-top: clamp(8px, 3.73824vw, 32px);
+body .gallery .dentist-card .button-image-container .doctor-btn .text,
+body .gallery .dentist-card-2 .button-image-container .doctor-btn .text {
+  margin-top: 0; /* Remove margin since we center with align-items */
 }
-body .gallery .dentist-card .doctor-name, body .gallery .dentist-card-2 .doctor-name {
+body .gallery .dentist-card .doctor-name,
+body .gallery .dentist-card-2 .doctor-name {
   color: #202637;
   text-align: center;
   font-family: Merriweather;
@@ -77,10 +109,21 @@ body .gallery .dentist-card .doctor-name, body .gallery .dentist-card-2 .doctor-
   font-style: normal;
   font-weight: 400;
   line-height: 137.4%;
-  margin-top: clamp(8px, 3.73824vw, 32px);
+  margin-top: clamp(
+    12px,
+    3vw,
+    18px
+  ); /* Reduced margin since we added spacing to image container */
   text-transform: capitalize;
+  height: clamp(36px, 8vw, 72px); /* Fixed height for name */
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
-body .gallery .dentist-card .doctor-position, body .gallery .dentist-card-2 .doctor-position {
+body .gallery .dentist-card .doctor-position,
+body .gallery .dentist-card-2 .doctor-position {
   width: 90%;
   color: #202637;
   font-family: Raleway;
@@ -89,6 +132,13 @@ body .gallery .dentist-card .doctor-position, body .gallery .dentist-card-2 .doc
   font-weight: 400;
   line-height: 137.4%;
   text-transform: capitalize;
+  height: clamp(60px, 12vw, 120px); /* Fixed height for position */
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  flex-grow: 1; /* Allow position text to take remaining space */
 }
 body .gallery .swiper-custom {
   width: 100%;
@@ -111,4 +161,4 @@ body .gallery .blue-link {
   line-height: 137.4%;
   text-decoration-line: underline;
   text-transform: capitalize;
-}/*# sourceMappingURL=gallery_styles.css.map */
+} /*# sourceMappingURL=gallery_styles.css.map */

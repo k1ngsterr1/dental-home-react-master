@@ -215,18 +215,7 @@ const DoctorsPage = () => {
               <div className="divider-container">
                 <div className="divider"></div>
               </div>
-              <Gallery
-                imageSrc={doctorOneMob}
-                // imageSrcTwo={doctorTwoMob}
-                imageSrcThree={doctorThreeMob}
-                openModal={openModal}
-                imageSrcFour={doctorFourMob}
-                imageSrcFive={doctorFiveMob}
-                imageSrcSix={doctorSixMob}
-                imageSrcSeven={doctorNineMob}
-                imageSrcEight={doctorEightMob}
-                imageSrcNine={doctorElevenMob}
-              />
+              <Gallery openModal={openModal} />
               <h2 className="heading text-center mt-5">
                 профессиональные Врачи-Стоматологи Dental Home
               </h2>
@@ -432,18 +421,7 @@ const DoctorsPage = () => {
                   <div className="divider"></div>
                 </div>
               </div>
-              <PcGallery
-                imageSrc={DoctorOnePc}
-                imageSrc2={DoctorTwoPc}
-                imageSrc3={DoctorThreePc}
-                openModal={openModal}
-                imageSrc4={DoctorFourPc}
-                imageSrc5={DoctorFivePc}
-                imageSrc6={DoctorSixPc}
-                imageSrc7={DoctorSevenPc}
-                imageSrc8={DoctorEightPc}
-                imageSrc9={DoctorNinePc}
-              ></PcGallery>
+              <PcGallery openModal={openModal}></PcGallery>
               <h2 className="heading text-center mt-5">
                 Профессиональные врачи-стоматологи Dental Home
               </h2>

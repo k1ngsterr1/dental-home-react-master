@@ -12,6 +12,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation, Pagination } from "swiper/modules";
 import Header from "./components/header/header";
+import Layout from "./components/layout/Layout";
 
 import {
   faChevronRight,
@@ -79,6 +80,7 @@ interface ReviewTabProps {
 
 // Page Photos
 const mainPhoto = require("./assets/main_photo.webp");
+const whatsapp = require("./assets/whatsapp.webp");
 const mainPC = require("./assets/main_pc.webp");
 const pavel = require("./assets/pavel.png");
 const pavelPC = require("./assets/pavel_pc.png");
@@ -610,88 +612,73 @@ export default function HomePage() {
   }, []);
 
   return (
-    <div className="screen">
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>
-          Стоматологические клиники в Ивантеевке. Запишитесь на консультацию
-        </title>
-        <meta
-          property="og:title"
-          content="Стоматологические клиники в Ивантеевке. Запишитесь на консультацию"
-        ></meta>
-        <meta
-          property="og:description"
-          content="Сеть клиник Dental Home - здоровье зубов и качественное лечение. Запишитесь на прием сейчас"
-        ></meta>
-        <meta
-          name="description"
-          content="Сеть клиник Dental Home - здоровье зубов и качественное лечение. Запишитесь на прием сейчас"
-        ></meta>
-      </Helmet>
-      {isLoading ? (
-        <Reveal keyframes={customAnimation} delay={1000}>
-          <div className={`loader ${isLoading ? "" : "hidden"}`}>
-            <div className="loader-container">
-              <img className="logo" src={logoMobile} alt="logo"></img>
-              <h1 className="loading-heading">
-                Клиника Эстетической Стоматологии
-              </h1>
+    <Layout>
+      <div className="screen">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>
+            Стоматологические клиники в Ивантеевке. Запишитесь на консультацию
+          </title>
+          <meta
+            property="og:title"
+            content="Стоматологические клиники в Ивантеевке. Запишитесь на консультацию"
+          ></meta>
+          <meta
+            property="og:description"
+            content="Сеть клиник Dental Home - здоровье зубов и качественное лечение. Запишитесь на прием сейчас"
+          ></meta>
+          <meta
+            name="description"
+            content="Сеть клиник Dental Home - здоровье зубов и качественное лечение. Запишитесь на прием сейчас"
+          ></meta>
+        </Helmet>
+        {isLoading ? (
+          <Reveal keyframes={customAnimation} delay={1000}>
+            <div className={`loader ${isLoading ? "" : "hidden"}`}>
+              <div className="loader-container">
+                <img className="logo" src={logoMobile} alt="logo"></img>
+                <h1 className="loading-heading">
+                  Клиника Эстетической Стоматологии
+                </h1>
+              </div>
             </div>
-          </div>
-        </Reveal>
-      ) : (
-        <div className="all-screen-content">
-          <Helmet>
-            <meta charSet="utf-8" />
-            <title>
-              Стоматологические клиники в Ивантеевке. Запишитесь на консультацию
-            </title>
-            <meta
-              property="og:title"
-              content="Стоматологические клиники в Ивантеевке. Запишитесь на консультацию
+          </Reveal>
+        ) : (
+          <div className="all-screen-content">
+            <Helmet>
+              <meta charSet="utf-8" />
+              <title>
+                Стоматологические клиники в Ивантеевке. Запишитесь на
+                консультацию
+              </title>
+              <meta
+                property="og:title"
+                content="Стоматологические клиники в Ивантеевке. Запишитесь на консультацию
 "
-            ></meta>
-            <meta
-              property="og:description"
-              content="Сеть клиник Dental Home - здоровье зубов и качественное лечение. Запишитесь на прием сейчас"
-            ></meta>
-            <meta
-              name="description"
-              content="Сеть клиник Dental Home - здоровье зубов и качественное лечение. Запишитесь на прием сейчас"
-            ></meta>
-          </Helmet>
-          <Mheader
-            isMenuOpen={isMenuOpen}
-            openModal={openModal}
-            toggleMenu={toggleMenu}
-          ></Mheader>
-          <section className="content">
-            <div className="header-container" style={{ width: "100%" }}>
-              {/* <Header
+              ></meta>
+              <meta
+                property="og:description"
+                content="Сеть клиник Dental Home - здоровье зубов и качественное лечение. Запишитесь на прием сейчас"
+              ></meta>
+              <meta
+                name="description"
+                content="Сеть клиник Dental Home - здоровье зубов и качественное лечение. Запишитесь на прием сейчас"
+              ></meta>
+            </Helmet>
+            <Mheader
+              isMenuOpen={isMenuOpen}
+              openModal={openModal}
+              toggleMenu={toggleMenu}
+            ></Mheader>
+            <section className="content">
+              <div className="header-container" style={{ width: "100%" }}>
+                {/* <Header
                 isMenuOpen={isMenuOpen}
                 openModal={openModal}
                 toggleMenu={toggleMenu}
               ></Header> */}
-            </div>
-            <div className="tablet" style={{ width: "100%" }}>
-              <Header
-                isMenuPcOpen={isMenuPcOpen}
-                openModal={openModal}
-                togglePcMenu={togglePcMenu}
-              ></Header>
-            </div>
-            <div className="heading-container">
-              <Fade direction="up">
-                <h2 className="dental">Dental</h2>
-                <h2 className="home">Home</h2>
-              </Fade>
-            </div>
-            <img className="main_image" src={mainPhoto} alt="main_image"></img>
-          </section>
-          <section className="pc-content">
-            <div className="white-content">
-              <div className="header-container">
+              </div>
+              <div className="tablet" style={{ width: "100%" }}>
                 <Header
                   isMenuPcOpen={isMenuPcOpen}
                   openModal={openModal}
@@ -699,178 +686,270 @@ export default function HomePage() {
                 ></Header>
               </div>
               <div className="heading-container">
-                <Fade direction="up" triggerOnce={true}>
+                <Fade direction="up">
                   <h2 className="dental">Dental</h2>
                   <h2 className="home">Home</h2>
                 </Fade>
               </div>
-              <div
-                className="blue-content"
-                style={{
-                  backgroundColor: bgColor,
-                  transition: " background-color 0.5s ease-in-out",
-                }}
-                id="changeColorSection"
-              >
-                <div className="photos">
-                  <Fade direction="left" delay={400} triggerOnce={true}>
-                    <img
-                      className={`main_image ${isLarge ? "large" : ""}`}
-                      src={mainPC}
-                      alt="main"
-                    ></img>
-                  </Fade>
-                  <Fade triggerOnce={true} delay={200}>
-                    <div className="photo-container">
-                      <img className="bulb" src={bulb} alt="bulb"></img>
-                      <img src={pavelPC} alt="pavel" className="pavel"></img>
-                      <div className="doctor-names">
-                        <span className="name">Главный врач</span>
-                        <span className="under-text">
-                          Тамаров Павел Сергеевич
-                        </span>
-                      </div>
-                    </div>
-                  </Fade>
-                </div>
-              </div>
-            </div>
-          </section>
-          <div className="gallery-content" id="gallery">
-            <div
-              className="pictures-div"
-              style={{ transform: `translateX(-${scrollX / 13}px)` }}
-            >
               <img
-                className="gallery-05"
-                src={galleryFive}
-                alt="gallery-picture-05"
+                className="main_image"
+                src={mainPhoto}
+                alt="main_image"
               ></img>
-              <img
-                className="gallery-04"
-                src={galleryFour}
-                alt="gallery-picture-04"
-              ></img>
-              <img
-                className="gallery-03"
-                src={galleryThree}
-                alt="gallery-picture-03"
-              ></img>
-              <img
-                className="gallery-02"
-                src={galleryTwo}
-                alt="gallery-picture-02"
-              ></img>
-              <img
-                className="gallery-01"
-                src={galleryOne}
-                alt="gallery-picture-01"
-              ></img>
-            </div>
-          </div>
-          <div className="features-screen" id="features-list-mob">
-            <section className="doctor-container">
-              <div className="content">
-                <div className="image-container">
-                  <img className="bulb" src={bulb} alt="bulb"></img>
-                  <img className="image" src={pavel} alt="pavel"></img>
-                  <div className="main_doctor">Главный врач</div>
-                  <div className="name">Тамаров Павел Сергеевич</div>
-                </div>
-              </div>
             </section>
-            <section className="features-container">
-              <img
-                className="features-photo"
-                src={featuresPhoto}
-                alt="features-photo"
-              ></img>
-              <div className="features">
-                <div className="divider"></div>
-                <FeatureTab
-                  number="01"
-                  text="Современная клиника с самым передовым оборудованием"
-                />
-                <div className="divider"></div>
-                <FeatureTab
-                  number="02"
-                  text="Тщательно соблюдаем санитарные требования и гигиены, что обеспечиваем и контролируем с помощью автоклавов последнего поколения"
-                />
-                <div className="divider"></div>
-                <FeatureTab
-                  number="03"
-                  text="Используем только качественные и надёжные материалы, подтверждённые российскими и международными сертификатами"
-                />
-                <div className="divider"></div>
-                <FeatureTab
-                  number="04"
-                  text="Индивидуальный подход к каждому клиенту"
-                  goldText="Мы используем самые эффективные и безопасные обезболивающие методики при протезировании и лечении зубов."
-                />
-                <div className="divider"></div>
-                <FeatureTab
-                  number="06"
-                  text="Медицинское учреждение премиум-класса"
-                  goldText="У нас Вы можете воспользоваться широким спектром самых востребованных в современной стоматологии услуг."
-                ></FeatureTab>
-                <div className="text_divider">
-                  <div className="divider"></div>
-                  <div className="row_text">
-                    <span className="paragraph">Наши преимущества</span>
-                    <span className="number">07</span>
+            <section className="pc-content">
+              <div className="white-content">
+                <div className="header-container">
+                  <Header
+                    isMenuPcOpen={isMenuPcOpen}
+                    openModal={openModal}
+                    togglePcMenu={togglePcMenu}
+                  ></Header>
+                </div>
+                <div className="heading-container">
+                  <Fade direction="up" triggerOnce={true}>
+                    <h2 className="dental">Dental</h2>
+                    <h2 className="home">Home</h2>
+                  </Fade>
+                </div>
+                <div
+                  className="blue-content"
+                  style={{
+                    backgroundColor: bgColor,
+                    transition: " background-color 0.5s ease-in-out",
+                  }}
+                  id="changeColorSection"
+                >
+                  <div className="photos">
+                    <Fade direction="left" delay={400} triggerOnce={true}>
+                      <img
+                        className={`main_image ${isLarge ? "large" : ""}`}
+                        src={mainPC}
+                        alt="main"
+                      ></img>
+                    </Fade>
+                    <Fade triggerOnce={true} delay={200}>
+                      <div className="photo-container">
+                        <img className="bulb" src={bulb} alt="bulb"></img>
+                        <img src={pavelPC} alt="pavel" className="pavel"></img>
+                        <div className="doctor-names">
+                          <span className="name">Главный врач</span>
+                          <span className="under-text">
+                            Тамаров Павел Сергеевич
+                          </span>
+                        </div>
+                      </div>
+                    </Fade>
                   </div>
                 </div>
-                <FeatureLong
-                  number="01"
-                  text="Удобное расположение"
-                ></FeatureLong>
-                <FeatureLong
-                  number="02"
-                  text="Домашняя атмосфера"
-                ></FeatureLong>
-                <FeatureLong
-                  number="03"
-                  text="Все стоматологические процедуры"
-                ></FeatureLong>
-                <FeatureLong
-                  number="04"
-                  text="Современное оборудование"
-                ></FeatureLong>
               </div>
-              <button className="golden-button" onClick={openPopupWindow}>
-                Записаться на прием
-              </button>
             </section>
-          </div>
-          <div className="pc-features-screen" id="features-list-pc">
-            <section className="features-content">
-              <Fade triggerOnce={true} direction="left">
+            <div className="gallery-content" id="gallery">
+              <div
+                className="pictures-div"
+                style={{ transform: `translateX(-${scrollX / 13}px)` }}
+              >
                 <img
-                  className="features-image"
-                  src={featuresPhotoPc}
-                  style={{
-                    // transform: `translateY(${topPosition}px)`,
-                    position: "sticky",
-                    top: "128px",
-                  }}
-                  alt="features-photo-pc"
+                  className="gallery-05"
+                  src={galleryFive}
+                  alt="gallery-picture-05"
                 ></img>
-              </Fade>
-              <div className="features-list">
-                <Fade triggerOnce={true} direction="right" delay={100}>
-                  <h2 className="features-heading">Преимущества</h2>
+                <img
+                  className="gallery-04"
+                  src={galleryFour}
+                  alt="gallery-picture-04"
+                ></img>
+                <img
+                  className="gallery-03"
+                  src={galleryThree}
+                  alt="gallery-picture-03"
+                ></img>
+                <img
+                  className="gallery-02"
+                  src={galleryTwo}
+                  alt="gallery-picture-02"
+                ></img>
+                <img
+                  className="gallery-01"
+                  src={galleryOne}
+                  alt="gallery-picture-01"
+                ></img>
+              </div>
+            </div>
+            <div className="features-screen" id="features-list-mob">
+              <section className="doctor-container">
+                <div className="content">
+                  <div className="image-container">
+                    <img className="bulb" src={bulb} alt="bulb"></img>
+                    <img className="image" src={pavel} alt="pavel"></img>
+                    <div className="main_doctor">Главный врач</div>
+                    <div className="name">Тамаров Павел Сергеевич</div>
+                  </div>
+                </div>
+              </section>
+              <section className="features-container">
+                <img
+                  className="features-photo"
+                  src={featuresPhoto}
+                  alt="features-photo"
+                ></img>
+                <div className="features">
+                  <div className="divider"></div>
+                  <FeatureTab
+                    number="01"
+                    text="Современная клиника с самым передовым оборудованием"
+                  />
+                  <div className="divider"></div>
+                  <FeatureTab
+                    number="02"
+                    text="Тщательно соблюдаем санитарные требования и гигиены, что обеспечиваем и контролируем с помощью автоклавов последнего поколения"
+                  />
+                  <div className="divider"></div>
+                  <FeatureTab
+                    number="03"
+                    text="Используем только качественные и надёжные материалы, подтверждённые российскими и международными сертификатами"
+                  />
+                  <div className="divider"></div>
+                  <FeatureTab
+                    number="04"
+                    text="Индивидуальный подход к каждому клиенту"
+                    goldText="Мы используем самые эффективные и безопасные обезболивающие методики при протезировании и лечении зубов."
+                  />
+                  <div className="divider"></div>
+                  <FeatureTab
+                    number="06"
+                    text="Медицинское учреждение премиум-класса"
+                    goldText="У нас Вы можете воспользоваться широким спектром самых востребованных в современной стоматологии услуг."
+                  ></FeatureTab>
+                  <div className="text_divider">
+                    <div className="divider"></div>
+                    <div className="row_text">
+                      <span className="paragraph">Наши преимущества</span>
+                      <span className="number">07</span>
+                    </div>
+                  </div>
+                  <FeatureLong
+                    number="01"
+                    text="Удобное расположение"
+                  ></FeatureLong>
+                  <FeatureLong
+                    number="02"
+                    text="Домашняя атмосфера"
+                  ></FeatureLong>
+                  <FeatureLong
+                    number="03"
+                    text="Все стоматологические процедуры"
+                  ></FeatureLong>
+                  <FeatureLong
+                    number="04"
+                    text="Современное оборудование"
+                  ></FeatureLong>
+                </div>
+                <button className="golden-button" onClick={openPopupWindow}>
+                  Записаться на прием
+                </button>
+              </section>
+            </div>
+            <div className="pc-features-screen" id="features-list-pc">
+              <section className="features-content">
+                <Fade triggerOnce={true} direction="left">
+                  <img
+                    className="features-image"
+                    src={featuresPhotoPc}
+                    style={{
+                      // transform: `translateY(${topPosition}px)`,
+                      position: "sticky",
+                      top: "128px",
+                    }}
+                    alt="features-photo-pc"
+                  ></img>
                 </Fade>
-                <div className="list-content">
-                  <Fade triggerOnce={true} direction="right" delay={200}>
-                    <div className="list-01">
-                      <div className="divider-container">
-                        <div className="divider"></div>
-                        <span className="number">01</span>
+                <div className="features-list">
+                  <Fade triggerOnce={true} direction="right" delay={100}>
+                    <h2 className="features-heading">Преимущества</h2>
+                  </Fade>
+                  <div className="list-content">
+                    <Fade triggerOnce={true} direction="right" delay={200}>
+                      <div className="list-01">
+                        <div className="divider-container">
+                          <div className="divider"></div>
+                          <span className="number">01</span>
+                        </div>
+                        <Fade
+                          triggerOnce={true}
+                          direction="right"
+                          delay={300}
+                          style={{
+                            width: "100%",
+                            display: "flex",
+                            justifyContent: "flex-end",
+                          }}
+                        >
+                          <p className="list-p">
+                            Современная клиника с самым передовым оборудованием
+                          </p>
+                        </Fade>
                       </div>
+                    </Fade>
+                    <div className="list-02">
+                      <Fade triggerOnce={true} direction="right" delay={400}>
+                        <div className="divider-container">
+                          <div className="divider"></div>
+                          <span className="number">02</span>
+                        </div>
+                      </Fade>
                       <Fade
                         triggerOnce={true}
                         direction="right"
-                        delay={300}
+                        delay={500}
+                        style={{
+                          width: "100%",
+                          display: "flex",
+                          justifyContent: "flex-end",
+                        }}
+                      >
+                        <p className="list-p l">
+                          Тщательно соблюдаем санитарные требования и гигиены,
+                          что обеспечиваем и контролируем с помощью автоклавов
+                          последнего поколения
+                        </p>
+                      </Fade>
+                    </div>
+                    <div className="list-02">
+                      <Fade triggerOnce={true} direction="right" delay={600}>
+                        <div className="divider-container">
+                          <div className="divider"></div>
+                          <span className="number">03</span>
+                        </div>
+                      </Fade>
+                      <Fade
+                        triggerOnce={true}
+                        direction="right"
+                        delay={700}
+                        style={{
+                          width: "100%",
+                          display: "flex",
+                          justifyContent: "flex-end",
+                        }}
+                      >
+                        <p className="list-p l">
+                          Используем только качественные и надёжные материалы,
+                          подтверждённые российскими и международными
+                          сертификатами{" "}
+                        </p>
+                      </Fade>
+                    </div>
+                    <div className="list-02">
+                      <Fade triggerOnce={true} direction="right" delay={800}>
+                        <div className="divider-container">
+                          <div className="divider"></div>
+                          <span className="number">04</span>
+                        </div>
+                      </Fade>
+                      <Fade
+                        triggerOnce={true}
+                        direction="right"
+                        delay={900}
                         style={{
                           width: "100%",
                           display: "flex",
@@ -878,821 +957,750 @@ export default function HomePage() {
                         }}
                       >
                         <p className="list-p">
-                          Современная клиника с самым передовым оборудованием
+                          Индивидуальный подход к каждому клиенту{" "}
                         </p>
                       </Fade>
                     </div>
-                  </Fade>
-                  <div className="list-02">
-                    <Fade triggerOnce={true} direction="right" delay={400}>
-                      <div className="divider-container">
-                        <div className="divider"></div>
-                        <span className="number">02</span>
-                      </div>
-                    </Fade>
-                    <Fade
-                      triggerOnce={true}
-                      direction="right"
-                      delay={500}
-                      style={{
-                        width: "100%",
-                        display: "flex",
-                        justifyContent: "flex-end",
-                      }}
-                    >
-                      <p className="list-p l">
-                        Тщательно соблюдаем санитарные требования и гигиены, что
-                        обеспечиваем и контролируем с помощью автоклавов
-                        последнего поколения
-                      </p>
-                    </Fade>
-                  </div>
-                  <div className="list-02">
-                    <Fade triggerOnce={true} direction="right" delay={600}>
-                      <div className="divider-container">
-                        <div className="divider"></div>
-                        <span className="number">03</span>
-                      </div>
-                    </Fade>
-                    <Fade
-                      triggerOnce={true}
-                      direction="right"
-                      delay={700}
-                      style={{
-                        width: "100%",
-                        display: "flex",
-                        justifyContent: "flex-end",
-                      }}
-                    >
-                      <p className="list-p l">
-                        Используем только качественные и надёжные материалы,
-                        подтверждённые российскими и международными
-                        сертификатами{" "}
-                      </p>
-                    </Fade>
-                  </div>
-                  <div className="list-02">
-                    <Fade triggerOnce={true} direction="right" delay={800}>
-                      <div className="divider-container">
-                        <div className="divider"></div>
-                        <span className="number">04</span>
-                      </div>
-                    </Fade>
-                    <Fade
-                      triggerOnce={true}
-                      direction="right"
-                      delay={900}
-                      style={{
-                        width: "100%",
-                        display: "flex",
-                        justifyContent: "flex-end",
-                      }}
-                    >
-                      <p className="list-p">
-                        Индивидуальный подход к каждому клиенту{" "}
-                      </p>
-                    </Fade>
-                  </div>
-                  <div className="list-02">
-                    <Fade triggerOnce={true} direction="right" delay={1000}>
-                      <div className="divider-container">
-                        <div className="divider"></div>
-                        <span className="number">05</span>
-                      </div>
-                    </Fade>
-                    <Fade
-                      triggerOnce={true}
-                      direction="right"
-                      delay={1100}
-                      style={{
-                        width: "100%",
-                        display: "flex",
-                        justifyContent: "flex-end",
-                      }}
-                    >
-                      <p className="list-p l">
-                        Каждый кабинет оснащен современным оборудованием лучших
-                        мировых производителей.
-                      </p>
-                    </Fade>
-                    <Fade
-                      triggerOnce={true}
-                      direction="right"
-                      delay={1200}
-                      style={{
-                        width: "100%",
-                        display: "flex",
-                        justifyContent: "flex-end",
-                      }}
-                    >
-                      <p className="list-p-gold">
-                        Мы используем самые эффективные и безопасные
-                        обезболивающие методики при протезировании и лечении
-                        зубов.
-                      </p>
-                    </Fade>
-                  </div>
-                  <div className="list-02">
-                    <Fade triggerOnce={true} direction="right" delay={1300}>
-                      <div className="divider-container">
-                        <div className="divider"></div>
-                        <span className="number">06</span>
-                      </div>
-                    </Fade>
-                    <Fade
-                      triggerOnce={true}
-                      direction="right"
-                      delay={800}
-                      style={{
-                        width: "100%",
-                        display: "flex",
-                        justifyContent: "flex-end",
-                      }}
-                    >
-                      <p className="list-p l">
-                        Медицинское учреждение премиум-класса
-                      </p>
-                    </Fade>
-                    <Fade
-                      triggerOnce={true}
-                      direction="right"
-                      delay={800}
-                      style={{
-                        width: "100%",
-                        display: "flex",
-                        justifyContent: "flex-end",
-                      }}
-                    >
-                      <p className="list-p-gold">
-                        У нас Вы можете воспользоваться широким спектром самых
-                        востребованных в современной стоматологии услуг.
-                      </p>
-                    </Fade>
-                  </div>
-                  <div className="list-02 squares">
-                    <Fade triggerOnce={true} direction="right" delay={800}>
-                      <div className="divider-container">
-                        <div className="divider"></div>
-                        <span className="number">07</span>
-                      </div>
-                    </Fade>
-                    <Fade
-                      triggerOnce={true}
-                      direction="right"
-                      delay={800}
-                      style={{
-                        width: "100%",
-                        display: "flex",
-                        justifyContent: "flex-end",
-                      }}
-                    >
-                      <p className="list-p">Наши преимущества</p>
-                    </Fade>
-                    <Fade triggerOnce={true} direction="right" delay={800}>
-                      <div className="square-row first">
-                        <div className="square">
-                          <span className="number">01</span>
-                          <span className="gold-p">Удобное расположение</span>
+                    <div className="list-02">
+                      <Fade triggerOnce={true} direction="right" delay={1000}>
+                        <div className="divider-container">
+                          <div className="divider"></div>
+                          <span className="number">05</span>
                         </div>
-                        <div className="square left">
-                          <span className="number">02</span>
-                          <span className="gold-p">Домашняя атмосфера</span>
+                      </Fade>
+                      <Fade
+                        triggerOnce={true}
+                        direction="right"
+                        delay={1100}
+                        style={{
+                          width: "100%",
+                          display: "flex",
+                          justifyContent: "flex-end",
+                        }}
+                      >
+                        <p className="list-p l">
+                          Каждый кабинет оснащен современным оборудованием
+                          лучших мировых производителей.
+                        </p>
+                      </Fade>
+                      <Fade
+                        triggerOnce={true}
+                        direction="right"
+                        delay={1200}
+                        style={{
+                          width: "100%",
+                          display: "flex",
+                          justifyContent: "flex-end",
+                        }}
+                      >
+                        <p className="list-p-gold">
+                          Мы используем самые эффективные и безопасные
+                          обезболивающие методики при протезировании и лечении
+                          зубов.
+                        </p>
+                      </Fade>
+                    </div>
+                    <div className="list-02">
+                      <Fade triggerOnce={true} direction="right" delay={1300}>
+                        <div className="divider-container">
+                          <div className="divider"></div>
+                          <span className="number">06</span>
                         </div>
-                      </div>
-                    </Fade>
+                      </Fade>
+                      <Fade
+                        triggerOnce={true}
+                        direction="right"
+                        delay={800}
+                        style={{
+                          width: "100%",
+                          display: "flex",
+                          justifyContent: "flex-end",
+                        }}
+                      >
+                        <p className="list-p l">
+                          Медицинское учреждение премиум-класса
+                        </p>
+                      </Fade>
+                      <Fade
+                        triggerOnce={true}
+                        direction="right"
+                        delay={800}
+                        style={{
+                          width: "100%",
+                          display: "flex",
+                          justifyContent: "flex-end",
+                        }}
+                      >
+                        <p className="list-p-gold">
+                          У нас Вы можете воспользоваться широким спектром самых
+                          востребованных в современной стоматологии услуг.
+                        </p>
+                      </Fade>
+                    </div>
+                    <div className="list-02 squares">
+                      <Fade triggerOnce={true} direction="right" delay={800}>
+                        <div className="divider-container">
+                          <div className="divider"></div>
+                          <span className="number">07</span>
+                        </div>
+                      </Fade>
+                      <Fade
+                        triggerOnce={true}
+                        direction="right"
+                        delay={800}
+                        style={{
+                          width: "100%",
+                          display: "flex",
+                          justifyContent: "flex-end",
+                        }}
+                      >
+                        <p className="list-p">Наши преимущества</p>
+                      </Fade>
+                      <Fade triggerOnce={true} direction="right" delay={800}>
+                        <div className="square-row first">
+                          <div className="square">
+                            <span className="number">01</span>
+                            <span className="gold-p">Удобное расположение</span>
+                          </div>
+                          <div className="square left">
+                            <span className="number">02</span>
+                            <span className="gold-p">Домашняя атмосфера</span>
+                          </div>
+                        </div>
+                      </Fade>
+                      <Fade triggerOnce={true} direction="right" delay={800}>
+                        <div className="square-row second">
+                          <div className="square ">
+                            <span className="number">03</span>
+                            <span className="gold-p">
+                              Все стоматологические процедуры
+                            </span>
+                          </div>
+                          <div className="square left">
+                            <span className="number">04</span>
+                            <span className="gold-p">
+                              Современное оборудование
+                            </span>
+                          </div>
+                        </div>
+                      </Fade>
+                    </div>
                     <Fade triggerOnce={true} direction="right" delay={800}>
-                      <div className="square-row second">
-                        <div className="square ">
-                          <span className="number">03</span>
-                          <span className="gold-p">
-                            Все стоматологические процедуры
-                          </span>
-                        </div>
-                        <div className="square left">
-                          <span className="number">04</span>
-                          <span className="gold-p">
-                            Современное оборудование
-                          </span>
-                        </div>
-                      </div>
+                      <button className="golden-btn" onClick={openPopupWindow}>
+                        Записаться на прием
+                      </button>
                     </Fade>
                   </div>
-                  <Fade triggerOnce={true} direction="right" delay={800}>
-                    <button className="golden-btn" onClick={openPopupWindow}>
-                      Записаться на прием
-                    </button>
-                  </Fade>
                 </div>
-              </div>
-            </section>
-          </div>
-          <div
-            style={{
-              width: "100%",
-              backgroundColor: "#fff",
-              padding: "60px 0",
-              boxSizing: "border-box",
-            }}
-          >
-            <section
+              </section>
+            </div>
+            <div
               style={{
-                maxWidth: "1200px",
-                margin: "0 auto",
-                padding: "0 20px",
+                width: "100%",
+                backgroundColor: "#fff",
+                padding: "60px 0",
+                boxSizing: "border-box",
               }}
             >
-              <Fade triggerOnce={true} direction="up" delay={100}>
-                <h2
-                  style={{
-                    fontSize: "clamp(28px, 4vw, 36px)",
-                    fontWeight: "700",
-                    color: "#202637",
-                    marginBottom: "40px",
-                    textAlign: "center",
-                  }}
-                >
-                  Акции <span style={{ color: "#E6C96B" }}>Dental Home</span>
-                </h2>
-              </Fade>
-
-              <div
+              <section
                 style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: "20px",
-                  maxWidth: "100%",
+                  maxWidth: "1200px",
+                  margin: "0 auto",
+                  padding: "0 20px",
                 }}
               >
-                {/* Promotion 1 */}
-                <Fade triggerOnce={true} direction="up" delay={200}>
-                  <div
+                <Fade triggerOnce={true} direction="up" delay={100}>
+                  <h2
                     style={{
-                      padding: "25px",
-                      backgroundColor: "#f9f9f9",
-                      borderRadius: "12px",
-                      boxShadow: "0 4px 15px rgba(0, 0, 0, 0.08)",
-                      display: "flex",
-                      flexDirection: "column",
-                      position: "relative",
-                      overflow: "hidden",
-                      border: "1px solid rgba(230, 201, 107, 0.3)",
+                      fontSize: "clamp(28px, 4vw, 36px)",
+                      fontWeight: "700",
+                      color: "#202637",
+                      marginBottom: "40px",
+                      textAlign: "center",
                     }}
                   >
-                    <div
-                      style={{
-                        position: "absolute",
-                        top: "15px",
-                        right: "15px",
-                        backgroundColor: "#E6C96B",
-                        color: "#202637",
-                        padding: "6px 12px",
-                        borderRadius: "20px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                      }}
-                    >
-                      Акция
-                    </div>
-                    <h3
-                      style={{
-                        fontSize: "22px",
-                        fontWeight: "700",
-                        color: "#202637",
-                        marginBottom: "15px",
-                        paddingRight: "80px",
-                      }}
-                    >
-                      Бесплатная консультация
-                    </h3>
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        marginBottom: "10px",
-                      }}
-                    >
-                      <span
-                        style={{
-                          fontSize: "18px",
-                          fontWeight: "700",
-                          color: "#E6C96B",
-                        }}
-                      >
-                        0 ₽
-                      </span>
-                      <span
-                        style={{
-                          fontSize: "16px",
-                          color: "#777",
-                          textDecoration: "line-through",
-                          marginLeft: "10px",
-                        }}
-                      >
-                        1200 ₽
-                      </span>
-                    </div>
-                    <p
-                      style={{
-                        fontSize: "16px",
-                        color: "#555",
-                        marginTop: "5px",
-                      }}
-                    >
-                      Первичная консультация специалиста абсолютно бесплатно
-                    </p>
-                    <button
-                      onClick={openPopupWindow}
-                      style={{
-                        marginTop: "15px",
-                        padding: "12px 25px",
-                        backgroundColor: "#E6C96B",
-                        color: "#202637",
-                        border: "none",
-                        borderRadius: "8px",
-                        fontWeight: "600",
-                        cursor: "pointer",
-                        alignSelf: "flex-start",
-                        transition: "background-color 0.3s",
-                        fontSize: "16px",
-                      }}
-                    >
-                      Записаться
-                    </button>
-                  </div>
+                    Акции <span style={{ color: "#E6C96B" }}>Dental Home</span>
+                  </h2>
                 </Fade>
 
-                {/* Promotion 2 */}
-                <Fade triggerOnce={true} direction="up" delay={300}>
-                  <div
-                    style={{
-                      padding: "25px",
-                      backgroundColor: "#f9f9f9",
-                      borderRadius: "12px",
-                      boxShadow: "0 4px 15px rgba(0, 0, 0, 0.08)",
-                      display: "flex",
-                      flexDirection: "column",
-                      position: "relative",
-                      overflow: "hidden",
-                      border: "1px solid rgba(230, 201, 107, 0.3)",
-                    }}
-                  >
-                    <div
-                      style={{
-                        position: "absolute",
-                        top: "15px",
-                        right: "15px",
-                        backgroundColor: "#E6C96B",
-                        color: "#202637",
-                        padding: "6px 12px",
-                        borderRadius: "20px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                      }}
-                    >
-                      Акция
-                    </div>
-                    <h3
-                      style={{
-                        fontSize: "22px",
-                        fontWeight: "700",
-                        color: "#202637",
-                        marginBottom: "15px",
-                        paddingRight: "80px",
-                      }}
-                    >
-                      Имплантация с пожизненной гарантией
-                    </h3>
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        marginBottom: "10px",
-                      }}
-                    >
-                      <span
-                        style={{
-                          fontSize: "18px",
-                          fontWeight: "700",
-                          color: "#E6C96B",
-                        }}
-                      >
-                        от 26900 ₽
-                      </span>
-                      <span
-                        style={{
-                          fontSize: "16px",
-                          color: "#777",
-                          marginLeft: "10px",
-                        }}
-                      >
-                        за один имплант
-                      </span>
-                    </div>
-                    <p
-                      style={{
-                        fontSize: "16px",
-                        color: "#555",
-                        marginTop: "5px",
-                      }}
-                    >
-                      Качественная имплантация зубов с пожизненной гарантией от
-                      наших специалистов
-                    </p>
-                    <button
-                      onClick={openPopupWindow}
-                      style={{
-                        marginTop: "15px",
-                        padding: "12px 25px",
-                        backgroundColor: "#E6C96B",
-                        color: "#202637",
-                        border: "none",
-                        borderRadius: "8px",
-                        fontWeight: "600",
-                        cursor: "pointer",
-                        alignSelf: "flex-start",
-                        transition: "background-color 0.3s",
-                        fontSize: "16px",
-                      }}
-                    >
-                      Записаться
-                    </button>
-                  </div>
-                </Fade>
-
-                {/* Promotion 3 */}
-                <Fade triggerOnce={true} direction="up" delay={400}>
-                  <div
-                    style={{
-                      padding: "25px",
-                      backgroundColor: "#f9f9f9",
-                      borderRadius: "12px",
-                      boxShadow: "0 4px 15px rgba(0, 0, 0, 0.08)",
-                      display: "flex",
-                      flexDirection: "column",
-                      position: "relative",
-                      overflow: "hidden",
-                      border: "1px solid rgba(230, 201, 107, 0.3)",
-                    }}
-                  >
-                    <div
-                      style={{
-                        position: "absolute",
-                        top: "15px",
-                        right: "15px",
-                        backgroundColor: "#E6C96B",
-                        color: "#202637",
-                        padding: "6px 12px",
-                        borderRadius: "20px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                      }}
-                    >
-                      Акция
-                    </div>
-                    <h3
-                      style={{
-                        fontSize: "22px",
-                        fontWeight: "700",
-                        color: "#202637",
-                        marginBottom: "15px",
-                        paddingRight: "80px",
-                      }}
-                    >
-                      Отбеливание Zoom 4
-                    </h3>
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        marginBottom: "10px",
-                      }}
-                    >
-                      <span
-                        style={{
-                          fontSize: "18px",
-                          fontWeight: "700",
-                          color: "#E6C96B",
-                        }}
-                      >
-                        38 000 ₽
-                      </span>
-                      <span
-                        style={{
-                          fontSize: "16px",
-                          color: "#777",
-                          textDecoration: "line-through",
-                          marginLeft: "10px",
-                        }}
-                      >
-                        46 200 ₽
-                      </span>
-                    </div>
-                    <p
-                      style={{
-                        fontSize: "16px",
-                        color: "#555",
-                        marginTop: "5px",
-                      }}
-                    >
-                      Профессиональное отбеливание зубов с технологией Zoom 4
-                      для яркой улыбки
-                    </p>
-                    <button
-                      onClick={openPopupWindow}
-                      style={{
-                        marginTop: "15px",
-                        padding: "12px 25px",
-                        backgroundColor: "#E6C96B",
-                        color: "#202637",
-                        border: "none",
-                        borderRadius: "8px",
-                        fontWeight: "600",
-                        cursor: "pointer",
-                        alignSelf: "flex-start",
-                        transition: "background-color 0.3s",
-                        fontSize: "16px",
-                      }}
-                    >
-                      Записаться
-                    </button>
-                  </div>
-                </Fade>
-
-                {/* Promotion 4 */}
-                <Fade triggerOnce={true} direction="up" delay={500}>
-                  <div
-                    style={{
-                      padding: "25px",
-                      backgroundColor: "#f9f9f9",
-                      borderRadius: "12px",
-                      boxShadow: "0 4px 15px rgba(0, 0, 0, 0.08)",
-                      display: "flex",
-                      flexDirection: "column",
-                      position: "relative",
-                      overflow: "hidden",
-                      border: "1px solid rgba(230, 201, 107, 0.3)",
-                    }}
-                  >
-                    <div
-                      style={{
-                        position: "absolute",
-                        top: "15px",
-                        right: "15px",
-                        backgroundColor: "#E6C96B",
-                        color: "#202637",
-                        padding: "6px 12px",
-                        borderRadius: "20px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                      }}
-                    >
-                      Акция
-                    </div>
-                    <h3
-                      style={{
-                        fontSize: "22px",
-                        fontWeight: "700",
-                        color: "#202637",
-                        marginBottom: "15px",
-                        paddingRight: "80px",
-                      }}
-                    >
-                      Профессиональная гигиена зубов
-                    </h3>
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        marginBottom: "10px",
-                      }}
-                    >
-                      <span
-                        style={{
-                          fontSize: "18px",
-                          fontWeight: "700",
-                          color: "#E6C96B",
-                        }}
-                      >
-                        8 200 ₽
-                      </span>
-                      <span
-                        style={{
-                          fontSize: "16px",
-                          color: "#777",
-                          textDecoration: "line-through",
-                          marginLeft: "10px",
-                        }}
-                      >
-                        10 400 ₽
-                      </span>
-                    </div>
-                    <p
-                      style={{
-                        fontSize: "16px",
-                        color: "#555",
-                        marginTop: "5px",
-                      }}
-                    >
-                      Комплексная гигиена с использованием Air Flow и
-                      УльтраЗвука для безупречной чистоты
-                    </p>
-                    <button
-                      onClick={openPopupWindow}
-                      style={{
-                        marginTop: "15px",
-                        padding: "12px 25px",
-                        backgroundColor: "#E6C96B",
-                        color: "#202637",
-                        border: "none",
-                        borderRadius: "8px",
-                        fontWeight: "600",
-                        cursor: "pointer",
-                        alignSelf: "flex-start",
-                        transition: "background-color 0.3s",
-                        fontSize: "16px",
-                      }}
-                    >
-                      Записаться
-                    </button>
-                  </div>
-                </Fade>
-
-                {/* Promotion 5 */}
-                <Fade triggerOnce={true} direction="up" delay={600}>
-                  <div
-                    style={{
-                      padding: "25px",
-                      backgroundColor: "#f9f9f9",
-                      borderRadius: "12px",
-                      boxShadow: "0 4px 15px rgba(0, 0, 0, 0.08)",
-                      display: "flex",
-                      flexDirection: "column",
-                      position: "relative",
-                      overflow: "hidden",
-                      border: "1px solid rgba(230, 201, 107, 0.3)",
-                    }}
-                  >
-                    <div
-                      style={{
-                        position: "absolute",
-                        top: "15px",
-                        right: "15px",
-                        backgroundColor: "#E6C96B",
-                        color: "#202637",
-                        padding: "6px 12px",
-                        borderRadius: "20px",
-                        fontSize: "14px",
-                        fontWeight: "600",
-                      }}
-                    >
-                      Акция
-                    </div>
-                    <h3
-                      style={{
-                        fontSize: "22px",
-                        fontWeight: "700",
-                        color: "#202637",
-                        marginBottom: "15px",
-                        paddingRight: "80px",
-                      }}
-                    >
-                      Красивая улыбка за 1 день
-                    </h3>
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        marginBottom: "10px",
-                      }}
-                    >
-                      <span
-                        style={{
-                          fontSize: "18px",
-                          fontWeight: "700",
-                          color: "#E6C96B",
-                        }}
-                      >
-                        218 000 ₽
-                      </span>
-                      <span
-                        style={{
-                          fontSize: "16px",
-                          color: "#777",
-                          textDecoration: "line-through",
-                          marginLeft: "10px",
-                        }}
-                      >
-                        350 000 ₽
-                      </span>
-                    </div>
-                    <p
-                      style={{
-                        fontSize: "16px",
-                        color: "#555",
-                        marginTop: "5px",
-                      }}
-                    >
-                      Комплексное преображение улыбки с использованием
-                      современных методик за один день
-                    </p>
-                    <button
-                      onClick={openPopupWindow}
-                      style={{
-                        marginTop: "15px",
-                        padding: "12px 25px",
-                        backgroundColor: "#E6C96B",
-                        color: "#202637",
-                        border: "none",
-                        borderRadius: "8px",
-                        fontWeight: "600",
-                        cursor: "pointer",
-                        alignSelf: "flex-start",
-                        transition: "background-color 0.3s",
-                        fontSize: "16px",
-                      }}
-                    >
-                      Записаться
-                    </button>
-                  </div>
-                </Fade>
-              </div>
-
-              {/* View all promotions button */}
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  marginTop: "40px",
-                }}
-              >
-                <button
-                  onClick={openPopupWindow}
-                  style={{
-                    padding: "14px 30px",
-                    backgroundColor: "transparent",
-                    color: "#202637",
-                    border: "2px solid #E6C96B",
-                    borderRadius: "8px",
-                    fontWeight: "600",
-                    cursor: "pointer",
-                    transition: "all 0.3s",
-                    fontSize: "16px",
-                  }}
-                >
-                  Узнать подробнее об акциях
-                </button>
-              </div>
-            </section>
-          </div>
-          <div className="service-screen" id="services">
-            <section className="content">
-              <div className="service-heading-container">
-                <h2 className="services-heading">
-                  Услуги <span className="golden">Dental Home</span>
-                </h2>
-              </div>
-              <div className="text_divider">
                 <div
-                  className="divider"
-                  style={{ backgroundColor: "rgba(255, 255, 255, 0.30)" }}
-                ></div>
-                <div className="row_text">
-                  <span className="paragraph">Наши преимущества</span>
-                </div>
-              </div>
-              <div className="services-buttons">
-                <button onClick={toothHealingExpansion} className="btn">
-                  <div className="btn-content">
-                    <span
-                      className={
-                        isToothHealingOpened ? "text-active" : "text-inactive"
-                      }
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: "20px",
+                    maxWidth: "100%",
+                  }}
+                >
+                  {/* Promotion 1 */}
+                  <Fade triggerOnce={true} direction="up" delay={200}>
+                    <div
+                      style={{
+                        padding: "25px",
+                        backgroundColor: "#f9f9f9",
+                        borderRadius: "12px",
+                        boxShadow: "0 4px 15px rgba(0, 0, 0, 0.08)",
+                        display: "flex",
+                        flexDirection: "column",
+                        position: "relative",
+                        overflow: "hidden",
+                        border: "1px solid rgba(230, 201, 107, 0.3)",
+                      }}
                     >
-                      Ортопедия
-                    </span>
-                    <FontAwesomeIcon
-                      icon={isToothHealingOpened ? faMinus : faPlus}
-                      className="golden-icon"
-                    />
+                      <div
+                        style={{
+                          position: "absolute",
+                          top: "15px",
+                          right: "15px",
+                          backgroundColor: "#E6C96B",
+                          color: "#202637",
+                          padding: "6px 12px",
+                          borderRadius: "20px",
+                          fontSize: "14px",
+                          fontWeight: "600",
+                        }}
+                      >
+                        Акция
+                      </div>
+                      <h3
+                        style={{
+                          fontSize: "22px",
+                          fontWeight: "700",
+                          color: "#202637",
+                          marginBottom: "15px",
+                          paddingRight: "80px",
+                        }}
+                      >
+                        Бесплатная консультация
+                      </h3>
+                      <div
+                        style={{
+                          display: "flex",
+                          alignItems: "center",
+                          marginBottom: "10px",
+                        }}
+                      >
+                        <span
+                          style={{
+                            fontSize: "18px",
+                            fontWeight: "700",
+                            color: "#E6C96B",
+                          }}
+                        >
+                          0 ₽
+                        </span>
+                        <span
+                          style={{
+                            fontSize: "16px",
+                            color: "#777",
+                            textDecoration: "line-through",
+                            marginLeft: "10px",
+                          }}
+                        >
+                          1200 ₽
+                        </span>
+                      </div>
+                      <p
+                        style={{
+                          fontSize: "16px",
+                          color: "#555",
+                          marginTop: "5px",
+                        }}
+                      >
+                        Первичная консультация специалиста абсолютно бесплатно
+                      </p>
+                      <button
+                        onClick={openPopupWindow}
+                        style={{
+                          marginTop: "15px",
+                          padding: "12px 25px",
+                          backgroundColor: "#E6C96B",
+                          color: "#202637",
+                          border: "none",
+                          borderRadius: "8px",
+                          fontWeight: "600",
+                          cursor: "pointer",
+                          alignSelf: "flex-start",
+                          transition: "background-color 0.3s",
+                          fontSize: "16px",
+                        }}
+                      >
+                        Записаться
+                      </button>
+                    </div>
+                  </Fade>
+
+                  {/* Promotion 2 */}
+                  <Fade triggerOnce={true} direction="up" delay={300}>
+                    <div
+                      style={{
+                        padding: "25px",
+                        backgroundColor: "#f9f9f9",
+                        borderRadius: "12px",
+                        boxShadow: "0 4px 15px rgba(0, 0, 0, 0.08)",
+                        display: "flex",
+                        flexDirection: "column",
+                        position: "relative",
+                        overflow: "hidden",
+                        border: "1px solid rgba(230, 201, 107, 0.3)",
+                      }}
+                    >
+                      <div
+                        style={{
+                          position: "absolute",
+                          top: "15px",
+                          right: "15px",
+                          backgroundColor: "#E6C96B",
+                          color: "#202637",
+                          padding: "6px 12px",
+                          borderRadius: "20px",
+                          fontSize: "14px",
+                          fontWeight: "600",
+                        }}
+                      >
+                        Акция
+                      </div>
+                      <h3
+                        style={{
+                          fontSize: "22px",
+                          fontWeight: "700",
+                          color: "#202637",
+                          marginBottom: "15px",
+                          paddingRight: "80px",
+                        }}
+                      >
+                        Имплантация с пожизненной гарантией
+                      </h3>
+                      <div
+                        style={{
+                          display: "flex",
+                          alignItems: "center",
+                          marginBottom: "10px",
+                        }}
+                      >
+                        <span
+                          style={{
+                            fontSize: "18px",
+                            fontWeight: "700",
+                            color: "#E6C96B",
+                          }}
+                        >
+                          от 26900 ₽
+                        </span>
+                        <span
+                          style={{
+                            fontSize: "16px",
+                            color: "#777",
+                            marginLeft: "10px",
+                          }}
+                        >
+                          за один имплант
+                        </span>
+                      </div>
+                      <p
+                        style={{
+                          fontSize: "16px",
+                          color: "#555",
+                          marginTop: "5px",
+                        }}
+                      >
+                        Качественная имплантация зубов с пожизненной гарантией
+                        от наших специалистов
+                      </p>
+                      <button
+                        onClick={openPopupWindow}
+                        style={{
+                          marginTop: "15px",
+                          padding: "12px 25px",
+                          backgroundColor: "#E6C96B",
+                          color: "#202637",
+                          border: "none",
+                          borderRadius: "8px",
+                          fontWeight: "600",
+                          cursor: "pointer",
+                          alignSelf: "flex-start",
+                          transition: "background-color 0.3s",
+                          fontSize: "16px",
+                        }}
+                      >
+                        Записаться
+                      </button>
+                    </div>
+                  </Fade>
+
+                  {/* Promotion 3 */}
+                  <Fade triggerOnce={true} direction="up" delay={400}>
+                    <div
+                      style={{
+                        padding: "25px",
+                        backgroundColor: "#f9f9f9",
+                        borderRadius: "12px",
+                        boxShadow: "0 4px 15px rgba(0, 0, 0, 0.08)",
+                        display: "flex",
+                        flexDirection: "column",
+                        position: "relative",
+                        overflow: "hidden",
+                        border: "1px solid rgba(230, 201, 107, 0.3)",
+                      }}
+                    >
+                      <div
+                        style={{
+                          position: "absolute",
+                          top: "15px",
+                          right: "15px",
+                          backgroundColor: "#E6C96B",
+                          color: "#202637",
+                          padding: "6px 12px",
+                          borderRadius: "20px",
+                          fontSize: "14px",
+                          fontWeight: "600",
+                        }}
+                      >
+                        Акция
+                      </div>
+                      <h3
+                        style={{
+                          fontSize: "22px",
+                          fontWeight: "700",
+                          color: "#202637",
+                          marginBottom: "15px",
+                          paddingRight: "80px",
+                        }}
+                      >
+                        Отбеливание Zoom 4
+                      </h3>
+                      <div
+                        style={{
+                          display: "flex",
+                          alignItems: "center",
+                          marginBottom: "10px",
+                        }}
+                      >
+                        <span
+                          style={{
+                            fontSize: "18px",
+                            fontWeight: "700",
+                            color: "#E6C96B",
+                          }}
+                        >
+                          38 000 ₽
+                        </span>
+                        <span
+                          style={{
+                            fontSize: "16px",
+                            color: "#777",
+                            textDecoration: "line-through",
+                            marginLeft: "10px",
+                          }}
+                        >
+                          46 200 ₽
+                        </span>
+                      </div>
+                      <p
+                        style={{
+                          fontSize: "16px",
+                          color: "#555",
+                          marginTop: "5px",
+                        }}
+                      >
+                        Профессиональное отбеливание зубов с технологией Zoom 4
+                        для яркой улыбки
+                      </p>
+                      <button
+                        onClick={openPopupWindow}
+                        style={{
+                          marginTop: "15px",
+                          padding: "12px 25px",
+                          backgroundColor: "#E6C96B",
+                          color: "#202637",
+                          border: "none",
+                          borderRadius: "8px",
+                          fontWeight: "600",
+                          cursor: "pointer",
+                          alignSelf: "flex-start",
+                          transition: "background-color 0.3s",
+                          fontSize: "16px",
+                        }}
+                      >
+                        Записаться
+                      </button>
+                    </div>
+                  </Fade>
+
+                  {/* Promotion 4 */}
+                  <Fade triggerOnce={true} direction="up" delay={500}>
+                    <div
+                      style={{
+                        padding: "25px",
+                        backgroundColor: "#f9f9f9",
+                        borderRadius: "12px",
+                        boxShadow: "0 4px 15px rgba(0, 0, 0, 0.08)",
+                        display: "flex",
+                        flexDirection: "column",
+                        position: "relative",
+                        overflow: "hidden",
+                        border: "1px solid rgba(230, 201, 107, 0.3)",
+                      }}
+                    >
+                      <div
+                        style={{
+                          position: "absolute",
+                          top: "15px",
+                          right: "15px",
+                          backgroundColor: "#E6C96B",
+                          color: "#202637",
+                          padding: "6px 12px",
+                          borderRadius: "20px",
+                          fontSize: "14px",
+                          fontWeight: "600",
+                        }}
+                      >
+                        Акция
+                      </div>
+                      <h3
+                        style={{
+                          fontSize: "22px",
+                          fontWeight: "700",
+                          color: "#202637",
+                          marginBottom: "15px",
+                          paddingRight: "80px",
+                        }}
+                      >
+                        Профессиональная гигиена зубов
+                      </h3>
+                      <div
+                        style={{
+                          display: "flex",
+                          alignItems: "center",
+                          marginBottom: "10px",
+                        }}
+                      >
+                        <span
+                          style={{
+                            fontSize: "18px",
+                            fontWeight: "700",
+                            color: "#E6C96B",
+                          }}
+                        >
+                          8 200 ₽
+                        </span>
+                        <span
+                          style={{
+                            fontSize: "16px",
+                            color: "#777",
+                            textDecoration: "line-through",
+                            marginLeft: "10px",
+                          }}
+                        >
+                          10 400 ₽
+                        </span>
+                      </div>
+                      <p
+                        style={{
+                          fontSize: "16px",
+                          color: "#555",
+                          marginTop: "5px",
+                        }}
+                      >
+                        Комплексная гигиена с использованием Air Flow и
+                        УльтраЗвука для безупречной чистоты
+                      </p>
+                      <button
+                        onClick={openPopupWindow}
+                        style={{
+                          marginTop: "15px",
+                          padding: "12px 25px",
+                          backgroundColor: "#E6C96B",
+                          color: "#202637",
+                          border: "none",
+                          borderRadius: "8px",
+                          fontWeight: "600",
+                          cursor: "pointer",
+                          alignSelf: "flex-start",
+                          transition: "background-color 0.3s",
+                          fontSize: "16px",
+                        }}
+                      >
+                        Записаться
+                      </button>
+                    </div>
+                  </Fade>
+
+                  {/* Promotion 5 */}
+                  <Fade triggerOnce={true} direction="up" delay={600}>
+                    <div
+                      style={{
+                        padding: "25px",
+                        backgroundColor: "#f9f9f9",
+                        borderRadius: "12px",
+                        boxShadow: "0 4px 15px rgba(0, 0, 0, 0.08)",
+                        display: "flex",
+                        flexDirection: "column",
+                        position: "relative",
+                        overflow: "hidden",
+                        border: "1px solid rgba(230, 201, 107, 0.3)",
+                      }}
+                    >
+                      <div
+                        style={{
+                          position: "absolute",
+                          top: "15px",
+                          right: "15px",
+                          backgroundColor: "#E6C96B",
+                          color: "#202637",
+                          padding: "6px 12px",
+                          borderRadius: "20px",
+                          fontSize: "14px",
+                          fontWeight: "600",
+                        }}
+                      >
+                        Акция
+                      </div>
+                      <h3
+                        style={{
+                          fontSize: "22px",
+                          fontWeight: "700",
+                          color: "#202637",
+                          marginBottom: "15px",
+                          paddingRight: "80px",
+                        }}
+                      >
+                        Красивая улыбка за 1 день
+                      </h3>
+                      <div
+                        style={{
+                          display: "flex",
+                          alignItems: "center",
+                          marginBottom: "10px",
+                        }}
+                      >
+                        <span
+                          style={{
+                            fontSize: "18px",
+                            fontWeight: "700",
+                            color: "#E6C96B",
+                          }}
+                        >
+                          218 000 ₽
+                        </span>
+                        <span
+                          style={{
+                            fontSize: "16px",
+                            color: "#777",
+                            textDecoration: "line-through",
+                            marginLeft: "10px",
+                          }}
+                        >
+                          350 000 ₽
+                        </span>
+                      </div>
+                      <p
+                        style={{
+                          fontSize: "16px",
+                          color: "#555",
+                          marginTop: "5px",
+                        }}
+                      >
+                        Комплексное преображение улыбки с использованием
+                        современных методик за один день
+                      </p>
+                      <button
+                        onClick={openPopupWindow}
+                        style={{
+                          marginTop: "15px",
+                          padding: "12px 25px",
+                          backgroundColor: "#E6C96B",
+                          color: "#202637",
+                          border: "none",
+                          borderRadius: "8px",
+                          fontWeight: "600",
+                          cursor: "pointer",
+                          alignSelf: "flex-start",
+                          transition: "background-color 0.3s",
+                          fontSize: "16px",
+                        }}
+                      >
+                        Записаться
+                      </button>
+                    </div>
+                  </Fade>
+                </div>
+
+                {/* View all promotions button */}
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    marginTop: "40px",
+                  }}
+                >
+                  <button
+                    onClick={openPopupWindow}
+                    style={{
+                      padding: "14px 30px",
+                      backgroundColor: "transparent",
+                      color: "#202637",
+                      border: "2px solid #E6C96B",
+                      borderRadius: "8px",
+                      fontWeight: "600",
+                      cursor: "pointer",
+                      transition: "all 0.3s",
+                      fontSize: "16px",
+                    }}
+                  >
+                    Узнать подробнее об акциях
+                  </button>
+                </div>
+              </section>
+            </div>
+            <div className="service-screen" id="services">
+              <section className="content">
+                <div className="service-heading-container">
+                  <h2 className="services-heading">
+                    Услуги <span className="golden">Dental Home</span>
+                  </h2>
+                </div>
+                <div className="text_divider">
+                  <div
+                    className="divider"
+                    style={{ backgroundColor: "rgba(255, 255, 255, 0.30)" }}
+                  ></div>
+                  <div className="row_text">
+                    <span className="paragraph">Наши преимущества</span>
                   </div>
-                </button>
-                {isToothHealingOpened && (
-                  <ExpandedTab
-                    service_text="Виниры и коронки"
-                    link_text="Оттиски"
-                    link_text_2="Вкладки"
-                    link_text_5="Виниры"
-                    link_text_3="Коронки"
-                    link_text_4="Восстановление зуба винирами"
-                    openModal={openModal}
-                    href="/services/vinirs"
-                    href_2="/services/vinirs"
-                    href_3="/services/teeth-crowns"
-                    href_4="/services/tooth-restoration"
-                    href_5="/services/vinirs"
-                  />
-                )}
-                {/* <button
+                </div>
+                <div className="services-buttons">
+                  <button onClick={toothHealingExpansion} className="btn">
+                    <div className="btn-content">
+                      <span
+                        className={
+                          isToothHealingOpened ? "text-active" : "text-inactive"
+                        }
+                      >
+                        Ортопедия
+                      </span>
+                      <FontAwesomeIcon
+                        icon={isToothHealingOpened ? faMinus : faPlus}
+                        className="golden-icon"
+                      />
+                    </div>
+                  </button>
+                  {isToothHealingOpened && (
+                    <ExpandedTab
+                      service_text="Виниры и коронки"
+                      link_text="Оттиски"
+                      link_text_2="Вкладки"
+                      link_text_5="Виниры"
+                      link_text_3="Коронки"
+                      link_text_4="Восстановление зуба винирами"
+                      openModal={openModal}
+                      href="/services/vinirs"
+                      href_2="/services/vinirs"
+                      href_3="/services/teeth-crowns"
+                      href_4="/services/tooth-restoration"
+                      href_5="/services/vinirs"
+                    />
+                  )}
+                  {/* <button
                   onClick={() => navigate("/services/teeth-healing")}
                   className="btn"
                 >
@@ -1726,304 +1734,314 @@ export default function HomePage() {
                     href_5="/services/vinirs"
                   />
                 )} */}
-                <button onClick={whiteningExpansion} className="btn">
-                  <div className="btn-content">
-                    <span
-                      className={
-                        isWhiteningOpened ? "text-active" : "text-inactive"
-                      }
-                    >
-                      Анализы и Диагностика
-                    </span>
-                    <FontAwesomeIcon
-                      icon={isWhiteningOpened ? faMinus : faPlus}
-                      className="golden-icon"
-                    />
-                  </div>
-                </button>
-                {isWhiteningOpened && (
-                  <ExpandedTab
-                    service_text="Диагностика"
-                    link_text="Рентгенология"
-                    link_text_2="ОПТГ"
-                    link_text_3="КТ (компьютерная томография)"
-                    link_text_4="3D снимок полости рта"
-                    link_text_5="Прицельный снимок"
-                    link_text_6="МРТ зубов"
-                    link_text_7="Рентген зубов"
-                    link_text_8="ЭКГ"
-                    link_text_9="Анализы"
-                    openModal={openModal}
-                    href="/services/diagnostic"
-                    href_2="/services/optg"
-                    href_3="/services/teeth-ct"
-                    href_4="/services/3d"
-                    href_5="/services/scope"
-                    href_6="/services/mrt"
-                    href_7="/services/xray"
-                    href_8="/services/ekg"
-                    href_9="/services/analysis"
-                  />
-                )}
-                <button onClick={healingInSleepExpansion} className="btn">
-                  {" "}
-                  <div className="btn-content">
-                    <span
-                      className={
-                        isHealingInSleepOpened ? "text-active" : "text-inactive"
-                      }
-                    >
-                      Лечение зубов
-                    </span>
-                    <FontAwesomeIcon
-                      icon={isHealingInSleepOpened ? faMinus : faPlus}
-                      className="golden-icon"
-                    />
-                  </div>
-                </button>
-                {isHealingInSleepOpened && (
-                  <ExpandedTab
-                    service_text="Лечение зубов"
-                    link_text="Лечение кариеса"
-                    link_text_2="Реставрация зубов"
-                    link_text_3="Лечение пульпита зубов"
-                    link_text_4="Лечение десен"
-                    link_text_5="Установка пломб"
-                    openModal={openModal}
-                    href="/services/caries-heal"
-                    href_2="/services/restoration"
-                    href_3="/services/pulpitis-healing"
-                    href_4="/services/right-healing"
-                    href_5="/services/seal"
-                  />
-                )}
-                <button onClick={mouthHygieneExpansion} className="btn">
-                  <div className="btn-content">
-                    <span
-                      className={
-                        isMouthHygieneOpened ? "text-active" : "text-inactive"
-                      }
-                    >
-                      Отбеливание
-                    </span>
-                    <FontAwesomeIcon
-                      icon={isMouthHygieneOpened ? faMinus : faPlus}
-                      className="golden-icon"
-                    />
-                  </div>
-                </button>
-                {isMouthHygieneOpened && (
-                  <ExpandedTab
-                    service_text="Отбеливание"
-                    link_text="Отбеливание"
-                    openModal={openModal}
-                    link_text_4="Профессиональное отбеливание зубов Amazing White"
-                    link_text_5="Профессиональное отбеливание зубов Zoom"
-                    href="/services/whitening"
-                    href_2="/services/whitening"
-                    href_3="/services/whitening"
-                    href_4="/services/amazing-white"
-                    href_5="/services/zoom-whitening"
-                  />
-                )}
-                <button onClick={surgeryExpansion} className="btn">
-                  {" "}
-                  <div className="btn-content">
-                    <span
-                      className={
-                        isSurgeryOpened ? "text-active" : "text-inactive"
-                      }
-                    >
-                      Хирургия
-                    </span>
-                    <FontAwesomeIcon
-                      icon={isSurgeryOpened ? faMinus : faPlus}
-                      className="golden-icon"
-                    />
-                  </div>
-                </button>
-                {isSurgeryOpened && (
-                  <ExpandedTab
-                    service_text="Хирургия"
-                    link_text="Хирургия"
-                    link_text_2="Удаление зуба"
-                    link_text_3="Удаление кисты зуба"
-                    link_text_4="Удаление зуба мудрости"
-                    openModal={openModal}
-                    href="/services/surgery"
-                    href_2="/services/teeth-delete"
-                    href_3="/services/cyst-delete"
-                    href_4="/services/wisdom-tooth-delete"
-                  />
-                )}
-                <button onClick={vinirExpansion} className="btn">
-                  <div className="btn-content">
-                    <span
-                      className={
-                        isVinirsOpened ? "text-active" : "text-inactive"
-                      }
-                    >
-                      Протезирование
-                    </span>
-                    <FontAwesomeIcon
-                      icon={isVinirsOpened ? faMinus : faPlus}
-                      className="golden-icon"
-                    />
-                  </div>
-                </button>
-                {isVinirsOpened && (
-                  <ExpandedTab
-                    service_text="Протезирование"
-                    link_text="Протезирование на имплантах"
-                    link_text_2="Внутрикостная дентальная имплантация системой"
-                    link_text_3="Формирователь десны"
-                    link_text_4="Синус-лифтинг"
-                    link_text_5="Имплантация под ключ"
-                    link_text_6="Имплантация All-on-4 "
-                    href="/services/prosthetics"
-                    href_2="/services/prosthetics"
-                    href_3="/services/prosthetics"
-                    href_4="/services/prosthetics"
-                    href_5="/services/implants"
-                    href_6="/services/allon4"
-                  />
-                )}
-                <button onClick={parodontHealthExpansion} className="btn">
-                  <div className="btn-content">
-                    <span
-                      className={
-                        isParodontHealingOpened
-                          ? "text-active"
-                          : "text-inactive"
-                      }
-                    >
-                      Ортодонтия
-                    </span>
-                    <FontAwesomeIcon
-                      icon={isParodontHealingOpened ? faMinus : faPlus}
-                      className="golden-icon"
-                    />
-                  </div>
-                </button>
-                {isParodontHealingOpened && (
-                  <ExpandedTab
-                    service_text="Исправление прикуса"
-                    link_text="Ортодонтическая коррекция с применением брекет-системы"
-                    link_text_2="Металлические брекеты"
-                    link_text_3="Дополнительные приспособления"
-                    link_text_4="Ретенция"
-                    link_text_5="Керамические брекеты"
-                    link_text_6="DamonQ"
-                    href="/services/braces"
-                    href_2="/services/bite-correction"
-                    href_3="/services/metal-braces"
-                    href_4="/services/retainer"
-                    href_5="/services/ceramic-braces"
-                    href_6="/services/damnoq"
-                  />
-                )}
-                <button onClick={prothesisExpansion} className="btn">
-                  <div className="btn-content">
-                    <span
-                      className={
-                        isProthesisOpened ? "text-active" : "text-inactive"
-                      }
-                    >
-                      Профилактика и гигиена
-                    </span>
-                    <FontAwesomeIcon
-                      icon={isProthesisOpened ? faMinus : faPlus}
-                      className="golden-icon"
-                    />
-                  </div>
-                </button>
-                {isProthesisOpened && (
-                  <ExpandedTab
-                    service_text="Профилактика и гигиена"
-                    link_text="Профилактика и гигиена"
-                    link_text_2="Профессиональная чистка зубов"
-                    link_text_3="Чистка зубов AirFlow"
-                    href="/services/hygiene"
-                    href_2="/services/teeth-cleaning"
-                    href_3="/services/airflow"
-                  />
-                )}
-                <button onClick={teethInSleepExpansion} className="btn">
-                  <div className="btn-content">
-                    <span
-                      className={
-                        isProthesisOpened ? "text-active" : "text-inactive"
-                      }
-                    >
-                      Лечение зубов во сне
-                    </span>
-                    <FontAwesomeIcon
-                      icon={isProthesisOpened ? faMinus : faPlus}
-                      className="golden-icon"
-                    />
-                  </div>
-                </button>
-                {isTeethSleepOpened && (
-                  <ExpandedTab
-                    service_text="Лечение зубов во сне"
-                    link_text="Лечение зубов под наркозом"
-                    link_text_2="Лечение зубов под наркозом детское"
-                    link_text_3="Лечение зубов под седацией"
-                    link_text_4=""
-                    link_text_5=""
-                    href="/services/healing-in-sleep"
-                    href_2="/services/child-sleep"
-                    href_3="/services/sedation-heal"
-                    href_4=""
-                  />
-                )}
-              </div>
-            </section>
-          </div>
-          <div className="pc-service-screen" id="services">
-            <section className="content">
-              <div className="heading-container">
-                <h3 className="heading">
-                  Услуги <span className="gold">Dental Home</span>
-                </h3>
-              </div>
-              <div className="rows">
-                <div className="row-one-c">
-                  <div className="row"></div>
-                  <span className="text">Название услуги</span>
-                </div>
-                <div className="row-one-c two ">
-                  <div className="row"></div>
-                  <span className="text">Описание</span>
-                </div>
-              </div>
-              <div className="services-list-content">
-                <div className="services-list">
-                  <button onMouseEnter={toothHealingExpansion2} className="btn">
+                  <button onClick={whiteningExpansion} className="btn">
                     <div className="btn-content">
-                      <Link
-                        to="/services/teeth-healing"
+                      <span
                         className={
-                          isToothHealOpened ? "text-active" : "text-inactive"
+                          isWhiteningOpened ? "text-active" : "text-inactive"
+                        }
+                      >
+                        Анализы и Диагностика
+                      </span>
+                      <FontAwesomeIcon
+                        icon={isWhiteningOpened ? faMinus : faPlus}
+                        className="golden-icon"
+                      />
+                    </div>
+                  </button>
+                  {isWhiteningOpened && (
+                    <ExpandedTab
+                      service_text="Диагностика"
+                      link_text="Рентгенология"
+                      link_text_2="ОПТГ"
+                      link_text_3="КТ (компьютерная томография)"
+                      link_text_4="3D снимок полости рта"
+                      link_text_5="Прицельный снимок"
+                      link_text_6="МРТ зубов"
+                      link_text_7="Рентген зубов"
+                      link_text_8="ЭКГ"
+                      link_text_9="Анализы"
+                      openModal={openModal}
+                      href="/services/diagnostic"
+                      href_2="/services/optg"
+                      href_3="/services/teeth-ct"
+                      href_4="/services/3d"
+                      href_5="/services/scope"
+                      href_6="/services/mrt"
+                      href_7="/services/xray"
+                      href_8="/services/ekg"
+                      href_9="/services/analysis"
+                    />
+                  )}
+                  <button onClick={healingInSleepExpansion} className="btn">
+                    {" "}
+                    <div className="btn-content">
+                      <span
+                        className={
+                          isHealingInSleepOpened
+                            ? "text-active"
+                            : "text-inactive"
                         }
                       >
                         Лечение зубов
-                      </Link>
+                      </span>
+                      <FontAwesomeIcon
+                        icon={isHealingInSleepOpened ? faMinus : faPlus}
+                        className="golden-icon"
+                      />
                     </div>
                   </button>
-                  <button onMouseEnter={toothHealingExpansion} className="btn">
+                  {isHealingInSleepOpened && (
+                    <ExpandedTab
+                      service_text="Лечение зубов"
+                      link_text="Лечение кариеса"
+                      link_text_2="Реставрация зубов"
+                      link_text_3="Лечение пульпита зубов"
+                      link_text_4="Лечение десен"
+                      link_text_5="Установка пломб"
+                      openModal={openModal}
+                      href="/services/caries-heal"
+                      href_2="/services/restoration"
+                      href_3="/services/pulpitis-healing"
+                      href_4="/services/right-healing"
+                      href_5="/services/seal"
+                    />
+                  )}
+                  <button onClick={mouthHygieneExpansion} className="btn">
                     <div className="btn-content">
-                      <Link
-                        to="/services/vinirs"
+                      <span
                         className={
-                          isToothHealingOpened ? "text-active" : "text-inactive"
+                          isMouthHygieneOpened ? "text-active" : "text-inactive"
                         }
                       >
-                        Ортопедия
-                      </Link>
+                        Отбеливание
+                      </span>
+                      <FontAwesomeIcon
+                        icon={isMouthHygieneOpened ? faMinus : faPlus}
+                        className="golden-icon"
+                      />
                     </div>
                   </button>
-                  {/* <button
+                  {isMouthHygieneOpened && (
+                    <ExpandedTab
+                      service_text="Отбеливание"
+                      link_text="Отбеливание"
+                      openModal={openModal}
+                      link_text_4="Профессиональное отбеливание зубов Amazing White"
+                      link_text_5="Профессиональное отбеливание зубов Zoom"
+                      href="/services/whitening"
+                      href_2="/services/whitening"
+                      href_3="/services/whitening"
+                      href_4="/services/amazing-white"
+                      href_5="/services/zoom-whitening"
+                    />
+                  )}
+                  <button onClick={surgeryExpansion} className="btn">
+                    {" "}
+                    <div className="btn-content">
+                      <span
+                        className={
+                          isSurgeryOpened ? "text-active" : "text-inactive"
+                        }
+                      >
+                        Хирургия
+                      </span>
+                      <FontAwesomeIcon
+                        icon={isSurgeryOpened ? faMinus : faPlus}
+                        className="golden-icon"
+                      />
+                    </div>
+                  </button>
+                  {isSurgeryOpened && (
+                    <ExpandedTab
+                      service_text="Хирургия"
+                      link_text="Хирургия"
+                      link_text_2="Удаление зуба"
+                      link_text_3="Удаление кисты зуба"
+                      link_text_4="Удаление зуба мудрости"
+                      openModal={openModal}
+                      href="/services/surgery"
+                      href_2="/services/teeth-delete"
+                      href_3="/services/cyst-delete"
+                      href_4="/services/wisdom-tooth-delete"
+                    />
+                  )}
+                  <button onClick={vinirExpansion} className="btn">
+                    <div className="btn-content">
+                      <span
+                        className={
+                          isVinirsOpened ? "text-active" : "text-inactive"
+                        }
+                      >
+                        Протезирование
+                      </span>
+                      <FontAwesomeIcon
+                        icon={isVinirsOpened ? faMinus : faPlus}
+                        className="golden-icon"
+                      />
+                    </div>
+                  </button>
+                  {isVinirsOpened && (
+                    <ExpandedTab
+                      service_text="Протезирование"
+                      link_text="Протезирование на имплантах"
+                      link_text_2="Внутрикостная дентальная имплантация системой"
+                      link_text_3="Формирователь десны"
+                      link_text_4="Синус-лифтинг"
+                      link_text_5="Имплантация под ключ"
+                      link_text_6="Имплантация All-on-4 "
+                      href="/services/prosthetics"
+                      href_2="/services/prosthetics"
+                      href_3="/services/prosthetics"
+                      href_4="/services/prosthetics"
+                      href_5="/services/implants"
+                      href_6="/services/allon4"
+                    />
+                  )}
+                  <button onClick={parodontHealthExpansion} className="btn">
+                    <div className="btn-content">
+                      <span
+                        className={
+                          isParodontHealingOpened
+                            ? "text-active"
+                            : "text-inactive"
+                        }
+                      >
+                        Ортодонтия
+                      </span>
+                      <FontAwesomeIcon
+                        icon={isParodontHealingOpened ? faMinus : faPlus}
+                        className="golden-icon"
+                      />
+                    </div>
+                  </button>
+                  {isParodontHealingOpened && (
+                    <ExpandedTab
+                      service_text="Исправление прикуса"
+                      link_text="Ортодонтическая коррекция с применением брекет-системы"
+                      link_text_2="Металлические брекеты"
+                      link_text_3="Дополнительные приспособления"
+                      link_text_4="Ретенция"
+                      link_text_5="Керамические брекеты"
+                      link_text_6="DamonQ"
+                      href="/services/braces"
+                      href_2="/services/bite-correction"
+                      href_3="/services/metal-braces"
+                      href_4="/services/retainer"
+                      href_5="/services/ceramic-braces"
+                      href_6="/services/damnoq"
+                    />
+                  )}
+                  <button onClick={prothesisExpansion} className="btn">
+                    <div className="btn-content">
+                      <span
+                        className={
+                          isProthesisOpened ? "text-active" : "text-inactive"
+                        }
+                      >
+                        Профилактика и гигиена
+                      </span>
+                      <FontAwesomeIcon
+                        icon={isProthesisOpened ? faMinus : faPlus}
+                        className="golden-icon"
+                      />
+                    </div>
+                  </button>
+                  {isProthesisOpened && (
+                    <ExpandedTab
+                      service_text="Профилактика и гигиена"
+                      link_text="Профилактика и гигиена"
+                      link_text_2="Профессиональная чистка зубов"
+                      link_text_3="Чистка зубов AirFlow"
+                      href="/services/hygiene"
+                      href_2="/services/teeth-cleaning"
+                      href_3="/services/airflow"
+                    />
+                  )}
+                  <button onClick={teethInSleepExpansion} className="btn">
+                    <div className="btn-content">
+                      <span
+                        className={
+                          isProthesisOpened ? "text-active" : "text-inactive"
+                        }
+                      >
+                        Лечение зубов во сне
+                      </span>
+                      <FontAwesomeIcon
+                        icon={isProthesisOpened ? faMinus : faPlus}
+                        className="golden-icon"
+                      />
+                    </div>
+                  </button>
+                  {isTeethSleepOpened && (
+                    <ExpandedTab
+                      service_text="Лечение зубов во сне"
+                      link_text="Лечение зубов под наркозом"
+                      link_text_2="Лечение зубов под наркозом детское"
+                      link_text_3="Лечение зубов под седацией"
+                      link_text_4=""
+                      link_text_5=""
+                      href="/services/healing-in-sleep"
+                      href_2="/services/child-sleep"
+                      href_3="/services/sedation-heal"
+                      href_4=""
+                    />
+                  )}
+                </div>
+              </section>
+            </div>
+            <div className="pc-service-screen" id="services">
+              <section className="content">
+                <div className="heading-container">
+                  <h3 className="heading">
+                    Услуги <span className="gold">Dental Home</span>
+                  </h3>
+                </div>
+                <div className="rows">
+                  <div className="row-one-c">
+                    <div className="row"></div>
+                    <span className="text">Название услуги</span>
+                  </div>
+                  <div className="row-one-c two ">
+                    <div className="row"></div>
+                    <span className="text">Описание</span>
+                  </div>
+                </div>
+                <div className="services-list-content">
+                  <div className="services-list">
+                    <button
+                      onMouseEnter={toothHealingExpansion2}
+                      className="btn"
+                    >
+                      <div className="btn-content">
+                        <Link
+                          to="/services/teeth-healing"
+                          className={
+                            isToothHealOpened ? "text-active" : "text-inactive"
+                          }
+                        >
+                          Лечение зубов
+                        </Link>
+                      </div>
+                    </button>
+                    <button
+                      onMouseEnter={toothHealingExpansion}
+                      className="btn"
+                    >
+                      <div className="btn-content">
+                        <Link
+                          to="/services/vinirs"
+                          className={
+                            isToothHealingOpened
+                              ? "text-active"
+                              : "text-inactive"
+                          }
+                        >
+                          Ортопедия
+                        </Link>
+                      </div>
+                    </button>
+                    {/* <button
                     onClick={() => navigate("/services/teeth-healing")}
                     className="btn"
                   >
@@ -2038,967 +2056,997 @@ export default function HomePage() {
                       </Link>
                     </div>
                   </button> */}
-                  <button onMouseEnter={whiteningExpansion} className="btn one">
-                    <div className="btn-content">
-                      <Link
-                        to="/services/diagnostic"
-                        className={
-                          isWhiteningOpened ? "text-active" : "text-inactive"
-                        }
-                      >
-                        Анализы и диагностика
-                      </Link>
-                    </div>
-                  </button>
-                  <button
-                    onMouseEnter={mouthHygieneExpansion}
-                    className="btn one"
-                  >
-                    <div className="btn-content">
-                      <Link
-                        to="/services/whitening"
-                        className={
-                          isMouthHygieneOpened ? "text-active" : "text-inactive"
-                        }
-                      >
-                        Отбеливание
-                      </Link>
-                    </div>
-                  </button>
-                  <button
-                    onMouseEnter={healingInSleepExpansion}
-                    className="btn one"
-                  >
-                    <div className="btn-content">
-                      <Link
-                        to="/services/surgery"
-                        className={
-                          isHealingInSleepOpened
-                            ? "text-active"
-                            : "text-inactive"
-                        }
-                      >
-                        Хирургия
-                      </Link>
-                    </div>
-                  </button>
-                  <button onMouseEnter={vinirExpansion} className="btn one">
-                    <div className="btn-content">
-                      <Link
-                        to="/services/prosthetics"
-                        className={
-                          isVinirsOpened ? "text-active" : "text-inactive"
-                        }
-                      >
-                        Протезирование
-                      </Link>
-                    </div>
-                  </button>
-                  <button
-                    onMouseEnter={parodontHealthExpansion}
-                    className="btn one"
-                  >
-                    <div className="btn-content">
-                      <Link
-                        to="/services/bite-correction"
-                        className={
-                          isParodontHealingOpened
-                            ? "text-active"
-                            : "text-inactive"
-                        }
-                      >
-                        Ортодонтия
-                      </Link>
-                    </div>
-                  </button>
-                  <button onMouseEnter={prothesisExpansion} className="btn one">
-                    <div className="btn-content">
-                      <Link
-                        to="/services/hygiene"
-                        className={
-                          isProthesisOpened ? "text-active" : "text-inactive"
-                        }
-                      >
-                        Профилактика и гигиена
-                      </Link>
-                    </div>
-                  </button>
-                  <button
-                    onMouseEnter={teethInSleepExpansion}
-                    className="btn one"
-                  >
-                    <div className="btn-content">
-                      <Link
-                        to="/services/healing-in-sleep"
-                        className={
-                          isTeethSleepOpened ? "text-active" : "text-inactive"
-                        }
-                      >
-                        Лечение зубов во сне
-                      </Link>
-                    </div>
-                  </button>
+                    <button
+                      onMouseEnter={whiteningExpansion}
+                      className="btn one"
+                    >
+                      <div className="btn-content">
+                        <Link
+                          to="/services/diagnostic"
+                          className={
+                            isWhiteningOpened ? "text-active" : "text-inactive"
+                          }
+                        >
+                          Анализы и диагностика
+                        </Link>
+                      </div>
+                    </button>
+                    <button
+                      onMouseEnter={mouthHygieneExpansion}
+                      className="btn one"
+                    >
+                      <div className="btn-content">
+                        <Link
+                          to="/services/whitening"
+                          className={
+                            isMouthHygieneOpened
+                              ? "text-active"
+                              : "text-inactive"
+                          }
+                        >
+                          Отбеливание
+                        </Link>
+                      </div>
+                    </button>
+                    <button
+                      onMouseEnter={healingInSleepExpansion}
+                      className="btn one"
+                    >
+                      <div className="btn-content">
+                        <Link
+                          to="/services/surgery"
+                          className={
+                            isHealingInSleepOpened
+                              ? "text-active"
+                              : "text-inactive"
+                          }
+                        >
+                          Хирургия
+                        </Link>
+                      </div>
+                    </button>
+                    <button onMouseEnter={vinirExpansion} className="btn one">
+                      <div className="btn-content">
+                        <Link
+                          to="/services/prosthetics"
+                          className={
+                            isVinirsOpened ? "text-active" : "text-inactive"
+                          }
+                        >
+                          Протезирование
+                        </Link>
+                      </div>
+                    </button>
+                    <button
+                      onMouseEnter={parodontHealthExpansion}
+                      className="btn one"
+                    >
+                      <div className="btn-content">
+                        <Link
+                          to="/services/bite-correction"
+                          className={
+                            isParodontHealingOpened
+                              ? "text-active"
+                              : "text-inactive"
+                          }
+                        >
+                          Ортодонтия
+                        </Link>
+                      </div>
+                    </button>
+                    <button
+                      onMouseEnter={prothesisExpansion}
+                      className="btn one"
+                    >
+                      <div className="btn-content">
+                        <Link
+                          to="/services/hygiene"
+                          className={
+                            isProthesisOpened ? "text-active" : "text-inactive"
+                          }
+                        >
+                          Профилактика и гигиена
+                        </Link>
+                      </div>
+                    </button>
+                    <button
+                      onMouseEnter={teethInSleepExpansion}
+                      className="btn one"
+                    >
+                      <div className="btn-content">
+                        <Link
+                          to="/services/healing-in-sleep"
+                          className={
+                            isTeethSleepOpened ? "text-active" : "text-inactive"
+                          }
+                        >
+                          Лечение зубов во сне
+                        </Link>
+                      </div>
+                    </button>
+                  </div>
+                  {isToothHealingOpened && (
+                    <Fade direction="right">
+                      <div className="expanded-tab">
+                        <Link
+                          className="golden-btn"
+                          to="/services/vinirs"
+                          style={{
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                          }}
+                        >
+                          Подробнее
+                        </Link>
+                        <div className="row"></div>
+                        <span className="row-text">Виниры и коронки</span>
+                        <Link to="/services/vinirs" className="gold-text one">
+                          Оттиски
+                        </Link>
+                        <Link to="/services/vinirs" className="gold-text one">
+                          Вкладки
+                        </Link>
+                        <Link to="/services/vinirs" className="gold-text two">
+                          Виниры
+                        </Link>
+                        <Link
+                          to="/services/teeth-crowns"
+                          className="gold-text two"
+                        >
+                          Коронки
+                        </Link>
+                        <Link
+                          to="/services/tooth-restoration"
+                          className="gold-text two"
+                        >
+                          Восстановление зуба винирами{" "}
+                        </Link>
+                        <Link
+                          to="/services/bugel-prothesis"
+                          className="gold-text two"
+                        >
+                          Съемные, бюгельные протезы
+                        </Link>
+                      </div>
+                    </Fade>
+                  )}
+                  {isToothHealOpened && (
+                    <Fade direction="right">
+                      <div className="expanded-tab">
+                        <Link
+                          className="golden-btn"
+                          to="/services/teeth-healing"
+                          style={{
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                          }}
+                        >
+                          Подробнее
+                        </Link>
+                        <div className="row"></div>
+                        <span className="row-text">Лечение зубов</span>
+                        <Link
+                          to="/services/caries-heal"
+                          className="gold-text one"
+                        >
+                          Лечение кариеса
+                        </Link>
+                        <Link to="/services/seal" className="gold-text one">
+                          Установка пломб
+                        </Link>
+                        <Link
+                          to="/services/restoration"
+                          className="gold-text one"
+                        >
+                          Реставрация зубов
+                        </Link>
+                        <Link
+                          to="/services/pulpitis-healing"
+                          className="gold-text two"
+                        >
+                          Лечение пульпита зубов
+                        </Link>
+                        <Link
+                          to="/services/right-healing"
+                          className="gold-text two"
+                        >
+                          Лечение десен
+                        </Link>
+                      </div>
+                    </Fade>
+                  )}
+                  {isTeethSleepOpened && (
+                    <Fade direction="right">
+                      <div className="expanded-tab">
+                        <Link
+                          className="golden-btn"
+                          to="/services/healing-in-sleep"
+                          style={{
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                          }}
+                        >
+                          Подробнее
+                        </Link>
+                        <div className="row"></div>
+                        <span className="row-text">Лечение зубов во сне</span>
+                        <Link
+                          to="/services/healing-in-sleep"
+                          className="gold-text one"
+                        >
+                          Лечение зубов во сне
+                        </Link>
+                        <Link
+                          to="/services/child-sleep"
+                          className="gold-text one"
+                        >
+                          Лечение зубов у детей во сне
+                        </Link>
+                        <Link
+                          to="/services/sedation-heal"
+                          className="gold-text one"
+                        >
+                          Лечение зубов под седацией
+                        </Link>
+                      </div>
+                    </Fade>
+                  )}
+                  {isWhiteningOpened && (
+                    <Fade direction="right">
+                      <div className="expanded-tab">
+                        <Link
+                          className="golden-btn"
+                          to="/services/diagnostic"
+                          style={{
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                          }}
+                        >
+                          Подробнее
+                        </Link>
+                        <div className="row"></div>
+                        <span className="row-text">Диагностика</span>
+                        <Link to="/services/xray" className="gold-text two">
+                          Рентген зубов
+                        </Link>
+                        <Link to="/services/teeth-ct" className="gold-text two">
+                          КТ (компьютерная томография)
+                        </Link>
+                        <Link to="/services/3d" className="gold-text two">
+                          3D снимок полости рта
+                        </Link>
+                        <Link to="/services/optg" className="gold-text two">
+                          ОПТГ
+                        </Link>
+                        <Link to="/services/scope" className="gold-text two">
+                          Прицельный снимок
+                        </Link>
+                        <Link to="/services/mrt" className="gold-text two">
+                          МРТ Зубов
+                        </Link>
+                        <Link to="/services/ekg" className="gold-text two">
+                          ЭКГ
+                        </Link>
+                        <Link to="/services/analysis" className="gold-text two">
+                          Анализы (KDL лаборатория)
+                        </Link>
+                      </div>
+                    </Fade>
+                  )}
+                  {isMouthHygieneOpened && (
+                    <Fade direction="right">
+                      <div className="expanded-tab">
+                        <Link
+                          className="golden-btn"
+                          to="/services/whitening"
+                          style={{
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                          }}
+                        >
+                          Подробнее
+                        </Link>
+                        <div className="row"></div>
+                        <span className="row-text">Отбеливание</span>
+                        <Link to="services/whitening" className="gold-text">
+                          Отбеливание
+                        </Link>
+                        <Link
+                          to="/services/amazing-white"
+                          className="gold-text"
+                        >
+                          Профессиональное отбеливание зубов Amazing White
+                        </Link>
+                        <Link
+                          to="/services/zoom-whitening"
+                          className="gold-text"
+                        >
+                          Профессиональное отбеливание зубов Zoom
+                        </Link>
+                      </div>
+                    </Fade>
+                  )}
+                  {isHealingInSleepOpened && (
+                    <Fade direction="right">
+                      <div className="expanded-tab">
+                        <Link
+                          className="golden-btn"
+                          to="/services/surgery"
+                          style={{
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                          }}
+                        >
+                          Подробнее
+                        </Link>
+                        <div className="row"></div>
+                        <span className="row-text">Хирургия</span>
+                        <Link to="/services/surgery" className="gold-text">
+                          Хирургия
+                        </Link>
+                        <Link to="/services/teeth-delete" className="gold-text">
+                          Удаление зуба
+                        </Link>
+                        <Link to="/services/cyst-delete" className="gold-text">
+                          Удаление кисты зуба
+                        </Link>
+                        <Link
+                          to="/services/wisdom-tooth-delete"
+                          className="gold-text"
+                        >
+                          Удаление зуба мудрости
+                        </Link>
+                      </div>
+                    </Fade>
+                  )}
+                  {isVinirsOpened && (
+                    <Fade direction="right">
+                      <div className="expanded-tab">
+                        <Link
+                          className="golden-btn"
+                          to="/services/prosthetics"
+                          style={{
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                          }}
+                        >
+                          Подробнее
+                        </Link>
+                        <div className="row"></div>
+                        <span className="row-text">Протезирование</span>
+                        <Link to="/services/prosthetics" className="gold-text">
+                          Протезирование на имплантах
+                        </Link>
+                        <Link to="/services/prosthetics" className="gold-text">
+                          Внутрикостная дентальная имплантация системой
+                        </Link>
+                        <Link to="/services/prosthetics" className="gold-text">
+                          Формирователь десны
+                        </Link>
+                        <Link to="/services/prosthetics" className="gold-text">
+                          Синус-лифтинг
+                        </Link>
+                        <Link to="/services/prosthetics" className="gold-text">
+                          Реконструктивное лечение
+                        </Link>
+                        <Link to="/services/implants" className="gold-text">
+                          Имплантация под ключ
+                        </Link>
+                        <Link to="/services/allon4" className="gold-text">
+                          Имплантация All-on-4
+                        </Link>
+                      </div>
+                    </Fade>
+                  )}
+                  {isParodontHealingOpened && (
+                    <Fade direction="right">
+                      <div className="expanded-tab">
+                        <Link
+                          className="golden-btn"
+                          to="/services/bite-correction"
+                          style={{
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                          }}
+                        >
+                          Подробнее
+                        </Link>
+                        <div className="row"></div>
+                        <span className="row-text">Исправление прикуса</span>
+                        <Link to="/services/braces" className="gold-text">
+                          Ортодонтическая коррекция с применением брекет-системы
+                        </Link>
+                        <Link to="/services/retainer" className="gold-text">
+                          Ретенция
+                        </Link>
+                        <Link
+                          to="/services/bite-correction"
+                          className="gold-text"
+                        >
+                          Дополнительные приспособления
+                        </Link>
+                        <Link
+                          to="/services/ceramic-braces"
+                          className="gold-text"
+                        >
+                          Керамические брекеты
+                        </Link>
+                        <Link to="/services/damonq" className="gold-text">
+                          Брекеты DamonQ
+                        </Link>
+                        <Link to="/services/metal-braces" className="gold-text">
+                          Металлические брекеты
+                        </Link>
+                      </div>
+                    </Fade>
+                  )}
+                  {isProthesisOpened && (
+                    <Fade direction="right">
+                      <div className="expanded-tab">
+                        <Link
+                          className="golden-btn"
+                          to="/services/hygiene"
+                          style={{
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                          }}
+                        >
+                          Подробнее
+                        </Link>
+                        <div className="row"></div>
+                        <span className="row-text">Профилактика и гигиена</span>
+                        <Link to="/services/hygiene" className="gold-text">
+                          Профилактика и гигиена
+                        </Link>
+                        <Link
+                          to="/services/teeth-cleaning"
+                          className="gold-text"
+                        >
+                          Профессиональная чиста зубов
+                        </Link>
+                        <Link to="/services/airflow" className="gold-text">
+                          Чистка зубов Airflow
+                        </Link>
+                      </div>
+                    </Fade>
+                  )}
+                  {isDiagnosisOpened && (
+                    <Fade direction="right">
+                      <div className="expanded-tab">
+                        <button className="golden-btn">Подробнее</button>
+                        <div className="row"></div>
+                        <span className="row-text">Лечение зубов во сне</span>
+                        <a href="" className="gold-text">
+                          Удаление зуба под седацией
+                        </a>
+                        <a href="" className="gold-text">
+                          Удаление зуба под общим наркозом
+                        </a>
+                        <a href="" className="gold-text">
+                          Лечение зубов под седацией
+                        </a>
+                        <a href="" className="gold-text">
+                          Лечение зубов под наркозом у взрослых
+                        </a>
+                      </div>
+                    </Fade>
+                  )}
                 </div>
-                {isToothHealingOpened && (
-                  <Fade direction="right">
-                    <div className="expanded-tab">
-                      <Link
-                        className="golden-btn"
-                        to="/services/vinirs"
-                        style={{
-                          display: "flex",
-                          justifyContent: "center",
-                          alignItems: "center",
-                        }}
-                      >
-                        Подробнее
-                      </Link>
-                      <div className="row"></div>
-                      <span className="row-text">Виниры и коронки</span>
-                      <Link to="/services/vinirs" className="gold-text one">
-                        Оттиски
-                      </Link>
-                      <Link to="/services/vinirs" className="gold-text one">
-                        Вкладки
-                      </Link>
-                      <Link to="/services/vinirs" className="gold-text two">
-                        Виниры
-                      </Link>
-                      <Link
-                        to="/services/teeth-crowns"
-                        className="gold-text two"
-                      >
-                        Коронки
-                      </Link>
-                      <Link
-                        to="/services/tooth-restoration"
-                        className="gold-text two"
-                      >
-                        Восстановление зуба винирами{" "}
-                      </Link>
-                      <Link
-                        to="/services/bugel-prothesis"
-                        className="gold-text two"
-                      >
-                        Съемные, бюгельные протезы
-                      </Link>
-                    </div>
-                  </Fade>
-                )}
-                {isToothHealOpened && (
-                  <Fade direction="right">
-                    <div className="expanded-tab">
-                      <Link
-                        className="golden-btn"
-                        to="/services/teeth-healing"
-                        style={{
-                          display: "flex",
-                          justifyContent: "center",
-                          alignItems: "center",
-                        }}
-                      >
-                        Подробнее
-                      </Link>
-                      <div className="row"></div>
-                      <span className="row-text">Лечение зубов</span>
-                      <Link
-                        to="/services/caries-heal"
-                        className="gold-text one"
-                      >
-                        Лечение кариеса
-                      </Link>
-                      <Link to="/services/seal" className="gold-text one">
-                        Установка пломб
-                      </Link>
-                      <Link
-                        to="/services/restoration"
-                        className="gold-text one"
-                      >
-                        Реставрация зубов
-                      </Link>
-                      <Link
-                        to="/services/pulpitis-healing"
-                        className="gold-text two"
-                      >
-                        Лечение пульпита зубов
-                      </Link>
-                      <Link
-                        to="/services/right-healing"
-                        className="gold-text two"
-                      >
-                        Лечение десен
-                      </Link>
-                    </div>
-                  </Fade>
-                )}
-                {isTeethSleepOpened && (
-                  <Fade direction="right">
-                    <div className="expanded-tab">
-                      <Link
-                        className="golden-btn"
-                        to="/services/healing-in-sleep"
-                        style={{
-                          display: "flex",
-                          justifyContent: "center",
-                          alignItems: "center",
-                        }}
-                      >
-                        Подробнее
-                      </Link>
-                      <div className="row"></div>
-                      <span className="row-text">Лечение зубов во сне</span>
-                      <Link
-                        to="/services/healing-in-sleep"
-                        className="gold-text one"
-                      >
-                        Лечение зубов во сне
-                      </Link>
-                      <Link
-                        to="/services/child-sleep"
-                        className="gold-text one"
-                      >
-                        Лечение зубов у детей во сне
-                      </Link>
-                      <Link
-                        to="/services/sedation-heal"
-                        className="gold-text one"
-                      >
-                        Лечение зубов под седацией
-                      </Link>
-                    </div>
-                  </Fade>
-                )}
-                {isWhiteningOpened && (
-                  <Fade direction="right">
-                    <div className="expanded-tab">
-                      <Link
-                        className="golden-btn"
-                        to="/services/diagnostic"
-                        style={{
-                          display: "flex",
-                          justifyContent: "center",
-                          alignItems: "center",
-                        }}
-                      >
-                        Подробнее
-                      </Link>
-                      <div className="row"></div>
-                      <span className="row-text">Диагностика</span>
-                      <Link to="/services/xray" className="gold-text two">
-                        Рентген зубов
-                      </Link>
-                      <Link to="/services/teeth-ct" className="gold-text two">
-                        КТ (компьютерная томография)
-                      </Link>
-                      <Link to="/services/3d" className="gold-text two">
-                        3D снимок полости рта
-                      </Link>
-                      <Link to="/services/optg" className="gold-text two">
-                        ОПТГ
-                      </Link>
-                      <Link to="/services/scope" className="gold-text two">
-                        Прицельный снимок
-                      </Link>
-                      <Link to="/services/mrt" className="gold-text two">
-                        МРТ Зубов
-                      </Link>
-                      <Link to="/services/ekg" className="gold-text two">
-                        ЭКГ
-                      </Link>
-                      <Link to="/services/analysis" className="gold-text two">
-                        Анализы (KDL лаборатория)
-                      </Link>
-                    </div>
-                  </Fade>
-                )}
-                {isMouthHygieneOpened && (
-                  <Fade direction="right">
-                    <div className="expanded-tab">
-                      <Link
-                        className="golden-btn"
-                        to="/services/whitening"
-                        style={{
-                          display: "flex",
-                          justifyContent: "center",
-                          alignItems: "center",
-                        }}
-                      >
-                        Подробнее
-                      </Link>
-                      <div className="row"></div>
-                      <span className="row-text">Отбеливание</span>
-                      <Link to="services/whitening" className="gold-text">
-                        Отбеливание
-                      </Link>
-                      <Link to="/services/amazing-white" className="gold-text">
-                        Профессиональное отбеливание зубов Amazing White
-                      </Link>
-                      <Link to="/services/zoom-whitening" className="gold-text">
-                        Профессиональное отбеливание зубов Zoom
-                      </Link>
-                    </div>
-                  </Fade>
-                )}
-                {isHealingInSleepOpened && (
-                  <Fade direction="right">
-                    <div className="expanded-tab">
-                      <Link
-                        className="golden-btn"
-                        to="/services/surgery"
-                        style={{
-                          display: "flex",
-                          justifyContent: "center",
-                          alignItems: "center",
-                        }}
-                      >
-                        Подробнее
-                      </Link>
-                      <div className="row"></div>
-                      <span className="row-text">Хирургия</span>
-                      <Link to="/services/surgery" className="gold-text">
-                        Хирургия
-                      </Link>
-                      <Link to="/services/teeth-delete" className="gold-text">
-                        Удаление зуба
-                      </Link>
-                      <Link to="/services/cyst-delete" className="gold-text">
-                        Удаление кисты зуба
-                      </Link>
-                      <Link
-                        to="/services/wisdom-tooth-delete"
-                        className="gold-text"
-                      >
-                        Удаление зуба мудрости
-                      </Link>
-                    </div>
-                  </Fade>
-                )}
-                {isVinirsOpened && (
-                  <Fade direction="right">
-                    <div className="expanded-tab">
-                      <Link
-                        className="golden-btn"
-                        to="/services/prosthetics"
-                        style={{
-                          display: "flex",
-                          justifyContent: "center",
-                          alignItems: "center",
-                        }}
-                      >
-                        Подробнее
-                      </Link>
-                      <div className="row"></div>
-                      <span className="row-text">Протезирование</span>
-                      <Link to="/services/prosthetics" className="gold-text">
-                        Протезирование на имплантах
-                      </Link>
-                      <Link to="/services/prosthetics" className="gold-text">
-                        Внутрикостная дентальная имплантация системой
-                      </Link>
-                      <Link to="/services/prosthetics" className="gold-text">
-                        Формирователь десны
-                      </Link>
-                      <Link to="/services/prosthetics" className="gold-text">
-                        Синус-лифтинг
-                      </Link>
-                      <Link to="/services/prosthetics" className="gold-text">
-                        Реконструктивное лечение
-                      </Link>
-                      <Link to="/services/implants" className="gold-text">
-                        Имплантация под ключ
-                      </Link>
-                      <Link to="/services/allon4" className="gold-text">
-                        Имплантация All-on-4
-                      </Link>
-                    </div>
-                  </Fade>
-                )}
-                {isParodontHealingOpened && (
-                  <Fade direction="right">
-                    <div className="expanded-tab">
-                      <Link
-                        className="golden-btn"
-                        to="/services/bite-correction"
-                        style={{
-                          display: "flex",
-                          justifyContent: "center",
-                          alignItems: "center",
-                        }}
-                      >
-                        Подробнее
-                      </Link>
-                      <div className="row"></div>
-                      <span className="row-text">Исправление прикуса</span>
-                      <Link to="/services/braces" className="gold-text">
-                        Ортодонтическая коррекция с применением брекет-системы
-                      </Link>
-                      <Link to="/services/retainer" className="gold-text">
-                        Ретенция
-                      </Link>
-                      <Link
-                        to="/services/bite-correction"
-                        className="gold-text"
-                      >
-                        Дополнительные приспособления
-                      </Link>
-                      <Link to="/services/ceramic-braces" className="gold-text">
-                        Керамические брекеты
-                      </Link>
-                      <Link to="/services/damonq" className="gold-text">
-                        Брекеты DamonQ
-                      </Link>
-                      <Link to="/services/metal-braces" className="gold-text">
-                        Металлические брекеты
-                      </Link>
-                    </div>
-                  </Fade>
-                )}
-                {isProthesisOpened && (
-                  <Fade direction="right">
-                    <div className="expanded-tab">
-                      <Link
-                        className="golden-btn"
-                        to="/services/hygiene"
-                        style={{
-                          display: "flex",
-                          justifyContent: "center",
-                          alignItems: "center",
-                        }}
-                      >
-                        Подробнее
-                      </Link>
-                      <div className="row"></div>
-                      <span className="row-text">Профилактика и гигиена</span>
-                      <Link to="/services/hygiene" className="gold-text">
-                        Профилактика и гигиена
-                      </Link>
-                      <Link to="/services/teeth-cleaning" className="gold-text">
-                        Профессиональная чиста зубов
-                      </Link>
-                      <Link to="/services/airflow" className="gold-text">
-                        Чистка зубов Airflow
-                      </Link>
-                    </div>
-                  </Fade>
-                )}
-                {isDiagnosisOpened && (
-                  <Fade direction="right">
-                    <div className="expanded-tab">
-                      <button className="golden-btn">Подробнее</button>
-                      <div className="row"></div>
-                      <span className="row-text">Лечение зубов во сне</span>
-                      <a href="" className="gold-text">
-                        Удаление зуба под седацией
-                      </a>
-                      <a href="" className="gold-text">
-                        Удаление зуба под общим наркозом
-                      </a>
-                      <a href="" className="gold-text">
-                        Лечение зубов под седацией
-                      </a>
-                      <a href="" className="gold-text">
-                        Лечение зубов под наркозом у взрослых
-                      </a>
-                    </div>
-                  </Fade>
-                )}
-              </div>
-            </section>
-          </div>
-          <div className="mob-information flex justify-center items-center column">
-            <h1
-              className="custom-heading text-center mt-32"
-              style={{ width: "50%" }}
-            >
-              Стоматологии Dental Home в Ивантеевке
-            </h1>
-            <p className="paragraph text-center mt-16" style={{ width: "90%" }}>
-              Наша команда профессиональных врачей стоматологии готова помочь
-              вам восстановить улыбку и уверенность в себе. Мы гарантируем
-              максимальный комфорт и безопасность при установке протезов, а
-              также оптимальный результат. Наши врачи стоматологии -
-              профессионалы своего дела, которые готовы помочь вам сохранить
-              здоровье зубов и улыбку на лице.
-              <br />
-              <br />
-              Мы понимаем, что посещение стоматолога может вызывать тревогу и
-              беспокойство, поэтому наша команда всегда готова ответить на все
-              ваши вопросы и объяснить каждый этап процедуры.
-              <br />
-              <br />
-              Не откладывайте визит к стоматологу на потом! Запишитесь на
-              консультацию в Dental Home уже сегодня и получите профессиональную
-              помощь в сохранении здоровья зубов и улыбки на лице. Мы готовы
-              стать вашим надежным партнером в уходе за здоровьем полости рта.
-            </p>
-          </div>
-          <div className="doctors-gallery-screen" id="doctors">
-            <section className="content">
-              <div className="heading-container-gallery">
-                <h2 className="heading">Наши Специалисты</h2>
-              </div>
-              <div className="divider"></div>
-              <Gallery openModal={openModal} />
-            </section>
-          </div>
-          <div className="doctors-gallery-screen-pc" id="doctors">
-            <section className="content">
-              <div className="heading-container">
-                <h3 className="heading">Наши специалисты</h3>
-              </div>
-              <div className="divider"></div>
-              <PcGallery openModal={openModal} />
-              <div
-                className="divider"
-                style={{ marginTop: "clamp(32px,3.33312vw,128px)" }}
-              ></div>
-            </section>
-          </div>
-          <div className="free-form-pc">
-            <section className="content">
-              <div className="form-container">
-                <div className="free-form-content">
-                  <div className="input-content">
-                    <h4 className="heading">
-                      Что вас ждёт на осмотре у стоматолога:
-                    </h4>
-                    <div className="icons-text-container">
-                      <div className="icons">
-                        <div className="tooth-icon-container">
-                          <img
-                            className="tooth-icon"
-                            src={toothIcon}
-                            alt="tooth"
-                          ></img>
-                          <p className="paragraph tooth">
-                            Осмотрим полость рта и составим фотопротокол
-                          </p>
-                        </div>
-                        <div className="chair-icon-container">
-                          <img
-                            className="chair-icon"
-                            src={chairIcon}
-                            alt="chair"
-                          ></img>
-                          <p className="paragraph tooth">
-                            После тщательного осмотра составим план лечения
-                          </p>
+              </section>
+            </div>
+            <div className="mob-information flex justify-center items-center column">
+              <h1
+                className="custom-heading text-center mt-32"
+                style={{ width: "50%" }}
+              >
+                Стоматологии Dental Home в Ивантеевке
+              </h1>
+              <p
+                className="paragraph text-center mt-16"
+                style={{ width: "90%" }}
+              >
+                Наша команда профессиональных врачей стоматологии готова помочь
+                вам восстановить улыбку и уверенность в себе. Мы гарантируем
+                максимальный комфорт и безопасность при установке протезов, а
+                также оптимальный результат. Наши врачи стоматологии -
+                профессионалы своего дела, которые готовы помочь вам сохранить
+                здоровье зубов и улыбку на лице.
+                <br />
+                <br />
+                Мы понимаем, что посещение стоматолога может вызывать тревогу и
+                беспокойство, поэтому наша команда всегда готова ответить на все
+                ваши вопросы и объяснить каждый этап процедуры.
+                <br />
+                <br />
+                Не откладывайте визит к стоматологу на потом! Запишитесь на
+                консультацию в Dental Home уже сегодня и получите
+                профессиональную помощь в сохранении здоровья зубов и улыбки на
+                лице. Мы готовы стать вашим надежным партнером в уходе за
+                здоровьем полости рта.
+              </p>
+            </div>
+            <div className="doctors-gallery-screen" id="doctors">
+              <section className="content">
+                <div className="heading-container-gallery">
+                  <h2 className="heading">Наши Специалисты</h2>
+                </div>
+                <div className="divider"></div>
+                <Gallery openModal={openModal} />
+              </section>
+            </div>
+            <div className="doctors-gallery-screen-pc" id="doctors">
+              <section className="content">
+                <div className="heading-container">
+                  <h3 className="heading">Наши специалисты</h3>
+                </div>
+                <div className="divider"></div>
+                <PcGallery openModal={openModal} />
+                <div
+                  className="divider"
+                  style={{ marginTop: "clamp(32px,3.33312vw,128px)" }}
+                ></div>
+              </section>
+            </div>
+            <div className="free-form-pc">
+              <section className="content">
+                <div className="form-container">
+                  <div className="free-form-content">
+                    <div className="input-content">
+                      <h4 className="heading">
+                        Что вас ждёт на осмотре у стоматолога:
+                      </h4>
+                      <div className="icons-text-container">
+                        <div className="icons">
+                          <div className="tooth-icon-container">
+                            <img
+                              className="tooth-icon"
+                              src={toothIcon}
+                              alt="tooth"
+                            ></img>
+                            <p className="paragraph tooth">
+                              Осмотрим полость рта и составим фотопротокол
+                            </p>
+                          </div>
+                          <div className="chair-icon-container">
+                            <img
+                              className="chair-icon"
+                              src={chairIcon}
+                              alt="chair"
+                            ></img>
+                            <p className="paragraph tooth">
+                              После тщательного осмотра составим план лечения
+                            </p>
+                          </div>
                         </div>
                       </div>
+                      <span className="text-span">
+                        Звоните с 9:00 до 21:00{" "}
+                        <strong>+7 (991) 779-39-95</strong> или оставьте заявку,
+                        мы вам перезвоним
+                      </span>
+                      <form
+                        className="input-container"
+                        ref={phoneForm}
+                        onSubmit={sendPhoneRequest}
+                      >
+                        <input
+                          type="tel"
+                          name="phoneNumber"
+                          value={phoneNumber}
+                          className="telephone-input"
+                          required={true}
+                          onChange={(event) =>
+                            setPhoneNumber(event.target.value)
+                          }
+                          placeholder="+7 (991) 779-39-95"
+                        />
+                        <button className="form-btn" value="Send">
+                          Записать на осмотр
+                        </button>
+                      </form>
                     </div>
-                    <span className="text-span">
-                      Звоните с 9:00 до 21:00{" "}
-                      <strong>+7 (991) 779-39-95</strong> или оставьте заявку,
-                      мы вам перезвоним
-                    </span>
-                    <form
-                      className="input-container"
-                      ref={phoneForm}
-                      onSubmit={sendPhoneRequest}
+                    <img
+                      className="form-image"
+                      src={formImage}
+                      alt="image"
+                    ></img>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div className="dental-home-gallery-pc">
+              <section className="content">
+                <div className="heading-container">
+                  <h4 className="heading">Клиники Dental Home </h4>
+                </div>
+                <div className="galleries-container">
+                  <div className="gallery-one">
+                    <h6 className="g-heading">
+                      Клиника на Советском проспекте, 5
+                    </h6>
+                    <Swiper
+                      slidesPerView={1}
+                      spaceBetween={30}
+                      loop={true}
+                      pagination={{
+                        clickable: true,
+                      }}
+                      navigation={true}
+                      modules={[Pagination, Navigation]}
+                      style={
+                        {
+                          "--swiper-pagination-color": "#E8CB6C",
+                          "--swiper-navigation-color": "#E8CB6C",
+                        } as React.CSSProperties
+                      }
+                      className="mySwiper4"
                     >
+                      <SwiperSlide>
+                        <img
+                          className="swiper-image"
+                          src={galleryOnePic}
+                          alt="image"
+                        ></img>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <img
+                          className="swiper-image"
+                          src={galleryTwoPicture}
+                          alt="image"
+                        ></img>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <img
+                          className="swiper-image"
+                          src={galleryThreePicture}
+                          alt="image"
+                        ></img>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <img
+                          className="swiper-image"
+                          src={galleryFourPicture}
+                          alt="image"
+                        ></img>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <img
+                          className="swiper-image"
+                          src={galleryFivePicture}
+                          alt="image"
+                        ></img>
+                      </SwiperSlide>
+                    </Swiper>
+                  </div>
+                  <div className="gallery-two">
+                    <h6 className="g-heading">Клиника на Рощинской, 9</h6>
+                    <Swiper
+                      slidesPerView={1}
+                      spaceBetween={30}
+                      loop={true}
+                      pagination={{
+                        clickable: true,
+                      }}
+                      navigation={true}
+                      modules={[Pagination, Navigation]}
+                      style={
+                        {
+                          "--swiper-pagination-color": "#E8CB6C",
+                          "--swiper-navigation-color": "#E8CB6C",
+                        } as React.CSSProperties
+                      }
+                      className="mySwiper5"
+                    >
+                      <SwiperSlide>
+                        <img
+                          className="swiper-image"
+                          src={galleryTwoPic}
+                          alt="image"
+                        ></img>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <img
+                          className="swiper-image"
+                          src={gallery02}
+                          alt="image"
+                        ></img>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <img
+                          className="swiper-image"
+                          src={gallery03}
+                          alt="image"
+                        ></img>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <img
+                          className="swiper-image"
+                          src={gallery04}
+                          alt="image"
+                        ></img>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <img
+                          className="swiper-image"
+                          src={gallery05}
+                          alt="image"
+                        ></img>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <img
+                          className="swiper-image"
+                          src={gallery06}
+                          alt="image"
+                        ></img>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <img
+                          className="swiper-image"
+                          src={gallery07}
+                          alt="image"
+                        ></img>
+                      </SwiperSlide>
+                    </Swiper>
+                  </div>
+                </div>
+                <div className="btn-container">
+                  <button className="gold-btn" onClick={openPopupWindow}>
+                    Записаться на прием
+                  </button>
+                </div>
+              </section>
+            </div>
+            <div className="dental-home-gallery">
+              <section className="content">
+                <div className="gallery-heading-container">
+                  <h3 className="gallery-heading">Клиники Dental Home</h3>
+                </div>
+                <div className="divider"></div>
+                <div className="galleries">
+                  <div className="gallery-one">
+                    <h4 className="gallery-heading">
+                      Клиника на Советском проспекте, 5
+                    </h4>
+                    <ClinicGalleryOne></ClinicGalleryOne>
+                  </div>
+                  <div className="gallery-two">
+                    <h4 className="gallery-heading-two">
+                      Клиника на Рощинской, 9
+                    </h4>
+                    <ClinicGalleryTwo></ClinicGalleryTwo>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div className="review-pc-screen" id="review">
+              <section className="content">
+                <div className="heading-container">
+                  <h5 className="heading">Отзывы</h5>
+                </div>
+                <div className="divider"></div>
+                <ReviewGalleryDesktop />
+                <div className="all-reviews-container">
+                  {/* <a className="blue-link">Все отзывы</a> */}
+                </div>
+              </section>
+            </div>
+            <div
+              className="form-pc-screen"
+              id="form-screen"
+              ref={form}
+              onSubmit={sendEmail}
+            >
+              <section className="content">
+                <div className="heading-container">
+                  <h5 className="heading">Записаться На Прием</h5>
+                </div>
+                <div className="divider"></div>
+                <form action="" className="form-content">
+                  <div className="row-c">
+                    <div className="input-container">
+                      <span className="text">Имя*</span>
                       <input
-                        type="tel"
-                        name="phoneNumber"
-                        value={phoneNumber}
-                        className="telephone-input"
+                        type="text"
+                        className="input-c"
                         required={true}
+                        value={fullName}
+                        name="fullName"
+                        onChange={(event) => setFullName(event.target.value)}
+                        placeholder="Иван Иванов"
+                      />
+                    </div>
+                    <div className="input-container">
+                      <span className="text">Телефон*</span>
+                      <input
+                        type="text"
+                        className="input-c"
+                        required={true}
+                        value={phoneNumber}
+                        name="phoneNumber"
                         onChange={(event) => setPhoneNumber(event.target.value)}
                         placeholder="+7 (991) 779-39-95"
                       />
-                      <button className="form-btn" value="Send">
-                        Записать на осмотр
-                      </button>
-                    </form>
+                    </div>
                   </div>
-                  <img className="form-image" src={formImage} alt="image"></img>
+                  <div className="row-c">
+                    <div className="input-container services">
+                      <span className="text">Услуга</span>
+                      <input
+                        type="text"
+                        placeholder="Выберите Услугу"
+                        required={true}
+                        value={serviceName}
+                        name="serviceName"
+                        onChange={(event) => setServiceName(event.target.value)}
+                        className="input-s"
+                      />
+                    </div>
+                  </div>
+                  <div className="row-c"></div>
+                  <div className="row-c">
+                    <div className="input-container services">
+                      <span className="text">Фамилия врача</span>
+                      <input
+                        type="text"
+                        placeholder="Фамилия врача"
+                        required={true}
+                        value={doctorName}
+                        name="doctorName"
+                        onChange={(event) => setDoctorName(event.target.value)}
+                        className="input-s"
+                      />
+                    </div>
+                  </div>
+                  <div className="row-c">
+                    <div className="input-container services">
+                      <span className="text">Дата приема</span>
+                      <input
+                        type="text"
+                        placeholder="Дата приема"
+                        // ! поменять на bookDate
+                        value={bookDate}
+                        name="bookDate"
+                        onChange={(event) => setBookDate(event.target.value)}
+                        className="input-s"
+                      />
+                    </div>
+                  </div>
+                  <div className="row-c">
+                    <div className="input-container services">
+                      <span className="text">Время приема</span>
+                      <input
+                        type="text"
+                        placeholder="Время приема"
+                        value={bookTime}
+                        name="bookTime"
+                        onChange={(event) => setBookTime(event.target.value)}
+                        className="input-s"
+                      />
+                    </div>
+                  </div>
+                  <div className="row-c">
+                    <div className="input-container services">
+                      <span className="text">Цель визита</span>
+                      <input
+                        type="text"
+                        placeholder="Цель визита"
+                        value={visitGoal}
+                        name="visitGoal"
+                        onChange={(event) => setVisitGoal(event.target.value)}
+                        className="input-s"
+                      />
+                    </div>
+                  </div>
+                  <div className="row-c">
+                    <div className="input-container services">
+                      <span className="text">Комментарий</span>
+                      <textarea
+                        className="comment"
+                        name="comment"
+                        value={comment}
+                        onChange={(event) => setComment(event.target.value)}
+                      />
+                    </div>
+                  </div>
+                  <div className="checkbox-container">
+                    <div className="check-row">
+                      <input type="checkbox" className="checkbox" />
+                      <span className="text">
+                        Ознакомлен с Условиями обработки персональных данных
+                      </span>
+                    </div>
+                    <button className="golden-btn" value="Send">
+                      Записаться на прием
+                      <FontAwesomeIcon
+                        icon={faChevronRight}
+                        className="icon"
+                        style={{
+                          fontSize: "clamp(6px,0.62496vw,24px)",
+                          marginLeft: "clamp(4px,0.41664vw,16px)",
+                        }}
+                      ></FontAwesomeIcon>
+                    </button>
+                  </div>
+                </form>
+              </section>
+            </div>
+            <div className="review-screen" id="review">
+              <section className="content">
+                <div className="review-heading-container">
+                  <h3 className="reviews-heading">Отзывы</h3>
                 </div>
-              </div>
-            </section>
-          </div>
-          <div className="dental-home-gallery-pc">
-            <section className="content">
-              <div className="heading-container">
-                <h4 className="heading">Клиники Dental Home </h4>
-              </div>
-              <div className="galleries-container">
-                <div className="gallery-one">
-                  <h6 className="g-heading">
-                    Клиника на Советском проспекте, 5
-                  </h6>
-                  <Swiper
-                    slidesPerView={1}
-                    spaceBetween={30}
-                    loop={true}
-                    pagination={{
-                      clickable: true,
-                    }}
-                    navigation={true}
-                    modules={[Pagination, Navigation]}
-                    style={
-                      {
-                        "--swiper-pagination-color": "#E8CB6C",
-                        "--swiper-navigation-color": "#E8CB6C",
-                      } as React.CSSProperties
-                    }
-                    className="mySwiper4"
-                  >
-                    <SwiperSlide>
-                      <img
-                        className="swiper-image"
-                        src={galleryOnePic}
-                        alt="image"
-                      ></img>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <img
-                        className="swiper-image"
-                        src={galleryTwoPicture}
-                        alt="image"
-                      ></img>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <img
-                        className="swiper-image"
-                        src={galleryThreePicture}
-                        alt="image"
-                      ></img>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <img
-                        className="swiper-image"
-                        src={galleryFourPicture}
-                        alt="image"
-                      ></img>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <img
-                        className="swiper-image"
-                        src={galleryFivePicture}
-                        alt="image"
-                      ></img>
-                    </SwiperSlide>
-                  </Swiper>
+                <div className="divider"></div>
+                <ReviewGallery />
+                <div className="link-blue-container">
+                  <a href="" className="blue-link">
+                    Все отзывы
+                  </a>
                 </div>
-                <div className="gallery-two">
-                  <h6 className="g-heading">Клиника на Рощинской, 9</h6>
-                  <Swiper
-                    slidesPerView={1}
-                    spaceBetween={30}
-                    loop={true}
-                    pagination={{
-                      clickable: true,
-                    }}
-                    navigation={true}
-                    modules={[Pagination, Navigation]}
-                    style={
-                      {
-                        "--swiper-pagination-color": "#E8CB6C",
-                        "--swiper-navigation-color": "#E8CB6C",
-                      } as React.CSSProperties
-                    }
-                    className="mySwiper5"
-                  >
-                    <SwiperSlide>
-                      <img
-                        className="swiper-image"
-                        src={galleryTwoPic}
-                        alt="image"
-                      ></img>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <img
-                        className="swiper-image"
-                        src={gallery02}
-                        alt="image"
-                      ></img>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <img
-                        className="swiper-image"
-                        src={gallery03}
-                        alt="image"
-                      ></img>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <img
-                        className="swiper-image"
-                        src={gallery04}
-                        alt="image"
-                      ></img>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <img
-                        className="swiper-image"
-                        src={gallery05}
-                        alt="image"
-                      ></img>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <img
-                        className="swiper-image"
-                        src={gallery06}
-                        alt="image"
-                      ></img>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <img
-                        className="swiper-image"
-                        src={gallery07}
-                        alt="image"
-                      ></img>
-                    </SwiperSlide>
-                  </Swiper>
+              </section>
+            </div>
+            <div
+              className="form-screen"
+              id="form-screen-mob"
+              ref={form}
+              onSubmit={sendEmail}
+            >
+              <section className="content">
+                <div className="form-heading-container">
+                  <h3 className="form-heading">Записаться На Прием</h3>
                 </div>
-              </div>
-              <div className="btn-container">
-                <button className="gold-btn" onClick={openPopupWindow}>
-                  Записаться на прием
-                </button>
-              </div>
-            </section>
-          </div>
-          <div className="dental-home-gallery">
-            <section className="content">
-              <div className="gallery-heading-container">
-                <h3 className="gallery-heading">Клиники Dental Home</h3>
-              </div>
-              <div className="divider"></div>
-              <div className="galleries">
-                <div className="gallery-one">
-                  <h4 className="gallery-heading">
-                    Клиника на Советском проспекте, 5
-                  </h4>
-                  <ClinicGalleryOne></ClinicGalleryOne>
-                </div>
-                <div className="gallery-two">
-                  <h4 className="gallery-heading-two">
-                    Клиника на Рощинской, 9
-                  </h4>
-                  <ClinicGalleryTwo></ClinicGalleryTwo>
-                </div>
-              </div>
-            </section>
-          </div>
-          <div className="review-pc-screen" id="review">
-            <section className="content">
-              <div className="heading-container">
-                <h5 className="heading">Отзывы</h5>
-              </div>
-              <div className="divider"></div>
-              <ReviewGalleryDesktop />
-              <div className="all-reviews-container">
-                {/* <a className="blue-link">Все отзывы</a> */}
-              </div>
-            </section>
-          </div>
-          <div
-            className="form-pc-screen"
-            id="form-screen"
-            ref={form}
-            onSubmit={sendEmail}
-          >
-            <section className="content">
-              <div className="heading-container">
-                <h5 className="heading">Записаться На Прием</h5>
-              </div>
-              <div className="divider"></div>
-              <form action="" className="form-content">
-                <div className="row-c">
+                <div className="divider"></div>
+                <form action="" className="form">
                   <div className="input-container">
-                    <span className="text">Имя*</span>
+                    <label htmlFor="name" className="la">
+                      Имя*
+                    </label>
                     <input
                       type="text"
-                      className="input-c"
                       required={true}
                       value={fullName}
                       name="fullName"
                       onChange={(event) => setFullName(event.target.value)}
+                      className="input-text"
                       placeholder="Иван Иванов"
                     />
                   </div>
                   <div className="input-container">
-                    <span className="text">Телефон*</span>
+                    <label htmlFor="phone" className="la">
+                      Номер телефона*
+                    </label>
                     <input
-                      type="text"
-                      className="input-c"
-                      required={true}
+                      type="tel"
                       value={phoneNumber}
-                      name="phoneNumber"
                       onChange={(event) => setPhoneNumber(event.target.value)}
+                      name="phoneNumber"
+                      className="input-text"
                       placeholder="+7 (991) 779-39-95"
                     />
                   </div>
-                </div>
-                <div className="row-c">
-                  <div className="input-container services">
-                    <span className="text">Услуга</span>
+                  <div className="input-container">
+                    <label htmlFor="service" className="la">
+                      Услуга
+                    </label>
                     <input
                       type="text"
-                      placeholder="Выберите Услугу"
-                      required={true}
                       value={serviceName}
-                      name="serviceName"
                       onChange={(event) => setServiceName(event.target.value)}
-                      className="input-s"
+                      name="serviceName"
+                      placeholder="Выберите Услугу"
+                      className="input-text"
                     />
                   </div>
-                </div>
-                <div className="row-c"></div>
-                <div className="row-c">
-                  <div className="input-container services">
-                    <span className="text">Фамилия врача</span>
-                    <input
-                      type="text"
-                      placeholder="Фамилия врача"
-                      required={true}
-                      value={doctorName}
-                      name="doctorName"
-                      onChange={(event) => setDoctorName(event.target.value)}
-                      className="input-s"
-                    />
-                  </div>
-                </div>
-                <div className="row-c">
-                  <div className="input-container services">
-                    <span className="text">Дата приема</span>
-                    <input
-                      type="text"
-                      placeholder="Дата приема"
-                      // ! поменять на bookDate
-                      value={bookDate}
-                      name="bookDate"
-                      onChange={(event) => setBookDate(event.target.value)}
-                      className="input-s"
-                    />
-                  </div>
-                </div>
-                <div className="row-c">
-                  <div className="input-container services">
-                    <span className="text">Время приема</span>
-                    <input
-                      type="text"
-                      placeholder="Время приема"
-                      value={bookTime}
-                      name="bookTime"
-                      onChange={(event) => setBookTime(event.target.value)}
-                      className="input-s"
-                    />
-                  </div>
-                </div>
-                <div className="row-c">
-                  <div className="input-container services">
-                    <span className="text">Цель визита</span>
-                    <input
-                      type="text"
-                      placeholder="Цель визита"
-                      value={visitGoal}
-                      name="visitGoal"
-                      onChange={(event) => setVisitGoal(event.target.value)}
-                      className="input-s"
-                    />
-                  </div>
-                </div>
-                <div className="row-c">
-                  <div className="input-container services">
-                    <span className="text">Комментарий</span>
-                    <textarea
-                      className="comment"
-                      name="comment"
-                      value={comment}
-                      onChange={(event) => setComment(event.target.value)}
-                    />
-                  </div>
-                </div>
-                <div className="checkbox-container">
-                  <div className="check-row">
-                    <input type="checkbox" className="checkbox" />
-                    <span className="text">
-                      Ознакомлен с Условиями обработки персональных данных
-                    </span>
-                  </div>
-                  <button className="golden-btn" value="Send">
-                    Записаться на прием
-                    <FontAwesomeIcon
-                      icon={faChevronRight}
-                      className="icon"
-                      style={{
-                        fontSize: "clamp(6px,0.62496vw,24px)",
-                        marginLeft: "clamp(4px,0.41664vw,16px)",
-                      }}
-                    ></FontAwesomeIcon>
-                  </button>
-                </div>
-              </form>
-            </section>
-          </div>
-          <div className="review-screen" id="review">
-            <section className="content">
-              <div className="review-heading-container">
-                <h3 className="reviews-heading">Отзывы</h3>
-              </div>
-              <div className="divider"></div>
-              <ReviewGallery />
-              <div className="link-blue-container">
-                <a href="" className="blue-link">
-                  Все отзывы
-                </a>
-              </div>
-            </section>
-          </div>
-          <div
-            className="form-screen"
-            id="form-screen-mob"
-            ref={form}
-            onSubmit={sendEmail}
-          >
-            <section className="content">
-              <div className="form-heading-container">
-                <h3 className="form-heading">Записаться На Прием</h3>
-              </div>
-              <div className="divider"></div>
-              <form action="" className="form">
-                <div className="input-container">
-                  <label htmlFor="name" className="la">
-                    Имя*
-                  </label>
-                  <input
-                    type="text"
-                    required={true}
-                    value={fullName}
-                    name="fullName"
-                    onChange={(event) => setFullName(event.target.value)}
-                    className="input-text"
-                    placeholder="Иван Иванов"
-                  />
-                </div>
-                <div className="input-container">
-                  <label htmlFor="phone" className="la">
-                    Номер телефона*
-                  </label>
-                  <input
-                    type="tel"
-                    value={phoneNumber}
-                    onChange={(event) => setPhoneNumber(event.target.value)}
-                    name="phoneNumber"
-                    className="input-text"
-                    placeholder="+7 (991) 779-39-95"
-                  />
-                </div>
-                <div className="input-container">
-                  <label htmlFor="service" className="la">
-                    Услуга
-                  </label>
-                  <input
-                    type="text"
-                    value={serviceName}
-                    onChange={(event) => setServiceName(event.target.value)}
-                    name="serviceName"
-                    placeholder="Выберите Услугу"
-                    className="input-text"
-                  />
-                </div>
 
-                {/* <div className="input-container">
+                  {/* <div className="input-container">
                     <label htmlFor="direction" className="la">
                       Направление
                     </label>
@@ -3009,217 +3057,267 @@ export default function HomePage() {
                       className="input-text"
                     />
                   </div> */}
-                <div className="input-container">
-                  <label htmlFor="doctor" className="la">
-                    Фамилия врача
-                  </label>
-                  <input
-                    type="text"
-                    name="doctorName"
-                    value={doctorName}
-                    onChange={(event) => setDoctorName(event.target.value)}
-                    placeholder="Фамилия врача"
-                    className="input-text"
-                  />
-                </div>
-                <div className="input-container">
-                  <label htmlFor="service" className="la">
-                    Дата приема
-                  </label>
-                  <input
-                    type="text"
-                    value={bookDate}
-                    onChange={(event) => setBookDate(event.target.value)}
-                    name="bookDate"
-                    placeholder="Дата приема"
-                    className="input-text"
-                  />
-                </div>
-                <div className="input-container">
-                  <label htmlFor="service" className="la">
-                    Время приема
-                  </label>
-                  <input
-                    type="text"
-                    value={bookTime}
-                    onChange={(event) => setBookDate(event.target.value)}
-                    name="bookTime"
-                    placeholder="Время приема"
-                    className="input-text"
-                  />
-                </div>
-                <div className="input-container">
-                  <label htmlFor="service" className="la">
-                    Цель визита
-                  </label>
-                  <input
-                    type="text"
-                    value={visitGoal}
-                    onChange={(event) => setVisitGoal(event.target.value)}
-                    name="visitGoal"
-                    placeholder="Время приема"
-                    className="input-text"
-                  />
-                </div>
-                <div className="input-container">
-                  <label htmlFor="comment" className="la">
-                    Комментарий
-                  </label>
-                  <textarea
-                    name="comment"
-                    value={comment}
-                    onChange={(event) => setComment(event.target.value)}
-                    className="comment"
-                  ></textarea>
-                </div>
-                <div className="checkbox-container">
-                  <div className="checkbox-container-2">
-                    <MDBCheckbox
-                      name="flexCheck"
-                      value=""
-                      id="flexCheckChecked"
-                      label="Ознакомлен с Условиями обработки персональных данных"
-                      defaultChecked
+                  <div className="input-container">
+                    <label htmlFor="doctor" className="la">
+                      Фамилия врача
+                    </label>
+                    <input
+                      type="text"
+                      name="doctorName"
+                      value={doctorName}
+                      onChange={(event) => setDoctorName(event.target.value)}
+                      placeholder="Фамилия врача"
+                      className="input-text"
                     />
                   </div>
-                </div>
-                <button className="form-button" value="Send">
-                  Записаться на прием
-                  <FontAwesomeIcon
-                    className="icon"
-                    icon={faChevronRight}
-                    style={{
-                      fontSize: "clamp(7px,3.2709599999999996vw,28px",
-                      marginLeft: "clamp(4px,1.86912vw,16px)",
-                    }}
-                  ></FontAwesomeIcon>
-                </button>
-              </form>
-            </section>
-          </div>
-          <Footer></Footer>
-          <a
-            href="https://wa.me/79252229022?text=Здравствуйте!%20Хочу%20записаться%20к%20вам%20в%20клинику."
-            target="_blank"
-            rel="noopener noreferrer"
-            className="services-modal-button"
-            onClick={closeMenu}
-            style={{
-              position: "fixed",
-              bottom: "32px",
-              right: "32px",
-              zIndex: 9999,
-              background: "#E6C96B",
-              color: "#202637",
-              borderRadius: "50%",
-              width: "64px",
-              height: "64px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              boxShadow: "0 4px 16px rgba(0,0,0,0.15)",
-              fontWeight: 700,
-              fontSize: "28px",
-              cursor: "pointer",
-              border: "none",
-              outline: "none",
-              transition: "background 0.2s",
-              textDecoration: "none",
-            }}
-          >
-            <Bounce delay={300} triggerOnce={true}>
-              WA
-            </Bounce>
-          </a>
-          <Popup
-            open={open}
-            closeOnDocumentClick
-            onClose={closeModal}
-            modal
-            nested
-            className="popup-container"
-            position="center center"
-          >
-            <div className="modal">
-              <img
-                className="modal-img"
-                src={modalImage}
-                alt="modal-picture"
-              ></img>
-              <FontAwesomeIcon
-                icon={faClose}
-                onClick={closeModal}
-                className="gold-cross"
-              ></FontAwesomeIcon>
-              <div className="modal-content">
-                <img className="logo" src={logoMobile} alt="logotype"></img>
-                <span className="text">Записаться на консультацию</span>
-                <span className="additional-text">
-                  Оставьте свой номер и мы перезвоним вам
-                </span>
-                <form className="input-container" onSubmit={sendPhoneRequest}>
-                  <label htmlFor="phone-number-input" className="label">
-                    Ваш номер телефона*
-                  </label>
-                  <input
-                    type="tel"
-                    name="phoneNumber"
-                    className="phone-number-input"
-                    placeholder="+7 (991) 779-39-95"
-                    required={true}
-                    value={phoneNumber}
-                    onChange={(event) => setPhoneNumber(event.target.value)}
-                    style={{ textAlign: "center" }}
-                    id=""
-                  />
-                  <button className="phone-btn" value="Send">
+                  <div className="input-container">
+                    <label htmlFor="service" className="la">
+                      Дата приема
+                    </label>
+                    <input
+                      type="text"
+                      value={bookDate}
+                      onChange={(event) => setBookDate(event.target.value)}
+                      name="bookDate"
+                      placeholder="Дата приема"
+                      className="input-text"
+                    />
+                  </div>
+                  <div className="input-container">
+                    <label htmlFor="service" className="la">
+                      Время приема
+                    </label>
+                    <input
+                      type="text"
+                      value={bookTime}
+                      onChange={(event) => setBookDate(event.target.value)}
+                      name="bookTime"
+                      placeholder="Время приема"
+                      className="input-text"
+                    />
+                  </div>
+                  <div className="input-container">
+                    <label htmlFor="service" className="la">
+                      Цель визита
+                    </label>
+                    <input
+                      type="text"
+                      value={visitGoal}
+                      onChange={(event) => setVisitGoal(event.target.value)}
+                      name="visitGoal"
+                      placeholder="Время приема"
+                      className="input-text"
+                    />
+                  </div>
+                  <div className="input-container">
+                    <label htmlFor="comment" className="la">
+                      Комментарий
+                    </label>
+                    <textarea
+                      name="comment"
+                      value={comment}
+                      onChange={(event) => setComment(event.target.value)}
+                      className="comment"
+                    ></textarea>
+                  </div>
+                  <div className="checkbox-container">
+                    <div className="checkbox-container-2">
+                      <MDBCheckbox
+                        name="flexCheck"
+                        value=""
+                        id="flexCheckChecked"
+                        label="Ознакомлен с Условиями обработки персональных данных"
+                        defaultChecked
+                      />
+                    </div>
+                  </div>
+                  <button className="form-button" value="Send">
+                    Записаться на прием
                     <FontAwesomeIcon
-                      icon={faPhone}
                       className="icon"
+                      icon={faChevronRight}
+                      style={{
+                        fontSize: "clamp(7px,3.2709599999999996vw,28px",
+                        marginLeft: "clamp(4px,1.86912vw,16px)",
+                      }}
                     ></FontAwesomeIcon>
-                    Хорошо жду звонка
                   </button>
                 </form>
-              </div>
+              </section>
             </div>
-          </Popup>
-          <Popup
-            open={thankYou}
-            closeOnDocumentClick
-            onClose={closeModal}
-            modal
-            nested
-            className="popup-container"
-            position="center center"
-            overlayStyle={{ background: "rgba(0,0,0,0.7)" }}
-          >
-            <div className="modal-thanks">
-              <FontAwesomeIcon
-                icon={faClose}
-                onClick={closeModal}
-                className="gold-cross"
-              ></FontAwesomeIcon>
-              <div className="modl-content">
-                <img className="logo" src={logoMobile} alt="logotype"></img>
-                <span className="text">Спасибо за вашу заявку</span>
-                <span className="additional-text">
-                  В скором времени мы свяжемся с вами
-                </span>
+            <Footer></Footer>
+            <Popup
+              open={open}
+              closeOnDocumentClick
+              onClose={closeModal}
+              modal
+              nested
+              className="popup-container"
+              position="center center"
+            >
+              <div className="modal">
+                <img
+                  className="modal-img"
+                  src={modalImage}
+                  alt="modal-picture"
+                ></img>
+                <FontAwesomeIcon
+                  icon={faClose}
+                  onClick={closeModal}
+                  className="gold-cross"
+                ></FontAwesomeIcon>
+                <div
+                  className="modal-content"
+                  style={{
+                    overflow: "visible",
+                    maxWidth: "95vw",
+                    width: "100%",
+                    boxSizing: "border-box",
+                    padding: "24px 12px",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    minHeight: "100vh",
+                    position: "relative",
+                    top: "0",
+                    left: "0",
+                    margin: "0 auto",
+                  }}
+                >
+                  <img
+                    className="logo"
+                    src={logoMobile}
+                    alt="logotype"
+                    style={{ maxWidth: 120, width: "40vw" }}
+                  />
+                  <span
+                    className="text"
+                    style={{
+                      textAlign: "center",
+                      fontSize: "1.2rem",
+                      marginTop: 12,
+                    }}
+                  >
+                    Записаться на консультацию
+                  </span>
+                  <span
+                    className="additional-text"
+                    style={{
+                      textAlign: "center",
+                      marginBottom: 16,
+                      marginTop: 8,
+                    }}
+                  >
+                    Оставьте свой номер и мы перезвоним вам
+                  </span>
+                  <form
+                    className="input-container"
+                    onSubmit={sendPhoneRequest}
+                    style={{
+                      width: "100%",
+                      maxWidth: 340,
+                      display: "flex",
+                      flexDirection: "column",
+                      alignItems: "center",
+                      gap: 12,
+                    }}
+                  >
+                    <label
+                      htmlFor="phone-number-input"
+                      className="label"
+                      style={{ width: "100%", textAlign: "center" }}
+                    >
+                      Ваш номер телефона*
+                    </label>
+                    <input
+                      type="tel"
+                      name="phoneNumber"
+                      className="phone-number-input"
+                      placeholder="+7 (991) 779-39-95"
+                      required={true}
+                      value={phoneNumber}
+                      onChange={(event) => setPhoneNumber(event.target.value)}
+                      style={{
+                        textAlign: "center",
+                        width: "100%",
+                        maxWidth: 260,
+                        fontSize: "1rem",
+                        padding: "10px 8px",
+                        borderRadius: 8,
+                        border: "1px solid #E6C96B",
+                        boxSizing: "border-box",
+                      }}
+                      id="phone-number-input"
+                      autoComplete="tel"
+                      inputMode="tel"
+                    />
+                    <button
+                      className="phone-btn"
+                      value="Send"
+                      style={{
+                        width: "100%",
+                        maxWidth: 260,
+                        padding: "12px 0",
+                        background: "#E6C96B",
+                        color: "#202637",
+                        border: "none",
+                        borderRadius: 8,
+                        fontWeight: 600,
+                        fontSize: "1rem",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        gap: 8,
+                        marginTop: 8,
+                        cursor: "pointer",
+                      }}
+                    >
+                      <FontAwesomeIcon icon={faPhone} className="icon" />
+                      Хорошо жду звонка
+                    </button>
+                  </form>
+                </div>
               </div>
-            </div>
-          </Popup>
-          <Popup
-            open={screenshotOpen}
-            onClose={() => setScreenshotOpen(false)}
-            contentStyle={{ padding: "0", border: "none" }}
-            overlayStyle={{ background: "rgba(0,0,0,0.7)" }}
-          >
-            {currentScreenshot && (
-              <img src={currentScreenshot} alt="Screenshot" />
-            )}
-          </Popup>
-        </div>
-      )}
-    </div>
+            </Popup>
+            <Popup
+              open={thankYou}
+              closeOnDocumentClick
+              onClose={closeModal}
+              modal
+              nested
+              className="popup-container"
+              position="center center"
+              overlayStyle={{ background: "rgba(0,0,0,0.7)" }}
+            >
+              <div className="modal-thanks">
+                <FontAwesomeIcon
+                  icon={faClose}
+                  onClick={closeModal}
+                  className="gold-cross"
+                ></FontAwesomeIcon>
+                <div className="modl-content">
+                  <img className="logo" src={logoMobile} alt="logotype"></img>
+                  <span className="text">Спасибо за вашу заявку</span>
+                  <span className="additional-text">
+                    В скором времени мы свяжемся с вами
+                  </span>
+                </div>
+              </div>
+            </Popup>
+            <Popup
+              open={screenshotOpen}
+              onClose={() => setScreenshotOpen(false)}
+              contentStyle={{ padding: "0", border: "none" }}
+              overlayStyle={{ background: "rgba(0,0,0,0.7)" }}
+            >
+              {currentScreenshot && (
+                <img src={currentScreenshot} alt="Screenshot" />
+              )}
+            </Popup>
+          </div>
+        )}
+      </div>
+    </Layout>
   );
 }

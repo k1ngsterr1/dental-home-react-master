@@ -371,18 +371,7 @@ const ClinicsPage = () => {
                   margin: "auto",
                 }}
               >
-                <Gallery
-                  imageSrc={doctorOneMob}
-                  imageSrcTwo={doctorTwoMob}
-                  imageSrcThree={doctorThreeMob}
-                  openModal={openModal}
-                  imageSrcFour={doctorFourMob}
-                  imageSrcFive={doctorFiveMob}
-                  imageSrcSix={doctorSixMob}
-                  imageSrcSeven={doctorTenMob}
-                  imageSrcEight={doctorEightMob}
-                  imageSrcNine={doctorElevenMob}
-                />
+                <Gallery openModal={openModal} />
               </div>
               <div
                 className="review-screen"
@@ -896,17 +885,7 @@ const ClinicsPage = () => {
                   marginTop: "clamp(32px,3.33312vw,128px)",
                 }}
               >
-                <PcGallery
-                  imageSrc={doctorOnePc}
-                  imageSrc2={doctorTwoPc}
-                  imageSrc3={doctorThreePc}
-                  imageSrc4={doctorFourPc}
-                  imageSrc5={doctorFivePc}
-                  imageSrc6={doctorSixPc}
-                  imageSrc7={doctorTenPc}
-                  imageSrc8={doctorSevenPc}
-                  imageSrc9={doctorNinePc}
-                ></PcGallery>
+                <PcGallery></PcGallery>
               </div>
               <div
                 className="review-screen"

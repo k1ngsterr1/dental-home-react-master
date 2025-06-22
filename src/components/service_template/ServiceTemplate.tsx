@@ -150,7 +150,7 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ serviceData }) => {
               </section>
             </div>
           </div>
-          <Gallery imageSrc={pavelGallery} />
+          <Gallery />
         </div>
         <Footer />
       </main>
