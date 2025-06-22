@@ -427,18 +427,7 @@ const AirFlow = () => {
               <div className="services-gallery">
                 <h4 className="heading">Наши специалисты</h4>
                 <div className="divider"></div>
-                <Gallery
-                  imageSrc={doctorOneMob}
-                  imageSrcTwo={doctorTwoMob}
-                  imageSrcThree={doctorThreeMob}
-                  openModal={openModal}
-                  imageSrcFour={doctorFourMob}
-                  imageSrcFive={doctorFiveMob}
-                  imageSrcSix={doctorSixMob}
-                  imageSrcSeven={doctorTenMob}
-                  imageSrcEight={doctorEightMob}
-                  imageSrcNine={doctorElevenMob}
-                />
+                <Gallery openModal={openModal} />
               </div>
               <div className="services-gallery">
                 <h4 className="heading">Отзывы</h4>
@@ -837,17 +826,7 @@ const AirFlow = () => {
                   borderTop: "1px solid #202637",
                 }}
               >
-                <PcGallery
-                  imageSrc={doctorOnePc}
-                  imageSrc2={doctorTwoPc}
-                  imageSrc3={doctorThreePc}
-                  imageSrc4={doctorFourPc}
-                  imageSrc5={doctorFivePc}
-                  imageSrc6={doctorSixPc}
-                  imageSrc7={doctorTenPc}
-                  imageSrc8={doctorSevenPc}
-                  imageSrc9={doctorNinePc}
-                />
+                <PcGallery />
                 <div
                   className="gallery"
                   id="reviews"
@@ -917,7 +896,6 @@ const AirFlow = () => {
                           />
                         </div>
                       </div>
-                      <div className="row-c"></div>
                       <div className="row-c">
                         <div className="input-container services">
                           <span className="text">Врач</span>

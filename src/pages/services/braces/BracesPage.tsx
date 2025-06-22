@@ -617,18 +617,7 @@ const BracesPage = () => {
               <div className="services-gallery">
                 <h4 className="heading">Наши специалисты</h4>
                 <div className="divider"></div>
-                <Gallery
-                  imageSrc={doctorOneMob}
-                  imageSrcTwo={doctorTwoMob}
-                  imageSrcThree={doctorThreeMob}
-                  openModal={openModal}
-                  imageSrcFour={doctorFourMob}
-                  imageSrcFive={doctorFiveMob}
-                  imageSrcSix={doctorSixMob}
-                  imageSrcSeven={doctorTenMob}
-                  imageSrcEight={doctorEightMob}
-                  imageSrcNine={doctorElevenMob}
-                />
+                <Gallery openModal={openModal} />
               </div>
               <div className="services-gallery">
                 <h4 className="heading">Отзывы</h4>
@@ -1247,17 +1236,7 @@ const BracesPage = () => {
                   borderTop: "1px solid #202637",
                 }}
               >
-                <PcGallery
-                  imageSrc={doctorOnePc}
-                  imageSrc2={doctorTwoPc}
-                  imageSrc3={doctorThreePc}
-                  imageSrc4={doctorFourPc}
-                  imageSrc5={doctorFivePc}
-                  imageSrc6={doctorSixPc}
-                  imageSrc7={doctorTenPc}
-                  imageSrc8={doctorSevenPc}
-                  imageSrc9={doctorNinePc}
-                />
+                <PcGallery />
                 <div
                   className="gallery"
                   id="reviews"

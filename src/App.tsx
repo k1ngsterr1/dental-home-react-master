@@ -97,7 +97,7 @@ const doctorOne = require("./assets/1.webp");
 const doctorTwo = require("./assets/karen_pc.webp");
 const doctorThree = require("./assets/3.webp");
 const doctorFour = require("./assets/islam_pc.webp");
-const doctorFive = require("./assets/elena_pc.webp");
+const doctorFive = require("./assets/arsen.webp");
 const doctorSix = require("./assets/tatyana_pc.webp");
 const doctorSeven = require("./assets/orthoped_pc.webp");
 const doctorEight = require("./assets/marina_pc.webp");
@@ -2538,18 +2538,7 @@ export default function HomePage() {
                 <h2 className="heading">Наши Специалисты</h2>
               </div>
               <div className="divider"></div>
-              <Gallery
-                imageSrc={doctorOneMob}
-                // imageSrcTwo={doctorTwoMob}
-                imageSrcThree={doctorThreeMob}
-                openModal={openModal}
-                imageSrcFour={doctorFourMob}
-                imageSrcFive={doctorFiveMob}
-                imageSrcSix={doctorSixMob}
-                imageSrcSeven={doctorSevenMob}
-                imageSrcEight={doctorEightMob}
-                imageSrcNine={doctorNineMob}
-              />
+              <Gallery openModal={openModal} />
             </section>
           </div>
           <div className="doctors-gallery-screen-pc" id="doctors">
@@ -2558,18 +2547,7 @@ export default function HomePage() {
                 <h3 className="heading">Наши специалисты</h3>
               </div>
               <div className="divider"></div>
-              <PcGallery
-                imageSrc={doctorOne}
-                // imageSrc2={doctorTwo}
-                imageSrc3={doctorThree}
-                imageSrc4={doctorFour}
-                imageSrc5={doctorFive}
-                imageSrc6={doctorSix}
-                imageSrc7={doctorSeven}
-                imageSrc8={doctorEight}
-                imageSrc9={doctorNine}
-                openModal={openModal}
-              />
+              <PcGallery openModal={openModal} />
               <div
                 className="divider"
                 style={{ marginTop: "clamp(32px,3.33312vw,128px)" }}
