@@ -17,6 +17,8 @@ const daryaImage = require("../../assets/darya.webp");
 const denisImage = require("../../assets/denis.webp");
 
 const tatjanaImage = require("../../assets/tanya_new.webp");
+const tatjanaImage2 = require("../../assets/tanya_new.webp");
+
 const marinaImage = require("../../assets/marina_pc.webp");
 const katyaImage = require("../../assets/katya.webp");
 
@@ -155,6 +157,20 @@ const PcGallery: React.FC<PcGalleryProps> = ({ openModal }) => {
             <h3 className="doctor-name">Борисова Татьяна Владимировна</h3>
             <p className="doctor-position">
               Детский стоматолог, врач терапевт общей практики
+            </p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="dentist-card">
+            <div className="button-image-container">
+              <button className="doctor-btn" onClick={openModal}>
+                <span className="text">Записаться</span>
+              </button>
+              <img src={tatjanaImage2} alt="Doctor" className="doctor-image" />
+            </div>
+            <h3 className="doctor-name">Кузьминова Татьяна Евгеньевна</h3>
+            <p className="doctor-position">
+              Врач высшей категории стоматолог-терапевт микроскопист
             </p>
           </div>
         </SwiperSlide>
