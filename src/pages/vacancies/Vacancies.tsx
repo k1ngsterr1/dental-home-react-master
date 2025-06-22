@@ -16,6 +16,7 @@ import "swiper/css";
 import Popup from "reactjs-popup";
 import { MDBCheckbox } from "mdb-react-ui-kit";
 import emailjs from "@emailjs/browser";
+import Mheader from "../../components/header/m-header";
 
 const Vacancies = () => {
   // State for form fields
@@ -157,8 +158,42 @@ const Vacancies = () => {
       });
   };
 
+  const [thankYou, setThankYou] = useState(false);
+  const [open, setOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuPcOpen, setIsMenuPcOpen] = useState(false);
+
+  const openModal = () => {
+    console.log("Opening modal");
+    setOpen(true);
+  };
+
+  const closeModal = () => {
+    setOpen(false);
+    setThankYou(false);
+  };
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+    window.scrollTo(0, 0);
+  };
+
+  const togglePcMenu = () => {
+    setIsMenuPcOpen(!isMenuPcOpen);
+  };
+
   return (
     <div>
+      <style>{`
+        .mobile-header {
+          display: block;
+        }
+        @media (min-width: 1024px) {
+          .mobile-header {
+            display: none;
+          }
+        }
+      `}</style>
       <Helmet>
         <title>Вакансии | Dental Home</title>
         <meta
@@ -166,18 +201,12 @@ const Vacancies = () => {
           content="Актуальные вакансии в стоматологии Dental Home. Присоединяйтесь к нашей команде профессионалов!"
         />
       </Helmet>
-
-      <Header />
-
-      {/* Main section */}
-      <main
-        style={{
-          paddingTop: "120px",
-          maxWidth: "1200px",
-          margin: "0 auto",
-          padding: "120px 20px 60px",
-        }}
-      >
+      <main className="content">
+        <Header
+          isMenuPcOpen={isMenuPcOpen}
+          openModal={openModal}
+          togglePcMenu={togglePcMenu}
+        />
         <Reveal>
           <h1
             style={{
@@ -195,6 +224,7 @@ const Vacancies = () => {
         <Reveal>
           <div
             style={{
+              width: "100%",
               marginBottom: "50px",
               textAlign: "center",
             }}
@@ -217,9 +247,10 @@ const Vacancies = () => {
         </Reveal>
 
         {/* Vacancies list */}
-        <Reveal>
+        <Reveal style={{ width: "100%" }}>
           <div
             style={{
+              width: "100%",
               display: "flex",
               flexDirection: "column",
               gap: "20px",
@@ -230,6 +261,8 @@ const Vacancies = () => {
               <div
                 key={index}
                 style={{
+                  width: "100%",
+
                   border: "1px solid #e0e0e0",
                   borderRadius: "8px",
                   overflow: "hidden",
@@ -413,7 +446,7 @@ const Vacancies = () => {
         </Reveal>
 
         {/* Application form section */}
-        <Reveal>
+        <Reveal style={{ width: "100%" }}>
           <div
             id="application-form"
             style={{
@@ -662,69 +695,6 @@ const Vacancies = () => {
                 </button>
               </div>
             </form>
-          </div>
-        </Reveal>
-
-        {/* Contact information */}
-        <Reveal>
-          <div
-            style={{
-              textAlign: "center",
-              marginTop: "60px",
-              padding: "20px",
-              backgroundColor: "#f3f9ff",
-              borderRadius: "10px",
-            }}
-          >
-            <h3
-              style={{
-                fontSize: "24px",
-                marginBottom: "15px",
-                color: "#222",
-                fontWeight: "600",
-              }}
-            >
-              Контактная информация
-            </h3>
-            <p
-              style={{
-                fontSize: "16px",
-                color: "#444",
-                marginBottom: "10px",
-              }}
-            >
-              Если у вас возникли вопросы, свяжитесь с нами:
-            </p>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "10px",
-                marginBottom: "5px",
-              }}
-            >
-              <FontAwesomeIcon icon={faPhone} style={{ color: "#007bff" }} />
-              <a
-                href="tel:+74957969835"
-                style={{
-                  color: "#007bff",
-                  textDecoration: "none",
-                  fontWeight: "600",
-                }}
-              >
-                +7 (495) 796-98-35
-              </a>
-            </div>
-            <p
-              style={{
-                fontSize: "16px",
-                color: "#666",
-                marginTop: "10px",
-              }}
-            >
-              Адрес: ул. Большая Молчановка, д. 32, стр. 1, Москва
-            </p>
           </div>
         </Reveal>
       </main>

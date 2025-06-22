@@ -671,13 +671,7 @@ export default function HomePage() {
               toggleMenu={toggleMenu}
             ></Mheader>
             <section className="content">
-              <div className="header-container" style={{ width: "100%" }}>
-                {/* <Header
-                isMenuOpen={isMenuOpen}
-                openModal={openModal}
-                toggleMenu={toggleMenu}
-              ></Header> */}
-              </div>
+              <div className="header-container" style={{ width: "100%" }}></div>
               <div className="tablet" style={{ width: "100%" }}>
                 <Header
                   isMenuPcOpen={isMenuPcOpen}

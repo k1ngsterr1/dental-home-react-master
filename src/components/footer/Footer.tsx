@@ -100,6 +100,9 @@ const Footer = () => {
               <Link to="/prices" className="l two">
                 Цены
               </Link>
+              <Link to="/vakansii" className="l two">
+                Вакансии
+              </Link>
             </div>
             <div className="link-column-two">
               <Link to="/works" className="l">
@@ -184,6 +187,9 @@ const Footer = () => {
           </Link>
           <Link className="link-nav" to="/contacts">
             Контакты
+          </Link>
+          <Link className="link-nav" to="/vakansii">
+            Вакансии
           </Link>
         </div>
         <div className="column">
