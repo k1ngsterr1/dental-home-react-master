@@ -1312,19 +1312,7 @@ const MetalBracesPage = () => {
                           className="input-text"
                         />
                       </div>
-                      <div className="input-container">
-                        <label htmlFor="service" className="la">
-                          Цель визита
-                        </label>
-                        <input
-                          type="text"
-                          value={visitGoal}
-                          onChange={(event) => setVisitGoal(event.target.value)}
-                          name="visitGoal"
-                          placeholder="Время приема"
-                          className="input-text"
-                        />
-                      </div>
+
                       <div className="input-container">
                         <label htmlFor="comment" className="la">
                           Комментарий
