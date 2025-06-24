@@ -3072,7 +3072,7 @@ export default function HomePage() {
                     <input
                       type="text"
                       value={bookTime}
-                      onChange={(event) => setBookDate(event.target.value)}
+                      onChange={(event) => setBookTime(event.target.value)}
                       name="bookTime"
                       placeholder="Время приема"
                       className="input-text"
@@ -3318,119 +3318,101 @@ export default function HomePage() {
                 </div>
               </div>
             </Popup>
-            <Popup
-              open={thankYou}
-              closeOnDocumentClick
-              onClose={closeModal}
-              modal
-              nested
-              className="popup-container"
-              position="center center"
-              overlayStyle={{
-                background: "rgba(32, 38, 55, 0.9)",
-                position: "fixed",
-                top: 0,
-                left: 0,
-                right: 0,
-                bottom: 0,
-                zIndex: 9999,
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                padding: "20px",
-                boxSizing: "border-box",
-              }}
-              contentStyle={{
-                background: "transparent",
-                border: "none",
-                padding: 0,
-                margin: 0,
-                width: "100%",
-                height: "auto",
-                maxWidth: window.innerWidth > 768 ? "600px" : "400px",
-                overflow: "visible",
-              }}
-            >
+            {thankYou && (
               <div
-                className="modal-thanks"
                 style={{
-                  position: "relative",
-                  background: "#fff",
-                  borderRadius: "12px",
-                  width: "100%",
-                  maxWidth: window.innerWidth > 768 ? "600px" : "380px",
-                  margin: "0 auto",
-                  overflow: "hidden",
-                  boxShadow: "0 10px 30px rgba(0,0,0,0.3)",
-                  padding: window.innerWidth > 768 ? "60px 40px" : "40px 20px",
+                  position: "fixed",
+                  top: 0,
+                  left: 0,
+                  width: "100vw",
+                  height: "100vh",
+                  background: "rgba(32, 38, 55, 0.9)",
+                  zIndex: 9999,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
                 }}
               >
-                <FontAwesomeIcon
-                  icon={faClose}
-                  onClick={closeModal}
-                  className="gold-cross"
-                  style={{
-                    position: "absolute",
-                    top: "15px",
-                    right: "15px",
-                    fontSize: "24px",
-                    color: "#E6C96B",
-                    cursor: "pointer",
-                    background: "rgba(32, 38, 55, 0.1)",
-                    padding: "8px",
-                    borderRadius: "50%",
-                    width: "40px",
-                    height: "40px",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    zIndex: 10,
-                  }}
-                />
                 <div
-                  className="modl-content"
                   style={{
+                    position: "relative",
+                    background: "#fff",
+                    borderRadius: "12px",
+                    width: "100%",
+                    maxWidth: window.innerWidth > 768 ? "600px" : "380px",
+                    overflow: "hidden",
+                    boxShadow: "0 10px 30px rgba(0,0,0,0.3)",
+                    padding:
+                      window.innerWidth > 768 ? "60px 40px" : "40px 20px",
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "center",
-                    textAlign: "center",
+                    justifyContent: "center",
                   }}
                 >
-                  <img
-                    className="logo"
-                    src={logoMobile}
-                    alt="logotype"
+                  <FontAwesomeIcon
+                    icon={faClose}
+                    onClick={closeModal}
+                    className="gold-cross"
                     style={{
-                      maxWidth: window.innerWidth > 768 ? "120px" : "100px",
-                      width: window.innerWidth > 768 ? "100px" : "80px",
-                      marginBottom: window.innerWidth > 768 ? "30px" : "25px",
+                      position: "absolute",
+                      top: "15px",
+                      right: "15px",
+                      fontSize: "24px",
+                      color: "#E6C96B",
+                      cursor: "pointer",
+                      background: "rgba(32, 38, 55, 0.1)",
+                      padding: "8px",
+                      borderRadius: "50%",
+                      width: "40px",
+                      height: "40px",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      zIndex: 10,
                     }}
                   />
-                  <h3
-                    className="text"
+                  <div
                     style={{
-                      fontSize: window.innerWidth > 768 ? "28px" : "22px",
-                      fontWeight: "600",
-                      margin: "0 0 15px 0",
-                      color: "#202637",
+                      display: "flex",
+                      flexDirection: "column",
+                      alignItems: "center",
+                      textAlign: "center",
                     }}
                   >
-                    Спасибо за вашу заявку
-                  </h3>
-                  <p
-                    className="additional-text"
-                    style={{
-                      fontSize: window.innerWidth > 768 ? "18px" : "16px",
-                      color: "#666",
-                      margin: "0",
-                      lineHeight: "1.4",
-                    }}
-                  >
-                    В скором времени мы свяжемся с вами
-                  </p>
+                    <img
+                      src={logoMobile}
+                      alt="logotype"
+                      style={{
+                        maxWidth: window.innerWidth > 768 ? "120px" : "100px",
+                        width: window.innerWidth > 768 ? "100px" : "80px",
+                        marginBottom: window.innerWidth > 768 ? "30px" : "25px",
+                      }}
+                    />
+                    <h3
+                      style={{
+                        fontSize: window.innerWidth > 768 ? "28px" : "22px",
+                        fontWeight: "600",
+                        margin: "0 0 15px 0",
+                        color: "#202637",
+                      }}
+                    >
+                      Спасибо за вашу заявку
+                    </h3>
+                    <p
+                      style={{
+                        fontSize: window.innerWidth > 768 ? "18px" : "16px",
+                        color: "#666",
+                        margin: "0",
+                        lineHeight: "1.4",
+                      }}
+                    >
+                      В скором времени мы свяжемся с вами
+                    </p>
+                  </div>
                 </div>
               </div>
-            </Popup>
+            )}
             <Popup
               open={screenshotOpen}
               onClose={() => setScreenshotOpen(false)}

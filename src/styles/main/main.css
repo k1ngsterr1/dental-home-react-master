@@ -48,18 +48,36 @@ body .screen .features-screen .doctor-container .content .image-container {
   margin-top: clamp(50px, 23.364vw, 200px);
   margin-bottom: clamp(32px, 14.95296vw, 128px);
 }
-body .screen .features-screen .doctor-container .content .image-container .image {
+body
+  .screen
+  .features-screen
+  .doctor-container
+  .content
+  .image-container
+  .image {
   width: clamp(142.5px, 66.5874vw, 570px);
   height: clamp(230px, 107.4744vw, 920px);
 }
-body .screen .features-screen .doctor-container .content .image-container .bulb {
+body
+  .screen
+  .features-screen
+  .doctor-container
+  .content
+  .image-container
+  .bulb {
   width: clamp(64.8235px, 30.29072508vw, 259.294px);
   height: clamp(74px, 34.57872vw, 296px);
   position: absolute;
   left: clamp(5px, 2.3364vw, 20px);
   top: clamp(-20px, -9.3456vw, -80px);
 }
-body .screen .features-screen .doctor-container .content .image-container .main_doctor {
+body
+  .screen
+  .features-screen
+  .doctor-container
+  .content
+  .image-container
+  .main_doctor {
   text-align: center;
   font-family: "Merriweather";
   font-size: clamp(16px, 7.47648vw, 64px);
@@ -67,10 +85,16 @@ body .screen .features-screen .doctor-container .content .image-container .main_
   font-weight: 400;
   line-height: 137.4%;
   text-transform: capitalize;
-  color: #E8CB6C;
+  color: #e8cb6c;
   margin-top: clamp(16px, 7.47648vw, 64px);
 }
-body .screen .features-screen .doctor-container .content .image-container .name {
+body
+  .screen
+  .features-screen
+  .doctor-container
+  .content
+  .image-container
+  .name {
   color: rgba(255, 255, 255, 0.35);
   text-align: center;
   font-family: Merriweather;
@@ -112,7 +136,13 @@ body .screen .features-screen .features-container .features .feature-tab {
   text-align: right;
   color: rgba(255, 255, 255, 0.6);
 }
-body .screen .features-screen .features-container .features .feature-tab .number {
+body
+  .screen
+  .features-screen
+  .features-container
+  .features
+  .feature-tab
+  .number {
   font-family: Raleway;
   font-size: clamp(8px, 3.73824vw, 32px);
   font-style: normal;
@@ -121,17 +151,29 @@ body .screen .features-screen .features-container .features .feature-tab .number
   margin-top: clamp(4px, 1.86912vw, 16px);
   margin-bottom: clamp(4px, 1.86912vw, 16px);
 }
-body .screen .features-screen .features-container .features .feature-tab .paragraph {
+body
+  .screen
+  .features-screen
+  .features-container
+  .features
+  .feature-tab
+  .paragraph {
   font-family: Raleway;
   font-size: clamp(9px, 4.20552vw, 36px);
   font-style: normal;
   font-weight: 400;
   line-height: 137.4%;
 }
-body .screen .features-screen .features-container .features .feature-tab .gold-text {
+body
+  .screen
+  .features-screen
+  .features-container
+  .features
+  .feature-tab
+  .gold-text {
   font-family: Merriweather;
   font-size: clamp(8px, 3.73824vw, 32px);
-  color: #E8CB6C;
+  color: #e8cb6c;
   margin-top: clamp(8px, 3.73824vw, 32px);
   font-style: normal;
   font-weight: 300 !important;
@@ -144,7 +186,13 @@ body .screen .features-screen .features-container .features .text_divider {
   flex-direction: column;
   color: rgba(255, 255, 255, 0.6);
 }
-body .screen .features-screen .features-container .features .text_divider .row_text {
+body
+  .screen
+  .features-screen
+  .features-container
+  .features
+  .text_divider
+  .row_text {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -161,7 +209,13 @@ body .screen .features-screen .features-container .features .feature-tab-long {
   justify-content: flex-start;
   margin-top: clamp(16px, 7.47648vw, 64px);
 }
-body .screen .features-screen .features-container .features .feature-tab-long .number {
+body
+  .screen
+  .features-screen
+  .features-container
+  .features
+  .feature-tab-long
+  .number {
   font-family: Raleway;
   font-size: clamp(8px, 3.73824vw, 32px);
   font-style: normal;
@@ -171,9 +225,15 @@ body .screen .features-screen .features-container .features .feature-tab-long .n
   margin-top: clamp(8px, 3.73824vw, 32px);
   margin-left: clamp(8px, 3.73824vw, 32px);
 }
-body .screen .features-screen .features-container .features .feature-tab-long .paragraph-goldz {
+body
+  .screen
+  .features-screen
+  .features-container
+  .features
+  .feature-tab-long
+  .paragraph-goldz {
   font-family: Raleway;
-  font-size: #E8CB6C !important;
+  font-size: #e8cb6c !important;
   font-style: normal;
   font-weight: 400;
   line-height: 137.4%;
@@ -187,7 +247,7 @@ body .screen .features-screen .features-container .golden-button {
   font-style: normal;
   font-weight: 600;
   line-height: 137.4%;
-  background: linear-gradient(90deg, #E8CB6C 0%, #B29D55 100%);
+  background: linear-gradient(90deg, #e8cb6c 0%, #b29d55 100%);
   color: #202637;
   border: none;
   margin-top: clamp(16px, 7.47648vw, 64px);
@@ -213,14 +273,25 @@ body .screen .service-screen .content .service-heading-container {
   width: 100%;
   height: auto;
 }
-body .screen .service-screen .content .service-heading-container .services-heading {
+body
+  .screen
+  .service-screen
+  .content
+  .service-heading-container
+  .services-heading {
   width: 45%;
   color: white;
   text-align: left;
   margin-top: clamp(4px, 1.86912vw, 16px);
 }
-body .screen .service-screen .content .service-heading-container .services-heading .golden {
-  color: #E8CB6C;
+body
+  .screen
+  .service-screen
+  .content
+  .service-heading-container
+  .services-heading
+  .golden {
+  color: #e8cb6c;
 }
 body .screen .service-screen .content .text_divider {
   width: 100%;
@@ -261,7 +332,14 @@ body .screen .service-screen .content .services-buttons .btn .btn-content {
   margin: 0 !important;
   padding: 0 !important;
 }
-body .screen .service-screen .content .services-buttons .btn .btn-content .text-inactive {
+body
+  .screen
+  .service-screen
+  .content
+  .services-buttons
+  .btn
+  .btn-content
+  .text-inactive {
   color: rgba(255, 255, 255, 0.3);
   font-family: Merriweather;
   font-style: normal;
@@ -272,8 +350,15 @@ body .screen .service-screen .content .services-buttons .btn .btn-content .text-
   margin: 0 !important;
   padding: 0 !important;
 }
-body .screen .service-screen .content .services-buttons .btn .btn-content .text-active {
-  color: #E8CB6C;
+body
+  .screen
+  .service-screen
+  .content
+  .services-buttons
+  .btn
+  .btn-content
+  .text-active {
+  color: #e8cb6c;
   font-family: Merriweather;
   font-style: normal;
   font-weight: 700;
@@ -282,8 +367,15 @@ body .screen .service-screen .content .services-buttons .btn .btn-content .text-
   text-transform: none;
   font-size: clamp(11px, 5.14008vw, 44px);
 }
-body .screen .service-screen .content .services-buttons .btn .btn-content .golden-icon {
-  color: #E8CB6C;
+body
+  .screen
+  .service-screen
+  .content
+  .services-buttons
+  .btn
+  .btn-content
+  .golden-icon {
+  color: #e8cb6c;
   font-size: clamp(11px, 5.14008vw, 44px);
 }
 body .screen .service-screen .content .services-buttons .expanded-container {
@@ -292,25 +384,60 @@ body .screen .service-screen .content .services-buttons .expanded-container {
   display: flex;
   flex-direction: column;
 }
-body .screen .service-screen .content .services-buttons .expanded-container .text_divider {
+body
+  .screen
+  .service-screen
+  .content
+  .services-buttons
+  .expanded-container
+  .text_divider {
   margin-top: clamp(8px, 3.73824vw, 32px);
 }
-body .screen .service-screen .content .services-buttons .expanded-container .text_divider .row_text {
+body
+  .screen
+  .service-screen
+  .content
+  .services-buttons
+  .expanded-container
+  .text_divider
+  .row_text {
   margin-top: clamp(8px, 3.73824vw, 32px);
 }
-body .screen .service-screen .content .services-buttons .expanded-container .text_divider .row_text .golden-link {
-  color: #E8CB6C;
+body
+  .screen
+  .service-screen
+  .content
+  .services-buttons
+  .expanded-container
+  .text_divider
+  .row_text
+  .golden-link {
+  color: #e8cb6c;
   text-decoration: underline;
   transition: 0.3s all;
   cursor: pointer;
 }
-body .screen .service-screen .content .services-buttons .expanded-container .text_divider .row_text .golden-link:hover {
-  color: #F4F4F4;
+body
+  .screen
+  .service-screen
+  .content
+  .services-buttons
+  .expanded-container
+  .text_divider
+  .row_text
+  .golden-link:hover {
+  color: #f4f4f4;
 }
-body .screen .service-screen .content .services-buttons .expanded-container .golden-button {
+body
+  .screen
+  .service-screen
+  .content
+  .services-buttons
+  .expanded-container
+  .golden-button {
   width: clamp(112px, 52.33536vw, 448px);
   height: clamp(25px, 11.682vw, 100px);
-  background: linear-gradient(90deg, #E8CB6C 0%, #B29D55 100%);
+  background: linear-gradient(90deg, #e8cb6c 0%, #b29d55 100%);
   border: none;
   border-radius: 3px;
   color: #202637;
@@ -319,10 +446,22 @@ body .screen .service-screen .content .services-buttons .expanded-container .gol
   margin-bottom: clamp(16px, 7.47648vw, 64px);
   transition: 0.3s all;
 }
-body .screen .service-screen .content .services-buttons .expanded-container .golden-button:hover {
-  color: #F4F4F4;
+body
+  .screen
+  .service-screen
+  .content
+  .services-buttons
+  .expanded-container
+  .golden-button:hover {
+  color: #f4f4f4;
 }
-body .screen .service-screen .content .services-buttons .expanded-container .links-container {
+body
+  .screen
+  .service-screen
+  .content
+  .services-buttons
+  .expanded-container
+  .links-container {
   width: 100%;
   height: auto;
   margin-top: clamp(16px, 7.47648vw, 64px);
@@ -330,10 +469,17 @@ body .screen .service-screen .content .services-buttons .expanded-container .lin
   display: flex;
   flex-direction: column;
 }
-body .screen .service-screen .content .services-buttons .expanded-container .links-container .golden-link {
+body
+  .screen
+  .service-screen
+  .content
+  .services-buttons
+  .expanded-container
+  .links-container
+  .golden-link {
   width: auto;
   font-size: clamp(8.5px, 3.97188vw, 34px);
-  color: #E8CB6C;
+  color: #e8cb6c;
   text-decoration: underline;
   margin-top: clamp(8px, 3.73824vw, 32px);
   transition: 0.3s all;
@@ -344,8 +490,15 @@ body .screen .service-screen .content .services-buttons .expanded-container .lin
   line-height: 137.4%;
   text-decoration-line: underline;
 }
-body .screen .service-screen .content .services-buttons .expanded-container .links-container .golden-link:hover {
-  color: #F4F4F4;
+body
+  .screen
+  .service-screen
+  .content
+  .services-buttons
+  .expanded-container
+  .links-container
+  .golden-link:hover {
+  color: #f4f4f4;
 }
 body .screen .service-screen .content .link-container {
   width: 100%;
@@ -361,13 +514,13 @@ body .screen .service-screen .content .link-container .golden-link {
   font-weight: 400;
   line-height: 137.4%;
   cursor: pointer;
-  color: #E8CB6C;
+  color: #e8cb6c;
   text-decoration-line: underline;
   transition: 0.3s all;
   margin-bottom: clamp(32px, 14.95296vw, 128px);
 }
 body .screen .service-screen .content .link-container .golden-link:hover {
-  color: #F4F4F4;
+  color: #f4f4f4;
 }
 body .screen .pc-service-screen {
   display: none;
@@ -377,7 +530,7 @@ body .screen .doctors-gallery-screen {
   height: auto;
   display: flex;
   flex-direction: column;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 body .screen .doctors-gallery-screen .content {
   margin-top: clamp(32px, 14.95296vw, 128px);
@@ -405,7 +558,7 @@ body .screen .dental-home-gallery {
   height: auto;
   display: flex;
   flex-direction: column;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   margin-top: clamp(64px, 29.90592vw, 256px);
 }
 body .screen .dental-home-gallery .content .gallery-heading-container {
@@ -414,7 +567,12 @@ body .screen .dental-home-gallery .content .gallery-heading-container {
   flex-direction: row;
   align-items: start;
 }
-body .screen .dental-home-gallery .content .gallery-heading-container .gallery-heading {
+body
+  .screen
+  .dental-home-gallery
+  .content
+  .gallery-heading-container
+  .gallery-heading {
   width: 60%;
   color: #202637;
   font-family: Merriweather;
@@ -438,14 +596,42 @@ body .screen .dental-home-gallery .content .galleries {
   align-items: center;
   margin-top: clamp(32px, 14.95296vw, 128px);
 }
-body .screen .dental-home-gallery .content .galleries .gallery-one, body .screen .dental-home-gallery .content .galleries .gallery-two {
+body .screen .dental-home-gallery .content .galleries .gallery-one,
+body .screen .dental-home-gallery .content .galleries .gallery-two {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-body .screen .dental-home-gallery .content .galleries .gallery-one .gallery-heading, body .screen .dental-home-gallery .content .galleries .gallery-one .gallery-heading-two, body .screen .dental-home-gallery .content .galleries .gallery-two .gallery-heading, body .screen .dental-home-gallery .content .galleries .gallery-two .gallery-heading-two {
+body
+  .screen
+  .dental-home-gallery
+  .content
+  .galleries
+  .gallery-one
+  .gallery-heading,
+body
+  .screen
+  .dental-home-gallery
+  .content
+  .galleries
+  .gallery-one
+  .gallery-heading-two,
+body
+  .screen
+  .dental-home-gallery
+  .content
+  .galleries
+  .gallery-two
+  .gallery-heading,
+body
+  .screen
+  .dental-home-gallery
+  .content
+  .galleries
+  .gallery-two
+  .gallery-heading-two {
   color: #202637;
   font-family: Merriweather;
   font-size: clamp(8px, 3.73824vw, 32px);
@@ -454,7 +640,20 @@ body .screen .dental-home-gallery .content .galleries .gallery-one .gallery-head
   font-weight: 700;
   line-height: 137.4%;
 }
-body .screen .dental-home-gallery .content .galleries .gallery-one .gallery-heading-two, body .screen .dental-home-gallery .content .galleries .gallery-two .gallery-heading-two {
+body
+  .screen
+  .dental-home-gallery
+  .content
+  .galleries
+  .gallery-one
+  .gallery-heading-two,
+body
+  .screen
+  .dental-home-gallery
+  .content
+  .galleries
+  .gallery-two
+  .gallery-heading-two {
   margin-top: clamp(16px, 7.47648vw, 64px);
 }
 body .screen .dental-home-gallery-pc {
@@ -465,7 +664,7 @@ body .screen .review-screen {
   height: auto;
   display: flex;
   flex-direction: column;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   margin-top: clamp(64px, 29.90592vw, 256px);
 }
 body .screen .review-screen .content .review-heading-container {
@@ -475,7 +674,12 @@ body .screen .review-screen .content .review-heading-container {
   flex-direction: row;
   justify-content: flex-start;
 }
-body .screen .review-screen .content .review-heading-container .reviews-heading {
+body
+  .screen
+  .review-screen
+  .content
+  .review-heading-container
+  .reviews-heading {
   color: #202637;
   font-family: Merriweather;
   font-size: clamp(14px, 6.54192vw, 56px);
@@ -565,9 +769,9 @@ body .screen .form-screen .content .form .input-container .input-text {
   width: clamp(144.5px, 67.52196vw, 578px);
   height: clamp(25px, 11.682vw, 100px);
   border-radius: 4px;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   border: 2px solid rgba(32, 38, 55, 0.6);
-  color: #6A6F7F;
+  color: #6a6f7f;
   padding-left: clamp(8px, 3.73824vw, 32px);
   font-family: Raleway;
   font-size: clamp(8px, 3.73824vw, 32px);
@@ -579,8 +783,8 @@ body .screen .form-screen .content .form .input-container .comment {
   width: clamp(144.5px, 67.52196vw, 578px);
   height: clamp(66.5px, 31.07412vw, 266px);
   border-radius: 4px;
-  background-color: #F4F4F4;
-  border: 2px solid #6A6F7F;
+  background-color: #f4f4f4;
+  border: 2px solid #6a6f7f;
 }
 body .screen .form-screen .content .form .checkbox-container {
   width: 100%;
@@ -590,14 +794,27 @@ body .screen .form-screen .content .form .checkbox-container {
   align-items: center;
   justify-content: center;
 }
-body .screen .form-screen .content .form .checkbox-container .checkbox-container-2 {
+body
+  .screen
+  .form-screen
+  .content
+  .form
+  .checkbox-container
+  .checkbox-container-2 {
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-top: clamp(8px, 3.73824vw, 32px);
 }
-body .screen .form-screen .content .form .checkbox-container .checkbox-container-2 .checkbox-text {
+body
+  .screen
+  .form-screen
+  .content
+  .form
+  .checkbox-container
+  .checkbox-container-2
+  .checkbox-text {
   color: rgba(32, 38, 55, 0.7);
   font-family: Raleway;
   font-size: 16px;
@@ -605,16 +822,23 @@ body .screen .form-screen .content .form .checkbox-container .checkbox-container
   font-weight: 400;
   line-height: 137.4%;
 }
-body .screen .form-screen .content .form .checkbox-container .checkbox-container-2 .checkbox-c {
+body
+  .screen
+  .form-screen
+  .content
+  .form
+  .checkbox-container
+  .checkbox-container-2
+  .checkbox-c {
   width: clamp(16px, 7.47648vw, 64px);
   height: clamp(16px, 7.47648vw, 64px);
   border-radius: 4px;
-  border: 2px solid #6A6F7F;
+  border: 2px solid #6a6f7f;
 }
 body .screen .form-screen .content .form .form-button {
   width: 100%;
   height: clamp(27.5px, 12.8502vw, 110px);
-  background: linear-gradient(90deg, #E8CB6C 0%, #B29D55 100%);
+  background: linear-gradient(90deg, #e8cb6c 0%, #b29d55 100%);
   color: #202637;
   color: #333;
   font-family: Raleway;
@@ -629,11 +853,13 @@ body .screen .form-screen .content .form .form-button {
 body .screen .form-pc-screen {
   display: none;
 }
-body .mySwiper4, body .mySwiper5 {
+body .mySwiper4,
+body .mySwiper5 {
   width: clamp(283.5px, 29.52936vw, 1134px) !important;
   height: clamp(283.5px, 29.52936vw, 1134px) !important;
 }
-body .mySwiper4 .swiper-image, body .mySwiper5 .swiper-image {
+body .mySwiper4 .swiper-image,
+body .mySwiper5 .swiper-image {
   width: clamp(283.5px, 29.52936vw, 1134px) !important;
   height: clamp(283.5px, 29.52936vw, 1134px) !important;
 }
@@ -685,7 +911,7 @@ body .modal .modal-content .logo {
 body .modal .modal-content .text {
   font-family: Merriweather;
   font-size: clamp(8px, 3.73824vw, 32px);
-  color: #E8CB6C;
+  color: #e8cb6c;
   font-style: normal;
   font-weight: 700;
   line-height: 137.4%;
@@ -693,7 +919,7 @@ body .modal .modal-content .text {
   text-align: center;
 }
 body .modal .modal-content .additional-text {
-  color: #F4F4F4;
+  color: #f4f4f4;
   margin-top: clamp(8px, 3.73824vw, 32px);
   margin-bottom: clamp(8px, 3.73824vw, 32px);
   display: none;
@@ -712,7 +938,7 @@ body .modal .modal-content .input-container {
   align-items: center;
 }
 body .modal .modal-content .label {
-  color: #F4F4F4;
+  color: #f4f4f4;
   text-align: center;
   font-family: Raleway;
   font-size: clamp(8px, 3.73824vw, 32px);
@@ -742,7 +968,7 @@ body .modal .modal-content .phone-btn {
   width: 90%;
   height: clamp(30px, 14.0184vw, 120px);
   display: flex;
-  background-color: #E8CB6C;
+  background-color: #e8cb6c;
   border-radius: 7px;
   align-items: center;
   justify-content: center;
@@ -770,14 +996,13 @@ body .modal-thanks {
   position: fixed;
   right: 10% !important;
   bottom: 40% !important;
-  margin-bottom: 0px !important;
   border-radius: 28px;
   background-color: #202637;
   box-shadow: 0px 15px 31px 0px rgba(0, 0, 0, 0.25);
 }
 body .modal-thanks .gold-cross {
   font-size: clamp(16px, 7.47648vw, 64px);
-  color: #E8CB6C;
+  color: #e8cb6c;
   position: absolute;
   right: clamp(8px, 3.73824vw, 32px);
   top: clamp(4px, 1.86912vw, 16px);
@@ -800,7 +1025,7 @@ body .modal-thanks .modl-content .logo {
 body .modal-thanks .modl-content .text {
   font-family: Merriweather;
   font-size: clamp(8px, 3.73824vw, 32px);
-  color: #E8CB6C;
+  color: #e8cb6c;
   font-style: normal;
   font-weight: 700;
   line-height: 137.4%;
@@ -808,7 +1033,7 @@ body .modal-thanks .modl-content .text {
   text-align: center;
 }
 body .modal-thanks .modl-content .additional-text {
-  color: #F4F4F4;
+  color: #f4f4f4;
   margin-top: clamp(8px, 3.73824vw, 32px);
   margin-bottom: clamp(8px, 3.73824vw, 32px);
   text-align: center;
@@ -840,7 +1065,7 @@ body .loader .loader-container .logo {
 }
 body .loader .loader-container .loading-heading {
   width: 70%;
-  color: #F4F4F4;
+  color: #f4f4f4;
   text-align: center;
   font-family: Merriweather;
   font-size: clamp(15px, 7.0092vw, 60px) !important;
@@ -888,7 +1113,7 @@ body .video-modal .phone-btn {
   width: 90%;
   height: clamp(30px, 14.0184vw, 120px);
   display: flex;
-  background-color: #E8CB6C;
+  background-color: #e8cb6c;
   border-radius: 7px;
   align-items: center;
   justify-content: center;
@@ -918,7 +1143,7 @@ body .video-modal .phone-btn .icon {
     height: auto;
     display: flex !important;
     flex-direction: column;
-    background-color: #F4F4F4;
+    background-color: #f4f4f4;
     margin-bottom: 0px !important;
   }
   body .screen .pc-content .white-content {
@@ -962,15 +1187,34 @@ body .video-modal .phone-btn .icon {
     margin-top: clamp(32px, 3.33312vw, 128px);
     transition: transform 0.5s ease;
   }
-  body .screen .pc-content .white-content .blue-content .photos .main_image.large {
+  body
+    .screen
+    .pc-content
+    .white-content
+    .blue-content
+    .photos
+    .main_image.large {
     transform: scale(1.2);
   }
-  body .screen .pc-content .white-content .blue-content .photos .photo-container {
+  body
+    .screen
+    .pc-content
+    .white-content
+    .blue-content
+    .photos
+    .photo-container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  body .screen .pc-content .white-content .blue-content .photos .photo-container .doctor-names {
+  body
+    .screen
+    .pc-content
+    .white-content
+    .blue-content
+    .photos
+    .photo-container
+    .doctor-names {
     width: 100%;
     display: flex !important;
     flex-direction: column;
@@ -980,17 +1224,33 @@ body .video-modal .phone-btn .icon {
     top: clamp(616px, 64.16256vw, 2464px) !important;
     left: clamp(150px, 15.624vw, 600px) !important;
   }
-  body .screen .pc-content .white-content .blue-content .photos .photo-container .doctor-names .name {
+  body
+    .screen
+    .pc-content
+    .white-content
+    .blue-content
+    .photos
+    .photo-container
+    .doctor-names
+    .name {
     text-align: center;
     font-family: Merriweather;
     font-size: clamp(16px, 1.66656vw, 64px);
-    color: #E8CB6C;
+    color: #e8cb6c;
     font-style: normal;
     font-weight: 400;
     line-height: 137.4%;
     text-transform: capitalize;
   }
-  body .screen .pc-content .white-content .blue-content .photos .photo-container .doctor-names .under-text {
+  body
+    .screen
+    .pc-content
+    .white-content
+    .blue-content
+    .photos
+    .photo-container
+    .doctor-names
+    .under-text {
     color: rgba(255, 255, 255, 0.35);
     text-align: center;
     font-family: Merriweather;
@@ -1001,7 +1261,14 @@ body .video-modal .phone-btn .icon {
     margin-top: clamp(4px, 0.41664vw, 16px);
     text-transform: capitalize;
   }
-  body .screen .pc-content .white-content .blue-content .photos .photo-container .pavel {
+  body
+    .screen
+    .pc-content
+    .white-content
+    .blue-content
+    .photos
+    .photo-container
+    .pavel {
     width: clamp(175px, 18.228vw, 700px);
     height: clamp(261.5px, 27.23784vw, 1046px);
     position: absolute;
@@ -1009,7 +1276,14 @@ body .video-modal .phone-btn .icon {
     top: clamp(346px, 36.03936vw, 1384px);
     left: clamp(212.5px, 22.134vw, 850px);
   }
-  body .screen .pc-content .white-content .blue-content .photos .photo-container .bulb {
+  body
+    .screen
+    .pc-content
+    .white-content
+    .blue-content
+    .photos
+    .photo-container
+    .bulb {
     width: clamp(64.5px, 6.71832vw, 258px);
     height: clamp(74.5px, 7.75992vw, 298px);
     position: absolute;
@@ -1085,16 +1359,26 @@ body .video-modal .phone-btn .icon {
     align-items: flex-end;
     justify-content: flex-start;
   }
-  body .screen .pc-features-screen .features-content .features-list .features-heading {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .features-heading {
     font-family: Merriweather;
     font-size: clamp(24px, 2.49984vw, 96px);
     font-style: normal;
     font-weight: 700;
     line-height: 137.4%;
-    color: #E8CB6C;
+    color: #e8cb6c;
     text-transform: capitalize;
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content {
     width: auto;
     height: auto;
     display: flex;
@@ -1103,25 +1387,87 @@ body .video-modal .phone-btn .icon {
     justify-content: flex-end;
     margin-top: clamp(16px, 1.66656vw, 64px);
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .list-01, body .screen .pc-features-screen .features-content .features-list .list-content .list-02 {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-01,
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-02 {
     width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .list-01 .divider-container, body .screen .pc-features-screen .features-content .features-list .list-content .list-02 .divider-container {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-01
+    .divider-container,
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-02
+    .divider-container {
     display: flex;
     flex-direction: row;
     align-items: center;
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .list-01 .divider-container .divider, body .screen .pc-features-screen .features-content .features-list .list-content .list-02 .divider-container .divider {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-01
+    .divider-container
+    .divider,
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-02
+    .divider-container
+    .divider {
     width: clamp(228.5px, 23.80056vw, 914px);
     height: 1px;
     background-color: rgba(255, 255, 255, 0.6);
     margin-right: clamp(8px, 0.83328vw, 32px);
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .list-01 .divider-container .number, body .screen .pc-features-screen .features-content .features-list .list-content .list-02 .divider-container .number {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-01
+    .divider-container
+    .number,
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-02
+    .divider-container
+    .number {
     color: rgba(255, 255, 255, 0.6);
     font-family: Raleway;
     font-size: clamp(10.5px, 1.09368vw, 42px);
@@ -1129,7 +1475,22 @@ body .video-modal .phone-btn .icon {
     font-weight: 500;
     line-height: 137.4%;
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .list-01 .list-p, body .screen .pc-features-screen .features-content .features-list .list-content .list-02 .list-p {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-01
+    .list-p,
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-02
+    .list-p {
     width: 60%;
     color: rgba(255, 255, 255, 0.6);
     text-align: right;
@@ -1141,12 +1502,42 @@ body .video-modal .phone-btn .icon {
     margin-right: clamp(17px, 1.77072vw, 68px);
     margin-top: clamp(8px, 0.83328vw, 32px);
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .list-01 .l, body .screen .pc-features-screen .features-content .features-list .list-content .list-02 .l {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-01
+    .l,
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-02
+    .l {
     width: 40%;
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .list-01 .list-p-gold, body .screen .pc-features-screen .features-content .features-list .list-content .list-02 .list-p-gold {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-01
+    .list-p-gold,
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-02
+    .list-p-gold {
     width: 40%;
-    color: #E8CB6C;
+    color: #e8cb6c;
     text-align: right;
     font-family: Merriweather;
     font-size: clamp(10px, 1.0416vw, 40px);
@@ -1156,16 +1547,63 @@ body .video-modal .phone-btn .icon {
     margin-right: clamp(17px, 1.77072vw, 68px);
     margin-top: clamp(16px, 1.66656vw, 64px);
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .list-01 .list-02, body .screen .pc-features-screen .features-content .features-list .list-content .list-02 .list-02 {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-01
+    .list-02,
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-02
+    .list-02 {
     margin-top: clamp(32px, 3.33312vw, 128px);
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .list-01 .square-row, body .screen .pc-features-screen .features-content .features-list .list-content .list-02 .square-row {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-01
+    .square-row,
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-02
+    .square-row {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-right: clamp(16px, 1.66656vw, 64px);
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .list-01 .square-row .square, body .screen .pc-features-screen .features-content .features-list .list-content .list-02 .square-row .square {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-01
+    .square-row
+    .square,
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-02
+    .square-row
+    .square {
     width: clamp(110px, 11.4576vw, 440px);
     height: clamp(74.5px, 7.75992vw, 298px);
     display: flex;
@@ -1174,7 +1612,26 @@ body .video-modal .phone-btn .icon {
     border: 1px solid rgba(255, 255, 255, 0.6);
     border-radius: 5px;
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .list-01 .square-row .square .number, body .screen .pc-features-screen .features-content .features-list .list-content .list-02 .square-row .square .number {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-01
+    .square-row
+    .square
+    .number,
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-02
+    .square-row
+    .square
+    .number {
     color: rgba(255, 255, 255, 0.6);
     font-family: Raleway;
     font-size: clamp(8.5px, 0.88536vw, 34px);
@@ -1184,8 +1641,27 @@ body .video-modal .phone-btn .icon {
     margin-top: clamp(8px, 0.83328vw, 32px);
     margin-left: clamp(8px, 0.83328vw, 32px);
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .list-01 .square-row .square .gold-p, body .screen .pc-features-screen .features-content .features-list .list-content .list-02 .square-row .square .gold-p {
-    color: #E8CB6C;
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-01
+    .square-row
+    .square
+    .gold-p,
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-02
+    .square-row
+    .square
+    .gold-p {
+    color: #e8cb6c;
     font-family: Raleway;
     font-size: clamp(8px, 0.83328vw, 32px);
     font-style: normal;
@@ -1194,16 +1670,69 @@ body .video-modal .phone-btn .icon {
     margin-bottom: clamp(16px, 1.66656vw, 64px);
     margin-left: clamp(8px, 0.83328vw, 32px);
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .list-01 .square-row .left, body .screen .pc-features-screen .features-content .features-list .list-content .list-02 .square-row .left {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-01
+    .square-row
+    .left,
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-02
+    .square-row
+    .left {
     margin-left: clamp(8px, 0.83328vw, 32px);
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .list-01 .second, body .screen .pc-features-screen .features-content .features-list .list-content .list-02 .second {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-01
+    .second,
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-02
+    .second {
     margin-top: clamp(8px, 0.83328vw, 32px);
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .list-01 .first, body .screen .pc-features-screen .features-content .features-list .list-content .list-02 .first {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-01
+    .first,
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-02
+    .first {
     margin-top: clamp(16px, 1.66656vw, 64px);
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .golden-btn {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .golden-btn {
     width: clamp(148.5px, 15.46776vw, 594px);
     height: clamp(27.5px, 2.8644vw, 110px);
     color: #202637;
@@ -1212,15 +1741,21 @@ body .video-modal .phone-btn .icon {
     font-style: normal;
     font-weight: 600;
     line-height: 137.4%;
-    background: linear-gradient(90deg, #E8CB6C 0%, #B29D55 100%);
+    background: linear-gradient(90deg, #e8cb6c 0%, #b29d55 100%);
     border-radius: 5px;
     margin-right: clamp(16px, 1.66656vw, 64px);
     margin-top: clamp(16px, 1.66656vw, 64px);
     margin-bottom: clamp(64px, 6.66624vw, 256px);
     transition: 0.3s all;
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .golden-btn:hover {
-    color: #F4F4F4;
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .golden-btn:hover {
+    color: #f4f4f4;
   }
   body .screen .pc-service-screen {
     width: 100%;
@@ -1247,7 +1782,7 @@ body .video-modal .phone-btn .icon {
   }
   body .screen .pc-service-screen .content .heading-container .heading {
     width: 25%;
-    color: #F4F4F4;
+    color: #f4f4f4;
     font-family: Merriweather;
     font-size: clamp(24px, 2.49984vw, 96px);
     font-style: normal;
@@ -1255,7 +1790,7 @@ body .video-modal .phone-btn .icon {
     line-height: 137.4%;
   }
   body .screen .pc-service-screen .content .heading-container .gold {
-    color: #E8CB6C;
+    color: #e8cb6c;
   }
   body .screen .pc-service-screen .content .rows {
     width: 100%;
@@ -1290,18 +1825,35 @@ body .video-modal .phone-btn .icon {
     flex-direction: row;
     justify-content: space-between;
   }
-  body .screen .pc-service-screen .content .services-list-content .services-list {
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .services-list {
     display: flex;
     flex-direction: column;
     margin-top: clamp(16px, 1.66656vw, 64px);
   }
-  body .screen .pc-service-screen .content .services-list-content .services-list .btn {
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .services-list
+    .btn {
     box-shadow: none;
     margin: 0;
     padding: 0;
     margin-top: clamp(12px, 1.24992vw, 48px);
   }
-  body .screen .pc-service-screen .content .services-list-content .services-list .btn-content {
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .services-list
+    .btn-content {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -1309,11 +1861,24 @@ body .video-modal .phone-btn .icon {
     padding: 0;
     transition: 0.3s all;
   }
-  body .screen .pc-service-screen .content .services-list-content .services-list .btn-content:hover {
-    color: #F4F4F4;
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .services-list
+    .btn-content:hover {
+    color: #f4f4f4;
   }
-  body .screen .pc-service-screen .content .services-list-content .services-list .btn-content .text-active {
-    color: #E8CB6C;
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .services-list
+    .btn-content
+    .text-active {
+    color: #e8cb6c;
     font-family: Merriweather;
     font-size: clamp(13px, 1.35408vw, 52px);
     font-style: normal;
@@ -1323,7 +1888,14 @@ body .video-modal .phone-btn .icon {
     text-decoration-line: underline;
     transition: 0.3s all;
   }
-  body .screen .pc-service-screen .content .services-list-content .services-list .btn-content .text-inactive {
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .services-list
+    .btn-content
+    .text-inactive {
     color: rgba(255, 255, 255, 0.3);
     font-family: Merriweather;
     font-size: clamp(11px, 1.14576vw, 44px);
@@ -1333,10 +1905,22 @@ body .video-modal .phone-btn .icon {
     line-height: 137.4%;
     transition: 0.3s all;
   }
-  body .screen .pc-service-screen .content .services-list-content .services-list .btn-content .text-inactive:hover {
-    color: #F4F4F4;
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .services-list
+    .btn-content
+    .text-inactive:hover {
+    color: #f4f4f4;
   }
-  body .screen .pc-service-screen .content .services-list-content .expanded-tab {
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .expanded-tab {
     width: clamp(333px, 34.68528vw, 1332px);
     height: auto;
     display: flex;
@@ -1344,10 +1928,16 @@ body .video-modal .phone-btn .icon {
     align-items: flex-start;
     margin-top: clamp(16px, 1.66656vw, 64px);
   }
-  body .screen .pc-service-screen .content .services-list-content .expanded-tab .golden-btn {
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .expanded-tab
+    .golden-btn {
     width: clamp(122px, 12.70752vw, 488px);
     height: clamp(25px, 2.604vw, 100px);
-    background: linear-gradient(90deg, #E8CB6C 0%, #B29D55 100%);
+    background: linear-gradient(90deg, #e8cb6c 0%, #b29d55 100%);
     color: #202637;
     border-radius: 3px;
     border: none;
@@ -1358,17 +1948,35 @@ body .video-modal .phone-btn .icon {
     line-height: 137.4%;
     transition: 0.3s all;
   }
-  body .screen .pc-service-screen .content .services-list-content .expanded-tab .golden-btn:hover {
-    color: #F4F4F4;
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .expanded-tab
+    .golden-btn:hover {
+    color: #f4f4f4;
   }
-  body .screen .pc-service-screen .content .services-list-content .expanded-tab .row {
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .expanded-tab
+    .row {
     width: clamp(333px, 34.68528vw, 1332px);
     height: 1px;
     margin-top: clamp(16px, 1.66656vw, 64px);
     margin-left: 1px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
-  body .screen .pc-service-screen .content .services-list-content .expanded-tab .row-text {
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .expanded-tab
+    .row-text {
     color: rgba(255, 255, 255, 0.3);
     font-family: Raleway;
     font-size: clamp(9px, 0.93744vw, 36px);
@@ -1377,8 +1985,14 @@ body .video-modal .phone-btn .icon {
     line-height: 137.4%;
     margin-top: clamp(8px, 0.83328vw, 32px);
   }
-  body .screen .pc-service-screen .content .services-list-content .expanded-tab .gold-text {
-    color: #E8CB6C;
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .expanded-tab
+    .gold-text {
+    color: #e8cb6c;
     font-family: Raleway;
     font-size: clamp(9px, 0.93744vw, 36px);
     font-style: normal;
@@ -1388,13 +2002,19 @@ body .video-modal .phone-btn .icon {
     margin-top: clamp(8px, 0.83328vw, 32px);
     transition: 0.3s all;
   }
-  body .screen .pc-service-screen .content .services-list-content .expanded-tab .gold-text:hover {
-    color: #F4F4F4;
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .expanded-tab
+    .gold-text:hover {
+    color: #f4f4f4;
   }
   body .screen .doctors-gallery-screen-pc {
     width: 100%;
     height: auto;
-    background-color: #F4F4F4;
+    background-color: #f4f4f4;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1454,7 +2074,13 @@ body .video-modal .phone-btn .icon {
     justify-content: space-between;
     margin-top: clamp(32px, 3.33312vw, 128px);
   }
-  body .screen .free-form-pc .content .form-container .free-form-content .form-image {
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .free-form-content
+    .form-image {
     width: clamp(272.5px, 28.3836vw, 1090px);
     height: clamp(272.5px, 28.3836vw, 1090px);
   }
@@ -1474,7 +2100,13 @@ body .video-modal .phone-btn .icon {
     flex-direction: column;
     align-items: flex-start;
   }
-  body .screen .free-form-pc .content .form-container .input-content .icons-text-container {
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .input-content
+    .icons-text-container {
     width: auto;
     height: auto;
     display: flex;
@@ -1482,28 +2114,92 @@ body .video-modal .phone-btn .icon {
     justify-content: space-between;
     margin-top: clamp(16px, 1.66656vw, 64px);
   }
-  body .screen .free-form-pc .content .form-container .input-content .icons-text-container .icons {
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .input-content
+    .icons-text-container
+    .icons {
     width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
-  body .screen .free-form-pc .content .form-container .input-content .icons-text-container .icons .tooth-icon, body .screen .free-form-pc .content .form-container .input-content .icons-text-container .icons .chair-icon {
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .input-content
+    .icons-text-container
+    .icons
+    .tooth-icon,
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .input-content
+    .icons-text-container
+    .icons
+    .chair-icon {
     width: clamp(18px, 1.87488vw, 72px);
     height: clamp(21px, 2.18736vw, 84px);
   }
-  body .screen .free-form-pc .content .form-container .input-content .icons-text-container .icons .tooth-icon {
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .input-content
+    .icons-text-container
+    .icons
+    .tooth-icon {
     margin-top: clamp(4px, 0.41664vw, 16px);
   }
-  body .screen .free-form-pc .content .form-container .input-content .icons-text-container .icons .tooth-icon-container, body .screen .free-form-pc .content .form-container .input-content .icons-text-container .icons .chair-icon-container {
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .input-content
+    .icons-text-container
+    .icons
+    .tooth-icon-container,
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .input-content
+    .icons-text-container
+    .icons
+    .chair-icon-container {
     display: flex;
     align-items: center;
   }
-  body .screen .free-form-pc .content .form-container .input-content .icons-text-container .icons .chair-icon-container {
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .input-content
+    .icons-text-container
+    .icons
+    .chair-icon-container {
     margin-top: clamp(8px, 0.83328vw, 32px);
   }
-  body .screen .free-form-pc .content .form-container .input-content .icons-text-container .paragraph {
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .input-content
+    .icons-text-container
+    .paragraph {
     width: 80%;
     color: #202637;
     font-family: Raleway;
@@ -1514,13 +2210,27 @@ body .video-modal .phone-btn .icon {
     margin-top: clamp(8px, 0.83328vw, 32px);
     margin-left: clamp(16px, 1.66656vw, 64px);
   }
-  body .screen .free-form-pc .content .form-container .input-content .icons-text-container .paragraph .tooth {
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .input-content
+    .icons-text-container
+    .paragraph
+    .tooth {
     margin-left: clamp(22.5px, 2.3436vw, 90px);
   }
   body .screen .free-form-pc .content .form-container .input-content .two {
     margin-top: clamp(16px, 1.66656vw, 64px);
   }
-  body .screen .free-form-pc .content .form-container .input-content .text-span {
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .input-content
+    .text-span {
     width: 50%;
     color: #202637;
     font-family: Raleway;
@@ -1530,14 +2240,27 @@ body .video-modal .phone-btn .icon {
     line-height: 137.4%;
     margin-top: clamp(24px, 2.49984vw, 96px);
   }
-  body .screen .free-form-pc .content .form-container .input-content .input-container {
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .input-content
+    .input-container {
     width: auto;
     height: auto;
     display: flex;
     align-items: center;
     margin-top: clamp(16px, 1.66656vw, 64px);
   }
-  body .screen .free-form-pc .content .form-container .input-content .input-container .telephone-input {
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .input-content
+    .input-container
+    .telephone-input {
     width: clamp(93.5px, 9.73896vw, 374px);
     height: clamp(30px, 3.1248vw, 120px);
     color: rgba(51, 51, 51, 0.66);
@@ -1548,13 +2271,20 @@ body .video-modal .phone-btn .icon {
     font-weight: 400;
     line-height: 137.4%;
     border-radius: 4px;
-    background-color: #F9FFFD;
+    background-color: #f9fffd;
     padding-left: clamp(8px, 0.83328vw, 32px);
   }
-  body .screen .free-form-pc .content .form-container .input-content .input-container .form-btn {
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .input-content
+    .input-container
+    .form-btn {
     width: clamp(93.5px, 9.73896vw, 374px);
     height: clamp(30px, 3.1248vw, 120px);
-    background: linear-gradient(90deg, #E8CB6C 0%, #B29D55 100%);
+    background: linear-gradient(90deg, #e8cb6c 0%, #b29d55 100%);
     border-radius: 4px;
     border: none;
     color: #202637;
@@ -1565,8 +2295,15 @@ body .video-modal .phone-btn .icon {
     line-height: 137.4%;
     transition: 0.3s all;
   }
-  body .screen .free-form-pc .content .form-container .input-content .input-container .form-btn:hover {
-    color: #F4F4F4;
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .input-content
+    .input-container
+    .form-btn:hover {
+    color: #f4f4f4;
   }
   body .screen .dental-home-gallery-pc {
     width: 100%;
@@ -1603,11 +2340,23 @@ body .video-modal .phone-btn .icon {
     justify-content: space-between;
     margin-top: clamp(16px, 1.66656vw, 64px);
   }
-  body .screen .dental-home-gallery-pc .galleries-container .gallery-one, body .screen .dental-home-gallery-pc .galleries-container .gallery-two {
+  body .screen .dental-home-gallery-pc .galleries-container .gallery-one,
+  body .screen .dental-home-gallery-pc .galleries-container .gallery-two {
     width: clamp(283.5px, 29.52936vw, 1134px);
     height: clamp(283.5px, 29.52936vw, 1134px);
   }
-  body .screen .dental-home-gallery-pc .galleries-container .gallery-one .g-heading, body .screen .dental-home-gallery-pc .galleries-container .gallery-two .g-heading {
+  body
+    .screen
+    .dental-home-gallery-pc
+    .galleries-container
+    .gallery-one
+    .g-heading,
+  body
+    .screen
+    .dental-home-gallery-pc
+    .galleries-container
+    .gallery-two
+    .g-heading {
     color: #202637;
     font-family: Merriweather;
     font-size: clamp(12px, 1.24992vw, 48px);
@@ -1615,7 +2364,30 @@ body .video-modal .phone-btn .icon {
     font-weight: 700;
     line-height: 137.4%;
   }
-  body .screen .dental-home-gallery-pc .galleries-container .gallery-one .mySwiper4, body .screen .dental-home-gallery-pc .galleries-container .gallery-one .mySwiper5, body .screen .dental-home-gallery-pc .galleries-container .gallery-two .mySwiper4, body .screen .dental-home-gallery-pc .galleries-container .gallery-two .mySwiper5 {
+  body
+    .screen
+    .dental-home-gallery-pc
+    .galleries-container
+    .gallery-one
+    .mySwiper4,
+  body
+    .screen
+    .dental-home-gallery-pc
+    .galleries-container
+    .gallery-one
+    .mySwiper5,
+  body
+    .screen
+    .dental-home-gallery-pc
+    .galleries-container
+    .gallery-two
+    .mySwiper4,
+  body
+    .screen
+    .dental-home-gallery-pc
+    .galleries-container
+    .gallery-two
+    .mySwiper5 {
     width: clamp(283.5px, 29.52936vw, 1134px);
     height: clamp(283.5px, 29.52936vw, 1134px);
     margin-top: clamp(16px, 1.66656vw, 64px);
@@ -1638,12 +2410,12 @@ body .video-modal .phone-btn .icon {
     border: none;
     border-radius: 5px;
     line-height: 137.4%;
-    background: linear-gradient(90deg, #E8CB6C 0%, #B29D55 100%);
+    background: linear-gradient(90deg, #e8cb6c 0%, #b29d55 100%);
     margin-top: clamp(64px, 6.66624vw, 256px);
     transition: 0.3s all;
   }
   body .screen .dental-home-gallery-pc .btn-container .gold-btn:hover {
-    color: #F4F4F4;
+    color: #f4f4f4;
   }
   body .screen .dental-home-gallery {
     display: none;
@@ -1700,8 +2472,13 @@ body .video-modal .phone-btn .icon {
     text-decoration: underline;
     transition: 0.3s all;
   }
-  body .screen .review-pc-screen .content .all-reviews-container .blue-link:hover {
-    color: #E8CB6C;
+  body
+    .screen
+    .review-pc-screen
+    .content
+    .all-reviews-container
+    .blue-link:hover {
+    color: #e8cb6c;
   }
   body .screen .form-pc-screen {
     width: 100%;
@@ -1756,7 +2533,14 @@ body .video-modal .phone-btn .icon {
     display: flex;
     flex-direction: column;
   }
-  body .screen .form-pc-screen .content .form-content .row-c .input-container .text {
+  body
+    .screen
+    .form-pc-screen
+    .content
+    .form-content
+    .row-c
+    .input-container
+    .text {
     color: rgba(32, 38, 55, 0.7);
     font-family: Raleway;
     font-size: clamp(8px, 0.83328vw, 32px);
@@ -1764,13 +2548,20 @@ body .video-modal .phone-btn .icon {
     font-weight: 400;
     line-height: 137.4%;
   }
-  body .screen .form-pc-screen .content .form-content .row-c .input-container .input-c {
+  body
+    .screen
+    .form-pc-screen
+    .content
+    .form-content
+    .row-c
+    .input-container
+    .input-c {
     width: clamp(144.5px, 15.05112vw, 578px);
     height: clamp(25px, 2.604vw, 100px);
     border-radius: 4px;
     color: rgba(32, 38, 55, 0.6);
     font-family: Raleway;
-    background-color: #F4F4F4;
+    background-color: #f4f4f4;
     font-size: clamp(8px, 0.83328vw, 32px);
     font-style: normal;
     font-weight: 400;
@@ -1779,11 +2570,18 @@ body .video-modal .phone-btn .icon {
     padding-left: clamp(16px, 1.66656vw, 64px);
     margin-top: clamp(4px, 0.41664vw, 16px);
   }
-  body .screen .form-pc-screen .content .form-content .row-c .input-container .input-s {
+  body
+    .screen
+    .form-pc-screen
+    .content
+    .form-content
+    .row-c
+    .input-container
+    .input-s {
     width: clamp(305px, 31.7688vw, 1220px);
     height: clamp(25px, 2.604vw, 100px);
     border-radius: 4px;
-    background-color: #F4F4F4;
+    background-color: #f4f4f4;
     color: rgba(32, 38, 55, 0.6);
     font-family: Raleway;
     font-size: clamp(8px, 0.83328vw, 32px);
@@ -1800,7 +2598,7 @@ body .video-modal .phone-btn .icon {
   body .screen .form-pc-screen .content .form-content .row-c .comment {
     width: clamp(305px, 31.7688vw, 1220px);
     border-radius: 4px;
-    background-color: #F4F4F4;
+    background-color: #f4f4f4;
     color: rgba(32, 38, 55, 0.6);
     font-family: Raleway;
     font-size: clamp(8px, 0.83328vw, 32px);
@@ -1819,19 +2617,39 @@ body .video-modal .phone-btn .icon {
     align-items: start;
     margin-top: clamp(16px, 1.66656vw, 64px);
   }
-  body .screen .form-pc-screen .content .form-content .checkbox-container .check-row {
+  body
+    .screen
+    .form-pc-screen
+    .content
+    .form-content
+    .checkbox-container
+    .check-row {
     width: auto;
     height: auto;
     display: flex;
     align-items: center;
   }
-  body .screen .form-pc-screen .content .form-content .checkbox-container .check-row .checkbox {
+  body
+    .screen
+    .form-pc-screen
+    .content
+    .form-content
+    .checkbox-container
+    .check-row
+    .checkbox {
     width: clamp(16px, 1.66656vw, 64px);
     height: clamp(16px, 1.66656vw, 64px);
     border-radius: 4px;
     border: 2px solid #202637;
   }
-  body .screen .form-pc-screen .content .form-content .checkbox-container .check-row .text {
+  body
+    .screen
+    .form-pc-screen
+    .content
+    .form-content
+    .checkbox-container
+    .check-row
+    .text {
     width: 60%;
     color: #202637;
     font-family: Raleway;
@@ -1841,10 +2659,16 @@ body .video-modal .phone-btn .icon {
     line-height: 137.4%;
     margin-left: clamp(8px, 0.83328vw, 32px);
   }
-  body .screen .form-pc-screen .content .form-content .checkbox-container .golden-btn {
+  body
+    .screen
+    .form-pc-screen
+    .content
+    .form-content
+    .checkbox-container
+    .golden-btn {
     width: clamp(125px, 13.02vw, 500px);
     height: clamp(23px, 2.39568vw, 92px);
-    background: linear-gradient(90deg, #E8CB6C 0%, #B29D55 100%);
+    background: linear-gradient(90deg, #e8cb6c 0%, #b29d55 100%);
     color: #202637;
     font-family: Raleway;
     font-size: clamp(8px, 0.83328vw, 32px);
@@ -1855,8 +2679,14 @@ body .video-modal .phone-btn .icon {
     line-height: 137.4%;
     transition: 0.3s all;
   }
-  body .screen .form-pc-screen .content .form-content .checkbox-container .golden-btn:hover {
-    color: #F4F4F4;
+  body
+    .screen
+    .form-pc-screen
+    .content
+    .form-content
+    .checkbox-container
+    .golden-btn:hover {
+    color: #f4f4f4;
   }
   body .screen .form-screen {
     display: none !important;
@@ -1882,7 +2712,7 @@ body .video-modal .phone-btn .icon {
   body .modal .gold-cross {
     width: clamp(32px, 3.33312vw, 128px);
     font-size: clamp(16px, 1.66656vw, 64px);
-    color: #E8CB6C;
+    color: #e8cb6c;
     z-index: 10000;
     display: flex !important;
   }
@@ -1904,7 +2734,7 @@ body .video-modal .phone-btn .icon {
   body .modal .modal-content .text {
     font-family: Merriweather;
     font-size: clamp(11px, 1.14576vw, 44px);
-    color: #E8CB6C;
+    color: #e8cb6c;
     font-style: normal;
     font-weight: 700;
     line-height: 137.4%;
@@ -1912,7 +2742,7 @@ body .video-modal .phone-btn .icon {
     text-align: center;
   }
   body .modal .modal-content .additional-text {
-    color: #F4F4F4;
+    color: #f4f4f4;
     margin-top: clamp(16px, 1.66656vw, 64px);
     display: flex;
     margin-bottom: clamp(8px, 0.83328vw, 32px);
@@ -1931,7 +2761,7 @@ body .video-modal .phone-btn .icon {
     align-items: center;
   }
   body .modal .modal-content .label {
-    color: #F4F4F4;
+    color: #f4f4f4;
     text-align: center;
     font-family: Raleway;
     font-size: clamp(8px, 0.83328vw, 32px);
@@ -1961,7 +2791,7 @@ body .video-modal .phone-btn .icon {
     width: 60%;
     height: clamp(30px, 3.1248vw, 120px);
     display: flex;
-    background-color: #E8CB6C;
+    background-color: #e8cb6c;
     border-radius: 7px;
     align-items: center;
     justify-content: center;
@@ -1997,7 +2827,7 @@ body .video-modal .phone-btn .icon {
   }
   body .modal-thanks .gold-cross {
     font-size: clamp(16px, 1.66656vw, 64px);
-    color: #E8CB6C;
+    color: #e8cb6c;
     position: absolute !important;
     right: clamp(8px, 0.83328vw, 32px);
     top: clamp(8px, 0.83328vw, 32px);
@@ -2021,7 +2851,7 @@ body .video-modal .phone-btn .icon {
   body .modal-thanks .modl-content .text {
     font-family: Merriweather;
     font-size: clamp(16px, 1.66656vw, 64px);
-    color: #E8CB6C;
+    color: #e8cb6c;
     font-style: normal;
     font-weight: 700;
     line-height: 137.4%;
@@ -2030,7 +2860,7 @@ body .video-modal .phone-btn .icon {
     margin-top: clamp(16px, 1.66656vw, 64px) !important;
   }
   body .modal-thanks .modl-content .additional-text {
-    color: #F4F4F4;
+    color: #f4f4f4;
     margin-top: clamp(8px, 0.83328vw, 32px);
     margin-bottom: clamp(8px, 0.83328vw, 32px);
     text-align: center;
@@ -2063,7 +2893,7 @@ body .video-modal .phone-btn .icon {
   }
   body .loader .loader-container .loading-heading {
     width: 80%;
-    color: #F4F4F4 !important;
+    color: #f4f4f4 !important;
     text-align: center !important;
     font-family: Merriweather !important;
     font-size: clamp(25px, 2.604vw, 100px) !important;
@@ -2116,7 +2946,7 @@ body .video-modal .phone-btn .icon {
     width: 35%;
     height: clamp(30px, 3.1248vw, 120px);
     display: flex;
-    background-color: #E8CB6C;
+    background-color: #e8cb6c;
     border-radius: 7px;
     align-items: center;
     justify-content: center;
@@ -2193,28 +3023,62 @@ body .video-modal .phone-btn .icon {
     height: clamp(345px, 67.3828125vw, 1380px) !important;
     margin-top: clamp(32px, 6.25vw, 128px);
   }
-  body .screen .pc-content .white-content .blue-content .photos .photo-container {
+  body
+    .screen
+    .pc-content
+    .white-content
+    .blue-content
+    .photos
+    .photo-container {
     position: relative !important;
   }
-  body .screen .pc-content .white-content .blue-content .photos .photo-container .bulb {
+  body
+    .screen
+    .pc-content
+    .white-content
+    .blue-content
+    .photos
+    .photo-container
+    .bulb {
     position: absolute !important;
     top: clamp(60px, 11.71875vw, 240px);
     left: clamp(-20px, -3.90625vw, -80px);
   }
-  body .screen .pc-content .white-content .blue-content .photos .photo-container .pavel {
+  body
+    .screen
+    .pc-content
+    .white-content
+    .blue-content
+    .photos
+    .photo-container
+    .pavel {
     width: clamp(174.5px, 34.08203125vw, 698px);
     height: clamp(261.5px, 51.07421875vw, 1046px);
     margin-top: clamp(64px, 12.5vw, 256px);
     position: static !important;
   }
-  body .screen .pc-content .white-content .blue-content .photos .photo-container .doctor-names {
+  body
+    .screen
+    .pc-content
+    .white-content
+    .blue-content
+    .photos
+    .photo-container
+    .doctor-names {
     display: flex !important;
     flex-direction: column;
     align-items: center;
     margin-top: clamp(16px, 3.125vw, 64px);
   }
-  body .screen .pc-content .white-content .blue-content .photos .photo-container .name {
-    color: #E8CB6C;
+  body
+    .screen
+    .pc-content
+    .white-content
+    .blue-content
+    .photos
+    .photo-container
+    .name {
+    color: #e8cb6c;
     text-align: center;
     font-family: Merriweather;
     font-size: clamp(16px, 3.125vw, 64px);
@@ -2223,7 +3087,14 @@ body .video-modal .phone-btn .icon {
     line-height: 137.4%;
     text-transform: capitalize;
   }
-  body .screen .pc-content .white-content .blue-content .photos .photo-container .under-text {
+  body
+    .screen
+    .pc-content
+    .white-content
+    .blue-content
+    .photos
+    .photo-container
+    .under-text {
     color: rgba(255, 255, 255, 0.35);
     text-align: center;
     font-family: Merriweather;
@@ -2258,12 +3129,22 @@ body .video-modal .phone-btn .icon {
     justify-content: flex-end !important;
     align-items: flex-end;
   }
-  body .screen .pc-features-screen .features-content .features-list .features-heading {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .features-heading {
     font-size: clamp(22px, 4.296875vw, 88px);
     text-align: right;
-    color: #E8CB6C;
+    color: #e8cb6c;
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content {
     display: flex !important;
     flex-direction: column !important;
     justify-content: flex-end !important;
@@ -2272,46 +3153,165 @@ body .video-modal .phone-btn .icon {
     text-align: right;
     color: rgba(255, 255, 255, 0.6);
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .list-01, body .screen .pc-features-screen .features-content .features-list .list-content .list-02 {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-01,
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-02 {
     display: flex !important;
     flex-direction: column !important;
     align-items: flex-end !important;
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .list-01 .divider-container, body .screen .pc-features-screen .features-content .features-list .list-content .list-02 .divider-container {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-01
+    .divider-container,
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-02
+    .divider-container {
     width: 100%;
     display: flex !important;
     flex-direction: row !important;
     align-items: center !important;
     justify-content: flex-end !important;
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .list-01 .divider-container .divider, body .screen .pc-features-screen .features-content .features-list .list-content .list-02 .divider-container .divider {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-01
+    .divider-container
+    .divider,
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-02
+    .divider-container
+    .divider {
     width: 70% !important;
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .list-01 .divider-container .number, body .screen .pc-features-screen .features-content .features-list .list-content .list-02 .divider-container .number {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-01
+    .divider-container
+    .number,
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-02
+    .divider-container
+    .number {
     margin-left: clamp(8px, 1.5625vw, 32px) !important;
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .list-01 .list-p, body .screen .pc-features-screen .features-content .features-list .list-content .list-02 .list-p {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-01
+    .list-p,
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-02
+    .list-p {
     width: 80%;
     margin-left: 0px !important;
     font-size: clamp(12px, 2.34375vw, 48px) !important;
     margin-top: clamp(16px, 3.125vw, 64px);
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .list-01 .list-p-gold, body .screen .pc-features-screen .features-content .features-list .list-content .list-02 .list-p-gold {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-01
+    .list-p-gold,
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-02
+    .list-p-gold {
     width: 70%;
     height: auto;
     font-size: clamp(12px, 2.34375vw, 48px);
-    color: #E8CB6C;
+    color: #e8cb6c;
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .list-01 .gold-p, body .screen .pc-features-screen .features-content .features-list .list-content .list-02 .gold-p {
-    color: #E8CB6C;
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-01
+    .gold-p,
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .list-02
+    .gold-p {
+    color: #e8cb6c;
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .squares {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .squares {
     display: none !important;
   }
-  body .screen .pc-features-screen .features-content .features-list .list-content .golden-btn {
+  body
+    .screen
+    .pc-features-screen
+    .features-content
+    .features-list
+    .list-content
+    .golden-btn {
     width: clamp(148.5px, 29.00390625vw, 594px);
     height: clamp(27.5px, 5.37109375vw, 110px);
-    background: linear-gradient(90deg, #E8CB6C 0%, #B29D55 100%);
+    background: linear-gradient(90deg, #e8cb6c 0%, #b29d55 100%);
     border: none;
     border-radius: 4px;
     color: #202637;
@@ -2344,7 +3344,7 @@ body .video-modal .phone-btn .icon {
   }
   body .screen .pc-service-screen .content .heading-container .heading {
     width: 33%;
-    color: #F9FFFD;
+    color: #f9fffd;
     font-family: Merriweather;
     font-size: clamp(22px, 4.296875vw, 88px);
     font-style: normal;
@@ -2352,7 +3352,7 @@ body .video-modal .phone-btn .icon {
     line-height: 137.4%;
   }
   body .screen .pc-service-screen .content .heading-container .heading .gold {
-    color: #E8CB6C;
+    color: #e8cb6c;
   }
   body .screen .pc-service-screen .content .rows {
     width: 100% !important;
@@ -2390,12 +3390,23 @@ body .video-modal .phone-btn .icon {
     justify-content: space-between !important;
     align-items: flex-start !important;
   }
-  body .screen .pc-service-screen .content .services-list-content .services-list {
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .services-list {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
-  body .screen .pc-service-screen .content .services-list-content .services-list .btn {
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .services-list
+    .btn {
     text-align: left;
     text-transform: none !important;
     box-shadow: none;
@@ -2403,7 +3414,14 @@ body .video-modal .phone-btn .icon {
     padding: 0 !important;
     transform: 0.3s all;
   }
-  body .screen .pc-service-screen .content .services-list-content .services-list .btn .text-inactive {
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .services-list
+    .btn
+    .text-inactive {
     color: rgba(255, 255, 255, 0.3);
     font-family: Merriweather;
     font-size: clamp(11px, 2.1484375vw, 44px);
@@ -2412,8 +3430,15 @@ body .video-modal .phone-btn .icon {
     line-height: 137.4%;
     transform: 0.3s all;
   }
-  body .screen .pc-service-screen .content .services-list-content .services-list .btn .text-active {
-    color: #E8CB6C;
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .services-list
+    .btn
+    .text-active {
+    color: #e8cb6c;
     font-family: Merriweather;
     font-size: clamp(13px, 2.5390625vw, 52px);
     font-style: normal;
@@ -2421,20 +3446,37 @@ body .video-modal .phone-btn .icon {
     line-height: 137.4%;
     transform: 0.3s all;
   }
-  body .screen .pc-service-screen .content .services-list-content .services-list .one {
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .services-list
+    .one {
     margin-top: clamp(12px, 2.34375vw, 48px);
   }
-  body .screen .pc-service-screen .content .services-list-content .expanded-tab {
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .expanded-tab {
     display: flex;
     flex-direction: column;
     align-items: flex-start !important;
     margin-right: clamp(4px, 0.78125vw, 16px);
   }
-  body .screen .pc-service-screen .content .services-list-content .expanded-tab .golden-btn {
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .expanded-tab
+    .golden-btn {
     width: clamp(122px, 23.828125vw, 488px);
     height: clamp(25px, 4.8828125vw, 100px);
     color: #202637;
-    background: linear-gradient(90deg, #E8CB6C 0%, #B29D55 100%);
+    background: linear-gradient(90deg, #e8cb6c 0%, #b29d55 100%);
     border: none;
     border-radius: 3px;
     font-family: Raleway;
@@ -2443,11 +3485,23 @@ body .video-modal .phone-btn .icon {
     font-weight: 500;
     line-height: 137.4%;
   }
-  body .screen .pc-service-screen .content .services-list-content .expanded-tab .row-text {
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .expanded-tab
+    .row-text {
     display: none !important;
   }
-  body .screen .pc-service-screen .content .services-list-content .expanded-tab .gold-text {
-    color: #E8CB6C;
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .expanded-tab
+    .gold-text {
+    color: #e8cb6c;
     font-family: Raleway;
     font-size: font(8px, 1.7578125vw, 36px);
     font-style: normal;
@@ -2456,10 +3510,22 @@ body .video-modal .phone-btn .icon {
     text-decoration-line: underline;
     margin-top: clamp(8px, 1.5625vw, 32px);
   }
-  body .screen .pc-service-screen .content .services-list-content .expanded-tab .one {
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .expanded-tab
+    .one {
     margin-top: clamp(16px, 3.125vw, 64px) !important;
   }
-  body .screen .pc-service-screen .content .services-list-content .expanded-tab .two {
+  body
+    .screen
+    .pc-service-screen
+    .content
+    .services-list-content
+    .expanded-tab
+    .two {
     margin-top: clamp(8px, 1.5625vw, 32px);
   }
   body .screen .doctors-gallery-screen {
@@ -2529,7 +3595,14 @@ body .video-modal .phone-btn .icon {
     font-weight: 700;
     line-height: 137.4%;
   }
-  body .screen .free-form-pc .content .form-container .input-content .text-container, body .screen .free-form-pc .content .form-container .input-content .two {
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .input-content
+    .text-container,
+  body .screen .free-form-pc .content .form-container .input-content .two {
     width: auto;
     height: auto;
     display: flex;
@@ -2538,7 +3611,22 @@ body .video-modal .phone-btn .icon {
     margin-top: clamp(4px, 0.78125vw, 16px);
     margin-top: clamp(8px, 1.5625vw, 32px);
   }
-  body .screen .free-form-pc .content .form-container .input-content .text-container .paragraph, body .screen .free-form-pc .content .form-container .input-content .two .paragraph {
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .input-content
+    .text-container
+    .paragraph,
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .input-content
+    .two
+    .paragraph {
     width: 50%;
     color: #202637;
     font-family: Raleway;
@@ -2549,7 +3637,13 @@ body .video-modal .phone-btn .icon {
     margin-top: clamp(4px, 0.78125vw, 16px);
     margin-left: clamp(8px, 1.5625vw, 32px);
   }
-  body .screen .free-form-pc .content .form-container .input-content .text-span {
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .input-content
+    .text-span {
     color: #202637;
     font-family: Raleway;
     font-size: clamp(7.5px, 1.46484375vw, 30px) !important;
@@ -2558,10 +3652,23 @@ body .video-modal .phone-btn .icon {
     line-height: 137.4%;
     margin-top: clamp(4px, 0.78125vw, 16px);
   }
-  body .screen .free-form-pc .content .form-container .input-content .input-container {
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .input-content
+    .input-container {
     margin-top: clamp(16px, 3.125vw, 64px) !important;
   }
-  body .screen .free-form-pc .content .form-container .input-content .input-container .telephone-input {
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .input-content
+    .input-container
+    .telephone-input {
     width: clamp(93px, 18.1640625vw, 372px) !important;
     height: clamp(30px, 5.859375vw, 120px) !important;
     outline: none;
@@ -2575,12 +3682,19 @@ body .video-modal .phone-btn .icon {
     padding-left: clamp(8px, 1.5625vw, 32px);
     line-height: 137.4%;
   }
-  body .screen .free-form-pc .content .form-container .input-content .input-container .form-btn {
+  body
+    .screen
+    .free-form-pc
+    .content
+    .form-container
+    .input-content
+    .input-container
+    .form-btn {
     width: clamp(108px, 21.09375vw, 432px) !important;
     height: clamp(30px, 5.859375vw, 120px) !important;
     font-size: clamp(8px, 1.5625vw, 32px) !important;
     border: none;
-    background: linear-gradient(90deg, #E8CB6C 0%, #B29D55 100%);
+    background: linear-gradient(90deg, #e8cb6c 0%, #b29d55 100%);
   }
   body .screen .free-form-pc .content .form-image {
     width: clamp(187.5px, 36.62109375vw, 750px) !important;
@@ -2616,19 +3730,101 @@ body .video-modal .phone-btn .icon {
     justify-content: space-between !important;
     margin-top: clamp(16px, 3.125vw, 64px) !important;
   }
-  body .screen .dental-home-gallery-pc .content .galleries-container .gallery-one, body .screen .dental-home-gallery-pc .content .galleries-container .gallery-two {
+  body
+    .screen
+    .dental-home-gallery-pc
+    .content
+    .galleries-container
+    .gallery-one,
+  body
+    .screen
+    .dental-home-gallery-pc
+    .content
+    .galleries-container
+    .gallery-two {
     width: clamp(283.5px, 29.52936vw, 1134px);
     height: clamp(283.5px, 29.52936vw, 1134px);
   }
-  body .screen .dental-home-gallery-pc .content .galleries-container .gallery-one .g-heading, body .screen .dental-home-gallery-pc .content .galleries-container .gallery-two .g-heading {
+  body
+    .screen
+    .dental-home-gallery-pc
+    .content
+    .galleries-container
+    .gallery-one
+    .g-heading,
+  body
+    .screen
+    .dental-home-gallery-pc
+    .content
+    .galleries-container
+    .gallery-two
+    .g-heading {
     width: 100% !important;
     font-size: clamp(9.5px, 1.85546875vw, 38px) !important;
   }
-  body .screen .dental-home-gallery-pc .content .galleries-container .gallery-one .mySwiper4, body .screen .dental-home-gallery-pc .content .galleries-container .gallery-one .mySwiper5, body .screen .dental-home-gallery-pc .content .galleries-container .gallery-two .mySwiper4, body .screen .dental-home-gallery-pc .content .galleries-container .gallery-two .mySwiper5 {
+  body
+    .screen
+    .dental-home-gallery-pc
+    .content
+    .galleries-container
+    .gallery-one
+    .mySwiper4,
+  body
+    .screen
+    .dental-home-gallery-pc
+    .content
+    .galleries-container
+    .gallery-one
+    .mySwiper5,
+  body
+    .screen
+    .dental-home-gallery-pc
+    .content
+    .galleries-container
+    .gallery-two
+    .mySwiper4,
+  body
+    .screen
+    .dental-home-gallery-pc
+    .content
+    .galleries-container
+    .gallery-two
+    .mySwiper5 {
     width: clamp(283.5px, 29.52936vw, 1134px) !important;
     height: clamp(283.5px, 29.52936vw, 1134px) !important;
   }
-  body .screen .dental-home-gallery-pc .content .galleries-container .gallery-one .mySwiper4 .swiper-image, body .screen .dental-home-gallery-pc .content .galleries-container .gallery-one .mySwiper5 .swiper-image, body .screen .dental-home-gallery-pc .content .galleries-container .gallery-two .mySwiper4 .swiper-image, body .screen .dental-home-gallery-pc .content .galleries-container .gallery-two .mySwiper5 .swiper-image {
+  body
+    .screen
+    .dental-home-gallery-pc
+    .content
+    .galleries-container
+    .gallery-one
+    .mySwiper4
+    .swiper-image,
+  body
+    .screen
+    .dental-home-gallery-pc
+    .content
+    .galleries-container
+    .gallery-one
+    .mySwiper5
+    .swiper-image,
+  body
+    .screen
+    .dental-home-gallery-pc
+    .content
+    .galleries-container
+    .gallery-two
+    .mySwiper4
+    .swiper-image,
+  body
+    .screen
+    .dental-home-gallery-pc
+    .content
+    .galleries-container
+    .gallery-two
+    .mySwiper5
+    .swiper-image {
     width: clamp(283.5px, 29.52936vw, 1134px) !important;
     height: clamp(283.5px, 29.52936vw, 1134px) !important;
   }
@@ -2639,7 +3835,7 @@ body .video-modal .phone-btn .icon {
     width: clamp(148.5px, 29.00390625vw, 594px) !important;
     height: clamp(27.5px, 5.37109375vw, 110px) !important;
     border-radius: 5px;
-    background: linear-gradient(90deg, #E8CB6C 0%, #B29D55 100%);
+    background: linear-gradient(90deg, #e8cb6c 0%, #b29d55 100%);
     border: none;
     font-size: clamp(10px, 1.953125vw, 40px) !important;
   }
@@ -2698,8 +3894,13 @@ body .video-modal .phone-btn .icon {
     text-decoration: underline;
     transition: 0.3s all;
   }
-  body .screen .review-pc-screen .content .all-reviews-container .blue-link:hover {
-    color: #E8CB6C;
+  body
+    .screen
+    .review-pc-screen
+    .content
+    .all-reviews-container
+    .blue-link:hover {
+    color: #e8cb6c;
   }
   body .screen .review-pc-screen .content .blue-link {
     font-size: clamp(9.5px, 2.4739583333vw, 38px) !important;
@@ -2763,7 +3964,14 @@ body .video-modal .phone-btn .icon {
     display: flex;
     flex-direction: column;
   }
-  body .screen .form-pc-screen .content .form-content .row-c .input-container .text {
+  body
+    .screen
+    .form-pc-screen
+    .content
+    .form-content
+    .row-c
+    .input-container
+    .text {
     color: rgba(32, 38, 55, 0.7);
     font-family: Raleway;
     font-size: clamp(8px, 1.5625vw, 32px) !important;
@@ -2771,7 +3979,14 @@ body .video-modal .phone-btn .icon {
     font-weight: 400;
     line-height: 137.4%;
   }
-  body .screen .form-pc-screen .content .form-content .row-c .input-container .input-c {
+  body
+    .screen
+    .form-pc-screen
+    .content
+    .form-content
+    .row-c
+    .input-container
+    .input-c {
     width: clamp(144.5px, 29.1015625vw, 578px) !important;
     height: clamp(25px, 4.8828125vw, 100px) !important;
     border-radius: 4px;
@@ -2785,7 +4000,14 @@ body .video-modal .phone-btn .icon {
     padding-left: clamp(16px, 3.125vw, 64px) !important;
     margin-top: clamp(4px, 0.78125vw, 16px) !important;
   }
-  body .screen .form-pc-screen .content .form-content .row-c .input-container .input-s {
+  body
+    .screen
+    .form-pc-screen
+    .content
+    .form-content
+    .row-c
+    .input-container
+    .input-s {
     width: clamp(305px, 59.5703125vw, 1220px) !important;
     height: clamp(25px, 4.8828125vw, 100px) !important;
     border-radius: 4px;
@@ -2823,19 +4045,39 @@ body .video-modal .phone-btn .icon {
     align-items: start;
     margin-top: clamp(16px, 3.125vw, 64px);
   }
-  body .screen .form-pc-screen .content .form-content .checkbox-container .check-row {
+  body
+    .screen
+    .form-pc-screen
+    .content
+    .form-content
+    .checkbox-container
+    .check-row {
     width: auto;
     height: auto;
     display: flex;
     align-items: center;
   }
-  body .screen .form-pc-screen .content .form-content .checkbox-container .check-row .checkbox {
+  body
+    .screen
+    .form-pc-screen
+    .content
+    .form-content
+    .checkbox-container
+    .check-row
+    .checkbox {
     width: clamp(16px, 3.125vw, 64px);
     height: clamp(16px, 3.125vw, 64px);
     border-radius: 4px;
     border: 2px solid #202637;
   }
-  body .screen .form-pc-screen .content .form-content .checkbox-container .check-row .text {
+  body
+    .screen
+    .form-pc-screen
+    .content
+    .form-content
+    .checkbox-container
+    .check-row
+    .text {
     width: 60%;
     color: #202637;
     font-family: Raleway;
@@ -2845,10 +4087,16 @@ body .video-modal .phone-btn .icon {
     line-height: 137.4%;
     margin-left: clamp(8px, 1.5625vw, 32px);
   }
-  body .screen .form-pc-screen .content .form-content .checkbox-container .golden-btn {
+  body
+    .screen
+    .form-pc-screen
+    .content
+    .form-content
+    .checkbox-container
+    .golden-btn {
     width: clamp(117px, 22.8515625vw, 468px);
     height: clamp(23px, 4.4921875vw, 92px);
-    background: linear-gradient(90deg, #E8CB6C 0%, #B29D55 100%);
+    background: linear-gradient(90deg, #e8cb6c 0%, #b29d55 100%);
     color: #202637;
     font-family: Raleway;
     font-size: clamp(8px, 1.5625vw, 32px);
@@ -2859,8 +4107,14 @@ body .video-modal .phone-btn .icon {
     line-height: 137.4%;
     transition: 0.3s all;
   }
-  body .screen .form-pc-screen .content .form-content .checkbox-container .golden-btn:hover {
-    color: #F4F4F4;
+  body
+    .screen
+    .form-pc-screen
+    .content
+    .form-content
+    .checkbox-container
+    .golden-btn:hover {
+    color: #f4f4f4;
   }
   body .loader {
     width: 100vw;
@@ -2884,7 +4138,7 @@ body .video-modal .phone-btn .icon {
   }
   body .loader .loader-container .loading-heading {
     width: 70%;
-    color: #F4F4F4;
+    color: #f4f4f4;
     text-align: center;
     font-family: Merriweather;
     font-size: clamp(25px, 5.6242969629vw, 100px) !important;
@@ -2894,4 +4148,4 @@ body .video-modal .phone-btn .icon {
     text-transform: capitalize;
     margin-top: clamp(16px, 1.66656vw, 64px) !important;
   }
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */

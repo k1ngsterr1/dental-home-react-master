@@ -98,6 +98,53 @@ const Menu: React.FC<MenuProps> = ({
               </Link>
             </div>
           </div>
+          <div
+            style={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              marginTop: "128px",
+            }}
+          >
+            <Link
+              to="/children-dental"
+              onClick={closeMenu}
+              style={{
+                display: "inline-block",
+                padding: "12px 28px",
+                background: "linear-gradient(90deg, #FFD700 0%, #FFC300 100%)",
+                color: "#333",
+                fontWeight: 700,
+                border: "none",
+                borderRadius: "30px",
+                fontSize: "1rem",
+                textDecoration: "none",
+                boxShadow: "0 2px 12px rgba(255, 215, 0, 0.25)",
+                transition: "background 0.2s, box-shadow 0.2s, color 0.2s",
+                marginTop: "18px",
+                marginBottom: "8px",
+                textAlign: "center",
+                letterSpacing: "0.5px",
+              }}
+              onMouseOver={(e) => {
+                (e.currentTarget as HTMLElement).style.background =
+                  "linear-gradient(90deg, #FFC300 0%, #FFD700 100%)";
+                (e.currentTarget as HTMLElement).style.color = "#222";
+                (e.currentTarget as HTMLElement).style.boxShadow =
+                  "0 4px 20px rgba(255, 215, 0, 0.35)";
+              }}
+              onMouseOut={(e) => {
+                (e.currentTarget as HTMLElement).style.background =
+                  "linear-gradient(90deg, #FFD700 0%, #FFC300 100%)";
+                (e.currentTarget as HTMLElement).style.color = "#333";
+                (e.currentTarget as HTMLElement).style.boxShadow =
+                  "0 2px 12px rgba(255, 215, 0, 0.25)";
+              }}
+            >
+              Детская стоматология
+            </Link>
+          </div>
         </div>
         <div className="divider-upper"></div>
         <div className="geo-content">
@@ -136,14 +183,6 @@ const Menu: React.FC<MenuProps> = ({
               ></FontAwesomeIcon>
             </div>
           </div>
-        </div>
-        <div className="buttons">
-          <ScrollLink className="button" to="form-screen" onClick={openModal}>
-            Записать на прием
-          </ScrollLink>
-          <Link to="/children-dental" className="button child">
-            Детская стоматология
-          </Link>
         </div>
       </div>
       <div className="menu-pc">
@@ -196,6 +235,7 @@ const Menu: React.FC<MenuProps> = ({
               >
                 Вакансии
               </Link>
+
               <div className="medias">
                 <FontAwesomeIcon
                   icon={faVk}
