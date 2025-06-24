@@ -201,12 +201,20 @@ const Vacancies = () => {
           content="Актуальные вакансии в стоматологии Dental Home. Присоединяйтесь к нашей команде профессионалов!"
         />
       </Helmet>
+      <Mheader
+        isMenuOpen={isMenuOpen}
+        openModal={openModal}
+        toggleMenu={toggleMenu}
+      ></Mheader>
       <main className="content">
-        <Header
-          isMenuPcOpen={isMenuPcOpen}
-          openModal={openModal}
-          togglePcMenu={togglePcMenu}
-        />
+        <div className="header-container" style={{ width: "100%" }}></div>
+        <div className="tablet" style={{ width: "100%" }}>
+          <Header
+            isMenuPcOpen={isMenuPcOpen}
+            openModal={openModal}
+            togglePcMenu={togglePcMenu}
+          ></Header>
+        </div>
         <Reveal>
           <h1
             style={{
