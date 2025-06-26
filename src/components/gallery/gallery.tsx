@@ -11,7 +11,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "./styles/gallery_styles.css";
 
 // Hardcoded images - placeholders for now, images will be added later
-const pavelImage = require("../../assets/03.webp");
+const pavelImage = require("../../assets/3.webp");
 const elenaImage = require("../../assets/elena_pc.webp");
 const evgeniyImage = require("../../assets/orthoped_pc.webp");
 const arsenImage = require("../../assets/arsen.webp");
