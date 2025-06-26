@@ -1956,13 +1956,13 @@ export default function HomePage() {
                     <div className="btn-content">
                       <span
                         className={
-                          isProthesisOpened ? "text-active" : "text-inactive"
+                          isTeethSleepOpened ? "text-active" : "text-inactive"
                         }
                       >
                         Лечение зубов во сне
                       </span>
                       <FontAwesomeIcon
-                        icon={isProthesisOpened ? faMinus : faPlus}
+                        icon={isTeethSleepOpened ? faMinus : faPlus}
                         className="golden-icon"
                       />
                     </div>
@@ -3391,10 +3391,10 @@ export default function HomePage() {
                     />
                     <h3
                       style={{
-                        fontSize: window.innerWidth > 768 ? "28px" : "22px",
+                        fontSize: window.innerWidth > 768 ? "28px" : "20px",
                         fontWeight: "600",
                         margin: "0 0 15px 0",
-                        color: "#202637",
+                        color: window.innerWidth > 768 ? "#202637" : "#fff",
                       }}
                     >
                       Спасибо за вашу заявку

@@ -106,9 +106,7 @@ const ReviewGalleryDesktop = () => {
             date="05.02.2023"
             name="Мария Барашкова"
             href="https://yandex.ru/profile/185014698556"
-            navigate={() =>
-              handleOpenScreenshot("https://freeimage.host/i/FTgLqx4")
-            }
+            navigate={() => handleOpenScreenshot("https://iili.io/FA5o2I9.jpg")}
             paragraph="Моя жизнь разделилась на «до» и «после»! Не описать мою любовь к врачам в этой клинике! Настоящие профессионалы! Каждый визит оставляет самые приятные впечатления и эмоции! Лечение зубов теперь в радость! Бесконечное спасибо каждому..."
           ></ReviewTab>
         </SwiperSlide>
