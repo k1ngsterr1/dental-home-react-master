@@ -147,7 +147,7 @@ const Menu: React.FC<MenuProps> = ({
           </div>
         </div>
         <div className="divider-upper"></div>
-        <div className="geo-content" style={{ marginBottom: "120px" }}>
+        <div className="geo-content" style={{ marginBottom: "180px" }}>
           <div className="geo-row">
             <FontAwesomeIcon
               icon={faMapPin}
