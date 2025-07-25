@@ -1,7 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
 
-import "./styles/header_styles.css";
 import Menu from "../menu/Menu";
 
 import Hamburger from "hamburger-react";
@@ -27,12 +26,6 @@ const Header: React.FC<HeaderProps> = ({
   openModal,
   consoleLog,
 }) => {
-  if (isMenuOpen || isMenuPcOpen) {
-    document.body.style.overflowY = "hidden";
-  } else {
-    document.body.style.overflowY = "";
-  }
-
   const navigate = useNavigate();
 
   const [scrollAmount, setScrollAmount] = useState(100);
@@ -42,19 +35,25 @@ const Header: React.FC<HeaderProps> = ({
   }
 
   useEffect(() => {
-    if (isMenuOpen || isMenuPcOpen) {
-      document.body.style.overflowY = "hidden";
-      // window.scrollBy(0, scrollAmount);
-      // window.scrollTo(0, 0);
-    } else {
-      document.body.style.overflowY = "";
+    // Only run on the client-side
+    if (typeof document !== "undefined") {
+      if (isMenuOpen || isMenuPcOpen) {
+        document.body.style.overflowY = "hidden";
+        // window.scrollBy(0, scrollAmount);
+        // window.scrollTo(0, 0);
+      } else {
+        document.body.style.overflowY = "";
+      }
     }
 
     // window.addEventListener("scroll", handleScroll);
     // window.removeEventListener("scroll", handleScroll);
 
     return () => {
-      document.body.style.overflowY = ""; // Reset when the component unmounts
+      // Only run on the client-side
+      if (typeof document !== "undefined") {
+        document.body.style.overflowY = ""; // Reset when the component unmounts
+      }
     };
   }, [isMenuOpen, isMenuPcOpen]);
 

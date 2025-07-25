@@ -6,7 +6,6 @@ import { Link as ScrollLink } from "react-scroll";
 // Text
 
 // import img from "next/image";
-import { MDBCheckbox } from "mdb-react-ui-kit";
 import Popup from "reactjs-popup";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -36,8 +35,6 @@ import ReviewGallery from "./components/reviews/ReviewGallery";
 import { keyframes } from "@emotion/react";
 import { Bounce, Fade, Reveal } from "react-awesome-reveal";
 import ReviewGalleryDesktop from "./components/reviews/ReviewGalleryDesktop";
-import "./styles/global.css";
-import "./styles/main/main.css";
 
 // import { link } from "fs";
 
@@ -591,7 +588,7 @@ export default function HomePage() {
       previousScrollY = scrollPosition;
     };
 
-    if (typeof window !== "undefined") {
+    if (typeof window !== "undefined" && typeof document !== "undefined") {
       console.log(document.title);
     }
 
@@ -3092,13 +3089,21 @@ export default function HomePage() {
                   </div>
                   <div className="checkbox-container">
                     <div className="checkbox-container-2">
-                      <MDBCheckbox
-                        name="flexCheck"
-                        value=""
-                        id="flexCheckChecked"
-                        label="Ознакомлен с Условиями обработки персональных данных"
-                        defaultChecked
-                      />
+                      <div className="form-check">
+                        <input
+                          className="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="flexCheckChecked"
+                          defaultChecked
+                        />
+                        <label
+                          className="form-check-label"
+                          htmlFor="flexCheckChecked"
+                        >
+                          Ознакомлен с Условиями обработки персональных данных
+                        </label>
+                      </div>
                     </div>
                   </div>
                   <button className="form-button" value="Send">

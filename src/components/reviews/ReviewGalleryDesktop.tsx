@@ -13,8 +13,6 @@ import {
   faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
 
-import "./styles/reviews_pc_gallery.css";
-
 interface ReviewTabProps {
   date: string;
   name: string;

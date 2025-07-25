@@ -12,7 +12,7 @@ import {
   faChevronRight,
   faClose,
 } from "@fortawesome/free-solid-svg-icons";
-import { MDBCheckbox } from "mdb-react-ui-kit";
+// // MDBCheckbox import removed // Removed due to ES module compatibility
 
 import emailjs from "@emailjs/browser";
 
@@ -20,7 +20,6 @@ import ReviewGallery from "../../components/reviews/ReviewGallery";
 import ServiceGallery from "../../components/gallery/services_gallery";
 import Footer from "../../components/footer/Footer";
 
-import "./styles/works_styles.css";
 import { Helmet } from "react-helmet";
 
 const serviceOnePc = require("../../assets/service_1.webp");

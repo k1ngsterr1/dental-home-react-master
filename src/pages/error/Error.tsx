@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
-import "./styles/error.css";
 
 const Error = () => {
   const navigate = useNavigate();

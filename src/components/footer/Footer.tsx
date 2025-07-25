@@ -12,7 +12,6 @@ import {
 import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 
-import "../footer/styles/footer_styles.css";
 import { useNavigate } from "react-router-dom";
 
 const Footer = () => {

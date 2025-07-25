@@ -1,0 +1,15 @@
+{
+  "extends": ["react-app", "react-app/jest"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "off",
+    "jsx-a11y/img-redundant-alt": "off",
+    "react-hooks/exhaustive-deps": "warn",
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/alt-text": "off",
+    "@typescript-eslint/no-redeclare": "off",
+    "no-lone-blocks": "off",
+    "react/jsx-no-target-blank": "off",
+    "import/first": "off"
+  },
+  "ignorePatterns": ["node_modules/", ".next/", "out/", "build/"]
+}

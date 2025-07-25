@@ -5,7 +5,7 @@ import {
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { MDBCheckbox } from "mdb-react-ui-kit";
+// // MDBCheckbox import removed // Removed due to ES module compatibility
 import React, { RefObject, useEffect, useRef, useState } from "react";
 import { Reveal } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
@@ -18,7 +18,6 @@ import Footer from "../../components/footer/Footer";
 import ReviewGallery from "../../components/reviews/ReviewGallery";
 
 import { Helmet } from "react-helmet";
-import "./styles/reviews_page.css";
 
 const logoMobile: string = require("../../assets/logo_mob.svg").default;
 const modalImage: string = require("../../assets/example_modal.webp");

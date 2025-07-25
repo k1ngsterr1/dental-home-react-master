@@ -5,7 +5,6 @@ import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
 import SwiperCore from "swiper";
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "./styles/gallery_styles_two.css";
 
 const galleryTwoPic = require("../../assets/gallery_two_pic.webp");
 

@@ -5,7 +5,7 @@ import {
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { MDBCheckbox } from "mdb-react-ui-kit";
+// // MDBCheckbox import removed // Removed due to ES module compatibility
 import React, { RefObject, useEffect, useRef, useState } from "react";
 import { Reveal } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
@@ -20,8 +20,6 @@ import { Helmet } from "react-helmet";
 import Footer from "../../components/footer/Footer";
 import ReviewGallery from "../../components/reviews/ReviewGallery";
 import ReviewGalleryDesktop from "../../components/reviews/ReviewGalleryDesktop";
-
-// import "./styles/clinics_styles.css";
 
 const doctorOneMob = require("../../assets/01.webp");
 const doctorTwoMob = require("../../assets/02.webp");
@@ -469,13 +467,21 @@ const ContactsPage = () => {
                     </div>
                     <div className="checkbox-container">
                       <div className="checkbox-container-2">
-                        <MDBCheckbox
-                          name="flexCheck"
-                          value=""
-                          id="flexCheckChecked"
-                          label="Ознакомлен с Условиями обработки персональных данных"
-                          defaultChecked
-                        />
+                        <div className="form-check">
+                          <input
+                            className="form-check-input"
+                            type="checkbox"
+                            value=""
+                            id="flexCheckChecked"
+                            defaultChecked
+                          />
+                          <label
+                            className="form-check-label"
+                            htmlFor="flexCheckChecked"
+                          >
+                            Ознакомлен с Условиями обработки персональных данных
+                          </label>
+                        </div>
                       </div>
                     </div>
                     <button className="form-button" value="Send">

@@ -8,8 +8,6 @@ import SwiperCore from "swiper";
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import "./styles/gallery_styles.css";
-
 // Hardcoded images - placeholders for now, images will be added later
 const pavelImage = require("../../assets/3.webp");
 const elenaImage = require("../../assets/elena_pc.webp");

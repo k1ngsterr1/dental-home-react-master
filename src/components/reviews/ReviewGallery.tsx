@@ -8,7 +8,6 @@ import { useNavigate } from "react-router-dom";
 import Popup from "reactjs-popup";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "./styles/reviews_gallery.css";
 
 interface ReviewTabProps {
   date: string;

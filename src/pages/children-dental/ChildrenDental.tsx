@@ -1,7 +1,7 @@
 import emailjs from "@emailjs/browser";
 import { keyframes } from "@emotion/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { MDBCheckbox } from "mdb-react-ui-kit";
+// // MDBCheckbox import removed // Removed due to ES module compatibility
 import { RefObject, useEffect, useRef, useState } from "react";
 import { Reveal } from "react-awesome-reveal";
 import { Helmet } from "react-helmet";
@@ -10,8 +10,6 @@ import Popup from "reactjs-popup";
 import Footer from "../../components/footer/Footer";
 import Gallery from "../../components/gallery/gallery";
 import Header from "../../components/header/header";
-
-import "./styles/children_styles.css";
 
 import {
   faChevronRight,
@@ -411,13 +409,21 @@ const ChildDental = () => {
                   </div>
                   <div className="checkbox-container">
                     <div className="checkbox-container-2">
-                      <MDBCheckbox
-                        name="flexCheck"
-                        value=""
-                        id="flexCheckChecked"
-                        label="Ознакомлен с Условиями обработки персональных данных"
-                        defaultChecked
-                      />
+                      <div className="form-check">
+                        <input
+                          className="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="flexCheckChecked"
+                          defaultChecked
+                        />
+                        <label
+                          className="form-check-label"
+                          htmlFor="flexCheckChecked"
+                        >
+                          Ознакомлен с Условиями обработки персональных данных
+                        </label>
+                      </div>
                     </div>
                   </div>
                   <button className="form-button" value="Send">

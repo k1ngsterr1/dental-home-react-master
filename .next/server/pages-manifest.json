@@ -1,0 +1,15 @@
+{
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html",
+  "/_app": "pages/_app.js",
+  "/doctors": "pages/doctors.js",
+  "/children-dental": "pages/children-dental.js",
+  "/about": "pages/about.js",
+  "/_error": "pages/_error.js",
+  "/contacts": "pages/contacts.js",
+  "/index-example": "pages/index-example.js",
+  "/": "pages/index.js",
+  "/prices": "pages/prices.js",
+  "/reviews": "pages/reviews.js",
+  "/services/[slug]": "pages/services/[slug].js"
+}

@@ -8,8 +8,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
 
-import "./styles/clinic_gallery_one.css";
-
 type Swiper = any;
 
 const galleryOnePic = require("../../assets/gallery_one_pic.webp");

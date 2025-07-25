@@ -8,8 +8,6 @@ import {
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 
-import "./styles/gallery_styles.css";
-
 const pavel = require("../../assets/pavel_gallery.webp");
 
 type Swiper = any;

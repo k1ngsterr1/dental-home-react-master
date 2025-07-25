@@ -6,7 +6,7 @@ import {
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { MDBCheckbox } from "mdb-react-ui-kit";
+// // MDBCheckbox import removed // Removed due to ES module compatibility
 import React, { RefObject, useEffect, useRef, useState } from "react";
 import { Fade, Reveal } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
@@ -23,7 +23,6 @@ import ReviewGallery from "../../components/reviews/ReviewGallery";
 import ReviewGalleryDesktop from "../../components/reviews/ReviewGalleryDesktop";
 
 import { Helmet } from "react-helmet";
-import "./styles/clinics_styles.css";
 
 const doctorOneMob = require("../../assets/01.webp");
 const doctorTwoMob = require("../../assets/marina_mob.webp");

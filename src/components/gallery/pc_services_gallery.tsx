@@ -8,8 +8,6 @@ import {
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 
-import "./styles/pc_gallery_styles.css";
-
 type Swiper = any;
 
 interface PhotoSource {

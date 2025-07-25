@@ -16,7 +16,6 @@ import Footer from "../../../components/footer/Footer";
 import Header from "../../../components/header/header";
 
 import { Helmet } from "react-helmet";
-import "../../../components/service_template/styles/services_styles.css";
 
 const pavelGallery = require("../../../assets/pavel_gallery.webp");
 const pavelGalleryPc = require("../../../assets/pavel_pc.webp");

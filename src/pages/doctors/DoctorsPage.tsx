@@ -6,7 +6,7 @@ import {
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { MDBCheckbox } from "mdb-react-ui-kit";
+// // MDBCheckbox import removed // Removed due to ES module compatibility
 import { RefObject, useEffect, useRef, useState } from "react";
 import { Reveal } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
@@ -17,7 +17,6 @@ import PcGallery from "../../components/gallery/pc_gallery";
 import Header from "../../components/header/header";
 
 import { Helmet } from "react-helmet";
-import "./styles/doctors_styles.css";
 
 const DoctorOnePc = require("../../assets/1.webp");
 const DoctorTwoPc = require("../../assets/karen_pc.webp");

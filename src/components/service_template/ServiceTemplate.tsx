@@ -1,19 +1,17 @@
 "use client";
 import Header from "../header/header";
-import "../styles/main/main.css";
-import "./styles/services_styles.css";
 
 import { Link } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faC, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
-const pavelGallery = require("./assets/pavel_gallery.webp");
-const pavelGalleryPc = require("./assets/pavel_pc.webp");
-
 import { useState } from "react";
 import Footer from "../footer/Footer";
 import Gallery from "../gallery/gallery";
+
+const pavelGallery = require("./assets/pavel_gallery.webp");
+const pavelGalleryPc = require("./assets/pavel_pc.webp");
 
 interface ServiceTemplateProps {
   title?: any;

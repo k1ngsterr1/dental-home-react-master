@@ -14,7 +14,7 @@ import {
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Popup from "reactjs-popup";
-import { MDBCheckbox } from "mdb-react-ui-kit";
+// // MDBCheckbox import removed // Removed due to ES module compatibility
 import emailjs from "@emailjs/browser";
 import Mheader from "../../components/header/m-header";
 

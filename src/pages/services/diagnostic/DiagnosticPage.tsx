@@ -1,6 +1,6 @@
 import emailjs from "@emailjs/browser";
 import { keyframes } from "@emotion/react";
-import { MDBCheckbox } from "mdb-react-ui-kit";
+// // MDBCheckbox import removed // Removed due to ES module compatibility
 import { RefObject, useEffect, useRef, useState } from "react";
 import { Reveal } from "react-awesome-reveal";
 import { Helmet } from "react-helmet";
@@ -23,7 +23,6 @@ import ReviewGallery from "../../../components/reviews/ReviewGallery";
 
 import PcGallery from "../../../components/gallery/pc_gallery";
 import ReviewGalleryDesktop from "../../../components/reviews/ReviewGalleryDesktop";
-import "../../../components/service_template/styles/services_styles.css";
 
 const pavelGallery = require("../../../assets/pavel_gallery.webp");
 const pavelGalleryPc = require("../../../assets/pavel_pc.webp");

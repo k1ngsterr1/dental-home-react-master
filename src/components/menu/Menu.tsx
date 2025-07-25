@@ -6,8 +6,6 @@ import { faVk, faTelegram } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 
-import "./styles/menu_styles.css";
-
 const childIcon: string = require("../../assets/child-icon.svg").default;
 const logo: string = require("../../assets/logo_mob.svg").default;
 

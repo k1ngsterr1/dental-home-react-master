@@ -10,7 +10,6 @@ import { Link as ScrollLink } from "react-scroll";
 import Popup from "reactjs-popup";
 import Footer from "../../components/footer/Footer";
 import Header from "../../components/header/header";
-import "../prices/styles/prices_styles.css";
 
 const logoMobile: string = require("../../assets/logo_mob.svg").default;
 const modalImage: string = require("../../assets/example_modal.webp");

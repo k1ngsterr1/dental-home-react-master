@@ -6,8 +6,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import "./styles/pc_gallery_styles.css";
-
 // Hardcoded images - placeholders for now, images will be added later
 const pavelImage = require("../../assets/3.webp");
 const elenaImage = require("../../assets/elena_pc.webp");
