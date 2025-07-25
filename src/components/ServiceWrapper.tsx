@@ -8,9 +8,7 @@ const serviceComponents: { [key: string]: React.ComponentType<any> } = {
     () => import("../pages/services/diagnostic/DiagnosticPage")
   ),
   hygiene: dynamic(() => import("../pages/services/hygiene/Hygiene")),
-  whitening: dynamic(
-    () => import("../pages/services/whitening/Whitening")
-  ),
+  whitening: dynamic(() => import("../pages/services/whitening/Whitening")),
   implants: dynamic(() => import("../pages/services/implants/Implants")),
   surgery: dynamic(() => import("../pages/services/surgery/Surgery")),
   prosthetics: dynamic(
@@ -56,11 +54,11 @@ interface ServiceWrapperProps {
 
 export default function ServiceWrapper({ slug }: ServiceWrapperProps) {
   const ServiceComponent = serviceComponents[slug];
-  
+
   if (!ServiceComponent) {
     return <div>Service not found</div>;
   }
-  
+
   return (
     <ClientOnly>
       <ServiceComponent />
