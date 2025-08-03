@@ -15,6 +15,9 @@ const evgeniyImage = require("../../assets/orthoped_pc.webp");
 const arsenImage = require("../../assets/arsen.webp");
 const daryaImage = require("../../assets/darya.webp");
 const denisImage = require("../../assets/denis.webp");
+const andreyImage = require("../../assets/andery_andreevich.jpg");
+const annaImage = require("../../assets/anna_sergeevna.jpg");
+const ekaterinaImage = require("../../assets/ekaterina.jpg");
 
 const tatjanaImage = require("../../assets/tanya_new.webp");
 const tatjanaImage2 = require("../../assets/tanya.webp");
@@ -201,6 +204,45 @@ const PcGallery: React.FC<PcGalleryProps> = ({ openModal }) => {
               Заведующий терапевтическим отделением Врач-стоматолог
               терапевт-микроскопист высшей категории!
             </p>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="dentist-card">
+            <div className="button-image-container">
+              <button className="doctor-btn" onClick={openModal}>
+                <span className="text">Записаться</span>
+              </button>
+              <img src={andreyImage} alt="Doctor" className="doctor-image" />
+            </div>
+            <h3 className="doctor-name">Бажанов Андрей Андреевич</h3>
+            <p className="doctor-position">Стоматолог</p>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="dentist-card">
+            <div className="button-image-container">
+              <button className="doctor-btn" onClick={openModal}>
+                <span className="text">Записаться</span>
+              </button>
+              <img src={annaImage} alt="Doctor" className="doctor-image" />
+            </div>
+            <h3 className="doctor-name">Савченкова Анна Сергеевна</h3>
+            <p className="doctor-position">Стоматолог</p>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="dentist-card">
+            <div className="button-image-container">
+              <button className="doctor-btn" onClick={openModal}>
+                <span className="text">Записаться</span>
+              </button>
+              <img src={ekaterinaImage} alt="Doctor" className="doctor-image" />
+            </div>
+            <h3 className="doctor-name">Лушникова Екатерина Дмитриевна</h3>
+            <p className="doctor-position">Стоматолог</p>
           </div>
         </SwiperSlide>
       </Swiper>
