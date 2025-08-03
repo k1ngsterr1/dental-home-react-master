@@ -216,7 +216,9 @@ const PcGallery: React.FC<PcGalleryProps> = ({ openModal }) => {
               <img src={andreyImage} alt="Doctor" className="doctor-image" />
             </div>
             <h3 className="doctor-name">Бажанов Андрей Андреевич</h3>
-            <p className="doctor-position">Стоматолог</p>
+            <p className="doctor-position">
+              Врач стоматолог ортопед Врач стоматолог хирург-имплантолог
+            </p>
           </div>
         </SwiperSlide>
 
@@ -229,7 +231,7 @@ const PcGallery: React.FC<PcGalleryProps> = ({ openModal }) => {
               <img src={annaImage} alt="Doctor" className="doctor-image" />
             </div>
             <h3 className="doctor-name">Савченкова Анна Сергеевна</h3>
-            <p className="doctor-position">Стоматолог</p>
+            <p className="doctor-position">Врач стоматолог детский</p>
           </div>
         </SwiperSlide>
 
@@ -242,7 +244,9 @@ const PcGallery: React.FC<PcGalleryProps> = ({ openModal }) => {
               <img src={ekaterinaImage} alt="Doctor" className="doctor-image" />
             </div>
             <h3 className="doctor-name">Лушникова Екатерина Дмитриевна</h3>
-            <p className="doctor-position">Стоматолог</p>
+            <p className="doctor-position">
+              Врач Стоматолог-терапевт микроскопист
+            </p>
           </div>
         </SwiperSlide>
       </Swiper>
