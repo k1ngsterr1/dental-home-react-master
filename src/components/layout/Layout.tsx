@@ -57,7 +57,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           />
         </Bounce>
       </a>
-      
+
       {/* Telegram Button */}
       <a
         href="https://t.me/dentalhomebot"
@@ -89,10 +89,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         }}
       >
         <Bounce delay={400} triggerOnce={true}>
-          <FontAwesomeIcon 
-            icon={faTelegram} 
-            style={{ fontSize: "32px" }}
-          />
+          <FontAwesomeIcon icon={faTelegram} style={{ fontSize: "32px" }} />
         </Bounce>
       </a>
     </div>
