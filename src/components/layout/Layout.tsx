@@ -1,5 +1,7 @@
 import React from "react";
 import { Bounce } from "react-awesome-reveal";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTelegram } from "@fortawesome/free-brands-svg-icons";
 
 const whatsapp = require("../../assets/whatsapp.webp");
 
@@ -15,6 +17,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className="layout">
       {children}
+      {/* WhatsApp Button */}
       <a
         href="https://wa.me/79252229022?text=Здравствуйте!%20Хочу%20записаться%20к%20вам%20в%20клинику."
         target="_blank"
@@ -51,6 +54,44 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               objectFit: "contain",
             }}
             alt="WHATSAPP"
+          />
+        </Bounce>
+      </a>
+      
+      {/* Telegram Button */}
+      <a
+        href="https://t.me/dentalhomebot"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="telegram-button"
+        onClick={closeMenu}
+        style={{
+          position: "fixed",
+          bottom: "32px",
+          right: "112px", // 32px (right margin) + 64px (whatsapp width) + 16px (gap)
+          zIndex: 9999,
+          color: "#fff",
+          backgroundColor: "#0088cc",
+          borderRadius: "50%",
+          width: "64px",
+          height: "64px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          fontWeight: 700,
+          fontSize: "28px",
+          cursor: "pointer",
+          border: "none",
+          outline: "none",
+          transition: "background-color 0.2s",
+          textDecoration: "none",
+          boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)",
+        }}
+      >
+        <Bounce delay={400} triggerOnce={true}>
+          <FontAwesomeIcon 
+            icon={faTelegram} 
+            style={{ fontSize: "32px" }}
           />
         </Bounce>
       </a>
