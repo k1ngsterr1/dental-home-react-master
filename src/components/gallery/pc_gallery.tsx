@@ -17,7 +17,7 @@ const daryaImage = require("../../assets/darya.webp");
 const denisImage = require("../../assets/denis.webp");
 const andreyImage = require("../../assets/andrey_andreevich.jpg");
 const annaImage = require("../../assets/anna_sergeevna.jpg");
-const ekaterinaImage = require("../../assets/ekaterina.jpg");
+const ekaterinaImage = require("../../assets/katya_square.jpg");
 
 const tatjanaImage = require("../../assets/tanya_new.webp");
 const tatjanaImage2 = require("../../assets/tanya.webp");
