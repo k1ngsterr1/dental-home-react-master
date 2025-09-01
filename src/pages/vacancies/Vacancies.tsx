@@ -24,9 +24,12 @@ const Vacancies = () => {
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [resume, setResume] = useState<File | null>(null);
+  const [selectedVacancy, setSelectedVacancy] = useState("");
   const [isChecked, setIsChecked] = useState(false);
   const [successMessage, setSuccessMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   // Toggle for vacancy details
   const [expandedVacancies, setExpandedVacancies] = useState<number[]>([]);
@@ -117,8 +120,10 @@ const Vacancies = () => {
   ];
 
   // Handle form submission
-  const handleFormSubmit = (e: React.FormEvent) => {
+  const handleFormSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setErrorMessage("");
+    setSuccessMessage("");
 
     if (!isChecked) {
       setErrorMessage(
@@ -127,35 +132,84 @@ const Vacancies = () => {
       return;
     }
 
-    const templateParams = {
-      from_name: name,
-      phone: phone,
-      email: email,
-      message: message,
-    };
+    setIsSubmitting(true);
 
-    emailjs
-      .send(
-        "YOUR_SERVICE_ID", // Replace with your EmailJS service ID
-        "YOUR_TEMPLATE_ID", // Replace with your EmailJS template ID
-        templateParams,
-        "YOUR_USER_ID" // Replace with your EmailJS user ID
-      )
-      .then(() => {
-        setSuccessMessage(
-          "Спасибо! Ваше сообщение отправлено. Мы свяжемся с вами в ближайшее время."
-        );
+    try {
+      const formData = new FormData();
+      formData.append("name", name);
+      formData.append("phone", phone);
+      formData.append("email", email);
+      formData.append("message", message);
+      formData.append("vacancy", selectedVacancy);
+
+      if (resume) {
+        formData.append("resume", resume);
+      }
+
+      const response = await fetch("http://localhost:5000/api/apply", {
+        method: "POST",
+        body: formData,
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setSuccessMessage(data.message);
+        // Reset form
         setName("");
         setPhone("");
         setEmail("");
         setMessage("");
+        setResume(null);
+        setSelectedVacancy("");
         setIsChecked(false);
-      })
-      .catch(() => {
+
+        // Reset file input
+        const fileInput = document.getElementById("resume") as HTMLInputElement;
+        if (fileInput) {
+          fileInput.value = "";
+        }
+      } else {
+        setErrorMessage(data.error || "Произошла ошибка при отправке заявки");
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      setErrorMessage(
+        "Произошла ошибка при отправке заявки. Проверьте подключение к интернету."
+      );
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  // Handle file selection
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (file) {
+      // Check file size (5MB limit)
+      if (file.size > 5 * 1024 * 1024) {
+        setErrorMessage("Размер файла не должен превышать 5MB");
+        return;
+      }
+
+      // Check file type
+      const allowedTypes = [
+        "application/pdf",
+        "application/msword",
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "text/plain",
+      ];
+
+      if (!allowedTypes.includes(file.type)) {
         setErrorMessage(
-          "Произошла ошибка при отправке формы. Пожалуйста, попробуйте позже."
+          "Поддерживаются только файлы формата PDF, DOC, DOCX, TXT"
         );
-      });
+        return;
+      }
+
+      setResume(file);
+      setErrorMessage("");
+    }
   };
 
   const [thankYou, setThankYou] = useState(false);
@@ -429,22 +483,30 @@ const Vacancies = () => {
                         textAlign: "center",
                       }}
                     >
-                      <a
-                        href="#application-form"
+                      <button
+                        onClick={() => {
+                          setSelectedVacancy(vacancy.title);
+                          document
+                            .getElementById("application-form")
+                            ?.scrollIntoView({
+                              behavior: "smooth",
+                            });
+                        }}
                         style={{
                           display: "inline-block",
                           padding: "12px 24px",
                           backgroundColor: "#007bff",
                           color: "#fff",
                           borderRadius: "5px",
-                          textDecoration: "none",
+                          border: "none",
                           fontWeight: "600",
                           fontSize: "16px",
+                          cursor: "pointer",
                           transition: "background-color 0.3s ease",
                         }}
                       >
                         Откликнуться на вакансию
-                      </a>
+                      </button>
                     </div>
                   </div>
                 )}
@@ -509,6 +571,48 @@ const Vacancies = () => {
             )}
 
             <form onSubmit={handleFormSubmit}>
+              <div
+                style={{
+                  marginBottom: "20px",
+                }}
+              >
+                <label
+                  htmlFor="vacancy"
+                  style={{
+                    display: "block",
+                    marginBottom: "8px",
+                    fontSize: "16px",
+                    fontWeight: "500",
+                    color: "#333",
+                  }}
+                >
+                  Вакансия
+                </label>
+                <select
+                  id="vacancy"
+                  value={selectedVacancy}
+                  onChange={(e) => setSelectedVacancy(e.target.value)}
+                  style={{
+                    width: "100%",
+                    padding: "12px 15px",
+                    borderRadius: "5px",
+                    border: "1px solid #ccc",
+                    fontSize: "16px",
+                    backgroundColor: "#fff",
+                  }}
+                >
+                  <option value="">
+                    Выберите вакансию или оставьте пустым
+                  </option>
+                  {vacancies.map((vacancy, index) => (
+                    <option key={index} value={vacancy.title}>
+                      {vacancy.title}
+                    </option>
+                  ))}
+                  <option value="Другая">Другая позиция</option>
+                </select>
+              </div>
+
               <div
                 style={{
                   marginBottom: "20px",
@@ -648,6 +752,51 @@ const Vacancies = () => {
               <div
                 style={{
                   marginBottom: "20px",
+                }}
+              >
+                <label
+                  htmlFor="resume"
+                  style={{
+                    display: "block",
+                    marginBottom: "8px",
+                    fontSize: "16px",
+                    fontWeight: "500",
+                    color: "#333",
+                  }}
+                >
+                  Резюме (PDF, DOC, DOCX, TXT - до 5MB)
+                </label>
+                <input
+                  type="file"
+                  id="resume"
+                  accept=".pdf,.doc,.docx,.txt"
+                  onChange={handleFileChange}
+                  style={{
+                    width: "100%",
+                    padding: "12px 15px",
+                    borderRadius: "5px",
+                    border: "1px solid #ccc",
+                    fontSize: "16px",
+                    backgroundColor: "#fff",
+                  }}
+                />
+                {resume && (
+                  <p
+                    style={{
+                      fontSize: "14px",
+                      color: "#007bff",
+                      marginTop: "5px",
+                    }}
+                  >
+                    Выбран файл: {resume.name} (
+                    {(resume.size / 1024 / 1024).toFixed(2)} MB)
+                  </p>
+                )}
+              </div>
+
+              <div
+                style={{
+                  marginBottom: "20px",
                   display: "flex",
                   alignItems: "flex-start",
                 }}
@@ -687,19 +836,20 @@ const Vacancies = () => {
               >
                 <button
                   type="submit"
+                  disabled={isSubmitting}
                   style={{
                     padding: "14px 28px",
-                    backgroundColor: "#007bff",
+                    backgroundColor: isSubmitting ? "#ccc" : "#007bff",
                     color: "#fff",
                     border: "none",
                     borderRadius: "5px",
                     fontSize: "18px",
                     fontWeight: "600",
-                    cursor: "pointer",
+                    cursor: isSubmitting ? "not-allowed" : "pointer",
                     transition: "background-color 0.3s ease",
                   }}
                 >
-                  Отправить резюме
+                  {isSubmitting ? "Отправляется..." : "Отправить резюме"}
                 </button>
               </div>
             </form>
