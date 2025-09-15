@@ -237,7 +237,7 @@ const Vacancies = () => {
   };
 
   return (
-    <div>
+    <>
       <style>{`
         .mobile-header {
           display: block;
@@ -515,8 +515,342 @@ const Vacancies = () => {
           </div>
         </Reveal>
 
-        {/* Application form section */}
-        <Reveal style={{ width: "100%" }}>
+        {/* Application form section - СКРЫТО */}
+        <Reveal style={{ width: "100%", display: "none" }}>
+          <div
+              id="application-form"
+              style={{
+                backgroundColor: "#f9f9f9",
+                borderRadius: "10px",
+                padding: "40px 30px",
+                maxWidth: "800px",
+                margin: "0 auto",
+                boxShadow: "0 5px 20px rgba(0,0,0,0.1)",
+              }}
+            >
+              <h2
+                style={{
+                  fontSize: "28px",
+                  marginBottom: "30px",
+                  textAlign: "center",
+                  fontWeight: "700",
+                  color: "#222",
+                }}
+              >
+                Отправить резюме
+              </h2>
+
+              {successMessage && (
+                <div
+                  style={{
+                    backgroundColor: "#d4edda",
+                    color: "#155724",
+                    padding: "15px",
+                    borderRadius: "5px",
+                    marginBottom: "20px",
+                    textAlign: "center",
+                  }}
+                >
+                  {successMessage}
+                </div>
+              )}
+
+              {errorMessage && (
+                <div
+                  style={{
+                    backgroundColor: "#f8d7da",
+                    color: "#721c24",
+                    padding: "15px",
+                    borderRadius: "5px",
+                    marginBottom: "20px",
+                    textAlign: "center",
+                  }}
+                >
+                  {errorMessage}
+                </div>
+              )}
+
+              <form onSubmit={handleFormSubmit}>
+                <div
+                  style={{
+                    marginBottom: "20px",
+                  }}
+                >
+                  <label
+                    htmlFor="vacancy"
+                    style={{
+                      display: "block",
+                      marginBottom: "8px",
+                      fontSize: "16px",
+                      fontWeight: "500",
+                      color: "#333",
+                    }}
+                  >
+                    Вакансия
+                  </label>
+                  <select
+                    id="vacancy"
+                    value={selectedVacancy}
+                    onChange={(e) => setSelectedVacancy(e.target.value)}
+                    style={{
+                      width: "100%",
+                      padding: "12px 15px",
+                      borderRadius: "5px",
+                      border: "1px solid #ccc",
+                      fontSize: "16px",
+                      backgroundColor: "#fff",
+                    }}
+                  >
+                    <option value="">Выберите вакансию или оставьте пустым</option>
+                    {vacancies.map((vacancy, index) => (
+                      <option key={index} value={vacancy.title}>
+                        {vacancy.title}
+                      </option>
+                    ))}
+                    <option value="Другая">Другая позиция</option>
+                  </select>
+                </div>
+
+                <div
+                  style={{
+                    marginBottom: "20px",
+                  }}
+                >
+                  <label
+                    htmlFor="name"
+                    style={{
+                      display: "block",
+                      marginBottom: "8px",
+                      fontSize: "16px",
+                      fontWeight: "500",
+                      color: "#333",
+                    }}
+                  >
+                    Имя*
+                  </label>
+                  <input
+                    type="text"
+                    id="name"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                    required
+                    style={{
+                      width: "100%",
+                      padding: "12px 15px",
+                      borderRadius: "5px",
+                      border: "1px solid #ccc",
+                      fontSize: "16px",
+                      backgroundColor: "#fff",
+                    }}
+                  />
+                </div>
+
+                <div
+                  style={{
+                    marginBottom: "20px",
+                  }}
+                >
+                  <label
+                    htmlFor="phone"
+                    style={{
+                      display: "block",
+                      marginBottom: "8px",
+                      fontSize: "16px",
+                      fontWeight: "500",
+                      color: "#333",
+                    }}
+                  >
+                    Телефон*
+                  </label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    value={phone}
+                    onChange={(e) => setPhone(e.target.value)}
+                    required
+                    style={{
+                      width: "100%",
+                      padding: "12px 15px",
+                      borderRadius: "5px",
+                      border: "1px solid #ccc",
+                      fontSize: "16px",
+                      backgroundColor: "#fff",
+                    }}
+                  />
+                </div>
+
+                <div
+                  style={{
+                    marginBottom: "20px",
+                  }}
+                >
+                  <label
+                    htmlFor="email"
+                    style={{
+                      display: "block",
+                      marginBottom: "8px",
+                      fontSize: "16px",
+                      fontWeight: "500",
+                      color: "#333",
+                    }}
+                  >
+                    Email*
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
+                    style={{
+                      width: "100%",
+                      padding: "12px 15px",
+                      borderRadius: "5px",
+                      border: "1px solid #ccc",
+                      fontSize: "16px",
+                      backgroundColor: "#fff",
+                    }}
+                  />
+                </div>
+
+                <div
+                  style={{
+                    marginBottom: "20px",
+                  }}
+                >
+                  <label
+                    htmlFor="message"
+                    style={{
+                      display: "block",
+                      marginBottom: "8px",
+                      fontSize: "16px",
+                      fontWeight: "500",
+                      color: "#333",
+                    }}
+                  >
+                    Сопроводительное письмо
+                  </label>
+                  <textarea
+                    id="message"
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
+                    rows={5}
+                    style={{
+                      width: "100%",
+                      padding: "12px 15px",
+                      borderRadius: "5px",
+                      border: "1px solid #ccc",
+                      resize: "vertical",
+                      fontSize: "16px",
+                      backgroundColor: "#fff",
+                    }}
+                  />
+                </div>
+
+                <div
+                  style={{
+                    marginBottom: "20px",
+                  }}
+                >
+                  <label
+                    htmlFor="resume"
+                    style={{
+                      display: "block",
+                      marginBottom: "8px",
+                      fontSize: "16px",
+                      fontWeight: "500",
+                      color: "#333",
+                    }}
+                  >
+                    Резюме (PDF, DOC, DOCX, TXT - до 5MB)
+                  </label>
+                  <input
+                    type="file"
+                    id="resume"
+                    accept=".pdf,.doc,.docx,.txt"
+                    onChange={handleFileChange}
+                    style={{
+                      width: "100%",
+                      padding: "12px 15px",
+                      borderRadius: "5px",
+                      border: "1px solid #ccc",
+                      fontSize: "16px",
+                      backgroundColor: "#fff",
+                    }}
+                  />
+                  {resume && (
+                    <p style={{ 
+                      fontSize: "14px", 
+                      color: "#007bff", 
+                      marginTop: "5px" 
+                    }}>
+                      Выбран файл: {resume.name} ({(resume.size / 1024 / 1024).toFixed(2)} MB)
+                    </p>
+                  )}
+                </div>
+
+                <div
+                  style={{
+                    marginBottom: "20px",
+                    display: "flex",
+                    alignItems: "flex-start",
+                  }}
+                >
+                  <MDBCheckbox
+                    name="privacy"
+                    id="privacy"
+                    checked={isChecked}
+                    onChange={() => setIsChecked(!isChecked)}
+                    label=""
+                  />
+                  <label
+                    htmlFor="privacy"
+                    style={{
+                      fontSize: "14px",
+                      color: "#666",
+                      marginLeft: "10px",
+                    }}
+                  >
+                    Я согласен(на) на обработку{" "}
+                    <Link
+                      to="/privacy"
+                      style={{
+                        color: "#007bff",
+                        textDecoration: "underline",
+                      }}
+                    >
+                      персональных данных
+                    </Link>
+                  </label>
+                </div>
+
+                <div
+                  style={{
+                    textAlign: "center",
+                  }}
+                >
+                  <button
+                    type="submit"
+                    disabled={isSubmitting}
+                    style={{
+                      padding: "14px 28px",
+                      backgroundColor: isSubmitting ? "#ccc" : "#007bff",
+                      color: "#fff",
+                      border: "none",
+                      borderRadius: "5px",
+                      fontSize: "18px",
+                      fontWeight: "600",
+                      cursor: isSubmitting ? "not-allowed" : "pointer",
+                      transition: "background-color 0.3s ease",
+                    }}
+                  >
+                    {isSubmitting ? "Отправляется..." : "Отправить резюме"}
+                  </button>
+                </div>
+              </form>
+            </div>
+          </Reveal>
+        )}
           <div
             id="application-form"
             style={{
@@ -855,10 +1189,11 @@ const Vacancies = () => {
             </form>
           </div>
         </Reveal>
+
       </main>
 
       <Footer />
-    </div>
+    </>
   );
 };
 
