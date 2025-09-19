@@ -10,6 +10,7 @@ import {
   faChevronRight,
   faMinus,
   faPlus,
+  faClose,
 } from "@fortawesome/free-solid-svg-icons";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -255,20 +256,14 @@ const Vacancies = () => {
           content="Актуальные вакансии в стоматологии Dental Home. Присоединяйтесь к нашей команде профессионалов!"
         />
       </Helmet>
-      <Mheader
-        isMenuOpen={isMenuOpen}
-        openModal={openModal}
-        toggleMenu={toggleMenu}
-      ></Mheader>
       <main className="content">
+        <Header
+          isMenuPcOpen={isMenuPcOpen}
+          openModal={openModal}
+          togglePcMenu={togglePcMenu}
+        ></Header>
         <div className="header-container" style={{ width: "100%" }}></div>
-        <div className="tablet" style={{ width: "100%" }}>
-          <Header
-            isMenuPcOpen={isMenuPcOpen}
-            openModal={openModal}
-            togglePcMenu={togglePcMenu}
-          ></Header>
-        </div>
+        <div className="tablet" style={{ width: "100%" }}></div>
         <Reveal>
           <h1
             style={{
@@ -517,6 +512,136 @@ const Vacancies = () => {
       </main>
 
       <Footer />
+
+      <Popup
+        open={open}
+        closeOnDocumentClick
+        onClose={closeModal}
+        modal
+        nested
+        className="popup-container"
+        position="center center"
+        overlayStyle={{
+          background: "rgba(32, 38, 55, 0.9)",
+          position: "fixed",
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          zIndex: 9999,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          padding: "20px",
+          boxSizing: "border-box",
+        }}
+        contentStyle={{
+          background: "transparent",
+          border: "none",
+          padding: 0,
+          margin: 0,
+          width: "100%",
+          height: "auto",
+          maxWidth: "600px",
+          overflow: "visible",
+        }}
+      >
+        <div
+          className="modal"
+          style={{
+            position: "relative",
+            background: "#fff",
+            width: "100%",
+            maxWidth: "600px",
+            margin: "0 auto",
+            padding: "40px",
+            borderRadius: "12px",
+            overflow: "hidden",
+          }}
+        >
+          <FontAwesomeIcon
+            icon={faClose}
+            onClick={closeModal}
+            style={{
+              position: "absolute",
+              top: "15px",
+              right: "15px",
+              fontSize: "24px",
+              color: "#E6C96B",
+              cursor: "pointer",
+              background: "rgba(0,0,0,0.5)",
+              padding: "8px",
+              borderRadius: "50%",
+              zIndex: 10000,
+            }}
+          />
+          {thankYou ? (
+            <div style={{ textAlign: "center" }}>
+              <h2 style={{ marginBottom: "20px", color: "#333" }}>
+                Спасибо за заявку!
+              </h2>
+              <p style={{ color: "#666" }}>
+                Мы свяжемся с вами в ближайшее время.
+              </p>
+            </div>
+          ) : (
+            <div>
+              <h2
+                style={{
+                  marginBottom: "30px",
+                  textAlign: "center",
+                  color: "#333",
+                }}
+              >
+                Записаться на прием
+              </h2>
+              <form
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "20px",
+                }}
+              >
+                <input
+                  type="text"
+                  placeholder="Ваше имя"
+                  style={{
+                    padding: "15px",
+                    border: "1px solid #ddd",
+                    borderRadius: "8px",
+                    fontSize: "16px",
+                  }}
+                />
+                <input
+                  type="tel"
+                  placeholder="Ваш телефон"
+                  style={{
+                    padding: "15px",
+                    border: "1px solid #ddd",
+                    borderRadius: "8px",
+                    fontSize: "16px",
+                  }}
+                />
+                <button
+                  type="submit"
+                  style={{
+                    padding: "15px",
+                    background: "#E6C96B",
+                    color: "#fff",
+                    border: "none",
+                    borderRadius: "8px",
+                    fontSize: "16px",
+                    fontWeight: "600",
+                    cursor: "pointer",
+                  }}
+                >
+                  Отправить
+                </button>
+              </form>
+            </div>
+          )}
+        </div>
+      </Popup>
     </div>
   );
 };
