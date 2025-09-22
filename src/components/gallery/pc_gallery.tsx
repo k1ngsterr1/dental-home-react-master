@@ -83,19 +83,6 @@ const PcGallery: React.FC<PcGalleryProps> = ({ openModal }) => {
             </p>
           </div>
         </SwiperSlide>
-
-        <SwiperSlide>
-          <div className="dentist-card">
-            <div className="button-image-container">
-              <button className="doctor-btn" onClick={openModal}>
-                <span className="text">Записаться</span>
-              </button>
-              <img src={elenaImage} alt="Doctor" className="doctor-image" />
-            </div>
-            <h3 className="doctor-name">Терехова Елена Юрьевна</h3>
-            <p className="doctor-position">Стоматолог терапевт</p>
-          </div>
-        </SwiperSlide>
         <SwiperSlide>
           <div className="dentist-card">
             <div className="button-image-container">
@@ -220,6 +207,19 @@ const PcGallery: React.FC<PcGalleryProps> = ({ openModal }) => {
             <p className="doctor-position">
               Врач Стоматолог-терапевт микроскопист
             </p>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="dentist-card">
+            <div className="button-image-container">
+              <button className="doctor-btn" onClick={openModal}>
+                <span className="text">Записаться</span>
+              </button>
+              <img src={elenaImage} alt="Doctor" className="doctor-image" />
+            </div>
+            <h3 className="doctor-name">Терехова Елена Юрьевна</h3>
+            <p className="doctor-position">Стоматолог терапевт</p>
           </div>
         </SwiperSlide>
       </Swiper>
