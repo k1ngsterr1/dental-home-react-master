@@ -108,36 +108,10 @@ const Gallery: React.FC<GalleryProps> = ({ openModal }) => {
               <button className="doctor-btn" onClick={openModal}>
                 <span className="text">Записаться</span>
               </button>
-              <img src={evgeniyImage} alt="Doctor" className="doctor-image" />
-            </div>
-            <h3 className="doctor-name">Браткеев Евгений Викторович</h3>
-            <p className="doctor-position">Ортопед</p>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className="dentist-card-2">
-            <div className="button-image-container">
-              <button className="doctor-btn" onClick={openModal}>
-                <span className="text">Записаться</span>
-              </button>
               <img src={arsenImage} alt="Doctor" className="doctor-image" />
             </div>
             <h3 className="doctor-name">Рабаданов Арсен Залибегович</h3>
             <p className="doctor-position">Стоматолог-хирург-имплантолог</p>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className="dentist-card-2">
-            <div className="button-image-container">
-              <button className="doctor-btn" onClick={openModal}>
-                <span className="text">Записаться</span>
-              </button>
-              <img src={daryaImage} alt="Doctor" className="doctor-image" />
-            </div>
-            <h3 className="doctor-name">Зайцева Дарья Никитична</h3>
-            <p className="doctor-position">Врач-стоматолог-пародонтолог</p>
           </div>
         </SwiperSlide>
 
@@ -235,7 +209,7 @@ const Gallery: React.FC<GalleryProps> = ({ openModal }) => {
               </button>
               <img src={annaImage} alt="Doctor" className="doctor-image" />
             </div>
-            <h3 className="doctor-name">Савченко Анна Сергеевна</h3>
+            <h3 className="doctor-name">Савченкова Анна Сергеевна</h3>
             <p className="doctor-position">Врач стоматолог детский</p>
           </div>
         </SwiperSlide>
