@@ -1126,7 +1126,7 @@ export default function HomePage() {
                   }}
                 >
                   {/* Promotion 1 */}
-                  <Fade triggerOnce={true} direction="up" delay={200}>
+                  {/* <Fade triggerOnce={true} direction="up" delay={200}>
                     <div
                       style={{
                         padding: "25px",
@@ -1221,7 +1221,7 @@ export default function HomePage() {
                         Записаться
                       </button>
                     </div>
-                  </Fade>
+                  </Fade> */}
 
                   {/* Promotion 2 */}
                   <Fade triggerOnce={true} direction="up" delay={300}>
