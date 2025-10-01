@@ -478,15 +478,8 @@ const Vacancies = () => {
                         textAlign: "center",
                       }}
                     >
-                      <button
-                        onClick={() => {
-                          setSelectedVacancy(vacancy.title);
-                          document
-                            .getElementById("application-form")
-                            ?.scrollIntoView({
-                              behavior: "smooth",
-                            });
-                        }}
+                      <a
+                        href="tel:+79917793995"
                         style={{
                           display: "inline-block",
                           padding: "12px 24px",
@@ -498,10 +491,11 @@ const Vacancies = () => {
                           fontSize: "16px",
                           cursor: "pointer",
                           transition: "background-color 0.3s ease",
+                          textDecoration: "none",
                         }}
                       >
                         Откликнуться на вакансию
-                      </button>
+                      </a>
                     </div>
                   </div>
                 )}
