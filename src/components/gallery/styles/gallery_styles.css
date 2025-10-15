@@ -52,7 +52,6 @@ body .gallery .dentist-card .button-image-container,
 body .gallery .dentist-card-2 .button-image-container {
   position: relative;
   width: 100%;
-  height: clamp(500px, 90vw, 750px); /* Much much taller image container */
   overflow: hidden;
   border-radius: 8px;
   margin-bottom: clamp(
