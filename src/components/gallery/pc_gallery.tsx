@@ -18,6 +18,7 @@ const denisImage = require("../../assets/denis.webp");
 const andreyImage = require("../../assets/andrey_andreevich.jpg");
 const annaImage = require("../../assets/anna_sergeevna.jpg");
 const ekaterinaImage = require("../../assets/katya_square.png");
+const marusyaImage = require("../../assets/marusya.jpg");
 
 const tatjanaImage = require("../../assets/tanya_new.webp");
 const tatjanaImage2 = require("../../assets/tanya.webp");
@@ -220,6 +221,19 @@ const PcGallery: React.FC<PcGalleryProps> = ({ openModal }) => {
             </div>
             <h3 className="doctor-name">Терехова Елена Юрьевна</h3>
             <p className="doctor-position">Стоматолог терапевт</p>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="dentist-card">
+            <div className="button-image-container">
+              <button className="doctor-btn" onClick={openModal}>
+                <span className="text">Записаться</span>
+              </button>
+              <img src={marusyaImage} alt="Doctor" className="doctor-image" />
+            </div>
+            <h3 className="doctor-name">Пахалян Маруся Акоповна</h3>
+            <p className="doctor-position">Врач стоматолог детский</p>
           </div>
         </SwiperSlide>
       </Swiper>
