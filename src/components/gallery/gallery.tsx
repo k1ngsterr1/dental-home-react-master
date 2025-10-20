@@ -153,7 +153,7 @@ const Gallery: React.FC<GalleryProps> = ({ openModal }) => {
               </button>
               <img src={katyaImage} alt="Doctor" className="doctor-image" />
             </div>
-            <h3 className="doctor-name">Ковалева Екатерина Олеговна</h3>
+            <h3 className="doctor-name">Майсурадзе Екатерина Олеговна</h3>
             <p className="doctor-position">Врач стоматолог-ортодонт</p>
           </div>
         </SwiperSlide>

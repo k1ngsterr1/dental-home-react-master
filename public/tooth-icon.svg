@@ -1,0 +1,6 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tooth shape -->
+  <path d="M16 4C12.5 4 10 6.5 10 10C10 11.5 9.5 13 9 15C8.5 17 8 19 8 21C8 23.5 8.5 26 10 27C11.5 28 13 28 14 28C15 28 15.5 27.5 16 26C16.5 27.5 17 28 18 28C19 28 20.5 28 22 27C23.5 26 24 23.5 24 21C24 19 23.5 17 23 15C22.5 13 22 11.5 22 10C22 6.5 19.5 4 16 4Z" fill="white" stroke="#00A3E0" stroke-width="1.5"/>
+  <!-- Highlight for depth -->
+  <ellipse cx="14" cy="12" rx="2" ry="3" fill="#E6F7FF" opacity="0.6"/>
+</svg>
