@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Generate Favicon</title>
+    <title>Dental Home Favicon Generator</title>
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -11,110 +11,175 @@
         flex-direction: column;
         align-items: center;
         padding: 20px;
-        background: #f0f0f0;
+        background: #f5f5f5;
       }
       canvas {
-        border: 2px solid #333;
+        border: 2px solid #d4af37;
         margin: 20px;
         background: white;
       }
       button {
-        padding: 10px 20px;
+        padding: 12px 24px;
         font-size: 16px;
         cursor: pointer;
-        background: #00a3e0;
+        background: #d4af37;
         color: white;
         border: none;
         border-radius: 5px;
+        margin: 5px;
       }
       button:hover {
-        background: #0088c2;
+        background: #c19a2e;
       }
       .preview {
         display: flex;
-        gap: 20px;
+        gap: 30px;
         margin-top: 20px;
+        flex-wrap: wrap;
+      }
+      .preview-item {
+        text-align: center;
+      }
+      h1 {
+        color: #d4af37;
+      }
+      .instructions {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+        max-width: 600px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
       }
     </style>
   </head>
   <body>
-    <h1>Favicon Generator - Tooth Icon</h1>
+    <h1>🏠 Dental Home Favicon Generator</h1>
     <div class="preview">
-      <div>
+      <div class="preview-item">
         <h3>16x16</h3>
         <canvas id="canvas16" width="16" height="16"></canvas>
       </div>
-      <div>
+      <div class="preview-item">
         <h3>32x32</h3>
         <canvas id="canvas32" width="32" height="32"></canvas>
       </div>
-      <div>
+      <div class="preview-item">
+        <h3>48x48</h3>
+        <canvas id="canvas48" width="48" height="48"></canvas>
+      </div>
+      <div class="preview-item">
         <h3>64x64</h3>
         <canvas id="canvas64" width="64" height="64"></canvas>
       </div>
     </div>
-    <button onclick="downloadFavicon()">Download as favicon.ico (32x32)</button>
-    <button onclick="downloadPNG()">Download as PNG (32x32)</button>
+
+    <div style="margin-top: 20px">
+      <button onclick="downloadFavicon()">⬇ Скачать favicon.ico</button>
+      <button onclick="downloadPNG32()">⬇ Скачать PNG 32x32</button>
+      <button onclick="downloadPNG64()">⬇ Скачать PNG 64x64</button>
+    </div>
+
+    <div class="instructions">
+      <h3>📋 Инструкция:</h3>
+      <ol>
+        <li>Нажмите "Скачать favicon.ico"</li>
+        <li>Сохраните файл как <strong>favicon.ico</strong></li>
+        <li>Замените файл в папке <code>public/favicon.ico</code></li>
+        <li>Готово! 🎉</li>
+      </ol>
+    </div>
 
     <script>
-      function drawTooth(canvas) {
+      function drawDentalHome(canvas) {
         const ctx = canvas.getContext("2d");
         const size = canvas.width;
-        const scale = size / 32;
+        const scale = size / 64;
 
         // Clear canvas
         ctx.clearRect(0, 0, size, size);
 
-        // Background
-        ctx.fillStyle = "#00A3E0";
+        // Background white
+        ctx.fillStyle = "white";
         ctx.fillRect(0, 0, size, size);
 
-        // Draw tooth
+        // Gold color
+        const gold = "#D4AF37";
+        const lineWidth = Math.max(1, 2 * scale);
+
         ctx.save();
         ctx.scale(scale, scale);
+        ctx.strokeStyle = gold;
+        ctx.lineWidth = lineWidth / scale;
+        ctx.lineCap = "round";
+        ctx.lineJoin = "round";
 
-        // Tooth shape
+        // Draw house with tooth door
         ctx.beginPath();
-        ctx.moveTo(16, 4);
-        ctx.bezierCurveTo(12, 4, 10, 6.5, 10, 10);
-        ctx.lineTo(10, 11);
-        ctx.bezierCurveTo(9.5, 13, 9, 15, 9, 17);
-        ctx.bezierCurveTo(8.5, 18.5, 8, 19.5, 8, 21);
-        ctx.bezierCurveTo(8, 23.5, 8.5, 25.5, 10, 27);
-        ctx.bezierCurveTo(11, 27.7, 12.5, 28, 14, 28);
-        ctx.bezierCurveTo(15, 28, 15.3, 27.8, 15.7, 27);
-        ctx.lineTo(16, 26);
-        ctx.lineTo(16.3, 27);
-        ctx.bezierCurveTo(16.7, 27.8, 17, 28, 18, 28);
-        ctx.bezierCurveTo(19.5, 28, 21, 27.7, 22, 27);
-        ctx.bezierCurveTo(23.5, 25.5, 24, 23.5, 24, 21);
-        ctx.bezierCurveTo(24, 19.5, 23.5, 18.5, 23, 17);
-        ctx.bezierCurveTo(23, 15, 22.5, 13, 22, 11);
-        ctx.lineTo(22, 10);
-        ctx.bezierCurveTo(22, 6.5, 20, 4, 16, 4);
-        ctx.closePath();
 
-        ctx.fillStyle = "white";
-        ctx.fill();
+        // Left roof line
+        ctx.moveTo(10, 8);
+        ctx.lineTo(32, 24);
 
-        // Tooth outline
-        ctx.strokeStyle = "rgba(0, 163, 224, 0.3)";
-        ctx.lineWidth = 0.5;
+        // Right roof line
+        ctx.moveTo(54, 8);
+        ctx.lineTo(32, 24);
+
         ctx.stroke();
 
-        // Highlight
+        // Walls
         ctx.beginPath();
-        ctx.ellipse(14, 11, 1.5, 2.5, 0, 0, 2 * Math.PI);
-        ctx.fillStyle = "rgba(230, 247, 255, 0.7)";
-        ctx.fill();
+        ctx.moveTo(18, 24);
+        ctx.lineTo(18, 56);
+
+        ctx.moveTo(46, 24);
+        ctx.lineTo(46, 56);
+        ctx.stroke();
+
+        // Tooth-shaped door
+        ctx.beginPath();
+
+        // Top of tooth (rounded crown)
+        ctx.moveTo(28, 44);
+        ctx.quadraticCurveTo(26, 40, 28, 36);
+        ctx.quadraticCurveTo(30, 34, 32, 34);
+        ctx.quadraticCurveTo(34, 34, 36, 36);
+        ctx.quadraticCurveTo(38, 40, 36, 44);
+
+        // Right side down
+        ctx.lineTo(36, 52);
+
+        // Right root
+        ctx.quadraticCurveTo(35, 55, 34, 56);
+
+        // Center notch
+        ctx.lineTo(32, 54);
+
+        // Left root
+        ctx.lineTo(30, 56);
+        ctx.quadraticCurveTo(29, 55, 28, 52);
+
+        // Close path
+        ctx.lineTo(28, 44);
+
+        ctx.stroke();
+
+        // Add center line for roots
+        if (size >= 32) {
+          ctx.beginPath();
+          ctx.moveTo(32, 48);
+          ctx.lineTo(32, 54);
+          ctx.stroke();
+        }
 
         ctx.restore();
       }
 
       // Draw on all canvases
-      drawTooth(document.getElementById("canvas16"));
-      drawTooth(document.getElementById("canvas32"));
-      drawTooth(document.getElementById("canvas64"));
+      drawDentalHome(document.getElementById("canvas16"));
+      drawDentalHome(document.getElementById("canvas32"));
+      drawDentalHome(document.getElementById("canvas48"));
+      drawDentalHome(document.getElementById("canvas64"));
 
       function downloadFavicon() {
         const canvas = document.getElementById("canvas32");
@@ -122,12 +187,21 @@
         link.download = "favicon.ico";
         link.href = canvas.toDataURL("image/png");
         link.click();
+        alert("✓ Скачан! Сохраните как favicon.ico в папку public/");
       }
 
-      function downloadPNG() {
+      function downloadPNG32() {
         const canvas = document.getElementById("canvas32");
         const link = document.createElement("a");
-        link.download = "favicon.png";
+        link.download = "favicon-32x32.png";
+        link.href = canvas.toDataURL("image/png");
+        link.click();
+      }
+
+      function downloadPNG64() {
+        const canvas = document.getElementById("canvas64");
+        const link = document.createElement("a");
+        link.download = "favicon-64x64.png";
         link.href = canvas.toDataURL("image/png");
         link.click();
       }
