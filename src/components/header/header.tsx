@@ -104,7 +104,11 @@ const Header: React.FC<HeaderProps> = ({
           <a
             href="tel:+79917793995"
             className="tel-link"
-            style={{ textDecoration: "none" }}
+            style={{
+              textDecoration: "none",
+              marginRight: "20px",
+              fontFamily: "Raleway, sans-serif",
+            }}
           >
             +7 (991) 779-39-95
           </a>
@@ -148,7 +152,11 @@ const Header: React.FC<HeaderProps> = ({
             <a
               href="tel:+79917793995"
               className="tel-link"
-              style={{ textDecoration: "none" }}
+              style={{
+                textDecoration: "none",
+                marginRight: "20px",
+                fontFamily: "Raleway, sans-serif",
+              }}
             >
               +7 (991) 779-39-95
             </a>
