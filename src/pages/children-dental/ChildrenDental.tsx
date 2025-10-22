@@ -66,6 +66,8 @@ const ChildDental = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [open, setOpen] = useState(false);
   const [videoOpen, setVideoOpen] = useState(false);
+  const [imageModalOpen, setImageModalOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState("");
 
   const phoneForm = useRef<HTMLFormElement>(null);
 
@@ -133,6 +135,16 @@ const ChildDental = () => {
 
   const closeVideoModal = () => {
     setVideoOpen(false);
+  };
+
+  const openImageModal = (imageSrc: string) => {
+    setSelectedImage(imageSrc);
+    setImageModalOpen(true);
+  };
+
+  const closeImageModal = () => {
+    setImageModalOpen(false);
+    setSelectedImage("");
   };
 
   const customAnimation = keyframes`
@@ -307,6 +319,150 @@ const ChildDental = () => {
                 </div>
               </div>
             </div>
+
+            {/* Блок выполненных работ для мобильной версии */}
+            <div
+              style={{
+                padding: "40px 20px",
+              }}
+            >
+              <h2
+                style={{
+                  fontSize: "28px",
+                  fontWeight: "bold",
+                  textAlign: "center",
+                  marginBottom: "30px",
+                  color: "#333",
+                }}
+              >
+                Выполненные работы
+              </h2>
+
+              {/* Первый случай */}
+              <div
+                style={{
+                  backgroundColor: "white",
+                  borderRadius: "15px",
+                  padding: "20px",
+                  marginBottom: "30px",
+                  boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+                }}
+              >
+                <img
+                  src={require("../../assets/teeth_01.jpg")}
+                  alt="Лечение бутылочного кариеса"
+                  onClick={() =>
+                    openImageModal(require("../../assets/teeth_01.jpg"))
+                  }
+                  style={{
+                    width: "100%",
+                    height: "300px",
+                    objectFit: "cover",
+                    borderRadius: "10px",
+                    marginBottom: "15px",
+                    cursor: "pointer",
+                    transition: "transform 0.3s ease",
+                  }}
+                  onMouseEnter={(e) =>
+                    (e.currentTarget.style.transform = "scale(1.02)")
+                  }
+                  onMouseLeave={(e) =>
+                    (e.currentTarget.style.transform = "scale(1)")
+                  }
+                />
+                <div
+                  style={{
+                    backgroundColor: "#E6C96B",
+                    color: "white",
+                    padding: "8px 15px",
+                    borderRadius: "20px",
+                    fontSize: "14px",
+                    fontWeight: "bold",
+                    display: "inline-block",
+                    marginBottom: "10px",
+                  }}
+                >
+                  Пациент 1 год
+                </div>
+                <h3
+                  style={{
+                    fontSize: "22px",
+                    fontWeight: "bold",
+                    margin: "10px 0",
+                    color: "#333",
+                  }}
+                >
+                  «Бутылочный» кариес
+                </h3>
+                <p
+                  style={{
+                    fontSize: "16px",
+                    lineHeight: "1.5",
+                    color: "#666",
+                    margin: "0",
+                  }}
+                >
+                  Лечение зубов в наркозе с восстановлением циркониевыми
+                  коронками
+                </p>
+              </div>
+
+              {/* Второй случай */}
+              <div
+                style={{
+                  backgroundColor: "white",
+                  borderRadius: "15px",
+                  padding: "20px",
+                  marginBottom: "20px",
+                  boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+                }}
+              >
+                <img
+                  src={require("../../assets/teeth_02.jpg")}
+                  alt="Фиксация осколка зуба"
+                  onClick={() =>
+                    openImageModal(require("../../assets/teeth_02.jpg"))
+                  }
+                  style={{
+                    width: "100%",
+                    height: "300px",
+                    objectFit: "cover",
+                    borderRadius: "10px",
+                    marginBottom: "15px",
+                    cursor: "pointer",
+                    transition: "transform 0.3s ease",
+                  }}
+                  onMouseEnter={(e) =>
+                    (e.currentTarget.style.transform = "scale(1.02)")
+                  }
+                  onMouseLeave={(e) =>
+                    (e.currentTarget.style.transform = "scale(1)")
+                  }
+                />
+                <h3
+                  style={{
+                    fontSize: "22px",
+                    fontWeight: "bold",
+                    margin: "10px 0",
+                    color: "#333",
+                  }}
+                >
+                  Фиксация осколка зуба после падения на детской площадке
+                </h3>
+                <p
+                  style={{
+                    fontSize: "16px",
+                    lineHeight: "1.5",
+                    color: "#666",
+                    margin: "0",
+                  }}
+                >
+                  Сделали рентгеновский снимок, чтобы убедиться в целостности
+                  корня, и приклеили осколок.
+                </p>
+              </div>
+            </div>
+
             <Gallery openModal={openModal} />
             <div
               className="form-screen"
@@ -548,6 +704,163 @@ const ChildDental = () => {
                 </div>
               </div>
             </div>
+
+            {/* Блок выполненных работ для PC версии */}
+            <div
+              style={{
+                padding: "80px 50px",
+                marginTop: "64px",
+              }}
+            >
+              <h2
+                style={{
+                  fontSize: "48px",
+                  fontWeight: "bold",
+                  textAlign: "center",
+                  marginBottom: "60px",
+                  color: "#333",
+                }}
+              >
+                Выполненные работы
+              </h2>
+
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "1fr 1fr",
+                  gap: "40px",
+                  maxWidth: "1200px",
+                  margin: "0 auto",
+                }}
+              >
+                {/* Первый случай */}
+                <div
+                  style={{
+                    backgroundColor: "white",
+                    borderRadius: "20px",
+                    padding: "30px",
+                    boxShadow: "0 8px 24px rgba(0,0,0,0.1)",
+                    transition: "transform 0.3s ease",
+                    cursor: "pointer",
+                  }}
+                >
+                  <img
+                    src={require("../../assets/teeth_01.jpg")}
+                    alt="Лечение бутылочного кариеса"
+                    onClick={() =>
+                      openImageModal(require("../../assets/teeth_01.jpg"))
+                    }
+                    style={{
+                      width: "100%",
+                      height: "400px",
+                      objectFit: "cover",
+                      borderRadius: "15px",
+                      marginBottom: "20px",
+                      cursor: "pointer",
+                      transition: "transform 0.3s ease",
+                    }}
+                    onMouseEnter={(e) =>
+                      (e.currentTarget.style.transform = "scale(1.02)")
+                    }
+                    onMouseLeave={(e) =>
+                      (e.currentTarget.style.transform = "scale(1)")
+                    }
+                  />
+                  <div
+                    style={{
+                      backgroundColor: "#E6C96B",
+                      color: "white",
+                      padding: "10px 20px",
+                      borderRadius: "25px",
+                      fontSize: "16px",
+                      fontWeight: "bold",
+                      display: "inline-block",
+                      marginBottom: "15px",
+                    }}
+                  >
+                    Пациент 1 год
+                  </div>
+                  <h3
+                    style={{
+                      fontSize: "28px",
+                      fontWeight: "bold",
+                      margin: "15px 0",
+                      color: "#333",
+                    }}
+                  >
+                    «Бутылочный» кариес
+                  </h3>
+                  <p
+                    style={{
+                      fontSize: "18px",
+                      lineHeight: "1.6",
+                      color: "#666",
+                      margin: "0",
+                    }}
+                  >
+                    Лечение зубов в наркозе с восстановлением циркониевыми
+                    коронками
+                  </p>
+                </div>
+
+                {/* Второй случай */}
+                <div
+                  style={{
+                    backgroundColor: "white",
+                    borderRadius: "20px",
+                    padding: "30px",
+                    boxShadow: "0 8px 24px rgba(0,0,0,0.1)",
+                    transition: "transform 0.3s ease",
+                    cursor: "pointer",
+                  }}
+                >
+                  <img
+                    src={require("../../assets/teeth_02.jpg")}
+                    alt="Фиксация осколка зуба"
+                    onClick={() =>
+                      openImageModal(require("../../assets/teeth_02.jpg"))
+                    }
+                    style={{
+                      width: "100%",
+                      height: "400px",
+                      objectFit: "cover",
+                      borderRadius: "15px",
+                      marginBottom: "20px",
+                      cursor: "pointer",
+                      transition: "transform 0.3s ease",
+                    }}
+                    onMouseEnter={(e) =>
+                      (e.currentTarget.style.transform = "scale(1.02)")
+                    }
+                    onMouseLeave={(e) =>
+                      (e.currentTarget.style.transform = "scale(1)")
+                    }
+                  />
+                  <h3
+                    style={{
+                      fontSize: "28px",
+                      fontWeight: "bold",
+                      margin: "15px 0",
+                      color: "#333",
+                    }}
+                  >
+                    Фиксация осколка зуба после падения на детской площадке
+                  </h3>
+                  <p
+                    style={{
+                      fontSize: "18px",
+                      lineHeight: "1.6",
+                      color: "#666",
+                      margin: "0",
+                    }}
+                  >
+                    Сделали рентгеновский снимок, чтобы убедиться в целостности
+                    корня, и приклеили осколок.
+                  </p>
+                </div>
+              </div>
+            </div>
+
             <div className="mt-64">
               <PcGallery openModal={openModal} />
             </div>
@@ -757,6 +1070,61 @@ const ChildDental = () => {
                   В скором времени мы свяжемся с вами
                 </span>
               </div>
+            </div>
+          </Popup>
+          <Popup
+            open={imageModalOpen}
+            closeOnDocumentClick
+            onClose={closeImageModal}
+            modal
+            nested
+            className="popup-container"
+            position="center center"
+            overlayStyle={{ background: "rgba(0,0,0,0.9)" }}
+          >
+            <div
+              style={{
+                position: "relative",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                maxWidth: "90vw",
+                maxHeight: "90vh",
+                backgroundColor: "transparent",
+              }}
+            >
+              <FontAwesomeIcon
+                icon={faClose}
+                onClick={closeImageModal}
+                style={{
+                  position: "absolute",
+                  top: "-40px",
+                  right: "-40px",
+                  fontSize: "30px",
+                  color: "white",
+                  cursor: "pointer",
+                  zIndex: 1000,
+                  backgroundColor: "rgba(0,0,0,0.5)",
+                  padding: "10px",
+                  borderRadius: "50%",
+                  width: "20px",
+                  height: "20px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              />
+              <img
+                src={selectedImage}
+                alt="Увеличенное изображение"
+                style={{
+                  maxWidth: "100%",
+                  maxHeight: "100%",
+                  objectFit: "contain",
+                  borderRadius: "10px",
+                  boxShadow: "0 4px 20px rgba(0,0,0,0.3)",
+                }}
+              />
             </div>
           </Popup>
           {/* <Popup
