@@ -84,18 +84,6 @@ const PcGallery: React.FC<PcGalleryProps> = ({ openModal }) => {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="dentist-card">
-            <div className="button-image-container">
-              <button className="doctor-btn" onClick={openModal}>
-                <span className="text">Записаться</span>
-              </button>
-              <img src={arsenImage} alt="Doctor" className="doctor-image" />
-            </div>
-            <h3 className="doctor-name">Рабаданов Арсен Залибегович</h3>
-            <p className="doctor-position">Стоматолог-хирург-имплантолог</p>
-          </div>
-        </SwiperSlide>
 
         <SwiperSlide>
           <div className="dentist-card">
@@ -149,22 +137,6 @@ const PcGallery: React.FC<PcGalleryProps> = ({ openModal }) => {
             </div>
             <h3 className="doctor-name">Майсурадзе Екатерина Олеговна</h3>
             <p className="doctor-position">Врач стоматолог-ортодонт</p>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className="dentist-card">
-            <div className="button-image-container">
-              <button className="doctor-btn" onClick={openModal}>
-                <span className="text">Записаться</span>
-              </button>
-              <img src={denisImage} alt="Doctor" className="doctor-image" />
-            </div>
-            <h3 className="doctor-name">Кузнецов Денис Максимович</h3>
-            <p className="doctor-position">
-              Заведующий терапевтическим отделением Врач-стоматолог
-              терапевт-микроскопист высшей категории!
-            </p>
           </div>
         </SwiperSlide>
 
