@@ -116,22 +116,6 @@ const Gallery: React.FC<GalleryProps> = ({ openModal }) => {
             </p>
           </div>
         </SwiperSlide>
-
-        <SwiperSlide>
-          <div className="dentist-card-2">
-            <div className="button-image-container">
-              <button className="doctor-btn" onClick={openModal}>
-                <span className="text">Записаться</span>
-              </button>
-              <img src={tatjanaImage} alt="Doctor" className="doctor-image" />
-            </div>
-            <h3 className="doctor-name">Борисова Татьяна Владимировна</h3>
-            <p className="doctor-position">
-              Детский стоматолог, врач терапевт общей практики
-            </p>
-          </div>
-        </SwiperSlide>
-
         <SwiperSlide>
           <div className="dentist-card-2">
             <div className="button-image-container">
